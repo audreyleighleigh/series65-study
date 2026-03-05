@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+const PASSWORD = "series65";
+function loadUnlocked() {
+  try { return sessionStorage.getItem("s65-unlocked") === "true"; } catch { return false; }
+}
+
 const EXAM_DATE = new Date("2026-04-04");
 
 function daysLeft() {
@@ -119,8 +124,28 @@ export default function App() {
     try { return JSON.parse(localStorage.getItem("s65-checked") || "{}"); } catch { return {}; }
   });
   const [expanded, setExpanded] = useState({ u01: true });
+  const [unlocked, setUnlocked] = useState(loadUnlocked);
+  const [shake, setShake] = useState(false);
+
+  const handleLockClick = () => {
+    if (unlocked) {
+      sessionStorage.removeItem("s65-unlocked");
+      setUnlocked(false);
+    } else {
+      const input = window.prompt("Password:");
+      if (input === null) return;
+      if (input === PASSWORD) {
+        sessionStorage.setItem("s65-unlocked", "true");
+        setUnlocked(true);
+      } else {
+        setShake(true);
+        setTimeout(() => setShake(false), 600);
+      }
+    }
+  };
 
   const toggle = (key) => {
+    if (!unlocked) return;
     setChecked((prev) => {
       const next = { ...prev, [key]: !prev[key] };
       try { localStorage.setItem("s65-checked", JSON.stringify(next)); } catch {}
@@ -164,15 +189,32 @@ export default function App() {
         .chev { font-size: 9px; color: #383530; margin-left: 8px; transition: transform 0.2s; display: inline-block; }
         .chev.open { transform: rotate(180deg); }
         .card-body { background: #0c0b09; border-top: 1px solid #181614; padding: 10px 20px 16px; }
-        .step { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid #161412; cursor: pointer; transition: opacity 0.15s; }
+        .step { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid #161412; transition: opacity 0.15s; }
+        .step.clickable { cursor: pointer; }
         .step:last-child { border-bottom: none; }
-        .step:hover { opacity: 0.8; }
+        .step.clickable:hover { opacity: 0.8; }
+        .top-bar { display: flex; justify-content: flex-end; padding: 10px 24px; background: #0c0b09; border-bottom: 1px solid #1e1c1a; position: sticky; top: 0; z-index: 50; }
+        .lock-btn { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #555; cursor: pointer; font-family: 'Source Code Pro', monospace; font-size: 10px; letter-spacing: 0.15em; padding: 5px 10px; transition: all 0.15s; }
+        .lock-btn:hover { border-color: #4a4844; color: #888; }
+        .lock-btn.unlocked { color: #7EC8A4; border-color: #2a4a3a; }
+        .lock-btn.shake { animation: shake 0.5s ease; }
+        @keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-4px)} 40%{transform:translateX(4px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
         .step-box { width: 15px; height: 15px; border-radius: 3px; border: 1.5px solid #2e2c28; flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.15s; font-size: 9px; color: #0f0e0c; font-weight: bold; }
         .step-box.done { border-color: transparent; }
         .step-label { font-size: 13px; color: #b8b0a0; transition: all 0.2s; flex: 1; }
         .step-label.done { color: #3a3835; text-decoration: line-through; text-decoration-color: #2e2c28; }
         .bonus-tag { font-family: 'Source Code Pro', monospace; font-size: 9px; color: #444; margin-left: 6px; }
       `}</style>
+
+      <div className="top-bar">
+        <button
+          className={`lock-btn ${unlocked ? "unlocked" : ""} ${shake ? "shake" : ""}`}
+          onClick={handleLockClick}
+          title={unlocked ? "Click to lock" : "Click to unlock editing"}
+        >
+          {unlocked ? "⊙ editing" : "⊘ locked"}
+        </button>
+      </div>
 
       <div className="layout">
         <div className="wrap">
@@ -210,7 +252,7 @@ export default function App() {
                       const key = `${unit.id}-${step.id}`;
                       const isDone = !!checked[key];
                       return (
-                        <div className="step" key={step.id} onClick={() => toggle(key)}>
+                        <div className={`step ${unlocked ? "clickable" : ""}`} key={step.id} onClick={() => toggle(key)}>
                           <div
                             className={`step-box ${isDone ? "done" : ""}`}
                             style={isDone ? { background: unit.color } : {}}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import StudyGuide from "./StudyGuide.jsx";
 
 const PASSWORD = "series65";
 function loadUnlocked() {
@@ -120,6 +121,7 @@ function Sidebar({ units, checked, completedCount }) {
 }
 
 export default function App() {
+  const [tab, setTab] = useState("log");
   const [checked, setChecked] = useState(() => {
     try { return JSON.parse(localStorage.getItem("s65-checked") || "{}"); } catch { return {}; }
   });
@@ -193,7 +195,11 @@ export default function App() {
         .step.clickable { cursor: pointer; }
         .step:last-child { border-bottom: none; }
         .step.clickable:hover { opacity: 0.8; }
-        .top-bar { display: flex; justify-content: flex-end; padding: 10px 24px; background: #0c0b09; border-bottom: 1px solid #1e1c1a; position: sticky; top: 0; z-index: 50; }
+        .top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 24px; background: #0c0b09; border-bottom: 1px solid #1e1c1a; position: sticky; top: 0; z-index: 50; }
+        .tab-group { display: flex; gap: 4px; }
+        .tab-btn { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #555; cursor: pointer; font-family: 'Source Code Pro', monospace; font-size: 10px; letter-spacing: 0.15em; padding: 5px 12px; transition: all 0.15s; text-transform: uppercase; }
+        .tab-btn:hover { border-color: #4a4844; color: #888; }
+        .tab-btn.active { border-color: #7EC8A4; color: #7EC8A4; background: #0d1f18; }
         .lock-btn { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #555; cursor: pointer; font-family: 'Source Code Pro', monospace; font-size: 10px; letter-spacing: 0.15em; padding: 5px 10px; transition: all 0.15s; }
         .lock-btn:hover { border-color: #4a4844; color: #888; }
         .lock-btn.unlocked { color: #7EC8A4; border-color: #2a4a3a; }
@@ -207,16 +213,24 @@ export default function App() {
       `}</style>
 
       <div className="top-bar">
-        <button
-          className={`lock-btn ${unlocked ? "unlocked" : ""} ${shake ? "shake" : ""}`}
-          onClick={handleLockClick}
-          title={unlocked ? "Click to lock" : "Click to unlock editing"}
-        >
-          {unlocked ? "⊙ editing" : "⊘ locked"}
-        </button>
+        <div className="tab-group">
+          <button className={`tab-btn ${tab === "log" ? "active" : ""}`} onClick={() => setTab("log")}>Study Log</button>
+          <button className={`tab-btn ${tab === "guide" ? "active" : ""}`} onClick={() => setTab("guide")}>Study Guide</button>
+        </div>
+        {tab === "log" && (
+          <button
+            className={`lock-btn ${unlocked ? "unlocked" : ""} ${shake ? "shake" : ""}`}
+            onClick={handleLockClick}
+            title={unlocked ? "Click to lock" : "Click to unlock editing"}
+          >
+            {unlocked ? "⊙ editing" : "⊘ locked"}
+          </button>
+        )}
       </div>
 
-      <div className="layout">
+      {tab === "guide" && <StudyGuide />}
+
+      {tab === "log" && <div className="layout">
         <div className="wrap">
           <div className="eyebrow">Kaplan Series 65</div>
           <h1>Study<br /><span>Log.</span></h1>
@@ -287,7 +301,7 @@ export default function App() {
         <div className="sidebar">
           <Sidebar units={UNITS} checked={checked} completedCount={completedCount} />
         </div>
-      </div>
+      </div>}
     </div>
   );
 }

@@ -27,6 +27,18 @@ const CONCEPTS = [
         options: ["10%", "1.25%", "5%", "15%"],
         answer: 2,
         explain: "$0.50 × 4 = $2 annual dividend. $2 ÷ $40 = 5%. Earnings are irrelevant — that's for P/E ratio."
+      },
+      {
+        q: "A company's dividend increases 5% but market price stays the same. Current yield will:",
+        options: ["Decrease", "Increase", "Remain at 5%", "Remain at 7%"],
+        answer: 1,
+        explain: "Current yield = dividend ÷ price. Dividend (numerator) goes up, price (denominator) stays flat → yield increases. Simple fraction math."
+      },
+      {
+        q: "Bond: $1,000 par, 8% coupon, 5yr maturity, YTM 10%. What is today's price?",
+        options: ["$1,051.23", "$1,221.17", "$1,144.31", "$922.78"],
+        answer: 3,
+        explain: "Coupon (8%) < YTM (10%) → market demands more than the bond pays → trades at a discount below par. Eliminate all answers above $1,000. Answer is $922.78."
       }
     ]
   },
@@ -120,6 +132,17 @@ const CONCEPTS = [
         explain: "Convertibles track stock price more than rates. Rising stock = company wants to call it back before you convert. Protection lets you ride the appreciation."
       },
       {
+        q: "Issuing callable bonds is advantageous to the issuer because it allows the company to:",
+        options: [
+          "Replace a high, fixed-rate issue with a lower one after the call date",
+          "Call in bonds at less than par and capture the difference",
+          "Take advantage of high interest rates",
+          "Issue fixed-income securities at a yield lower than usual"
+        ],
+        answer: 0,
+        explain: "When rates fall, the company calls the expensive bond and refinances at a lower rate. Watch out for C — callable bonds are exercised when rates are LOW, not high."
+      },
+      {
         q: "Convertible bond at $1,000 par, convertible at $83.33/share. Conversion ratio?",
         options: ["1.2 shares", "2 shares", "12 shares", "8 shares"],
         answer: 2,
@@ -170,6 +193,29 @@ const CONCEPTS = [
         options: ["7.00%", "9.45%", "2.45%", "4.55%"],
         answer: 3,
         explain: "7% × (1 - 0.35) = 7% × 0.65 = 4.55%. The muni pays less but tax-free income nets the same after-tax result."
+      },
+      {
+        q: "Municipal bonds are called 'tax-exempts.' This refers to exemption from:",
+        options: ["State, federal, and inheritance taxes", "Federal income taxes", "Federal estate taxes", "State income taxes"],
+        answer: 1,
+        explain: "Munis are always exempt from federal income tax. State tax treatment varies — your own state's bonds are often exempt too, but that's not universal. The guaranteed, always-true exemption is federal income tax only."
+      }
+    ]
+  },
+  {
+    id: "suitability",
+    category: "Suitability",
+    title: "Client Suitability & STRIPS",
+    color: "#FB923C",
+    analogy: "STRIPS are the zero-coupon vending machine — put money in, get a lump sum later. Great for accumulation, terrible for someone who needs cash flow now.",
+    rule: "STRIPS = zero-coupon = no periodic income. Wrong for income-seeking clients. Right for growth/accumulation.",
+    watch: "'Antipodal' = opposite of. Read carefully what the client actually wants before matching to a product.",
+    quiz: [
+      {
+        q: "72-year-old with covered expenses wants income to spoil grandchildren. Which is ANTIPODAL to her wishes?",
+        options: ["Treasury bonds", "Jumbo CDs", "Treasury STRIPS", "Public utility stock"],
+        answer: 2,
+        explain: "STRIPS are zero-coupon — no periodic payments, just a lump sum at maturity. She needs income. T-bonds, CDs, and utility stocks all pay regular income. STRIPS don't."
       }
     ]
   },
@@ -220,11 +266,11 @@ export default function StudyGuide() {
   const concept = CONCEPTS[activeCard];
   const currentQ = quizQuestions[quizIndex];
 
-  const handleAnswer = (i) => {
+  const handleAnswer = (idx) => {
     if (selected !== null) return;
-    setSelected(i);
-    if (i === currentQ.answer) setScore(s => s + 1);
-    else setWrongAnswers(w => [...w, { ...currentQ, chosen: i }]);
+    setSelected(idx);
+    if (idx === currentQ.answer) setScore(s => s + 1);
+    else setWrongAnswers(w => [...w, { ...currentQ, chosen: idx }]);
   };
 
   const nextQuestion = () => {
@@ -242,15 +288,16 @@ export default function StudyGuide() {
   return (
     <div style={{ minHeight: "100vh", background: "#09090f", color: "#ede9e0", fontFamily: "'Georgia', 'Times New Roman', serif" }}>
 
-      {/* Sub-nav */}
-      <div style={{ borderBottom: "1px solid #1a1a26", padding: "14px 28px", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#0c0c14" }}>
-        <div style={{ fontSize: 10, letterSpacing: 4, color: "#444", textTransform: "uppercase" }}>
-          Series 65 · Today's Misses
+      {/* NAV — offset by App top-bar height (~45px) */}
+      <div style={{ borderBottom: "1px solid #1a1a26", padding: "18px 28px", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#0c0c14", position: "sticky", top: 45, zIndex: 10 }}>
+        <div>
+          <span style={{ fontSize: 10, letterSpacing: 4, color: "#444", textTransform: "uppercase" }}>Series 65 · </span>
+          <span style={{ fontSize: 10, letterSpacing: 4, color: "#444", textTransform: "uppercase" }}>Study Guide</span>
         </div>
         <div style={{ display: "flex", gap: 6 }}>
           {[["home", "Overview"], ["flashcards", "Flashcards"], ["quiz", "Quiz"]].map(([m, label]) => (
             <button key={m} onClick={() => { setMode(m); setFlipped(false); }}
-              style={{ padding: "6px 14px", background: mode === m ? "#ede9e0" : "transparent", color: mode === m ? "#09090f" : "#555", border: `1px solid ${mode === m ? "#ede9e0" : "#2a2a3a"}`, borderRadius: 3, cursor: "pointer", fontSize: 10, letterSpacing: 2, textTransform: "uppercase", fontFamily: "inherit", transition: "all 0.15s" }}>
+              style={{ padding: "7px 16px", background: mode === m ? "#ede9e0" : "transparent", color: mode === m ? "#09090f" : "#555", border: `1px solid ${mode === m ? "#ede9e0" : "#2a2a3a"}`, borderRadius: 3, cursor: "pointer", fontSize: 11, letterSpacing: 2, textTransform: "uppercase", fontFamily: "inherit", transition: "all 0.15s" }}>
               {label}
             </button>
           ))}
@@ -262,7 +309,7 @@ export default function StudyGuide() {
         <div style={{ maxWidth: 860, margin: "0 auto", padding: "48px 28px" }}>
           <div style={{ marginBottom: 48 }}>
             <p style={{ fontSize: 11, letterSpacing: 4, color: "#444", textTransform: "uppercase", margin: "0 0 12px" }}>Built from your session today</p>
-            <h1 style={{ fontSize: 32, fontWeight: "normal", margin: "0 0 16px", lineHeight: 1.3 }}>8 concepts. {allQuestions.length} questions.</h1>
+            <h1 style={{ fontSize: 32, fontWeight: "normal", margin: "0 0 16px", lineHeight: 1.3 }}>{CONCEPTS.length} concepts. {allQuestions.length} questions.</h1>
             <p style={{ fontSize: 14, color: "#555", maxWidth: 520, lineHeight: 1.8, margin: 0 }}>
               Each card includes the spatial analogy that works for how you think. When stuck under exam pressure, go back to the physical space.
             </p>
@@ -330,7 +377,7 @@ export default function StudyGuide() {
           </div>
 
           <div style={{ display: "flex", gap: 10, marginTop: 20, justifyContent: "space-between" }}>
-            <button onClick={() => { setActiveCard(i => Math.max(0, i - 1)); setFlipped(false); }} disabled={activeCard === 0}
+            <button onClick={() => { setActiveCard(n => Math.max(0, n - 1)); setFlipped(false); }} disabled={activeCard === 0}
               style={{ padding: "10px 22px", background: "transparent", color: activeCard === 0 ? "#2a2a2a" : "#666", border: `1px solid ${activeCard === 0 ? "#1a1a1a" : "#2a2a3a"}`, borderRadius: 4, cursor: activeCard === 0 ? "default" : "pointer", fontFamily: "inherit", fontSize: 12 }}>
               ← prev
             </button>
@@ -338,7 +385,7 @@ export default function StudyGuide() {
               style={{ padding: "10px 22px", background: concept.color, color: "#09090f", border: "none", borderRadius: 4, cursor: "pointer", fontFamily: "inherit", fontSize: 12, fontWeight: "bold" }}>
               quiz me
             </button>
-            <button onClick={() => { setActiveCard(i => Math.min(CONCEPTS.length - 1, i + 1)); setFlipped(false); }} disabled={activeCard === CONCEPTS.length - 1}
+            <button onClick={() => { setActiveCard(n => Math.min(CONCEPTS.length - 1, n + 1)); setFlipped(false); }} disabled={activeCard === CONCEPTS.length - 1}
               style={{ padding: "10px 22px", background: "transparent", color: activeCard === CONCEPTS.length - 1 ? "#2a2a2a" : "#666", border: `1px solid ${activeCard === CONCEPTS.length - 1 ? "#1a1a1a" : "#2a2a3a"}`, borderRadius: 4, cursor: activeCard === CONCEPTS.length - 1 ? "default" : "pointer", fontFamily: "inherit", fontSize: 12 }}>
               next →
             </button>

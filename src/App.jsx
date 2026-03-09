@@ -18,8 +18,8 @@ const REQUIRED = ["read", "quiz1", "quiz2", "checkpoint"];
 
 const STEPS = [
   { id: "read",       label: "Read / Speechify" },
-  { id: "quiz1",      label: "Quiz 1 — score >90%" },
-  { id: "quiz2",      label: "Quiz 2 — score >90%" },
+  { id: "quiz1",      label: "Complete Quiz 1 with Claude" },
+  { id: "quiz2",      label: "Complete Quiz 2 with Claude" },
   { id: "checkpoint", label: "Checkpoint exam attempted" },
   { id: "visual",     label: "Visual map drawn", bonus: true },
 ];

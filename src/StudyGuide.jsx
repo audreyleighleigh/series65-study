@@ -696,6 +696,378 @@ const CONCEPTS = [
         explain: "CDs aren't traded on exchanges so they don't get repriced when rates move. Bonds — even nearly-mature ones — are marked to market continuously."
       }
     ]
+  },
+  {
+    id: "share-classes",
+    title: "Mutual Fund Share Classes",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What are the three main share classes for mutual funds, and how do their loads differ?",
+    back: "Class A: front-end load paid at purchase (breakpoints reduce it). Class B: back-end load (CDSC) that declines over time, then may convert to A. Class C: level load — small annual 12b-1 fee each year, no conversion. No single class is always best; it depends on holding period and amount invested.",
+    quiz: [
+      {
+        q: "An investor purchases $50,000 of a mutual fund and pays a 4.5% sales charge at the time of purchase. Which share class did they buy?",
+        options: ["Class A", "Class B", "Class C", "Class D"],
+        answer: 0,
+        explain: "Class A shares charge a front-end load at purchase. Class B charges a back-end (CDSC) when you sell. Class C uses a level annual 12b-1 fee. Class D is not a standard retail share class."
+      },
+      {
+        q: "A Class B mutual fund share has a CDSC that declines from 5% to 0% over 6 years, then converts to Class A. What does CDSC stand for?",
+        options: ["Contingent Deferred Sales Charge", "Compounded Deferred Sales Commission", "Conditional Deferred Share Cost", "Contracted Deferred Selling Cost"],
+        answer: 0,
+        explain: "CDSC = Contingent Deferred Sales Charge. It is 'contingent' because you only pay it if you sell before the holding period ends. It declines each year and eventually drops to zero."
+      },
+      {
+        q: "Which share class is generally most suitable for a short-term investor who wants to avoid a large upfront or backend charge?",
+        options: ["Class A", "Class B", "Class C", "Institutional"],
+        answer: 2,
+        explain: "Class C has no front-end load and no long-term CDSC (usually just a 1-year redemption fee). Its ongoing 12b-1 fee makes it expensive long-term, but for short holding periods it avoids the large load hits of A or B."
+      },
+      {
+        q: "Which mutual fund share class typically offers breakpoints that reduce the sales load?",
+        options: ["Class C", "Class B", "Class A", "All share classes equally"],
+        answer: 2,
+        explain: "Class A shares offer breakpoints — the front-end load percentage decreases as the investment amount increases. Class B and C do not have front-end loads, so breakpoints don't apply to them."
+      }
+    ]
+  },
+  {
+    id: "open-closed-end",
+    title: "Open-End vs. Closed-End Funds",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How do open-end and closed-end funds differ in structure and pricing?",
+    back: "Open-end (mutual funds): continuously issue/redeem shares; priced at NAV once daily after market close. Closed-end: fixed share count via IPO; shares trade on exchanges like stocks throughout the day; price set by supply/demand (can trade at premium or discount to NAV). Closed-end leverage more common.",
+    quiz: [
+      {
+        q: "An investor wants to buy shares in a fund that trades on the NYSE throughout the day. What type of fund is this?",
+        options: ["Open-end mutual fund", "Closed-end fund", "Unit investment trust", "Money market fund"],
+        answer: 1,
+        explain: "Closed-end funds are listed on exchanges and trade intraday like stocks. Open-end mutual funds only price at NAV once per day after the close and are bought/redeemed through the fund company, not on an exchange."
+      },
+      {
+        q: "A closed-end fund has a NAV of $20 but is trading at $18 on the NYSE. The fund is trading at:",
+        options: ["A premium of $2", "A discount of $2", "Par value", "An arbitrage spread"],
+        answer: 1,
+        explain: "When the market price is below NAV, the fund trades at a discount. When above NAV, it's a premium. Closed-end funds frequently trade at discounts due to supply/demand and investor sentiment."
+      },
+      {
+        q: "Which statement about open-end mutual funds is TRUE?",
+        options: ["They trade intraday on stock exchanges", "Their share count is fixed after the IPO", "They are redeemed at NAV directly with the fund company", "They commonly use leverage to boost returns"],
+        answer: 2,
+        explain: "Open-end funds redeem shares at NAV directly with the fund — you don't sell to another investor. They do not trade on exchanges, do not have a fixed share count, and use leverage less commonly than closed-end funds."
+      },
+      {
+        q: "A mutual fund's NAV is calculated:",
+        options: ["Continuously throughout the trading day", "Once daily after market close", "Weekly on Friday", "Only when a purchase order is submitted"],
+        answer: 1,
+        explain: "Open-end mutual fund NAV is computed once per day after the markets close (typically 4 PM ET). All buy and sell orders submitted that day are executed at that closing NAV (forward pricing rule)."
+      }
+    ]
+  },
+  {
+    id: "etfs",
+    title: "Exchange-Traded Funds (ETFs)",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What makes ETFs different from mutual funds and closed-end funds?",
+    back: "ETFs trade intraday on exchanges like stocks (like closed-end), but use an 'authorized participant' creation/redemption mechanism that keeps price close to NAV (unlike closed-end). Usually passively managed (track an index), very low expense ratios, tax-efficient due to in-kind redemptions. Can be bought on margin, sold short.",
+    quiz: [
+      {
+        q: "What mechanism prevents ETF market prices from straying far from their NAV?",
+        options: ["SEC price controls", "Authorized participant arbitrage via in-kind creation/redemption", "Daily NAV repricing by the fund manager", "Exchange circuit breakers"],
+        answer: 1,
+        explain: "Authorized participants (large institutions) can create or redeem large blocks of ETF shares (called 'creation units') by delivering or receiving the underlying basket of securities. This arbitrage keeps ETF market prices very close to NAV."
+      },
+      {
+        q: "Compared to actively managed mutual funds, most ETFs have lower costs primarily because they:",
+        options: ["Have higher trading volume", "Are passively managed and track an index", "Are exempt from SEC registration", "Invest only in large-cap stocks"],
+        answer: 1,
+        explain: "Most ETFs passively track an index, requiring minimal portfolio management decisions. This passive management results in very low expense ratios. Trading volume affects bid-ask spreads but not the fund's internal expense ratio."
+      },
+      {
+        q: "Which of the following is an advantage of ETFs over traditional mutual funds for taxable accounts?",
+        options: ["ETFs guarantee higher returns", "In-kind redemptions reduce capital gains distributions", "ETFs are not subject to market risk", "ETF dividends are tax-free"],
+        answer: 1,
+        explain: "When ETF shares are redeemed, the fund delivers securities in-kind rather than selling them, so no taxable capital gains are triggered inside the fund. Traditional mutual funds must sell securities to meet redemptions, creating distributions taxed to remaining shareholders."
+      }
+    ]
+  },
+  {
+    id: "ica1940",
+    title: "Investment Company Act of 1940",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What does the Investment Company Act of 1940 regulate, and what are the three main types it defines?",
+    back: "Regulates companies that invest, reinvest, or trade in securities and offer their own shares to the public. Three types: Face-Amount Certificate Companies (fixed periodic payments), Unit Investment Trusts (UITs — fixed portfolio, redeemable units, no board), Management Companies (open-end = mutual funds; closed-end = exchange-traded funds with fixed shares).",
+    quiz: [
+      {
+        q: "Under the Investment Company Act of 1940, which type of investment company issues redeemable shares and has a fixed portfolio with no board of directors?",
+        options: ["Open-end management company", "Closed-end management company", "Unit investment trust", "Face-amount certificate company"],
+        answer: 2,
+        explain: "UITs issue redeemable units against a fixed, unmanaged portfolio of securities. There is no board of directors and no ongoing active management. The portfolio is assembled once and held to maturity or termination."
+      },
+      {
+        q: "Which of the following is classified as an open-end management company under the ICA of 1940?",
+        options: ["A closed-end fund trading on NYSE", "A traditional mutual fund", "An exchange-traded fund", "A real estate investment trust"],
+        answer: 1,
+        explain: "Open-end management companies continuously issue and redeem shares at NAV — the classic structure of a traditional mutual fund. Closed-end funds have fixed share counts. ETFs have a unique structure. REITs are not classified as management companies."
+      }
+    ]
+  },
+  {
+    id: "fund-exchange",
+    title: "Fund Exchange Privileges & Switching",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What is an exchange privilege in a mutual fund family, and what are the tax implications?",
+    back: "An exchange privilege (fund switch) lets investors move money between funds within the same fund family at NAV, usually without paying a new load. However, the IRS treats the exchange as a taxable sale — any gain is realized and reportable. Sales representatives must disclose the tax consequence. Frequent switching can also trigger market-timing restrictions.",
+    quiz: [
+      {
+        q: "An investor exchanges shares of a growth fund for shares of a bond fund within the same fund family. Which statement is TRUE?",
+        options: ["The exchange is tax-free because no cash was received", "The exchange is a taxable event — any capital gain must be reported", "The investor must pay a new front-end load on the bond fund", "The exchange is only taxable if held less than one year"],
+        answer: 1,
+        explain: "The IRS treats a fund exchange as a sale of the original fund and a purchase of the new one. Any gain realized on the original fund is taxable, even if no cash was withdrawn. This is a key disclosure point for registered representatives."
+      },
+      {
+        q: "What is the primary benefit of an exchange privilege offered within a mutual fund family?",
+        options: ["Guaranteed higher returns in the new fund", "Ability to move between funds at NAV without paying a new sales load", "Avoidance of capital gains taxes on any appreciation", "Priority redemption rights in the new fund"],
+        answer: 1,
+        explain: "Exchange privileges let investors reallocate among funds in the family at NAV — no new front-end load is charged. The tax benefit does NOT apply; gains are still taxable. This is a convenience feature, not a tax shelter."
+      }
+    ]
+  },
+  {
+    id: "pe-vs-vc",
+    title: "Private Equity vs. Venture Capital",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How do private equity and venture capital differ in target, stage, and strategy?",
+    back: "Venture Capital (VC): invests in early-stage startups with high growth potential; takes minority stakes; accepts high failure rate for moonshot returns. Private Equity (PE): invests in mature companies; often takes majority/controlling stakes; uses leverage (LBOs); aims to improve operations, then exit via sale or IPO. Both are illiquid, long-horizon, accredited/institutional investors only.",
+    quiz: [
+      {
+        q: "A fund takes a controlling stake in a mature manufacturing company using significant debt financing, restructures operations, and plans to sell it in 5 years. This best describes:",
+        options: ["Venture capital", "A leveraged buyout by a private equity firm", "A hedge fund long/short strategy", "A mutual fund growth strategy"],
+        answer: 1,
+        explain: "Leveraged buyouts (LBOs) are the hallmark of private equity. PE firms use debt to acquire mature companies, improve operations, then exit. VC targets early-stage startups with equity (rarely debt). Hedge funds use public markets. Mutual funds don't take controlling stakes."
+      },
+      {
+        q: "Venture capital investments are best characterized as:",
+        options: ["Low-risk loans to established corporations", "Early-stage equity investments with high failure rates and high potential upside", "Short-selling strategies in public markets", "Leveraged buyouts of profitable companies"],
+        answer: 1,
+        explain: "VC is high-risk, high-reward equity investing in startups. Many investments fail entirely, but a few can return multiples of the original investment. This is fundamentally different from debt (A), public market strategies (C), or LBOs of mature companies (D)."
+      }
+    ]
+  },
+  {
+    id: "limited-partnership",
+    title: "Limited Partnerships",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How is a limited partnership structured, and what are the key rights and risks of each partner type?",
+    back: "General Partner (GP): manages the business, has unlimited personal liability. Limited Partners (LPs): passive investors, liability limited to their investment, no management role (participating in management destroys limited liability). LPs receive pass-through income/losses on their Schedule K-1. Common in real estate, oil/gas, and private equity. DPPs (Direct Participation Programs) are sold via broker-dealers to suitable investors.",
+    quiz: [
+      {
+        q: "In a limited partnership, what happens if a limited partner begins actively participating in management decisions?",
+        options: ["They receive a larger share of profits", "They may lose their limited liability protection", "They become co-general partners automatically", "Nothing — management participation has no legal effect"],
+        answer: 1,
+        explain: "Limited partners must remain passive to keep their liability limited to their investment. If they actively participate in management, courts may treat them as general partners with unlimited personal liability."
+      },
+      {
+        q: "Which partner in a limited partnership bears unlimited personal liability for the debts of the business?",
+        options: ["All limited partners equally", "The general partner", "The investor with the largest capital contribution", "No partner — limited partnerships cap all liability"],
+        answer: 1,
+        explain: "The general partner manages the LP and accepts unlimited personal liability. Limited partners' exposure is capped at their investment. This liability asymmetry is the core structural feature of a limited partnership."
+      }
+    ]
+  },
+  {
+    id: "no-load-funds",
+    title: "No-Load Funds & 12b-1 Fees",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What is a no-load fund, and when can it still charge a 12b-1 fee?",
+    back: "A no-load fund charges no front-end or back-end sales load. However, it may still charge a 12b-1 fee (annual distribution/marketing fee) up to 0.25% and still be called 'no-load.' If 12b-1 exceeds 0.25%, it is NOT a no-load fund. 12b-1 fees are part of the fund's expense ratio. Named after the SEC rule permitting them.",
+    quiz: [
+      {
+        q: "A mutual fund charges no front-end or back-end load, but charges a 0.20% annual 12b-1 fee. Under FINRA rules, the fund may still be called:",
+        options: ["A load fund", "A no-load fund", "An illegal fund", "A closed-end fund"],
+        answer: 1,
+        explain: "FINRA allows a fund to call itself 'no-load' if total 12b-1 fees are 0.25% or less per year and there is no front-end or back-end load. At 0.20%, this fund qualifies."
+      },
+      {
+        q: "A 12b-1 fee is best described as:",
+        options: ["A penalty for early redemption", "An annual fee charged by a fund to cover distribution and marketing costs", "A transaction fee paid to the broker at purchase", "A tax on capital gains distributions"],
+        answer: 1,
+        explain: "12b-1 fees (named for the SEC rule) are annual charges deducted from fund assets to cover distribution (sales) and marketing costs. They appear as part of the expense ratio, not as a separate transaction charge."
+      },
+      {
+        q: "At what maximum 12b-1 fee level can a fund still legally call itself a 'no-load' fund?",
+        options: ["0.10%", "0.25%", "0.50%", "1.00%"],
+        answer: 1,
+        explain: "FINRA Rule 2341 sets 0.25% as the threshold. A fund with 12b-1 fees at or below 0.25% may be marketed as no-load. Above that level, the ongoing fee is considered a load equivalent and the fund loses the no-load label."
+      }
+    ]
+  },
+  {
+    id: "reits",
+    title: "Real Estate Investment Trusts (REITs)",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What is a REIT and what are the key tax/distribution requirements?",
+    back: "A REIT is a company that owns income-producing real estate (or mortgages). To qualify: at least 75% of assets in real estate/mortgages, at least 75% of income from real estate, must distribute at least 90% of taxable income to shareholders (avoids corporate tax on distributed income). Three types: Equity (owns property), Mortgage (holds loans), Hybrid. REITs trade on exchanges (publicly traded) or may be non-traded.",
+    quiz: [
+      {
+        q: "To maintain its REIT status and avoid corporate income tax on distributed earnings, a REIT must distribute at least what percentage of its taxable income?",
+        options: ["50%", "75%", "90%", "100%"],
+        answer: 2,
+        explain: "REITs must distribute at least 90% of their taxable income to shareholders annually to qualify for pass-through tax treatment. This high distribution requirement is why REITs are popular income investments."
+      },
+      {
+        q: "A REIT that owns and operates apartment buildings and shopping centers is best classified as a:",
+        options: ["Mortgage REIT", "Equity REIT", "Hybrid REIT", "Unit investment trust"],
+        answer: 1,
+        explain: "Equity REITs own and operate physical properties and earn income from rent. Mortgage REITs hold mortgages or MBS and earn interest. Hybrid REITs do both. Owning apartment buildings = equity REIT."
+      }
+    ]
+  },
+  {
+    id: "fund-pricing",
+    title: "Mutual Fund Pricing & Forward Pricing",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How is mutual fund NAV calculated, and what is the forward pricing rule?",
+    back: "NAV = (Total Assets − Liabilities) ÷ Shares Outstanding. Calculated once daily after market close. Forward pricing rule (SEC Rule 22c-1): all orders received before the pricing cutoff (usually 4 PM ET) are filled at that day's NAV; orders received after are filled at the next day's NAV. This prevents timing the market on stale prices. Public offering price (POP) = NAV + sales load (for Class A).",
+    quiz: [
+      {
+        q: "An investor submits a purchase order for an open-end mutual fund at 2:00 PM ET. At what price will the order be filled?",
+        options: ["The NAV at 2:00 PM", "The NAV calculated after the market closes that day", "The prior day's closing NAV", "The NAV at the next day's market open"],
+        answer: 1,
+        explain: "The forward pricing rule (SEC Rule 22c-1) requires that all orders received before the 4 PM ET cutoff be executed at that day's end-of-day NAV. You never buy at the current NAV — you always buy at the next NAV calculated after your order."
+      },
+      {
+        q: "A mutual fund has total assets of $500 million, liabilities of $20 million, and 24 million shares outstanding. What is the NAV per share?",
+        options: ["$19.17", "$20.00", "$20.83", "$22.73"],
+        answer: 1,
+        explain: "NAV = (Assets − Liabilities) ÷ Shares = ($500M − $20M) ÷ 24M = $480M ÷ 24M = $20.00 per share."
+      },
+      {
+        q: "The public offering price (POP) of a Class A mutual fund share is $10.50 and the sales load is 5%. What is the NAV?",
+        options: ["$9.98", "$10.00", "$10.50", "$11.03"],
+        answer: 0,
+        explain: "NAV = POP × (1 − load%) = $10.50 × 0.95 = $9.975 ≈ $9.98. Alternatively: load $ = 5% × $10.50 = $0.525; NAV = $10.50 − $0.525 = $9.975. The POP always exceeds NAV for Class A shares — NAV is what you get after backing out the sales charge."
+      }
+    ]
+  },
+  {
+    id: "share-class-suitability",
+    title: "Share Class Suitability",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How should a registered rep choose the right share class for a client?",
+    back: "Class A: best for large investments (breakpoints lower load) or long holding periods. Class B: generally avoided now — high CDSC, higher expense ratio; only suitable if investor has limited cash but long horizon. Class C: best for short-to-medium holding periods (1–3 years) when load avoidance matters most. Reps must consider investment amount, time horizon, and total cost. Recommending a higher-cost class to earn more commission = suitability violation.",
+    quiz: [
+      {
+        q: "A client invests $250,000 in a mutual fund and plans to hold for 20 years. Which share class is most suitable?",
+        options: ["Class A with breakpoint reduction", "Class B with CDSC", "Class C with annual 12b-1", "All classes are equally suitable"],
+        answer: 0,
+        explain: "For large investments, Class A breakpoints substantially reduce the front-end load. For long holding periods, a one-time front-end load is cheaper than 20 years of Class C's annual 12b-1 fees. Class B is generally unsuitable for large purchases."
+      },
+      {
+        q: "A registered representative recommends Class B shares to a client investing $300,000, when Class A with a breakpoint would result in lower total costs. This is BEST described as:",
+        options: ["A suitable recommendation if the client prefers no upfront load", "A potential suitability violation — the rep may have prioritized commission", "Acceptable because Class B eventually converts to Class A", "Required by FINRA rules for investments over $100,000"],
+        answer: 1,
+        explain: "Recommending a higher-cost share class when a lower-cost option is clearly more suitable (especially at breakpoint-eligible amounts) is a suitability violation. FINRA has brought cases against reps who churned clients into Class B when Class A was better."
+      }
+    ]
+  },
+  {
+    id: "letter-of-intent",
+    title: "Letter of Intent & Rights of Accumulation",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How do letters of intent and rights of accumulation help investors reach breakpoints?",
+    back: "Letter of Intent (LOI): a non-binding commitment to invest enough over 13 months to reach a breakpoint. Investor gets the lower load immediately; if they fall short, the fund retroactively charges the higher load (from escrowed shares). Rights of Accumulation (ROA): current account value + new purchase are combined to determine breakpoint eligibility. Both apply across funds in the same family and may include spouse/children accounts.",
+    quiz: [
+      {
+        q: "An investor signs a letter of intent to invest $100,000 in a fund family over 13 months to qualify for a reduced load. After 10 months, they have only invested $60,000. What happens?",
+        options: ["The fund must honor the lower load on all purchases made so far", "The fund retroactively charges the higher load; shares held in escrow are liquidated to cover the difference", "The investor must pay a penalty equal to 10% of the shortfall", "The letter of intent automatically renews for another 13 months"],
+        answer: 1,
+        explain: "Shares from early purchases are held in escrow. If the investor doesn't fulfill the LOI, the fund liquidates escrowed shares to collect the difference between the reduced load they paid and the full load that should have applied. The LOI is non-binding for the investor but creates an escrow mechanism."
+      },
+      {
+        q: "Rights of accumulation allow an investor to combine which of the following when calculating breakpoint eligibility?",
+        options: ["Only new purchases made today", "Current account value plus new purchase amount", "Only purchases made in the current calendar year", "NAV of the investor's retirement accounts only"],
+        answer: 1,
+        explain: "Rights of accumulation combine the investor's existing holdings (at current NAV) with the new purchase to determine which breakpoint applies. This rewards long-term investors who have built up positions over time."
+      }
+    ]
+  },
+  {
+    id: "private-vs-growth",
+    title: "Private Funds vs. Growth-Oriented Funds",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "How do private investment funds differ from registered growth funds in terms of access and regulation?",
+    back: "Private funds (hedge funds, PE, VC): exempt from ICA 1940 registration (Sections 3(c)(1) or 3(c)(7)); limited to accredited investors or qualified purchasers; no daily liquidity; no prospectus required; higher fees (e.g., '2 and 20'). Registered growth funds (mutual funds, ETFs): open to all investors; registered under ICA 1940; daily NAV; prospectus required; regulated expense ratios.",
+    quiz: [
+      {
+        q: "A hedge fund relying on Section 3(c)(1) of the Investment Company Act of 1940 may have no more than how many beneficial owners?",
+        options: ["25", "100", "500", "2,000"],
+        answer: 1,
+        explain: "Section 3(c)(1) exempts a fund from ICA 1940 registration if it has no more than 100 beneficial owners and does not make a public offering. This is the classic hedge fund exemption for smaller funds."
+      },
+      {
+        q: "Which of the following investors is eligible to invest in a 3(c)(7) exempt fund?",
+        options: ["Any U.S. citizen over age 18", "Accredited investors only", "Qualified purchasers (individuals with $5M+ in investments)", "Institutional investors only"],
+        answer: 2,
+        explain: "Section 3(c)(7) requires all investors to be 'qualified purchasers' — individuals with at least $5 million in investments or institutions with at least $25 million. This is a higher bar than accredited investor status (which requires $1M net worth or $200K income)."
+      }
+    ]
+  },
+  {
+    id: "etf-vs-closed-end",
+    title: "ETFs vs. Closed-End Funds",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "Both ETFs and closed-end funds trade on exchanges — what are the key differences?",
+    back: "Closed-end funds: fixed shares from IPO; frequently trade at significant discounts/premiums to NAV; often actively managed; may use leverage. ETFs: authorized participant creation/redemption keeps price near NAV; usually passively managed; lower expense ratios; more liquid; newer (post-1990s). Both trade intraday. Key distinction: ETFs rarely deviate far from NAV; closed-end funds often do.",
+    quiz: [
+      {
+        q: "Which feature of ETFs prevents them from trading at persistent large discounts or premiums to NAV, unlike closed-end funds?",
+        options: ["SEC-mandated price floors", "Exchange circuit breakers", "Authorized participant creation/redemption arbitrage", "Daily NAV disclosure requirements"],
+        answer: 2,
+        explain: "When an ETF's price deviates from NAV, authorized participants exploit the arbitrage by creating or redeeming creation units, pushing the price back to NAV. Closed-end funds have no such mechanism, so discounts/premiums can persist for years."
+      },
+      {
+        q: "A closed-end fund that launched with $500 million in assets now trades at a 15% discount to NAV. An investor buying shares today receives:",
+        options: ["$1.00 of assets for every $1.00 paid", "$1.18 of assets for every $1.00 paid", "$0.85 of assets for every $1.00 paid", "$1.15 of assets for every $1.00 paid"],
+        answer: 1,
+        explain: "At a 15% discount, you pay $0.85 for every $1.00 of NAV. Flipping that: $1.00 ÷ $0.85 ≈ $1.18 of assets per dollar spent. Buying at a discount is a feature of closed-end funds — you get more underlying value per dollar than you would from an ETF or mutual fund."
+      }
+    ]
+  },
+  {
+    id: "uits",
+    title: "Unit Investment Trusts (UITs)",
+    category: "Investment Companies",
+    color: "#7C3AED",
+    front: "What is a UIT and how does it differ from a mutual fund?",
+    back: "UITs issue redeemable units against a fixed, unmanaged portfolio assembled at inception. No board of directors. Portfolio is not actively traded — it's held to termination. Investors receive proportional interest in the trust. Two types: bond UITs (fixed-income portfolio held to maturity) and equity UITs (stock portfolio held for a set term). Sold with a one-time creation/sales charge, not ongoing management fees. Unlike mutual funds, there's no ongoing portfolio management.",
+    quiz: [
+      {
+        q: "Which of the following BEST distinguishes a unit investment trust from an open-end mutual fund?",
+        options: ["UITs trade on stock exchanges; mutual funds do not", "UITs have a fixed, unmanaged portfolio and no board of directors; mutual funds have active management", "UITs are only available to institutional investors", "UITs guarantee return of principal at maturity"],
+        answer: 1,
+        explain: "The defining feature of a UIT is its fixed, passively held portfolio with no active management and no board of directors. Mutual funds have ongoing active (or at least responsive) management and a board. UITs do not trade on exchanges — their units are redeemable with the trust, similar to open-end funds."
+      },
+      {
+        q: "An investor purchases units in a bond UIT. What happens to those bonds over time?",
+        options: ["The portfolio manager replaces maturing bonds with new ones", "The bonds are held to maturity and proceeds are distributed to unit holders", "The trust automatically reinvests all proceeds into higher-yielding bonds", "The portfolio is rebalanced quarterly based on interest rate movements"],
+        answer: 1,
+        explain: "Bond UITs hold their fixed portfolio to maturity. As bonds mature, the proceeds are passed through to unit holders — there is no reinvestment or portfolio turnover. This is fundamentally different from a bond mutual fund, which actively manages its portfolio."
+      }
+    ]
   }
 ];
 

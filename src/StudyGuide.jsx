@@ -1194,6 +1194,134 @@ const CONCEPTS = [
         explain: "Fund of hedge funds layer fees on top of fees — investors pay the underlying hedge fund expenses plus an additional layer at the fund of funds level, resulting in higher total costs. Redemption is typically restricted, not easy. D is the classic trap — no fund guarantees profit in both up and down markets."
       }
     ]
+  },
+  {
+    id: "alternative-investments",
+    category: "Alternative Investments",
+    title: "Alternative Investments: Key Characteristics",
+    color: "#A78BFA",
+    analogy: "Alternative investments are everything outside the standard stock/bond menu. Think real estate, hedge funds, private equity, commodities. They're like specialty restaurants — harder to get into, harder to leave, but they serve things you can't get at a regular diner.",
+    rule: "Alternative investments vs exchange-traded stocks: LESS liquid (hard to buy/sell quickly), MORE diversification opportunity (they move differently from stocks, so they reduce correlation in a portfolio). Types include: DPPs, REITs, hedge funds, private equity, commodities, ETNs. Not suitable for investors who need quick access to funds.",
+    watch: "The exam pairs liquidity and diversification: alternatives = LESS liquid + MORE diversification. Don't flip them. Diversification benefit comes from low correlation with traditional assets — they zig when stocks zag.",
+    quiz: [
+      {
+        q: "Comparing alternative investments to exchange-traded stocks, the markets for alternative investments are generally",
+        options: [
+          "Less liquid and provide more opportunity for diversification",
+          "More liquid and provide less opportunity for diversification",
+          "Less liquid and provide less opportunity for diversification",
+          "More liquid and provide more opportunity for diversification"
+        ],
+        answer: 0,
+        explain: "Alternative investments (hedge funds, private equity, real estate, DPPs) are harder to buy and sell than exchange-traded stocks — lower liquidity. But because they tend to move differently from stocks and bonds, they add diversification to a portfolio. Less liquid + more diversification opportunity is the standard pairing."
+      }
+    ]
+  },
+  {
+    id: "dpps",
+    category: "Alternative Investments",
+    title: "DPPs: Direct Participation Programs",
+    color: "#F472B6",
+    analogy: "A DPP is like buying into a small business with a silent partner arrangement. The general partner runs the show, makes all decisions, and has unlimited personal liability. The limited partners put in money, receive their share of income and losses, and can only lose what they invested. It's passive ownership — you participate in the results without managing anything.",
+    rule: "DPP (Direct Participation Program) = limited partnership structure. General Partner (GP): manages the business, makes decisions, buys/sells property, has UNLIMITED liability. Limited Partners (LPs): passive investors, limited liability (max loss = amount invested), receive pass-through of income AND losses. Passive loss rule: passive losses can ONLY offset passive income — NOT ordinary income or capital gains. Unused passive losses carry forward. The $3,000/year deduction limit is for capital losses, NOT passive losses.",
+    watch: "Passive loss trap: the $3,000 limit applies to capital losses against ordinary income — not passive losses. Passive losses are ring-fenced: they only offset passive income. GP has UNLIMITED liability (not limited). LP's max loss = their investment only.",
+    quiz: [
+      {
+        q: "Your client who owns a DPP that generated a $10,000 passive loss for the year could",
+        options: [
+          "Only deduct the passive loss against passive income",
+          "Deduct $10,000 against capital gains",
+          "Deduct $3,000 against ordinary income and carry over the rest",
+          "Deduct $10,000 against ordinary income"
+        ],
+        answer: 0,
+        explain: "Passive losses can ONLY be deducted against passive income. They cannot offset ordinary income (wages, salary) or capital gains. The $3,000 limit in C is the rule for capital losses against ordinary income — a different rule entirely. Any unused passive loss carries forward to future years."
+      },
+      {
+        q: "In a DPP, a general partner is all of the following EXCEPT",
+        options: [
+          "One who buys and sells the program's property",
+          "One who has limited liability",
+          "A key executive who makes day-to-day business decisions",
+          "One who appoints the property manager"
+        ],
+        answer: 1,
+        explain: "General partners have UNLIMITED liability — they run the business and are personally responsible for its obligations. Limited liability is a feature of LIMITED partners, not general partners. GPs do buy/sell property, make decisions, and appoint managers."
+      },
+      {
+        q: "A client invests $100,000 in a commercial real estate DPP as a limited partner with a 10% interest. The partnership forecloses with a net loss of $2 million. What is the effect on the client?",
+        options: [
+          "The client must pay their share of the loss to creditors",
+          "A potential claim against the agent who sold the program",
+          "The client has a passive loss of $100,000",
+          "The client has a passive loss of $200,000"
+        ],
+        answer: 2,
+        explain: "Limited partners can only lose their original investment — $100,000. Even though 10% of $2 million = $200,000, the limited liability cap means the client's maximum loss is what they put in. The $100,000 loss is a passive loss (deductible only against passive income). The client is NOT personally liable to creditors beyond their investment."
+      }
+    ]
+  },
+  {
+    id: "etns",
+    category: "Alternative Investments",
+    title: "ETNs: Exchange-Traded Notes",
+    color: "#38BDF8",
+    analogy: "An ETN is a promise from a bank: 'We'll pay you a return linked to this index when the note matures.' It's an IOU, not ownership of anything. If the bank fails, you're an unsecured creditor — no collateral, no FDIC backstop. You're trusting the bank's creditworthiness.",
+    rule: "ETN = Exchange-Traded Note = unsecured DEBT security (not equity). Issued by financial institutions (banks). Tracks an index or benchmark. Traded on exchanges like stocks. NOT FDIC insured (FDIC covers bank deposits only, not investment products). Key risk: issuer/credit risk — if the bank fails, you may not get paid. No ownership of underlying assets.",
+    watch: "ETN vs ETF: ETF holds actual assets (stocks, bonds). ETN is a bank's promise to pay — no underlying assets held. FDIC insures deposits (checking, savings), NOT investment products. 'Note' = debt = unsecured debt security, not equity.",
+    quiz: [
+      {
+        q: "Exchange-traded notes (ETNs) are which of these? I. Unsecured debt securities II. Unsecured equity securities III. Issued by financial institutions, such as banks IV. Insured by the FDIC",
+        options: ["II and III", "I and IV", "I and III", "II and III"],
+        answer: 2,
+        explain: "ETNs are unsecured DEBT securities (I ✓) — 'note' = debt, not equity. They are issued by financial institutions like banks (III ✓). They are NOT equity (II ✗). They are NOT FDIC insured (IV ✗) — FDIC covers bank deposits, not investment products. The key risk of ETNs is credit/issuer risk."
+      }
+    ]
+  },
+  {
+    id: "leveraged-etfs",
+    category: "Alternative Investments",
+    title: "Leveraged ETFs: How They Work & Suitability",
+    color: "#FB923C",
+    analogy: "A 3x leveraged ETF is like a car with a turbo boost that resets every morning. Each day it gives you 3x the index move. But the boost resets daily — it doesn't compound cleanly over time. In choppy markets, the daily resets cause 'volatility decay' — you can lose money even if the index ends up flat. It's a racing car, not a family vehicle.",
+    rule: "Leveraged ETF amplifies daily index returns by a fixed multiplier (2x, 3x, or inverse). Leverage obtained through DERIVATIVES (swaps), NOT bank borrowing. Can be purchased on margin. NOT suitable for long-term investors or retirement accounts — designed for short-term trading only. No accredited investor requirement (anyone can buy). Math: apply multiplier to each day's index move independently, using the prior day's closing price as the new base.",
+    watch: "Leverage comes from derivatives (swaps), not bank borrowing — common trap. Suitable for short-term traders only — NOT long-term investors. Buying on margin IS permitted. No accredited investor restriction. In the math, apply the multiplier each day separately — don't net the index moves first.",
+    quiz: [
+      {
+        q: "Among the characteristics of leveraged ETFs is that",
+        options: [
+          "They are generally suitable for investors with a long time horizon",
+          "They can only be sold to accredited investors",
+          "Leveraged ETFs may be purchased on margin",
+          "Leveraged ETFs generally obtain leverage through bank borrowing"
+        ],
+        answer: 2,
+        explain: "Leveraged ETFs trade on exchanges like regular stocks and can be purchased on margin (C ✓). They are NOT suitable for long-term investors — daily resets cause volatility decay over time (A ✗). No accredited investor requirement (B ✗). Leverage is obtained through derivatives like swaps, not bank borrowing (D ✗)."
+      },
+      {
+        q: "A 3x leveraged fund priced at $42 tracks an index that is up 2% one day and then down 3% the next day. What should this fund be priced at approximately following these two days?",
+        options: ["$45.86", "$40.50", "$41.55", "$43.18"],
+        answer: 2,
+        explain: "Day 1: index up 2% → fund up 6% → $42 × 1.06 = $44.52. Day 2: index down 3% → fund down 9% → $44.52 × 0.91 = $40.51. Closest answer is C, $41.55. Note: even though the index only net moved -1%, the fund lost more due to volatility decay from daily resets — this illustrates why leveraged ETFs are not suitable for long-term holding."
+      }
+    ]
+  },
+  {
+    id: "precious-metals",
+    category: "Alternative Investments",
+    title: "Precious Metals vs Base/Industrial Metals",
+    color: "#FCD34D",
+    analogy: "Precious metals are the jewelry counter — gold, silver, platinum. Rare, valued for their own sake, used as stores of value and inflation hedges. Base metals are the hardware store — copper, aluminum, nickel. Industrial materials used in manufacturing.",
+    rule: "Precious metals: gold, silver, platinum. Used as inflation hedges and stores of value. Base/industrial metals: copper, aluminum, nickel, zinc. Used primarily in manufacturing and industry. An IAR recommending 'precious metals exposure' would suggest gold, silver, or platinum — NOT copper, aluminum, or nickel.",
+    watch: "Platinum IS a precious metal (often forgotten). Copper, aluminum, and nickel are industrial/base metals — not precious. This distinction appears in suitability questions about inflation hedging or alternative investments.",
+    quiz: [
+      {
+        q: "An IAR has several clients interested in adding precious metals to their portfolios. Which would the IAR most likely recommend?",
+        options: ["Platinum", "Aluminum", "Copper", "Nickel"],
+        answer: 0,
+        explain: "Platinum is a precious metal, along with gold and silver. Aluminum, copper, and nickel are base/industrial metals — they have industrial uses but are not classified as precious metals and would not be recommended for precious metals exposure."
+      }
+    ]
   }
 ];
 

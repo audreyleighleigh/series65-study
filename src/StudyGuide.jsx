@@ -1322,6 +1322,150 @@ const CONCEPTS = [
         explain: "Platinum is a precious metal, along with gold and silver. Aluminum, copper, and nickel are base/industrial metals — they have industrial uses but are not classified as precious metals and would not be recommended for precious metals exposure."
       }
     ]
+  },
+  {
+    id: "put-options",
+    category: "Derivatives",
+    title: "Put Options: Rights, Obligations & Strategies",
+    color: "#EC4899",
+    analogy: "A put option is the opposite of a call. If a call is 'I have the right to buy your house at $150,000,' a put is 'I have the right to sell you my house at $150,000.' Long put = you own the right to sell. Short put = you sold someone that right and must buy if they exercise.",
+    rule: "Put option = right to SELL at strike price. Long put (buyer): pays premium, profits if stock falls below strike. Short put (seller): collects premium, obligated to buy stock at strike if exercised. Put writers are neutral to bullish (happy if stock stays flat or rises — option expires worthless, they keep premium). Put buyers are bearish (betting stock drops).",
+    watch: "Don't confuse long/short. Long put = buyer (you paid for the right). Short put = seller (you collected premium and have obligation). In suitability: a put buyer is bearish; a put seller is willing to own the stock at the strike price.",
+    quiz: [
+      {
+        q: "A put option gives the holder the right to",
+        options: [
+          "Buy shares at the strike price",
+          "Sell shares at the strike price",
+          "Sell shares only at market price",
+          "An obligation to purchase shares at the strike price"
+        ],
+        answer: 1,
+        explain: "A put = right to SELL at the strike price. The buyer (long put) profits when the stock falls. The seller (short put) collects premium but is obligated to buy if the holder exercises. B is correct."
+      },
+      {
+        q: "An investor who writes (sells) a put option is best characterized as",
+        options: [
+          "Bearish — expecting the stock to fall",
+          "Neutral to bullish — willing to own the stock at the exercise price",
+          "Highly bullish — expecting dramatic price increases",
+          "Hedging against a long stock position"
+        ],
+        answer: 1,
+        explain: "A put seller collects premium but is willing to buy the stock at the strike price if assigned. That means they're okay owning it at that price — either neutral or bullish. They're NOT bearish (that would be a put buyer). Put sellers profit if the stock stays flat or rises."
+      }
+    ]
+  },
+  {
+    id: "long-call-short-put",
+    category: "Derivatives",
+    title: "Long Call vs Short Put: Unlimited Risk Profiles",
+    color: "#F59E0B",
+    analogy: "Long call = you paid to own an option (limited loss). Short put = you sold an option and took an obligation (limited by stock hitting zero, so capped loss). Short CALL or naked short STOCK = unlimited loss risk because prices can rise forever.",
+    rule: "Long call: max loss = premium paid (capped). Max gain = unlimited (stock can rise infinitely). Short call: max gain = premium collected (capped). Max loss = unlimited (stock rises forever). Long put: max loss = premium paid. Max gain = capped (stock falls to zero). Short put: max loss = capped (stock falls to zero, you're forced to buy at strike). Max gain = premium collected.",
+    watch: "Unlimited risk = short stock or naked short call (uncovered). Limited risk on both call and put sides if you own the option. Short stock has unlimited loss risk because prices can rise infinitely. Short put has CAPPED loss (stock floors at zero).",
+    quiz: [
+      {
+        q: "Comparing max loss potential between a long call and a short uncovered put on the same stock",
+        options: [
+          "Long call has unlimited loss risk",
+          "Short put has unlimited loss risk",
+          "Both have unlimited loss risk",
+          "Long call max loss is the premium; short put max loss is capped at zero"
+        ],
+        answer: 3,
+        explain: "Long call: you paid the premium — that's your max loss if it expires worthless. Short put: you collected premium but are obligated to buy at the strike. Stock can only fall to zero, so your max loss = (strike price × shares) − premium collected. Capped at zero. Unlimited risk only applies to short stock or naked short calls."
+      }
+    ]
+  },
+  {
+    id: "covered-calls-detailed",
+    category: "Derivatives",
+    title: "Covered Calls: Locked-In Income in Flat Markets",
+    color: "#8B5CF6",
+    analogy: "You own a house worth $150,000. You're not sure it will appreciate, but you want income. So you offer a neighbor the right to buy your house at $150,000 for $2,000. You collect $2,000 immediately. Three outcomes: (1) neighbor never exercises — you keep the house AND the $2,000. (2) Price rises to $200,000 — neighbor exercises, you sell at your $150,000 strike, missing the upside (but you've locked in your profit). (3) Price falls to $100,000 — neighbor walks away, you keep house + $2,000. The write-off cost is the upside you gave away.",
+    rule: "Covered call = own 100 shares, sell (write) one call for every 100 shares. You collect premium (income) immediately. If assigned, you sell your shares at the strike price. Max profit = strike price + premium collected. Max loss = limited to covered shares (you own them). Not suitable when you expect strong bullish moves (you cap your upside). Best for neutral/flat market outlook when you want income without selling shares.",
+    watch: "Covered = you own the underlying shares, so you have no naked short risk. You can only be called away at the strike price. Premium collected reduces your breakeven cost. Don't use covered calls if you expect sharp upside — you're capping profits.",
+    quiz: [
+      {
+        q: "A client owns 400 shares of XYZ at $150 and does not expect the price to change significantly. Which strategy would generate income in this flat market?",
+        options: [
+          "Buy 4 XYZ 150 calls",
+          "Write 4 XYZ 150 calls",
+          "Buy 4 XYZ 150 puts",
+          "Buy 4 XYZ 150 calls and write 4 XYZ 150 puts"
+        ],
+        answer: 1,
+        explain: "Writing (selling) calls on the shares generates income via premium collection. 400 shares = 4 contracts (100 shares each). The client already owns the shares (covered), so writing calls is appropriate for a flat outlook. Buying calls or puts costs money — the opposite of what's needed here."
+      },
+      {
+        q: "If an investor writes a call option on stock they own (covered call) and the stock rises significantly above the strike price",
+        options: [
+          "The investor keeps the premium and the stock",
+          "The investor keeps the premium but loses the stock at the strike price",
+          "The investor loses both the premium and the stock",
+          "The investor has unlimited gain potential"
+        ],
+        answer: 1,
+        explain: "If assigned, the investor sells shares at the strike price (the agreed price when they wrote the call). They keep the premium collected, but they gave up the opportunity to profit from the price rise above the strike. That's the trade-off of a covered call — capped upside in exchange for premium income."
+      }
+    ]
+  },
+  {
+    id: "options-commission",
+    category: "Derivatives",
+    title: "Options Commission Calculations: Tiered Brackets",
+    color: "#06B6D4",
+    analogy: "Options commission works like bulk pricing at a warehouse. Small order = higher per-unit cost. Large order = lower per-unit cost. The difference is your tiered commission bracket — different fixed + percentage rates depending on order size.",
+    rule: "Options commission structure uses tiered brackets: $0–$2,500 (one rate), $2,501–$11,999 (lower rate), $12,000+ (even lower). Formula: $base + (percentage × total trade value). Trade value = contract premium × shares per contract × number of contracts. Example: 5 contracts at $7 premium = 5 × 100 × $7 = $3,500 → falls into $2,501–$11,999 bracket → apply that bracket's rate.",
+    watch: "Trade value is premium × 100 (shares per contract) × number of contracts. NOT just premium × contracts. Know which bracket each trade value falls into and apply the correct formula. Commissions are calculated on the total trade value, not per contract.",
+    quiz: [
+      {
+        q: "An investor buys 5 options contracts at a premium of $7 per share. Each contract covers 100 shares. Commission brackets: $0–$2,500 = $35 + 0.2%; $2,501–$11,999 = $35 + 0.7%; $12,000+ = $35 + 0.5%. What is the commission?",
+        options: ["$35.50", "$59.50", "$175.00", "$525.00"],
+        answer: 1,
+        explain: "Trade value = 5 contracts × 100 shares × $7 = $3,500. Falls into $2,501–$11,999 bracket. Commission = $35 + (0.7% × $3,500) = $35 + $24.50 = $59.50."
+      }
+    ]
+  },
+  {
+    id: "options-straddles",
+    category: "Derivatives",
+    title: "Straddles: Profiting from Big Moves in Either Direction",
+    color: "#10B981",
+    analogy: "A straddle is like betting that something will happen — you don't care which direction. Buy a call AND a put at the same strike price. You profit if the stock moves a lot either way, and lose if it stays flat. It's expensive (two premiums), but you win on volatility.",
+    rule: "Long straddle = long call + long put, same strike, same expiration. Profit on big moves in either direction. Max loss = both premiums paid if stock ends at strike. Max gain = unlimited on upside, capped on downside (stock falls to zero). Used when expecting high volatility but unsure of direction. Short straddle = opposite — sell call + sell put, profit if stock stays flat, lose on big moves.",
+    watch: "Straddles require paying two premiums (expensive entry). Profit only if the move is larger than the total premium paid. Short straddle has unlimited risk (short call). Long straddle has capped risk. Suitable for volatile markets, unsuitable for stable markets.",
+    quiz: [
+      {
+        q: "An investor establishes a long straddle by buying an ABC 100 call for $5 and an ABC 100 put for $3. What is the maximum loss?",
+        options: ["$3", "$5", "$800", "Unlimited"],
+        answer: 2,
+        explain: "Maximum loss on a long straddle = total premiums paid = $5 + $3 = $8 per share = $800 for a standard (100-share) contract. This happens if the stock closes exactly at the strike ($100) and both options expire worthless."
+      }
+    ]
+  },
+  {
+    id: "options-suitability",
+    category: "Derivatives",
+    title: "Options Suitability: Time Horizon & Risk Profile Matching",
+    color: "#EF4444",
+    analogy: "Selling naked calls (unlimited risk) is like being an uninsured homeowner in a hurricane — if it hits, you could lose everything. Buying calls (limited loss) is like insurance — expensive, but your max loss is the premium. Suitability means matching the strategy to the client's risk tolerance and investment horizon.",
+    rule: "Long options (buyer): suitable for investors comfortable with limited, known loss (premium paid). Covered calls: suitable for conservative income seekers with stable outlook. Naked uncovered calls: NEVER suitable (unlimited risk). Short puts: suitable only for accredited investors comfortable with buying stock if assigned. Straddles/complex strategies: accredited clients only. Retirement accounts: generally only long calls/puts or covered calls (not short/naked).",
+    watch: "Naked short calls = unlimited loss, unsuitable for most clients. Short puts can obligate purchase, must be suitable for stock price. Recommend to match client risk tolerance. Conservative = covered calls or long options. Aggressive/accredited = more complex strategies, but still match to risk profile.",
+    quiz: [
+      {
+        q: "Which options strategy would be LEAST appropriate for a conservative investor focused on retirement income?",
+        options: [
+          "Writing covered calls on dividend-paying stocks",
+          "Buying protective puts on an existing stock position",
+          "Writing naked uncovered calls",
+          "Buying long-dated call options for stock that may appreciate"
+        ],
+        answer: 2,
+        explain: "Naked uncovered calls have unlimited risk and are unsuitable for most clients, especially conservative ones. Covered calls and protective puts are income/protection strategies. Even buying calls has limited risk (premium paid). Naked calls = C is the clearly unsuitable choice."
+      }
+    ]
   }
 ];
 

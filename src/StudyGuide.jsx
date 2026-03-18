@@ -1466,6 +1466,391 @@ const CONCEPTS = [
         explain: "Naked uncovered calls have unlimited risk and are unsuitable for most clients, especially conservative ones. Covered calls and protective puts are income/protection strategies. Even buying calls has limited risk (premium paid). Naked calls = C is the clearly unsuitable choice."
       }
     ]
+  },
+  {
+    id: "business-cycle-phases",
+    category: "Global",
+    title: "Business Cycle Phases",
+    color: "#60A5FA",
+    analogy: "Think of the business cycle like a roller coaster. The climb is expansion, the top of the hill is the peak, the descent is contraction, and the bottom of the dip is the trough — before the next climb (recovery) begins. You always know where you are by looking at which direction the car is moving.",
+    rule: "The business cycle has four phases in order: **Expansion → Peak → Contraction → Trough → Recovery**. The **peak** is the highest point of economic activity before decline begins; the **trough** is the lowest point before recovery. A contraction lasting two or more consecutive quarters is technically a recession.",
+    watch: "The exam often asks what happens *immediately before* the trough — the answer is always **contraction**, not peak. Peak comes two phases before the trough. Don't let the question's phrasing pull you one phase too early.",
+    quiz: [
+      {
+        q: "When analyzing the business cycle, which phase occurs immediately before the trough?",
+        options: [
+          "Expansion",
+          "Peak",
+          "Contraction",
+          "Recovery"
+        ],
+        answer: 2,
+        explain: "The correct sequence is Expansion → Peak → Contraction → Trough → Recovery. Contraction (declining economic activity) directly precedes the trough (the cycle's lowest point). Peak occurs two phases before the trough, not one. Recovery follows the trough."
+      },
+      {
+        q: "An economy has been experiencing declining GDP, rising unemployment, and falling consumer spending for several months. Which phase of the business cycle best describes this?",
+        options: [
+          "Peak",
+          "Trough",
+          "Recovery",
+          "Contraction"
+        ],
+        answer: 3,
+        explain: "Declining GDP, rising unemployment, and falling spending are hallmarks of contraction. The trough is the single lowest point — not the decline itself. Recovery features improving indicators. The peak is the high point before decline begins."
+      },
+      {
+        q: "Which phase of the business cycle would most likely be characterized by maximum employment, high consumer confidence, and peak corporate profits?",
+        options: [
+          "Trough",
+          "Recovery",
+          "Contraction",
+          "Peak"
+        ],
+        answer: 3,
+        explain: "The peak represents the height of economic activity — employment is at its highest, confidence is strong, and profits are maximized. This is the inflection point before contraction begins. The trough is the opposite extreme. Recovery is improving but not yet at maximum. Contraction is a period of decline."
+      }
+    ]
+  },
+  {
+    id: "fed-monetary-policy-tools",
+    category: "Global",
+    title: "Federal Reserve Monetary Policy Tools",
+    color: "#60A5FA",
+    analogy: "Picture the Fed as a plumber with three valves controlling water pressure (money supply) in the economy. The discount rate valve controls how cheaply banks can refill from the main pipe. The reserve requirement valve controls how much water each bank must keep in its tank. The FOMC valve (open market operations) adds or drains water directly from the system by buying or selling government bonds.",
+    rule: "The Fed's three direct monetary policy tools are: **(1) the discount rate** — the rate it charges banks for direct loans; **(2) reserve requirements** — the percentage of deposits banks must hold in reserve; and **(3) open market operations** — conducted by the **FOMC**, which buys/sells Treasury securities to expand or contract the money supply. The **prime rate** is *not* a Fed tool — it is set by commercial banks, typically ~3% above the federal funds rate.",
+    watch: "Don't confuse the **prime rate** with the **discount rate**. The Fed *sets* the discount rate directly; the prime rate is set by commercial banks in response to Fed policy but is not controlled by the Fed. The exam loves to include prime rate as a trap answer.",
+    quiz: [
+      {
+        q: "Which of the following is NOT a tool the Federal Reserve uses to influence the money supply?",
+        options: [
+          "The discount rate",
+          "The prime rate",
+          "Reserve requirements",
+          "Open market operations"
+        ],
+        answer: 1,
+        explain: "The prime rate is set by commercial banks (typically 3% above the federal funds rate) and is not directly controlled by the Fed. The discount rate, reserve requirements, and open market operations (conducted by the FOMC) are all tools the Fed directly controls."
+      },
+      {
+        q: "The Federal Reserve wants to stimulate a slowing economy. Which action by the FOMC would accomplish this?",
+        options: [
+          "Selling Treasury securities",
+          "Increasing reserve requirements",
+          "Buying Treasury securities",
+          "Raising the discount rate"
+        ],
+        answer: 2,
+        explain: "When the FOMC buys Treasury securities, it injects money into the banking system, expanding the money supply and stimulating economic activity. Selling securities would drain money (contractionary). Raising reserve requirements or the discount rate are also contractionary — they restrict how much banks can lend."
+      },
+      {
+        q: "Which Federal Reserve body is responsible for conducting open market operations?",
+        options: [
+          "The Board of Governors",
+          "The Federal Advisory Council",
+          "The Federal Open Market Committee (FOMC)",
+          "The Office of the Comptroller"
+        ],
+        answer: 2,
+        explain: "The FOMC conducts open market operations — buying and selling Treasury securities to influence the money supply. The Board of Governors oversees the Fed broadly. The Federal Advisory Council is an advisory body with no policy authority. The OCC is a separate agency regulating national banks."
+      }
+    ]
+  },
+  {
+    id: "monetarist-theory",
+    category: "Global",
+    title: "Monetarist Economic Theory",
+    color: "#60A5FA",
+    analogy: "Monetarism is the 'thermostat theory' of economics. The money supply is the thermostat — keep it at a slow, steady setting and the economy stays comfortable. Crank it up suddenly and you get inflation (overheating). Slam it down and you get recession (a freeze). The monetarist prescription: set a predictable rate of growth and leave it alone.",
+    rule: "Monetarism holds that the **money supply is the primary determinant of price levels** over time. Monetarists believe the Federal Reserve should grow the money supply at a **gradual, steady, and predictable rate** roughly in line with real economic growth. They favor monetary policy over fiscal policy, and steady rules over active intervention.",
+    watch: "Don't confuse monetarism with classical economics (which says money doesn't matter) or Keynesianism (which favors active fiscal and monetary intervention). Also watch for options that reverse causality — monetarists believe the money supply influences interest rates, not the other way around.",
+    quiz: [
+      {
+        q: "Which of the following statements best reflects the monetarist economic position?",
+        options: [
+          "The amount of money in the economy determines price levels; the Fed should grow the money supply gradually and predictably",
+          "Economic activity reflects real goods and services; the Fed should not attempt to manage the money supply",
+          "The best way to control prices is to raise taxes and reduce the amount of money in the economy",
+          "The total amount of money in the economy is determined by the level of interest rates"
+        ],
+        answer: 0,
+        explain: "Monetarism holds that the money supply drives price levels, and the Fed's best role is stable, predictable money supply growth. Option B describes classical/real business cycle theory, which downplays money's importance. Option C describes a fiscal policy approach — monetarists rely on monetary tools, not taxation. Option D reverses the causality; monetarists believe money supply influences interest rates, not the reverse."
+      },
+      {
+        q: "A monetarist economist is asked how the Federal Reserve should respond to a sudden spike in inflation. What approach would she most likely recommend?",
+        options: [
+          "Dramatically increase government spending to stimulate real output",
+          "Raise taxes to remove money from the economy",
+          "Reduce the rate of money supply growth back to a slow, steady level",
+          "Let market forces correct the imbalance without Fed intervention"
+        ],
+        answer: 2,
+        explain: "Monetarists believe inflation is caused by excessive money supply growth, so the solution is to slow that growth back to a predictable rate. Option A is a Keynesian fiscal response. Option B is also fiscal, not monetary. Option D is closer to classical economics. Monetarists support Fed action — but through steady money supply management, not dramatic intervention."
+      }
+    ]
+  },
+  {
+    id: "interest-rate-hierarchy",
+    category: "Global",
+    title: "Interest Rate Hierarchy",
+    color: "#60A5FA",
+    analogy: "Think of interest rates as a lending chain. The Fed lends to banks (discount rate). Banks lend to each other overnight (federal funds rate). Banks lend to their best customers (prime rate). Banks lend to brokers for margin accounts (call loan rate). Each step moves one level further from the Fed and one level closer to the end investor.",
+    rule: "**Federal funds rate**: rate banks charge each other for overnight loans of excess reserves — the Fed *targets* this rate but doesn't set it directly. **Discount rate**: rate the Fed charges banks that borrow directly from it (the 'discount window') — set above the fed funds rate. **Prime rate**: rate banks charge their most creditworthy customers — typically ~3% above the federal funds rate. **Call loan rate**: rate banks charge broker-dealers for margin account financing.",
+    watch: "Don't confuse the federal funds rate with the discount rate. Both involve banks borrowing, but the federal funds rate is bank-to-bank, while the discount rate is Fed-to-bank. The fed funds rate is negotiated between banks; the discount rate is set by the Fed directly.",
+    quiz: [
+      {
+        q: "Overnight loans between banks are made at:",
+        options: [
+          "The federal funds rate",
+          "The prime rate",
+          "The call loan rate",
+          "The discount rate"
+        ],
+        answer: 0,
+        explain: "The federal funds rate is specifically the rate banks charge each other for overnight lending of excess reserves. The discount rate is what the Fed charges banks — not what banks charge each other. The prime rate is for a bank's best customers. The call loan rate is for broker-dealers financing margin accounts."
+      },
+      {
+        q: "A bank is short on reserves at the end of the day and borrows directly from the Federal Reserve. This loan is made at:",
+        options: [
+          "The federal funds rate",
+          "The prime rate",
+          "The call loan rate",
+          "The discount rate"
+        ],
+        answer: 3,
+        explain: "When a bank borrows directly from the Federal Reserve through the discount window, it pays the discount rate. The federal funds rate applies to bank-to-bank overnight lending, not Fed-to-bank lending. Banks typically prefer the federal funds market and only use the discount window as a last resort, partly because the discount rate is set above the federal funds rate."
+      },
+      {
+        q: "Which of the following correctly ranks these rates from lowest to highest in a typical interest rate environment?",
+        options: [
+          "Prime rate → Federal funds rate → Discount rate",
+          "Federal funds rate → Discount rate → Prime rate",
+          "Discount rate → Federal funds rate → Prime rate",
+          "Federal funds rate → Prime rate → Discount rate"
+        ],
+        answer: 1,
+        explain: "In a typical environment, the federal funds rate is lowest (bank-to-bank, most efficient market), the discount rate is set slightly above it (to discourage overreliance on the Fed's discount window), and the prime rate is highest of the three at roughly 3% above the federal funds rate (reflecting the additional credit risk of lending to customers vs. other banks)."
+      }
+    ]
+  },
+  {
+    id: "currency-devaluation-effects",
+    category: "Global",
+    title: "Currency Devaluation & Trade Effects",
+    color: "#60A5FA",
+    analogy: "Devaluing your currency is like putting your entire country's goods on sale for foreign shoppers. Foreigners flood in to buy your now-cheaper exports, while your own citizens find imported goods suddenly expensive and pull back. Your country takes in more than it spends — recording a net credit to the trade account.",
+    rule: "When a country devalues its currency: **(1) exports increase** — domestic goods become cheaper for foreign buyers; **(2) imports decrease** — foreign goods become more expensive domestically; **(3) the trade account receives a credit** — rising exports and falling imports improve the trade balance. A credit = net inflow; a debit = net outflow.",
+    watch: "Students often confuse the direction of the trade account entry. Exports = money flowing *in* = credit. Imports = money flowing *out* = debit. Devaluation boosts exports and shrinks imports, so the net effect is a *credit* to the trade account — not a debit. Also don't fall for the trap that imports increase after devaluation; they actually fall because foreign goods get more expensive.",
+    quiz: [
+      {
+        q: "Among the effects of a country devaluating its currency, which of the following would most likely occur? I. A credit to the trade account II. A debit to the trade account III. An increase in exports IV. An increase in imports",
+        options: [
+          "I and IV",
+          "II and III",
+          "I and III",
+          "II and IV"
+        ],
+        answer: 2,
+        explain: "Devaluation makes domestic goods cheaper for foreign buyers, increasing exports (III). It makes foreign goods more expensive domestically, decreasing imports — not increasing them, so IV is wrong. Rising exports bring money into the country, recording a credit to the trade account (I), not a debit (II). Therefore I and III is correct."
+      },
+      {
+        q: "Country X devalues its currency by 15%. What is the most likely immediate effect on its balance of trade?",
+        options: [
+          "Trade deficit widens as imports surge",
+          "Trade balance improves as exports rise and imports fall",
+          "No effect — trade flows are determined by real factors, not currency values",
+          "Trade surplus disappears as foreign demand falls"
+        ],
+        answer: 1,
+        explain: "Devaluation makes a country's goods cheaper abroad (boosting exports) and foreign goods more expensive domestically (reducing imports). Both effects move the trade balance in a positive direction — improving it. A widening deficit would require the opposite conditions. Option C reflects a classical economics view, not how currency effects work in practice."
+      }
+    ]
+  },
+  {
+    id: "balance-of-payments-credits-debits",
+    category: "Global",
+    title: "Balance of Payments: Credits & Debits",
+    color: "#60A5FA",
+    analogy: "Think of the balance of payments like a national checkbook. Any transaction that brings money INTO the country is a deposit — a credit. Any transaction that sends money OUT of the country is a withdrawal — a debit. When a foreigner buys a U.S. apartment, they're depositing money into the U.S. economy. When a U.S. tourist spends money in Paris, they're withdrawing from it.",
+    rule: "In the balance of payments, **credits = money flowing in** (exports, foreign investment in the U.S., foreign tourists spending here, loan repayments received). **Debits = money flowing out** (imports, U.S. investment abroad, U.S. tourists spending overseas, loans made to foreigners). The key question is always: *which direction does the cash actually move?*",
+    watch: "The most common trap is confusing the *perspective*. Foreign residents buying assets *here* is a credit — their money flows into the U.S. U.S. residents buying assets *abroad* is a debit — our money flows out. The nationality of the buyer matters less than the direction of the money flow.",
+    quiz: [
+      {
+        q: "Which of the following would lead to a debit to the U.S. foreign account balance?",
+        options: [
+          "Foreign governments repaying loans to U.S. banks",
+          "Residents of other countries buying apartments in the U.S.",
+          "An increase in U.S. exports",
+          "U.S. residents taking vacations abroad"
+        ],
+        answer: 3,
+        explain: "U.S. residents vacationing abroad send money out of the country — a debit. Option A brings money in (loan repayment received = credit). Option B brings money in (foreigners investing in U.S. real estate = credit). Option C brings money in (export payments received = credit). Only D represents an outflow of U.S. dollars."
+      },
+      {
+        q: "A Japanese automaker builds a new factory in Ohio. How does this transaction affect the U.S. balance of payments?",
+        options: [
+          "Debit — the U.S. is taking on a foreign liability",
+          "Credit — foreign capital is flowing into the U.S.",
+          "Debit — manufacturing capacity is being built by a foreign entity",
+          "No effect — only goods transactions affect the balance of payments"
+        ],
+        answer: 1,
+        explain: "Foreign direct investment INTO the U.S. is a credit — money flows in from Japan to build the factory. The balance of payments records all international transactions, not just goods. Option A incorrectly frames inbound investment as a liability. Option C gets the direction backwards. Option D is wrong — capital account transactions absolutely affect the balance of payments."
+      }
+    ]
+  },
+  {
+    id: "recession-definition",
+    category: "Global",
+    title: "Recession Definition",
+    color: "#60A5FA",
+    analogy: "One bad month doesn't make a winter. A recession is like a cold snap that has to last at least two full seasons (quarters) before meteorologists officially call it a pattern. One down quarter is a blip; two in a row is a trend.",
+    rule: "A **recession** is formally defined as a decline in GDP for **two consecutive quarters** (six months). A single quarter of negative growth does not qualify. This threshold distinguishes a temporary economic shock from a sustained contraction in the business cycle.",
+    watch: "The exam will offer three, four, and six quarters as tempting alternatives. The answer is always two — no more, no less. Don't confuse the number of quarters with the number of months (two quarters = six months).",
+    quiz: [
+      {
+        q: "A recession is defined as a drop in GDP for:",
+        options: [
+          "Three consecutive quarters",
+          "Six consecutive quarters",
+          "Four consecutive quarters",
+          "Two consecutive quarters"
+        ],
+        answer: 3,
+        explain: "The standard definition of a recession is two consecutive quarters of declining GDP. One quarter of negative growth is considered a temporary blip. Three, four, and six quarters are all too long — the threshold is specifically two consecutive quarters."
+      }
+    ]
+  },
+  {
+    id: "fiscal-vs-monetary-policy",
+    category: "Global",
+    title: "Fiscal vs. Monetary Policy",
+    color: "#60A5FA",
+    analogy: "Think of the economy as a car with two sets of controls. The government (president and Congress) controls the gas and brake pedals — that's fiscal policy: taxing and spending. The Federal Reserve controls the engine temperature — that's monetary policy: managing the money supply and interest rates. The two drivers work independently and use completely different levers.",
+    rule: "**Fiscal policy** = government taxation and spending decisions, made by the president and Congress. Stimulative fiscal policy means **cutting taxes** or **increasing spending**. Contractionary fiscal policy means **raising taxes** or **cutting spending**. **Monetary policy** = the Fed's control of money supply and interest rates. These are entirely separate toolkits — money supply adjustments are NEVER fiscal tools.",
+    watch: "The exam frequently includes 'increase the money supply' as a trap answer on fiscal policy questions. The moment you see money supply, discount rate, or reserve requirements, that's monetary policy — not fiscal. Fiscal policy only involves taxing and spending.",
+    quiz: [
+      {
+        q: "To stimulate a sluggish economy using fiscal policy measures, policymakers would:",
+        options: [
+          "Reduce income taxes",
+          "Increase the money supply",
+          "Increase income taxes",
+          "Reduce the money supply"
+        ],
+        answer: 0,
+        explain: "Reducing income taxes is a fiscal stimulus tool — it puts more money in consumers' pockets, boosting spending and economic activity. Options B and D involve the money supply, which is monetary policy (the Fed's domain), not fiscal policy. Option C (raising taxes) is contractionary fiscal policy — the opposite of stimulus."
+      },
+      {
+        q: "Which of the following is an example of contractionary fiscal policy?",
+        options: [
+          "The Fed raises the discount rate",
+          "The Fed increases reserve requirements",
+          "Congress passes a bill increasing income tax rates",
+          "The FOMC sells Treasury securities"
+        ],
+        answer: 2,
+        explain: "Raising income tax rates is contractionary fiscal policy — it removes money from the economy by increasing the government's take. Options A, B, and D are all monetary policy tools controlled by the Federal Reserve, not fiscal tools. Fiscal policy is exclusively about government taxing and spending."
+      }
+    ]
+  },
+  {
+    id: "yield-curve-analysis",
+    category: "Bonds",
+    title: "Yield Curve Analysis: What It Compares",
+    color: "#E8C547",
+    analogy: "A yield curve is a ruler measuring the 'price of time' in the bond market. For that ruler to be accurate, every notch must represent only the passage of time — not a different borrower or level of risk. Using a single issuer (like the U.S. government) is the strictest way to guarantee that. The moment you introduce a second issuer, even one of similar quality, you've introduced a tiny bend in the ruler.",
+    rule: "Yield curve analysis compares bonds from a **single issuer across varying maturities**. Using one issuer eliminates all credit risk variation, so the only remaining explanation for yield differences is time — which is exactly what the curve is designed to measure. In practice, **U.S. Treasury securities** (T-bills, T-notes, T-bonds) are the standard, spanning maturities from 1 month to 30 years under one issuer: the U.S. government.",
+    watch: "'Similar quality over varying maturities' sounds right but is too loose — even two AAA-rated bonds from different issuers carry subtle differences in credit risk, sector exposure, and liquidity that contaminate the yield comparison. The exam answer is *single issuer*, not just similar quality. Also watch for 'varying quality over varying maturities' — that's credit spread analysis, a completely different tool.",
+    quiz: [
+      {
+        q: "An investor using yield curve analysis would expect to view bonds of:",
+        options: [
+          "Varying quality over a number of maturities",
+          "Similar quality over varying maturities",
+          "A single issuer over varying maturities",
+          "Varying quality of similar maturities"
+        ],
+        answer: 2,
+        explain: "Yield curve analysis requires bonds from a single issuer across varying maturities. A single issuer eliminates all credit risk variation, leaving maturity as the only variable — which is exactly what the curve measures. 'Similar quality' (option B) is too loose; even closely rated bonds from different issuers introduce subtle yield differences unrelated to maturity. Options A and D mix quality variation into the comparison, which is credit spread analysis, not yield curve analysis."
+      },
+      {
+        q: "Why are U.S. Treasury bonds most commonly used to construct a yield curve?",
+        options: [
+          "They offer the highest yields across all maturities",
+          "They are issued in the widest range of denominations",
+          "They come from a single issuer and span a wide range of maturities",
+          "They are the only bonds whose yields are set directly by the Federal Reserve"
+        ],
+        answer: 2,
+        explain: "Treasuries are ideal for yield curve construction because they all come from one issuer (the U.S. government), eliminating credit risk as a variable, and they span maturities from 1 month to 30 years. This gives a clean, pure picture of how time affects yield. Treasuries don't offer the highest yields — junk bonds do. And the Fed doesn't set Treasury yields; the market does through supply and demand."
+      }
+    ]
+  },
+  {
+    id: "inflation-inertia",
+    category: "Global",
+    title: "Inflation Inertia",
+    color: "#60A5FA",
+    analogy: "Inflation inertia is like a slow-burning fuse. The initial burn is quiet and gradual — easy to overlook. But once it reaches the powder keg (an economic shock), the rate of price increases suddenly accelerates. The danger is in the buildup phase: by the time the acceleration is obvious, the process is already well underway and hard to stop.",
+    rule: "**Inflation inertia** describes a pattern where prices rise **slowly during an initial period of inflation**, then **begin to accelerate** as a result of an economic shock. The 'inertia' refers to the quiet buildup phase — underlying inflationary pressure accumulates gradually before becoming visible as rapid price increases.",
+    watch: "The word 'inertia' naturally suggests things staying the same — don't fall for that. Inflation inertia is NOT about prices holding steady at a constant rate. It's specifically about a slow start that accelerates due to an economic shock. 'Prices remain the same for a protracted period' is the classic wrong answer this concept generates.",
+    quiz: [
+      {
+        q: "Proponents of the concept of inflation inertia believe that:",
+        options: [
+          "The rate of inflation will parallel the Consumer Price Index",
+          "Prices will rise slowly and then begin to increase at a faster rate",
+          "Prices will remain the same for a protracted period of time",
+          "Prices will rise rapidly and then begin to contract"
+        ],
+        answer: 1,
+        explain: "Inflation inertia holds that prices rise slowly during an initial period, then accelerate as a result of an economic shock. Option C is the most tempting wrong answer — 'inertia' suggests staying put, but that's not the concept. Option A conflates inflation with its measurement tool. Option D describes a spike-and-reversal, which is the opposite of an inertia-driven buildup."
+      },
+      {
+        q: "Which of the following best describes the mechanism behind inflation inertia?",
+        options: [
+          "Inflation holds steady at a fixed rate due to long-term wage contracts",
+          "Prices initially rise gradually, then accelerate sharply following an economic shock",
+          "The Federal Reserve keeps inflation constant through predictable money supply growth",
+          "Inflation mirrors GDP growth over time, rising and falling with the business cycle"
+        ],
+        answer: 1,
+        explain: "Inflation inertia describes a two-phase process: a slow, quiet buildup followed by acceleration triggered by an economic shock. Option A describes a different concept — the idea that contracts lock in a steady inflation rate. Option C describes monetarist policy prescription. Option D describes a relationship between inflation and the business cycle that doesn't capture the inertia dynamic."
+      }
+    ]
+  },
+  {
+    id: "sector-rotation-business-cycle",
+    category: "Equities",
+    title: "Sector Rotation & the Business Cycle",
+    color: "#7EC8A4",
+    analogy: "Think of sector rotation like adjusting your wardrobe for the season. When summer (expansion) is coming, you load up on light clothes (cyclical and growth stocks). When you can feel summer ending and fall (contraction) approaching, you swap to heavier layers (defensive stocks). You don't wait until it's cold — you rotate ahead of the change.",
+    rule: "**Cyclical stocks** (autos, airlines, luxury, homebuilders) perform well during expansion and poorly during contraction — their revenues are highly sensitive to economic conditions. **Defensive stocks** (utilities, healthcare, consumer staples) hold value through contractions because demand for their products is inelastic. The standard rotation: shift toward **defensives** as the economy approaches its **peak** (contraction incoming); shift back to **cyclicals** as the economy approaches the **trough** (recovery incoming).",
+    watch: "The rotation happens *in anticipation* of the next phase, not after it arrives. If the peak is two months away, you rotate into defensives NOW. Also don't confuse defensive stocks with bonds — both hold up in downturns, but if the question asks about equity portfolio adjustments specifically, defensive stocks are the answer.",
+    quiz: [
+      {
+        q: "A research team forecasts the business cycle will reach its peak within two months. Which portfolio adjustment is most suitable for clients who actively invest in common stocks?",
+        options: [
+          "Corporate bonds",
+          "Defensive stocks",
+          "Aggressive growth stocks",
+          "Cyclical stocks"
+        ],
+        answer: 1,
+        explain: "A peak means contraction is imminent. Defensive stocks (utilities, healthcare, consumer staples) hold up well during contractions because demand for their products is inelastic. Cyclical stocks would be the worst choice — they fall hardest during contractions. Aggressive growth stocks are even more vulnerable. Corporate bonds may be appropriate but the question asks about equity portfolio adjustments specifically."
+      },
+      {
+        q: "An investor believes the economy is near its trough and recovery is approaching. Which type of stock would be most appropriate to emphasize in a portfolio?",
+        options: [
+          "Defensive stocks",
+          "Utility stocks",
+          "Cyclical stocks",
+          "Dividend-paying preferred stocks"
+        ],
+        answer: 2,
+        explain: "Near the trough, recovery is the next phase — meaning economic activity will increase, consumer spending will rise, and cyclical companies will see improving revenues. This is the ideal time to rotate INTO cyclical stocks to capture the upside of the recovery. Defensive stocks and utilities are appropriate during contraction but underperform during expansion. Preferred stocks are an income instrument, not an equity growth play tied to the business cycle."
+      }
+    ]
   }
 ];
 

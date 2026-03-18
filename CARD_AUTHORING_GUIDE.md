@@ -23,7 +23,7 @@ Each concept card is a JS object with exactly these 7 fields plus a `quiz` array
   id: "kebab-case-id",           // unique, lowercase, hyphens (e.g., "mutual-fund-fees")
   category: "Category Name",     // see category list below
   title: "Human-Readable Title", // short, descriptive
-  color: "#HEX123",              // hex color for UI theming
+  color: "#HEX123",              // MUST match category — see table below
   analogy: "A vivid, spatial or narrative analogy that makes the concept stick. Think: a real-world scene the learner can picture. 1-3 sentences.",
   rule: "The actual exam-testable rule or definition. Be specific — include thresholds, formulas, hierarchies. Bold the key facts. 2-4 sentences.",
   watch: "The exam trap. What do test-takers get wrong? 1-2 sentences calling out the common mistake.",
@@ -46,21 +46,26 @@ Each concept card is a JS object with exactly these 7 fields plus a `quiz` array
 
 ---
 
-## Existing Categories & Colors
+## Categories & Colors — MANDATORY
 
-Use these to keep things consistent. Pick the closest match or create a new one if needed.
+Every card's `color` field is determined by its `category`. **Do not invent new colors.** Use exactly the hex value from this table:
 
-| Category               | Color     |
-|------------------------|-----------|
-| Bonds                  | `#E8C547` |
-| Equities               | `#7EC8A4` |
-| Derivatives            | `#A78BF5` |
-| Regulations            | `#FF6B6B` |
-| Tax                    | `#F2A65A` |
-| Global                 | `#60A5FA` |
-| Investment Companies   | `#34D399` |
-| Alternative Investments| `#EC4899` |
-| Suitability            | `#F59E0B` |
+| Category               | Color     | Visual      |
+|------------------------|-----------|-------------|
+| Bonds                  | `#E8C547` | warm gold   |
+| Equities               | `#7EC8A4` | sage green  |
+| Derivatives            | `#A78BFA` | lavender    |
+| Regulations            | `#FF6B6B` | coral red   |
+| Tax                    | `#F97316` | orange      |
+| Global                 | `#60A5FA` | sky blue    |
+| Investment Companies   | `#7C3AED` | purple      |
+| Alternative Investments| `#EC4899` | pink        |
+| Suitability            | `#FBBF24` | amber       |
+
+**Rules:**
+- Look up the category, copy-paste the hex — that's it
+- If the card doesn't fit any existing category, ask before creating a new one
+- Never pick a color "that looks nice" — consistency is how the UI groups cards visually
 
 ---
 
@@ -98,7 +103,7 @@ Use these to keep things consistent. Pick the closest match or create a new one 
   id: "12b1-fees",
   category: "Investment Companies",
   title: "12b-1 Fees",
-  color: "#34D399",
+  color: "#7C3AED",
   analogy: "Imagine your gym charges a monthly 'marketing fee' on top of membership — that's a 12b-1 fee. The fund skims a little off your balance each year to pay for advertising and distribution, whether you knew about it or not.",
   rule: "12b-1 fees are annual charges deducted from fund assets to cover distribution and marketing costs. FINRA caps them at 0.75% for distribution + 0.25% service fee = 1.00% max total. A fund charging any 12b-1 fee cannot call itself 'no-load.'",
   watch: "A fund can charge up to 0.25% and still market itself as no-load — but only if it has NO front-end or back-end load AND the 12b-1 fee stays at or below 0.25%.",

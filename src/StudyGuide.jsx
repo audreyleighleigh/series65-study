@@ -1851,6 +1851,380 @@ const CONCEPTS = [
         explain: "Near the trough, recovery is the next phase — meaning economic activity will increase, consumer spending will rise, and cyclical companies will see improving revenues. This is the ideal time to rotate INTO cyclical stocks to capture the upside of the recovery. Defensive stocks and utilities are appropriate during contraction but underperform during expansion. Preferred stocks are an income instrument, not an equity growth play tied to the business cycle."
       }
     ]
+  },
+  {
+    id: "cash-flow-investing-activities",
+    category: "Equities",
+    title: "Cash Flow Statement: Investing Activities",
+    color: "#7EC8A4",
+    analogy: "Think of a company like a restaurant. Operating cash flow is the daily register — food sales, paying suppliers, collecting tips. Investing cash flow is what happens when the owner buys a new oven or sells the building next door. Financing cash flow is when the owner takes out a loan or pays back investors. Each bucket tracks a fundamentally different kind of money movement.",
+    rule: "The cash flow statement has three sections: **Operating** (day-to-day business, including interest/dividends received), **Investing** (purchase and sale of long-term assets like land, buildings, equipment, and non-resale securities), and **Financing** (issuing or retiring debt/equity, paying dividends). Investing activities = transactions involving assets the company intends to hold, not resell.",
+    watch: "Interest and dividends *received* feel like investing activities but are classified as **operating**. Issuing stocks or bonds and paying dividends feel like investing but are **financing**. The exam exploits both of these instincts.",
+    quiz: [
+      {
+        q: "One of the components of a cash flow statement is cash flow from investing activities. Included would be:",
+        options: [
+          "Payments to retire bonds and the payment of dividends",
+          "Cash receipts (money coming in) from items such as interest and dividends",
+          "Cash proceeds from issuing stocks or bonds",
+          "Transactions and events involving the purchase and sale of land, buildings, and equipment"
+        ],
+        answer: 3,
+        explain: "Investing activities cover the purchase and sale of long-term assets not held for resale — land, buildings, equipment, and similar assets. Option A describes financing activities (retiring debt, paying dividends). Option B describes operating activities — interest and dividends received are operating cash flows even though they come from investments. Option C is also a financing activity — proceeds from issuing securities represent how the company raises capital."
+      },
+      {
+        q: "A company receives a dividend payment from a stock it holds as a long-term investment. On the cash flow statement, this receipt is classified under:",
+        options: [
+          "Investing activities, because it came from an investment",
+          "Financing activities, because dividends are a financing concept",
+          "Operating activities, as cash receipts from dividends are operating",
+          "It is not reflected on the cash flow statement"
+        ],
+        answer: 2,
+        explain: "Under U.S. GAAP, dividends and interest received are classified as operating activities — even when they come from long-term investments. This is a common exam trap: the source of the cash feels like investing, but the classification is operating. Options A and B are incorrect by definition; option D is wrong because all cash inflows and outflows appear somewhere on the statement."
+      }
+    ]
+  },
+  {
+    id: "dividends-payable-balance-sheet",
+    category: "Equities",
+    title: "Dividends Payable on the Balance Sheet",
+    color: "#7EC8A4",
+    analogy: "Imagine a company is like a person who just promised to pay their landlord rent that's due next week. That promise is now a debt — it sits on the 'what I owe' side of the ledger, not the 'what I own' side. Dividends payable work the same way: once declared, the company owes that cash to shareholders, making it a short-term obligation.",
+    rule: "Dividends payable are dividends that have been **declared but not yet paid**. They represent a legal obligation of the company and are classified as a **current liability** on the balance sheet — meaning they are due within one year. They are NOT equity (the obligation has left equity), and NOT an asset.",
+    watch: "It's tempting to classify dividends payable under stockholders' equity because dividends relate to shareholders — but once declared, the funds are legally owed out and become a liability. Equity decreases when dividends are declared; current liabilities increase.",
+    quiz: [
+      {
+        q: "On a balance sheet, dividends payable would fall under the category of:",
+        options: [
+          "Stockholders' equity",
+          "Current liabilities",
+          "Assets",
+          "Fixed liabilities"
+        ],
+        answer: 1,
+        explain: "Dividends payable are declared but unpaid dividends — a legal short-term obligation due within one year, making them a current liability. Option A is wrong because once declared, dividends reduce equity, not increase it. Option C is wrong directionally — this is money owed out, not owned. Option D (fixed/long-term liabilities) is wrong because dividends are always paid out quickly, well within one year."
+      },
+      {
+        q: "When a company's board of directors declares a cash dividend, what is the immediate accounting effect on the balance sheet?",
+        options: [
+          "Assets increase; stockholders' equity increases",
+          "Assets decrease; current liabilities decrease",
+          "Stockholders' equity decreases; current liabilities increase",
+          "No effect until the dividend is actually paid"
+        ],
+        answer: 2,
+        explain: "At declaration, the company records a liability (dividends payable — current liabilities increase) and reduces retained earnings (a component of stockholders' equity decreases). Assets don't change until the cash is actually paid out. Option D is wrong — the declaration date, not the payment date, is when the balance sheet is affected."
+      }
+    ]
+  },
+  {
+    id: "net-worth-components",
+    category: "Equities",
+    title: "Components of Net Worth (Stockholders' Equity)",
+    color: "#7EC8A4",
+    analogy: "Think of a balance sheet as a photograph taken on a single day — it shows everything a company owns (assets) and owes (liabilities), and the difference is net worth. An income statement is more like a video — it records what happened over time. Operating income is part of the video, not the photo. You can't find it in the snapshot of net worth.",
+    rule: "Net worth (stockholders' equity) = **Assets − Liabilities**, as shown on the balance sheet. Components include tangible assets (inventory, fixed assets), intangible assets (goodwill, patents), and equity accounts (retained earnings, paid-in capital). **Operating income is an income statement item** — it is neither an asset nor a liability and therefore is NOT a component of net worth.",
+    watch: "Watch for income statement items (operating income, net income, revenue, EPS) being offered as balance sheet components. They are fundamentally different financial statements measuring different things. Net income does *flow into* retained earnings eventually — but operating income itself is never a balance sheet line item.",
+    quiz: [
+      {
+        q: "Components of a company's net worth would include all of these EXCEPT:",
+        options: [
+          "Goodwill",
+          "Fixed assets",
+          "Operating income",
+          "Inventory"
+        ],
+        answer: 2,
+        explain: "Net worth = assets minus liabilities, and every component must be a balance sheet item. Goodwill is an intangible asset, fixed assets are long-term assets, and inventory is a current asset — all on the balance sheet. Operating income is an income statement item measuring profitability over a period; it is neither an asset nor a liability and does not appear on the balance sheet."
+      },
+      {
+        q: "Which of the following best describes the relationship between the income statement and the balance sheet?",
+        options: [
+          "They are the same document presented in different formats",
+          "Net income from the income statement flows into retained earnings on the balance sheet",
+          "Operating income is recorded as an asset on the balance sheet",
+          "The balance sheet measures performance over time; the income statement measures a snapshot"
+        ],
+        answer: 1,
+        explain: "The income statement and balance sheet are linked through retained earnings — net income (after dividends) accumulates in retained earnings on the balance sheet. Option A is wrong; they are separate statements. Option C is wrong; operating income never appears on the balance sheet. Option D reverses the descriptions — the balance sheet is the snapshot (point in time) and the income statement measures performance over a period."
+      }
+    ]
+  },
+  {
+    id: "retained-earnings-calculation",
+    category: "Equities",
+    title: "Retained Earnings: Ending Balance Calculation",
+    color: "#7EC8A4",
+    analogy: "Retained earnings work like a company's savings account. You start the year with a balance, deposit the year's profits (net income), and withdraw whatever gets paid out to shareholders (dividends). Whatever remains in the account at year-end is the new retained earnings balance — carried forward to the next year.",
+    rule: "**Ending Retained Earnings = Beginning Retained Earnings + Net Income − Dividends Paid.** Retained earnings represent accumulated profits kept in the business rather than distributed. They appear in the stockholders' equity section of the balance sheet and increase with profits, decrease with dividends or net losses.",
+    watch: "Two common traps: (1) forgetting to subtract dividends and stopping at Beginning RE + Net Income, or (2) reporting only the current year's net income as if it were the full retained earnings balance. Always start with the beginning balance — retained earnings accumulate over the life of the company.",
+    quiz: [
+      {
+        q: "A company begins the year with $7 million in retained earnings, earns $3 million in post-tax profits, and pays $1 million in dividends. What are the ending retained earnings?",
+        options: [
+          "$7 million",
+          "$10 million",
+          "$9 million",
+          "$3 million"
+        ],
+        answer: 2,
+        explain: "Ending RE = $7M + $3M − $1M = $9M. Option A ($7M) ignores net income entirely. Option B ($10M) adds net income but forgets to subtract the dividend. Option D ($3M) confuses the year's net income with the total retained earnings balance — a classic trap on calculation questions."
+      },
+      {
+        q: "Which of the following would cause a company's retained earnings to decrease?",
+        options: [
+          "Issuing new shares of common stock",
+          "Reporting a net loss for the year",
+          "Increasing the par value of existing shares",
+          "Receiving a loan from a bank"
+        ],
+        answer: 1,
+        explain: "Retained earnings decrease when the company pays dividends or reports a net loss (since losses subtract from accumulated profits). Option A (issuing shares) increases paid-in capital, a separate equity account — not retained earnings. Option C (par value changes) is an accounting reclassification within equity, not a change to retained earnings. Option D (bank loan) affects liabilities and assets, not equity."
+      }
+    ]
+  },
+  {
+    id: "cash-flow-increases",
+    category: "Equities",
+    title: "What Increases a Company's Cash Flow",
+    color: "#7EC8A4",
+    analogy: "Think of cash flow like the actual money in your wallet — not what you've earned, not what you're owed, but what you can physically spend right now. Borrowing money from a friend puts cash in your wallet immediately, even if you owe it back. Selling something on credit is like handing over your product and getting an IOU — your wallet doesn't get heavier until they actually pay. Cash flow is about what hits the account, not what's on paper.",
+    rule: "Cash flow increases when **actual cash is received** — such as issuing debt (bonds) or equity, collecting receivables, or generating cash sales. Issuing a bond brings in immediate cash as a financing inflow. **Increasing inventory consumes cash** (purchasing goods). **Extending credit delays cash collection** — it records revenue but not yet cash. **Reducing sales reduces operating cash inflows.**",
+    watch: "The biggest trap is confusing revenue/profit with cash. Extending credit to customers books a sale on the income statement but produces zero immediate cash — it creates accounts receivable instead. A company can be highly profitable on paper and still be cash-poor if most sales are on credit. Cash flow ≠ net income.",
+    quiz: [
+      {
+        q: "Which of the following would have the effect of increasing a company's cash flow?",
+        options: [
+          "Issuance of a bond",
+          "Increasing inventory",
+          "Reducing sales",
+          "Extending credit to good customers"
+        ],
+        answer: 0,
+        explain: "Issuing a bond generates an immediate cash inflow (a financing activity) — the company receives cash from bondholders now, regardless of future repayment obligations. Increasing inventory (B) consumes cash to purchase goods. Reducing sales (C) lowers operating cash inflows. Extending credit (D) records revenue but delays actual cash collection — it creates accounts receivable, not immediate cash."
+      },
+      {
+        q: "A company reports strong net income for the quarter but is experiencing a cash shortage. Which of the following could best explain this situation?",
+        options: [
+          "The company issued too many bonds during the quarter",
+          "The company made most of its sales on credit, creating large accounts receivable",
+          "The company reduced its inventory levels significantly",
+          "The company collected more receivables than it generated in new sales"
+        ],
+        answer: 1,
+        explain: "Cash flow and net income diverge when sales are made on credit. Revenue is recognized when earned (boosting net income), but cash only arrives when customers actually pay. Large accounts receivable means profits are on paper but cash hasn't been collected — a classic cause of cash shortages at profitable companies. Option A (issuing bonds) would increase cash, not reduce it. Option C (reducing inventory) frees up cash. Option D (collecting receivables) also increases cash."
+      }
+    ]
+  },
+  {
+    id: "sec-form-8k",
+    category: "Regulations",
+    title: "SEC Form 8-K: Current Report for Material Events",
+    color: "#FF6B6B",
+    analogy: "Think of SEC filings like a company's communication schedule. The 10-K is the detailed annual letter sent to investors every year. The 10-Q is the shorter quarterly update. But the 8-K is the urgent text message — sent within 4 business days whenever something big and unexpected happens that investors need to know about right now, like selling a major subsidiary, replacing the CEO, or filing for bankruptcy.",
+    rule: "**Form 8-K** is filed to disclose material corporate events within **4 business days** of occurrence. Triggering events include acquisitions or divestitures (like selling a subsidiary), executive changes, bankruptcy, and changes in auditors. **Form 10-K** = annual audited report. **Form 10-Q** = quarterly unaudited report (filed 3x/year). **Form 13F** = quarterly portfolio disclosure by institutional managers with ≥$100M AUM.",
+    watch: "Don't confuse 8-K (material event disclosure) with 10-K (annual report) just because they sound similar. The '8' is the clue — think '8-K = Breaking news.' Also remember 13F is about large investors disclosing their holdings, not about corporate events at all.",
+    quiz: [
+      {
+        q: "If a publicly traded corporation was going to sell a wholly owned subsidiary, the information would be made available through the filing of Form:",
+        options: [
+          "13F",
+          "10-K",
+          "8-K",
+          "10-Q"
+        ],
+        answer: 2,
+        explain: "The sale of a wholly owned subsidiary is a material corporate event requiring prompt disclosure via Form 8-K, which must be filed within 4 business days. Form 10-K (B) is the annual report and would eventually reference the event but is not the disclosure vehicle. Form 10-Q (D) is the quarterly report — same issue. Form 13F (A) is filed by large institutional investors to disclose their equity holdings and has nothing to do with corporate events."
+      },
+      {
+        q: "Which of the following events would NOT typically trigger a Form 8-K filing?",
+        options: [
+          "The CEO resigns unexpectedly",
+          "The company files for bankruptcy protection",
+          "The company releases its routine quarterly earnings report",
+          "The company acquires a major competitor"
+        ],
+        answer: 2,
+        explain: "Routine quarterly earnings are disclosed via Form 10-Q — a scheduled filing, not a material event bulletin. The 8-K is reserved for unscheduled, material developments: executive departures (A), bankruptcy filings (B), and major acquisitions (D) all qualify as material events requiring prompt 8-K disclosure."
+      },
+      {
+        q: "Form 13F is required to be filed by:",
+        options: [
+          "All publicly traded companies on a quarterly basis",
+          "Institutional investment managers with at least $100 million in equity assets under management",
+          "Any investor who acquires more than 5% of a company's outstanding shares",
+          "Broker-dealers executing trades on behalf of foreign investors"
+        ],
+        answer: 1,
+        explain: "Form 13F is a quarterly portfolio disclosure required of institutional investment managers with $100M or more in qualifying equity assets — think mutual funds, pension funds, and hedge funds. Option A confuses it with 10-Q. Option C describes Schedule 13D/13G (large ownership disclosures). Option D is unrelated to 13F."
+      }
+    ]
+  },
+  {
+    id: "current-liabilities-balance-sheet",
+    category: "Equities",
+    title: "Current vs. Long-Term Liabilities on the Balance Sheet",
+    color: "#7EC8A4",
+    analogy: "Think of a company's balance sheet like a household budget divided into two timeframes. Current liabilities are the bills due this month — the credit card balance, the utility bill, the rent you owe. Long-term liabilities are the big multi-year debts — the mortgage, the car loan. Accounts payable is like an unpaid vendor invoice due in 30 days: clearly in the 'due soon' pile. A mortgage stretches over decades, so it lives in the long-term column.",
+    rule: "**Current liabilities** are obligations due within **one year**: accounts payable, accrued expenses, dividends payable, and the current portion of long-term debt. **Long-term liabilities** are due beyond one year: mortgage payable, bonds payable, deferred taxes. Key distinctions: accounts **payable** = liability (cash going out); accounts **receivable** = asset (cash coming in). Prepaid expenses are current **assets**, not liabilities.",
+    watch: "Mortgage payable is the classic trap — it sounds like a liability (it is), but it's long-term, not current. Also watch for the receivable/payable flip: receivables are always assets, payables are always liabilities. Prepaid rent is an asset (you've already paid for future value you'll receive), not a liability.",
+    quiz: [
+      {
+        q: "Current liabilities on a company's balance sheet would include:",
+        options: [
+          "Accounts receivable",
+          "Prepaid rent",
+          "Accounts payable",
+          "Mortgage payable"
+        ],
+        answer: 2,
+        explain: "Accounts payable represents short-term obligations to vendors, typically due within 30-90 days — a textbook current liability. Accounts receivable (A) is a current asset (money owed TO the company). Prepaid rent (B) is also a current asset (future value already paid for). Mortgage payable (D) is a long-term liability — the repayment timeline extends well beyond one year."
+      },
+      {
+        q: "Which of the following would be classified as a current asset on the balance sheet?",
+        options: [
+          "Accounts payable",
+          "Prepaid insurance",
+          "Mortgage payable",
+          "Bonds payable"
+        ],
+        answer: 1,
+        explain: "Prepaid insurance is a current asset — the company has paid cash in advance for future coverage, representing value it will receive within the next year. Accounts payable (A) is a current liability. Mortgage payable (C) and bonds payable (D) are long-term liabilities. The key: if the company paid ahead for something it will consume within a year, that's a prepaid current asset."
+      },
+      {
+        q: "A company has a 20-year mortgage with $500,000 remaining. Of that, $20,000 is due within the next 12 months. How should this appear on the balance sheet?",
+        options: [
+          "$500,000 under long-term liabilities only",
+          "$20,000 under current liabilities; $480,000 under long-term liabilities",
+          "$500,000 under current liabilities only",
+          "$20,000 under long-term liabilities; $480,000 under current liabilities"
+        ],
+        answer: 1,
+        explain: "The current portion of long-term debt — the amount due within one year — is separated out and shown under current liabilities ($20,000). The remaining balance ($480,000) stays under long-term liabilities. This split gives users of the financial statements a clear picture of near-term cash obligations. Option A incorrectly lumps everything into long-term; Options C and D get the split backward."
+      }
+    ]
+  },
+  {
+    id: "8k-board-resignation",
+    category: "Regulations",
+    title: "Form 8-K: Board Resignations and Leadership Changes",
+    color: "#FF6B6B",
+    analogy: "Imagine you're a shareholder in a company and you find out — weeks later — that two board members quit over a heated disagreement about the company's direction. You'd be furious that no one told you sooner. The 8-K requirement exists to prevent exactly that: whenever something material happens at the leadership level, the company has four business days to put it on the public record through the SEC.",
+    rule: "A board director resignation — especially one citing a disagreement — is a **material event** requiring a **Form 8-K filed with the SEC within four business days**. Leadership changes (directors, executives), major transactions, bankruptcy, and auditor changes all trigger 8-K filings. The materiality test: would a reasonable investor consider this important to their investment decision?",
+    watch: "Watch for wrong answers that swap in the wrong form (10-K), the wrong deadline (next business day), or the wrong regulator (FINRA). FINRA governs broker-dealers — it has no role in a public company's board disclosures. The SEC is always the correct regulator for public company reporting obligations.",
+    quiz: [
+      {
+        q: "When a member of the board of directors of a publicly traded company resigns due to a disagreement over an operational matter:",
+        options: [
+          "Form 8-K must be filed with the SEC within four business days of the event",
+          "Form 10-K must be filed with the SEC within four business days of the event",
+          "The administrator must be notified no later than the close of the business day following the event",
+          "FINRA must be notified promptly"
+        ],
+        answer: 0,
+        explain: "A contentious board resignation is a material event requiring an 8-K filed with the SEC within four business days. Option B is wrong on the form — the 10-K is the scheduled annual report, not an event-triggered filing. Option C invents a next-business-day deadline that doesn't apply here. Option D is wrong on the regulator — FINRA oversees broker-dealers, not public company board governance; the SEC is the correct authority."
+      },
+      {
+        q: "Which of the following best describes the SEC's materiality standard for determining whether a Form 8-K must be filed?",
+        options: [
+          "Any event that results in a change to the company's stock price",
+          "Any event that the company's legal counsel deems significant",
+          "Any event a reasonable investor would consider important in making an investment decision",
+          "Any event that changes the company's annual earnings forecast"
+        ],
+        answer: 2,
+        explain: "The SEC's materiality standard is whether a reasonable investor would consider the information important when making an investment decision. This is a broad, judgment-based standard — not tied to stock price movement (A), attorney opinion (B), or earnings forecasts specifically (D). It's why board disagreements, executive departures, and major transactions all qualify: they could all affect how a reasonable investor evaluates the company."
+      }
+    ]
+  },
+  {
+    id: "depreciation-cash-flow-addback",
+    category: "Equities",
+    title: "Depreciation Add-Back: Indirect Method of Operating Cash Flow",
+    color: "#7EC8A4",
+    analogy: "Imagine you bought a delivery van for your business three years ago. Each year, you record a depreciation expense on your income statement — but you're not writing a check to anyone. The cash left when you bought the van. Depreciation quietly shrinks your reported profit without touching your bank account. So when analysts want to know how much cash the business actually generated, they start with net income and add depreciation right back — undoing that non-cash reduction.",
+    rule: "**Cash Flow from Operations (indirect method) = Net Income + Depreciation + other non-cash charges.** Depreciation is a non-cash expense that reduces net income on the income statement without any actual cash outflow. Adding it back to net income converts accounting profit into operating cash flow. The original cash outflow for the asset appears in **investing activities** when the asset was purchased — not in operating cash flow.",
+    watch: "Don't confuse where depreciation shows up at purchase vs. over time. Buying the asset = investing activity (cash out). Annual depreciation = non-cash operating expense that gets added back when computing operating cash flow. The exam may also test this in reverse: higher depreciation means lower net income but does NOT mean lower cash flow.",
+    quiz: [
+      {
+        q: "When an analyst adds back the current year's depreciation to net income, she is computing the company's:",
+        options: [
+          "Cash flow from operations",
+          "Cash flow from investments",
+          "Earnings per share",
+          "Net value of fixed assets"
+        ],
+        answer: 0,
+        explain: "Adding depreciation back to net income is the first step in the indirect method of computing operating cash flow. Depreciation is a non-cash expense that reduces net income without any cash outflow, so it must be added back to arrive at actual cash generated from operations. Cash flow from investments (B) is where the original asset purchase appears. Earnings per share (C) uses net income as-is, divided by shares outstanding. Net value of fixed assets (D) is a balance sheet figure equal to cost minus accumulated depreciation."
+      },
+      {
+        q: "A company reports net income of $500,000 and depreciation expense of $80,000 for the year. Using the indirect method, what is its approximate cash flow from operations (assuming no other adjustments)?",
+        options: [
+          "$420,000",
+          "$500,000",
+          "$580,000",
+          "$80,000"
+        ],
+        answer: 2,
+        explain: "Operating cash flow (indirect method) = Net Income + Depreciation = $500,000 + $80,000 = $580,000. Option A ($420,000) incorrectly subtracts depreciation — the opposite of the correct adjustment. Option B ($500,000) ignores the add-back entirely. Option D ($80,000) is just the depreciation figure alone. Since depreciation is non-cash, real cash generation exceeds reported net income."
+      },
+      {
+        q: "A company purchases new equipment for $200,000. Over its useful life, the company depreciates the equipment at $20,000 per year. Where does each of these appear on the cash flow statement?",
+        options: [
+          "Both the purchase and annual depreciation appear in investing activities",
+          "The purchase appears in financing activities; depreciation appears in operating activities",
+          "The purchase appears in investing activities; annual depreciation is added back in operating activities",
+          "Both appear in operating activities under the indirect method"
+        ],
+        answer: 2,
+        explain: "The $200,000 cash purchase is an investing activity — acquiring a long-term asset. The annual $20,000 depreciation is a non-cash operating expense that gets added back to net income when computing operating cash flow under the indirect method. These are two separate events on the cash flow statement: the one-time cash outflow at purchase, and the ongoing non-cash accounting adjustment each year thereafter."
+      }
+    ]
+  },
+  {
+    id: "owners-equity-components",
+    category: "Equities",
+    title: "Components of Owners' Equity on the Balance Sheet",
+    color: "#7EC8A4",
+    analogy: "Think of owners' equity like the 'net worth' section of a personal balance sheet. It includes what you put in (paid-in capital, like your initial investment), what you've accumulated over time (retained earnings, like your savings), and adjustments for shares bought back (treasury stock, like money you took back out). Net income is what you earned this year — but it doesn't sit in your net worth column directly. It flows into your savings account (retained earnings) first, and that's what shows up on the balance sheet.",
+    rule: "The owners' equity section of a balance sheet includes: **paid-in capital** (common and preferred stock at par + additional paid-in capital), **retained earnings** (accumulated net income minus dividends), and **treasury stock** (repurchased shares, shown as a negative/contra-equity item). **Net income is an income statement item** — it does not appear directly in owners' equity. It flows into retained earnings at period end, and retained earnings is what appears on the balance sheet.",
+    watch: "Net income is the most tempting wrong answer because it clearly affects equity — but it affects it *indirectly*, through retained earnings. The balance sheet shows retained earnings (the accumulated total), not net income (the current period's contribution). This is the same income statement vs. balance sheet distinction tested throughout this topic area.",
+    quiz: [
+      {
+        q: "The owners' equity portion of a corporation's balance sheet would contain all of the following EXCEPT:",
+        options: [
+          "Paid-in capital",
+          "Net income",
+          "Treasury stock",
+          "Preferred stock"
+        ],
+        answer: 1,
+        explain: "Net income is an income statement item — it does not appear as a line item in the owners' equity section of the balance sheet. It flows into retained earnings at year-end, and retained earnings is the equity account that appears on the balance sheet. Paid-in capital (A), treasury stock (C), and preferred stock (D) are all direct components of owners' equity. Treasury stock is unique in that it reduces equity (shown as a negative), but it still lives in the equity section."
+      },
+      {
+        q: "A company earned $2 million in net income this year and paid $500,000 in dividends. Which balance sheet account is most directly affected?",
+        options: [
+          "Paid-in capital",
+          "Treasury stock",
+          "Retained earnings",
+          "Accounts payable"
+        ],
+        answer: 2,
+        explain: "Net income flows into retained earnings, and dividends are subtracted from retained earnings — so this year's activity increases retained earnings by $1.5 million ($2M − $0.5M). Paid-in capital (A) only changes when new shares are issued. Treasury stock (B) changes when shares are repurchased. Accounts payable (D) is a current liability with no direct link to net income or dividends."
+      },
+      {
+        q: "Treasury stock is best described as:",
+        options: [
+          "Stock issued by the U.S. Treasury Department",
+          "Shares of the company's own stock that have been repurchased and are held by the company",
+          "A type of preferred stock with guaranteed dividends",
+          "New shares issued to raise additional paid-in capital"
+        ],
+        answer: 1,
+        explain: "Treasury stock is a company's own shares that it has bought back from investors. It reduces total owners' equity and is shown as a negative (contra-equity) line item on the balance sheet. Option A is a common misconception — Treasury securities are government debt instruments, completely unrelated. Option C describes a feature of some preferred stock, not treasury stock. Option D describes a new issuance, which would increase paid-in capital, the opposite effect."
+      }
+    ]
   }
 ];
 

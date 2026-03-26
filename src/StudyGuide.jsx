@@ -2225,6 +2225,402 @@ const CONCEPTS = [
         explain: "Treasury stock is a company's own shares that it has bought back from investors. It reduces total owners' equity and is shown as a negative (contra-equity) line item on the balance sheet. Option A is a common misconception — Treasury securities are government debt instruments, completely unrelated. Option C describes a feature of some preferred stock, not treasury stock. Option D describes a new issuance, which would increase paid-in capital, the opposite effect."
       }
     ]
+  },
+  {
+    id: "bond-repurchase-at-discount",
+    category: "Bonds",
+    title: "Retiring Bonds at a Discount",
+    color: "#E8C547",
+    analogy: "Imagine you borrowed $1,000 from a friend and wrote him an IOU. Later, he needs quick cash and offers to let you tear up the IOU for just $800. You pay $800 in cash, but you just erased a $1,000 debt — so you pocketed a $200 gain. That's exactly what happens when a corporation buys back its bonds below face value.",
+    rule: "When a corporation retires outstanding bonds at a discount (below carrying value), two things happen simultaneously: cash (a current asset) is paid out, which **reduces working capital** (current assets − current liabilities); and the difference between carrying value and the repurchase price is recognized as a **gain on debt retirement**, which flows into net income and increases **net worth (stockholders' equity)**. The bonds themselves are long-term liabilities, so retiring them does not directly affect current liabilities.",
+    watch: "Don't assume that spending cash always hurts net worth — here it actually helps it. The trap is thinking the cash outflow reduces equity, but the gain from retiring debt below book value more than offsets it. Also remember: the bonds are long-term liabilities, so they never touch working capital directly — only the cash payment does.",
+    quiz: [
+      {
+        q: "A corporation repurchases its outstanding 20-year bonds at a discount due to rising market interest rates. Which of the following correctly describes the impact?",
+        options: [
+          "Working capital increases and net worth increases",
+          "Working capital decreases and net worth increases",
+          "Working capital increases and net worth decreases",
+          "Working capital decreases and net worth decreases"
+        ],
+        answer: 1,
+        explain: "Cash (a current asset) is used to retire the bonds, so working capital falls. However, because the bonds are repurchased below their carrying value, the company records a gain on debt retirement, which boosts net income and retained earnings — increasing net worth. Option A is wrong because cash is being spent, not received. Options C and D are wrong because a below-par repurchase creates a gain, not a loss."
+      },
+      {
+        q: "Why does retiring long-term bonds NOT directly affect current liabilities?",
+        options: [
+          "Because bond repurchases are recorded as equity transactions",
+          "Because the bonds are classified as long-term liabilities, not current liabilities",
+          "Because only the interest expense affects current liabilities",
+          "Because discounted bonds are removed from the balance sheet entirely before maturity"
+        ],
+        answer: 1,
+        explain: "Working capital is current assets minus current liabilities. Long-term bonds sit in the long-term liabilities section of the balance sheet, so retiring them has no effect on current liabilities. The only working capital impact comes from the cash (a current asset) paid out. Options A, C, and D describe rules that don't exist."
+      },
+      {
+        q: "A company carries bonds on its books at $500,000 and repurchases them for $440,000. What is the effect on net worth?",
+        options: [
+          "Net worth decreases by $440,000",
+          "Net worth decreases by $500,000",
+          "Net worth increases by $60,000",
+          "Net worth is unchanged because it is a liability transaction"
+        ],
+        answer: 2,
+        explain: "The gain on retirement is the difference between the carrying value ($500,000) and the repurchase price ($440,000), which equals $60,000. This gain is recognized in net income and increases retained earnings, raising net worth by $60,000. The cash outflow of $440,000 reduces working capital but does not eliminate the gain already booked."
+      }
+    ]
+  },
+  {
+    id: "statement-of-cash-flows",
+    category: "Bonds",
+    title: "Statement of Cash Flows — Net Change in Cash",
+    color: "#E8C547",
+    analogy: "Think of the statement of cash flows like a road trip log. Operations is the fuel you burned driving around town, investing is the money you spent on a new car, and financing is the loan you took out to buy it. Add those three columns up and you get one simple answer: are you richer or poorer in cash than when you left the driveway? That's the net change — and it lives in the trip log, not on your bank statement.",
+    rule: "The statement of cash flows is a **standalone financial statement** with three sections: operating, investing, and financing activities. The sum of these three sections equals the **net change in the firm's cash position** for the reporting period. This total is neither reported on the income statement (which uses accrual accounting) nor listed as a separate line item on the balance sheet — though it does reconcile the beginning and ending cash balances shown there.",
+    watch: "The trap is confusing the *ending cash balance* (which does appear on the balance sheet) with the *total of the three cash flow sections* (which does not). The balance sheet shows where you ended up; the cash flow statement explains how you got there. They are related, but they are not the same thing.",
+    quiz: [
+      {
+        q: "The total of cash from operations, investing, and financing on the statement of cash flows represents:",
+        options: [
+          "Cash income as reported on the income statement",
+          "A separate line item on the balance sheet",
+          "The net change in the firm's cash position for the period",
+          "A footnote disclosure required under GAAP"
+        ],
+        answer: 2,
+        explain: "The three sections of the cash flow statement sum to the net change in cash for the period — how much cash the firm gained or lost. This figure is not found on the income statement (which is accrual-based) or as a separate balance sheet line item. Options A and D describe entirely different reporting elements."
+      },
+      {
+        q: "Why does the income statement NOT reflect the total cash change shown on the statement of cash flows?",
+        options: [
+          "Because the income statement only covers investing and financing activities",
+          "Because the income statement uses accrual accounting, not cash accounting",
+          "Because cash flow totals are only reported in the footnotes",
+          "Because the income statement only reports changes in equity"
+        ],
+        answer: 1,
+        explain: "The income statement records revenues when earned and expenses when incurred — regardless of when cash moves. This accrual basis means profit can exist without cash (e.g., credit sales), and cash can move without profit (e.g., paying down debt). The cash flow statement was created specifically to fill that gap."
+      },
+      {
+        q: "Which of the following correctly describes the relationship between the cash flow statement and the balance sheet?",
+        options: [
+          "The cash flow statement is a subsection of the balance sheet",
+          "The net change in cash reconciles the beginning and ending cash balances on the balance sheet",
+          "The balance sheet reports the total of all three cash flow sections as a single line item",
+          "They report identical information in different formats"
+        ],
+        answer: 1,
+        explain: "The cash flow statement is a separate financial statement, but its net result — the change in cash — explains the movement between the beginning and ending cash figures on the balance sheet. This is the reconciliation link between the two statements. Option C is the classic trap answer: the balance sheet shows the ending cash balance, not the cash flow total."
+      }
+    ]
+  },
+  {
+    id: "long-term-vs-current-liabilities",
+    category: "Bonds",
+    title: "Fixed (Long-Term) vs. Current Liabilities",
+    color: "#E8C547",
+    analogy: "Think of the liability side of a balance sheet like a bill organizer on your kitchen counter. The slot labeled 'Pay This Month' holds your current liabilities — rent, credit card bills, anything due soon. The slot labeled 'Pay Later' holds your long-term liabilities — your mortgage, your car loan. The one-year mark is the divider between the two slots.",
+    rule: "Liabilities on the balance sheet are classified by the **one-year rule**: debts due within one year are **current liabilities** (e.g., accounts payable, accrued wages, short-term notes). Debts due **more than one year** from the balance sheet date are **fixed or long-term liabilities** (e.g., bonds payable, mortgages, long-term leases). Current liabilities are listed first, followed by long-term liabilities.",
+    watch: "Don't confuse 'deferred charges' with liabilities — they are prepaid costs sitting on the *asset* side of the balance sheet, not the liability side. Also watch for the 'current portion of long-term debt': the piece of a long-term loan due within the next 12 months is reclassified as a current liability, even though the rest of the loan is long-term.",
+    quiz: [
+      {
+        q: "Debts that will come due more than one year after the balance sheet date are classified as:",
+        options: [
+          "Current liabilities",
+          "Deferred charges",
+          "Accounts payable",
+          "Fixed (or long-term) liabilities"
+        ],
+        answer: 3,
+        explain: "The one-year rule is the dividing line on the balance sheet. Obligations due beyond one year are long-term (fixed) liabilities. Current liabilities are due within one year. Accounts payable is a specific current liability. Deferred charges are prepaid assets, not liabilities at all."
+      },
+      {
+        q: "A company has a mortgage with $950,000 remaining, of which $50,000 is due within the next 12 months. How should this be reported?",
+        options: [
+          "The entire $950,000 as a long-term liability",
+          "The entire $950,000 as a current liability",
+          "$50,000 as a current liability and $900,000 as a long-term liability",
+          "$50,000 as a deferred charge and $900,000 as a long-term liability"
+        ],
+        answer: 2,
+        explain: "The portion of long-term debt due within 12 months ($50,000) must be reclassified as a current liability. The remaining $900,000 stays as a long-term liability. This split is a classic exam application of the one-year rule and a frequent source of errors."
+      },
+      {
+        q: "Which of the following would be classified as a current liability on the balance sheet?",
+        options: [
+          "A 10-year bond issued last year",
+          "A mortgage payable due in 15 years",
+          "Accounts payable due in 30 days",
+          "A deferred charge for prepaid insurance"
+        ],
+        answer: 2,
+        explain: "Accounts payable due in 30 days is a short-term obligation — clearly within the one-year window — making it a current liability. Long-term bonds and mortgages due beyond one year are long-term liabilities. Deferred charges are prepaid assets, not liabilities of any kind."
+      }
+    ]
+  },
+  {
+    id: "owners-equity-accounting-equation",
+    category: "Bonds",
+    title: "Owners' Equity & the Accounting Equation",
+    color: "#E8C547",
+    analogy: "Picture a house worth $400,000 with a $250,000 mortgage. The bank has a claim on $250,000 of it — that's the liability. What's left, $150,000, is yours — that's the owner's equity. Scale that up to a corporation and you have the entire logic of the balance sheet: assets minus liabilities equals what belongs to the owners.",
+    rule: "The **fundamental accounting equation** is: **Assets − Liabilities = Owners' Equity (Net Worth)**. This can also be written as Assets = Liabilities + Owners' Equity. Owners' equity goes by several interchangeable names on the Series 65: **owners' equity, shareholders' equity, stockholders' equity,** and **net worth**. It is composed of paid-in capital plus retained earnings, and it represents the residual claim of the owners after all debts are settled.",
+    watch: "Retained earnings is a *component* of owners' equity, not a synonym for it. The full result of assets minus liabilities is owners' equity — retained earnings is just one slice of that total. Also don't confuse equity (a balance sheet concept measuring value at a point in time) with net income or operating income (income statement concepts measuring profitability over a period of time).",
+    quiz: [
+      {
+        q: "A term used to describe the result of subtracting a corporation's liabilities from its assets is:",
+        options: [
+          "Owners' equity",
+          "Operating income",
+          "Retained earnings",
+          "Net income"
+        ],
+        answer: 0,
+        explain: "Assets minus liabilities equals owners' equity (also called net worth or shareholders' equity). Retained earnings is only a component of owners' equity, not the full result. Operating income and net income are income statement items that measure profitability — they are not derived from the balance sheet formula."
+      },
+      {
+        q: "Which of the following are equivalent terms for the same concept? I. Net worth  II. Retained earnings  III. Shareholders' equity  IV. Owners' equity",
+        options: [
+          "I and II only",
+          "II, III, and IV only",
+          "I, III, and IV only",
+          "I, II, III, and IV"
+        ],
+        answer: 2,
+        explain: "Net worth, shareholders' equity, and owners' equity all refer to the same thing: assets minus liabilities. Retained earnings is different — it is one component within owners' equity (accumulated profits not paid as dividends), not a synonym for the whole. Knowing all three interchangeable names for owners' equity is a direct Series 65 exam objective."
+      },
+      {
+        q: "A corporation has total assets of $8,000,000 and total liabilities of $5,500,000. What is its net worth?",
+        options: [
+          "$5,500,000",
+          "$2,500,000",
+          "$8,000,000",
+          "$13,500,000"
+        ],
+        answer: 1,
+        explain: "Net worth = Assets − Liabilities = $8,000,000 − $5,500,000 = $2,500,000. Option A is just the liabilities figure. Option C is just the assets figure. Option D is the sum of assets and liabilities, which has no financial meaning in this context."
+      },
+      {
+        q: "Retained earnings on a balance sheet represents:",
+        options: [
+          "The total of all assets minus all liabilities",
+          "The dividends paid to shareholders during the period",
+          "Cumulative net income kept in the business rather than distributed as dividends",
+          "The par value of shares issued by the corporation"
+        ],
+        answer: 2,
+        explain: "Retained earnings is the running total of net income that has been reinvested in the business rather than paid out as dividends. It is a component of owners' equity, not the whole of it. Par value of shares is a separate component called paid-in (or contributed) capital."
+      }
+    ]
+  },
+  {
+    id: "annual-report-vs-10k",
+    category: "Regulations",
+    title: "Annual Report vs. Form 10-K — Planned Operations",
+    color: "#FF6B6B",
+    analogy: "The Form 10-K is like a detailed tax return — thorough, legally required, backward-looking, and written for regulators. The annual report is like a letter from the CEO to the family — it covers last year's results AND lays out the vision and plans for the future. If you want to know where the company is *going*, you read the letter, not the tax return.",
+    rule: "The **annual report to shareholders** is the best source of information about a corporation's **current and planned operations** because it contains both a complete financial report of the prior year *and* a statement from key executives discussing **future plans and strategy**. The **Form 10-K** is an SEC-required filing that is more detailed and audited, but it is primarily a **backward-looking** compliance document covering the prior fiscal year — it does not include forward-looking discussion of future business plans.",
+    watch: "The Form 10-K is the classic trap answer here — it sounds more official and comprehensive, but the exam draws a sharp distinction: the 10-K covers the *past*, while the annual report covers both the *past and the future*. Whenever the question includes the word 'planned,' the annual report wins over the 10-K.",
+    quiz: [
+      {
+        q: "Investors wishing to find information about a corporation's current AND planned future operations should seek out:",
+        options: [
+          "Form 10-K",
+          "The annual report to shareholders",
+          "The balance sheet",
+          "The investor's brochure"
+        ],
+        answer: 1,
+        explain: "The annual report contains both the financial history of the prior year and executive commentary on future plans — making it the best source for planned operations. The 10-K is a detailed SEC filing but focuses on the prior fiscal year only. The balance sheet is a single financial statement. The investor's brochure is a marketing document."
+      },
+      {
+        q: "Which of the following best describes the key difference between the annual report and Form 10-K?",
+        options: [
+          "The 10-K is filed annually; the annual report is filed quarterly",
+          "The annual report includes forward-looking executive statements about future plans; the 10-K is a backward-looking regulatory filing",
+          "The 10-K includes future business plans; the annual report covers only past performance",
+          "The annual report is filed with the SEC; the 10-K is sent only to shareholders"
+        ],
+        answer: 1,
+        explain: "The defining distinction is direction: the annual report looks both backward (financials) and forward (executive commentary on plans), while the 10-K is a comprehensive but backward-looking regulatory filing. Option C has the two reversed — a common trap. Option D has the filing parties backwards as well."
+      },
+      {
+        q: "A corporation's Form 10-K would be LEAST useful for an investor who wants to understand:",
+        options: [
+          "The company's audited financial statements",
+          "Legal proceedings the company is involved in",
+          "Management's plans and strategic outlook for the coming year",
+          "Risk factors that could affect the business"
+        ],
+        answer: 2,
+        explain: "The 10-K excels at audited financials, legal disclosures, and risk factors — all backward-looking or compliance-driven content. What it lacks is a forward-looking executive narrative about future strategy and plans. That content lives in the annual report's letter to shareholders. Options A, B, and D are all well-covered in the 10-K."
+      }
+    ]
+  },
+  {
+    id: "audit-opinions-gaap",
+    category: "Regulations",
+    title: "Audit Opinions — Unqualified to Adverse",
+    color: "#FF6B6B",
+    analogy: "Think of audit opinions like a car inspection report. An unqualified opinion is the inspector saying 'this car is in perfect condition — no issues.' A qualified opinion is 'mostly fine, but the left rear tire needs attention.' An adverse opinion is 'this car is not roadworthy and should not be on the road.' A disclaimer of opinion is 'I couldn't complete the inspection because the owner wouldn't let me under the hood.'",
+    rule: "Auditors issue one of four opinions under GAAP, ranked best to worst: (1) **Unqualified** — financials are fully GAAP-compliant, no reservations; this is the highest and best opinion. (2) **Qualified** — financials are mostly compliant *except* for one specific flagged issue. (3) **Adverse** — financials materially violate GAAP and are misleading. (4) **Disclaimer of opinion** — auditor could not obtain sufficient evidence to form any opinion.",
+    watch: "The language is counter-intuitive: 'unqualified' sounds negative but means no conditions or limitations — it's the best outcome. 'Qualified' sounds like a credential but means the opinion comes with an exception attached. Don't let everyday English fool you here.",
+    quiz: [
+      {
+        q: "What is the highest audit opinion an independent auditor can issue under GAAP?",
+        options: [
+          "Disclaimer of opinion",
+          "Adverse opinion",
+          "Qualified opinion",
+          "Unqualified opinion"
+        ],
+        answer: 3,
+        explain: "An unqualified opinion means the financials are presented fairly and in full compliance with GAAP — no exceptions, no caveats. It is the best possible outcome. Qualified means one specific issue was flagged. Adverse means financials are materially misstated. A disclaimer means the auditor couldn't form any opinion at all."
+      },
+      {
+        q: "An auditor reviews a company's books and finds that one accounting treatment does not conform to GAAP, but the rest of the financials are sound. What type of opinion would the auditor most likely issue?",
+        options: [
+          "Unqualified opinion",
+          "Qualified opinion",
+          "Adverse opinion",
+          "Disclaimer of opinion"
+        ],
+        answer: 1,
+        explain: "A qualified opinion means the financials are mostly GAAP-compliant except for one specific identified issue. It is not a full clean bill of health (that's unqualified), but it's not a condemnation of the whole set of financials either (that's adverse). A disclaimer is issued when the auditor can't gather enough evidence — not when they find a specific problem."
+      },
+      {
+        q: "Which audit opinion signals that the auditor was unable to gather sufficient evidence to form any conclusion about the financial statements?",
+        options: [
+          "Qualified opinion",
+          "Unqualified opinion",
+          "Adverse opinion",
+          "Disclaimer of opinion"
+        ],
+        answer: 3,
+        explain: "A disclaimer of opinion is issued when the auditor cannot complete the audit — perhaps due to scope restrictions or independence concerns. It is not a judgment that the financials are wrong (that would be adverse); it simply means no opinion can be given. This is distinct from a qualified opinion, which does reach a conclusion but flags one exception."
+      },
+      {
+        q: "Rank the following audit opinions from best to worst for an investor reviewing a public company's financials: I. Adverse  II. Qualified  III. Unqualified  IV. Disclaimer of opinion",
+        options: [
+          "III, II, IV, I",
+          "III, II, I, IV",
+          "II, III, I, IV",
+          "I, II, III, IV"
+        ],
+        answer: 0,
+        explain: "From best to worst: Unqualified (clean, no issues) → Qualified (one exception flagged) → Disclaimer (no opinion possible) → Adverse (financials are materially misstated). The adverse opinion is the worst because it actively says the books are misleading. A disclaimer is bad but doesn't condemn the financials outright."
+      }
+    ]
+  },
+  {
+    id: "form-8k-material-events",
+    category: "Regulations",
+    title: "Form 8-K — Material Event Reporting",
+    color: "#FF6B6B",
+    analogy: "Think of the 8-K as a public company's emergency broadcast system. The 10-K and 10-Q are like scheduled TV programming — they come out on a fixed calendar. But the 8-K is the breaking news alert that interrupts regular programming whenever something big happens. The SEC requires it within 4 business days of any event material enough to affect an investor's decision — because news that moves stocks shouldn't wait for the next quarterly report.",
+    rule: "The **Form 8-K** must be filed within **4 business days** of a material corporate event. Common triggers include: changes in top management (CEO, CFO, directors), changes in the external auditor, acquisitions or disposals of major assets, bankruptcy or receivership, entry into or termination of material agreements, and amendments to the company's charter or bylaws. The test for whether something requires an 8-K is **materiality** — would a reasonable investor consider this important to their investment decision?",
+    watch: "A change in the external auditor always triggers an 8-K — even if the switch seems routine. The SEC treats auditor changes as potentially significant because they may signal disputes over accounting practices. Don't confuse this with internal accounting staff changes, which are not reportable. Also remember: routine operational or administrative events (like relocating a subsidiary) do not meet the materiality threshold.",
+    quiz: [
+      {
+        q: "LMN Manufacturing Company is listed on the NYSE. Which of the following would NOT require the filing of a Form 8-K?",
+        options: [
+          "Relocation of a wholly owned subsidiary",
+          "A change in top management",
+          "A change in the external CPA firm",
+          "Acquisition of a major asset"
+        ],
+        answer: 0,
+        explain: "Relocating a subsidiary is an internal administrative matter that does not meet the materiality standard — it would not affect a reasonable investor's decision. The other three all require 8-K filings: management changes affect who runs the company, auditor changes may signal accounting disputes, and major asset acquisitions transform the company's financials."
+      },
+      {
+        q: "How soon must a public company file a Form 8-K after a triggering material event?",
+        options: [
+          "Within 24 hours",
+          "Within 4 business days",
+          "Within 10 calendar days",
+          "By the end of the current fiscal quarter"
+        ],
+        answer: 1,
+        explain: "The SEC requires an 8-K to be filed within 4 business days of a material event. This ensures investors have timely access to significant developments between the company's regular scheduled filings (10-K annually, 10-Q quarterly)."
+      },
+      {
+        q: "Why does a change in a company's external auditor trigger a Form 8-K filing?",
+        options: [
+          "Because auditor fees must be disclosed to shareholders immediately",
+          "Because all personnel changes at a public company require SEC disclosure",
+          "Because the change may signal a dispute over accounting practices, which investors need to know about",
+          "Because the incoming auditor must be pre-approved by the SEC"
+        ],
+        answer: 2,
+        explain: "Auditor changes are considered potentially material because they may indicate a disagreement between management and the auditor over how financials should be presented — a major red flag for investors. The 8-K requirement (and accompanying disclosures about any disagreements) ensures investors aren't blindsided. Not all personnel changes require 8-K filings — only those at the senior executive or board level."
+      },
+      {
+        q: "Which of the following best describes the purpose of Form 8-K?",
+        options: [
+          "To provide audited annual financial statements to the SEC",
+          "To disclose quarterly earnings and management commentary",
+          "To report material events between regular scheduled SEC filings",
+          "To register new securities with the SEC before a public offering"
+        ],
+        answer: 2,
+        explain: "The 8-K fills the gap between annual (10-K) and quarterly (10-Q) scheduled filings by capturing significant events as they happen. Audited annual financials are in the 10-K. Quarterly results are in the 10-Q. New security registrations use Form S-1 or similar registration statements."
+      }
+    ]
+  },
+  {
+    id: "cash-dividend-accounting",
+    category: "Equities",
+    title: "Cash Dividends — Declaration vs. Payment Effects",
+    color: "#7EC8A4",
+    analogy: "Paying a cash dividend is like writing a check on Monday and having it clear on Friday. The financial damage — the reduction to your account balance — happens the moment you sign the check (declaration), not when it clears (payment). By Friday, you're just settling a debt you already owed. This two-step timing is exactly why the balance sheet effects at declaration and payment are completely different.",
+    rule: "A cash dividend creates two separate accounting events. At **declaration**: retained earnings decrease (reducing shareholders' equity) and dividends payable increases (a new current liability). At **payment**: cash decreases (reducing total assets and current assets) and dividends payable is eliminated (reducing total liabilities and current liabilities). Because both a current asset (cash) and current liability (dividends payable) decrease equally at payment, **working capital is unchanged at payment**. Shareholders' equity is unchanged at payment because it already adjusted at declaration.",
+    watch: "The exam will ask about effects 'when a dividend is paid' — don't include shareholders' equity (IV) or working capital changes (I) in your answer. Equity changed at *declaration*, and working capital changes at declaration too (new liability appears). At *payment*, only total assets (II) and total liabilities (III) change — they both decrease by the same dollar amount.",
+    quiz: [
+      {
+        q: "Which items change on the balance sheet when a company actually pays (not declares) a cash dividend?",
+        options: [
+          "Working capital and shareholders' equity",
+          "Total assets and total liabilities",
+          "Working capital, total assets, and total liabilities",
+          "Total assets, total liabilities, and shareholders' equity"
+        ],
+        answer: 1,
+        explain: "At payment, cash (a current asset) decreases — so total assets fall. Simultaneously, dividends payable (a current liability) is eliminated — so total liabilities fall. Working capital is unchanged because both a current asset and current liability decrease equally. Shareholders' equity already adjusted at the declaration date, not at payment."
+      },
+      {
+        q: "When a cash dividend is declared (but not yet paid), which of the following correctly describes the balance sheet impact?",
+        options: [
+          "Total assets decrease and total liabilities decrease",
+          "Shareholders' equity decreases and current liabilities increase",
+          "Working capital increases and shareholders' equity decreases",
+          "Total assets decrease and shareholders' equity decreases"
+        ],
+        answer: 1,
+        explain: "At declaration, retained earnings are debited (shareholders' equity decreases) and dividends payable is credited (current liabilities increase). Total assets are untouched at this stage — cash hasn't left yet. Working capital falls because a new current liability appeared with no offsetting change to current assets."
+      },
+      {
+        q: "A company declares and pays a $500,000 cash dividend. What is the net effect on working capital from the full two-step process?",
+        options: [
+          "Working capital decreases by $500,000 at declaration and decreases again by $500,000 at payment",
+          "Working capital decreases by $500,000 at declaration; no further change at payment",
+          "Working capital is unchanged at both declaration and payment",
+          "Working capital decreases by $500,000 at payment only"
+        ],
+        answer: 1,
+        explain: "At declaration, dividends payable (a current liability) increases by $500,000 with no change to current assets — so working capital falls by $500,000. At payment, cash (current asset) and dividends payable (current liability) both fall by $500,000, perfectly offsetting each other — working capital is unchanged at this step. The total net effect on working capital is a one-time $500,000 reduction, recognized at declaration."
+      },
+      {
+        q: "At the moment a cash dividend is paid, shareholders' equity is unchanged because:",
+        options: [
+          "Dividends never affect shareholders' equity",
+          "The dividend payment increases retained earnings to offset the cash outflow",
+          "Shareholders' equity already decreased at the declaration date when retained earnings were reduced",
+          "Only stock dividends affect shareholders' equity, not cash dividends"
+        ],
+        answer: 2,
+        explain: "When the dividend was declared, retained earnings were debited — reducing shareholders' equity at that point. By the time payment occurs, that equity reduction is already on the books. The payment entry only removes the liability (dividends payable) and reduces cash, leaving equity untouched. Cash dividends absolutely do affect equity — just at declaration, not payment."
+      }
+    ]
   }
 ];
 

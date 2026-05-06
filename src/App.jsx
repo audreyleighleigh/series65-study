@@ -1,11 +1,6 @@
 import { useState } from "react";
 import StudyGuide from "./StudyGuide.jsx";
 
-const PASSWORD = "series65";
-function loadUnlocked() {
-  try { return sessionStorage.getItem("s65-unlocked") === "true"; } catch { return false; }
-}
-
 const EXAM_DATE = new Date("2026-06-13");
 
 function daysLeft() {
@@ -126,28 +121,8 @@ export default function App() {
     try { return JSON.parse(localStorage.getItem("s65-checked") || "{}"); } catch { return {}; }
   });
   const [expanded, setExpanded] = useState({ u01: true });
-  const [unlocked, setUnlocked] = useState(loadUnlocked);
-  const [shake, setShake] = useState(false);
-
-  const handleLockClick = () => {
-    if (unlocked) {
-      sessionStorage.removeItem("s65-unlocked");
-      setUnlocked(false);
-    } else {
-      const input = window.prompt("Password:");
-      if (input === null) return;
-      if (input === PASSWORD) {
-        sessionStorage.setItem("s65-unlocked", "true");
-        setUnlocked(true);
-      } else {
-        setShake(true);
-        setTimeout(() => setShake(false), 600);
-      }
-    }
-  };
 
   const toggle = (key) => {
-    if (!unlocked) return;
     setChecked((prev) => {
       const next = { ...prev, [key]: !prev[key] };
       try { localStorage.setItem("s65-checked", JSON.stringify(next)); } catch {}
@@ -200,11 +175,6 @@ export default function App() {
         .tab-btn { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #555; cursor: pointer; font-family: 'Source Code Pro', monospace; font-size: 10px; letter-spacing: 0.15em; padding: 5px 12px; transition: all 0.15s; text-transform: uppercase; }
         .tab-btn:hover { border-color: #4a4844; color: #888; }
         .tab-btn.active { border-color: #7EC8A4; color: #7EC8A4; background: #0d1f18; }
-        .lock-btn { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #555; cursor: pointer; font-family: 'Source Code Pro', monospace; font-size: 10px; letter-spacing: 0.15em; padding: 5px 10px; transition: all 0.15s; }
-        .lock-btn:hover { border-color: #4a4844; color: #888; }
-        .lock-btn.unlocked { color: #7EC8A4; border-color: #2a4a3a; }
-        .lock-btn.shake { animation: shake 0.5s ease; }
-        @keyframes shake { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-4px)} 40%{transform:translateX(4px)} 60%{transform:translateX(-4px)} 80%{transform:translateX(4px)} }
         .step-box { width: 15px; height: 15px; border-radius: 3px; border: 1.5px solid #2e2c28; flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.15s; font-size: 9px; color: #0f0e0c; font-weight: bold; }
         .step-box.done { border-color: transparent; }
         .step-label { font-size: 13px; color: #b8b0a0; transition: all 0.2s; flex: 1; }
@@ -217,15 +187,6 @@ export default function App() {
           <button className={`tab-btn ${tab === "log" ? "active" : ""}`} onClick={() => setTab("log")}>Study Log</button>
           <button className={`tab-btn ${tab === "guide" ? "active" : ""}`} onClick={() => setTab("guide")}>Study Guide</button>
         </div>
-        {tab === "log" && (
-          <button
-            className={`lock-btn ${unlocked ? "unlocked" : ""} ${shake ? "shake" : ""}`}
-            onClick={handleLockClick}
-            title={unlocked ? "Click to lock" : "Click to unlock editing"}
-          >
-            {unlocked ? "⊙ editing" : "⊘ locked"}
-          </button>
-        )}
       </div>
 
       {tab === "guide" && <StudyGuide />}
@@ -266,7 +227,7 @@ export default function App() {
                       const key = `${unit.id}-${step.id}`;
                       const isDone = !!checked[key];
                       return (
-                        <div className={`step ${unlocked ? "clickable" : ""}`} key={step.id} onClick={() => toggle(key)}>
+                        <div className="step clickable" key={step.id} onClick={() => toggle(key)}>
                           <div
                             className={`step-box ${isDone ? "done" : ""}`}
                             style={isDone ? { background: unit.color } : {}}

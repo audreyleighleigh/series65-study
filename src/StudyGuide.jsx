@@ -2624,6 +2624,52 @@ const CONCEPTS = [
   }
 ];
 
+const ORIGINS = [
+  {
+    id: "advisers-act-1940",
+    title: "Investment Advisers Act of 1940",
+    color: "#FF6B6B",
+    bigPicture: "Almost every adviser rule on the Series 65 traces back to a multi-year SEC study (1935–1939) that documented investment-counselor abuses around the 1929 crash. The 1940 Act was Congress's response. The second anchor is the Madoff scandal (Dec 2008), which triggered the modern custody-rule overhaul in 2009–2010. NSMIA (1996) is the third anchor — it carved up federal vs. state jurisdiction.",
+    rules: [
+      {
+        name: "Substantial prepayment thresholds",
+        story: "The fear is the 'tout sheet' pattern from the 1920s–30s: adviser collects a big upfront fee, then folds, disappears, or fails to deliver. Client is out the money. The federal threshold sat at $500 for decades and was raised to $1,200 around 2010–2011 with the Form ADV Part 2 modernization. State law (USA) kept the older $500.",
+        mnemonic: "Federal got inflation-adjusted, states didn't."
+      },
+      {
+        name: "Custody requirements ($35K net worth or surety bond)",
+        story: "This is Madoff. He had self-custody of client assets through his broker-dealer affiliate and fabricated statements from roughly 1992–2008 — about $65B in paper losses. Earlier precedent: Bayou Capital / Sam Israel III (2005), a ~$450M Ponzi where the manager controlled the assets. Custody has the highest financial threshold because custody = the ability to make assets disappear entirely.",
+        mnemonic: "Custody = highest bar because custody = total control."
+      },
+      {
+        name: "Discretionary authority ($10K net worth)",
+        story: "Lower threshold because the abuse is smaller in magnitude — typically churning or unauthorized trading rather than outright theft. You can damage an account with discretion, but you generally can't make it vanish.",
+        mnemonic: "Discretion damages; custody disappears."
+      },
+      {
+        name: "Excluding goodwill, home, car, intangibles from net worth",
+        story: "Pre-1940 adviser failures where balance sheets looked solvent because they were padded with 'goodwill' or the founder's house. None of that liquidates to make an injured client whole. The rule says: only count what could actually be grabbed and converted to cash.",
+        mnemonic: "Office furniture counts because the regulator could literally seize and sell the sofa."
+      },
+      {
+        name: "Disclosure of financial impairment",
+        story: "General principle from the 1940 Act, with the SEC's 'large arbitration award' example reflecting real cases where firms kept operating with unsatisfied judgments and didn't tell clients. The bar is 'reasonably likely to impair contractual commitments' — i.e., would a client want to know before writing the check.",
+        mnemonic: "If a reasonable client would want to know — disclose it."
+      },
+      {
+        name: "T+1 notification, T+2 report on net worth deficiency",
+        story: "Mirrors broker-dealer net capital rules. The regulatory pattern across both the 1934 Act and the 1940 Act: regulators need early warning so they can act before client losses cascade. The 'round up to the nearest $5,000' surety bond is just an administrative simplification.",
+        mnemonic: "Early warning is the whole point — the SEC wants notice before the cascade starts."
+      },
+      {
+        name: "NSMIA 1996 / Section 222",
+        story: "By the early 1990s, larger advisers were registering in 50 states with 50 different rule sets — duplicative and expensive. Congress split jurisdiction by AUM. Section 222 specifically prevents states from layering financial/bonding/recordkeeping rules on federal covered advisers.",
+        mnemonic: "NSMIA = 'stop the duplication.'"
+      }
+    ]
+  }
+];
+
 const allQuestions = CONCEPTS.flatMap(c =>
   c.quiz.map(q => ({ ...q, category: c.category, conceptTitle: c.title, color: c.color }))
 );
@@ -2728,7 +2774,7 @@ export default function StudyGuide() {
     if (m !== "quiz") exitQuiz();
   };
 
-  const NAV = [["home", "Overview"], ["flashcards", "Flashcards"], ["quiz", "Quiz"], ["progress", "Progress"]];
+  const NAV = [["home", "Overview"], ["flashcards", "Cards"], ["quiz", "Quiz"], ["origins", "Origins"], ["progress", "Progress"]];
 
   return (
     <div style={{ minHeight: "100vh", background: "#09090f", color: "#ede9e0", fontFamily: "'Georgia', 'Times New Roman', serif", WebkitTapHighlightColor: "transparent" }}>
@@ -3072,6 +3118,42 @@ export default function StudyGuide() {
               })}
             </div>
           </div>
+        </div>
+      )}
+
+      {/* ORIGINS */}
+      {mode === "origins" && (
+        <div style={{ maxWidth: 760, margin: "0 auto", padding: "36px 16px", paddingBottom: "max(36px, env(safe-area-inset-bottom))" }}>
+          <div style={{ marginBottom: 28 }}>
+            <p style={{ fontSize: 11, letterSpacing: 4, color: "#444", textTransform: "uppercase", margin: "0 0 10px" }}>Origins</p>
+            <h1 style={{ fontSize: 24, fontWeight: "normal", margin: "0 0 8px", lineHeight: 1.3 }}>Why these rules exist</h1>
+            <p style={{ fontSize: 13, color: "#666", lineHeight: 1.7, margin: 0 }}>
+              The stories behind the rules — the abuses, scandals, and historical events that prompted each requirement. Stories are mnemonic scaffolding; the dollar amounts and timelines are what get tested.
+            </p>
+          </div>
+
+          {ORIGINS.map(topic => (
+            <div key={topic.id} style={{ marginBottom: 32 }}>
+              <div style={{ padding: "20px 22px", background: "#0f0f18", border: "1px solid #1a1a26", borderLeft: `3px solid ${topic.color}`, borderRadius: 6, marginBottom: 14 }}>
+                <div style={{ fontSize: 9, letterSpacing: 3, color: "#444", textTransform: "uppercase", marginBottom: 8 }}>Big picture</div>
+                <div style={{ fontSize: 16, fontWeight: "bold", color: topic.color, marginBottom: 12 }}>{topic.title}</div>
+                <div style={{ fontSize: 13, color: "#aaa", lineHeight: 1.8 }}>{topic.bigPicture}</div>
+              </div>
+
+              {topic.rules.map((r, i) => (
+                <div key={i} style={{ padding: "18px 20px", background: "#0c0c14", border: "1px solid #1a1a26", borderRadius: 6, marginBottom: 10 }}>
+                  <div style={{ fontSize: 13, fontWeight: "bold", color: "#ede9e0", marginBottom: 10 }}>{r.name}</div>
+                  <div style={{ fontSize: 13, color: "#888", lineHeight: 1.8, marginBottom: 12 }}>{r.story}</div>
+                  {r.mnemonic && (
+                    <div style={{ padding: "10px 14px", background: "#14130a", border: "1px solid #2a2800", borderRadius: 4 }}>
+                      <span style={{ fontSize: 9, letterSpacing: 2, color: "#E8C547", textTransform: "uppercase", marginRight: 8 }}>Mnemonic</span>
+                      <span style={{ fontSize: 13, color: "#bbb", fontStyle: "italic" }}>{r.mnemonic}</span>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
       )}
     </div>

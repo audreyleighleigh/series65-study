@@ -2621,6 +2621,62 @@ const CONCEPTS = [
         explain: "When the dividend was declared, retained earnings were debited — reducing shareholders' equity at that point. By the time payment occurs, that equity reduction is already on the books. The payment entry only removes the liability (dividends payable) and reduces cash, leaving equity untouched. Cash dividends absolutely do affect equity — just at declaration, not payment."
       }
     ]
+  },
+
+  {
+    id: "late-exclusion",
+    category: "Regulations",
+    title: "LATE Professional Exclusion",
+    color: "#FF6B6B",
+    analogy: "Picture an estate-planning lawyer who, while drafting your will, says, 'You might want some index funds in that trust.' She bills her usual hourly legal rate and never advertises 'investment services' — she's a lawyer who said something useful in passing. That's the LATE exclusion in spirit: a professional whose investment advice is a side effect of their real job, not the product they're selling. The moment she prints 'Investment Planning' on her business card, the spell breaks.",
+    rule: "Section 202(a)(11)(B) of the Investment Advisers Act of 1940 excludes from the definition of investment adviser any **L**awyer, **A**ccountant, **T**eacher, or **E**ngineer whose investment advice is **(1) solely incidental to their professional practice, (2) provided without special compensation, AND (3) not accompanied by holding themselves out as an investment adviser**. All three prongs must be satisfied — failing any one prong destroys the exclusion. The list of covered professions is closed: doctors, nurses, architects, and other professionals are NOT covered.",
+    watch: "Don't anchor only on compensation. The 'holding out' prong is the sneaky one — a CPA who never charges separately for advice but lists 'Tax & Investment Planning' on her website has lost the exclusion. Also: the engineer can be ANY kind of engineer (aeronautical, civil, software) — exam questions add specialty qualifiers as misdirection.",
+    quiz: [
+      {
+        q: "An estate-planning attorney frequently advises clients on the tax consequences of selling appreciated stock when crafting their wills. She charges her standard hourly legal rate, does not advertise investment services, and does not bill separately for the investment portion of the conversation. Under the Investment Advisers Act of 1940, she is:",
+        options: [
+          "An investment adviser because she discusses securities with clients",
+          "Excluded from the definition of investment adviser",
+          "Exempt from registration but still subject to anti-fraud rules",
+          "Required to register as an IAR with her state"
+        ],
+        answer: 1,
+        explain: "All three LATE prongs are satisfied: advice is solely incidental to estate planning, no special compensation (standard hourly rate), and she does not hold herself out as an IA. She is EXCLUDED from the definition entirely. A: discussing securities alone doesn't make someone an IA — the ABC test (Advice, Business, Compensation) and statutory exclusions both gate the definition. C: 'exempt' is the wrong category — exemptions apply to people who ARE investment advisers but escape registration. She's not in the universe at all. D: registration is moot if she's excluded from the definition."
+      },
+      {
+        q: "Which of the following CPAs has LOST the LATE exclusion?",
+        options: [
+          "One who answers occasional investment questions during tax preparation at his standard hourly rate",
+          "One whose firm website prominently features 'Tax & Investment Advisory Services' as a service line",
+          "One who advises a long-time tax client to consult a financial planner for portfolio decisions",
+          "One who recommends Roth IRA contributions for tax-planning purposes"
+        ],
+        answer: 1,
+        explain: "Holding oneself out as an investment adviser destroys the exclusion even without special compensation. B fails the 'holding out' prong — marketing investment advisory services converts the CPA from 'professional whose advice is incidental' to 'advice provider.' A: textbook incidental advice at standard professional rates — exclusion intact. C: referring OUT is the opposite of giving investment advice — no exclusion issue. D: Roth IRA recommendations in a tax context are quintessentially incidental to tax practice."
+      },
+      {
+        q: "Which professional is NOT covered by the LATE exclusion under §202(a)(11)(B)?",
+        options: [
+          "An aeronautical engineer who occasionally advises clients on retirement allocations during consulting work",
+          "A high school economics teacher who discusses index investing in class",
+          "A registered nurse who recommends specific mutual funds to her patients during shifts",
+          "A tax attorney who comments on bond holdings while reviewing a client's estate"
+        ],
+        answer: 2,
+        explain: "LATE = Lawyers, Accountants, Teachers, Engineers. Medical professionals — nurses, doctors, dentists — are NOT in the statutory list. The exclusion is a closed enumeration; courts and the SEC have declined to extend it. A: engineer (any specialty qualifies). B: teacher. D: lawyer. C is outside the four named professions, so the LATE exclusion is unavailable regardless of how incidental her advice is."
+      },
+      {
+        q: "A practicing attorney is paid a flat $2,000 retainer specifically for ongoing investment advice, separate from his legal fees. Which prong of the LATE exclusion has he failed?",
+        options: [
+          "The 'professional practice' prong — attorneys are not on the LATE list",
+          "The 'solely incidental' prong",
+          "The 'no special compensation' prong",
+          "The 'holding out' prong"
+        ],
+        answer: 2,
+        explain: "A separate, dedicated fee for investment advice IS special compensation. The exclusion is destroyed, and he must register as an investment adviser. A: attorneys ARE on the LATE list (the L). B: 'solely incidental' could also fail here, but the cleanest, most direct answer is the special compensation prong because the fact pattern names the separate fee. D: nothing in the fact pattern indicates marketing/holding out — the trigger here is the money structure, not public-facing claims."
+      }
+    ]
   }
 ];
 

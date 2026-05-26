@@ -2677,6 +2677,51 @@ const CONCEPTS = [
         explain: "A separate, dedicated fee for investment advice IS special compensation. The exclusion is destroyed, and he must register as an investment adviser. A: attorneys ARE on the LATE list (the L). B: 'solely incidental' could also fail here, but the cleanest, most direct answer is the special compensation prong because the fact pattern names the separate fee. D: nothing in the fact pattern indicates marketing/holding out — the trigger here is the money structure, not public-facing claims."
       }
     ]
+  },
+
+  {
+    id: "private-fund-adviser-exemption-usa",
+    category: "Regulations",
+    title: "Private Fund Adviser Exemption (USA) — Two Paths",
+    color: "#FF6B6B",
+    analogy: "Picture two VIP entrances to an exclusive club. Door One has a strict guest-list cap: only 100 people allowed in, but the bouncer checks that each one meets a moderate wealth test (qualified client). Door Two has no cap on guests, but the bouncer's financial bar is much higher — everyone must be seriously wealthy (qualified purchaser). You can't use both doors at once. The fund picks a door, and the rules that come with it are non-negotiable.",
+    rule: "Under the USA, a private fund adviser can claim the de minimis exemption via two routes under the Investment Company Act. **3(c)(1):** the fund has ≤100 beneficial owners AND every investor is a 'qualified client' — meaning at least $1.1M in assets managed by that adviser, or net worth exceeding $2.2M excluding primary residence. **3(c)(7):** the fund may have unlimited investors, but every investor must be a 'qualified purchaser' — an individual with at least $5M in investments. These are mutually exclusive; a fund registers under one or the other.",
+    watch: "The exam will swap the dollar thresholds between the two paths to see if you flinch. Qualified client ($1.1M AUM with adviser / $2.2M net worth) goes with the ≤100-investor route. Qualified purchaser ($5M in investments) goes with the unlimited-investor route. Also don't confuse the $110M AUM threshold — that determines whether a private fund adviser registers federally or at the state level, which is a completely separate question from which exemption applies.",
+    quiz: [
+      {
+        q: "An investment adviser to a private fund is relying on the 3(c)(1) exemption under the Investment Company Act. Which of the following must be true for the adviser to claim the corresponding state exemption under the Uniform Securities Act?",
+        options: [
+          "The fund has fewer than 100 investors and each has at least $5 million in investments",
+          "The fund has fewer than 100 investors and each qualifies as a qualified client",
+          "The fund has unlimited investors and each has a net worth exceeding $2.2 million",
+          "The adviser has less than $110 million in private fund assets under management"
+        ],
+        answer: 1,
+        explain: "The 3(c)(1) path caps investors at 100 and requires each to be a 'qualified client' — $1.1M managed by the adviser or $2.2M net worth excluding primary residence. Option A uses the $5M threshold, which belongs to 3(c)(7) qualified purchasers, not 3(c)(1). Option C confuses unlimited investors (the 3(c)(7) structure) with the wrong net worth threshold. Option D describes when a private fund adviser registers with the SEC versus the states — a separate question entirely."
+      },
+      {
+        q: "What is the net worth threshold for an investor to qualify as a 'qualified client' under the Investment Advisers Act, and what asset is specifically excluded from this calculation?",
+        options: [
+          "$1.1 million, excluding all real estate holdings",
+          "$2.2 million, excluding the value of the primary residence",
+          "$5 million, excluding retirement accounts",
+          "$1.5 million, excluding the value of the primary residence"
+        ],
+        answer: 1,
+        explain: "$2.2 million net worth excluding the primary residence is the correct qualified client net worth threshold. $1.1 million is the other qualified client threshold — but it measures assets under management with that specific adviser, not net worth. $5 million is the qualified purchaser threshold (3(c)(7) route). $1.5 million is an outdated figure from before inflation adjustments were applied."
+      },
+      {
+        q: "A hedge fund wants to accept an unlimited number of investors without registering as an investment company. Which structure must it use, and what does every investor need to qualify?",
+        options: [
+          "3(c)(1); each investor must have at least $1.1 million managed by the fund's adviser",
+          "3(c)(1); each investor must be an accredited investor with $200,000 in annual income",
+          "3(c)(7); each investor must be a qualified purchaser with at least $5 million in investments",
+          "3(c)(7); each investor must have a net worth exceeding $2.2 million excluding primary residence"
+        ],
+        answer: 2,
+        explain: "3(c)(7) is the path for unlimited investors — but in exchange, every single investor must be a qualified purchaser, defined as an individual with at least $5 million in investments. 3(c)(1) is the wrong door entirely for unlimited investors; it caps the fund at 100. Options A and B are wrong for that reason. Option D uses the qualified client net worth figure ($2.2M), which belongs to 3(c)(1), not 3(c)(7)."
+      }
+    ]
   }
 ];
 

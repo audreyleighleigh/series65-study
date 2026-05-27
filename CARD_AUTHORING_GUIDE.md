@@ -88,6 +88,23 @@ Every card's `color` field is determined by its `category`. **Do not invent new 
 - What's the trap? What do people pick on the exam that's *almost* right?
 - Frame it as: "Don't confuse X with Y" or "The trick is..."
 
+### Mnemonic scaffolding — Use judgment, not boilerplate
+
+Mnemonics belong in cards where they earn their place, not as a stylistic default. Use your judgment about when a memory hook would actually help me retain the rule versus when it would just be filler text I have to read past.
+
+**Good candidates for mnemonics:**
+- Real, existing industry acronyms (LATE = Lawyer, Accountant, Teacher, Engineer)
+- Ordered sequences where order matters (the 3-step net worth deficiency response)
+- Dollar thresholds that pair to specific structures (qualified client vs. qualified purchaser)
+- Number facts that get swapped on the exam ($1.1M vs $2.2M vs $5M)
+
+**Skip the mnemonic when:**
+- The rule is short enough to remember directly
+- The analogy already does the memory work
+- You'd be inventing a forced acronym just to have one
+
+Mnemonics can live inside the `rule` field (e.g., bolded letters spelling the acronym) or the `watch` field (e.g., "remember: minimums, never maximums"). Don't add a separate `mnemonic` field — keep them woven in where they're most useful.
+
 ### `quiz` questions — Make them exam-realistic
 - Write 4 plausible options (wrong answers should be tempting)
 - `explain` should address *all four options*, not just the correct one

@@ -2939,6 +2939,38 @@ const getAvg = (runs) => {
   return Math.round(runs.reduce((s, r) => s + r.pct, 0) / runs.length);
 };
 
+const getRecentAvg = (runs, n = 3) => {
+  if (!runs || runs.length === 0) return null;
+  const recent = runs.slice(0, n);
+  return Math.round(recent.reduce((s, r) => s + r.pct, 0) / recent.length);
+};
+
+const daysSince = (ts) => {
+  if (!ts) return null;
+  return Math.floor((Date.now() - ts) / (1000 * 60 * 60 * 24));
+};
+
+const STALE_THRESHOLDS = { weak: 3, medium: 7, strong: 14 };
+
+const getStudyState = (runs) => {
+  if (!runs || runs.length === 0) {
+    return { tier: "untouched", avg: null, days: null, stale: true, priority: 2 };
+  }
+  const avg = getRecentAvg(runs);
+  const mostRecent = runs[0]?.ts;
+  const days = daysSince(mostRecent);
+  const tier = avg < 60 ? "weak" : avg < 80 ? "medium" : "strong";
+  const threshold = STALE_THRESHOLDS[tier];
+  const stale = days === null || days >= threshold;
+  let priority;
+  if (tier === "weak" && stale) priority = 0;
+  else if (tier === "weak") priority = 1;
+  else if (tier === "medium" && stale) priority = 3;
+  else if (tier === "strong" && stale) priority = 4;
+  else priority = 5;
+  return { tier, avg, days, stale, priority };
+};
+
 export default function StudyGuide() {
   const [mode, setMode] = useState("home");
   const [activeCard, setActiveCard] = useState(0);
@@ -2982,7 +3014,7 @@ export default function StudyGuide() {
 
   const saveResult = (sectionId, finalScore, total) => {
     const p = Math.round((finalScore / total) * 100);
-    const entry = { date: fmtDate(), score: finalScore, total, pct: p };
+    const entry = { date: fmtDate(), ts: Date.now(), score: finalScore, total, pct: p };
     setProgress(prev => {
       const next = { sectionHistory: { ...prev.sectionHistory }, fullQuizHistory: [...prev.fullQuizHistory] };
       if (sectionId) {
@@ -3049,6 +3081,60 @@ export default function StudyGuide() {
             <h1 style={{ fontSize: 28, fontWeight: "normal", margin: "0 0 8px", lineHeight: 1.3 }}>{CONCEPTS.length} concepts · {allQuestions.length} questions</h1>
           </div>
 
+          {(() => {
+            const ranked = CONCEPTS.map((c, i) => ({ c, i, state: getStudyState(progress.sectionHistory[c.id]) }))
+              .filter(x => x.state.priority < 5)
+              .sort((a, b) => {
+                if (a.state.priority !== b.state.priority) return a.state.priority - b.state.priority;
+                if (a.state.avg !== null && b.state.avg !== null) return a.state.avg - b.state.avg;
+                return (b.state.days ?? 0) - (a.state.days ?? 0);
+              })
+              .slice(0, 6);
+            if (ranked.length === 0) return null;
+            const tagFor = (s) => {
+              if (s.tier === "untouched") return { label: "not started", color: "#888", bg: "#1a1a26" };
+              if (s.tier === "weak" && s.stale) return { label: "weak · stale", color: "#FF6B6B", bg: "#2a1418" };
+              if (s.tier === "weak") return { label: "weak", color: "#FF6B6B", bg: "#2a1418" };
+              if (s.tier === "medium" && s.stale) return { label: "review", color: "#E8C547", bg: "#2a2410" };
+              if (s.tier === "strong" && s.stale) return { label: "refresh", color: "#7EC8A4", bg: "#13261d" };
+              return { label: "", color: "#666", bg: "#1a1a26" };
+            };
+            return (
+              <div style={{ marginBottom: 36 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 14 }}>
+                  <div style={{ fontSize: 9, letterSpacing: 3, color: "#888", textTransform: "uppercase" }}>Study next</div>
+                  <div style={{ fontSize: 10, color: "#444" }}>weak first · stale flagged</div>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                  {ranked.map(({ c, i, state }) => {
+                    const tag = tagFor(state);
+                    return (
+                      <div key={c.id} onClick={() => { setActiveCard(i); setMode("flashcards"); setFlipped(false); }}
+                        style={{ padding: "12px 16px", background: "#0f0f18", border: "1px solid #1a1a26", borderLeft: `3px solid ${c.color}`, borderRadius: 6, cursor: "pointer", display: "flex", alignItems: "center", gap: 12, touchAction: "manipulation" }}
+                        onMouseEnter={e => e.currentTarget.style.background = "#141420"}
+                        onMouseLeave={e => e.currentTarget.style.background = "#0f0f18"}>
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{ fontSize: 8, letterSpacing: 2, color: "#444", textTransform: "uppercase", marginBottom: 3 }}>{c.category}</div>
+                          <div style={{ fontSize: 13, fontWeight: "bold", color: c.color, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{c.title}</div>
+                        </div>
+                        <div style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0 }}>
+                          {state.avg !== null && (
+                            <span style={{ fontSize: 12, fontWeight: "bold", color: scoreColor(state.avg) }}>{state.avg}%</span>
+                          )}
+                          {state.days !== null && (
+                            <span style={{ fontSize: 10, color: "#555" }}>{state.days === 0 ? "today" : `${state.days}d`}</span>
+                          )}
+                          <span style={{ fontSize: 9, letterSpacing: 1, color: tag.color, background: tag.bg, padding: "3px 7px", borderRadius: 3, textTransform: "uppercase", fontWeight: "bold" }}>{tag.label}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })()}
+
+          <div style={{ fontSize: 9, letterSpacing: 3, color: "#444", textTransform: "uppercase", marginBottom: 14 }}>All concepts</div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 10, marginBottom: 36 }}>
             {CONCEPTS.map((c, i) => {
               const runs = progress.sectionHistory[c.id];

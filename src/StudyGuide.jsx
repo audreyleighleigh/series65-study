@@ -2958,6 +2958,51 @@ const CONCEPTS = [
         explain: "General operational records like client correspondence follow the 5-year/fiscal-year-end rule. The clock starts at the end of the fiscal year in which the last entry was made — December 31, 2023 — and runs for five years, landing on December 31, 2028. Option A anchors to the specific entry date rather than fiscal year-end, which is the most common mistake on this question type. Options C and D both apply a 3-year period, which belongs to the organizational records category, not general operational records."
       }
     ]
+  },
+
+  {
+    id: "sec-registration-aum-thresholds-withdrawal",
+    category: "Regulations",
+    title: "SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline",
+    color: "#FF6B6B",
+    analogy: "Think of SEC registration eligibility as a three-story building with a hard floor. The penthouse (above $110M) requires you to be with the SEC. The middle floors ($90M–$110M) give you flexibility — you can stay with the SEC even if you drift a bit. But the building has a hard floor at $90M: drop below it, and you must leave the building entirely within 180 days of your lease year-end and find a new place to register at the state level.",
+    rule: "Three AUM thresholds govern SEC vs. state registration: **(1) $110M or more** — must register with the SEC. **(2) $100M–$110M** — buffer zone; may register with either the SEC or states. **(3) $90M–$100M** — secondary buffer; an SEC-registered adviser may remain registered temporarily. **(4) Below $90M** — mandatory withdrawal from SEC registration. The adviser must file Form ADV-W within **180 days of its fiscal year-end** and register with the appropriate state(s). The 180-day clock is separate from the 90-day deadline to file the annual updating amendment — those are sequential steps, not the same deadline.",
+    watch: "Two traps appear consistently here. First, the mandatory withdrawal threshold is **$90 million**, not $100 million — the $100M figure is the general eligibility floor, but there's a buffer built in before withdrawal becomes mandatory. Second, don't confuse the 90-day deadline to file the annual updating amendment with the 180-day deadline to withdraw from SEC registration. An adviser files the amendment at 90 days, that amendment reveals the AUM drop, and then the adviser has until 180 days from fiscal year-end to actually withdraw.",
+    quiz: [
+      {
+        q: "An SEC-registered investment adviser's annual updating amendment shows AUM has fallen to $75 million and is expected to remain there. What must the adviser do?",
+        options: [
+          "Withdraw from SEC registration immediately upon filing the annual amendment",
+          "Withdraw from SEC registration within 90 days of fiscal year-end",
+          "Withdraw from SEC registration within 180 days of fiscal year-end by filing Form ADV-W",
+          "Do nothing — the adviser may remain SEC-registered as long as it files annual updates"
+        ],
+        answer: 2,
+        explain: "$75 million is below the $90 million hard floor, so withdrawal from SEC registration is mandatory. The adviser must file Form ADV-W within 180 days of its fiscal year-end. Option A is wrong because there is a transition period — immediate withdrawal isn't required. Option B confuses the 90-day annual amendment filing deadline with the 180-day withdrawal deadline; these are sequential steps, not the same obligation. Option D is wrong because below $90 million, the adviser is no longer eligible for federal covered adviser status and cannot remain SEC-registered."
+      },
+      {
+        q: "An SEC-registered adviser reports AUM of $95 million on its annual updating amendment. What is the most accurate statement about its registration obligations?",
+        options: [
+          "It must withdraw from SEC registration within 180 days of fiscal year-end because AUM is below $100 million",
+          "It may remain SEC-registered because $95 million falls within the secondary buffer zone above the $90 million hard floor",
+          "It must immediately re-register with the states because it no longer meets the $100 million eligibility threshold",
+          "It must withdraw from SEC registration immediately because AUM has dropped below the required minimum"
+        ],
+        answer: 1,
+        explain: "$95 million falls in the $90M–$100M secondary buffer zone, where an SEC-registered adviser may remain registered temporarily without triggering mandatory withdrawal. The hard withdrawal floor is $90 million, not $100 million. Options A, C, and D all incorrectly treat $100 million as the mandatory withdrawal trigger. The $100 million figure marks the general eligibility threshold, but the rules deliberately build in a buffer to avoid forcing advisers to withdraw during temporary AUM fluctuations near the boundary."
+      },
+      {
+        q: "An adviser files its annual updating amendment within 90 days of its December 31 fiscal year-end, revealing AUM has dropped to $80 million. By what date must the adviser file Form ADV-W to withdraw from SEC registration?",
+        options: [
+          "March 31 — 90 days after fiscal year-end, concurrent with the annual amendment deadline",
+          "June 29 — 180 days after fiscal year-end",
+          "December 31 of the following year — one full year after the fiscal year-end",
+          "No withdrawal is required because $80 million is above the $75 million floor"
+        ],
+        answer: 1,
+        explain: "The withdrawal deadline is 180 days after fiscal year-end — for a December 31 year-end, that is June 29 of the following year. The annual updating amendment is due at 90 days (March 31), which is when the AUM drop is formally disclosed, but the withdrawal itself has until the 180-day mark. Option A conflates the two deadlines. Option C invents a one-year rule that doesn't exist. Option D invents an $80 million floor — the actual hard floor is $90 million, and $80 million is below it, making withdrawal mandatory."
+      }
+    ]
   }
 ];
 

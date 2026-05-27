@@ -2868,6 +2868,51 @@ const CONCEPTS = [
         explain: "Individual agents of broker-dealers are explicitly excluded from the investment adviser definition when they give advice within the scope of their employment at the firm. The firm's registration covers this activity. Option A overstates the rule by ignoring the agent exclusion entirely. Option C introduces a condition about personal receipt of fees that isn't part of the exclusion's requirements — the test is scope of employment, not who keeps the money. Option D confuses licensing (Series 65 is the exam that qualifies someone to be an IA representative) with the separate legal question of whether registration is required."
       }
     ]
+  },
+
+  {
+    id: "adviser-to-registered-investment-company",
+    category: "Regulations",
+    title: "Adviser to a Registered Investment Company — Mandatory SEC Registration",
+    color: "#FF6B6B",
+    analogy: "Think of registered investment companies as federal buildings — they were constructed under federal law, inspected by federal regulators, and open to the public nationwide. The firm hired to manage the building doesn't get to choose which inspector oversees their work based on how big their operation is. The moment you take the contract to manage a federal building, you report to the federal inspector. AUM size is irrelevant; the nature of the client is what determines jurisdiction.",
+    rule: "Any investment adviser that manages the portfolio of an investment company registered under the Investment Company Act of 1940 **must register with the SEC**, regardless of AUM. This is one of the specific triggers for mandatory federal registration — the normal $100M/$110M AUM thresholds do not apply. Because the adviser is a **federal covered adviser**, state registration is preempted entirely. States may require a notice filing and collect a fee, but they cannot require the adviser to register at the state level.",
+    watch: "Two traps appear consistently here. First, the exam may suggest the adviser registers with state Administrators — but federal covered adviser status means state registration is preempted; states only get a notice filing. Second, don't confuse 'notice filing' with 'registration' — an adviser to a registered investment company actually registers with the SEC (full disclosure, compliance obligations), it doesn't merely provide notice. Notice filings go to states, not to the SEC.",
+    quiz: [
+      {
+        q: "A small investment advisory firm with $40 million in AUM is hired to manage the portfolio of a mutual fund registered under the Investment Company Act of 1940. Where must the firm register?",
+        options: [
+          "With the state Administrator, because it has less than $100 million in AUM",
+          "With the SEC, because managing a registered investment company requires federal registration regardless of AUM",
+          "With both the SEC and the state Administrator, because its AUM falls below the federal threshold",
+          "With the SEC only after its AUM exceeds $110 million"
+        ],
+        answer: 1,
+        explain: "Managing a registered investment company is a specific trigger for mandatory SEC registration that overrides the normal AUM thresholds entirely. Even though $40 million would ordinarily place this firm under state jurisdiction, the nature of the client — a registered investment company — elevates the registration obligation to the federal level. Option A applies the AUM rule correctly in isolation but misses the investment company exception. Option C invents a dual registration requirement that doesn't exist. Option D misapplies the $110M threshold, which governs the general AUM-based SEC registration rule, not this specific carve-out."
+      },
+      {
+        q: "An investment adviser registers with the SEC because it manages a registered investment company. What is the adviser's obligation with respect to state registration?",
+        options: [
+          "The adviser must register in every state where the fund's shares are sold",
+          "The adviser must register in its home state only",
+          "The adviser is exempt from state registration but may be required to submit a notice filing and pay a fee",
+          "The adviser has no obligations to state regulators whatsoever"
+        ],
+        answer: 2,
+        explain: "Federal covered adviser status preempts state registration requirements — states cannot compel the adviser to register with them. However, preemption is not total invisibility: states retain the right to require a notice filing (essentially an informational submission) and to collect a fee. The adviser must comply with these limited state-level requirements even though it is not state-registered. Options A and B both incorrectly apply state registration requirements to a federal covered adviser. Option D overstates the exemption — notice filing obligations to states remain."
+      },
+      {
+        q: "Which of the following most accurately describes the difference between 'registration' with the SEC and a 'notice filing' with a state Administrator?",
+        options: [
+          "They are functionally identical — both require full disclosure of the adviser's business practices",
+          "Registration involves full disclosure and ongoing compliance obligations with the SEC; a notice filing is an informational submission that does not confer state jurisdiction over the adviser",
+          "A notice filing requires more disclosure than SEC registration because states have broader examination authority",
+          "Registration applies only to broker-dealers; investment advisers always use notice filings"
+        ],
+        answer: 1,
+        explain: "Registration and notice filing are meaningfully different obligations. SEC registration subjects the adviser to Form ADV disclosure requirements, ongoing compliance obligations, and SEC examination authority. A state notice filing is a much lighter-touch requirement — it informs the state that a federal covered adviser is operating there and allows the state to collect a fee, but it does not give the state registration authority or jurisdiction over the adviser's practices. Option A collapses a meaningful distinction. Option C inverts the relationship — state notice filings involve less, not more, than full SEC registration. Option D misattributes registration entirely; investment advisers register with the SEC or states, not just broker-dealers."
+      }
+    ]
   }
 ];
 

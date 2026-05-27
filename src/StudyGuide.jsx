@@ -2722,6 +2722,51 @@ const CONCEPTS = [
         explain: "3(c)(7) is the path for unlimited investors — but in exchange, every single investor must be a qualified purchaser, defined as an individual with at least $5 million in investments. 3(c)(1) is the wrong door entirely for unlimited investors; it caps the fund at 100. Options A and B are wrong for that reason. Option D uses the qualified client net worth figure ($2.2M), which belongs to 3(c)(1), not 3(c)(7)."
       }
     ]
+  },
+
+  {
+    id: "administrator-powers-financial-requirements",
+    category: "Regulations",
+    title: "Administrator Powers — Financial Requirements",
+    color: "#FF6B6B",
+    analogy: "Think of the state Administrator as a building inspector for the financial industry. They set the minimum standards a structure has to meet before it can open to the public — minimum load-bearing capacity, minimum fire exits. They never set a maximum on how strong a building can be, because stronger is always safer. And critically, they inspect the building itself (the firm), not the individual construction workers (agents) — workers don't have to personally own enough bricks to rebuild the site if something goes wrong.",
+    rule: "The Administrator has authority to set **minimum** net worth requirements for investment advisers and **minimum** net capital requirements for broker-dealers — never maximums, because higher financial cushion is always better for investors. For individuals (agents), the Administrator's financial protection tool is the **surety bond**, not a net worth floor. Surety bonds may be required of investment advisers and broker-dealers, but only when they **exercise discretion or maintain custody** — the two conditions that create meaningful exposure to client assets. Advisers who do neither have no bond requirement.",
+    watch: "The exam attacks this concept from two angles. First, it will substitute 'maximum' for 'minimum' on net capital requirements — that single word flips the logic, so read carefully. Second, it will assign firm-level financial requirements (net worth floors) to individual agents, or apply surety bond requirements to advisers who specifically do NOT exercise discretion or maintain custody. Both wrong-answer patterns use real concepts but pair them with the wrong entity or the wrong condition.",
+    quiz: [
+      {
+        q: "Which of the following is within the Administrator's authority under the Uniform Securities Act?",
+        options: [
+          "Setting maximum net capital requirements for broker-dealers",
+          "Setting minimum net worth requirements for individual agents who exercise discretion",
+          "Setting minimum net worth requirements for investment advisers",
+          "Requiring surety bonds of investment advisers who do not exercise discretion or maintain custody"
+        ],
+        answer: 2,
+        explain: "The Administrator can set minimum net worth requirements for investment advisers — this is a standard investor-protection tool applied at the firm level. Option A is wrong because the Administrator sets minimums, never maximums; a ceiling on financial strength would reduce investor protection. Option B is wrong because net worth requirements apply to firms, not individual agents — agents can be required to post surety bonds, but not meet personal net worth thresholds. Option D is backwards: surety bonds are required precisely when an adviser exercises discretion or maintains custody, because those are the conditions that expose client assets to risk."
+      },
+      {
+        q: "A state Administrator is reviewing requirements for a registered investment adviser. Under which circumstance would the Administrator most likely have authority to require a surety bond?",
+        options: [
+          "The adviser has more than 50 clients in the state",
+          "The adviser exercises discretion over client accounts",
+          "The adviser charges performance-based fees",
+          "The adviser is also registered as a broker-dealer"
+        ],
+        answer: 1,
+        explain: "Surety bonds exist to protect clients when an adviser has meaningful control over or access to their assets — exercising discretion is exactly that situation. The Administrator's authority to require a bond is tied to the level of exposure created, not to headcount (A), fee structure (C), or dual registration status (D). Maintaining custody is the other condition that triggers potential bond requirements; discretion and custody are the two key risk factors the USA uses to calibrate financial protection requirements for advisers."
+      },
+      {
+        q: "Which of the following correctly distinguishes how the Administrator applies financial requirements to broker-dealers versus individual agents?",
+        options: [
+          "Broker-dealers must meet minimum net capital requirements; agents must meet minimum net worth requirements",
+          "Both broker-dealers and agents are subject to minimum net worth requirements set by the Administrator",
+          "Broker-dealers must meet minimum net capital requirements; agents may be required to post surety bonds",
+          "Agents must meet minimum net capital requirements; broker-dealers may be required to post surety bonds"
+        ],
+        answer: 2,
+        explain: "The USA applies financial requirements differently based on entity type. Broker-dealers face minimum net capital requirements at the firm level — this ensures the firm itself is financially sound. Individual agents, by contrast, are not subject to personal net worth or net capital floors; instead, the Administrator's financial tool for individuals is the surety bond. Option A incorrectly assigns net worth requirements to agents. Option B extends net worth requirements to both, which overstates agent obligations. Option D swaps the rules entirely, assigning net capital to agents and bonds to broker-dealers."
+      }
+    ]
   }
 ];
 

@@ -2913,6 +2913,51 @@ const CONCEPTS = [
         explain: "Registration and notice filing are meaningfully different obligations. SEC registration subjects the adviser to Form ADV disclosure requirements, ongoing compliance obligations, and SEC examination authority. A state notice filing is a much lighter-touch requirement — it informs the state that a federal covered adviser is operating there and allows the state to collect a fee, but it does not give the state registration authority or jurisdiction over the adviser's practices. Option A collapses a meaningful distinction. Option C inverts the relationship — state notice filings involve less, not more, than full SEC registration. Option D misattributes registration entirely; investment advisers register with the SEC or states, not just broker-dealers."
       }
     ]
+  },
+
+  {
+    id: "investment-adviser-recordkeeping-retention",
+    category: "Regulations",
+    title: "Investment Adviser Recordkeeping — Two Retention Regimes",
+    color: "#FF6B6B",
+    analogy: "Think of an investment adviser's records like two different types of leases. Most records are like apartment leases — they run for a fixed term (5 years) measured from the end of the fiscal year, like a lease that expires on December 31st regardless of when you moved in. But organizational documents are like the deed to the building itself — they're tied to the life of the enterprise, and once the building is demolished (the firm terminates), you have exactly 3 years from that date to keep the deed on file. Two different clocks, two different triggers.",
+    rule: "Investment adviser records fall into two retention categories. **General records** (trade confirmations, client correspondence, financial statements, etc.) must be preserved for **5 years from the end of the fiscal year** in which the last entry was made, with the first 2 years in an easily accessible location. **Organizational records** — partnership articles and amendments, articles of incorporation, charters, **minute books**, and stock certificate books — must be preserved until **3 years after termination of the enterprise**, measured from the actual termination date, not fiscal year-end. Both categories apply even after the firm ceases operations.",
+    watch: "The exam will describe a firm closing on a specific mid-year date and ask about minute books or shareholder meeting records — which sound like routine operational records but are actually organizational documents. Don't apply the 5-year/fiscal-year-end rule here. Minute books get the 3-years-from-termination rule, anchored to the actual closure date. The two traps are: (1) using 5 years instead of 3, and (2) anchoring to fiscal year-end instead of the termination date.",
+    quiz: [
+      {
+        q: "An investment adviser registered in five states closes on July 18, 2023. Until what date must its minute books be preserved under NASAA's Model Rule?",
+        options: [
+          "December 31, 2023 — the end of the fiscal year of termination",
+          "July 18, 2026 — three years from the termination date",
+          "December 31, 2028 — five years from the end of the fiscal year",
+          "July 18, 2028 — five years from the termination date"
+        ],
+        answer: 1,
+        explain: "Minute books are organizational records under NASAA's Model Rule, subject to a distinct retention requirement: 3 years after termination of the enterprise, measured from the actual termination date. July 18, 2023 + 3 years = July 18, 2026. Option C and D both apply the general 5-year rule, which governs operational records but not organizational documents. Option A identifies the fiscal year-end but applies no retention period at all — and fiscal year-end isn't the anchor for this category anyway."
+      },
+      {
+        q: "Which of the following records is subject to the 3-years-after-termination rule rather than the general 5-year retention rule?",
+        options: [
+          "Client account statements for the trailing 12 months",
+          "Trade confirmations sent to clients",
+          "Articles of incorporation and minute books",
+          "Written investment policy statements for discretionary accounts"
+        ],
+        answer: 2,
+        explain: "Organizational records — including partnership articles, articles of incorporation, charters, minute books, and stock certificate books — are subject to the 3-years-after-termination rule under NASAA's Model Rule. These documents are tied to the legal existence of the enterprise rather than to any specific fiscal period. Client account statements (A), trade confirmations (B), and investment policy statements (D) are all operational records subject to the general 5-year/fiscal-year-end retention rule."
+      },
+      {
+        q: "An investment adviser's general client correspondence records were last updated on September 3, 2023. The firm remains in operation. Under NASAA rules, until when must these records be preserved?",
+        options: [
+          "September 3, 2028 — five years from the date of the last entry",
+          "December 31, 2028 — five years from the end of the fiscal year",
+          "September 3, 2026 — three years from the date of the last entry",
+          "December 31, 2026 — three years from the end of the fiscal year"
+        ],
+        answer: 1,
+        explain: "General operational records like client correspondence follow the 5-year/fiscal-year-end rule. The clock starts at the end of the fiscal year in which the last entry was made — December 31, 2023 — and runs for five years, landing on December 31, 2028. Option A anchors to the specific entry date rather than fiscal year-end, which is the most common mistake on this question type. Options C and D both apply a 3-year period, which belongs to the organizational records category, not general operational records."
+      }
+    ]
   }
 ];
 

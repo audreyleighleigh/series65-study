@@ -2812,6 +2812,62 @@ const CONCEPTS = [
         explain: "Ceasing operations is not part of the adviser's self-reporting obligation under NASAA rules. The three required steps are: notify the Administrator by end of day, file the financial condition report (including client account count) by close of business the next day, and await regulatory direction. The Administrator reviews the situation and determines what operational restrictions, if any, are warranted. Option A is the classic exam trap — it makes the consequences sound proportionate, but conflates what the adviser must proactively do with what the Administrator may ultimately order. Options B and D introduce invented conditions not found in the rule."
       }
     ]
+  },
+
+  {
+    id: "investment-adviser-definition-exclusions",
+    category: "Regulations",
+    title: "Investment Adviser Definition — Who's Excluded (and Why)",
+    color: "#FF6B6B",
+    analogy: "Think of the investment adviser registration requirement as a toll road. To owe the toll, you need two things: you give securities advice AND you get paid specifically for it. But certain vehicles have a permanent pass — broker-dealers giving incidental advice for no special fee, professionals whose advice is a footnote to their main work, and agents operating within their firm's normal scope. The moment a broker-dealer starts charging a separate, itemized fee just for the advice, their pass is revoked and they owe the toll like everyone else.",
+    rule: "Under the USA, an investment adviser is anyone who gives advice about securities for compensation as a regular business. Four exclusions apply: **(1) Broker-dealers** — excluded when advice is incidental to regular business AND no special compensation is charged. Both locks must hold; charging a specific fee breaks the exclusion entirely. **(2) Agents of broker-dealers** — excluded when advice is given within the scope of their employment at the firm. **(3) Professionals** — remember **LATE**: **L**awyers, **A**ccountants, **T**eachers, and **E**ngineers are excluded when investment advice is incidental to their primary profession. **(4) Publishers** of general, non-personalized financial publications are excluded because their advice isn't tailored to specific individuals.",
+    watch: "The broker-dealer exclusion is a two-lock door: incidental advice AND no special fee. The exam will satisfy one lock and quietly break the other — a broker-dealer charging a specific fee for advice loses the exclusion even if everything else looks routine. For LATE professionals, the key word is 'incidental' — an accountant who moonlights as a portfolio advisor for separate fees is no longer incidental and loses the exclusion.",
+    quiz: [
+      {
+        q: "A broker-dealer regularly provides investment advice to clients as part of its normal business operations and charges no separate fee for this service. Under the USA, which of the following is true?",
+        options: [
+          "The broker-dealer must register as an investment adviser because it gives securities advice for compensation",
+          "The broker-dealer is excluded from the investment adviser definition because the advice is incidental and no special fee is charged",
+          "The broker-dealer must register as an investment adviser only if it manages discretionary accounts",
+          "The broker-dealer is excluded only if it discloses to clients that the advice is incidental"
+        ],
+        answer: 1,
+        explain: "The broker-dealer exclusion requires both conditions simultaneously: advice incidental to regular business, and no special compensation charged for it. Both are satisfied here, so no IA registration is required. Option A is wrong because the exclusion specifically carves out this scenario — commissions on transactions don't count as special compensation for advice. Options C and D introduce conditions (discretionary accounts, disclosure) that simply aren't part of the exclusion's requirements."
+      },
+      {
+        q: "The same broker-dealer decides to launch a new service where clients pay a flat quarterly fee specifically for personalized investment recommendations. Does this change the firm's registration obligation?",
+        options: [
+          "No — broker-dealers are always excluded from the investment adviser definition regardless of fee structure",
+          "No — only investment advisers managing over $25 million must register",
+          "Yes — charging a specific fee for advice breaks the exclusion, requiring IA registration",
+          "Yes — but only if the quarterly fee exceeds the firm's commission revenue"
+        ],
+        answer: 2,
+        explain: "The broker-dealer exclusion is a two-lock door. By introducing a specific, separate charge for investment recommendations, the firm breaks the second lock — and losing either condition loses the entire exclusion. It is now functioning as an investment adviser and must register. Option A is wrong because the exclusion is conditional, not absolute. Option B conflates the state registration AUM threshold with the separate question of whether registration is required at all. Option D invents a revenue comparison test that doesn't exist in the USA."
+      },
+      {
+        q: "Which of the following professionals is most likely required to register as an investment adviser under the USA?",
+        options: [
+          "An attorney who recommends municipal bonds as part of estate planning advice",
+          "An accountant who suggests shifting retirement assets toward lower-risk securities while preparing a tax return",
+          "An engineer who writes a newsletter analyzing utility company stocks for a general subscriber base",
+          "A financial planner who charges clients a separate monthly fee solely for personalized investment recommendations"
+        ],
+        answer: 3,
+        explain: "The financial planner in option D fits neither a LATE professional exclusion nor the publisher exclusion — they're in the business of giving personalized investment advice for specific compensation, which is the core definition of an investment adviser. The attorney (A) and accountant (B) both fall under the LATE exclusion because their advice is incidental to their primary profession. The engineer (C) is also a LATE professional, and because the newsletter goes to a general audience with non-personalized content, the publisher exclusion provides additional cover. D is the only scenario where no exclusion applies."
+      },
+      {
+        q: "An agent of a broker-dealer provides investment advice to clients as part of her normal duties at the firm. Must she separately register as an investment adviser?",
+        options: [
+          "Yes — anyone who gives investment advice for compensation must register individually",
+          "No — agents giving advice within the scope of their employment at a broker-dealer are excluded from the IA definition",
+          "No — but only if the agent personally receives none of the advisory fee",
+          "Yes — unless the agent holds a Series 65 license"
+        ],
+        answer: 1,
+        explain: "Individual agents of broker-dealers are explicitly excluded from the investment adviser definition when they give advice within the scope of their employment at the firm. The firm's registration covers this activity. Option A overstates the rule by ignoring the agent exclusion entirely. Option C introduces a condition about personal receipt of fees that isn't part of the exclusion's requirements — the test is scope of employment, not who keeps the money. Option D confuses licensing (Series 65 is the exam that qualifies someone to be an IA representative) with the separate legal question of whether registration is required."
+      }
+    ]
   }
 ];
 

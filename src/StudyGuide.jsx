@@ -2767,6 +2767,51 @@ const CONCEPTS = [
         explain: "The USA applies financial requirements differently based on entity type. Broker-dealers face minimum net capital requirements at the firm level — this ensures the firm itself is financially sound. Individual agents, by contrast, are not subject to personal net worth or net capital floors; instead, the Administrator's financial tool for individuals is the surety bond. Option A incorrectly assigns net worth requirements to agents. Option B extends net worth requirements to both, which overstates agent obligations. Option D swaps the rules entirely, assigning net capital to agents and bonds to broker-dealers."
       }
     ]
+  },
+
+  {
+    id: "adviser-net-worth-deficiency-procedure",
+    category: "Regulations",
+    title: "Investment Adviser Net Worth Deficiency — Required Response",
+    color: "#FF6B6B",
+    analogy: "Imagine a pilot who discovers mid-flight that the fuel level has dropped below the FAA minimum reserve. She doesn't land the plane immediately on her own judgment — that's the controller's call. But she has an immediate, timed protocol: declare the situation to air traffic control before her shift ends, file a full status report by the next morning including how many passengers are on board, and then await instructions. The FAA decides what happens next. She reports; they direct.",
+    rule: "Under NASAA rules, when an investment adviser with custody or discretion discovers her net worth has fallen below the required minimum, she must follow a three-step sequence: **(1)** Notify the Administrator by **close of business on the day of discovery**. **(2)** File a report of financial condition no later than **close of business the day after notification**. **(3)** The financial condition report must include a **statement of the number of client accounts**. The adviser does NOT automatically cease doing business — that is an action the Administrator may order after reviewing the report, not a self-imposed obligation.",
+    watch: "The exam will include 'cease doing business' as a required step to make the consequences feel appropriately severe. It isn't — ceasing operations is a potential Administrator-ordered outcome, not part of the adviser's self-reporting protocol. Also watch the timing: notification is due by close of business on the day of discovery, and the financial condition report is due by close of business the day after notification — two separate deadlines, one day apart.",
+    quiz: [
+      {
+        q: "An investment adviser with custody of client assets discovers at 2:00 PM on a Tuesday that her net worth has dropped below the state minimum. Under NASAA rules, what must she do by the end of that same business day?",
+        options: [
+          "File a complete report of financial condition with the Administrator",
+          "Notify the Administrator of the net worth deficiency",
+          "Cease accepting new client accounts until the deficiency is cured",
+          "Notify all clients whose assets she holds in custody"
+        ],
+        answer: 1,
+        explain: "The first obligation triggered by discovery of a net worth deficiency is to notify the Administrator by close of business on that same day. The financial condition report comes next — but it isn't due until close of business the following day (after notification). Ceasing new accounts isn't a NASAA-mandated step at all; operational restrictions are the Administrator's call to make after reviewing the report. Client notification is not part of this protocol."
+      },
+      {
+        q: "An investment adviser notifies the Administrator on Monday that her net worth has fallen below the required minimum. When must she file her report of financial condition, and what must that report include?",
+        options: [
+          "By close of business Monday; the report must include a list of all securities held in custody",
+          "By close of business Tuesday; the report must include a statement of the number of client accounts",
+          "Within 3 business days; the report must include audited financial statements",
+          "By close of business Tuesday; the report must include a plan to restore net worth"
+        ],
+        answer: 1,
+        explain: "The financial condition report is due by close of business the day after notification — so if she notified on Monday, the report is due Tuesday. NASAA specifically requires the report to include a statement of the number of client accounts, which gives the Administrator context for how many clients are potentially exposed to the financial shortfall. A list of securities held (A) and audited statements (C) are not the specified content requirements. A restoration plan (D) is not part of the mandated report, though the Administrator may request one separately."
+      },
+      {
+        q: "After filing her financial condition report, an investment adviser concludes that she should cease doing business to protect her clients from further risk. Under NASAA rules, is she required to do so?",
+        options: [
+          "Yes — ceasing business is the fourth required step after discovery of a net worth deficiency",
+          "Yes — but only if she has custody of client funds, not just securities",
+          "No — ceasing business is a decision for the Administrator to make, not the adviser",
+          "No — she may continue operating as long as she notifies clients of the deficiency"
+        ],
+        answer: 2,
+        explain: "Ceasing operations is not part of the adviser's self-reporting obligation under NASAA rules. The three required steps are: notify the Administrator by end of day, file the financial condition report (including client account count) by close of business the next day, and await regulatory direction. The Administrator reviews the situation and determines what operational restrictions, if any, are warranted. Option A is the classic exam trap — it makes the consequences sound proportionate, but conflates what the adviser must proactively do with what the Administrator may ultimately order. Options B and D introduce invented conditions not found in the rule."
+      }
+    ]
   }
 ];
 

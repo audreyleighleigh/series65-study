@@ -2965,9 +2965,20 @@ const CONCEPTS = [
     title: "Investment Adviser Recordkeeping — Two Retention Regimes",
     color: "#FF6B6B",
     analogy: "Think of an investment adviser's records like two different types of leases. Most records are like apartment leases — they run for a fixed term (5 years) measured from the end of the fiscal year, like a lease that expires on December 31st regardless of when you moved in. But organizational documents are like the deed to the building itself — they're tied to the life of the enterprise, and once the building is demolished (the firm terminates), you have exactly 3 years from that date to keep the deed on file. Two different clocks, two different triggers.",
-    rule: "Investment adviser records fall into two retention categories. **General records** (trade confirmations, client correspondence, financial statements, etc.) must be preserved for **5 years from the end of the fiscal year** in which the last entry was made, with the first 2 years in an easily accessible location. **Organizational records** — partnership articles and amendments, articles of incorporation, charters, **minute books**, and stock certificate books — must be preserved until **3 years after termination of the enterprise**, measured from the actual termination date, not fiscal year-end. Both categories apply even after the firm ceases operations.",
+    rule: "Investment adviser records fall into two retention categories under **SEC Rule 204-2 of the Investment Advisers Act of 1940** (federal) and the **NASAA Model Rule** (state) — the two regimes mirror each other. **General records** (trade confirmations, client correspondence, financial statements, etc.) must be preserved for **5 years from the end of the fiscal year** in which the last entry was made, with the **first 2 years in an easily accessible place at an appropriate office of the investment adviser**. **Organizational records** — partnership articles and amendments, articles of incorporation, charters, **minute books**, and stock certificate books — must be preserved until **3 years after termination of the enterprise**, measured from the actual termination date, not fiscal year-end. Both categories apply even after the firm ceases operations.",
     watch: "The exam will describe a firm closing on a specific mid-year date and ask about minute books or shareholder meeting records — which sound like routine operational records but are actually organizational documents. Don't apply the 5-year/fiscal-year-end rule here. Minute books get the 3-years-from-termination rule, anchored to the actual closure date. The two traps are: (1) using 5 years instead of 3, and (2) anchoring to fiscal year-end instead of the termination date.",
     quiz: [
+      {
+        q: "The SEC requires investment advisers registered under the Investment Advisers Act of 1940 to maintain certain books and records for a minimum of",
+        options: [
+          "Six years",
+          "Three years",
+          "One year",
+          "Five years"
+        ],
+        answer: 3,
+        explain: "Rule 204-2 of the Investment Advisers Act of 1940 requires SEC-registered investment advisers to maintain books and records for a minimum of five years. Six years is the most tempting wrong answer but is not the correct retention period for investment adviser records. Three years and one year are both too short. Within the five-year period, records must be kept in an easily accessible place at the adviser's office for the first two years."
+      },
       {
         q: "An investment adviser registered in five states closes on July 18, 2023. Until what date must its minute books be preserved under NASAA's Model Rule?",
         options: [

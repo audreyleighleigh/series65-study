@@ -3586,6 +3586,51 @@ const CONCEPTS = [
         explain: "The firm's argument conflates two separate concepts. Institutional client status affects the registration exemption available to out-of-state advisers with no local office — it has no bearing on whether a firm with a place of business in the state meets the IA definition. Any firm that charges a fee for investment research or advice meets the IA definition, regardless of client sophistication or type. A and B both incorrectly apply institutional exemptions to the threshold question of IA definition. D is factually wrong — pension funds and endowments are explicitly considered institutional clients under the USA."
       }
     ]
+  },
+
+  {
+    id: "vc-fund-adviser-exemption",
+    category: "Regulations",
+    title: "Venture Capital Fund Adviser Exemption: No AUM Threshold",
+    color: "#FF6B6B",
+    analogy: "Think of SEC registration exemptions like different types of fishing licenses. Most exemptions are like size limits — you're off the hook only if your catch is below a certain weight. A small adviser under $25M? Too small to regulate at the federal level. A private fund adviser under $150M? Below the size threshold. But the venture capital exemption is like a species exemption — it doesn't matter how big your catch is. If you're fishing for venture capital exclusively, you're in a completely different category, and the size rules simply don't apply to your type of fishing.",
+    rule: "Under the Investment Advisers Act of 1940, an investment adviser that acts **solely as an adviser to venture capital funds** is exempt from SEC registration with **no AUM threshold** — the exemption applies regardless of how much the adviser manages. The exemption is based entirely on **fund type**, not fund size. Venture capital funds are defined by specific characteristics: they invest in early-stage private companies, do not use significant leverage, do not offer redemption rights to investors, and are not registered investment companies. By contrast, private fund advisers receive an exemption only if their U.S. private fund AUM is **below $150 million** — cross that threshold and SEC registration becomes mandatory. Both VC fund advisers and private fund advisers below $150M are **exempt reporting advisers (ERAs)** — they are not fully registered with the SEC but must still file reports on Form ADV. They are never state-registered.",
+    watch: "The exam tests the contrast between the VC fund exemption (no AUM limit) and the private fund exemption ($150M limit) constantly. A hedge fund adviser managing $100M is exempt from SEC registration because of AUM — but if that same adviser crossed $150M, they'd need to register. A VC fund adviser managing $10 billion is still exempt because the exemption is type-based, not size-based. Also watch the insurance company vs. bank distinction from the explanation: advisers whose only clients are insurance companies are exempt from SEC registration regardless of AUM — but that same exemption does NOT apply when the only clients are national banks. Bank-only advisory relationships do not create an AUM-independent exemption.",
+    quiz: [
+      {
+        q: "In which of the following cases is the exemption from SEC registration NOT based on the value of assets under management?",
+        options: [
+          "An investment adviser with less than $25 million in AUM",
+          "An investment adviser acting solely as adviser to private funds with less than $150 million in U.S. AUM",
+          "An investment adviser acting solely as adviser to one or more venture capital funds",
+          "An investment adviser acting solely as adviser to national banks"
+        ],
+        answer: 2,
+        explain: "The venture capital fund adviser exemption is the only option where AUM is completely irrelevant — the exemption is based purely on fund type. A VC fund adviser managing any amount qualifies. A is explicitly AUM-based ($25M threshold). B is explicitly AUM-based ($150M threshold). D is a trap — advising solely national banks does not create an AUM-independent exemption from SEC registration the way advising insurance companies does."
+      },
+      {
+        q: "An investment adviser manages three venture capital funds with combined AUM of $2 billion. Is this adviser required to register with the SEC?",
+        options: [
+          "Yes — AUM exceeds $110 million, triggering mandatory SEC registration",
+          "Yes — AUM exceeds $150 million, triggering mandatory SEC registration for private fund advisers",
+          "No — the venture capital fund adviser exemption applies regardless of AUM",
+          "No — but only if the adviser also registers in the states where the funds are domiciled"
+        ],
+        answer: 2,
+        explain: "The venture capital fund adviser exemption has no AUM threshold — it applies based entirely on fund type, not fund size. A $2 billion VC fund adviser is exempt from SEC registration just as a $10 million VC fund adviser would be. A incorrectly applies the standard $110M mandatory threshold, which governs general investment advisers. B incorrectly applies the $150M private fund threshold — venture capital funds are a distinct category with their own separate exemption. D invents a state registration requirement that doesn't apply to exempt reporting advisers."
+      },
+      {
+        q: "Which of the following correctly describes the difference between the private fund adviser exemption and the venture capital fund adviser exemption?",
+        options: [
+          "Both exemptions apply regardless of AUM — the only difference is the type of fund advised",
+          "The private fund exemption applies below $150 million in AUM; the VC fund exemption applies regardless of AUM",
+          "The VC fund exemption applies below $150 million in AUM; the private fund exemption applies regardless of AUM",
+          "Both exemptions require AUM below $150 million but apply to different fund types"
+        ],
+        answer: 1,
+        explain: "The private fund adviser exemption is AUM-dependent — it applies only when U.S. private fund AUM is below $150 million, and SEC registration becomes mandatory above that threshold. The venture capital fund adviser exemption is AUM-independent — it applies regardless of how much the adviser manages, based solely on the fund type. C reverses the two exemptions. A incorrectly removes the AUM limitation from the private fund exemption. D incorrectly applies an AUM threshold to the VC fund exemption."
+      }
+    ]
   }
 ];
 

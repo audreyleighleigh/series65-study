@@ -3101,7 +3101,7 @@ const CONCEPTS = [
     color: "#FF6B6B",
     analogy: "Think of state registration like a food truck's permit requirements. If you park your truck in a city (place of business), you absolutely need that city's permit — no exceptions. But if you just occasionally deliver catering orders to a few customers across the state line, the city doesn't bother requiring a permit — unless you're making so many deliveries over there that you're basically operating there. And here's the catch: corporate catering contracts don't count toward that delivery threshold at all, because big institutions can take care of themselves.",
     rule: "Under the Uniform Securities Act, a state-registered investment adviser must register in any state where it (1) maintains a **place of business**, regardless of client type or count, OR (2) has **more than 5 non-institutional clients** in that state in the prior 12 months, even with no office there. The **de minimis exemption** protects advisers with 5 or fewer non-institutional clients in a state from having to register there. Institutional clients — including **insurance companies, banks, broker-dealers, investment companies, pension plans, and corporations** — do **not** count toward the 5-client threshold.",
-    watch: "Two traps appear constantly. First: having an institutional client in a state (a pension fund, a corporation, an insurer) feels like it should matter — it doesn't count toward the threshold at all. Second: don't confuse having a *client* in a state with having an *office* in a state. Only an actual place of business forces automatic registration. Three individual clients in a state with no office? Exempt. One office with zero clients? Still must register.",
+    watch: "Three traps appear constantly. First: having an institutional client in a state (a pension fund, a corporation, an insurer) feels like it should matter — it doesn't count toward the threshold at all. Second: don't confuse having a *client* in a state with having an *office* in a state. Only an actual place of business forces automatic registration. Three individual clients in a state with no office? Exempt. One office with zero clients? Still must register. Third: the exam tests the exact number — the limit is **5 or fewer** (equivalently, fewer than 6). Watch for trap answers like 'no more than 6' or 'no more than 3' — both are wrong by one. The threshold is precisely 5.",
     quiz: [
       {
         q: "An investment adviser has no office in State X but advises four individual retail clients and two corporate pension plans domiciled there. Must the adviser register in State X?",
@@ -3135,6 +3135,28 @@ const CONCEPTS = [
         ],
         answer: 2,
         explain: "Banks are institutional clients and are explicitly excluded from the de minimis count. A, B, and D are all individual retail or high-net-worth clients — regardless of wealth, they are non-institutional and count toward the threshold. Note that being a 'qualified client' or having significant assets doesn't make someone institutional for this purpose."
+      },
+      {
+        q: "Under the Uniform Securities Act, an investment adviser with no place of business in a state is exempt from registration if it has had how many non-institutional clients in that state in the past 12 months?",
+        options: [
+          "No more than 3",
+          "No more than 5",
+          "No more than 6",
+          "No more than 10"
+        ],
+        answer: 1,
+        explain: "The de minimis threshold is exactly 5 non-institutional clients. At 5 or fewer, the exemption applies and no registration is required. At 6 or more, registration is required. This is a hard line — not a guideline — and the exam tests the exact number frequently. 3 and 10 are invented thresholds. 6 is the most dangerous wrong answer because it's just one above the actual limit and is designed to catch test-takers who remember 'around 5' rather than exactly 5."
+      },
+      {
+        q: "Under the Uniform Securities Act, all of the following out-of-state advisers are exempt from state registration EXCEPT",
+        options: [
+          "An adviser whose only clients in the state are three savings banks",
+          "An adviser whose only clients in the state are two registered investment companies",
+          "An adviser with six individual retail clients in the state and no institutional clients",
+          "An adviser whose only clients in the state are four federal covered advisers"
+        ],
+        answer: 2,
+        explain: "Six individual retail clients exceeds the 5-client de minimis threshold, so this adviser must register in the state. A qualifies for the institutional exemption — savings banks are institutional clients and don't count toward the threshold at all. B qualifies for the same reason — registered investment companies are institutional. D also qualifies — federal covered advisers are sophisticated, SEC-regulated entities that qualify as institutional clients for this purpose. All three exempt options involve exclusively institutional clients, which triggers the unlimited institutional exemption rather than the 5-client de minimis rule."
       }
     ]
   },

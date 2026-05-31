@@ -3463,6 +3463,51 @@ const CONCEPTS = [
         explain: "The government securities exclusion is absolute in its scope — it applies only when advice is limited *exclusively* to U.S. government securities. Bank CDs, while low-risk, are not government securities. The moment any other instrument enters the advisory practice, even occasionally, the exclusion is eliminated entirely and normal registration analysis applies from scratch. A and B both incorrectly treat the exclusion as a majority-of-practice or risk-equivalence test. D is wrong because CDs are not securities under the Uniform Securities Act — they are deposit products — but that doesn't save the exclusion, which is lost the moment non-government-security advice occurs."
       }
     ]
+  },
+
+  {
+    id: "form-pf-filing-requirement",
+    category: "Regulations",
+    title: "Form PF: Who Must File and Why",
+    color: "#FF6B6B",
+    analogy: "Form PF is like a confidential health report that only the biggest private fund doctors have to submit to the federal medical board. Small clinics (state-registered advisers) don't file it — they're not even in the system. Mid-size practices that got a pass on full registration (exempt reporting advisers) don't file it either. Only the fully licensed federal practitioners (SEC-registered advisers) who manage enough private patient assets ($150 million worth) have to submit the report — because at that scale, their patients' health can affect the whole financial system.",
+    rule: "Form PF must be filed by **SEC-registered investment advisers** that advise at least one private fund and have **at least $150 million in private fund AUM** as of the close of their most recently completed fiscal year. Two conditions must both be met: (1) the adviser must be **SEC-registered** — state-registered advisers and exempt reporting advisers (ERAs) are never required to file Form PF, and (2) the $150 million threshold applies specifically to **private fund AUM**, not total AUM — an adviser managing $500 million total but only $100 million in private funds would not meet the threshold. Form PF was created by the Dodd-Frank Act to give regulators visibility into systemic risk in the private fund industry. It is filed confidentially through IARD. **Note:** as of April 2026, the SEC and CFTC have *proposed* raising this threshold to $1 billion — but the testable rule for the Series 65 remains $150 million until exam materials reflect any final rule change.",
+    watch: "Three traps appear on this topic. First: state-registered advisers never file Form PF regardless of their AUM — it is exclusively an SEC-level filing. Second: exempt reporting advisers (ERAs) — advisers who are exempt from full SEC registration but still report to the SEC — are also not required to file Form PF. Third: the $150 million threshold applies to *private fund* AUM specifically, not total AUM. An adviser with massive total AUM but minimal private fund exposure may not meet the threshold. Don't confuse total AUM with private fund AUM.",
+    quiz: [
+      {
+        q: "Form PF must be filed by",
+        options: [
+          "State-registered private fund managers regardless of AUM",
+          "SEC-registered advisers with at least $150 million in private fund assets under management",
+          "SEC exempt reporting advisers managing private funds",
+          "SEC-registered advisers with no more than $150 million in private fund assets under management"
+        ],
+        answer: 1,
+        explain: "Form PF requires both SEC registration and at least $150 million in private fund AUM. State-registered advisers (A) never file Form PF — it is exclusively an SEC-level filing. Exempt reporting advisers (C) are specifically excluded from the Form PF requirement despite having an SEC reporting relationship. D reverses the threshold — 'no more than $150 million' describes advisers below the filing threshold who are not required to file."
+      },
+      {
+        q: "An SEC-registered investment adviser manages $400 million in total AUM, of which $90 million is attributable to private funds. Is this adviser required to file Form PF?",
+        options: [
+          "Yes — total AUM exceeds $150 million, triggering the Form PF requirement",
+          "Yes — any SEC-registered adviser managing private funds must file Form PF",
+          "No — private fund AUM of $90 million is below the $150 million threshold",
+          "No — Form PF only applies to advisers managing hedge funds, not all private funds"
+        ],
+        answer: 2,
+        explain: "The $150 million threshold for Form PF applies specifically to private fund AUM, not total AUM. This adviser's $90 million in private fund assets falls below the threshold, so no Form PF filing is required despite total AUM of $400 million. A incorrectly applies total AUM to the threshold test. B incorrectly treats any private fund activity as a trigger regardless of size. D incorrectly limits Form PF to hedge funds — it applies to all types of private funds including private equity, venture capital, real estate funds, and others."
+      },
+      {
+        q: "Which of the following advisers would be required to file Form PF?",
+        options: [
+          "A state-registered adviser managing $200 million in private fund assets",
+          "An SEC exempt reporting adviser managing $300 million in private fund assets",
+          "An SEC-registered adviser managing $175 million in private fund assets",
+          "An SEC-registered adviser managing $175 million in total AUM, of which $120 million is in private funds"
+        ],
+        answer: 2,
+        explain: "An SEC-registered adviser with $175 million specifically in private fund AUM meets both Form PF conditions: SEC registration and at least $150 million in private fund AUM. A fails the first condition — state-registered advisers never file Form PF regardless of AUM. B fails because exempt reporting advisers are explicitly excluded from the Form PF requirement. D fails the threshold test — $120 million in private fund AUM is below $150 million, even though total AUM is $175 million; it is private fund AUM that controls, not total AUM."
+      }
+    ]
   }
 ];
 

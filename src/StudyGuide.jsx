@@ -3048,6 +3048,51 @@ const CONCEPTS = [
         explain: "States cannot require SEC-registered advisers to register with them — federal law preempts that. However, states can require a notice filing (and charge fees), and they retain the right to investigate and bring fraud or other enforcement actions. B and D overstate federal preemption. A gets it backwards — registration is exactly what states cannot require."
       }
     ]
+  },
+
+  {
+    id: "ia-registration-de-minimis",
+    category: "Regulations",
+    title: "State IA Registration: Place of Business & De Minimis Exemption",
+    color: "#FF6B6B",
+    analogy: "Think of state registration like a food truck's permit requirements. If you park your truck in a city (place of business), you absolutely need that city's permit — no exceptions. But if you just occasionally deliver catering orders to a few customers across the state line, the city doesn't bother requiring a permit — unless you're making so many deliveries over there that you're basically operating there. And here's the catch: corporate catering contracts don't count toward that delivery threshold at all, because big institutions can take care of themselves.",
+    rule: "Under the Uniform Securities Act, a state-registered investment adviser must register in any state where it (1) maintains a **place of business**, regardless of client type or count, OR (2) has **more than 5 non-institutional clients** in that state in the prior 12 months, even with no office there. The **de minimis exemption** protects advisers with 5 or fewer non-institutional clients in a state from having to register there. Institutional clients — including **insurance companies, banks, broker-dealers, investment companies, pension plans, and corporations** — do **not** count toward the 5-client threshold.",
+    watch: "Two traps appear constantly. First: having an institutional client in a state (a pension fund, a corporation, an insurer) feels like it should matter — it doesn't count toward the threshold at all. Second: don't confuse having a *client* in a state with having an *office* in a state. Only an actual place of business forces automatic registration. Three individual clients in a state with no office? Exempt. One office with zero clients? Still must register.",
+    quiz: [
+      {
+        q: "An investment adviser has no office in State X but advises four individual retail clients and two corporate pension plans domiciled there. Must the adviser register in State X?",
+        options: [
+          "Yes — the adviser has more than 5 total clients in the state",
+          "Yes — pension plans always trigger registration requirements",
+          "No — institutional clients don't count, leaving only 4 non-institutional clients, which is within the de minimis exemption",
+          "No — advisers are never required to register in states where they have no office"
+        ],
+        answer: 2,
+        explain: "The de minimis threshold only counts non-institutional clients. The two pension plans are institutional and excluded. That leaves 4 individual clients — under the threshold of 5 — so the exemption applies and registration is not required. A incorrectly counts all clients together. B invents a special rule for pension plans. D overstates the exemption — having no office doesn't automatically exempt you if you exceed 5 non-institutional clients."
+      },
+      {
+        q: "Kapco Advisers has an office in Utah but its only Utah clients are two insurance companies. Must Kapco register with Utah's Administrator?",
+        options: [
+          "No — insurance companies are institutional, so the de minimis exemption applies",
+          "No — two clients is well below the 5-client threshold",
+          "Yes — having a place of business in a state requires registration regardless of client type or count",
+          "Yes — insurance companies are non-institutional clients for registration purposes"
+        ],
+        answer: 2,
+        explain: "The place-of-business rule is unconditional: if you have an office in a state, you must register there, period. The de minimis exemption and the institutional-client carveout are only relevant when determining whether a no-office presence triggers registration. They don't override the place-of-business rule. A and B misapply the de minimis logic to a situation it doesn't govern."
+      },
+      {
+        q: "Which of the following client types would NOT count toward the 5-client de minimis threshold for state IA registration?",
+        options: [
+          "A retired schoolteacher with a personal brokerage account",
+          "A small business owner investing personal savings",
+          "A state-chartered bank investing its own assets",
+          "A high-net-worth individual with $3 million in investable assets"
+        ],
+        answer: 2,
+        explain: "Banks are institutional clients and are explicitly excluded from the de minimis count. A, B, and D are all individual retail or high-net-worth clients — regardless of wealth, they are non-institutional and count toward the threshold. Note that being a 'qualified client' or having significant assets doesn't make someone institutional for this purpose."
+      }
+    ]
   }
 ];
 

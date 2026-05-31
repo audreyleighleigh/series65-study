@@ -3295,6 +3295,51 @@ const CONCEPTS = [
         explain: "Individual investors — regardless of wealth, sophistication, or net worth — do not qualify as institutional clients for purposes of the out-of-state IA registration exemption. The exemption is based on entity type, not financial status. A university endowment, a savings institution, and a registered investment company are all explicitly institutional. The $5 million net worth figure is designed to evoke 'qualified purchaser' or 'accredited investor' concepts, but neither designation converts an individual into an institution under state securities law."
       }
     ]
+  },
+
+  {
+    id: "federal-covered-adviser-vs-security",
+    category: "Regulations",
+    title: "Federal Covered: Adviser vs. Security (Don't Confuse Them)",
+    color: "#FF6B6B",
+    analogy: "These two 'federal covered' terms are like two different people who happen to share a last name — they're related by regulatory philosophy but describe completely different things. A federal covered *adviser* is a person (or firm) whose registration is handled at the federal level. A federal covered *security* is a product whose registration is handled at the federal level. The word 'covered' in both cases means the same thing: federal law covers it, so states step back. But what's being covered — the adviser or the security — is entirely different.",
+    rule: "**Federal covered adviser**: an investment adviser registered with the SEC under the Investment Advisers Act of 1940. The designation is about *who regulates the adviser* — not what securities they advise on. A federal covered adviser may advise on any type of security. Under NSMIA, federal law preempts state registration requirements for these advisers, though states retain enforcement authority and may require notice filings. **Federal covered security**: a security exempt from *state* registration because it is already regulated at the federal level — NOT exempt from SEC registration. Federal covered securities include: securities listed on national exchanges (NYSE, Nasdaq), shares of investment companies registered under the Investment Company Act of 1940 (mutual funds, ETFs, closed-end funds), and securities sold to qualified purchasers. The key distinction: 'federal covered' always means *exempt from state registration*, never exempt from federal oversight.",
+    watch: "Three traps on this topic appear constantly. First: 'federal covered adviser' has nothing to do with what securities the adviser sells — it describes their registration status only. Second, and most important: federal covered *securities* are NOT exempt from SEC registration — they are exempt from *state* registration. The exam will try to flip this. Third: don't conflate 'federal covered security' with 'exempt security.' Exempt securities (like Treasuries and munis) are exempt from registration requirements at both levels. Federal covered securities are registered federally but preempt state registration. These are different categories with different legal bases.",
+    quiz: [
+      {
+        q: "Which of the following statements about federal covered advisers and federal covered securities are TRUE? I. A federal covered adviser sells federal covered securities only. II. Federal covered advisers have federally imposed exemptions from state registration as investment advisers. III. A federal covered security is exempt from registration with the SEC. IV. Federal covered securities include shares issued by investment companies registered under the Investment Company Act of 1940.",
+        options: [
+          "I and III only",
+          "II and IV only",
+          "I, II, and IV only",
+          "II, III, and IV only"
+        ],
+        answer: 1,
+        explain: "Statements II and IV are the only true ones. II correctly identifies that federal covered advisers hold a federally imposed exemption from state registration — this is exactly what NSMIA established. IV is correct because mutual funds, ETFs, and closed-end funds registered under the Investment Company Act of 1940 are explicitly federal covered securities. Statement I is false because a federal covered adviser's designation is about who regulates them, not what they sell — they may advise on any securities. Statement III reverses the actual rule: federal covered securities are exempt from STATE registration, not from SEC registration. They are actively regulated at the federal level."
+      },
+      {
+        q: "Which of the following is a federal covered security?",
+        options: [
+          "A municipal bond issued by the City of Denver",
+          "Shares of a mutual fund registered under the Investment Company Act of 1940",
+          "A U.S. Treasury bond",
+          "A private placement sold under Regulation D to non-accredited investors"
+        ],
+        answer: 1,
+        explain: "Mutual fund shares are explicitly federal covered securities because the funds themselves are registered and regulated under the Investment Company Act of 1940 — requiring additional state-level securities registration would be redundant and operationally unworkable. Municipal bonds (A) and Treasury bonds (C) are exempt securities — a different category entirely, exempt from registration at both the federal and state level based on the nature of the issuer. Regulation D private placements (D) may qualify as federal covered securities only when sold to qualified purchasers; non-accredited investors don't meet that standard."
+      },
+      {
+        q: "An investment adviser is registered with the SEC and has $150 million in AUM. A state Administrator attempts to require the adviser to register with the state before conducting business there. Which of the following best describes the regulatory outcome?",
+        options: [
+          "The state may require registration because the adviser conducts business within its borders",
+          "The state may not require registration because the adviser is a federal covered adviser — NSMIA preempts state registration requirements",
+          "The adviser must register with both the SEC and the state because it exceeds $110 million in AUM",
+          "The state may require registration only if the adviser has more than 5 non-institutional clients there"
+        ],
+        answer: 1,
+        explain: "NSMIA explicitly preempts state registration requirements for federal covered advisers — an adviser registered with the SEC cannot be compelled to also register at the state level. The state retains two tools: it may require a notice filing (with fees), and it retains enforcement authority to investigate fraud or other violations. A and C both incorrectly suggest dual registration is possible or required. D conflates the de minimis exemption (which applies to state-registered advisers with few out-of-state clients) with the federal covered adviser preemption — these are two completely separate rules."
+      }
+    ]
   }
 ];
 

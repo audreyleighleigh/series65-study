@@ -3631,6 +3631,51 @@ const CONCEPTS = [
         explain: "The private fund adviser exemption is AUM-dependent — it applies only when U.S. private fund AUM is below $150 million, and SEC registration becomes mandatory above that threshold. The venture capital fund adviser exemption is AUM-independent — it applies regardless of how much the adviser manages, based solely on the fund type. C reverses the two exemptions. A incorrectly removes the AUM limitation from the private fund exemption. D incorrectly applies an AUM threshold to the VC fund exemption."
       }
     ]
+  },
+
+  {
+    id: "ia-post-closure-recordkeeping",
+    category: "Regulations",
+    title: "Post-Closure Recordkeeping: Obligations Survive the Business",
+    color: "#FF6B6B",
+    analogy: "Think of it like a restaurant that closes down. The health department doesn't come collect all the old inspection logs, and the owner doesn't get to shred everything the day they lock the doors. The former owner is still responsible for keeping those records accessible for the required period — because a food poisoning claim or regulatory investigation doesn't care that the restaurant is gone. Investment adviser recordkeeping works the same way: closing the business ends the practice but not the paper trail.",
+    rule: "When a federal covered investment adviser closes, the **responsibility for maintaining required books and records remains with the investment adviser** for the remainder of the applicable retention period. The standard five-year retention clock does not reset or stop upon closure — if a record was created two years before the firm closed, it must still be preserved for three more years after closure. Neither the SEC nor the state Administrator takes custody of records when a firm closes; regulators examine and review records but do not warehouse them. The adviser (or its successors, principals, or estate) bears the custodial obligation. Shredding records upon closure is a violation of Rule 204-2 regardless of whether the firm is still operating.",
+    watch: "The exam tests whether you understand that compliance obligations survive business closure. Two tempting wrong answers appear consistently: 'sent to the SEC' and 'sent to the Administrator' — both sound like responsible handoffs but neither is correct. Regulators are not document warehouses. Also watch for the implicit assumption that closing the firm ends all obligations — it doesn't. The retention period continues running after closure, and the adviser remains responsible for the full remainder of that window.",
+    quiz: [
+      {
+        q: "When a federal covered investment adviser closes, what happens to the books and records required to be maintained under Rule 204-2?",
+        options: [
+          "They must be shredded immediately to protect client confidentiality",
+          "They must be sent to the SEC for safekeeping",
+          "They remain the responsibility of the investment adviser for the remainder of the retention period",
+          "They must be sent to the state Administrator for safekeeping"
+        ],
+        answer: 2,
+        explain: "Recordkeeping obligations under Rule 204-2 survive business closure — the adviser remains responsible for preserving required documents for the remainder of the applicable retention period. Neither the SEC nor the state Administrator takes custody of records when a firm closes. Shredding records upon closure would violate the retention requirement. The five-year retention clock continues running after the firm closes, and the adviser or its successors bear the custodial responsibility."
+      },
+      {
+        q: "A federal covered investment adviser closes after operating for 20 years. A client communication record was created 3 years before the firm closed. How much longer must this record be preserved?",
+        options: [
+          "No additional time — the retention obligation ends when the firm closes",
+          "Two more years — records must be kept for five years from creation regardless of closure",
+          "Three more years — the five-year retention clock continues running after closure",
+          "Indefinitely — records created during operation must be kept permanently after closure"
+        ],
+        answer: 1,
+        explain: "The five-year retention period runs from the date of record creation, not from the date the firm closes. A record created three years before closure has two years remaining on its five-year retention window. The firm's closure does not reset or extend the clock — it simply means the adviser must continue fulfilling the retention obligation outside of an active business context. A incorrectly treats closure as ending retention obligations. C miscalculates the remaining period. D invents a permanent retention requirement that doesn't exist."
+      },
+      {
+        q: "Which of the following best explains why the SEC does not take custody of records when a federal covered adviser closes?",
+        options: [
+          "The SEC only has authority over records of currently registered advisers",
+          "Regulatory agencies examine and review records but do not function as document warehouses — custodial responsibility remains with the adviser",
+          "State Administrators take custody of all records when a federal covered adviser closes",
+          "Records are only required to be maintained while the firm is actively registered"
+        ],
+        answer: 1,
+        explain: "The SEC's role is regulatory oversight — examining, reviewing, and enforcing compliance with recordkeeping rules. Taking physical or legal custody of records from thousands of closing firms is operationally unworkable and outside the SEC's designed function. The custodial obligation stays with the adviser or its successors. A incorrectly limits SEC authority to currently registered advisers — enforcement authority extends beyond active registration. C incorrectly assigns state Administrator custody, which also doesn't happen. D incorrectly ties the retention obligation to active registration status."
+      }
+    ]
   }
 ];
 

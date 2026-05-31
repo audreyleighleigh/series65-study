@@ -3250,6 +3250,51 @@ const CONCEPTS = [
         explain: "When a firm registers as an investment adviser, any officer, director, or partner actively engaged in the advisory business is automatically registered as an IAR — no separate filing is required. This rule applies specifically to active principals of the firm, not to all employees. A invents a separate Form U4 requirement that doesn't apply here. B and D both invent conditions (exam timing, account size) that have no basis in the Uniform Securities Act."
       }
     ]
+  },
+
+  {
+    id: "out-of-state-ia-institutional-exemption",
+    category: "Regulations",
+    title: "Out-of-State IA Exemption: Institutional Clients Only",
+    color: "#FF6B6B",
+    analogy: "Imagine a high-end B2B software vendor who sells exclusively to corporations. Most states won't require them to get a local business license just because they have a few corporate clients there — the corporations can negotiate contracts, hire lawyers, and protect themselves. But the moment that vendor starts selling to individual residents, even rich ones, the state says: 'Now we need to get involved.' The institutional exemption for out-of-state investment advisers works exactly the same way — institutions can fend for themselves, individuals cannot, regardless of how wealthy or sophisticated those individuals are.",
+    rule: "An investment adviser with **no place of business in a state** is exempt from registering in that state if all of its clients there are **institutional clients**, which include: banks, savings institutions, trust companies, insurance companies, investment companies, pension funds, endowment funds, and other financial institutions. **Individual investors do not qualify** for this exemption — even if they are accredited investors, qualified clients, or high-net-worth individuals. 'Accredited investor' is a federal Regulation D concept that governs who may participate in private placements; it has no bearing on the state IA registration exemption. The type of securities being discussed (exempt, registered, or unregistered) is also irrelevant — securities registration and adviser registration are completely separate regimes.",
+    watch: "The exam's favorite trap here is slipping 'accredited investors' into the institutional client list. Accredited investor status confers certain privileges under federal law but does NOT make someone an institution for state IA registration purposes. Individual = not exempt, full stop. A secondary trap is adding detail about the securities involved (exempt securities, unregistered securities) to make it seem like the adviser's registration requirement is affected — it isn't. Always ask one question: is this client an entity or an individual?",
+    quiz: [
+      {
+        q: "An investment adviser with no place of business in State X has clients there that include a pension fund, a national bank, and three individual residents who are accredited investors. Is the adviser exempt from registering in State X?",
+        options: [
+          "Yes — all clients are either institutional or accredited, which satisfies the exemption",
+          "Yes — the pension fund and bank qualify, and accredited investors are treated as institutional clients",
+          "No — the three individual residents do not qualify as institutional clients, regardless of their accredited investor status",
+          "No — pension funds and banks do not qualify as institutional clients under the Uniform Securities Act"
+        ],
+        answer: 2,
+        explain: "The out-of-state IA exemption requires that ALL clients in the state be institutional. The three individual residents — even as accredited investors — are individuals, not institutions. Accredited investor status is a federal Regulation D concept that has no bearing on this state-level exemption. A and B both incorrectly treat accredited investor status as equivalent to institutional status. D is wrong because pension funds and banks are explicitly among the qualifying institutional client types."
+      },
+      {
+        q: "An out-of-state investment adviser is advising AAA Manufacturing Co. on the quality of investment bankers available for an upcoming underwriting of AAA's own securities. Must the adviser register in AAA's state?",
+        options: [
+          "Yes — any compensation for advice triggers registration regardless of client type",
+          "No — AAA is an institutional client, and the advice given may not constitute investment advice at all",
+          "No — underwriting advice is exempt from the Uniform Securities Act entirely",
+          "Yes — advice related to securities always requires state registration"
+        ],
+        answer: 1,
+        explain: "This scenario presents a double reason for no registration requirement. First, AAA Manufacturing is a corporation — an institutional client — which would trigger the out-of-state exemption on its own. Second, advising on the quality of investment bankers for an underwriting is arguably a business consulting service rather than investment advice about securities. When the activity doesn't constitute investment advice in the first place, no registration requirement arises. C overstates the case — there is no blanket underwriting exemption from the USA."
+      },
+      {
+        q: "Which of the following clients would NOT qualify an out-of-state investment adviser for the institutional client exemption from state registration?",
+        options: [
+          "A university endowment fund with $500 million in assets",
+          "A state-chartered savings institution",
+          "A wealthy individual with a net worth exceeding $5 million",
+          "A registered investment company"
+        ],
+        answer: 2,
+        explain: "Individual investors — regardless of wealth, sophistication, or net worth — do not qualify as institutional clients for purposes of the out-of-state IA registration exemption. The exemption is based on entity type, not financial status. A university endowment, a savings institution, and a registered investment company are all explicitly institutional. The $5 million net worth figure is designed to evoke 'qualified purchaser' or 'accredited investor' concepts, but neither designation converts an individual into an institution under state securities law."
+      }
+    ]
   }
 ];
 

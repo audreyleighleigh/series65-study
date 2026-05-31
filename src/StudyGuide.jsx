@@ -3149,6 +3149,51 @@ const CONCEPTS = [
         explain: "When an IAR is associated with multiple IA firms, supervision is allocated by activity — each firm's CCO is responsible for the advisory work the IAR conducts under that firm's registration. A and B both incorrectly try to assign all supervision to one regulator. D introduces 'primary employer,' which is not a regulatory concept that determines supervision — registration status is what determines it."
       }
     ]
+  },
+
+  {
+    id: "ia-aum-registration-thresholds",
+    category: "Regulations",
+    title: "IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser",
+    color: "#FF6B6B",
+    analogy: "Think of SEC registration like a highway with different on-ramps depending on what kind of vehicle you're driving. Most investment advisers get on at the $110M on-ramp — mandatory at that point. But pension consultants drive a different vehicle entirely and don't even reach their on-ramp until $200M, and it's optional when they get there. Advisers managing registered investment companies don't use the AUM highway at all — they're automatically on the federal road the moment they take on that client, regardless of size.",
+    rule: "Three distinct registration tiers apply under Dodd-Frank. **Standard investment advisers**: state registration required below $100M; SEC registration optional from $100M–$110M; SEC registration **mandatory above $110M**. **Pension consultants**: state registration applies until **$200M AUM**, at which point SEC registration becomes *optional* (not mandatory). **Advisers to registered investment companies** (funds registered under the Investment Company Act of 1940): SEC registration required **regardless of AUM**. Note: advisers to *unregistered* private funds follow a separate track — SEC registration required at **$150M+** in private fund AUM; below that, an exemption applies with SEC reporting requirements.",
+    watch: "Two traps appear constantly. First: pension consultants look like standard advisers, but their SEC-eligibility threshold is $200M, not $110M — and even then it's optional. A pension consultant at $179M is still state-registered. Second: the registered investment company rule (no AUM threshold) applies only to *registered* funds. An unregistered hedge fund does not trigger mandatory SEC registration — the adviser must instead look to their total AUM and the private fund thresholds.",
+    quiz: [
+      {
+        q: "Which of the following investment advisers would be required to register with the SEC as a federal covered adviser?",
+        options: [
+          "JKL Pension Consultants with $179 million in AUM",
+          "GHI Consultants managing $82 million for high-net-worth individuals",
+          "DEF Fund Managers advising an unregistered hedge fund with $10 million in assets",
+          "ABC Money Managers, a partnership with $115 million under management"
+        ],
+        answer: 3,
+        explain: "ABC at $115M clears the standard $110M mandatory SEC registration threshold with no complicating factors — straightforward federal covered adviser. JKL is a pension consultant, which requires $200M AUM before SEC registration is even permitted (and it would be optional at that point); at $179M, JKL remains state-registered. GHI at $82M is below $100M and must register at the state level. DEF manages an unregistered hedge fund — the mandatory registration rule for registered investment company advisers doesn't apply, and $10M is far below the $150M private fund threshold."
+      },
+      {
+        q: "A pension consultant currently manages $210 million in employee benefit plan assets. Which statement best describes their registration requirement?",
+        options: [
+          "They must register with the SEC because they exceed $110 million in AUM",
+          "They must register with the SEC because they exceed $200 million in AUM",
+          "They may choose to register with the SEC or remain state-registered",
+          "They are exempt from registration because pension consultants are excluded from the IA definition"
+        ],
+        answer: 2,
+        explain: "Pension consultants reaching $200M become *eligible* for SEC registration — but it remains optional. They may register with the SEC as a federal covered adviser, or continue registering with the relevant states. A incorrectly applies the standard $110M mandatory threshold to pension consultants. B incorrectly says 'must' — the correct word is 'may.' D is wrong because pension consultants are explicitly defined as investment advisers under SEC Release IA-1092."
+      },
+      {
+        q: "An investment adviser manages a mutual fund registered under the Investment Company Act of 1940. The adviser's total AUM is $40 million. What is their registration requirement?",
+        options: [
+          "State registration, because they are below the $100M threshold",
+          "No registration required, because they are below the $110M SEC threshold",
+          "SEC registration is required regardless of AUM because they advise a registered investment company",
+          "SEC registration is optional because they are in the $100M–$110M buffer zone"
+        ],
+        answer: 2,
+        explain: "Advisers to investment companies registered under the Investment Company Act of 1940 must register with the SEC regardless of their AUM — the standard Dodd-Frank thresholds simply don't apply to them. A and B both incorrectly apply the AUM-based thresholds to a situation where AUM is irrelevant. D invents a buffer zone that has nothing to do with this scenario."
+      }
+    ]
   }
 ];
 

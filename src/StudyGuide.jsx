@@ -3093,6 +3093,51 @@ const CONCEPTS = [
         explain: "Banks are institutional clients and are explicitly excluded from the de minimis count. A, B, and D are all individual retail or high-net-worth clients — regardless of wealth, they are non-institutional and count toward the threshold. Note that being a 'qualified client' or having significant assets doesn't make someone institutional for this purpose."
       }
     ]
+  },
+
+  {
+    id: "iar-supervision-responsibility",
+    category: "Regulations",
+    title: "IAR Supervision: Who's Responsible?",
+    color: "#FF6B6B",
+    analogy: "Imagine a staffing agency places a contractor at a client company. The contractor might have their own LLC, and the staffing agency has its own HR department, but day-to-day supervision of that contractor's work is the client company's responsibility — specifically whoever runs compliance there. It doesn't matter that the contractor owns their own business on the side. What matters is: who are they formally placed with?",
+    rule: "An investment adviser representative (IAR) is supervised by the **Chief Compliance Officer (CCO) of the investment adviser (IA) firm they are registered with**. The supervising firm is responsible for overseeing the IAR's advisory activities — not the SEC, not the IAR's own business entity, and not the IAR themselves. The SEC regulates the IA firm as a whole but does not directly supervise individual representatives. When an IAR is associated with multiple firms, identify **which firm they are registered as an IAR of** for the activity in question — that firm's CCO owns the supervisory obligation.",
+    watch: "The exam loves to distract you with ownership. If an IAR owns their own independent planning firm, it's tempting to say that firm's CCO supervises them — but if they're registered as an IAR *of a different IA*, that other firm's CCO is responsible. Also don't confuse SEC *regulatory oversight* of a firm with day-to-day *supervisory responsibility* over an individual rep. The SEC sets the rules and can bring enforcement actions, but it does not supervise IARs directly.",
+    quiz: [
+      {
+        q: "John owns Mississippi Advisory Services (MAS) and is registered as an IAR of SSC Securities and Investments, which is registered as both a broker-dealer and an investment adviser with the SEC. Who is responsible for supervising John's advisory activities?",
+        options: [
+          "The SEC, because SSC is SEC-registered",
+          "SSC's CCO, because John is registered as an IAR of SSC",
+          "MAS's CCO, because John owns MAS",
+          "John himself, because he is the owner of his own firm"
+        ],
+        answer: 1,
+        explain: "Supervision follows IAR registration, not ownership or regulatory prominence. John is registered as an IAR of SSC, so SSC's CCO is responsible for supervising his advisory activities. A is wrong because the SEC regulates firms but doesn't supervise individual reps. C is wrong because owning MAS is irrelevant — John isn't acting as an IAR of MAS in this context. D is wrong because self-supervision is never the answer; the compliance responsibility flows up to the registered IA firm."
+      },
+      {
+        q: "Which of the following best describes the difference between the SEC's role and an IA firm's CCO's role with respect to an IAR?",
+        options: [
+          "The SEC supervises IARs directly; the CCO handles registration paperwork",
+          "The SEC sets regulatory rules and oversees the IA firm; the CCO is responsible for day-to-day supervision of the firm's IARs",
+          "The CCO and the SEC share equal supervisory responsibility over each IAR",
+          "The SEC supervises IARs at federally covered advisers; state regulators supervise IARs at state-registered advisers"
+        ],
+        answer: 1,
+        explain: "The SEC's role is regulatory — it writes the rules, conducts examinations, and brings enforcement actions against firms. The CCO's role is operational supervision — monitoring that IARs follow those rules in their day-to-day advisory work. These are distinct functions. A reverses them. C invents a shared supervisory model that doesn't exist. D contains a partial truth (state vs. federal registration does matter for the firm) but still mischaracterizes who supervises individual IARs — it's always the CCO of the IA they're registered with, regardless of whether that IA is SEC or state registered."
+      },
+      {
+        q: "An IAR is registered with both a state-registered IA firm and a separate SEC-registered IA firm, conducting different advisory activities for each. Who supervises each set of activities?",
+        options: [
+          "The SEC supervises all of the IAR's activities since one firm is federally covered",
+          "The state Administrator supervises all activities since the IAR must be state-registered",
+          "Each firm's CCO supervises the IAR's activities conducted under that firm's registration",
+          "The IAR's primary employer is solely responsible for all advisory supervision"
+        ],
+        answer: 2,
+        explain: "When an IAR is associated with multiple IA firms, supervision is allocated by activity — each firm's CCO is responsible for the advisory work the IAR conducts under that firm's registration. A and B both incorrectly try to assign all supervision to one regulator. D introduces 'primary employer,' which is not a regulatory concept that determines supervision — registration status is what determines it."
+      }
+    ]
   }
 ];
 

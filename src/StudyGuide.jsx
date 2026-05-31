@@ -3351,6 +3351,51 @@ const CONCEPTS = [
         explain: "NSMIA explicitly preempts state registration requirements for federal covered advisers — an adviser registered with the SEC cannot be compelled to also register at the state level. The state retains two tools: it may require a notice filing (with fees), and it retains enforcement authority to investigate fraud or other violations. A and C both incorrectly suggest dual registration is possible or required. D conflates the de minimis exemption (which applies to state-registered advisers with few out-of-state clients) with the federal covered adviser preemption — these are two completely separate rules."
       }
     ]
+  },
+
+  {
+    id: "dodd-frank-three-tier-aum",
+    category: "Regulations",
+    title: "Dodd-Frank Three-Tier IA Registration Framework",
+    color: "#FF6B6B",
+    analogy: "Picture a three-story building where every investment adviser must live on exactly one floor — no doubles allowed. The ground floor (under $25M AUM) is state-only territory: the SEC won't even let you in the building's upper levels, and you must register with your state. The middle floor ($25M–$100M) is the mid-size zone: state registration is the default, but certain exceptions can bump you upstairs. The top floor ($110M+) is SEC territory: you must register federally, and the states can no longer require you to register with them. The $100M–$110M band is the elevator between floors — you can choose which level to land on.",
+    rule: "Under Dodd-Frank, investment adviser registration is divided into three tiers by AUM. **Small advisers (under $25M)**: SEC registration is *prohibited* — must register with the state(s). **Mid-size advisers ($25M–$100M)**: state registration is required by default; exceptions that permit or require SEC registration include being required to register in 15+ states (multistate exemption), being affiliated with an SEC-registered adviser, or expecting to qualify for SEC registration within 120 days. **Large advisers ($110M+)**: SEC registration is *mandatory* — state registration is preempted by federal law, though states may require notice filings and retain enforcement authority. **Buffer zone ($100M–$110M)**: the adviser may choose to register with the SEC or remain state-registered. Special rules apply outside this framework: pension consultants qualify for optional SEC registration at $200M+; advisers to registered investment companies must register with the SEC regardless of AUM; private fund advisers must register with the SEC at $150M+ in private fund AUM.",
+    watch: "Two traps appear constantly. First: 'small adviser' doesn't just mean state registration is preferred — SEC registration is actively *prohibited* below $25M. The exam may imply dual registration or SEC-plus-notice-filing is available for small advisers; it isn't. Second: don't confuse the $100M–$110M buffer zone (where the adviser chooses) with the $110M+ threshold (where SEC registration is mandatory). The choice disappears once you cross $110M. A third trap: notice filings with state Administrators are something *federal covered advisers* do — not small or mid-size state-registered advisers. If an answer choice combines SEC registration with a state notice filing, the firm must be a large federal covered adviser, not a small one.",
+    quiz: [
+      {
+        q: "Peterson Financial Planning is a small partnership in Missouri with $10 million in AUM. Under Dodd-Frank, what is Peterson's registration requirement?",
+        options: [
+          "Register with the SEC and file a notice with Missouri's Administrator",
+          "Register with Missouri's Administrator only",
+          "Register with both the SEC and Missouri's Administrator",
+          "Register with the SEC only — no state requirement applies"
+        ],
+        answer: 1,
+        explain: "At $10M AUM, Peterson is a small investment adviser under Dodd-Frank. Not only is state registration required — SEC registration is actively prohibited for advisers below $25M. Peterson must register with Missouri's Administrator and has no SEC registration pathway at this size. A describes a federal covered adviser's notice filing arrangement, which doesn't apply here. C describes dual registration, which the post-NSMIA framework was specifically designed to eliminate. D is the opposite of the correct answer."
+      },
+      {
+        q: "An investment adviser currently has $105 million in AUM. Which statement best describes their registration options under Dodd-Frank?",
+        options: [
+          "They must register with the SEC because they exceed $100 million in AUM",
+          "They must register with the state because they are below $110 million in AUM",
+          "They may choose to register with the SEC or remain state-registered — they are in the buffer zone",
+          "They are prohibited from SEC registration until they reach $110 million in AUM"
+        ],
+        answer: 2,
+        explain: "The $100M–$110M band is the buffer zone where the adviser has a genuine choice: register with the SEC as a federal covered adviser, or remain state-registered. SEC registration becomes mandatory only above $110M. A incorrectly treats $100M as a mandatory threshold — it is the eligibility floor, not the requirement trigger. B incorrectly says state registration is required at this level — the choice is available once the adviser reaches $100M. D incorrectly prohibits SEC registration below $110M — prohibition applies below $25M, not below $110M."
+      },
+      {
+        q: "Which of the following investment advisers would be PROHIBITED from registering with the SEC under Dodd-Frank?",
+        options: [
+          "A firm with $112 million in AUM",
+          "A pension consultant with $195 million in AUM",
+          "A firm with $18 million in AUM",
+          "An adviser to a mutual fund registered under the Investment Company Act of 1940"
+        ],
+        answer: 2,
+        explain: "Advisers with less than $25 million in AUM are small advisers — SEC registration is not just unavailable but actively prohibited. They must register at the state level. A must register with the SEC (above $110M mandatory threshold). B is a pension consultant below $200M — state registration applies, but the prohibition on SEC registration is based on AUM tier, not pension consultant status specifically; at $195M they're a mid-size adviser by AUM and state-registered by default. D must register with the SEC regardless of AUM because they advise a registered investment company — the AUM framework doesn't apply to them."
+      }
+    ]
   }
 ];
 

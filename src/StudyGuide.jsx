@@ -3003,6 +3003,51 @@ const CONCEPTS = [
         explain: "The withdrawal deadline is 180 days after fiscal year-end — for a December 31 year-end, that is June 29 of the following year. The annual updating amendment is due at 90 days (March 31), which is when the AUM drop is formally disclosed, but the withdrawal itself has until the 180-day mark. Option A conflates the two deadlines. Option C invents a one-year rule that doesn't exist. Option D invents an $80 million floor — the actual hard floor is $90 million, and $80 million is below it, making withdrawal mandatory."
       }
     ]
+  },
+
+  {
+    id: "federal-covered-adviser",
+    category: "Regulations",
+    title: "Federal Covered Adviser",
+    color: "#FF6B6B",
+    analogy: "Think of investment adviser registration like a restaurant health permit. Some restaurants are big enough (or structured in a way) that the federal health authority handles their inspections — those are your 'federal covered' establishments. Smaller local spots get inspected by the city or state. The federal designation is about *who issued the permit*, not what food they serve or how many customers walk through the door.",
+    rule: "A federal covered adviser is an investment adviser **registered with the SEC under the Investment Advisers Act of 1940**. Registration tier is generally determined by AUM: advisers with **$110M or more** must register with the SEC; those with **under $100M** register with the state(s). The $100M–$110M band is a buffer zone where the adviser may choose. Once SEC-registered, the states cannot require the firm to also register with them — though states retain enforcement authority.",
+    watch: "The exam loves to swap 'federal covered adviser' with 'federal covered security' — these are completely unrelated concepts. Advising on NYSE stocks or mutual funds does not make you a federal covered adviser. Also don't be fooled by client size (a $500M pension fund client) or interstate activity — neither determines your registration level. Only your own registration status does.",
+    quiz: [
+      {
+        q: "Which of the following would meet the definition of a federal covered adviser?",
+        options: [
+          "An investment adviser who serves as a consultant to pension funds with assets of $500 million",
+          "An investment adviser who gives advice on federal covered securities",
+          "An investment adviser who is registered with the SEC under the Investment Advisers Act of 1940",
+          "An investment adviser who does business on an interstate basis"
+        ],
+        answer: 2,
+        explain: "A federal covered adviser is defined solely by being registered with the SEC — full stop. A: client asset size doesn't determine the adviser's registration level. B: 'federal covered securities' and 'federal covered adviser' are completely separate concepts — the type of securities advised on is irrelevant. D: interstate activity affects jurisdictional notice filing but doesn't determine whether you're SEC- or state-registered."
+      },
+      {
+        q: "An investment adviser has $85 million in AUM. Which statement is most accurate about their registration requirement?",
+        options: [
+          "They must register with the SEC because they exceed $50 million in AUM",
+          "They must register with the state(s) in which they conduct business",
+          "They may choose to register with either the SEC or the state",
+          "They are exempt from registration because they are below $100 million"
+        ],
+        answer: 1,
+        explain: "At $85M AUM, this adviser falls below the $100M threshold and must register at the state level — they are not eligible for SEC registration. A: the $50M figure is not the threshold. C: adviser choice applies only in the $100M–$110M buffer zone. D: being below $100M means state registration is required, not that registration is waived."
+      },
+      {
+        q: "A federally covered adviser opens a branch office in a new state. What is the state's authority over that firm?",
+        options: [
+          "The state may require the adviser to register with the state before conducting business",
+          "The state has no authority whatsoever over federally covered advisers",
+          "The state may require a notice filing and fees, and retains enforcement authority",
+          "The state must defer all oversight to the SEC and cannot take any action"
+        ],
+        answer: 2,
+        explain: "States cannot require SEC-registered advisers to register with them — federal law preempts that. However, states can require a notice filing (and charge fees), and they retain the right to investigate and bring fraud or other enforcement actions. B and D overstate federal preemption. A gets it backwards — registration is exactly what states cannot require."
+      }
+    ]
   }
 ];
 

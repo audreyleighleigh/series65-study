@@ -3541,6 +3541,51 @@ const CONCEPTS = [
         explain: "An SEC-registered adviser with $175 million specifically in private fund AUM meets both Form PF conditions: SEC registration and at least $150 million in private fund AUM. A fails the first condition — state-registered advisers never file Form PF regardless of AUM. B fails because exempt reporting advisers are explicitly excluded from the Form PF requirement. D fails the threshold test — $120 million in private fund AUM is below $150 million, even though total AUM is $175 million; it is private fund AUM that controls, not total AUM."
       }
     ]
+  },
+
+  {
+    id: "bd-ia-special-compensation-trigger",
+    category: "Regulations",
+    title: "When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger",
+    color: "#FF6B6B",
+    analogy: "Think of a hardware store that gives free advice on which tools to buy for your project. The advice is part of the service, the store makes money on the tool sale, and nobody considers the hardware store a consulting firm. But the moment that hardware store starts charging a separate $50 'project consultation fee' on top of the tool purchase — or starts selling written project guides for $30 — it's no longer just a hardware store. It's also a consulting business, and different rules apply. The advice didn't change. The compensation structure did.",
+    rule: "A broker-dealer is **excluded** from the investment adviser definition when its advice is **incidental** to its brokerage business and it receives **no special compensation** for that advice. The exclusion is lost — and the BD becomes an investment adviser — the moment it charges **any separate fee for investment advice or research**, regardless of: (1) whether it also charges commissions for trade execution, (2) whether the advisory clients are institutional or individual, and (3) whether the research is the primary or secondary part of the business. The test is purely about compensation structure: **commission for trade execution = BD activity; fee for advice or research = IA activity**. Charging both makes the firm both a BD and an IA, requiring registration in both capacities. Importantly, there is no institutional client carve-out from the IA *definition itself* — institutional exemptions apply to registration *requirements* for out-of-state advisers, not to whether a firm meets the IA definition in the first place.",
+    watch: "Two traps appear constantly. First: a BD that charges commissions AND offers incidental advice is NOT an IA — the advice must be incidental and the compensation must be commission-only. The moment a separate advisory fee appears, the exclusion is gone. Second: selling research exclusively to institutions does NOT avoid IA status. The institutional nature of clients affects registration exemptions for out-of-state advisers — it has nothing to do with whether a firm with a place of business in the state meets the IA definition. If you charge for research, you're an IA, period.",
+    quiz: [
+      {
+        q: "A broker-dealer with an office in the state charges commissions for securities transactions and also charges a separate fee for written investment research reports sold to institutional clients. Which statement best describes this firm's registration requirement?",
+        options: [
+          "Registration as a BD only — institutional clients are exempt from IA oversight",
+          "Registration as a BD only — the research fee is incidental to the brokerage business",
+          "Registration as both a BD and an IA — the separate research fee constitutes special compensation for investment advice",
+          "No registration required — the firm's primary business is brokerage, not advisory"
+        ],
+        answer: 2,
+        explain: "The moment a BD charges a separate fee for investment research or advice, it loses the BD exclusion from the IA definition and must register as an investment adviser in addition to its BD registration. The institutional nature of the research clients is irrelevant — there is no institutional carve-out from the IA definition itself. A incorrectly treats institutional clients as a shield against IA registration. B incorrectly characterizes a dedicated research fee as 'incidental' — incidental means no separate compensation, not that it's a smaller part of the business."
+      },
+      {
+        q: "Which of the following broker-dealer activities would cause the firm to be defined as an investment adviser?",
+        options: [
+          "Recommending suitable securities to clients while charging only standard commissions",
+          "Offering general market commentary in client newsletters at no additional charge",
+          "Charging clients a flat annual fee for access to the firm's proprietary investment research",
+          "Suggesting portfolio rebalancing strategies as part of routine account maintenance"
+        ],
+        answer: 2,
+        explain: "Charging a flat annual fee for proprietary research is special compensation for investment advice — this triggers IA status regardless of whether the firm also charges commissions for trades. A, B, and D all describe advisory-adjacent activities where no separate fee is charged for the advice itself. Recommending securities with commission-only compensation, providing free market commentary, and offering incidental rebalancing guidance all fall within the BD exclusion because the compensation is tied to trade execution, not to the advice."
+      },
+      {
+        q: "A broker-dealer sells investment research exclusively to pension funds and endowments, charging a quarterly subscription fee. The firm argues it is not an investment adviser because all its advisory clients are institutional. Is this correct?",
+        options: [
+          "Yes — institutional clients fall outside the IA definition entirely",
+          "Yes — the de minimis exemption protects advisers serving only institutional clients",
+          "No — the institutional nature of clients affects registration exemptions for out-of-state advisers, not whether a firm with a local office meets the IA definition",
+          "No — pension funds and endowments are not considered institutional clients under the Uniform Securities Act"
+        ],
+        answer: 2,
+        explain: "The firm's argument conflates two separate concepts. Institutional client status affects the registration exemption available to out-of-state advisers with no local office — it has no bearing on whether a firm with a place of business in the state meets the IA definition. Any firm that charges a fee for investment research or advice meets the IA definition, regardless of client sophistication or type. A and B both incorrectly apply institutional exemptions to the threshold question of IA definition. D is factually wrong — pension funds and endowments are explicitly considered institutional clients under the USA."
+      }
+    ]
   }
 ];
 

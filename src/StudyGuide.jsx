@@ -3194,6 +3194,62 @@ const CONCEPTS = [
         explain: "Advisers to investment companies registered under the Investment Company Act of 1940 must register with the SEC regardless of their AUM — the standard Dodd-Frank thresholds simply don't apply to them. A and B both incorrectly apply the AUM-based thresholds to a situation where AUM is irrelevant. D invents a buffer zone that has nothing to do with this scenario."
       }
     ]
+  },
+
+  {
+    id: "ia-registration-requirements",
+    category: "Regulations",
+    title: "IA Registration: Initial Application vs. Annual Renewal",
+    color: "#FF6B6B",
+    analogy: "Think of initial IA registration like buying a house: you sign a stack of documents at closing — the purchase agreement, the deed, the title insurance, all of it. One of those documents, the deed, gets recorded permanently at the county office and never needs to be re-signed. Every year after that you pay property taxes and update your homeowner's insurance, but nobody asks you to re-record the deed. IA registration works the same way: the consent to service of process is your deed — filed once, permanent. Form ADV and fees are your taxes and insurance — renewed every year.",
+    rule: "**Initial application** requires three things together: (1) **Form ADV** (the disclosure and registration form), (2) **consent to service of process** (permanent — never re-filed), and (3) **appropriate filing fees**. **Annual renewal** (by December 31 each year) requires: (1) updated **Form ADV** and (2) **renewal fees**. The consent to service of process is explicitly *not* re-filed at renewal — it becomes a permanent part of the registration record after the initial filing. One additional rule: when a firm (not an individual) registers as an IA, any **officer, director, or partner actively engaged in the advisory business is automatically registered as an IAR** — no separate IAR application required.",
+    watch: "The exam's favorite trap on this topic is listing the consent to service of process as a renewal requirement — it feels right because Form ADV and fees do renew annually, so the consent seems like it should travel with them. It doesn't. Burn in this distinction: **Form ADV and fees = annual; consent to service of process = one-time and permanent**. A secondary trap is the automatic IAR registration rule — it only applies to officers, directors, and partners *actively engaged* in the advisory business, not all employees of the firm.",
+    quiz: [
+      {
+        q: "All of the following are required at the time of an investment adviser's initial registration in a state EXCEPT",
+        options: [
+          "Form ADV",
+          "Consent to service of process",
+          "Appropriate filing fees",
+          "A list of all current advisory clients"
+        ],
+        answer: 3,
+        explain: "The initial registration package requires Form ADV, a consent to service of process, and the appropriate filing fees. A client list is not a required component of the initial application. The consent to service of process is filed once here and becomes permanent — it will not need to be re-filed at renewal."
+      },
+      {
+        q: "Which of the following correctly describes the annual renewal process for a state-registered investment adviser?",
+        options: [
+          "The adviser must re-file Form ADV, pay renewal fees, and re-file the consent to service of process",
+          "The adviser must pay renewal fees only — Form ADV updates are optional",
+          "The adviser must re-file Form ADV and pay renewal fees; the consent to service of process does not need to be re-filed",
+          "The adviser must re-file all original application documents in full each year"
+        ],
+        answer: 2,
+        explain: "Annual renewal requires an updated Form ADV and payment of renewal fees. The consent to service of process was filed permanently at initial registration and is never re-filed. A and D both incorrectly include the consent as a renewal requirement. B is wrong because Form ADV updates are required, not optional — keeping disclosure current is a core ongoing obligation."
+      },
+      {
+        q: "When does a state-registered investment adviser's registration expire?",
+        options: [
+          "On the one-year anniversary of the original registration date",
+          "On December 31 of each year",
+          "On June 30 of each year",
+          "Registration does not expire unless revoked by the Administrator"
+        ],
+        answer: 1,
+        explain: "Under the Uniform Securities Act, investment adviser registrations expire on December 31 of each year, creating a uniform calendar-year renewal cycle across all registrants. A describes an anniversary-based system, which is not how the USA works — a common-sense calendar date avoids the administrative complexity of tracking different expiration dates firm by firm. D is incorrect because registration does lapse without active renewal."
+      },
+      {
+        q: "XYZ Advisory Group, LLC registers as an investment adviser in its home state. Its three managing partners all actively manage client portfolios. What additional registration steps must the partners take to legally conduct advisory business?",
+        options: [
+          "Each partner must separately file Form U4 and register as an IAR",
+          "Each partner must pass the Series 65 exam before the firm's registration is approved",
+          "No additional steps are required — officers and partners actively engaged in the advisory business are automatically registered as IARs upon firm registration",
+          "The partners must register as IARs only if they manage accounts exceeding $100,000"
+        ],
+        answer: 2,
+        explain: "When a firm registers as an investment adviser, any officer, director, or partner actively engaged in the advisory business is automatically registered as an IAR — no separate filing is required. This rule applies specifically to active principals of the firm, not to all employees. A invents a separate Form U4 requirement that doesn't apply here. B and D both invent conditions (exam timing, account size) that have no basis in the Uniform Securities Act."
+      }
+    ]
   }
 ];
 

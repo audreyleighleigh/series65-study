@@ -2898,9 +2898,20 @@ const CONCEPTS = [
     title: "Adviser to a Registered Investment Company — Mandatory SEC Registration",
     color: "#FF6B6B",
     analogy: "Think of registered investment companies as federal buildings — they were constructed under federal law, inspected by federal regulators, and open to the public nationwide. The firm hired to manage the building doesn't get to choose which inspector oversees their work based on how big their operation is. The moment you take the contract to manage a federal building, you report to the federal inspector. AUM size is irrelevant; the nature of the client is what determines jurisdiction.",
-    rule: "Any investment adviser that manages the portfolio of an investment company registered under the Investment Company Act of 1940 **must register with the SEC**, regardless of AUM. This is one of the specific triggers for mandatory federal registration — the normal $100M/$110M AUM thresholds do not apply. Because the adviser is a **federal covered adviser**, state registration is preempted entirely. States may require a notice filing and collect a fee, but they cannot require the adviser to register at the state level.",
-    watch: "Two traps appear consistently here. First, the exam may suggest the adviser registers with state Administrators — but federal covered adviser status means state registration is preempted; states only get a notice filing. Second, don't confuse 'notice filing' with 'registration' — an adviser to a registered investment company actually registers with the SEC (full disclosure, compliance obligations), it doesn't merely provide notice. Notice filings go to states, not to the SEC.",
+    rule: "Any investment adviser that manages the portfolio of an investment company registered under the Investment Company Act of 1940 **must register with the SEC**, regardless of AUM. This is one of the specific triggers for mandatory federal registration — the normal $100M/$110M AUM thresholds do not apply. Because the adviser is a **federal covered adviser**, state registration is preempted entirely. States may require a notice filing and collect a fee, but they cannot require the adviser to register at the state level. **Inverse framing — equally testable:** because SEC registration and state registration are mutually exclusive under NSMIA, a state-registered adviser is *categorically ineligible* to advise a registered investment company, no matter how many states they're registered in or how large their AUM. The disqualification is structural, not competence-based.",
+    watch: "Two traps appear consistently here. First, the exam may suggest the adviser registers with state Administrators — but federal covered adviser status means state registration is preempted; states only get a notice filing. Second, don't confuse 'notice filing' with 'registration' — an adviser to a registered investment company actually registers with the SEC (full disclosure, compliance obligations), it doesn't merely provide notice. Notice filings go to states, not to the SEC. Also watch for the inverse trap: questions that list four prospective clients (endowment, foundation, individual, registered investment company) and ask which one a state-registered adviser CAN'T take — the RIC is always the disqualifier.",
     quiz: [
+      {
+        q: "An investment adviser registered in 4 states would be permitted to enter into an advisory contract with all of the following prospective clients EXCEPT",
+        options: [
+          "A university endowment fund",
+          "A charitable foundation",
+          "A registered investment company",
+          "A single parent"
+        ],
+        answer: 2,
+        explain: "Advising a registered investment company requires SEC registration as a federal covered adviser — a status that is mutually exclusive with state registration. A state-registered adviser operating in 4 states cannot enter into an advisory contract with a registered investment company regardless of how many states they're registered in or how qualified they are. The other three clients — an endowment fund, a charitable foundation, and an individual — impose no such registration-level requirement and are perfectly acceptable clients for a state-registered adviser."
+      },
       {
         q: "A small investment advisory firm with $40 million in AUM is hired to manage the portfolio of a mutual fund registered under the Investment Company Act of 1940. Where must the firm register?",
         options: [

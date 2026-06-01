@@ -3811,6 +3811,51 @@ const CONCEPTS = [
         explain: "An adviser who limits their practice exclusively to U.S. government securities is excluded from the definition of investment adviser at both the federal and state level — no registration is required anywhere, regardless of AUM or client type. A, B, and D all describe advisers managing diversified or unspecified securities portfolios below the SEC registration thresholds, all of whom must register with the state. The AUM figures in A, B, and D are all below $100 million with no special circumstances that would trigger an exclusion or higher-level registration requirement."
       }
     ]
+  },
+
+  {
+    id: "120-day-new-adviser-exemption",
+    category: "Regulations",
+    title: "120-Day New Adviser Exemption: Skip State, Go Straight to SEC",
+    color: "#FF6B6B",
+    analogy: "Imagine you've accepted a job offer at a company that pays $100K, but you don't start for six weeks. You wouldn't tell people you're unemployed — you'd say you have a job lined up. The 120-day exemption works the same way for newly formed investment advisers. If you have reasonable grounds to expect you'll reach SEC-eligible AUM within 120 days — a signed contract, committed clients, a clear trajectory — you don't have to pretend you're a small state-registered adviser. You can register with the SEC right away based on where you're clearly headed, not just where you are today.",
+    rule: "A **newly formed investment adviser** that has a **reasonable expectation of reaching at least $100 million in AUM within 120 days** of its SEC registration becoming effective is eligible to register with the SEC immediately — even if current AUM is below $100 million. This is called the **120-day new adviser exemption**. It exists to prevent advisers from having to register at the state level only to immediately transition to SEC registration as AUM crosses the threshold. Key requirements: (1) the adviser must be **newly formed** — this exemption is not available to existing state-registered advisers that are growing; (2) the expectation must be **reasonable** — signed contracts, committed client relationships, and contractual obligations constitute reasonable grounds; speculative projections do not; (3) if the adviser does not reach $100 million within 120 days, it must withdraw its SEC registration and register with the appropriate state(s).",
+    watch: "Two traps appear on this topic. First: the exam will show a newly formed adviser with current AUM below $100 million and a signed contract or committed client that will push them over the threshold — the correct answer is SEC registration eligibility via the 120-day exemption, not state registration. Don't anchor on the current AUM figure alone. Second: this exemption is only available to *newly formed* advisers. An existing state-registered adviser that expects to grow to $100 million cannot use the 120-day exemption to jump to SEC registration early — they must actually reach the $100M–$110M buffer zone first. Also remember: a wealthy individual client is never institutional regardless of net worth — don't let large dollar amounts make you classify an individual as an institution.",
+    quiz: [
+      {
+        q: "Gibraltar Investment Advisers opened last week with $94 million under management and a signed contract to begin managing an additional $10 million at the start of next quarter. Which statement best describes Gibraltar's registration requirement?",
+        options: [
+          "Must register with the state and then switch to SEC registration within 90 days of receiving the additional $10 million",
+          "Must register at the state level only — current AUM is below $100 million",
+          "Is eligible to register with the SEC — the 120-day new adviser exemption applies based on the signed contract",
+          "Need not register because the additional $10 million client is a wealthy individual qualifying as institutional"
+        ],
+        answer: 2,
+        explain: "Gibraltar is a newly formed adviser with a signed contract that will push AUM to $104 million within the next quarter — well within 120 days. This constitutes a reasonable expectation of reaching $100 million within 120 days, qualifying Gibraltar for immediate SEC registration under the new adviser exemption. A incorrectly routes Gibraltar through state registration first — the 120-day exemption exists precisely to avoid that. B ignores the signed contract and the 120-day exemption entirely. D is wrong because a wealthy individual is a retail client regardless of net worth — wealth does not confer institutional status."
+      },
+      {
+        q: "A newly formed investment adviser currently manages $60 million but has signed agreements with several institutional clients that will bring total AUM to $115 million within 60 days. Which statement is correct?",
+        options: [
+          "The adviser must register with the state because current AUM is below $100 million",
+          "The adviser is eligible to register with the SEC under the 120-day new adviser exemption",
+          "The adviser must wait until AUM actually reaches $100 million before applying for SEC registration",
+          "The adviser may register with either the SEC or the state because it is in the buffer zone"
+        ],
+        answer: 1,
+        explain: "Signed agreements with institutional clients that will bring AUM to $115 million within 60 days constitute a reasonable expectation of reaching $100 million within 120 days. The newly formed adviser qualifies for the 120-day exemption and may register with the SEC immediately. A ignores the 120-day exemption. C incorrectly requires the adviser to wait until AUM actually crosses the threshold — the whole point of the exemption is that waiting is unnecessary when the expectation is reasonable and documented. D incorrectly places $60 million in the buffer zone, which begins at $100 million."
+      },
+      {
+        q: "Which of the following advisers would NOT qualify for the 120-day new adviser exemption?",
+        options: [
+          "A newly formed adviser with $80 million in AUM and signed contracts for an additional $25 million beginning next month",
+          "A newly formed adviser with $50 million in AUM that projects reaching $100 million within 90 days based on its business plan",
+          "A newly formed adviser with $95 million in AUM and a committed client bringing $10 million next quarter",
+          "A newly formed adviser with $70 million in AUM and three signed institutional client agreements totaling $40 million"
+        ],
+        answer: 1,
+        explain: "The 120-day exemption requires a *reasonable* expectation based on concrete evidence — signed contracts, committed relationships, or contractual obligations. A business plan projection without committed clients or signed agreements does not constitute a reasonable expectation; it is speculative. A has signed contracts — reasonable expectation met. C has a committed client — reasonable expectation met. D has signed institutional agreements — reasonable expectation met. B has only an internal projection with no external commitments to support it."
+      }
+    ]
   }
 ];
 

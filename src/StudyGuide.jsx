@@ -3766,6 +3766,51 @@ const CONCEPTS = [
         explain: "Office of supervisory jurisdiction (OSJ) is a FINRA term used in broker-dealer regulation to designate branch locations that supervise other offices and registered representatives. It has no equivalent meaning or application in investment adviser regulation. Principal office and place of business, Form ADV, and investment adviser representative are all terms specific to the investment adviser regulatory framework under the Investment Advisers Act of 1940 and the Uniform Securities Act."
       }
     ]
+  },
+
+  {
+    id: "state-ia-registration-required",
+    category: "Regulations",
+    title: "When State IA Registration Is Actually Required: Process of Elimination",
+    color: "#FF6B6B",
+    analogy: "Think of determining registration requirements like a TSA screening process with multiple checkpoints. Before concluding someone needs a state IA badge, you run them through several scanners first. Scanner 1: are they advising a registered investment company? → SEC only. Scanner 2: do they advise exclusively on government securities? → No registration anywhere. Scanner 3: are they a pension consultant above $200M? → SEC eligible. Scanner 4: are they above $110M in securities AUM? → SEC mandatory. Only after someone clears all four scanners without triggering any of them do you hand them a state registration form.",
+    rule: "State IA registration is required when a person with a place of business in the state provides investment advice for compensation AND none of the following apply: (1) **Registered investment company client** → requires SEC registration regardless of AUM; (2) **Government securities only** → excluded from the IA definition at both federal and state level, no registration anywhere; (3) **Pension consultant above $200M** → eligible for optional SEC registration, state registration not required; (4) **AUM above $110M** → mandatory SEC registration, state registration preempted; (5) **AUM $100M–$110M** → may choose SEC registration; (6) **Any other applicable exclusion or exemption** (LATE professions, bank, BD without special compensation, etc.). State registration applies to the adviser who simply manages client assets below the SEC thresholds with no special client type, no exclusion, and no exemption — the straightforward small or mid-size adviser.",
+    watch: "The exam constructs these questions by surrounding the correct state-registration answer with three distractors that each invoke a different exclusion or higher-level registration requirement. The trap is picking a distractor that sounds like it should require state registration — like a pension consultant with large AUM, which actually triggers SEC eligibility — or an adviser to a registered investment company, which requires SEC registration. Run every option through the full checklist before selecting. State registration is the residual category — it applies when nothing else knocks the person out of it.",
+    quiz: [
+      {
+        q: "Registration with the state as an investment adviser would be required for a person with an office in the state who",
+        options: [
+          "Manages the portfolio of a registered open-end investment company with $22 million in net assets",
+          "Manages $13 million in assets for four individual clients",
+          "Gives advice only on securities issued or guaranteed by the U.S. government",
+          "Serves as a pension consultant to an employee retirement plan with $278 million in total assets"
+        ],
+        answer: 1,
+        explain: "Managing $13 million for four individual clients triggers straightforward state IA registration — small AUM, no special client type, no applicable exclusion. A requires SEC registration because advising a registered investment company mandates federal covered adviser status regardless of AUM. C is excluded from the IA definition at both federal and state levels — no registration required anywhere. D is a pension consultant above $200M who is eligible for optional SEC registration — state registration is not required at that level."
+      },
+      {
+        q: "An investment adviser with an office in the state manages $85 million in securities for 12 individual clients. Which statement correctly describes their registration requirement?",
+        options: [
+          "Must register with the SEC — AUM exceeds $25 million",
+          "May choose to register with either the SEC or the state — AUM is in the buffer zone",
+          "Must register with the state — AUM is below $100 million and no special circumstances apply",
+          "Exempt from registration — fewer than 15 clients qualifies for the de minimis exemption"
+        ],
+        answer: 2,
+        explain: "At $85 million in securities AUM, this adviser is below the $100 million floor for SEC registration eligibility and must register at the state level. No special circumstances apply — no registered investment company client, no government securities exclusion, no pension consultant status. A incorrectly treats $25 million as an SEC registration threshold — it is actually the floor below which SEC registration is prohibited. B incorrectly places $85 million in the buffer zone, which begins at $100 million. D confuses the de minimis exemption, which applies to out-of-state advisers with no local office, not to advisers with a place of business in the state."
+      },
+      {
+        q: "Which of the following advisers with an office in the state would NOT be required to register with the state Administrator as an investment adviser?",
+        options: [
+          "An adviser managing $8 million for three individual clients",
+          "An adviser managing $50 million for 20 individual clients",
+          "An adviser managing $95 million exclusively in U.S. Treasury securities",
+          "An adviser managing $75 million for a mix of individual and institutional clients"
+        ],
+        answer: 2,
+        explain: "An adviser who limits their practice exclusively to U.S. government securities is excluded from the definition of investment adviser at both the federal and state level — no registration is required anywhere, regardless of AUM or client type. A, B, and D all describe advisers managing diversified or unspecified securities portfolios below the SEC registration thresholds, all of whom must register with the state. The AUM figures in A, B, and D are all below $100 million with no special circumstances that would trigger an exclusion or higher-level registration requirement."
+      }
+    ]
   }
 ];
 

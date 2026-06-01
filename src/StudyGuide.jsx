@@ -3676,6 +3676,51 @@ const CONCEPTS = [
         explain: "The SEC's role is regulatory oversight — examining, reviewing, and enforcing compliance with recordkeeping rules. Taking physical or legal custody of records from thousands of closing firms is operationally unworkable and outside the SEC's designed function. The custodial obligation stays with the adviser or its successors. A incorrectly limits SEC authority to currently registered advisers — enforcement authority extends beyond active registration. C incorrectly assigns state Administrator custody, which also doesn't happen. D incorrectly ties the retention obligation to active registration status."
       }
     ]
+  },
+
+  {
+    id: "regulatory-aum-calculation",
+    category: "Regulations",
+    title: "Regulatory AUM: What Counts and What Doesn't",
+    color: "#FF6B6B",
+    analogy: "Think of regulatory AUM like calculating the weight of your luggage at the airport. The airline only counts the bags you're actually checking — not your carry-on, not your laptop, not the coffee in your hand. Similarly, the SEC only counts securities under management when calculating regulatory AUM. Cash sitting in a money market fund or a bank account doesn't get a boarding pass. An adviser managing $200 million total might only have $95 million in securities AUM — and that distinction determines whether they register with the SEC or the state.",
+    rule: "**Regulatory AUM** — the figure used to determine whether an investment adviser must register with the SEC or the state — counts only the **value of securities portfolios for which the adviser provides continuous and regular supervisory or management services**. The following are NOT counted toward regulatory AUM: **cash and cash equivalents** (including money market funds, bank deposits, and Treasury bills held as cash), assets managed on a non-continuous or non-regular basis, and assets for which the adviser provides only impersonal advisory services. The practical implication: an adviser's total assets under management may appear to cross a registration threshold when the securities-only calculation does not. Always strip out non-securities assets before applying the $100M/$110M/$150M thresholds. The multistate adviser rule — requiring SEC registration when an adviser would otherwise be required to register in **15 or more states** — is an alternative pathway to SEC registration that is not AUM-based at all, and was reduced from 30 states to 15 states by Dodd-Frank.",
+    watch: "The exam will give you a total AUM figure that crosses a threshold, then bury the fact that a portion consists of cash or money market funds — expecting you to use the gross figure rather than stripping out non-securities assets. Always ask: is this entire amount invested in securities? If not, recalculate using only the securities portion before determining registration requirements. A second trap: the multistate adviser rule requires the adviser to be *legally required* to register in 15+ states — merely choosing to register in 15 states doesn't qualify. Voluntary registration in multiple states is not the same as being required to register there.",
+    quiz: [
+      {
+        q: "An investment adviser manages $35 million in cash and money market funds and $75 million in long-term bonds. Under Dodd-Frank, which registration requirement applies?",
+        options: [
+          "Must register with the SEC — total AUM of $110 million crosses the mandatory threshold",
+          "May choose to register with the SEC or the state — total AUM falls in the buffer zone",
+          "Must register with the state — regulatory AUM is $75 million after excluding cash and money market funds",
+          "Exempt from registration — cash and money market holdings qualify the adviser for an exemption"
+        ],
+        answer: 2,
+        explain: "Regulatory AUM counts only securities under management. Cash and money market funds are not securities for this purpose and must be excluded from the calculation. Stripping out the $35 million in cash and money market funds leaves $75 million in securities AUM — below the $100 million threshold where SEC registration becomes available. The adviser must register at the state level. A and B both incorrectly use total AUM of $110 million rather than securities-only AUM of $75 million. D invents an exemption based on cash holdings that doesn't exist."
+      },
+      {
+        q: "Under Dodd-Frank, an investment adviser with $80 million in securities AUM would be required to register with the SEC if",
+        options: [
+          "It voluntarily operates in 15 or more states",
+          "It is legally required to register as an investment adviser in 15 or more states",
+          "Its total AUM including cash exceeds $100 million",
+          "It manages assets for more than 15 institutional clients across different states"
+        ],
+        answer: 1,
+        explain: "The multistate adviser rule permits — and requires — SEC registration for advisers legally required to register in 15 or more states, regardless of AUM. The key word is 'required' — the adviser must be legally compelled to register in those states, not merely choosing to do so. A incorrectly treats voluntary multi-state registration as triggering the rule. C incorrectly uses total AUM including non-securities assets rather than regulatory AUM. D invents a client-count threshold that has no basis in the registration framework."
+      },
+      {
+        q: "Which of the following best describes the impact of Dodd-Frank on the multistate adviser rule?",
+        options: [
+          "Dodd-Frank eliminated the multistate adviser rule entirely",
+          "Dodd-Frank increased the threshold from 15 states to 30 states",
+          "Dodd-Frank reduced the threshold from 30 states to 15 states, making SEC registration available to more mid-size advisers",
+          "Dodd-Frank created the multistate adviser rule for the first time"
+        ],
+        answer: 2,
+        explain: "Prior to Dodd-Frank, the multistate adviser rule required an adviser to be registered in 30 or more states to qualify for SEC registration on that basis. Dodd-Frank reduced this threshold to 15 states — making the SEC registration pathway accessible to more mid-size advisers with broad geographic practices but AUM below the standard $100M threshold. A is wrong because the rule still exists post-Dodd-Frank. B reverses the direction of the change. D is wrong because the multistate rule predates Dodd-Frank — Dodd-Frank modified it, not created it."
+      }
+    ]
   }
 ];
 

@@ -3721,6 +3721,51 @@ const CONCEPTS = [
         explain: "Prior to Dodd-Frank, the multistate adviser rule required an adviser to be registered in 30 or more states to qualify for SEC registration on that basis. Dodd-Frank reduced this threshold to 15 states — making the SEC registration pathway accessible to more mid-size advisers with broad geographic practices but AUM below the standard $100M threshold. A is wrong because the rule still exists post-Dodd-Frank. B reverses the direction of the change. D is wrong because the multistate rule predates Dodd-Frank — Dodd-Frank modified it, not created it."
       }
     ]
+  },
+
+  {
+    id: "principal-office-place-of-business",
+    category: "Regulations",
+    title: "Principal Office and Place of Business: The Regulatory Term for HQ",
+    color: "#FF6B6B",
+    analogy: "Every organization has a nerve center — the place where the people in charge actually run things. For a hospital it's the administrative wing, for a law firm it's the managing partner's floor, for a sports team it's the front office. Investment adviser regulation has a precise term for this concept: the principal office and place of business. It's not 'headquarters,' not 'home office,' not 'registered office' — it's a defined regulatory term that appears on Form ADV and determines which rules apply to the firm.",
+    rule: "Under both the Investment Advisers Act of 1940 and the Uniform Securities Act, the **principal office and place of business** is defined as the executive office of the investment adviser from which the **officers, partners, or managers direct, control, and coordinate** the activities of the investment adviser. This is the address reported on Form ADV Part 1 and is the location the Administrator uses for regulatory correspondence and jurisdictional determinations. Three related terms to distinguish: (1) **OSJ (Office of Supervisory Jurisdiction)** is a FINRA/broker-dealer term for a supervisory branch location — it does not apply to investment adviser regulation; (2) **registered office** is a corporate law term for the legal address designated in entity formation documents for service of process — not the same as the IA regulatory term; (3) **home office** is informal language with no specific regulatory definition under IA law.",
+    watch: "The exam tests precise vocabulary here. 'OSJ' is the most dangerous distractor because it sounds authoritative and supervisory — but it belongs exclusively to the broker-dealer regulatory framework under FINRA rules. Importing BD terminology into an IA question is one of the exam's favorite traps. Also watch for 'registered office' — it's a real legal term in corporate law but means something completely different from the IA regulatory concept. When the question uses the phrase 'direct, control, and coordinate,' it is reading you the definition of 'principal office and place of business' almost verbatim — match the language.",
+    quiz: [
+      {
+        q: "Under both state and federal law, the executive office from which the officers, partners, or managers of an investment adviser direct, control, and coordinate the firm's activities is properly referred to as",
+        options: [
+          "The home office",
+          "The office of supervisory jurisdiction",
+          "The principal office and place of business",
+          "The registered office"
+        ],
+        answer: 2,
+        explain: "The precise regulatory term under both the Investment Advisers Act of 1940 and the Uniform Securities Act is 'principal office and place of business' — defined as the executive location from which officers, partners, or managers direct, control, and coordinate advisory activities. 'Home office' is informal language with no regulatory definition. 'Office of supervisory jurisdiction' is a FINRA term applicable to broker-dealers, not investment advisers. 'Registered office' is a corporate law term for the legal address in entity formation documents, not the IA regulatory concept."
+      },
+      {
+        q: "An investment adviser's Form ADV Part 1 requires the firm to report its principal office and place of business. Which location would correctly be reported?",
+        options: [
+          "The state where the firm was incorporated",
+          "The branch office with the most client accounts",
+          "The executive office from which the firm's managers direct, control, and coordinate advisory activities",
+          "Any office where investment adviser representatives meet with clients"
+        ],
+        answer: 2,
+        explain: "The principal office and place of business is specifically the executive headquarters where the firm's officers, partners, or managers run the operation — not the state of incorporation, the largest branch, or any client-facing location. It is a functional definition based on where control and coordination actually occur, not where the most business volume is generated or where the firm was legally formed."
+      },
+      {
+        q: "Which of the following terms applies to broker-dealer regulation but NOT to investment adviser regulation?",
+        options: [
+          "Principal office and place of business",
+          "Office of supervisory jurisdiction",
+          "Form ADV",
+          "Investment adviser representative"
+        ],
+        answer: 1,
+        explain: "Office of supervisory jurisdiction (OSJ) is a FINRA term used in broker-dealer regulation to designate branch locations that supervise other offices and registered representatives. It has no equivalent meaning or application in investment adviser regulation. Principal office and place of business, Form ADV, and investment adviser representative are all terms specific to the investment adviser regulatory framework under the Investment Advisers Act of 1940 and the Uniform Securities Act."
+      }
+    ]
   }
 ];
 

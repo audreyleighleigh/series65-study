@@ -3957,6 +3957,51 @@ const CONCEPTS = [
         explain: "The institutional client list includes banks and savings institutions, trust companies, insurance companies, broker-dealers, investment companies, and pension funds and employee benefit plans. Issuers of securities are explicitly NOT on this list — a common exam trap designed to test whether you know the precise boundaries of the exemption. A incorrectly adds issuers to the list. C and D both import federal securities law concepts (net worth thresholds, accredited investor status) that have no bearing on the state IA registration exemption — wealth and sophistication of individuals does not make them institutional clients."
       }
     ]
+  },
+
+  {
+    id: "exempt-reporting-adviser",
+    category: "Regulations",
+    title: "Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting",
+    color: "#FF6B6B",
+    analogy: "Think of an ERA like a foreign diplomat in a country. They're exempt from many local laws and registration requirements — but they're not invisible. They still have to check in with the embassy, file paperwork, and maintain a formal relationship with the authorities. An exempt reporting adviser works the same way: exempt from full SEC registration, but still required to file reports and maintain a visible regulatory relationship. Compare that to a fully off-the-grid hermit (the insurance company-only adviser) who has no filing obligations whatsoever.",
+    rule: "An **exempt reporting adviser (ERA)** is an investment adviser that qualifies for one of two specific exemptions from full SEC registration: (1) the **venture capital fund adviser exemption** — no AUM threshold, applies solely to advisers of venture capital funds regardless of size; or (2) the **private fund adviser exemption** — applies to advisers whose only clients are private funds with less than **$150 million in U.S. private fund AUM**. ERAs are **not fully registered** with the SEC but are **still required to file reports** — specifically an abbreviated version of Form ADV through the IARD. They are subject to SEC oversight and anti-fraud provisions but not the full compliance framework applicable to registered advisers. ERAs are never state-registered. Key distinction: advisers exempt from SEC registration for other reasons (insurance company-only advisers, intrastate advisers, foreign private advisers) are not ERAs — ERAs specifically are those relying on the VC fund or private fund exemptions.",
+    watch: "Three traps appear on this topic. First: ERAs are exempt from *registration* but not from *reporting* — they still file Form ADV. Second: the insurance company-only adviser is exempt from SEC registration but is NOT an ERA — they have no filing obligation at all, making them a completely different category. Third: don't confuse ERAs with state-registered advisers who file through IARD — state-registered advisers use IARD administratively but are fully registered at the state level, not exempt reporting advisers. The ERA designation applies specifically and only to VC fund and private fund advisers below $150M.",
+    quiz: [
+      {
+        q: "The term 'exempt reporting adviser' refers to",
+        options: [
+          "Advisers registered at the state level who file Form ADV through the IARD system",
+          "Broker-dealers who become investment advisers by offering wrap fee accounts",
+          "Advisers whose only clients are insurance companies",
+          "Advisers relying on the venture capital fund adviser exemption or the private fund adviser exemption from SEC registration"
+        ],
+        answer: 3,
+        explain: "An exempt reporting adviser is specifically an adviser that qualifies for the VC fund adviser exemption or the private fund adviser exemption from full SEC registration, but still files an abbreviated Form ADV with the SEC. A describes state-registered advisers using IARD administratively — not ERAs. B describes BDs that lose their exclusion from the IA definition by charging wrap fees — they become registered investment advisers, not ERAs. C describes insurance company-only advisers who are exempt from registration entirely with no reporting obligation — a completely different category from ERAs."
+      },
+      {
+        q: "Which of the following statements correctly distinguishes an exempt reporting adviser from an adviser that is exempt from SEC registration due to having only insurance company clients?",
+        options: [
+          "Both are required to file Form ADV with the SEC",
+          "Neither has any SEC reporting obligations",
+          "The ERA must file an abbreviated Form ADV with the SEC; the insurance company-only adviser has no SEC filing obligation",
+          "The insurance company-only adviser must file Form ADV; the ERA has no filing obligation"
+        ],
+        answer: 2,
+        explain: "ERAs are exempt from full registration but still required to file an abbreviated Form ADV through the IARD — hence 'reporting' adviser. An adviser whose only clients are insurance companies is exempt from SEC registration entirely and has no accompanying reporting obligation. A incorrectly requires both to file. B incorrectly removes the ERA's reporting obligation. D reverses the filing obligations of the two categories."
+      },
+      {
+        q: "An investment adviser manages two venture capital funds with combined AUM of $500 million and has no other clients. Which statement best describes this adviser's regulatory status?",
+        options: [
+          "Must register with the SEC as a federal covered adviser because AUM exceeds $110 million",
+          "Must register with the SEC because private fund AUM exceeds $150 million",
+          "Is an exempt reporting adviser — the VC fund adviser exemption applies regardless of AUM",
+          "Must register at the state level because venture capital funds are not recognized by the SEC"
+        ],
+        answer: 2,
+        explain: "The venture capital fund adviser exemption has no AUM threshold — it applies based entirely on fund type, not fund size. A $500 million VC fund adviser qualifies for the exemption just as a $10 million VC fund adviser would. As an ERA, the adviser must file an abbreviated Form ADV with the SEC but is not fully registered. A and B both incorrectly apply AUM-based thresholds to the VC fund exemption, which is type-based not size-based. D is wrong because the VC fund exemption is a federal framework — state registration is not involved for ERAs."
+      }
+    ]
   }
 ];
 

@@ -3867,6 +3867,51 @@ const CONCEPTS = [
         explain: "The 120-day exemption requires a *reasonable* expectation based on concrete evidence — signed contracts, committed relationships, or contractual obligations. A business plan projection without committed clients or signed agreements does not constitute a reasonable expectation; it is speculative. A has signed contracts — reasonable expectation met. C has a committed client — reasonable expectation met. D has signed institutional agreements — reasonable expectation met. B has only an internal projection with no external commitments to support it."
       }
     ]
+  },
+
+  {
+    id: "december-31-registration-expiration",
+    category: "Regulations",
+    title: "December 31: Universal Registration Expiration Date",
+    color: "#FF6B6B",
+    analogy: "Think of securities registrations like fishing licenses in a state that runs on a calendar year. It doesn't matter whether you're a fly fisherman, a deep-sea charter boat captain, a bait shop owner, or a fishing guide — every license expires on December 31 and must be renewed for the new year. The state didn't create different expiration cycles for different types of fishing professionals because that would be an administrative nightmare. Securities regulators made the same call: one expiration date, all registrant types, every year.",
+    rule: "Under the Uniform Securities Act, **all securities registrations expire on December 31 of each year** unless renewed. This applies uniformly to all four registrant categories: (1) **agents**, (2) **broker-dealers**, (3) **investment advisers**, and (4) **investment adviser representatives**. No registrant type has a different expiration date or anniversary-based expiration cycle. The uniform December 31 date exists for administrative efficiency — all registrants, regulators, and firms operate on the same annual renewal cycle. While the expiration date is identical across all registrant types, the renewal process may involve different forms and fees depending on the registrant category. Failure to renew by December 31 causes registration to lapse, and the registrant must cease operations until registration is reinstated.",
+    watch: "The exam will try to make you think different registrant types have different expiration rules — they don't. Agents, BDs, IAs, and IARs all expire December 31, full stop. A secondary trap is confusing the expiration date with other December 31 deadlines, like fiscal year-end filings or Form ADV annual updates — those are related but separate obligations. The expiration rule is about registration status itself, not about filing deadlines for disclosure documents.",
+    quiz: [
+      {
+        q: "Unless renewed, the registration of which of the following securities professionals expires on December 31? I. Agents II. Broker-dealers III. Investment advisers IV. Investment adviser representatives",
+        options: [
+          "III and IV only",
+          "II and III only",
+          "I and II only",
+          "I, II, III, and IV"
+        ],
+        answer: 3,
+        explain: "All four registrant categories — agents, broker-dealers, investment advisers, and investment adviser representatives — have registrations that expire on December 31 of each year unless renewed. The Uniform Securities Act applies a single universal expiration date across all registrant types for administrative efficiency. There are no exceptions or different expiration cycles for any category."
+      },
+      {
+        q: "An investment adviser representative fails to renew her registration before December 31. Which statement best describes her situation on January 1?",
+        options: [
+          "Her registration automatically rolls over for 30 days while the renewal is processed",
+          "Her registration has lapsed and she may not conduct advisory business until it is reinstated",
+          "She may continue operating because IARs have a 90-day grace period after December 31",
+          "Her registration remains valid until her supervising IA's registration also lapses"
+        ],
+        answer: 1,
+        explain: "All securities registrations expire on December 31 without exception. Failure to renew causes the registration to lapse immediately, and the registrant must cease operations until reinstatement. A and C both invent grace periods that don't exist under the Uniform Securities Act. D incorrectly ties the IAR's registration status to her supervising IA's registration — these are separate registrations with the same December 31 expiration date."
+      },
+      {
+        q: "Which of the following statements about securities registration expiration is TRUE under the Uniform Securities Act?",
+        options: [
+          "Broker-dealer registrations expire on the anniversary of their original registration date",
+          "Investment adviser registrations expire on June 30 each year to align with mid-year financial reporting",
+          "All securities registrations — agents, broker-dealers, investment advisers, and IARs — expire on December 31 each year",
+          "Agent registrations expire December 31, but investment adviser registrations expire 90 days after fiscal year end"
+        ],
+        answer: 2,
+        explain: "The Uniform Securities Act establishes December 31 as the universal expiration date for all securities registrations regardless of registrant type. A describes an anniversary-based system the USA explicitly avoids. B invents a June 30 expiration date that has no basis in the USA. D correctly identifies December 31 for agents but incorrectly creates a different expiration rule for investment advisers — both expire December 31. The 90-days-after-fiscal-year-end deadline applies to Form ADV annual updates, not to registration expiration."
+      }
+    ]
   }
 ];
 

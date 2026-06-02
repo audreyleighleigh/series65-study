@@ -2775,19 +2775,30 @@ const CONCEPTS = [
     title: "Investment Adviser Net Worth Deficiency — Required Response",
     color: "#FF6B6B",
     analogy: "Imagine a pilot who discovers mid-flight that the fuel level has dropped below the FAA minimum reserve. She doesn't land the plane immediately on her own judgment — that's the controller's call. But she has an immediate, timed protocol: declare the situation to air traffic control before her shift ends, file a full status report by the next morning including how many passengers are on board, and then await instructions. The FAA decides what happens next. She reports; they direct.",
-    rule: "Under NASAA rules, when an investment adviser with custody or discretion discovers her net worth has fallen below the required minimum, she must follow a three-step sequence: **(1)** Notify the Administrator by **close of business on the day of discovery**. **(2)** File a report of financial condition no later than **close of business the day after notification**. **(3)** The financial condition report must include a **statement of the number of client accounts**. The adviser does NOT automatically cease doing business — that is an action the Administrator may order after reviewing the report, not a self-imposed obligation.",
-    watch: "The exam will include 'cease doing business' as a required step to make the consequences feel appropriately severe. It isn't — ceasing operations is a potential Administrator-ordered outcome, not part of the adviser's self-reporting protocol. Also watch the timing: notification is due by close of business on the day of discovery, and the financial condition report is due by close of business the day after notification — two separate deadlines, one day apart.",
+    rule: "Under NASAA rules, investment advisers that exercise **discretionary authority** must maintain a minimum net worth of **$10,000**; advisers with **custody** of client funds or securities must maintain a minimum of **$35,000**. When the adviser discovers net worth has fallen below the applicable minimum, the required response is a two-step sequence: **(1)** Notify the Administrator by **close of business on the next business day after discovery**. **(2)** File a report of financial condition by **close of business the business day following the notice**. The financial condition report must include a **statement of the number of client accounts**. The adviser does NOT automatically cease doing business — that is an action the Administrator may order after reviewing the report, not a self-imposed obligation.",
+    watch: "The exam will include 'cease doing business' or 'immediately raise capital' as required steps to make the consequences feel appropriately severe. Neither is required — the response is purely administrative: notify, then report. Also watch the timing: notification is due by close of business on the **next business day after discovery** (not the same day as discovery), and the financial condition report is due by close of business the business day following the notice — two separate deadlines, one business day apart. Memorize the thresholds together: **$10,000 for discretion, $35,000 for custody** — the higher figure reflects the greater fiduciary risk of holding client assets.",
     quiz: [
       {
-        q: "An investment adviser with custody of client assets discovers at 2:00 PM on a Tuesday that her net worth has dropped below the state minimum. Under NASAA rules, what must she do by the end of that same business day?",
+        q: "An investment adviser exercising discretionary authority discovers its net worth is $8,500. Under the Uniform Securities Act, which steps are required?",
         options: [
-          "File a complete report of financial condition with the Administrator",
-          "Notify the Administrator of the net worth deficiency",
-          "Cease accepting new client accounts until the deficiency is cured",
-          "Notify all clients whose assets she holds in custody"
+          "Cancel all discretionary powers and immediately raise additional capital",
+          "Immediately raise $1,500 and send notice to the Administrator",
+          "Send notice to the Administrator before the close of business the next day, then file a financial report before the close of business the day after notice",
+          "File a financial report with the Administrator before the close of business the next day"
+        ],
+        answer: 2,
+        explain: "The required response to a net worth deficiency under the USA is a two-step sequence: notify the Administrator before the close of business on the next business day after discovery, then file a financial report before the close of business on the day following the notice. Canceling discretionary powers and immediately raising capital are not required procedural steps — the required response is notification and reporting, in that order. D is incomplete because it skips the notice requirement and goes straight to the financial report."
+      },
+      {
+        q: "Under the Uniform Securities Act, what is the minimum net worth requirement for an investment adviser that exercises discretionary authority over client portfolios but does not have custody of client funds?",
+        options: [
+          "$35,000",
+          "$10,000",
+          "$25,000",
+          "$50,000"
         ],
         answer: 1,
-        explain: "The first obligation triggered by discovery of a net worth deficiency is to notify the Administrator by close of business on that same day. The financial condition report comes next — but it isn't due until close of business the following day (after notification). Ceasing new accounts isn't a NASAA-mandated step at all; operational restrictions are the Administrator's call to make after reviewing the report. Client notification is not part of this protocol."
+        explain: "The minimum net worth requirement for a discretionary investment adviser under the USA is $10,000. The higher $35,000 minimum applies to advisers that have custody of client funds or securities — a more stringent standard reflecting the greater fiduciary risk of holding client assets. $25,000 and $50,000 are invented thresholds that don't appear in the USA's net worth requirements."
       },
       {
         q: "An investment adviser notifies the Administrator on Monday that her net worth has fallen below the required minimum. When must she file her report of financial condition, and what must that report include?",

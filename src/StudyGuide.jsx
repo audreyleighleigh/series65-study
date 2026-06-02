@@ -3912,6 +3912,51 @@ const CONCEPTS = [
         explain: "The Uniform Securities Act establishes December 31 as the universal expiration date for all securities registrations regardless of registrant type. A describes an anniversary-based system the USA explicitly avoids. B invents a June 30 expiration date that has no basis in the USA. D correctly identifies December 31 for agents but incorrectly creates a different expiration rule for investment advisers — both expire December 31. The 90-days-after-fiscal-year-end deadline applies to Form ADV annual updates, not to registration expiration."
       }
     ]
+  },
+
+  {
+    id: "out-of-state-ia-exemption-client-types",
+    category: "Regulations",
+    title: "Out-of-State IA Exemption: Which Client Types Actually Qualify",
+    color: "#FF6B6B",
+    analogy: "Think of the institutional client exemption like a VIP list at a venue. Only specific categories make the list — banks, insurance companies, broker-dealers, investment companies, pension funds. If your entire guest list consists of VIPs, you don't need a local permit. But if even one person on your list isn't a VIP — including the company that issued the tickets — you're subject to normal permitting rules. Issuers of securities aren't on the VIP list, no matter how prominent they are in the local market.",
+    rule: "An out-of-state investment adviser with **no place of business** in a state is exempt from registering there if ALL clients in that state are **institutional clients**. The qualifying institutional client types are: **banks and savings institutions, trust companies, insurance companies, broker-dealers, investment companies, pension funds and employee benefit plans, and other financial institutions**. Critically, **issuers of securities are NOT on the institutional client list** — an adviser whose only out-of-state clients are companies that issue securities does not qualify for the institutional exemption and must register. The de minimis exemption (5 or fewer non-institutional clients) is a separate pathway that applies when some individual clients are present but below the threshold. Having a **place of business** in a state triggers mandatory registration regardless of client type or count — the institutional and de minimis exemptions only apply to advisers with no local office.",
+    watch: "The exam will substitute 'issuers of securities' into the institutional client list to see if you catch it. Issuers are not institutional clients for this purpose — they are the companies whose securities are being traded, not financial institutions. Also watch for the interaction between the place-of-business rule and the client-type exemptions: if an adviser has an office in the state, no exemption saves them regardless of client sophistication. The institutional and de minimis exemptions are exclusively for out-of-state advisers with no local presence.",
+    quiz: [
+      {
+        q: "Under the Uniform Securities Act, which of the following out-of-state investment advisers with no place of business in the state would NOT be required to register?",
+        options: [
+          "An adviser whose only clients in the state are six individual retail investors",
+          "An adviser whose only clients in the state are issuers of securities domiciled in the state",
+          "An adviser whose only clients in the state are broker-dealers",
+          "An adviser whose only clients in the state are eight accredited individual investors with net worth exceeding $2 million each"
+        ],
+        answer: 2,
+        explain: "Broker-dealers are explicitly on the institutional client list under the Uniform Securities Act — an out-of-state adviser whose only clients are broker-dealers qualifies for the institutional exemption and need not register. A has six individual retail clients, exceeding the 5-client de minimis threshold. B has only issuers of securities, which are NOT institutional clients — issuers are companies whose securities are being traded, not financial institutions. D has eight accredited individual investors — accredited investor status is a federal Regulation D concept and does NOT make individuals institutional for state IA purposes; wealth alone never converts an individual into an institutional client."
+      },
+      {
+        q: "An out-of-state investment adviser advises three companies that have issued securities in State X and maintains no office there. Must the adviser register in State X?",
+        options: [
+          "No — issuers of securities are sophisticated entities equivalent to institutional clients",
+          "No — three clients is below the de minimis threshold of five",
+          "Yes — issuers of securities are not institutional clients, and the de minimis exemption only applies to non-institutional individual clients",
+          "Yes — any adviser with clients in a state must register there regardless of client type"
+        ],
+        answer: 2,
+        explain: "Issuers of securities are not on the institutional client list under the Uniform Securities Act. The institutional exemption covers banks, insurance companies, broker-dealers, investment companies, pension funds, and similar financial entities — not companies that happen to have issued securities. Because issuers don't qualify as institutional, the adviser cannot use the institutional exemption. The de minimis exemption counts non-institutional clients — but it applies to individual investors, not corporate issuers. With three issuer-clients and no applicable exemption, registration is required. D overstates the rule — the institutional and de minimis exemptions exist precisely to protect some out-of-state advisers from mandatory registration."
+      },
+      {
+        q: "Which of the following correctly lists the client types that qualify an out-of-state adviser for the institutional client exemption from state registration?",
+        options: [
+          "Banks, insurance companies, broker-dealers, investment companies, pension funds, and issuers of securities",
+          "Banks, insurance companies, broker-dealers, investment companies, and pension funds — but NOT issuers of securities",
+          "Any client with net worth exceeding $1 million, including individuals",
+          "Accredited investors, qualified purchasers, and qualified clients"
+        ],
+        answer: 1,
+        explain: "The institutional client list includes banks and savings institutions, trust companies, insurance companies, broker-dealers, investment companies, and pension funds and employee benefit plans. Issuers of securities are explicitly NOT on this list — a common exam trap designed to test whether you know the precise boundaries of the exemption. A incorrectly adds issuers to the list. C and D both import federal securities law concepts (net worth thresholds, accredited investor status) that have no bearing on the state IA registration exemption — wealth and sophistication of individuals does not make them institutional clients."
+      }
+    ]
   }
 ];
 

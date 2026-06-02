@@ -4002,6 +4002,51 @@ const CONCEPTS = [
         explain: "The venture capital fund adviser exemption has no AUM threshold — it applies based entirely on fund type, not fund size. A $500 million VC fund adviser qualifies for the exemption just as a $10 million VC fund adviser would. As an ERA, the adviser must file an abbreviated Form ADV with the SEC but is not fully registered. A and B both incorrectly apply AUM-based thresholds to the VC fund exemption, which is type-based not size-based. D is wrong because the VC fund exemption is a federal framework — state registration is not involved for ERAs."
       }
     ]
+  },
+
+  {
+    id: "ia-1092-business-standard",
+    category: "Regulations",
+    title: "Release IA-1092: The 'In the Business' Standard",
+    color: "#FF6B6B",
+    analogy: "Think of the business standard like the difference between someone who cooks dinner for their family and a professional chef. The home cook uses the same skills, the same ingredients, and might even be more talented — but they're not 'in the business' of cooking. The chef holds themselves out to the public, does it regularly, and gets paid for it. IA-1092 applies the same logic to investment advice: giving advice doesn't make you an investment adviser. Doing it as a business — regularly, for compensation, holding yourself out to the public — does.",
+    rule: "Release IA-1092 establishes that being an investment adviser requires meeting three prongs: (1) **advice about securities**, (2) **compensation**, and (3) **in the business** of providing advice. The 'in the business' standard is met when a person: (a) **holds themselves out** to the public as an investment adviser (advertising, marketing, using the title), AND/OR (b) **provides advice on a regular basis** as a significant part of their activities. The standard is NOT met when: advice is given on **rare and isolated occasions** only; advisory services are limited to **immediate family members**; or the content is **general economic or macroeconomic commentary** rather than advice about specific securities. All three prongs must be satisfied simultaneously — failing any one of them means the person is not an investment adviser under the Act.",
+    watch: "The exam tests each prong independently. 'Rare and isolated occasions' knocks out the business standard (prong 3). 'Immediate family only' also knocks out the business standard — family advice is personal, not commercial. 'Macroeconomic reports' knocks out the securities advice prong (prong 1) — general economic commentary is not advice about specific securities. The strongest 'in the business' indicator is the combination of public advertising AND routine service delivery — both elements together make the case unambiguous.",
+    quiz: [
+      {
+        q: "Which of the following activities most clearly meets the 'in the business' standard under Release IA-1092?",
+        options: [
+          "Advertising investment advisory services to the public and providing them routinely",
+          "Giving specific investment advice on only rare and isolated occasions",
+          "Providing investment advisory services exclusively to immediate family members",
+          "Issuing reports on macroeconomic conditions and GDP trends"
+        ],
+        answer: 0,
+        explain: "Advertising to the public (holding out) combined with routine service delivery satisfies both components of the business standard under IA-1092. B fails the business standard because rare and isolated advice lacks the regularity required. C fails because advising only immediate family members is a personal rather than commercial activity — no holding out, no public client relationship. D fails the securities advice prong entirely — macroeconomic commentary is not advice about specific securities regardless of how regularly it is published."
+      },
+      {
+        q: "Under Release IA-1092, which of the following three elements must ALL be present for a person to be defined as an investment adviser?",
+        options: [
+          "Discretion over client accounts, compensation, and registration with the SEC",
+          "Advice about securities, compensation, and being in the business of providing advice",
+          "Advice about securities, a fiduciary relationship, and holding out to the public",
+          "Regular client contact, written advisory contracts, and compensation"
+        ],
+        answer: 1,
+        explain: "IA-1092 establishes three required prongs: advice about securities (not general economic commentary), compensation (any form of economic benefit), and being in the business of providing advice (regularly, not on rare and isolated occasions, and/or holding out to the public). Discretion, SEC registration, fiduciary relationships, written contracts, and regular client contact are not among the three definitional elements — though some may be required for other regulatory purposes."
+      },
+      {
+        q: "A retired economist occasionally advises three close friends on their stock portfolios at no charge as a personal favor. Under IA-1092, which prongs of the investment adviser definition does this person fail?",
+        options: [
+          "Fails only the compensation prong — no fee is charged",
+          "Fails only the business standard prong — advice is occasional and personal",
+          "Fails both the compensation prong and the business standard prong",
+          "Meets all three prongs — stock advice is securities advice regardless of other factors"
+        ],
+        answer: 2,
+        explain: "This person fails two prongs simultaneously. First, the compensation prong: no fee or economic benefit is received. Second, the business standard: advice given occasionally to close friends as a personal favor is neither regular nor a public holding-out — it's personal activity, not commercial activity. The securities advice prong is the only one met here — stock recommendations do constitute advice about securities. Failing either the compensation or business standard prong is sufficient to fall outside the IA definition; failing both makes this an unambiguous non-IA."
+      }
+    ]
   }
 ];
 

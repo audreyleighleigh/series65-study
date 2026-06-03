@@ -4052,12 +4052,34 @@ const CONCEPTS = [
   {
     id: "iar-registration-jurisdiction",
     category: "Regulations",
-    title: "IAR Registration: Follows the IAR's Place of Business",
+    title: "IAR Registration: Jurisdiction by Employer Type",
     color: "#FF6B6B",
-    analogy: "Think of IAR registration like a driver's license. You get licensed in the state where you live — not where your passengers are going, not where your employer is headquartered, and not where your coworkers' passengers are going. If Brenda lives and works in State Y, she gets a State Y license. The fact that her firm has a headquarters in State X and a colleague serves clients in State Z is completely irrelevant to which state issues Brenda's license.",
-    rule: "An IAR must register in the state where they maintain their **place of business** — the state where *they* physically work. Client location, firm headquarters location, and supervisee client locations are all irrelevant to the IAR's personal registration requirement. If an IAR maintains places of business in multiple states, they must register in each state where they have an office. The place-of-business rule for IARs mirrors the place-of-business rule for IAs: physical presence in a state triggers registration in that state. One important nuance: IARs of **federal covered advisers** register with the states where they have a place of business — not with the SEC. The SEC registers the firm; states register the individuals.",
-    watch: "The exam constructs IAR jurisdiction questions by surrounding the IAR with multiple states — the firm's principal office state, the client states, the supervisee states — and expecting you to ignore all of them except the state where the IAR personally works. Brenda supervising IARs with clients in States X, Y, and Z sounds like it should matter — it doesn't. Only Brenda's own place of business determines where Brenda registers. A second trap: IARs of federal covered advisers do NOT register with the SEC — they register with the state(s) where they have a place of business, even though their employer is SEC-registered.",
+    analogy: "Think of IAR registration like two different types of sales rep licensing. A rep working for a small regional company (state-registered IA) needs a license in their home territory AND any territory where they exceed a certain sales volume. But a rep working for a massive national corporation (federal covered IA) only needs a license where they physically work — the federal umbrella covers everything else. Same job, same activities, but the employer's registration level determines which licensing rules apply to the individual.",
+    rule: "IAR registration requirements differ based on whether the employing IA is state-registered or federally covered. **IARs of federal covered advisers** must register only in states where they maintain a **place of business** — client counts and client locations are completely irrelevant; the de minimis client-count rule does NOT apply. **IARs of state-registered IAs** must register in: (1) the state where they maintain a **place of business**, AND (2) any state where their **non-institutional clients exceed 5** in the prior 12 months (the de minimis rule). In both cases, IARs register with states, never with the SEC — the SEC registers the firm; states register the individuals. If an IAR maintains places of business in multiple states, they must register in each state where they have an office, regardless of employer type.",
+    watch: "Always identify the employer first: state-registered IA or federal covered IA? That single determination controls which registration rules apply to the IAR. The exam constructs scenarios with large client counts across multiple states specifically to bait you into applying the de minimis rule to IARs of federal covered advisers — it doesn't apply. A second trap: IARs of federal covered advisers do NOT register with the SEC — they register with the state(s) where they have a place of business, even though their employer is SEC-registered. A third trap: the de minimis rule for IARs of state-registered advisers uses the same 5-client threshold as the IA de minimis rule — but it applies to the IAR's own client count in each state, not the firm's.",
     quiz: [
+      {
+        q: "Marvin works for a state-registered IA out of its Jackson, MS office. He has 3 clients in MS, 6 in AL, and 4 in LA. Lewis works for a federal covered adviser out of its Tupelo, MS office. He has 45 clients in TN, 4 in GA, and 6 in AL. Which statement correctly describes their IAR registration requirements?",
+        options: [
+          "Marvin must register in MS and AL; Lewis must register in MS, TN, and AL",
+          "Marvin must register in MS only; Lewis must register in MS only",
+          "Marvin must register in MS and AL; Lewis must register in MS only",
+          "Marvin must register in MS, AL, and LA; Lewis must register in MS, TN, AL, and GA"
+        ],
+        answer: 2,
+        explain: "Marvin works for a state-registered IA, so he must register where he has a place of business (MS) plus any state where his clients exceed 5 (AL, with 6 clients). Louisiana has only 4 clients — under the threshold. Lewis works for a federal covered adviser, so he registers only where he has a place of business (MS), regardless of client counts anywhere. His 45 Tennessee clients and 6 Alabama clients are irrelevant. The de minimis rule simply doesn't apply to IARs of federal covered advisers."
+      },
+      {
+        q: "An IAR works for a state-registered investment adviser out of its Denver, CO office. She has 8 clients in Colorado, 4 in Wyoming, and 7 in Utah. In which states must she register as an IAR?",
+        options: [
+          "Colorado only — place of business controls IAR registration",
+          "Colorado and Utah — place of business plus states where clients exceed 5",
+          "Colorado, Wyoming, and Utah — all states where she has clients",
+          "Colorado and Wyoming — place of business plus all neighboring states"
+        ],
+        answer: 1,
+        explain: "For IARs of state-registered advisers, registration is required in the place of business state (Colorado) plus any state where non-institutional clients exceed 5. Utah has 7 clients — over the threshold — so Utah registration is required. Wyoming has only 4 clients — under the threshold — so no Wyoming registration is needed. C incorrectly applies a client-presence rule with no threshold. D invents a geographic proximity rule that doesn't exist."
+      },
       {
         q: "Brenda is the manager of a branch office in State Y for a federal covered adviser whose principal office is in State X. Some IARs she supervises have clients in States X and Y; others have clients in States Y and Z. In which state(s) must Brenda register as an IAR?",
         options: [

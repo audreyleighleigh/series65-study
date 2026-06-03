@@ -4114,6 +4114,51 @@ const CONCEPTS = [
         explain: "When an IAR maintains places of business in multiple states, she must register in each state where she has an office. Having a physical presence in both State X and State Y triggers registration in both. A invents a majority-time test that doesn't exist — the rule is place of business, not primary residence of time. B incorrectly exempts IARs of federal covered advisers from state registration — IARs always register with states, never with the SEC. D incorrectly ties IAR registration to firm headquarters location."
       }
     ]
+  },
+
+  {
+    id: "indirect-compensation-comprehensive-financial-plan",
+    category: "Regulations",
+    title: "Indirect Compensation & the Comprehensive Financial Plan Rule",
+    color: "#FF6B6B",
+    analogy: "Imagine a contractor who offers to design your home renovation for free — but only uses their own crew for the work. The design service isn't really free; it's a loss leader that generates the construction contract. Regulators see comprehensive financial plans the same way: if someone prepares a detailed plan containing securities advice and then earns commissions when the client buys the recommended products, the commission is indirect payment for the advice. The effort of preparing the plan wouldn't happen without the downstream payoff.",
+    rule: "Under the Uniform Securities Act, **indirect compensation** counts as compensation for investment advice. A person who prepares a **comprehensive financial plan** — which regulators consider to inherently contain securities advice — and receives commissions on products purchased as a result is considered to be acting as an investment adviser representative, even if no direct advisory fee is charged. This applies to: CFP® professionals affiliated with both a BD and an IA who earn commissions on recommended securities; insurance agents affiliated with an advisory division who earn commissions on insurance products from clients for whom they prepare financial plans. Both must register as IARs. The key regulatory stance: (1) **there is no such thing as a comprehensive financial plan that does not involve securities**, and (2) **commission income from recommended products = indirect compensation for the advice that led to those recommendations**. Note: broker-dealers and mutual fund companies are not investment advisers under the USA and therefore the IAR registration question is irrelevant to them entirely.",
+    watch: "Two traps appear on this topic. First: commission-only compensation looks like it should trigger the BD exclusion — but when commissions flow from a comprehensive financial plan containing securities advice, regulators treat them as indirect advisory compensation, not pure brokerage compensation. The BD exclusion requires advice to be incidental; preparing a comprehensive financial plan is the opposite of incidental. Second: the indirect compensation rule applies regardless of what product generates the commission — securities commissions, insurance commissions, or any other product recommended in the plan. The plan is the advisory activity; the commission is the compensation.",
+    quiz: [
+      {
+        q: "A CFP® affiliated with both a broker-dealer and an investment adviser prepares comprehensive financial plans for clients. Her only compensation is commissions earned when clients purchase the recommended securities. Must she register as an IAR?",
+        options: [
+          "No — she receives only commissions, not advisory fees, so the BD exclusion applies",
+          "No — CFP® designation holders are exempt from IAR registration requirements",
+          "Yes — commissions earned from products recommended in a comprehensive financial plan constitute indirect compensation for investment advice",
+          "Yes — but only because she is affiliated with an investment adviser"
+        ],
+        answer: 2,
+        explain: "Regulators treat commissions earned from products recommended in a comprehensive financial plan as indirect compensation for the securities advice contained in that plan. The BD exclusion does not apply because the advice is not incidental — preparing a comprehensive financial plan is the primary activity, not a byproduct of trade execution. A incorrectly applies the BD exclusion to a situation where advice is the core service. B is wrong because CFP® designation exempts from the Series 65 exam, not from IAR registration requirements. D is partially correct reasoning but incomplete — the indirect compensation analysis is the controlling issue, not merely the IA affiliation."
+      },
+      {
+        q: "An insurance agent affiliated with an investment adviser's advisory division prepares detailed financial plans for clients and earns commissions only on insurance products they purchase. Which statement is correct?",
+        options: [
+          "She need not register as an IAR because her compensation comes from insurance products, not securities",
+          "She must register as an IAR because comprehensive financial plans inherently contain securities advice and her insurance commissions are indirect compensation for that advice",
+          "She need not register as an IAR because insurance agents are excluded from the investment adviser definition",
+          "She must register as an IAR only if her financial plans explicitly recommend specific securities"
+        ],
+        answer: 1,
+        explain: "Regulators take the position that there is no such thing as a comprehensive financial plan that does not involve securities. The insurance commissions are considered indirect compensation for the securities advice embedded in the plan — the agent would not prepare the plan without the downstream commission payoff. A incorrectly treats the insurance product nature of the commission as a shield against IAR registration. C is wrong because the insurance agent exclusion applies to advice incidental to insurance work — preparing comprehensive financial plans is not incidental. D incorrectly limits the rule to plans with explicit securities recommendations — the comprehensive plan itself is considered securities advice regardless of how it is labeled."
+      },
+      {
+        q: "Which of the following persons would NOT be required to register as an IAR?",
+        options: [
+          "A CFP® who prepares comprehensive financial plans and earns commissions on recommended securities purchases",
+          "An insurance agent affiliated with an advisory firm who prepares detailed financial plans and earns insurance commissions",
+          "A broker-dealer with extensive business in the state",
+          "A financial planner who charges hourly fees for investment advice and is affiliated with a registered IA"
+        ],
+        answer: 2,
+        explain: "A broker-dealer is an entity, not an individual, and broker-dealers are not investment advisers under the USA — the IAR registration question is therefore irrelevant to them entirely. A and B both involve indirect compensation through comprehensive financial plans and must register as IARs. D charges direct advisory fees while affiliated with a registered IA — a textbook IAR who must register. The broker-dealer in C simply cannot be an IAR because IAR registration applies only to individual persons affiliated with registered investment advisers."
+      }
+    ]
   }
 ];
 

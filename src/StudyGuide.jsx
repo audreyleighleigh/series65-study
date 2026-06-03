@@ -4047,6 +4047,51 @@ const CONCEPTS = [
         explain: "This person fails two prongs simultaneously. First, the compensation prong: no fee or economic benefit is received. Second, the business standard: advice given occasionally to close friends as a personal favor is neither regular nor a public holding-out — it's personal activity, not commercial activity. The securities advice prong is the only one met here — stock recommendations do constitute advice about securities. Failing either the compensation or business standard prong is sufficient to fall outside the IA definition; failing both makes this an unambiguous non-IA."
       }
     ]
+  },
+
+  {
+    id: "iar-registration-jurisdiction",
+    category: "Regulations",
+    title: "IAR Registration: Follows the IAR's Place of Business",
+    color: "#FF6B6B",
+    analogy: "Think of IAR registration like a driver's license. You get licensed in the state where you live — not where your passengers are going, not where your employer is headquartered, and not where your coworkers' passengers are going. If Brenda lives and works in State Y, she gets a State Y license. The fact that her firm has a headquarters in State X and a colleague serves clients in State Z is completely irrelevant to which state issues Brenda's license.",
+    rule: "An IAR must register in the state where they maintain their **place of business** — the state where *they* physically work. Client location, firm headquarters location, and supervisee client locations are all irrelevant to the IAR's personal registration requirement. If an IAR maintains places of business in multiple states, they must register in each state where they have an office. The place-of-business rule for IARs mirrors the place-of-business rule for IAs: physical presence in a state triggers registration in that state. One important nuance: IARs of **federal covered advisers** register with the states where they have a place of business — not with the SEC. The SEC registers the firm; states register the individuals.",
+    watch: "The exam constructs IAR jurisdiction questions by surrounding the IAR with multiple states — the firm's principal office state, the client states, the supervisee states — and expecting you to ignore all of them except the state where the IAR personally works. Brenda supervising IARs with clients in States X, Y, and Z sounds like it should matter — it doesn't. Only Brenda's own place of business determines where Brenda registers. A second trap: IARs of federal covered advisers do NOT register with the SEC — they register with the state(s) where they have a place of business, even though their employer is SEC-registered.",
+    quiz: [
+      {
+        q: "Brenda is the manager of a branch office in State Y for a federal covered adviser whose principal office is in State X. Some IARs she supervises have clients in States X and Y; others have clients in States Y and Z. In which state(s) must Brenda register as an IAR?",
+        options: [
+          "States X, Y, and Z",
+          "State Y only",
+          "States X and Y",
+          "States Y and Z"
+        ],
+        answer: 1,
+        explain: "IAR registration is determined solely by the IAR's place of business — where they personally work. Brenda works in State Y, so she registers in State Y only. The firm's principal office in State X is irrelevant to Brenda's personal registration. The states where her supervisees' clients are located (X, Y, and Z) are also irrelevant. Only Brenda's own physical location determines her registration state."
+      },
+      {
+        q: "An IAR works out of a branch office in State A for a federal covered adviser headquartered in State B. The IAR's clients are located in States A, B, and C. In which state(s) must the IAR register?",
+        options: [
+          "States A, B, and C — all states where clients are located",
+          "State B only — the firm's principal office state controls IAR registration",
+          "State A only — the IAR's place of business controls registration",
+          "The SEC — because the employing firm is a federal covered adviser"
+        ],
+        answer: 2,
+        explain: "IAR registration follows the IAR's place of business, not client locations or firm headquarters. The IAR works in State A, so State A is the only registration state. Client locations in B and C are irrelevant. The firm's State B headquarters is irrelevant. IARs of federal covered advisers register with states, not the SEC — the SEC registers the firm, states register the individuals."
+      },
+      {
+        q: "An IAR of a federal covered adviser maintains offices in both State X and State Y, splitting her time equally between both locations. In which state(s) must she register?",
+        options: [
+          "The state where she spends more than 50% of her time",
+          "Neither state — IARs of federal covered advisers are exempt from state registration",
+          "Both State X and State Y — she has a place of business in each",
+          "Only the state where the firm's principal office is located"
+        ],
+        answer: 2,
+        explain: "When an IAR maintains places of business in multiple states, she must register in each state where she has an office. Having a physical presence in both State X and State Y triggers registration in both. A invents a majority-time test that doesn't exist — the rule is place of business, not primary residence of time. B incorrectly exempts IARs of federal covered advisers from state registration — IARs always register with states, never with the SEC. D incorrectly ties IAR registration to firm headquarters location."
+      }
+    ]
   }
 ];
 

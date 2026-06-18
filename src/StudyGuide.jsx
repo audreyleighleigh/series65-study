@@ -4159,6 +4159,51 @@ const CONCEPTS = [
         explain: "A broker-dealer is an entity, not an individual, and broker-dealers are not investment advisers under the USA — the IAR registration question is therefore irrelevant to them entirely. A and B both involve indirect compensation through comprehensive financial plans and must register as IARs. D charges direct advisory fees while affiliated with a registered IA — a textbook IAR who must register. The broker-dealer in C simply cannot be an IAR because IAR registration applies only to individual persons affiliated with registered investment advisers."
       }
     ]
+  },
+
+  {
+    id: "usa-model-law-administrator-authority",
+    category: "Regulations",
+    title: "Uniform Securities Act: Model Law & Administrator Authority",
+    color: "#FF6B6B",
+    analogy: "Think of the Uniform Securities Act like a recipe shared among 50 different restaurants. Each restaurant (state) can adopt the recipe, but each one is free to tweak the seasoning to its own taste — and each restaurant's own head chef (the state Administrator) decides exactly how it's prepared and served in their kitchen. It's not one corporate headquarters (the federal government) dictating the recipe to every location — it's a shared template that each location runs independently.",
+    rule: "The **Uniform Securities Act (USA) is a MODEL law**, not federal/national law — each state independently adopts and enforces its own version through its own state **Administrator**. The Administrator has broad authority to set rules on **registration, testing, and fees** for broker-dealers, agents, investment advisers, and IARs. State law (the USA) provides for BOTH civil liability AND criminal penalties — not a split between state-civil and federal-criminal. State Administrators have NO authority over federal law.",
+    watch: "The word 'Uniform' is a trap — it sounds like it implies national/federal uniformity, but it actually means 'a uniform template states can choose to adopt,' not 'one law enforced nationally.' Also watch for civil/criminal splits being misattributed to state vs. federal — both levels of government can impose both civil and criminal consequences independently.",
+    quiz: [
+      {
+        q: "Which of the following statements is true?",
+        options: [
+          "The USA only provides for civil liabilities for persons involved in illegal securities transactions in their state, while federal law provides criminal penalties",
+          "State Administrators are permitted to establish regulations relating to the registration, testing, and fees for broker-dealers, agents, investment advisers, and investment adviser representatives",
+          "The Uniform Securities Act is national law that each state enforces through a state Administrator",
+          "The state Administrator has authority to amend federal law to meet the needs or special circumstance in his state"
+        ],
+        answer: 1,
+        explain: "State Administrators have broad rule-making authority over registration, testing, and fee requirements for securities professionals in their state. Option A is wrong — state law (the USA) provides both civil and criminal remedies, not just civil. Option C is wrong — the USA is a model act adopted state-by-state, not national/federal law. Option D is wrong — state Administrators have no authority over federal law; state and federal regulatory systems operate independently."
+      },
+      {
+        q: "The Uniform Securities Act is best described as:",
+        options: [
+          "A federal statute enforced uniformly by the SEC in all 50 states",
+          "A model act that individual states may adopt and modify as their own state law",
+          "A set of FINRA rules that supersede state securities law",
+          "An international treaty governing cross-border securities transactions"
+        ],
+        answer: 1,
+        explain: "The USA is a model act drafted to provide states with a template for securities regulation — each state independently chooses to adopt it (often with modifications) as its own law, enforced by its own Administrator. It is not federal law (A) — that distinction belongs to statutes like the Securities Exchange Act of 1934, enforced by the SEC. It has no relationship to FINRA rules (C) or international treaties (D)."
+      },
+      {
+        q: "Under state securities law, a person who commits securities fraud could face which of the following consequences?",
+        options: [
+          "Civil liability only, since criminal penalties are reserved for federal law",
+          "Criminal penalties only, since civil remedies are reserved for federal law",
+          "Both civil liability and criminal penalties under state law",
+          "No consequences unless the SEC separately brings federal charges"
+        ],
+        answer: 2,
+        explain: "State securities law (the USA as adopted by each state) independently provides for both civil liability (private lawsuits, damages) and criminal penalties (fines, imprisonment) for securities fraud — entirely separate from any federal action. Options A and B incorrectly assume a split between state and federal authority that doesn't exist. Option D is wrong because state enforcement doesn't depend on federal involvement."
+      }
+    ]
   }
 ];
 

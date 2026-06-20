@@ -4238,6 +4238,40 @@ const CONCEPTS = [
         explain: "5 years is the default retention period under the USA for required records, including advertising materials like websites. This is the baseline number the exam tests across many recordkeeping questions."
       }
     ]
+  },
+
+  {
+    id: "bd-place-of-business-trigger",
+    category: "Regulations",
+    title: "Broker-Dealer Registration: Place of Business Is the Gatekeeper",
+    color: "#FF6B6B",
+    analogy: "Think of 'place of business' as a tripwire, not a checklist item. If a broker-dealer plants an office in a state, the tripwire is sprung and they register — full stop. Only if there's no office does the question of 'who do they deal with' even get asked.",
+    rule: "A broker-dealer with **a place of business** in a state must register there, **regardless of clientele** — even if it deals exclusively with other registered broker-dealers. Only a broker-dealer with **no place of business** in the state can qualify for an exemption, and only if it deals exclusively with issuers, other broker-dealers, or institutions — or directs offers to an *existing* customer temporarily residing there (no minimum or maximum length of stay required).",
+    watch: "Don't evaluate 'who they deal with' first — check place of business first. A sophisticated client list (other BDs, institutions) cannot rescue a firm that has an office in the state. Also watch for fabricated thresholds like a '30-day' temporary residency cutoff — there is no such cutoff for the existing-customer exemption.",
+    quiz: [
+      {
+        q: "Which of the following must register as a broker-dealer under the USA?",
+        options: [
+          "A broker-dealer with no place of business in the state that effects transactions exclusively with issuers of securities in that state",
+          "A broker-dealer with no place of business in the state that has directed offers to clients who have more than 30 days' temporary residency in the state",
+          "A broker-dealer with a place of business in the state that effects transactions exclusively with broker-dealers registered in other states",
+          "A broker-dealer with no place of business in the state that deals exclusively with broker-dealers with offices in that state"
+        ],
+        answer: 2,
+        explain: "C has a place of business in the state, which triggers registration regardless of who it trades with — the broker-dealer-only clientele is irrelevant once there's an office. A and D both lack a place of business and deal with exempt counterparties (issuers, other BDs), so both stay exempt. B fabricates a 30-day threshold; the actual existing-customer exemption has no minimum or maximum length-of-stay requirement."
+      },
+      {
+        q: "A broker-dealer has no office in State Q and deals exclusively with insurance companies and pension funds located there. Must it register in State Q?",
+        options: [
+          "Yes — any business conducted in the state triggers registration",
+          "No — institutional clients with no place of business in the state qualifies for exemption",
+          "Yes — only individual retail investors qualify for the no-place-of-business exemption",
+          "No — but only if the broker-dealer's home state has a reciprocal agreement with State Q"
+        ],
+        answer: 1,
+        explain: "Insurance companies and pension funds are institutional clients, and with no place of business in State Q, the broker-dealer qualifies for exemption — the institutional client / no-place-of-business combination is exactly the exempt pattern. A ignores the exemption entirely. C inverts the rule — retail investors are the clients that do NOT qualify for this exemption. D invents a reciprocal-agreement concept that doesn't exist in the USA framework."
+      }
+    ]
   }
 ];
 

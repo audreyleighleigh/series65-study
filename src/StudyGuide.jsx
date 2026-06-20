@@ -4272,6 +4272,40 @@ const CONCEPTS = [
         explain: "Insurance companies and pension funds are institutional clients, and with no place of business in State Q, the broker-dealer qualifies for exemption — the institutional client / no-place-of-business combination is exactly the exempt pattern. A ignores the exemption entirely. C inverts the rule — retail investors are the clients that do NOT qualify for this exemption. D invents a reciprocal-agreement concept that doesn't exist in the USA framework."
       }
     ]
+  },
+
+  {
+    id: "bd-definition-named-exclusions",
+    category: "Regulations",
+    title: "Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent",
+    color: "#FF6B6B",
+    analogy: "Think of each defined term in the USA — broker-dealer, investment adviser, agent — as having its own VIP guest list of exclusions. Banks are on the broker-dealer list. Lawyers, Accountants, Teachers, and Engineers (LATE) are on the investment adviser list. They're different parties at different venues — a name from one list doesn't get you into the other.",
+    rule: "Under the USA, **banks, savings institutions, and trust companies are explicitly excluded from the definition of broker-dealer**. This is separate and distinct from the LATE professionals (Lawyer, Accountant, Teacher, Engineer), who are excluded from the **investment adviser** definition instead. Credit unions and investment advisers are not named exclusions from the broker-dealer definition.",
+    watch: "The exam will pull a name from one exclusion list (e.g., an attorney from LATE) and drop it into a question about a *different* definition (broker-dealer) to bait pattern-matching on 'exempt-sounding profession.' Always check which definition is actually being tested before applying an exclusion you've memorized.",
+    quiz: [
+      {
+        q: "Which of the following is not included in the definition of broker-dealer as found in the Uniform Securities Act?",
+        options: [
+          "Banks",
+          "Credit unions",
+          "Investment advisers",
+          "Attorneys"
+        ],
+        answer: 0,
+        explain: "Banks are explicitly named as excluded from the broker-dealer definition under the USA. Credit unions and investment advisers are not on this exclusion list. Attorneys are a distractor pulled from the LATE exclusion list, which applies to the investment adviser definition — a completely different statutory question."
+      },
+      {
+        q: "A trust company in your state executes securities transactions as part of its trust administration services. Must it register as a broker-dealer under the USA?",
+        options: [
+          "Yes — any entity executing securities transactions must register as a broker-dealer",
+          "No — trust companies, like banks, are excluded from the broker-dealer definition",
+          "Yes — but only if it charges a separate fee for the transactions",
+          "No — but only if it has no place of business in the state"
+        ],
+        answer: 1,
+        explain: "Trust companies are grouped with banks as named exclusions from the broker-dealer definition — the exclusion applies regardless of fee structure or physical presence. A ignores the named exclusion entirely. C invents a fee-based condition that doesn't exist for this exclusion. D wrongly imports the place-of-business test, which applies to a different category of exemption (out-of-state BDs), not the bank/trust exclusion."
+      }
+    ]
   }
 ];
 

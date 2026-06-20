@@ -4306,6 +4306,51 @@ const CONCEPTS = [
         explain: "Trust companies are grouped with banks as named exclusions from the broker-dealer definition — the exclusion applies regardless of fee structure or physical presence. A ignores the named exclusion entirely. C invents a fee-based condition that doesn't exist for this exclusion. D wrongly imports the place-of-business test, which applies to a different category of exemption (out-of-state BDs), not the bank/trust exclusion."
       }
     ]
+  },
+
+  {
+    id: "usa-registration-true-statements",
+    category: "Regulations",
+    title: "Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal",
+    color: "#FF6B6B",
+    analogy: "Picture securities registration like a stage play: the issuer, the broker-dealer, or anyone else with a stake in the offering can be the one who 'files the script' (the registration statement). But an agent on that stage only has a speaking role while they're tethered to a BD — unplug that connection and their mic goes dead, registration or not. And nobody's cast gets automatically renewed for next season just because nothing went wrong this year — everyone re-auditions on the same calendar date.",
+    rule: "Under the USA: **(1)** A registration statement may be filed by the issuer, a broker-dealer, or any other person on whose behalf the offering is made — filing rights are not limited to the issuer alone. **(2)** An agent's registration is **not effective** unless the agent is associated with a broker-dealer (or issuer) registered under the Act — registration is tethered to an active BD relationship, not free-floating. **(3)** Registrations are **not** automatically renewed — renewal requires affirmative action and runs on a fixed annual cycle (December 31), not on an anniversary-of-approval basis tied to clean conduct.",
+    watch: "A broker-dealer firm itself never registers 'as an agent' — those are separate registration categories for separate types of parties (entity vs. individual). Don't confuse this with the agent-BD dual registration rule (different states) — this is about a single agent's registration being void without ANY BD affiliation. And always doubt any answer choice using the word 'automatic' for renewal — nothing renews itself under the USA.",
+    quiz: [
+      {
+        q: "Under the Uniform Securities Act, which of the following statements are true?\n\nI. It is unlawful for anyone to conduct business as a broker-dealer in a state unless also registered as an agent.\nII. A registration statement may be filed by an issuer itself, a broker-dealer, or any other person on whose behalf the offering is to be made.\nIII. Registration of an agent is not effective when the agent is not associated with a broker-dealer registered under the act.\nIV. Registrations are automatically renewed one year after approval, provided no violations occurred during the year.",
+        options: [
+          "II and III",
+          "II and IV",
+          "I and IV",
+          "I and III"
+        ],
+        answer: 0,
+        explain: "II is true — filing rights extend beyond just the issuer. III is true — an agent's registration requires an active BD (or issuer) association to be effective. I is false — a broker-dealer is an entity and never registers 'as an agent'; these are distinct registration categories. IV is false on two counts — renewal is not automatic, and it runs on a fixed calendar date, not an anniversary tied to a clean conduct record."
+      },
+      {
+        q: "An agent terminates her affiliation with her broker-dealer and does not immediately join a new firm. What is the status of her agent registration during this gap?",
+        options: [
+          "It remains fully effective for up to 90 days while she searches for a new firm",
+          "It is not effective, because agent registration requires association with a registered broker-dealer",
+          "It remains effective indefinitely as long as she doesn't conduct any securities business",
+          "It converts automatically to inactive status and resumes when she joins a new firm"
+        ],
+        answer: 1,
+        explain: "Agent registration is not effective without an active broker-dealer (or issuer) association — there's no grace period built into the registration's effectiveness itself. A invents a 90-day grace period that doesn't exist for registration effectiveness. C and D both imagine a dormant/inactive status that isn't how the rule works — the registration is simply not effective during the gap, and proper notice/re-association procedures apply when she joins a new firm."
+      },
+      {
+        q: "True or False: Under the USA, only the issuer of a security may file a registration statement.",
+        options: [
+          "True — registration is solely the issuer's responsibility",
+          "False — a broker-dealer or any other person on whose behalf the offering is made may also file",
+          "True — unless the issuer is a federal covered security",
+          "False — only broker-dealers may file on behalf of an issuer"
+        ],
+        answer: 1,
+        explain: "False — filing rights are explicitly broader than just the issuer. The issuer, a broker-dealer, or any other person on whose behalf the offering is to be made can file the registration statement. D is too narrow, restricting filing rights to broker-dealers only and excluding the issuer and other interested parties."
+      }
+    ]
   }
 ];
 

@@ -4204,6 +4204,40 @@ const CONCEPTS = [
         explain: "State securities law (the USA as adopted by each state) independently provides for both civil liability (private lawsuits, damages) and criminal penalties (fines, imprisonment) for securities fraud — entirely separate from any federal action. Options A and B incorrectly assume a split between state and federal authority that doesn't exist. Option D is wrong because state enforcement doesn't depend on federal involvement."
       }
     ]
+  },
+
+  {
+    id: "website-recordkeeping",
+    category: "Regulations",
+    title: "Website Updates & Recordkeeping",
+    color: "#FF6B6B",
+    analogy: "Think of a firm's website like a storefront sign. If they repaint the sign, you don't throw out the photo of the old one — you keep a record of every version that was ever displayed to the public, in case someone asks what it said in 2024 versus what it says now.",
+    rule: "A broker-dealer's website is treated as advertising and is subject to standard USA recordkeeping rules. When a site is redesigned, **both** the original page and the new page must be retained — each for **5 years** from the date it was in use, not just from the date of the redesign. Electronic records are subject to the same recordkeeping requirements as paper records; there is no exemption for digital content.",
+    watch: "The trap is twofold: a wrong number (3 years instead of 5) bundled with a wrong scope (keeping only one version instead of both). Don't let 'redesign' trick you into thinking the old page's record obligation ends — it just means there are now two records instead of one.",
+    quiz: [
+      {
+        q: "A broker-dealer registered with State A redesigns its website. Under the recordkeeping requirements of the Uniform Securities Act, which is true?",
+        options: [
+          "Copies of both the original and the new web page must be maintained for five years after original use.",
+          "A copy of the original web page must be maintained for three years from original use.",
+          "There are no requirements for storage of electronic data.",
+          "A copy of the new web page must be maintained for a period of three years from the first use of the original site."
+        ],
+        answer: 0,
+        explain: "Both versions of the site are records of representations made to the public and must each be kept for 5 years from when they were in use. B and D wrongly use 3 years and also wrongly keep only a single version. C is incorrect — electronic records carry the same recordkeeping obligations as paper."
+      },
+      {
+        q: "What is the general retention period for required books and records under the Uniform Securities Act?",
+        options: [
+          "3 years",
+          "5 years",
+          "7 years",
+          "10 years"
+        ],
+        answer: 1,
+        explain: "5 years is the default retention period under the USA for required records, including advertising materials like websites. This is the baseline number the exam tests across many recordkeeping questions."
+      }
+    ]
   }
 ];
 

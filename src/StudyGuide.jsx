@@ -4712,6 +4712,40 @@ const CONCEPTS = [
         explain: "The determining factor is the activity performed, not the job title or framing. Taking client orders is core agent activity, so registration is required regardless of how informally it's described or how often it occurs. A incorrectly assumes job title alone determines exemption. C invents a compensation-based exception that doesn't exist. D invents a frequency threshold that isn't part of the rule — even a single instance of taking an order constitutes agent activity."
       }
     ]
+  },
+
+  {
+    id: "bd-intrastate-sec-exemption",
+    category: "Regulations",
+    title: "Broker-Dealer SEC Exemption: The Intrastate Carve-Out",
+    color: "#FF6B6B",
+    analogy: "The SEC's jurisdiction is built on interstate commerce — picture it as a toll booth on the highway connecting states. A broker-dealer whose entire business stays on local roads (one state, local clients, no nationally-traded securities) never reaches that toll booth at all, so it never needs the federal pass. The moment any piece of that business crosses into national markets or out-of-state clients, the highway toll applies.",
+    rule: "A broker-dealer is generally required to register with the SEC. The **intrastate exemption** applies when a broker-dealer: **(1)** maintains its place of business in a single state, **(2)** deals only with residents of that state, AND **(3)** does not execute transactions in securities traded on a national exchange. All three conditions must hold — this describes a business that never touches interstate commerce, placing it outside the SEC's typical jurisdiction and leaving it subject to state regulation alone.",
+    watch: "This question type loves bolting STATE-level exemption concepts (no place of business + institutional clients only, or dealing only with issuers) onto a question that's actually asking about FEDERAL/SEC registration. Those are real rules — just the wrong layer. Before applying any exemption you know, confirm which jurisdiction (state Administrator vs. SEC) the question is actually testing. Also note: being registered as one entity type (e.g., investment adviser) does NOT exempt a person/firm from registering as a broker-dealer if they're performing BD functions — registration tracks the activity, not just any existing registration status.",
+    quiz: [
+      {
+        q: "In general, a broker-dealer is required to register with the SEC. An exception to that requirement would apply to a broker-dealer who",
+        options: [
+          "is registered with the Administrator of the states in which it does business and only deals with issuers of the securities it trades.",
+          "does not have a place of business in the state and limits its clientele to institutional clients.",
+          "maintains a place of business in a single state, only deals with residents of that state, and does not execute transactions in securities traded on a national exchange.",
+          "is currently registered with the SEC as an investment adviser."
+        ],
+        answer: 2,
+        explain: "C describes the intrastate exemption: single-state office, single-state clientele, and no transactions in nationally-traded securities — a business with zero interstate commerce footprint, placing it outside SEC jurisdiction. A and B both describe real STATE-level exemption concepts (the no-place-of-business / institutional-client and issuer-only exemptions), but those answer a different question (state registration, not SEC registration) — wrong jurisdiction for this question. D is wrong because being registered as an investment adviser doesn't exempt a firm from broker-dealer registration if it's performing BD functions; registration requirements track activity, not existing registration status."
+      },
+      {
+        q: "A broker-dealer maintains its only office in State Q, deals exclusively with State Q residents, but regularly executes trades in securities listed on the NYSE. Does this firm qualify for the intrastate exemption from SEC registration?",
+        options: [
+          "Yes — single office and single-state clientele are the only requirements",
+          "No — trading securities listed on a national exchange breaks the intrastate exemption, even with a purely local office and clientele",
+          "Yes — as long as the firm's net capital is below the SEC threshold",
+          "No — the intrastate exemption was eliminated by Dodd-Frank"
+        ],
+        answer: 1,
+        explain: "All three conditions of the intrastate exemption must hold simultaneously: single-state office, single-state clientele, AND no transactions in nationally-traded securities. Trading NYSE-listed securities breaks the third condition, even though the office and clientele are purely local — this firm does NOT qualify for the exemption and must register with the SEC. A omits the third required condition. C invents an irrelevant net capital threshold. D is a fabricated claim about Dodd-Frank eliminating this exemption."
+      }
+    ]
   }
 ];
 

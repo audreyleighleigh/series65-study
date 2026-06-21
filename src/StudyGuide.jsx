@@ -4746,6 +4746,40 @@ const CONCEPTS = [
         explain: "All three conditions of the intrastate exemption must hold simultaneously: single-state office, single-state clientele, AND no transactions in nationally-traded securities. Trading NYSE-listed securities breaks the third condition, even though the office and clientele are purely local — this firm does NOT qualify for the exemption and must register with the SEC. A omits the third required condition. C invents an irrelevant net capital threshold. D is a fabricated claim about Dodd-Frank eliminating this exemption."
       }
     ]
+  },
+
+  {
+    id: "agent-exclusions-by-described-activity",
+    category: "Regulations",
+    title: "Agent Exclusions: Job Title Doesn't Matter, Described Activity Does",
+    color: "#FF6B6B",
+    analogy: "A name tag tells you nothing about whether someone's an agent — only their actual job description does. A partner who only writes a check, a board member who only shows up to meetings, and a 'secretary' whose job description stops at her title are all just bystanders to the securities business. The moment a fact pattern says someone is authorized to 'take orders' or solicit — even with qualifiers like 'existing clients only' or 'as a courtesy' — that's the tripwire, regardless of what their badge says.",
+    rule: "Excluded from the definition of agent: (1) a partner whose only connection to the firm is a capital contribution — no transactional activity, no agent status. (2) Someone who sits on a broker-dealer's board of directors — governance is not transactional activity. (3) Clerical/administrative personnel (e.g., a 'secretary'), UNLESS the fact pattern explicitly describes them performing transactional duties like taking orders — a job title alone, even at a prominent location ('largest branch office'), does not trigger agent status without described activity. NOT excluded: anyone explicitly described as authorized to take client orders or solicit securities business — qualifiers like 'existing clients only' do not create an exception.",
+    watch: "Read fact patterns for what is ACTUALLY DESCRIBED as happening, not for job titles or contextual flourishes (size of branch, prominence of role). A description with zero stated transactional activity stays excluded. A description that explicitly states 'authorized to take orders' or similar is agent activity, full stop — no qualifier ('only existing clients,' 'as a courtesy,' 'only on certain days') rescues it.",
+    quiz: [
+      {
+        q: "Each of the following would be excluded from the definition of agent except",
+        options: [
+          "a partner in a broker-dealer whose only connection with the firm is her contribution of capital.",
+          "the president of the state university who sits on the broker-dealer's board of directors.",
+          "an individual who is the secretary of a broker-dealer's largest branch office.",
+          "a sales assistant who is authorized to take orders from existing clients only."
+        ],
+        answer: 3,
+        explain: "D is the one NOT excluded — being authorized to take orders is the defining transactional activity of an agent, and the 'existing clients only' qualifier doesn't create an exception. A, B, and C are all genuinely excluded: A and B describe purely non-transactional connections (capital contribution, board governance) with zero securities activity described. C only states a job title and location ('secretary,' 'largest branch office') with no described transactional activity — size/prominence of the branch is a red herring; what matters is the absence of any stated order-taking or soliciting."
+      },
+      {
+        q: "A broker-dealer's office manager is described in a fact pattern only as 'overseeing daily operations at the firm's downtown office.' No mention is made of her taking orders, soliciting clients, or executing trades. Is she excluded from the definition of agent?",
+        options: [
+          "No — office managers at any branch are automatically considered agents",
+          "Yes — with no described transactional activity (taking orders, soliciting, executing trades), there's nothing in the fact pattern to trigger agent status",
+          "No — overseeing operations at a downtown office implies high-level sales authority",
+          "Yes — but only if the office has fewer than 10 employees"
+        ],
+        answer: 1,
+        explain: "With no described transactional activity, there's nothing to trigger agent status — title and location alone (even 'downtown office') don't matter. A and C both wrongly infer agent activity from a title/location without any stated transactional facts. D invents an irrelevant employee-count threshold."
+      }
+    ]
   }
 ];
 

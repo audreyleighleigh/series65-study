@@ -4532,6 +4532,40 @@ const CONCEPTS = [
         explain: "Yes, this is a violation. Selling an exempt or federal covered security does not excuse the salesperson from needing to be a registered agent — those are separate regulatory questions. A and C both repeat the same trap of assuming the security's exempt status transfers to the seller. D incorrectly ties the violation to compensation structure, which is irrelevant to the registration requirement itself."
       }
     ]
+  },
+
+  {
+    id: "agent-multiple-broker-dealers",
+    category: "Regulations",
+    title: "One Agent, One Firm — Unless the Administrator Says Otherwise",
+    color: "#FF6B6B",
+    analogy: "An agent's registration is like a single house key cut for one specific lock — the broker-dealer that supervises them. The default is one key, one lock, because supervision and accountability get muddled if an agent answers to two firms with potentially conflicting compliance policies at once. But the locksmith (the Administrator) can, at their discretion, authorize a special master key if circumstances warrant it.",
+    rule: "Under the USA, an individual generally **may not act as an agent for more than one broker-dealer at the same time** — the default rule is a strict one-agent-one-firm pairing, rooted in the need for clean supervisory accountability. The one exception: **the Administrator, by rule or order, may authorize** an agent to represent multiple broker-dealers simultaneously. There is no automatic exception based on the firms being unrelated or being exchange members — those are fabricated carve-outs.",
+    watch: "When a USA rule sounds absolute ('may not... unless'), check whether one answer choice grants the Administrator override authority — that's very often the correct answer, since the USA is built around regulatory discretion rather than rigid, exception-free prohibitions. Don't fall for invented specific carve-outs (like 'unrelated firms' or 'exchange members') that sound plausible but aren't the actual exception.",
+    quiz: [
+      {
+        q: "An individual may not act as an agent for more than one broker-dealer",
+        options: [
+          "unless the broker-dealers are unrelated.",
+          "unless the broker-dealers are exchange members.",
+          "unless the Administrator, by rule or order, authorizes such employment.",
+          "under any circumstances."
+        ],
+        answer: 2,
+        explain: "The Administrator retains discretionary authority to permit an agent to work for multiple broker-dealers via rule or order — this is the actual, narrow exception to the default one-firm rule. A and B both invent specific carve-out conditions (unrelated firms, exchange membership) that aren't the real exception. D is too absolute and ignores the Administrator's override power entirely."
+      },
+      {
+        q: "Why does the USA generally restrict an agent to representing only one broker-dealer at a time?",
+        options: [
+          "To prevent agents from earning commission from more than one source",
+          "To preserve clear supervisory accountability, since each broker-dealer has a duty to supervise its agents",
+          "Because agents are legally classified as employees and cannot hold two jobs",
+          "To comply with federal tax withholding requirements"
+        ],
+        answer: 1,
+        explain: "The core rationale is supervisory: each broker-dealer is responsible for overseeing its agents' conduct, and that oversight breaks down if an agent simultaneously operates under a different firm's compliance structure. A invents a compensation-based rationale that isn't the actual reason. C and D are both irrelevant — the rule is about regulatory supervision, not employment classification or tax mechanics."
+      }
+    ]
   }
 ];
 

@@ -4814,6 +4814,62 @@ const CONCEPTS = [
         explain: "Records must stay in the principal office for the first 2 years of the 5-year retention period — December 31, 2024 plus 2 years lands at December 31, 2026. After that point, the record may move to other easily accessible storage for the remaining 3 years of the total 5-year requirement (ending December 31, 2029), but it no longer needs to physically remain in the principal office."
       }
     ]
+  },
+
+  {
+    id: "cease-desist-vs-stop-order-and-nonpunitive-terminations",
+    category: "Regulations",
+    title: "Cease & Desist vs. Stop Order, and the No-Fault Exits",
+    color: "#FF6B6B",
+    analogy: "A cease and desist order is a referee blowing the whistle on a player — it targets the person doing the wrongdoing (agent, IAR, BD, IA), and the ref can blow that whistle with or without a formal review. A stop order is more like pulling a defective product off the shelf — it targets the security/issuer itself, and the store always gets a hearing before the product comes down. Separately, not every registration ending is a punishment. Withdrawal is like quitting a job — you walk, but your old employer can still call you about something for a year after. Cancellation is what happens when there's no one left to discipline: the firm dissolved, the person died, or mail keeps bouncing with no forwarding address.",
+    rule: "**Cease and desist** targets a registered securities professional (agent, IAR, BD, IA) and may be issued with or without a hearing. **Stop order** targets a security/issuer and requires opportunity for a hearing. A lifted stop order is described as 'vacated.' **Withdrawal** is voluntary, effective 30 days after filing (absent pending revocation/suspension proceedings), but the Administrator retains jurisdiction for **1 year** after effective withdrawal (FINRA's version is **2 years**). **Cancellation** is no-fault — applies when a registrant no longer exists, ceased business, mail is undeliverable with no forwarding address, or the person is declared mentally incompetent. Agents/IARs who withdraw must re-affiliate within **2 years** or must retake the exam.",
+    watch: "Don't confuse the 1-year Administrator jurisdiction window after withdrawal with FINRA's 2-year window — they're different bodies with different timeframes. Also don't confuse cancellation (no-fault: death, dissolution, incompetency, undeliverable mail) with revocation (punitive: actual violations). An innocent party forwarding a sketchy solicitation to the Administrator — like a compliance officer flagging it — gets no order at all; they did their job correctly.",
+    quiz: [
+      {
+        q: "An agent of a broker-dealer is soliciting clients to buy unregistered promissory notes, falsely claiming they aren't securities. What action would the Administrator most likely take against the agent specifically?",
+        options: [
+          "A stop order against the agent",
+          "A cease and desist order against the agent",
+          "A stop order against the broker-dealer",
+          "Cancellation of the agent's registration"
+        ],
+        answer: 1,
+        explain: "The agent is a person engaging in wrongdoing, so the appropriate tool is a cease and desist order, which can be issued with or without a hearing. Stop orders target securities/issuers, not individual agents — so options A and C misapply the wrong order type to the wrong target. Cancellation is a no-fault mechanism and doesn't apply here since there's an actual violation."
+      },
+      {
+        q: "A registered agent withdraws her registration on March 1. On November 1 of the same year, the Administrator discovers a violation that occurred before her withdrawal. Can the Administrator still bring a revocation proceeding?",
+        options: [
+          "No, withdrawal immediately ends all Administrator jurisdiction",
+          "Yes, the Administrator retains jurisdiction for 1 year after the effective date of withdrawal",
+          "Yes, but only if FINRA initiates the action instead",
+          "No, only cancellation proceedings are allowed after withdrawal"
+        ],
+        answer: 1,
+        explain: "The Administrator retains jurisdiction for 1 year after the effective date of withdrawal, so a proceeding initiated within that window — like this one, well inside a year — is valid. Option C confuses this with FINRA's separate 2-year jurisdiction window, which is a different regulatory body's rule, not the Administrator's."
+      },
+      {
+        q: "Mailings sent to a registered IAR are repeatedly returned with no forwarding address, and the firm confirms she's no longer reachable. What action is most appropriate?",
+        options: [
+          "Revocation, since she violated recordkeeping requirements",
+          "A cease and desist order",
+          "Cancellation of her registration",
+          "A stop order against her sponsoring firm"
+        ],
+        answer: 2,
+        explain: "Undeliverable mail with no forwarding address is a textbook no-fault scenario — there's no violation alleged, just an inability to maintain contact. That calls for cancellation, not revocation (which requires a violation) or a cease and desist (which targets active wrongdoing by a person)."
+      },
+      {
+        q: "An IAR withdraws her registration and doesn't affiliate with a new firm for 3 years before deciding to return to the industry. What must she do?",
+        options: [
+          "Nothing — her registration automatically reactivates",
+          "Retake the exam to re-qualify, since she exceeded the 2-year re-affiliation window",
+          "Simply re-file Form U4 with no additional requirements",
+          "Wait an additional year before being eligible to re-register"
+        ],
+        answer: 1,
+        explain: "Agents and IARs who withdraw must re-affiliate within 2 years; exceeding that window means she must retake the exam to re-qualify. This is distinct from the Administrator's separate 1-year jurisdiction-to-prosecute window — that's about liability for past conduct, not about re-entry requirements."
+      }
+    ]
   }
 ];
 

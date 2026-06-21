@@ -4780,6 +4780,40 @@ const CONCEPTS = [
         explain: "With no described transactional activity, there's nothing to trigger agent status — title and location alone (even 'downtown office') don't matter. A and C both wrongly infer agent activity from a title/location without any stated transactional facts. D invents an irrelevant employee-count threshold."
       }
     ]
+  },
+
+  {
+    id: "bd-recordkeeping-retention",
+    category: "Regulations",
+    title: "Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office",
+    color: "#FF6B6B",
+    analogy: "Picture a filing cabinet with two zones. For the first 2 years, records live in the front drawer — right there in the principal office, instantly pullable if an examiner walks in. After that, they move to the back room (any easily accessible off-site storage) for the remaining 3 years, completing a 5-year total lifespan before they can finally be shredded.",
+    rule: "Under the USA, broker-dealer records must be maintained and preserved in an easily accessible place for **not less than 5 years** from the end of the fiscal year during which the last entry was made, with the **first 2 of those years specifically in the principal office** of the broker-dealer. After the first 2 years, records may move to other easily accessible storage for the remainder of the 5-year period.",
+    watch: "The answer choices on this question type stack two numbers, and the exam swaps either or both: total retention period (5 years is correct — don't be tricked by 2 or 3 year options) and principal-office duration (2 years is correct — 3 years is a tempting but wrong swap). Don't confuse this with the SEPARATE 3-years-after-termination rule, which applies only to organizational records like minute books and articles of incorporation — that's a narrower category with its own distinct trigger (entity termination, not fiscal year-end), not a competing version of this general rule.",
+    quiz: [
+      {
+        q: "Which of the following statements best describes the recordkeeping requirements of broker-dealers?",
+        options: [
+          "Records shall be maintained and preserved in an easily accessible place for a period of not less than five years from the end of the fiscal year during which the last entry was made on record, the first two of those years in the principal office of the broker-dealer.",
+          "Records shall be maintained and preserved in an easily accessible place for a period of not less than two years from the end of the fiscal year during which the last entry was made on record, the first three of those years in the principal office of the broker-dealer.",
+          "Records shall be maintained and preserved in an easily accessible place for a period of not less than five years from the end of the fiscal year during which the last entry was made on record, the first three of those years in the principal office of the broker-dealer.",
+          "Records shall be maintained and preserved in an easily accessible place for a period of not less than three years from the end of the fiscal year during which the last entry was made on record, the first two of those years in the principal office of the broker-dealer."
+        ],
+        answer: 0,
+        explain: "A correctly states both numbers: 5 years total retention, with the first 2 years specifically in the principal office. B and D both use the wrong total retention period (2 and 3 years instead of 5). C gets the 5-year total right but wrongly extends the principal-office requirement to 3 years instead of 2."
+      },
+      {
+        q: "A broker-dealer's last entry on a client record was made during fiscal year 2024 (ending December 31, 2024). Under the USA, until what point must this record remain specifically in the firm's principal office, at minimum?",
+        options: [
+          "December 31, 2025 — one year after the fiscal year-end",
+          "December 31, 2026 — two years after the fiscal year-end",
+          "December 31, 2027 — three years after the fiscal year-end",
+          "December 31, 2029 — five years after the fiscal year-end"
+        ],
+        answer: 1,
+        explain: "Records must stay in the principal office for the first 2 years of the 5-year retention period — December 31, 2024 plus 2 years lands at December 31, 2026. After that point, the record may move to other easily accessible storage for the remaining 3 years of the total 5-year requirement (ending December 31, 2029), but it no longer needs to physically remain in the principal office."
+      }
+    ]
   }
 ];
 

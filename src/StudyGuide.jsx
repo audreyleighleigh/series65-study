@@ -4383,6 +4383,17 @@ const CONCEPTS = [
         ],
         answer: 1,
         explain: "Trust companies ARE on the shorter agent-exclusion list (along with banks and savings institutions), so an employee selling the trust company's own stock is excluded from the agent definition — no registration required. This is the mirror-image scenario to the building and loan question: same exempt-security status, but trust company makes the agent-exclusion cut while building and loan associations do not. C and D both invent irrelevant conditions not part of this exclusion."
+      },
+      {
+        q: "Miranda is an employee of the First National Bank of State D. The bank is raising additional capital through an offering of 1 million new shares of common stock. Miranda will be paid a generous commission on all retail sales of the stock. Under the Uniform Securities Act,",
+        options: [
+          "Miranda must limit her sales to existing customers of the bank.",
+          "Miranda must register as an agent in order to receive commissions.",
+          "Miranda is excluded from the definition of an agent.",
+          "First National Bank of State D must register as a broker-dealer in order to pay employees a commission based on the sale of securities."
+        ],
+        answer: 2,
+        explain: "Banks are on the shorter agent-exclusion list, so an employee of a bank selling the bank's own stock is excluded from the agent definition — regardless of commission structure. Nothing in the exclusion conditions on being unpaid or non-commissioned. A invents a customer-restriction condition that isn't part of the actual rule. B wrongly assumes commission triggers registration. D is backwards — banks are explicitly excluded from the broker-dealer definition entirely, so they don't need to register as one to pay sales commissions."
       }
     ]
   },

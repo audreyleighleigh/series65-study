@@ -4430,6 +4430,40 @@ const CONCEPTS = [
         explain: "The determining factor is who bears investment risk. In a fixed annuity, the insurer guarantees the payout and absorbs investment risk, making it an insurance product outside securities regulation. In a variable annuity, the buyer's return depends on underlying subaccount performance, making the buyer bear the risk — which is why it's classified as a security requiring registration to sell. A, C, and D all invent irrelevant criteria that have nothing to do with the actual fixed/variable distinction."
       }
     ]
+  },
+
+  {
+    id: "bd-effective-date-30-days",
+    category: "Regulations",
+    title: "Broker-Dealer Registration: 30-Day Effective Date Default",
+    color: "#FF6B6B",
+    analogy: "Picture an application sitting in a queue with a built-in 30-day timer running automatically — at noon on day 30, the light turns green on its own, no Administrator needed to flip the switch. But the Administrator is standing right next to that timer with override authority — they can deny it, or fast-track it, before the 30 days run out. Once registered, everyone's badge expires on the same night of the year: December 31st, no matter what day their timer originally went green.",
+    rule: "Under the USA, the **effective date of an initial broker-dealer registration defaults to noon on the 30th day** after a completed application is filed — this happens automatically, **unless the Administrator acts sooner** (by denying it or ordering it effective earlier). Registration is **not** held hostage to a required individual order from the Administrator for every applicant. Once effective, the registration **expires each December 31st**, unless renewed — not on an anniversary of the original effective date.",
+    watch: "Two separate default mechanisms get tested together here: (1) effective date = automatic 30-day fallback, NOT 'whenever the Administrator orders it,' and (2) expiration = fixed December 31st calendar date, NOT an anniversary of the original registration date. The exam mixes and matches correct/incorrect versions of each piece — read both halves of the answer choice carefully.",
+    quiz: [
+      {
+        q: "Those persons meeting the Uniform Securities Act's definition of a broker-dealer in a state must, unless otherwise exempted, register in that state. Which of the following is correct regarding the initial registration and expiration of the registration of a broker-dealer?",
+        options: [
+          "The effective date of an initial registration is when ordered by the Administrator, and the expiration, unless renewed, is each December 31st.",
+          "The effective date of an initial registration is at noon on the 30th day after receipt of a completed application; expiration, unless renewed, is each December 31st.",
+          "The effective date of an initial registration is when ordered by the Administrator, and the same is true of the expiration date.",
+          "The effective date of an initial registration is at noon on the 30th day after receipt of a completed application; expiration, unless renewed, is on the anniversary date of the initial registration."
+        ],
+        answer: 1,
+        explain: "B correctly states both rules: effective date defaults to noon on the 30th day after a completed application (automatic, unless the Administrator acts sooner), and expiration is always December 31st regardless of when registration began. A and C wrongly make the effective date dependent entirely on an Administrator order, removing the automatic 30-day fallback. D gets the effective date right but wrongly uses an anniversary-based expiration instead of the fixed December 31st date."
+      },
+      {
+        q: "A broker-dealer files a completed registration application on March 1st. The Administrator takes no action on it. When does the registration become effective, absent any other circumstances?",
+        options: [
+          "Immediately upon filing, since the application was complete",
+          "Noon on March 31st (30 days after filing)",
+          "December 31st of that year",
+          "It never becomes effective without explicit Administrator approval"
+        ],
+        answer: 1,
+        explain: "The default effective date is noon on the 30th day after a completed application is filed — March 1st plus 30 days lands at noon on March 31st. The Administrator doesn't need to take any affirmative action for this default to apply; their role is to act sooner if they choose to deny or expedite it. D incorrectly assumes registration requires an explicit order, ignoring the automatic fallback mechanism."
+      }
+    ]
   }
 ];
 

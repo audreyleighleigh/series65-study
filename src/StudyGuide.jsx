@@ -4498,6 +4498,40 @@ const CONCEPTS = [
         explain: "Exceeding the minimum net capital requirement exempts a broker-dealer from needing to post a bond — the surplus capital itself functions as the financial protection the bond would otherwise provide. A ignores this exemption entirely. C invents an irrelevant custody condition (custody-driven bonding applies more directly to investment advisers, not this BD net-capital exemption). D fabricates a cash-only restriction that isn't part of the rule."
       }
     ]
+  },
+
+  {
+    id: "bd-employee-no-exemption-via-exempt-security",
+    category: "Regulations",
+    title: "BD Employees Can't Borrow the Security's Exemption",
+    color: "#FF6B6B",
+    analogy: "An exempt security and an unregistered agent are like a VIP guest and the bouncer who let them in — the guest's VIP pass doesn't make the bouncer's own credentials irrelevant. A broker-dealer's employee selling securities is doing 'bouncer work' (agent activity) regardless of which guest (security) walks through. The security's exemption status never transfers to the person selling it.",
+    rule: "An employee of a licensed broker-dealer who sells securities is performing agent activity, **full stop** — this status does not change based on the type of security being sold. Even if the security itself is exempt (or federal covered), or the transaction is exempt, the **employee still must be a registered agent** to legally sell it. There is no circumstance under the USA in which a BD employee can act as an unregistered agent while selling securities — 'security is exempt' and 'transaction is exempt' do not transfer any exemption to the person.",
+    watch: "This is the mirror image of the building & loan exempt-security question — don't let 'the security/transaction is exempt' answer choices trick you into thinking that exemption flows through to the salesperson. Compensation structure (paid vs. unpaid, salary vs. commission) is also irrelevant — none of these factors change whether the employee is performing agent activity.",
+    quiz: [
+      {
+        q: "According to the USA, under what circumstances is an employee of a licensed broker-dealer in a state allowed to sell exempt securities as an unregistered agent?",
+        options: [
+          "The employee is not paid any commission or salary.",
+          "The transaction is exempt.",
+          "Under no circumstances is an employee of a licensed broker-dealer in a state allowed to sell exempt securities as an unregistered agent.",
+          "The securities are federal covered securities."
+        ],
+        answer: 2,
+        explain: "There is no scenario in which a broker-dealer employee can sell securities without being a registered agent — the exemption status of the security or transaction does not transfer to the person selling it, and compensation structure is irrelevant. A, B, and D each propose a condition that would supposedly excuse the employee from registration, but none of these conditions actually do — agent registration runs on a completely separate track from security/transaction exemption status."
+      },
+      {
+        q: "A broker-dealer employee sells U.S. Treasury securities (a federal covered, exempt security) to a client. The employee is not registered as an agent in the state. Is this a violation?",
+        options: [
+          "No — Treasury securities are exempt, so no agent registration is required to sell them",
+          "Yes — the employee must be a registered agent regardless of the exempt status of the security being sold",
+          "No — federal covered securities never require agent registration to sell",
+          "Yes — but only because Treasury securities are sold for commission"
+        ],
+        answer: 1,
+        explain: "Yes, this is a violation. Selling an exempt or federal covered security does not excuse the salesperson from needing to be a registered agent — those are separate regulatory questions. A and C both repeat the same trap of assuming the security's exempt status transfers to the seller. D incorrectly ties the violation to compensation structure, which is irrelevant to the registration requirement itself."
+      }
+    ]
   }
 ];
 

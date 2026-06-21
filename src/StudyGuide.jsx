@@ -4385,6 +4385,51 @@ const CONCEPTS = [
         explain: "Trust companies ARE on the shorter agent-exclusion list (along with banks and savings institutions), so an employee selling the trust company's own stock is excluded from the agent definition — no registration required. This is the mirror-image scenario to the building and loan question: same exempt-security status, but trust company makes the agent-exclusion cut while building and loan associations do not. C and D both invent irrelevant conditions not part of this exclusion."
       }
     ]
+  },
+
+  {
+    id: "applicant-pending-registration-permitted-activity",
+    category: "Regulations",
+    title: "What an Agent Applicant CAN Do While Registration Is Pending",
+    color: "#FF6B6B",
+    analogy: "Picture registration as a light switch, not a dimmer — there's no 'partially registered, soliciting interest only' setting. While the application is pending, the switch is off, and ANY agent-type activity (soliciting interest, taking orders, selling securities) stays off no matter how careful the wording sounds. The one thing the applicant CAN do is sell or discuss things that were never plugged into that circuit in the first place — like fixed annuities, which aren't securities at all.",
+    rule: "While an agent registration application is **pending**, the applicant may NOT engage in any activity that constitutes acting as an agent — this includes soliciting indications of interest (even without accepting binding orders) and selling securities to anyone, including immediate family. The applicant MAY sell **fixed annuities**, because fixed annuities are **insurance products, not securities** (the insurer bears investment risk, not the buyer) — so agent registration is irrelevant to selling them.",
+    watch: "Watch for answers that sound careful or compliant on the surface — like 'gather interest but wait to accept orders before registering.' Registration isn't a spectrum; soliciting interest is still agent activity and still requires prior registration, regardless of whether an order is accepted. Also watch the fixed vs. variable annuity distinction: fixed = insurance product (not a security, no registration needed to sell), variable = security (registration required) because the buyer bears investment risk through subaccounts.",
+    quiz: [
+      {
+        q: "It would not be a violation of the Uniform Securities Act for an applicant for registration as an agent to do which of the following while the application is pending?",
+        options: [
+          "Sell fixed annuities",
+          "Use a preliminary prospectus to obtain indications of interest for a new issue but wait until he is registered before accepting any orders",
+          "Limit his sales activity to immediate family members only",
+          "Conduct seminars on asset allocation"
+        ],
+        answer: 0,
+        explain: "Fixed annuities are insurance products, not securities — the insurer bears the investment risk, not the buyer — so selling them has nothing to do with agent registration status. B is a trap: soliciting indications of interest is still agent activity requiring registration, regardless of whether orders are accepted. C is false — there is no family-member exception to registration requirements. D involves discussing specific allocation strategies tied to recommending securities activity, which falls under activity requiring registration when conducted by an unregistered applicant in this context."
+      },
+      {
+        q: "An applicant for agent registration argues that gathering 'indications of interest' isn't really selling, since no money changes hands and no order is finalized. Is this a valid defense against a registration violation?",
+        options: [
+          "Yes — only finalized orders trigger the registration requirement",
+          "No — soliciting indications of interest is still agent activity requiring prior registration",
+          "Yes — as long as a preliminary prospectus was used",
+          "No — but only if the applicant receives compensation for the activity"
+        ],
+        answer: 1,
+        explain: "Registration requirements attach to the act of soliciting/effecting transactions, not just to finalized orders. Indications of interest are part of the sales process and require the person to already be registered. A and C both describe the exact trap reasoning the exam is testing against. D incorrectly suggests compensation is the trigger — it isn't; the activity itself is what matters."
+      },
+      {
+        q: "Why is selling a fixed annuity not subject to agent registration requirements under the USA, while selling a variable annuity is?",
+        options: [
+          "Fixed annuities are always sold to immediate family, which is exempt",
+          "Fixed annuities are insurance products because the insurer bears investment risk; variable annuities are securities because the buyer bears investment risk through subaccounts",
+          "Fixed annuities have lower fees, which exempts them",
+          "Variable annuities are always sold via preliminary prospectus, which triggers registration"
+        ],
+        answer: 1,
+        explain: "The determining factor is who bears investment risk. In a fixed annuity, the insurer guarantees the payout and absorbs investment risk, making it an insurance product outside securities regulation. In a variable annuity, the buyer's return depends on underlying subaccount performance, making the buyer bear the risk — which is why it's classified as a security requiring registration to sell. A, C, and D all invent irrelevant criteria that have nothing to do with the actual fixed/variable distinction."
+      }
+    ]
   }
 ];
 

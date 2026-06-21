@@ -4577,6 +4577,40 @@ const CONCEPTS = [
         explain: "The core rationale is supervisory: each broker-dealer is responsible for overseeing its agents' conduct, and that oversight breaks down if an agent simultaneously operates under a different firm's compliance structure. A invents a compensation-based rationale that isn't the actual reason. C and D are both irrelevant — the rule is about regulatory supervision, not employment classification or tax mechanics."
       }
     ]
+  },
+
+  {
+    id: "bd-identification-issuer-vs-intermediary",
+    category: "Regulations",
+    title: "Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others",
+    color: "#FF6B6B",
+    analogy: "Picture a lemonade stand. The kid running it and keeping the money is the issuer — raising capital for themselves. Now picture a neighbor who goes door-to-door selling lemonade on the kid's behalf, handing all the proceeds back to the kid and keeping a cut for their effort — that neighbor is acting as a broker-dealer, effecting sales for someone else's benefit. Same lemonade, completely different regulatory role depending on who the money ultimately belongs to.",
+    rule: "Under the USA, a broker-dealer is someone in the business of effecting securities transactions **for the account of others** (or for their own account as a dealer). **Issuers are explicitly excluded** from the broker-dealer definition — a company or institution selling its OWN securities to raise its OWN capital is acting as an issuer, not a broker-dealer, regardless of how the sale is structured. An **agent** is also never the broker-dealer itself — an agent is an individual who represents/works for a broker-dealer, a categorically different role. A corporation that sells securities to investors **on behalf of a separate issuer**, with proceeds flowing to that issuer, IS acting as a broker-dealer — it's the intermediary, not the capital-raiser.",
+    watch: "The key test: trace where the proceeds go. If proceeds go to the entity making the sale, that entity is the issuer (not a BD). If proceeds go to a separate party while the selling entity earns a fee/commission for facilitating the sale, that selling entity is acting as a broker-dealer. Also remember: 'an agent' is never itself the answer to 'which of these is a broker-dealer' — agents represent BDs, they aren't BDs.",
+    quiz: [
+      {
+        q: "Under the Uniform Securities Act, which of the following is a broker-dealer?",
+        options: [
+          "A corporation that sells interests in an oil and gas limited partnership to investors, with the proceeds going to the issuer",
+          "An issuer",
+          "A credit union that sells its own stock",
+          "An agent"
+        ],
+        answer: 0,
+        explain: "The corporation in A is acting as an intermediary — selling securities to investors on behalf of the actual issuer (the LP), with proceeds flowing to that issuer rather than staying with the selling corporation. That's the textbook broker-dealer function: effecting transactions for the account of others. B fails because issuers are explicitly excluded from the broker-dealer definition — raising your own capital isn't BD activity. C fails for the same root reason as B: a credit union selling its own stock is acting as an issuer, not a broker-dealer (and credit unions aren't on the bank/savings institution/trust company exclusion list anyway, but that's secondary to the issuer problem). D fails because an agent represents a broker-dealer — by definition, an agent is never the broker-dealer itself."
+      },
+      {
+        q: "XYZ Corp wants to raise capital and hires Meridian Securities, a registered broker-dealer, to sell XYZ Corp's new bond issue to investors for a commission. In this transaction, what role is Meridian Securities playing?",
+        options: [
+          "Issuer, since it is the one directly selling the bonds to investors",
+          "Agent, since it receives a commission for the sale",
+          "Broker-dealer, since it is effecting transactions on behalf of XYZ Corp (the actual issuer) for compensation",
+          "Neither issuer nor broker-dealer, since it is acting only as a marketing consultant"
+        ],
+        answer: 2,
+        explain: "Meridian is the broker-dealer here — it's effecting the bond sale on behalf of XYZ Corp (the true issuer), earning a commission for facilitating the transaction rather than raising capital for itself. A incorrectly labels Meridian the issuer; XYZ Corp, who receives the proceeds, is the issuer. B confuses entity type with individual role — 'agent' refers to an individual representing a BD, not to the firm itself, even though the firm earns a commission. D understates Meridian's regulatory role; effecting securities transactions for compensation is exactly what makes it a broker-dealer, not a mere consultant."
+      }
+    ]
   }
 ];
 

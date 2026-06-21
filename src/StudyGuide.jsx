@@ -4611,6 +4611,51 @@ const CONCEPTS = [
         explain: "Meridian is the broker-dealer here — it's effecting the bond sale on behalf of XYZ Corp (the true issuer), earning a commission for facilitating the transaction rather than raising capital for itself. A incorrectly labels Meridian the issuer; XYZ Corp, who receives the proceeds, is the issuer. B confuses entity type with individual role — 'agent' refers to an individual representing a BD, not to the firm itself, even though the firm earns a commission. D understates Meridian's regulatory role; effecting securities transactions for compensation is exactly what makes it a broker-dealer, not a mere consultant."
       }
     ]
+  },
+
+  {
+    id: "consent-to-service-of-process",
+    category: "Regulations",
+    title: "Consent to Service of Process: Original Application Only, Permanent Filing",
+    color: "#FF6B6B",
+    analogy: "Think of it like filing a permanent address with the county clerk — you do it once, it stays on permanent record, and you never have to re-file it just because another tax year rolled around. The consent to service of process works the same way: filed once with the original application, it permanently authorizes the Administrator to accept legal documents on the registrant's behalf, even if the registrant later becomes hard to locate or leaves the state.",
+    rule: "A **consent to service of process must accompany the ORIGINAL registration application only** — it is a **one-time, permanent filing**, not something re-submitted at each annual renewal. It applies to all four registrant categories: agents, broker-dealers, investment advisers, and IARs. Its purpose is to appoint the Administrator as the registrant's agent for receiving legal notices (subpoenas, complaints, regulatory actions), ensuring the state can always legally reach the registrant. It is NOT triggered by citizenship, age, or identity verification — it solves a jurisdiction/reachability problem, not an eligibility problem.",
+    watch: "The most tempting wrong answer is 'original application AND renewal' — it sounds careful and thorough, which makes it feel right. But the filing is permanent precisely so it never needs re-filing. Don't confuse this with other things that DO recur annually (registration itself, fees, Form ADV updates) — consent to service of process is the one piece that's filed once and done. Also: don't be tempted by 'plausible application paperwork' distractors like photo ID, citizenship proof, or birth certificates — none of these are required by the USA for registration.",
+    quiz: [
+      {
+        q: "What document must accompany an initial registration application for those individuals required to register as agents under the Uniform Securities Act?",
+        options: [
+          "State photo identification",
+          "Proof of U.S. citizenship",
+          "Consent to service of process",
+          "A birth certificate confirming the registrant is over 18 years of age"
+        ],
+        answer: 2,
+        explain: "Consent to service of process must accompany registration applications for all securities professionals — agents, broker-dealers, investment advisers, and IARs. Citizenship is not required to register (the Administrator may ask about it, but it's not a requirement), and there's no photo ID or age-verification document requirement under the USA. A, B, and D all sound like plausible application paperwork but aren't actually required."
+      },
+      {
+        q: "Under the Uniform Securities Act, when must a consent to service of process be filed with the Administrator?",
+        options: [
+          "With the original application and each annual renewal",
+          "With the original application only",
+          "Only when requested by the Administrator",
+          "When a legal case is pending against the registrant"
+        ],
+        answer: 1,
+        explain: "The consent to service of process is filed once, with the original application, and becomes a permanent part of the registration record — it does not need to be re-filed at renewal. A is the classic trap: renewal feels like it should require re-filing everything, but permanence is exactly what makes the consent effective long-term. C and D incorrectly frame it as reactive/discretionary rather than a standard upfront requirement filed proactively before any dispute arises."
+      },
+      {
+        q: "What is the primary purpose of a consent to service of process filed under the Uniform Securities Act?",
+        options: [
+          "To give the Administrator authority to deny a registration application",
+          "To allow the Administrator to receive legal documents on behalf of the registrant, ensuring they cannot evade legal proceedings",
+          "To confirm the registrant's agreement to pay registration fees on time",
+          "To verify the registrant's identity and citizenship status"
+        ],
+        answer: 1,
+        explain: "The consent designates the Administrator as the registrant's agent for receiving legal notices, subpoenas, and other process — ensuring legal proceedings can move forward even if the registrant becomes unreachable or leaves the state. A describes a separate denial power unrelated to this filing. C confuses it with fee obligations. D confuses it with identity/eligibility verification, which is a completely different (and largely nonexistent, per the first question above) category of requirement."
+      }
+    ]
   }
 ];
 

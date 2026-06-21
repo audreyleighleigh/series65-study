@@ -4351,6 +4351,40 @@ const CONCEPTS = [
         explain: "False — filing rights are explicitly broader than just the issuer. The issuer, a broker-dealer, or any other person on whose behalf the offering is to be made can file the registration statement. D is too narrow, restricting filing rights to broker-dealers only and excluding the issuer and other interested parties."
       }
     ]
+  },
+
+  {
+    id: "agent-exclusion-exempt-security-issuers",
+    category: "Regulations",
+    title: "Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan)",
+    color: "#FF6B6B",
+    analogy: "Two institutions can both get a 'VIP pass' for their securities being exempt — but only some of those VIPs also get a pass for their employees to sell without registering as agents. Banks, savings institutions, and trust companies get both passes. Building and loan associations only get the first pass — their stock is exempt, but their employee selling it still has to register as an agent like anyone else.",
+    rule: "Securities issued by banks, savings institutions, trust companies, AND building/savings & loan associations are all **exempt securities** under the USA. However, the narrower **agent exclusion** — where an employee of the issuer can sell the issuer's own securities without registering as an agent — applies **only to banks, savings institutions, and trust companies**. Building and loan associations did NOT make this shorter list. An employee of a building and loan association selling its stock must still register as an agent.",
+    watch: "Don't assume 'exempt security' automatically means 'exempt seller' — these are two separate lists that overlap but aren't identical. The agent-exclusion list is shorter: banks, savings institutions, trust companies. If the issuer is a building and loan / savings and loan association, the security is exempt but the salesperson is NOT — they must be a registered agent.",
+    quiz: [
+      {
+        q: "First Fidelity Building and Loan Association, organized in State A and authorized to do business in State B, has an offering of common stock being made in State B. In order for an individual selling the offering to be excluded from the definition of agent in State B, the individual",
+        options: [
+          "would have to be employed by First Fidelity.",
+          "would have to be employed by a broker-dealer registered in the other state.",
+          "cannot sell without being an agent.",
+          "would have to be employed by a broker-dealer registered in this state."
+        ],
+        answer: 2,
+        explain: "Building and loan associations' stock is an exempt security, but building and loan associations are NOT on the shorter list of issuers (banks, savings institutions, trust companies) whose employees are excluded from the agent definition. So regardless of employer, the individual must be a registered agent to sell this offering. A is the classic trap — it would be correct if First Fidelity were a bank, savings institution, or trust company, but it isn't."
+      },
+      {
+        q: "An employee of Cornerstone Trust Company sells Cornerstone's own stock to existing customers in the state where Cornerstone is authorized to do business. Must this employee register as an agent?",
+        options: [
+          "Yes — all individuals selling securities must register as agents",
+          "No — trust company employees selling the trust company's own stock are excluded from the agent definition",
+          "Yes — unless the trust company is also a federal covered adviser",
+          "No — but only if the stock is sold exclusively to accredited investors"
+        ],
+        answer: 1,
+        explain: "Trust companies ARE on the shorter agent-exclusion list (along with banks and savings institutions), so an employee selling the trust company's own stock is excluded from the agent definition — no registration required. This is the mirror-image scenario to the building and loan question: same exempt-security status, but trust company makes the agent-exclusion cut while building and loan associations do not. C and D both invent irrelevant conditions not part of this exclusion."
+      }
+    ]
   }
 ];
 

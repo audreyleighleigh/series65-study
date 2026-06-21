@@ -4656,6 +4656,40 @@ const CONCEPTS = [
         explain: "The consent designates the Administrator as the registrant's agent for receiving legal notices, subpoenas, and other process — ensuring legal proceedings can move forward even if the registrant becomes unreachable or leaves the state. A describes a separate denial power unrelated to this filing. C confuses it with fee obligations. D confuses it with identity/eligibility verification, which is a completely different (and largely nonexistent, per the first question above) category of requirement."
       }
     ]
+  },
+
+  {
+    id: "agent-true-false-statements-solicitation-orders",
+    category: "Regulations",
+    title: "Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It",
+    color: "#FF6B6B",
+    analogy: "Picture state lines as tripwires for solicitation, not for sales. The moment an agent advertises or solicits across that line, the alarm goes off — it doesn't wait for a signed order. Meanwhile, inside the office, the rule cares about WHAT someone does, not what their nameplate says: a 'secretary' taking client orders has tripped the same wire as a fully-titled agent, courtesy or not.",
+    rule: "Under the USA: **(1)** An agent must register in any state where they **advertise or solicit** a security — registration is triggered by solicitation activity itself, not just completed sales. **(2)** An agent's BD being registered in a state does NOT exempt the agent from needing their own separate registration there — registration is paired, not shared. **(3)** An agent generally cannot register with two unrelated broker-dealers simultaneously, UNLESS the Administrator authorizes it by rule or order — 'under no circumstances' is too absolute. **(4)** Anyone who takes client orders — regardless of job title or whether it's framed as an informal courtesy — is performing agent activity and must be registered.",
+    watch: "This question bundles four separate rules you may know individually — the trap is in losing track of which ones are true vs. false when stacked together. Don't let 'need not register where the BD is already registered' (II) sound plausible just because it echoes the agent-BD pairing concept — the pairing means BOTH need registration, not that one covers the other. And don't let job titles like 'secretary' or framing like 'as a courtesy' distract from the substantive question: is this person taking orders or soliciting? If yes, registration is required.",
+    quiz: [
+      {
+        q: "Which of the following statements are true?\n\nI. An agent must register in the state in which he advertises and solicits a security.\nII. To make sales, an agent need not register in a state in which the broker-dealer is already registered.\nIII. Under no circumstances may an agent register with two unrelated broker-dealers.\nIV. A secretary for a broker-dealer who, as a courtesy, takes orders for the broker-dealer's clients must be registered.",
+        options: [
+          "III and IV",
+          "II and III",
+          "I and IV",
+          "I and II"
+        ],
+        answer: 2,
+        explain: "I is true — advertising/soliciting in a state triggers the agent registration requirement there, regardless of whether a sale follows. IV is true — taking client orders is agent activity regardless of job title or how casually it's framed; 'as a courtesy' doesn't create an exception. II is false — the BD's registration in a state doesn't cover the agent; the agent still needs separate registration. III is false — the Administrator can authorize an agent to work for two unrelated broker-dealers by rule or order, so 'under no circumstances' is too absolute."
+      },
+      {
+        q: "A receptionist at a broker-dealer occasionally takes phone orders from clients when the assigned agent is unavailable, describing it as 'just helping out.' Under the USA, must this receptionist be registered as an agent?",
+        options: [
+          "No — receptionists are clerical staff and are exempt from registration regardless of duties performed",
+          "Yes — taking client orders is agent activity regardless of job title or how the activity is described",
+          "No — but only if she does not receive any commission for the orders taken",
+          "Yes — but only if she takes orders more than once per month"
+        ],
+        answer: 1,
+        explain: "The determining factor is the activity performed, not the job title or framing. Taking client orders is core agent activity, so registration is required regardless of how informally it's described or how often it occurs. A incorrectly assumes job title alone determines exemption. C invents a compensation-based exception that doesn't exist. D invents a frequency threshold that isn't part of the rule — even a single instance of taking an order constitutes agent activity."
+      }
+    ]
   }
 ];
 

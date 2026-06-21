@@ -4870,6 +4870,96 @@ const CONCEPTS = [
         explain: "Agents and IARs who withdraw must re-affiliate within 2 years; exceeding that window means she must retake the exam to re-qualify. This is distinct from the Administrator's separate 1-year jurisdiction-to-prosecute window — that's about liability for past conduct, not about re-entry requirements."
       }
     ]
+  },
+
+  {
+    id: "scope-of-liability-and-surety-bonds",
+    category: "Regulations",
+    title: "Who's Liable — Beyond the Person Who Made the Sale",
+    color: "#FF6B6B",
+    analogy: "Picture a getaway driver. The person who actually robbed the bank is obviously liable — but so is the driver who knowingly helped, and so is whoever was supposed to be supervising the operation and looked the other way. Under the USA, liability doesn't stop at the agent who made the bad sale or the IAR who gave the bad advice — it extends to anyone who controls that person or materially aids the transaction. That's why a negligent officer or partner at the firm can end up civilly liable right alongside the agent who actually pulled the trigger. The surety bond exists as the financial backstop behind all of this — it's there so a wronged client has something to collect from even if the individual can't pay.",
+    rule: "Civil liability = a rule violation, monetary/administrative consequences, no jail. Criminal liability = a willful violation of the law, can include prison. The same act can trigger both. Liability under the USA extends beyond the direct seller/adviser to anyone who directly or indirectly controls that person, or who materially aids the transaction — they're liable to the same extent as the person who conducted it. A surety bond must allow any person with a valid cause of action to sue against the bond, provided they file within the statute of limitations. The right to sue survives the death of either party — the bond must remain enforceable for the full statute of limitations even if the bonded person dies first.",
+    watch: "The exam likes to test whether 'liability' stops at the agent who made the sale — it doesn't. A supervising officer or partner who was irresponsible can be pulled in too, which is the same logic behind 'failure to supervise' showing up elsewhere as grounds for revocation. Also remember: death does NOT end the statute of limitations clock or void the bond's obligations.",
+    quiz: [
+      {
+        q: "An agent at a broker-dealer makes a sale in violation of the USA. It's later shown that a supervising officer at the firm was negligent in overseeing the agent. Under the USA, who can be held civilly liable?",
+        options: [
+          "Only the agent who made the sale",
+          "Only the broker-dealer as a corporate entity, not the officer personally",
+          "Both the agent and the negligent supervising officer",
+          "Neither, since only criminal liability extends beyond the direct seller"
+        ],
+        answer: 2,
+        explain: "Liability under the USA extends to anyone who directly or indirectly controls the person who made the violation, or who materially aids the transaction. A negligent supervising officer falls into that category and can be held civilly liable to the same extent as the agent."
+      },
+      {
+        q: "A securities professional who was required to post a surety bond dies before the statute of limitations on a client's claim expires. What happens to the client's ability to collect against the bond?",
+        options: [
+          "The claim is automatically voided upon death",
+          "The bond must remain enforceable for the remainder of the statute of limitations period despite the death",
+          "The claim transfers only to the deceased's immediate family",
+          "The client must refile within 10 days of the death or lose the claim"
+        ],
+        answer: 1,
+        explain: "Causes of action under the USA survive the death of either party, so the bond must remain enforceable through the full statute of limitations period even if the bonded individual dies before it expires. Death does not extinguish or shorten the claim window."
+      }
+    ]
+  },
+
+  {
+    id: "criminal-penalties-and-sec-enforcement-5-5-3",
+    category: "Regulations",
+    title: "Criminal Penalties & SEC Powers — The 5-5-3 Anchor",
+    color: "#FF6B6B",
+    analogy: "State and federal criminal penalties are like two tiers of the same speeding ticket system — state law hands out the smaller fine and shorter possible sentence, federal law doubles both. Memorize them as a pair so one doesn't bleed into the other: state is $5,000 and 3 years, federal is $10,000 and 5 years. Separately, the SEC operates like a federal-only enforcement agency for investment advisers — it can investigate, subpoena, get injunctions, and ultimately censure, restrict, suspend (up to 12 months), or revoke registration after a hearing. Notably, the USA itself sets no maximum suspension length — that 12-month cap is a federal-only feature.",
+    rule: "**5-5-3 mnemonic (state/USA)**: 5-year statute of limitations, $5,000 max fine, 3 years max imprisonment. Imprisonment requires willfulness — no one can be imprisoned for violating a rule or order they had no knowledge of. **Federal criminal**: $10,000 max fine, 5 years max imprisonment. The Administrator cannot personally arrest anyone but may request a warrant; the decision to prosecute belongs to the state prosecutor (usually the Attorney General). **SEC powers**: subpoena witnesses/evidence/records, administer oaths, seek injunctions, refer for criminal prosecution, and after a hearing, censure, restrict activities, suspend (up to 12 months), or revoke registration. Appeals of either state or federal orders must be filed within 60 days; filing an appeal does NOT automatically stay the penalty. State appeals go through state courts; federal (SEC) appeals go through the U.S. Court of Appeals.",
+    watch: "The exam will swap the $5,000/3-year (state) and $10,000/5-year (federal) figures on you — anchor 5-5-3 specifically to the USA/state side. Also: the USA has no stated maximum suspension length, while federal law caps it at 12 months — don't assume the USA mirrors that cap. And remember imprisonment always requires willful knowledge of the violation; ignorance of a specific rule or order is a valid defense against jail time (though not necessarily against civil liability).",
+    quiz: [
+      {
+        q: "A securities professional is convicted of willfully violating the USA. What is the maximum possible penalty?",
+        options: [
+          "$10,000 fine, 5 years imprisonment, or both",
+          "$5,000 fine, 3 years imprisonment, or both",
+          "$5,000 fine only, no imprisonment possible under state law",
+          "Unlimited fine with a mandatory 3-year sentence"
+        ],
+        answer: 1,
+        explain: "This is the 5-5-3 anchor: under the USA (state law), the maximum penalty is a $5,000 fine, 3 years imprisonment, or both. The $10,000/5-year figures belong to federal law, not the USA — a common swap the exam tests for."
+      },
+      {
+        q: "An investment adviser representative violates a specific Administrator rule but can prove she had no knowledge that the rule existed. Can she be imprisoned for this violation?",
+        options: [
+          "Yes, ignorance of rules is never a valid defense",
+          "No — imprisonment is not available if she proves no knowledge of the rule or order violated",
+          "Yes, but only if the fine is also waived",
+          "No, because the SEC has exclusive jurisdiction over rule violations"
+        ],
+        answer: 1,
+        explain: "The USA specifically protects against imprisonment when the violator proves no knowledge of the rule or order — willfulness is required for jail time. She could still potentially face civil liability, but imprisonment specifically requires demonstrated knowledge of the violation."
+      },
+      {
+        q: "After a hearing, the SEC determines that an investment adviser's registration should be suspended. What is the maximum suspension period under federal law, and how does this compare to the USA?",
+        options: [
+          "12 months maximum under federal law; the USA sets no maximum suspension length",
+          "6 months maximum under both federal law and the USA",
+          "There is no maximum under either federal law or the USA",
+          "12 months under the USA; federal law has no maximum"
+        ],
+        answer: 0,
+        explain: "Federal law caps SEC-ordered suspensions at 12 months. The USA, by contrast, sets no stated maximum suspension length at all — this is a meaningful federal/state distinction the exam tests directly."
+      },
+      {
+        q: "A person wants to appeal an Administrator's order under the USA. What is the filing deadline, and does filing the appeal pause the penalty?",
+        options: [
+          "30 days, and the penalty is automatically stayed pending appeal",
+          "60 days, and the penalty is NOT automatically stayed — it remains in effect unless the court rules otherwise",
+          "90 days, and the penalty is automatically stayed",
+          "60 days, with no option to ever stay the penalty"
+        ],
+        answer: 1,
+        explain: "Appeals of Administrator orders must be filed within 60 days. Filing the appeal does not automatically pause the order — it stays in effect unless the court specifically rules otherwise. This same 60-day window and non-automatic-stay rule applies on the federal/SEC side as well."
+      }
+    ]
   }
 ];
 

@@ -4464,6 +4464,40 @@ const CONCEPTS = [
         explain: "The default effective date is noon on the 30th day after a completed application is filed — March 1st plus 30 days lands at noon on March 31st. The Administrator doesn't need to take any affirmative action for this default to apply; their role is to act sooner if they choose to deny or expedite it. D incorrectly assumes registration requires an explicit order, ignoring the automatic fallback mechanism."
       }
     ]
+  },
+
+  {
+    id: "surety-bond-not-true-statements",
+    category: "Regulations",
+    title: "Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack",
+    color: "#FF6B6B",
+    analogy: "Think of a surety bond as a spare tire the Administrator requires in case of a blowout. If a broker-dealer already has a fully-loaded financial toolkit (net capital well above the minimum), the Administrator doesn't make them carry a spare tire too — the existing cushion already does the job. The bond is a backup for firms that don't have that cushion, not an extra requirement piled on top of firms that do.",
+    rule: "Under the USA, the Administrator's bonding authority extends to **both firms and individual agents** — bonds aren't limited to broker-dealer entities. The Administrator **can accept securities in lieu of cash** when a bond is required. Bonds exist primarily to cover **civil liabilities arising from USA violations**. Critically: a broker-dealer maintaining **net capital in excess of required minimums** is generally **exempt from the bonding requirement** — the surplus net capital itself serves as the protective cushion, so the Administrator does NOT require a bond on top of it.",
+    watch: "The false statement in this category almost always inverts the net-capital-exemption logic — claiming the Administrator requires a bond 'even if' a firm exceeds minimum net capital, when the real rule is the opposite: exceeding the minimum is exactly what lets a firm SKIP the bond. Don't confuse this with firm-level net worth thresholds for investment advisers (a related but separate concept) — this card is specifically about the bond/net-capital substitution relationship for broker-dealers.",
+    quiz: [
+      {
+        q: "Under the Uniform Securities Act (USA), which of the following statements regarding the posting of surety bonds is not true?",
+        options: [
+          "Bonds may be required for agents of broker-dealers.",
+          "The Administrator can accept securities instead of cash if the posting of a bond is required.",
+          "The Administrator requires all broker-dealers to post bonds even if they maintain net capital in excess of minimum amounts.",
+          "The Administrator requires the posting of bonds primarily to cover the cost of civil liabilities associated with violations of the USA."
+        ],
+        answer: 2,
+        explain: "C is false — a broker-dealer that maintains net capital in excess of the required minimum is generally exempt from the bonding requirement, since the surplus capital already serves the protective function a bond would. A is true: bonding authority extends to individual agents, not just firms. B is true: the Administrator has discretion to accept securities instead of cash for bond purposes. D is true: bonds exist primarily to provide a recovery source for civil liabilities from USA violations."
+      },
+      {
+        q: "A broker-dealer maintains net capital well above the state's required minimum. Does the Administrator still require this firm to post a surety bond?",
+        options: [
+          "Yes — bonds are required of all broker-dealers regardless of net capital",
+          "No — net capital in excess of the minimum exempts the firm from the bonding requirement",
+          "Yes — but only if the firm also maintains custody of client funds",
+          "No — but only if the excess net capital is held entirely in cash"
+        ],
+        answer: 1,
+        explain: "Exceeding the minimum net capital requirement exempts a broker-dealer from needing to post a bond — the surplus capital itself functions as the financial protection the bond would otherwise provide. A ignores this exemption entirely. C invents an irrelevant custody condition (custody-driven bonding applies more directly to investment advisers, not this BD net-capital exemption). D fabricates a cash-only restriction that isn't part of the rule."
+      }
+    ]
   }
 ];
 

@@ -4270,6 +4270,28 @@ const CONCEPTS = [
         ],
         answer: 1,
         explain: "Insurance companies and pension funds are institutional clients, and with no place of business in State Q, the broker-dealer qualifies for exemption — the institutional client / no-place-of-business combination is exactly the exempt pattern. A ignores the exemption entirely. C inverts the rule — retail investors are the clients that do NOT qualify for this exemption. D invents a reciprocal-agreement concept that doesn't exist in the USA framework."
+      },
+      {
+        q: "XYZ is a registered broker-dealer with its only office in State T. Under which of the following circumstances must XYZ also register in State L?\n\nI. XYZ's only dealings in State L are directly with issuers of securities in State L.\nII. XYZ engages in extensive transactions with the largest insurance company in State L.\nIII. XYZ routinely sells nonexempt securities to extremely high net-worth residents of State L.\nIV. XYZ purchases exempt securities from extremely high net-worth residents of State L for resale to residents of State T.",
+        options: [
+          "I only",
+          "III and IV",
+          "I and II",
+          "II, III, and IV"
+        ],
+        answer: 1,
+        explain: "III and IV both require registration because XYZ is transacting directly with individual retail residents of State L — not issuers, other broker-dealers, or institutions — so neither falls into the no-place-of-business exemption, regardless of how wealthy the individuals are or whether the securities involved are exempt. I and II both stay exempt: dealing only with issuers (I) and dealing with an institutional client like an insurance company (II) are both classic exempt-counterparty scenarios for a broker-dealer with no place of business in the state."
+      },
+      {
+        q: "A no-place-of-business broker-dealer purchases securities FROM individual residents of a state (rather than selling TO them) for resale elsewhere. Does the direction of the transaction (buying vs. selling) change whether registration is required?",
+        options: [
+          "Yes — purchasing from residents is exempt because no solicitation to buy securities occurred",
+          "No — the broker-dealer definition covers effecting transactions for its own account, so buying from individual residents triggers the same registration analysis as selling to them",
+          "Yes — purchases are only regulated if the securities are nonexempt",
+          "No — but only if the broker-dealer resells within the same calendar year"
+        ],
+        answer: 1,
+        explain: "The broker-dealer definition covers effecting securities transactions 'for the account of others or for its own account' — buying for resale is squarely within that definition. The counterparty-type analysis (individual retail resident = not exempt) applies the same way regardless of which direction the transaction flows. A and C both incorrectly assume buy-side transactions get special treatment. D invents an irrelevant timing condition."
       }
     ]
   },

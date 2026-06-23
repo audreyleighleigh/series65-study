@@ -5305,6 +5305,51 @@ const CONCEPTS = [
         explain: "The test isn't whether the word is someone's name — it's whether it functions as a performance claim in context. 'Good Performance' reads as a descriptor of results, not an identification of a person. An adviser cannot present themselves in terms that can be interpreted as exaggerating performance, even if the word is coincidentally their name."
       }
     ]
+  },
+
+  {
+    id: "ia-advertising-acceptable-practices",
+    category: "Regulations",
+    title: "IA Advertising — What's Acceptable Under the SEC Marketing Rule",
+    color: "#FF6B6B",
+    analogy: "Think of IA advertising rules like Yelp review policies. You can let happy customers post reviews — even famous ones — as long as you disclose if you paid them. You can offer to show your complete review history for the past year. You can promote your restaurant's unique cooking method as long as you mention its limitations. What you cannot do is hand-pick only your five-star reviews from the last six months and pretend that's the whole picture.",
+    rule: "Under the SEC Marketing Rule (updated 2021), four key rules govern IA advertisements: (1) TESTIMONIALS are now permitted — including from celebrity clients — as long as compensation arrangements are disclosed. This reversed the longstanding prohibition. (2) PAST RECOMMENDATIONS: any mention of investment recommendations must include ALL recommendations made over the past 12 months — not just the good ones, and not just 6 months. Cherry-picking best picks is prohibited. (3) OFFERING THE FULL RECORD: an adviser may offer to provide the complete list of all recommendations from the past 12 months. This is the compliant version of referencing past performance. (4) CHARTS AND FORMULAS: any advertisement promoting a system of charts or formulas must mention their limitations. Mentioning difficulties is not required but is permitted — and including both makes the ad more than compliant.",
+    watch: "Two traps: (1) Testimonials FEEL like they should be prohibited — they were for decades — but the 2021 SEC Marketing Rule made them permissible with disclosure of compensation. Don't let muscle memory get you here. (2) The 12-month rule: if you mention past recommendations at all, you must cover the full 12 months. 6 months is wrong. Cherry-picking is wrong. The only acceptable approach is offering the complete record.",
+    quiz: [
+      {
+        q: "Under the SEC Marketing Rule, may an investment adviser use a testimonial from a celebrity client in a TV advertisement?",
+        options: [
+          "No — testimonials from clients are always prohibited in IA advertising",
+          "No — celebrity testimonials are specifically prohibited even if other testimonials are allowed",
+          "Yes — testimonials are permitted as long as compensation arrangements are disclosed",
+          "Yes — but only if the celebrity is not compensated in any way"
+        ],
+        answer: 2,
+        explain: "The SEC Marketing Rule updated in 2021 reversed the longstanding prohibition on testimonials. Client testimonials — including from celebrities — are now permitted as long as any compensation arrangements are disclosed. The content must also be fair and balanced."
+      },
+      {
+        q: "An investment adviser wants to reference past investment recommendations in an advertisement. Which approach is acceptable?",
+        options: [
+          "Identifying the best recommendations from the past 6 months",
+          "Identifying the best recommendations from the past 12 months",
+          "Offering to provide all investment recommendations made over the past 12 months",
+          "Referencing past recommendations is never permitted in IA advertising"
+        ],
+        answer: 2,
+        explain: "Any reference to past recommendations must include ALL recommendations — not just the best ones — over the past 12 months. Cherry-picking is prohibited. The compliant approach is offering to provide the complete 12-month record, not highlighting selected wins."
+      },
+      {
+        q: "An IA's advertisement promotes a proprietary charting system and mentions both its limitations and the difficulty of using it. Is this acceptable?",
+        options: [
+          "No — mentioning difficulties implies the system is not reliable",
+          "No — only limitations must be mentioned, not difficulties",
+          "Yes — mentioning limitations is required, and mentioning difficulties voluntarily makes the ad more than compliant",
+          "Yes — but only if the ad also includes a 12-month performance record"
+        ],
+        answer: 2,
+        explain: "Advertisements for charting systems or formulas must disclose limitations. Mentioning difficulties is not required but is permitted — including both makes the ad fully compliant. The question asks what is acceptable, not what is strictly required."
+      }
+    ]
   }
 ];
 

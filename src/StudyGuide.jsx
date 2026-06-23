@@ -5192,6 +5192,40 @@ const CONCEPTS = [
         explain: "Selling the firm assigns the advisory contracts to the new owner. Assignment requires client consent — but that consent comes in the form of choosing to stay with the new firm. Clients who don't want to continue can simply take their accounts elsewhere."
       }
     ]
+  },
+
+  {
+    id: "ia-advertising-system-disclosures",
+    category: "Regulations",
+    title: "Advertising a Stock-Picking System — Required Disclosures",
+    color: "#FF6B6B",
+    analogy: "Think of advertising a stock-picking system like advertising a weather forecasting app. You can tout your accuracy rate — but you have to disclose how long you've been tracking results AND warn users that it doesn't work well during unusual weather patterns. You do NOT have to explain that the interface is confusing to navigate. Material facts about performance and limitations must be disclosed. Practical usability issues don't.",
+    rule: "Under the Investment Advisers Act of 1940, when an IA advertises a stock-picking system, formula, or timing method, two things must be disclosed: (1) the time period the system has been used successfully — if you're referencing a track record, the timeframe must be included so clients can evaluate the claim accurately. (2) The limitations of the system — conditions under which it may NOT work, its risks, or its weaknesses. This flows directly from the fiduciary duty to avoid misleading clients. What does NOT need to be disclosed: the difficulty of using the system. Difficulty is a practical inconvenience, not a material fact about the system's performance or reliability.",
+    watch: "The exam will include 'difficulty of use' as a tempting answer because it sounds like something a client would want to know. But the disclosure obligation is about material facts — how well it works and when it fails — not how user-friendly it is. When evaluating any disclosure question: does this touch on performance or limitations? Disclose. Does it touch on usability or convenience? Not required.",
+    quiz: [
+      {
+        q: "An IA advertises a proprietary market timing system. Under the IAA 1940, which of the following must be disclosed in the advertisement?",
+        options: [
+          "The difficulty of using the system and its limitations",
+          "The number of years used successfully and the limitations of the system",
+          "The number of years used successfully and the difficulty of using the system",
+          "The names of clients who have used the system successfully"
+        ],
+        answer: 1,
+        explain: "IAA 1940 requires disclosure of (1) the time period the system has been used successfully and (2) the system's limitations. Difficulty of use is not a required disclosure — it's a practical inconvenience, not a material fact about performance or reliability."
+      },
+      {
+        q: "Why is the 'difficulty of using the system' NOT a required disclosure when advertising a stock-picking system?",
+        options: [
+          "Because clients are assumed to be sophisticated investors",
+          "Because difficulty of use is a practical inconvenience, not a material fact about the system's performance or limitations",
+          "Because the SEC has specifically exempted usability disclosures",
+          "Because difficulty is already implied by the complexity of the securities markets"
+        ],
+        answer: 1,
+        explain: "Disclosure obligations under the IAA 1940 focus on material facts — how well the system works and when it might fail. Difficulty of use doesn't speak to the system's reliability or risk. The test is: does this touch on performance or limitations? If yes, disclose. If it's just about usability, it's not required."
+      }
+    ]
   }
 ];
 

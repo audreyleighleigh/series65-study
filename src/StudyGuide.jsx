@@ -4960,6 +4960,90 @@ const CONCEPTS = [
         explain: "Appeals of Administrator orders must be filed within 60 days. Filing the appeal does not automatically pause the order — it stays in effect unless the court specifically rules otherwise. This same 60-day window and non-automatic-stay rule applies on the federal/SEC side as well."
       }
     ]
+  },
+
+  {
+    id: "ia-contract-required-elements",
+    category: "Regulations",
+    title: "Advisory Contract — The 7 Required Elements",
+    color: "#FF6B6B",
+    analogy: "Think of the advisory contract like a lease agreement. A landlord has to put certain things in writing before you hand over the keys — what's included, how long it runs, what rent is, what happens if you leave early, whether they can sub-let your unit to a stranger without asking you first. The advisory contract is the same: it's the legal paper trail that proves both sides knew what they were agreeing to.",
+    rule: "Every advisory contract must include: (1) Services to be provided, including custody if relevant. (2) Term — any length, not required to be annual. (3) Fee amount or the formula for calculating it. (4) Prepaid fee refund policy — what gets returned if the client terminates early. (5) Whether the adviser has discretionary authority. (6) No assignment without client consent. (7) If organized as a partnership — minority partner changes must be communicated to clients within a reasonable time. State law (USA) also requires all contracts and renewals to be in writing. Federal law (IAA 1940) allows oral contracts.",
+    watch: "State vs. federal: USA = written contracts required, fees must be competitive. Federal = oral contracts permitted, fees just need to be reasonable. Don't swap these. Also: the contract term doesn't have to be annual — any length is fine.",
+    quiz: [
+      {
+        q: "Under the USA (state law), must an investment advisory contract be in writing?",
+        options: ["Yes, always", "No, oral contracts are fine", "Only if the contract exceeds one year", "Only if the adviser has discretionary authority"],
+        answer: 0,
+        explain: "The USA requires all advisory contracts — including renewals — to be in writing. Federal law (IAA 1940) is more permissive and allows oral contracts."
+      },
+      {
+        q: "Under state law, how must advisory fees be characterized?",
+        options: ["Reasonable", "Competitive", "Performance-based", "Fixed by the Administrator"],
+        answer: 1,
+        explain: "The USA requires fees to be competitive. Federal law only requires that fees be reasonable in view of the services rendered. State = competitive, federal = reasonable."
+      },
+      {
+        q: "Which of the following is NOT a required element of an investment advisory contract?",
+        options: ["The term of the contract", "The amount of the advisory fee", "The adviser's investment philosophy", "Whether the adviser has discretionary authority"],
+        answer: 2,
+        explain: "Philosophy isn't required. The seven required elements cover services, term, fees, prepaid fee refunds, discretionary authority, assignment prohibition, and partnership change notification."
+      }
+    ]
+  },
+
+  {
+    id: "ia-contract-assignment",
+    category: "Regulations",
+    title: "Advisory Contract Assignment — Minority vs. Majority",
+    color: "#FF6B6B",
+    analogy: "When an IA firm is sold, its main asset isn't furniture or computers — it's the client contracts. Selling the firm legally means transferring (assigning) those contracts to new owners. Clients don't have to approve the sale itself, but they do get to decide if they want the new owner managing their money. The rule is simple: minority partner change = just tell clients. Majority partner change = need their permission. It's like a co-op board: small personnel changes just get announced at the meeting, but selling the whole building requires everyone's vote.",
+    rule: "Assignment = transfer of an advisory contract to a new party. Requires CLIENT CONSENT. Assignment is triggered by: (1) change to a majority of partners in a partnership, (2) a majority of corporate stock pledged as collateral, or (3) sale of the firm. NOT considered assignment: minority partner changes (death, withdrawal, or admission of new minority partners), or reorganization that doesn't actually change control. For partnerships: minority change = notify clients within a reasonable time, no consent needed. Majority change = assignment = client consent required. For corporations: shareholder changes don't trigger notification. But pledging majority stock as collateral = assignment.",
+    watch: "Two common traps: (1) Corporations don't need to notify clients of shareholder changes — but pledging majority stock as collateral IS an assignment. (2) Minority vs. majority math matters — always count the partners and determine which side of 50% the change falls on.",
+    quiz: [
+      {
+        q: "An IA organized as a partnership has 6 equal partners. Two partners retire. Is this an assignment?",
+        options: ["Yes — client consent is required", "No — notify clients within a reasonable time", "No — no action required at all", "Yes — but only if the firm is sold"],
+        answer: 1,
+        explain: "2 out of 6 is a minority change. Minority changes in a partnership require notification to clients within a reasonable period, but are not considered an assignment and do not require consent."
+      },
+      {
+        q: "An IA organized as a partnership has 5 equal partners. Three partners leave. What is required?",
+        options: ["Notify clients within a reasonable time", "Notify the Administrator only", "Obtain client consent — this is an assignment", "No action required"],
+        answer: 2,
+        explain: "3 out of 5 is a majority change, which constitutes an assignment. Assignment requires client consent before proceeding."
+      },
+      {
+        q: "An IA organized as a corporation pledges 60% of its voting stock as collateral for a loan. Is this an assignment?",
+        options: ["No — corporate stock changes never trigger assignment", "Yes — pledging a majority of stock is considered assignment", "Only if the loan goes into default", "Only if clients are notified first"],
+        answer: 1,
+        explain: "Pledging a controlling/majority block of voting securities is considered assignment even for corporations. Client consent is required."
+      }
+    ]
+  },
+
+  {
+    id: "ia-contract-prohibitions",
+    category: "Regulations",
+    title: "Advisory Contract — What's Prohibited",
+    color: "#FF6B6B",
+    analogy: "Two things can never show up in an advisory contract: a waiver clause and a performance fee. The waiver is like a gym making you sign away your right to sue if their equipment injures you — courts throw those out because you can't contract away legal rights. The performance fee is like a surgeon who charges you more if the surgery goes well but gives you a discount if you die — the incentive structure is all wrong and creates conflicts of interest.",
+    rule: "Two prohibited contract provisions: (1) WAIVERS — clients cannot waive their legal rights in the contract. Any such clause is null and void. This includes waiving rights to sue or waiving compliance with the USA or IAA 1940. (2) PERFORMANCE-BASED COMPENSATION — contracts cannot include provisions where the fee increases for good performance and decreases for poor performance. Treat as prohibited on the exam unless a specific exception is mentioned (covered in the next unit). Also note: fees cannot be waived in the event of losses — that's a form of performance-based arrangement.",
+    watch: "On exam questions: if a client 'agrees' to waive their right to sue — the agreement is still null and void. The client's consent doesn't make a waiver enforceable. Performance fees look appealing ('aligns incentives!') but are prohibited by default — don't be swayed by that framing.",
+    quiz: [
+      {
+        q: "An advisory contract includes a clause stating the client waives the right to sue the adviser for negligence. Is this enforceable?",
+        options: ["Yes, if the client signed voluntarily", "Yes, if approved by the Administrator", "No — waivers of legal rights are null and void", "No — only if the clause wasn't disclosed"],
+        answer: 2,
+        explain: "Clients cannot waive their legal rights under the USA or IAA 1940. Any such clause in an advisory contract is unenforceable regardless of whether the client agreed to it."
+      },
+      {
+        q: "An advisory contract states the adviser's fee will be 1% if returns are positive and 0.5% if returns are negative. Is this permitted?",
+        options: ["Yes — it aligns the adviser's interests with the client's", "Yes — if disclosed in the brochure", "No — performance-based compensation is prohibited", "No — only if the client is not a qualified investor"],
+        answer: 2,
+        explain: "Performance-based fees (higher for good performance, lower for poor) are prohibited under both state and federal law. Treat as prohibited on the exam unless a specific exception is stated."
+      }
+    ]
   }
 ];
 

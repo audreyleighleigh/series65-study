@@ -5418,6 +5418,51 @@ const CONCEPTS = [
         explain: "2 out of 7 is a minority change — not an assignment. The firm must notify clients within a reasonable time, but no client consent is required. All other options involve a majority interest change or pledging of contracts, which constitute assignment."
       }
     ]
+  },
+
+  {
+    id: "ia-principal-transaction-recommendation-trigger",
+    category: "Regulations",
+    title: "Principal Transactions — The Recommendation Is the Trigger",
+    color: "#FF6B6B",
+    analogy: "Think of a pharmacist who is also a licensed doctor. If a patient walks in and says 'I'd like to buy some ibuprofen' on their own — the pharmacist just sells it, no special process needed. But if that same person is acting as their doctor and says 'I recommend you take ibuprofen' — now they're wearing the adviser hat, and the principal transaction rules kick in. Same product, same transaction, completely different obligations depending on which hat they were wearing.",
+    rule: "When an IAR at a dually registered BD/IA firm executes a principal transaction (selling from firm inventory) for an advisory client, consent is NOT automatically required. The trigger is whether the transaction was the result of a RECOMMENDATION. If the IAR recommended the security → wearing the adviser hat → principal transaction rules apply → written disclosure + consent (oral or written) required before completion of the trade (settlement). If the client placed the order on their own with no advice rendered → wearing the BD hat → no consent required. Two additional details: (1) consent for principal transactions does NOT have to be written — oral consent is acceptable. (2) Principal transactions involve markups, not commissions — 'commission must be disclosed' is wrong on the facts.",
+    watch: "Three traps in one question: (1) 'Whenever' is too broad — consent is only required when a recommendation was made, not for every principal transaction. (2) Consent does not have to be written — oral is fine. Don't confuse this with agency cross transactions, which require written consent in advance. (3) Principal transactions earn markups, not commissions. If an answer mentions commission disclosure for a principal trade, it's wrong.",
+    quiz: [
+      {
+        q: "An IAR at a dually registered firm processes a client's order to buy shares from the firm's inventory. The client initiated the order without any recommendation from the IAR. Is consent required?",
+        options: [
+          "Yes — consent is always required for principal transactions involving advisory clients",
+          "Yes — written consent must be obtained before the trade is executed",
+          "No — consent is only required when the transaction was the result of a recommendation",
+          "No — principal transactions are exempt from all disclosure requirements"
+        ],
+        answer: 2,
+        explain: "The trigger for principal transaction consent requirements is the recommendation — not the transaction itself. If the client placed the order on their own with no advice rendered, the IAR is acting in a BD capacity only and no consent is required."
+      },
+      {
+        q: "An IAR recommends a security to an advisory client. The firm sells the security to the client from its own inventory. What is required?",
+        options: [
+          "Written consent only — no disclosure needed since the client was informed via the recommendation",
+          "Written disclosure and written consent before the trade is executed",
+          "Written disclosure and consent — oral or written — before completion of the trade",
+          "Nothing — the recommendation already serves as sufficient disclosure"
+        ],
+        answer: 2,
+        explain: "When a principal transaction results from a recommendation, the adviser must provide written disclosure and obtain client consent before completion (settlement). Consent can be oral or written — it does not have to be in writing. This is different from agency cross transactions, which require written consent in advance."
+      },
+      {
+        q: "Which of the following most accurately describes when an IAR at a dually registered firm must obtain client consent for a principal transaction?",
+        options: [
+          "Whenever the firm sells from inventory to an advisory client",
+          "Only when the transaction was the subject of a recommendation by the IAR",
+          "Only when the client requests written confirmation of the trade",
+          "Whenever the markup exceeds the standard commission rate"
+        ],
+        answer: 1,
+        explain: "The recommendation is the trigger. If the IAR recommended the security, they were acting in an advisory capacity and principal transaction consent rules apply. If the client self-directed the order with no advice from the IAR, no consent is required — the IAR was acting purely as a BD agent."
+      }
+    ]
   }
 ];
 

@@ -5350,6 +5350,29 @@ const CONCEPTS = [
         explain: "Advertisements for charting systems or formulas must disclose limitations. Mentioning difficulties is not required but is permitted — including both makes the ad fully compliant. The question asks what is acceptable, not what is strictly required."
       }
     ]
+  },
+
+  {
+    id: "agency-cross-transactions-reminder",
+    category: "Regulations",
+    title: "Agency Cross Transactions — The One Rule That Never Bends",
+    color: "#FF6B6B",
+    analogy: "Think of an agency cross transaction like a real estate agent representing both the buyer and the seller. That's already a divided loyalty situation. The one thing that makes it survivable is that the agent can't be the one whispering in both ears saying 'you should do this deal.' They can facilitate — but they cannot pitch both sides. Even if both the buyer and seller sign something saying they're okay with it, the adviser still cannot have recommended the deal to both of them. Consent doesn't fix a conflict that was baked in from the start.",
+    rule: "Agency cross transactions — where the IA acts as agent for both sides of a trade — are permitted under the IAA 1940 with conditions: (1) Written client consent obtained IN ADVANCE (prospectively). (2) Written disclosure of the potential conflict of interest must be provided before obtaining consent. (3) Annual statement sent to clients identifying the total number of cross transactions and total commissions received during the period. (4) The adviser must still seek best execution and best price. THE ONE ABSOLUTE PROHIBITION: the adviser CANNOT recommend the transaction to BOTH the buyer and the seller — even if both clients give written consent. Consent does not make dual recommendation permissible. The adviser may recommend to one side only.",
+    watch: "The exam will offer 'written consent from both parties' as a cure for the dual recommendation prohibition. It is not. No amount of consent makes it acceptable for the adviser to recommend the cross transaction to both sides. This is the hardest no in agency cross transactions — consent fixes divided loyalty but it cannot fix the dual recommendation problem.",
+    quiz: [
+      {
+        q: "An investment adviser wants to execute an agency cross transaction. Both the buyer and seller are advisory clients, and both have given written consent. The adviser recommended the transaction to both clients. Is this permitted?",
+        options: [
+          "Yes — written consent from both parties cures any conflict of interest",
+          "Yes — as long as the adviser obtained best execution for both sides",
+          "No — the adviser cannot recommend the transaction to both the buyer and the seller, even with written consent from both",
+          "No — agency cross transactions require oral consent, not written"
+        ],
+        answer: 2,
+        explain: "This is the absolute prohibition in agency cross transactions. The adviser may recommend to one side only — never both. Written consent from both clients does not cure a dual recommendation. Consent is required for the transaction itself, but it cannot make dual recommendations permissible."
+      }
+    ]
   }
 ];
 

@@ -5044,6 +5044,120 @@ const CONCEPTS = [
         explain: "Performance-based fees (higher for good performance, lower for poor) are prohibited under both state and federal law. Treat as prohibited on the exam unless a specific exception is stated."
       }
     ]
+  },
+
+  {
+    id: "form-adv-part2-overview",
+    category: "Regulations",
+    title: "Form ADV Part 2 — The Three Parts",
+    color: "#FF6B6B",
+    analogy: "Think of Form ADV Part 2 as a nutrition label for an investment advisory firm. Part 2A tells you about the company (the brand). Part 2A Appendix 1 is the wrap fee version of that label. Part 2B tells you about the specific people at the firm who will actually be handling your money.",
+    rule: "Form ADV Part 2 has three parts: (1) Part 2A = firm brochure, covers the company. (2) Part 2A Appendix 1 = wrap fee program brochure, used instead of Part 2A when the firm sponsors wrap fee programs. (3) Part 2B = brochure supplement, covers individual supervised persons. All must be written in plain English, narrative format. Part 2A has 18 required items for federal advisers, 19 for state-registered. Cover page must include: firm name, address, contact info, website, date, and a disclaimer that the SEC has not approved or verified the contents.",
+    watch: "The cover page disclaimer is testable: it must state the brochure has NOT been approved or verified by the SEC or any state authority. This mirrors the prospectus disclaimer. Same spirit — registration is not approval.",
+    quiz: [
+      {
+        q: "Which part of Form ADV Part 2 covers individual supervised persons at an advisory firm?",
+        options: ["Part 2A", "Part 2A Appendix 1", "Part 2B", "Part 1A"],
+        answer: 2,
+        explain: "Part 2B is the brochure supplement that discloses information about specific supervised persons — those who formulate advice or have discretionary authority over client assets."
+      },
+      {
+        q: "A firm that sponsors only wrap fee programs must prepare which form?",
+        options: ["Part 2A only", "Part 2A Appendix 1 only", "Both Part 2A and Appendix 1", "Part 2B only"],
+        answer: 1,
+        explain: "If the entire advisory business is sponsoring wrap fee programs, the firm uses Part 2A Appendix 1 instead of Part 2A. No separate firm brochure is required."
+      },
+      {
+        q: "How many required disclosure items are on Form ADV Part 2A for a state-registered investment adviser?",
+        options: ["16", "17", "18", "19"],
+        answer: 3,
+        explain: "Federal covered advisers have 18 required items. State-registered advisers have 19 — one additional item applies only at the state level."
+      }
+    ]
+  },
+
+  {
+    id: "form-adv-part2b-supplement",
+    category: "Regulations",
+    title: "Form ADV Part 2B — Who Gets a Supplement & What's In It",
+    color: "#FF6B6B",
+    analogy: "Part 2B is like a background check report card for the specific person managing your money. The firm brochure (2A) tells you about the company; the supplement (2B) tells you about the individual. If someone is giving you advice or has their hands on your assets, clients deserve to know who that person actually is.",
+    rule: "A Part 2B supplement is required for: (1) any supervised person who formulates investment advice AND has direct client contact, AND (2) any supervised person with discretionary authority over client assets, even with no client contact. Six required disclosures: cover page identifying the person and firm; educational background and business experience; disciplinary history (past 10 years, or beyond if still material); other business activities including commissions or trail fees earned elsewhere; additional compensation beyond client fees (awards, prizes); supervision — name, title, and phone of the person's supervisor. Filing rule: state-registered IAs must file Part 2B through IARD for each supervised person doing business in that state. Federal covered IAs do NOT file supplements — but must keep copies available for SEC staff.",
+    watch: "The filing distinction is testable: state = must file Part 2B. Federal = keep on file, don't file. The logic: IARs are always state-registered only, so the supplement requirement lives at the state level. Also watch the discretionary authority trigger — a supervised person with discretion but NO client contact still needs a supplement.",
+    quiz: [
+      {
+        q: "A supervised person at a federal covered IA has discretionary authority over client accounts but never meets with clients. Is a Part 2B supplement required?",
+        options: ["No — they have no client contact", "Yes — discretionary authority triggers the requirement regardless of client contact", "Only if they also formulate investment advice", "Only if the client requests it"],
+        answer: 1,
+        explain: "Two triggers for Part 2B: (1) formulates advice AND has client contact, or (2) has discretionary authority — even with zero client contact. Discretionary authority alone is enough."
+      },
+      {
+        q: "Must a federal covered investment adviser file Part 2B brochure supplements through the IARD system?",
+        options: ["Yes, for all supervised persons", "Yes, but only for IARs", "No — federal covered IAs keep supplements on file but do not file them", "No — federal covered IAs are exempt from Part 2B entirely"],
+        answer: 2,
+        explain: "Federal covered IAs must preserve copies of Part 2B supplements and make them available to SEC staff on request, but are not required to file them through IARD. State-registered IAs must file."
+      }
+    ]
+  },
+
+  {
+    id: "form-adv-balance-sheet",
+    category: "Regulations",
+    title: "Form ADV — Balance Sheet Requirements",
+    color: "#FF6B6B",
+    analogy: "Think of the balance sheet requirement as a financial health disclosure triggered when the stakes are high. If a client has paid you money upfront, or you're sitting on their assets, regulators want proof you're solvent enough to actually deliver. State rules cast a wider net than federal — more triggers, same basic logic.",
+    rule: "Federal covered IA: audited balance sheet required only when the advisory agreement requires substantial prepayment of fees (more than $1,200, 6+ months in advance). State-registered IA: audited balance sheet required when (1) substantial prepayment of fees (more than $500, 6+ months in advance), OR (2) custody of client funds/securities, OR (3) affiliated broker-dealer acts as custodian. State-registered IA with discretionary authority but NO custody: must file an UNAUDITED balance sheet with the Administrator within 90 days of fiscal year end. Key distinction: state = more triggers. Federal = prepayment only.",
+    watch: "Three traps: (1) The prepayment thresholds differ — $500 for state, $1,200 for federal. (2) Custody triggers an audited balance sheet for state-registered IAs but NOT for federal covered ones. (3) Discretionary authority without custody = unaudited balance sheet for state IAs only, filed within 90 days of fiscal year end.",
+    quiz: [
+      {
+        q: "A state-registered IA maintains custody of client funds. What balance sheet requirement applies?",
+        options: ["No balance sheet required", "Unaudited balance sheet filed within 90 days", "Audited balance sheet included with Form ADV Part 2A", "Audited balance sheet filed separately with the Administrator"],
+        answer: 2,
+        explain: "State-registered IAs with custody must include an audited balance sheet with their ADV Part 2A for the most recent fiscal year. Custody is a trigger for state IAs but not federal covered IAs."
+      },
+      {
+        q: "A state-registered IA has discretionary authority over client accounts but does not maintain custody. What is required?",
+        options: ["Nothing — custody is the only trigger", "An audited balance sheet with Part 2A", "An unaudited balance sheet filed with the Administrator within 90 days of fiscal year end", "An unaudited balance sheet filed within 30 days of fiscal year end"],
+        answer: 2,
+        explain: "Discretionary authority without custody triggers an unaudited balance sheet for state-registered IAs, filed within 90 days of fiscal year end. No audit required in this case."
+      },
+      {
+        q: "At what prepayment threshold does a federal covered IA trigger a balance sheet requirement?",
+        options: ["More than $500 prepaid 6+ months in advance", "More than $1,000 prepaid 6+ months in advance", "More than $1,200 prepaid 6+ months in advance", "More than $2,500 prepaid 6+ months in advance"],
+        answer: 2,
+        explain: "Federal covered IAs: $1,200 threshold. State-registered IAs: $500 threshold. Both require the prepayment to be 6 or more months in advance."
+      }
+    ]
+  },
+
+  {
+    id: "wrap-fee-programs",
+    category: "Regulations",
+    title: "Wrap Fee Programs — What They Are & Who They're For",
+    color: "#FF6B6B",
+    analogy: "A wrap fee account is like an all-inclusive resort. One flat price covers everything — the advice, the trades, the management. No per-item charges. That sounds great until you realize that a guest who only uses the pool is subsidizing the guest who eats at every restaurant three times a day. Buy-and-hold clients are the pool-only guests: they don't trade much, so they're overpaying for commissions they'll never use.",
+    rule: "A wrap fee program charges a single bundled fee covering investment advisory services AND trade execution — not based on individual transactions. Advisers who sponsor wrap fee programs use Part 2A Appendix 1 instead of the standard Part 2A. If the entire firm only does wrap fee programs, no separate firm brochure is needed — just Appendix 1. Key disclosures required in Appendix 1: the wrap fee amount and whether it's negotiable; services included; a statement that the program may cost more OR less than buying services separately; any additional fees beyond the wrap fee; how portfolio managers are selected and reviewed; conflicts of interest if related persons act as portfolio managers; minimum account size requirements. Churning cannot occur in a wrap fee program — extra trades don't generate extra commissions for the adviser. Buy-and-hold clients are NOT suitable for wrap fee accounts.",
+    watch: "Two exam traps: (1) Buy-and-hold = not suitable for wrap fee. They don't trade enough to benefit from bundled commissions. (2) Churning is essentially impossible in a wrap fee program — the incentive structure that drives churning (more trades = more commissions) doesn't exist here.",
+    quiz: [
+      {
+        q: "Which form does a wrap fee program sponsor use instead of the standard ADV Part 2A?",
+        options: ["Part 1A", "Part 2B", "Part 2A Appendix 1", "Form CRS"],
+        answer: 2,
+        explain: "Wrap fee program sponsors use Part 2A Appendix 1 in place of the standard Part 2A firm brochure. If the firm's entire business is wrap fee programs, no separate Part 2A is needed."
+      },
+      {
+        q: "Which type of client is generally NOT suitable for a wrap fee account?",
+        options: ["Active traders", "Buy-and-hold investors", "Clients with large account balances", "Clients seeking diversified portfolio management"],
+        answer: 1,
+        explain: "Wrap fee accounts bundle trading costs into a flat fee. Clients who rarely trade don't benefit from this structure — they end up paying for commission costs they never incur. Active traders are better suited."
+      },
+      {
+        q: "Why is churning unlikely to occur in a wrap fee program?",
+        options: ["Because the Administrator monitors all trades", "Because clients must approve every transaction", "Because commissions are bundled into the flat fee, so extra trades don't generate extra revenue for the adviser", "Because wrap fee clients are always institutional investors"],
+        answer: 2,
+        explain: "Churning is driven by the incentive to generate excess commissions. In a wrap fee program, trading costs are already included in the flat fee — more trades don't mean more money for the adviser, so the churning incentive disappears."
+      }
+    ]
   }
 ];
 

@@ -5226,6 +5226,51 @@ const CONCEPTS = [
         explain: "Disclosure obligations under the IAA 1940 focus on material facts — how well the system works and when it might fail. Difficulty of use doesn't speak to the system's reliability or risk. The test is: does this touch on performance or limitations? If yes, disclose. If it's just about usability, it's not required."
       }
     ]
+  },
+
+  {
+    id: "ia-unreasonable-advisory-fees",
+    category: "Regulations",
+    title: "Unreasonable Advisory Fees — What Crosses the Line",
+    color: "#FF6B6B",
+    analogy: "Think of an adviser's fee like a property manager's cut. They can charge a monthly management fee AND take a referral cut when they arrange repairs — as long as they tell you upfront. That's a conflict of interest, but disclosure fixes it. What IS unreasonable: charging more than every other property manager in town for the same service, or taking a cut so large it consistently exceeds your rental income. The problem isn't the structure — it's the amount relative to value delivered.",
+    rule: "Under NASAA's Model Rule on Unethical Business Practices, the Administrator has authority to find an advisory fee unreasonable in two specific cases: (1) the fee schedule is not competitive with other advisers in the same general area offering essentially the same services — NASAA explicitly uses a competitive standard, not just a reasonableness standard in isolation; and (2) the fee is projected to consistently exceed the expected return on the portfolio — if the adviser makes more than the client, the fee is economically indefensible. Two things that are NOT automatically unreasonable: charging both fees AND commissions (this is a conflict of interest requiring disclosure, but is permitted once disclosed); and charging the same hourly rate regardless of account size (no rule requires volume discounts).",
+    watch: "The biggest trap: fees + commissions sounds like double-dipping and feels wrong — but it's permitted with proper disclosure. Disclosure is the fix for conflicts of interest, not prohibition. The two actual red flags are uncompetitive fees relative to local peers, and fees that consistently wipe out portfolio returns. Also: there is no requirement to offer discounts based on account size.",
+    quiz: [
+      {
+        q: "Under NASAA's Model Rule, which of the following would most likely be considered an unreasonable advisory fee?",
+        options: [
+          "An adviser charges both an asset-based fee and commissions on transactions, with full disclosure",
+          "An adviser charges the same hourly rate to all clients regardless of account size",
+          "An adviser's fees are projected to consistently exceed the expected return on client portfolios",
+          "An adviser charges a higher fee than the national average for similar services"
+        ],
+        answer: 2,
+        explain: "A fee that consistently exceeds the portfolio's expected return is economically indefensible — the client would be better off not investing at all. This is a clear case of an unreasonable fee. Charging both fees and commissions is permitted with disclosure. Same hourly rate for all clients is fine — no volume discount is required. The competitive standard is local, not national."
+      },
+      {
+        q: "An investment adviser charges both an advisory fee and commissions on securities transactions. Is this permitted?",
+        options: [
+          "No — charging both fees and commissions is always an unethical business practice",
+          "Yes — but only for institutional clients",
+          "Yes — with proper disclosure to clients",
+          "No — advisers may only charge one form of compensation"
+        ],
+        answer: 2,
+        explain: "Charging both fees and commissions creates a conflict of interest, but it is not prohibited. Proper disclosure to clients neutralizes the conflict and makes the arrangement permissible. Disclosure is the fix — not prohibition."
+      },
+      {
+        q: "An adviser charges the same $300 hourly rate to all clients, regardless of how much they have invested. Is this an unreasonable fee?",
+        options: [
+          "Yes — fees must be scaled to account size",
+          "Yes — the same rate for all clients is inherently inequitable",
+          "No — there is no requirement to discount fees based on account size",
+          "No — but only if the rate is competitive with local advisers"
+        ],
+        answer: 2,
+        explain: "There is no rule requiring advisers to offer volume discounts or scale fees based on the size of a client's portfolio. A flat hourly rate applied equally to all clients is perfectly acceptable."
+      }
+    ]
   }
 ];
 

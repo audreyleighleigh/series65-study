@@ -1,7 +1,7 @@
 import { useState } from "react";
 import StudyGuide from "./StudyGuide.jsx";
 
-const EXAM_DATE = new Date("2026-06-27");
+const EXAM_DATE = new Date("2026-07-25");
 
 function daysLeft() {
   const diff = EXAM_DATE - new Date();
@@ -107,7 +107,7 @@ function Sidebar({ units, checked, completedCount }) {
         <div style={{ background: "#111009", border: "1px solid #1e1c1a", borderRadius: 8, padding: "14px 16px", textAlign: "center" }}>
           <div style={{ fontFamily: "Source Code Pro, monospace", fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase", color: "#555", marginBottom: 6 }}>Exam</div>
           <div style={{ fontFamily: "Source Code Pro, monospace", fontSize: 28, fontWeight: 600, color: daysLeft() <= 7 ? "#c0392b" : "#f0e8d8", lineHeight: 1 }}>{daysLeft()}</div>
-          <div style={{ fontFamily: "Source Code Pro, monospace", fontSize: 10, color: "#444", marginTop: 4 }}>days · Jun 27</div>
+          <div style={{ fontFamily: "Source Code Pro, monospace", fontSize: 10, color: "#444", marginTop: 4 }}>days · Jul 25</div>
         </div>
 
       </div>
@@ -195,7 +195,7 @@ export default function App() {
         <div className="wrap">
           <div className="eyebrow">Kaplan Series 65</div>
           <h1>Study<br /><span>Log.</span></h1>
-          <div className="sub">24 UNITS &nbsp;·&nbsp; 5 STEPS EACH &nbsp;·&nbsp; EXAM JUN 27 &nbsp;·&nbsp; {daysLeft()} DAYS</div>
+          <div className="sub">24 UNITS &nbsp;·&nbsp; 5 STEPS EACH &nbsp;·&nbsp; EXAM JUL 25 &nbsp;·&nbsp; {daysLeft()} DAYS</div>
 
           <div className="prog-outer">
             <div className="prog-inner" style={{ width: `${overallPct}%` }} />

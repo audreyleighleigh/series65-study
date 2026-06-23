@@ -5158,6 +5158,40 @@ const CONCEPTS = [
         explain: "Churning is driven by the incentive to generate excess commissions. In a wrap fee program, trading costs are already included in the flat fee — more trades don't mean more money for the adviser, so the churning incentive disappears."
       }
     ]
+  },
+
+  {
+    id: "ia-sale-assignment-consent",
+    category: "Regulations",
+    title: "Selling an IA Firm — No Approval, But Assignment Rules Apply",
+    color: "#FF6B6B",
+    analogy: "Think of it like a landlord selling an apartment building. The landlord doesn't need your permission to sell. But once the sale goes through, you get to decide: do you want to keep renting from the new owner, or do you want to move out? The sale itself needed no approval — your choice about what happens next is a separate question entirely.",
+    rule: "An investment adviser does not need approval from clients, the Administrator, or the SEC to sell the business. No approvals are required for the sale itself. However, selling the firm technically assigns the advisory contracts to the new owner — and assignment cannot happen without client consent. So after the sale, clients must be notified and given a choice: (1) consent to having the new firm manage their assets, OR (2) take their accounts elsewhere. The clients are not approving the sale. They are deciding whether to continue under new ownership. These are different things.",
+    watch: "The exam will use the word 'approval' to bait you into picking the client consent answer. Clients do not approve the sale — they consent to continued management afterward (or they leave). The sale itself requires zero approvals from anyone. When you see 'must be approved by clients/Administrator/SEC' — the answer is almost always 'no approvals required.'",
+    quiz: [
+      {
+        q: "A federal covered investment adviser sells her firm to another advisory company. Which of the following is true?",
+        options: [
+          "The sale must be approved by each client before it can proceed",
+          "The sale must be approved by the SEC",
+          "No approvals are required for the sale, but clients must be given the choice to stay or leave",
+          "The Administrator must approve the sale within 30 days"
+        ],
+        answer: 2,
+        explain: "The sale itself requires no approvals — not from clients, the SEC, or the Administrator. However, because the sale triggers assignment of advisory contracts, clients must be notified and given the choice to continue with the new firm or take their assets elsewhere."
+      },
+      {
+        q: "After an IA firm is sold to a new owner, what happens to existing client contracts?",
+        options: [
+          "They are automatically void and must be rewritten",
+          "They are assigned to the new owner — clients must consent to continued management or may leave",
+          "They continue unchanged — no client action is required",
+          "They must be approved by the Administrator before the new owner can manage assets"
+        ],
+        answer: 1,
+        explain: "Selling the firm assigns the advisory contracts to the new owner. Assignment requires client consent — but that consent comes in the form of choosing to stay with the new firm. Clients who don't want to continue can simply take their accounts elsewhere."
+      }
+    ]
   }
 ];
 

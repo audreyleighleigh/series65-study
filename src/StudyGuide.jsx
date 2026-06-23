@@ -5463,6 +5463,41 @@ const CONCEPTS = [
         explain: "The recommendation is the trigger. If the IAR recommended the security, they were acting in an advisory capacity and principal transaction consent rules apply. If the client self-directed the order with no advice from the IAR, no consent is required — the IAR was acting purely as a BD agent."
       }
     ]
+  },
+
+  {
+    id: "balance-sheet-requirement-brochure",
+    category: "Regulations",
+    title: "Balance Sheet in Brochure — When It's Required",
+    color: "#FF6B6B",
+    analogy: "Think of it like a security deposit rule: a landlord can only require a big deposit upfront if it's large enough AND covers a long enough period to justify the risk. Same logic here — the client is prepaying you, so if that prepayment is both sizeable and long, the regulator wants to know your firm can actually deliver.",
+    rule: "An investment adviser must include a balance sheet in its Form ADV Part 2A brochure if it requires prepayment of fees that are (1) MORE THAN $1,200, AND (2) SIX OR MORE MONTHS in advance. Both conditions must be met simultaneously. If either threshold is not crossed, no balance sheet is required.",
+    watch: "$1,200 exactly does NOT trigger the requirement — the rule says 'more than $1,200.' Also: the period matters independently. $1,500 for 3 months = no (short period). $1,200 for 6 months = no (not more than). $1,500 for 1 year = yes (both conditions met). AUM size and number of state offices are irrelevant to this rule.",
+    quiz: [
+      {
+        q: "Under the brochure rule, when must an investment adviser include a balance sheet in its Form ADV Part 2A?",
+        options: [
+          "When it charges any prepaid fees",
+          "When prepaid fees exceed $1,200 for six or more months in advance",
+          "When prepaid fees are at least $1,200 for six or more months in advance",
+          "When AUM exceeds $100 million"
+        ],
+        answer: 1,
+        explain: "Both conditions must be met: the fee must be MORE THAN $1,200 (not 'at least'), and it must cover six or more months prepaid. Option C is a trap — '$1,200 exactly' doesn't qualify because the threshold is strictly greater than."
+      },
+      {
+        q: "An adviser charges $1,500 for the next three months of service, prepaid. Is a balance sheet required in the brochure?",
+        options: ["Yes — the fee exceeds $1,200", "No — three months does not meet the six-month minimum", "Yes — any fee over $500 prepaid requires a balance sheet", "No — only SEC-registered advisers must include a balance sheet"],
+        answer: 1,
+        explain: "The fee condition is met ($1,500 > $1,200), but the period condition is not (3 months < 6 months). Both conditions must be satisfied simultaneously."
+      },
+      {
+        q: "An adviser charges $1,200 prepaid for the next six months. Is a balance sheet required?",
+        options: ["Yes — six months is the threshold and $1,200 meets the fee level", "No — the fee must be MORE THAN $1,200, not equal to it", "Yes — six months prepaid always requires a balance sheet", "No — only applies to advisers with under $110M AUM"],
+        answer: 1,
+        explain: "Classic boundary trap. The rule requires fees GREATER THAN $1,200. $1,200 exactly does not trigger the requirement, even if the six-month period is met."
+      }
+    ]
   }
 ];
 

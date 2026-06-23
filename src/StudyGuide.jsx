@@ -5373,6 +5373,51 @@ const CONCEPTS = [
         explain: "This is the absolute prohibition in agency cross transactions. The adviser may recommend to one side only — never both. Written consent from both clients does not cure a dual recommendation. Consent is required for the transaction itself, but it cannot make dual recommendations permissible."
       }
     ]
+  },
+
+  {
+    id: "ia-assignment-triggers-all-three",
+    category: "Regulations",
+    title: "Assignment — Three Scenarios That All Count",
+    color: "#FF6B6B",
+    analogy: "Think of advisory contracts like tenant leases. Scenario 1: the landlord sells the entire building to a new owner — all leases transfer, tenants never agreed to the new landlord. Scenario 2: a partnership of 7 landlords loses 4 of them — the majority of the people running the building changed, even if the building looks the same. Scenario 3: the landlord uses the tenant leases as collateral for a bank loan — if he defaults, the bank owns the leases. The tenants never agreed to their lease being used as a poker chip in someone else's loan. All three = assignment. All three require client consent.",
+    rule: "Assignment is triggered any time someone other than the original adviser gains a legal interest in client contracts. Three scenarios that all constitute assignment: (1) CORPORATE STOCK: all or a majority of a corporation's stock is acquired by another party — majority ownership change = assignment regardless of whether the firm's name or staff changes. (2) PARTNERSHIP MAJORITY: a majority of partners change — even if replaced by new partners. 4 out of 7 partners retiring and being replaced = majority change = assignment. Minority changes (fewer than half) = notify clients only. (3) PLEDGING CONTRACTS AS COLLATERAL: an adviser pledges client contracts as collateral for a loan. Even though the adviser still manages the accounts day-to-day, the bank now holds a legal claim on those contracts. Clients never consented to their contract being used as collateral. This is assignment. All three scenarios require client consent before proceeding.",
+    watch: "The collateral pledge is the sneakiest trap because it doesn't feel like a transfer — the adviser isn't selling anything. But legally, pledging = assignment. The bank gains a legal interest in the contracts the moment they're used as collateral. Also watch the partnership replacement scenario — replacing departing majority partners with new ones doesn't un-trigger the assignment rule. The majority still changed hands.",
+    quiz: [
+      {
+        q: "An investment adviser pledges his client contracts as collateral for a business loan. Is this an assignment?",
+        options: [
+          "No — the adviser still manages the accounts and no transfer has occurred",
+          "No — pledging collateral is only an assignment if the loan goes into default",
+          "Yes — pledging client contracts as collateral is considered an assignment requiring client consent",
+          "Yes — but only if the loan amount exceeds the value of the contracts"
+        ],
+        answer: 2,
+        explain: "Pledging advisory contracts as collateral gives the lender a legal claim on those contracts. Clients never consented to their contract being used this way. It doesn't matter that the adviser still manages the accounts day-to-day — the legal interest has been transferred to the bank, which constitutes assignment."
+      },
+      {
+        q: "The Lucky Seven Partnership has 7 equal partners. Four retire and are replaced by four new partners. Is this an assignment?",
+        options: [
+          "No — the partners were replaced, so the total number of partners didn't change",
+          "No — retirement of partners is specifically excluded from the definition of assignment",
+          "Yes — four out of seven is a majority change, which constitutes assignment regardless of replacement",
+          "Yes — any change in partnership composition is always an assignment"
+        ],
+        answer: 2,
+        explain: "4 out of 7 is a majority. A majority change in partnership interests = assignment, requiring client consent. The fact that the departing partners were replaced by new ones doesn't change the analysis — the majority interest still changed hands."
+      },
+      {
+        q: "Which of the following would NOT be considered an assignment of an investment adviser's contracts?",
+        options: [
+          "A majority of a corporate IA's stock is acquired by another firm",
+          "Three partners leave a five-partner IA firm",
+          "Two partners leave a seven-partner IA firm and are not replaced",
+          "An IA pledges client contracts as collateral for a bank loan"
+        ],
+        answer: 2,
+        explain: "2 out of 7 is a minority change — not an assignment. The firm must notify clients within a reasonable time, but no client consent is required. All other options involve a majority interest change or pledging of contracts, which constitute assignment."
+      }
+    ]
   }
 ];
 

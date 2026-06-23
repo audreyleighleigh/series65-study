@@ -5271,6 +5271,40 @@ const CONCEPTS = [
         explain: "There is no rule requiring advisers to offer volume discounts or scale fees based on the size of a client's portfolio. A flat hourly rate applied equally to all clients is perfectly acceptable."
       }
     ]
+  },
+
+  {
+    id: "ia-firm-name-misrepresentation",
+    category: "Regulations",
+    title: "IA Firm Names — When Your Name Becomes a Performance Claim",
+    color: "#FF6B6B",
+    analogy: "Imagine a landlord named Rich opens a property management firm. 'Rich Properties' is fine — that's just his name. 'Rich Returns Property Management' is not fine — because now 'Rich' isn't his name anymore, it's a promise about how much money you'll make. The moment your name stops functioning as a name and starts functioning as a marketing claim, you've crossed the line.",
+    rule: "An investment adviser cannot use a firm name that implies superior performance or misleads the public — even if the misleading word happens to also be the adviser's actual name. The test is whether the word is functioning as a NAME or as a DESCRIPTOR. If it reads as a performance claim, it's prohibited. Example: John Good (a real person) can call his firm 'John Good Investment Advisers' or 'Good and Associates' — 'Good' is clearly his last name. He cannot call it 'Good Performance Advisers' — because in that context, 'Good' is an adjective modifying 'Performance,' implying the firm delivers good results. Same word, different function, different outcome.",
+    watch: "The trap is assuming that because 'Good' is the adviser's actual last name, any use of it is fine. Wrong — context determines function. Ask: is the word acting as a name or a descriptor? If it's modifying a performance-related word (returns, performance, results, growth), it's a prohibited implied claim regardless of whether it's also someone's name.",
+    quiz: [
+      {
+        q: "John Good is a registered investment adviser. Which of the following firm names would NOT be permitted on his business card?",
+        options: [
+          "John Good Investment Advisers, Inc.",
+          "Good and Associates Investment Advisers, Inc.",
+          "Good Performance Advisers, Inc.",
+          "Good's Investment Advisers, Inc."
+        ],
+        answer: 2,
+        explain: "In 'Good Performance Advisers,' the word 'Good' functions as an adjective modifying 'Performance' — implying the firm delivers good results. This is a prohibited implied performance claim. In all other options, 'Good' functions as John's last name, which is permitted."
+      },
+      {
+        q: "Why is 'Good Performance Advisers' prohibited when 'Good' is the adviser's actual last name?",
+        options: [
+          "Because the word 'Good' is inherently misleading in any firm name",
+          "Because the name implies superior performance regardless of whether Good is also a person's name",
+          "Because firm names must always include the adviser's first name",
+          "Because only the Administrator can approve firm names containing adjectives"
+        ],
+        answer: 1,
+        explain: "The test isn't whether the word is someone's name — it's whether it functions as a performance claim in context. 'Good Performance' reads as a descriptor of results, not an identification of a person. An adviser cannot present themselves in terms that can be interpreted as exaggerating performance, even if the word is coincidentally their name."
+      }
+    ]
   }
 ];
 

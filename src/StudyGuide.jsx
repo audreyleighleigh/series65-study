@@ -5498,6 +5498,231 @@ const CONCEPTS = [
         explain: "Classic boundary trap. The rule requires fees GREATER THAN $1,200. $1,200 exactly does not trigger the requirement, even if the six-month period is met."
       }
     ]
+  },
+
+  {
+    id: "income-types-alimony-cutoff",
+    category: "Tax",
+    title: "Alimony — The 2019 Cutoff Rule",
+    color: "#F97316",
+    analogy: "Think of it like a grandfathered tax break. Congress changed the rules on January 1, 2019, but old divorces keep playing by the old rules forever. It's the divorce date — not when you're filing or when you're studying — that locks in the treatment.",
+    rule: "Pre-2019 divorce (decree entered on or before Dec 31, 2018): Payer deducts alimony. Recipient reports it as taxable income. Counts as earned income for IRA contribution purposes. Post-2018 divorce (decree entered on or after Jan 1, 2019): Payer gets no deduction. Recipient pays no tax on it. Does NOT count as IRA-eligible income. Child support: Never deductible by payer. Never taxable to recipient. Never IRA-eligible. (Exam tip: alimony can be paid directly to a third party on the ex-spouse's behalf — e.g., life insurance premiums or IRA contributions — and still qualifies under the same rules.)",
+    watch: "The most common trap: confusing alimony with child support. Child support is NEVER deductible and NEVER taxable — regardless of divorce date. Also watch for questions that try to sneak in a post-2018 alimony as IRA-eligible income. It's not.",
+    quiz: [
+      {
+        q: "Chuck and Alice divorced in November 2018. Chuck pays Alice $1,000/month in alimony. Which statement is correct?",
+        options: [
+          "Chuck cannot deduct the alimony; Alice does not report it as income",
+          "Chuck can deduct the alimony; Alice must report it as income",
+          "Neither party has any tax consequence",
+          "Chuck can deduct the alimony; Alice does not report it as income"
+        ],
+        answer: 1,
+        explain: "The divorce was in 2018 — pre-2019 rules apply. Payer deducts, recipient reports as taxable income. Had the divorce been in January 2019 or later, neither would apply."
+      },
+      {
+        q: "A client receives alimony under a divorce decree entered in March 2020. Can she count this toward her IRA contribution limit?",
+        options: [
+          "Yes, alimony always counts as earned income",
+          "Yes, as long as she files jointly",
+          "No, post-2018 alimony is not IRA-eligible income",
+          "No, alimony never counts as earned income"
+        ],
+        answer: 2,
+        explain: "Only pre-2019 alimony counts as earned income for IRA purposes. Post-2018 alimony is not reportable income at all — so it can't support an IRA contribution."
+      },
+      {
+        q: "Which of the following is NEVER deductible by the paying parent, regardless of divorce date?",
+        options: [
+          "Alimony paid directly to ex-spouse",
+          "Alimony paid to a third party on behalf of ex-spouse",
+          "Child support",
+          "Both A and B under a post-2018 decree"
+        ],
+        answer: 2,
+        explain: "Child support is never deductible by the payer and never taxable to the recipient — no exceptions, no divorce date dependency."
+      }
+    ]
+  },
+
+  {
+    id: "income-types-passive",
+    category: "Tax",
+    title: "Passive Income & Losses — The Isolation Rule",
+    color: "#F97316",
+    analogy: "Passive losses live in a sandbox. They can only play with other passive income — they can't escape to offset your salary or your stock dividends. Think of it like a loyalty points system that only works at one store.",
+    rule: "Passive income and losses come from: rental property, limited partnerships, and any business in which the individual does NOT actively participate. Key distinction — general partner vs. limited partner: For the GP, income from the LP is EARNED income. For the LP, income is PASSIVE. Tax treatment: Passive income is netted against passive losses. Net passive income is taxed at ordinary income rates. Passive losses can ONLY offset passive income — not earned income, not portfolio income. Casualty losses (fires, floods, theft, natural disasters) are NOT passive losses — different category entirely.",
+    watch: "Don't confuse passive losses (investment-related, from non-participation) with casualty losses (property damage from sudden events). The exam distinguishes these. Also: the GP/LP split — same partnership, two different income characters depending on your role.",
+    quiz: [
+      {
+        q: "An investor is a limited partner in a real estate LP that generated a $10,000 loss this year. She also has $8,000 in salary and $5,000 in rental income from a property she owns. Against which income can she apply the LP loss?",
+        options: [
+          "Only against the rental income",
+          "Against salary and rental income",
+          "Against all three income sources proportionally",
+          "She cannot deduct it at all"
+        ],
+        answer: 0,
+        explain: "LP income is passive. The $10,000 passive loss can only offset passive income — in this case, the $5,000 rental income. It cannot offset salary (earned income)."
+      },
+      {
+        q: "For a general partner, income from the limited partnership is classified as:",
+        options: [
+          "Passive income",
+          "Portfolio income",
+          "Earned income",
+          "Unearned income"
+        ],
+        answer: 2,
+        explain: "The GP actively manages the partnership — so their income is earned. The LP is passive by nature and receives passive income. Same LP, two different characters depending on your role."
+      }
+    ]
+  },
+
+  {
+    id: "income-types-interest-dividends",
+    category: "Tax",
+    title: "Interest & Dividend Income — Tax Rate Matrix",
+    color: "#F97316",
+    analogy: "Think of dividends as the IRS giving U.S. companies a preferred lane — lower tax rate if you own stock in an American company. But interest is always stuck in the slow lane (ordinary income). And munis get a hall pass for federal tax — but not for capital gains.",
+    rule: "DIVIDENDS: Qualified (U.S. corporations, stock mutual funds) → max 15–20% tax rate. Non-qualified → ordinary income rate. Assume all U.S. corp dividends are qualified unless told otherwise. INTEREST: All taxable bonds/CDs → ordinary income (federal + state). U.S. Treasuries → federal taxable, STATE EXEMPT. GNMA/FNMA → federal + state taxable (not the same as Treasuries). Municipal bonds → federal tax-FREE. But: capital gains on munis ARE taxable. Capital gains distributions from muni funds ARE taxable. Bond fund income distributions → ordinary income (never qualified dividends). TIPS (special): Interest → federal ordinary income, state exempt. Annual principal increase (inflation adjustment) → also federally taxable, even though you don't receive it yet (phantom income — same logic as zero-coupon bonds). FOREIGN SECURITIES / ADRs: ~15% withholding by issuer's country. U.S. investors can claim this as a tax credit. Not an AMT preference item. Taxed at all U.S. levels (federal + state) in almost all cases.",
+    watch: "Three common traps: (1) GNMA/FNMA are NOT state-exempt — only direct Treasury securities get that. (2) Muni bond capital gains ARE taxable — the federal exemption only covers income distributions. (3) Bond fund distributions are always ordinary income — they are never qualified dividends, even if the underlying bonds are from U.S. issuers.",
+    quiz: [
+      {
+        q: "Which of the following interest payments is exempt from state income tax?",
+        options: [
+          "GNMA mortgage-backed securities",
+          "FNMA bonds",
+          "U.S. Treasury notes",
+          "Corporate bonds"
+        ],
+        answer: 2,
+        explain: "Only direct U.S. Treasury obligations are state-tax exempt. GNMA and FNMA are government-sponsored but not direct obligations — their interest is subject to state tax."
+      },
+      {
+        q: "An investor holds a municipal bond mutual fund. Which of the following is taxable?",
+        options: [
+          "Monthly income distributions from the fund",
+          "Capital gains distributions from the fund",
+          "Both income and capital gains distributions",
+          "Neither — all muni fund income is tax-free"
+        ],
+        answer: 1,
+        explain: "Income distributions from a muni fund are federally tax-free. But capital gains distributions from any source — including muni funds — are always fully taxable."
+      },
+      {
+        q: "An investor receives interest from TIPS this year. The principal also increased by $800 due to inflation. How is the $800 treated for federal tax purposes?",
+        options: [
+          "Not taxable until the bond matures",
+          "Taxable as a capital gain",
+          "Taxable as ordinary income in the current year",
+          "Exempt from federal tax"
+        ],
+        answer: 2,
+        explain: "TIPS principal increases are taxed federally in the year they occur, even though you don't receive that money until maturity. Same phantom income logic as zero-coupon bonds. (TIPS interest and principal adjustments are state-exempt.)"
+      },
+      {
+        q: "Income distributions from a bond mutual fund are taxed as:",
+        options: [
+          "Qualified dividends at a maximum 15% rate",
+          "Ordinary income",
+          "Long-term capital gains",
+          "Tax-free if the underlying bonds are municipal"
+        ],
+        answer: 1,
+        explain: "Bond fund distributions are always ordinary income — never qualified dividends, regardless of what the fund holds. (Muni bond fund income may be federally tax-exempt, but it's still not a 'qualified dividend'.)"
+      }
+    ]
+  },
+
+  {
+    id: "income-types-drip-cost-basis",
+    category: "Tax",
+    title: "DRIPs & Reinvested Distributions — Cost Basis Math",
+    color: "#F97316",
+    analogy: "Reinvesting a dividend is like getting your paycheck and immediately spending it at the store that issued it. The IRS doesn't care that you didn't cash out — you got paid, so you owe tax. But because you already paid tax on it, that amount gets added to what you 'paid' for the investment, so you won't pay tax on it again when you sell.",
+    rule: "ALL distributions are taxable in the year received — whether taken in cash or reinvested. This includes dividends, capital gains distributions, and interest-on-interest (compounding bank savings accounts). DRIPs (Dividend Reinvestment Plans): Allow shareholders to buy additional shares directly from the issuer, often at a discount, with little or no commission. Extra cash can usually be added alongside the reinvested dividend. As long as a dividend is paid, DRIP participants always end up with more shares at year-end than they started with. COST BASIS ADJUSTMENT: Each reinvestment increases cost basis by the amount reinvested. Formula: Adjusted cost basis = original purchase price + all reinvested distributions. Capital gain on sale = proceeds − adjusted cost basis. This prevents double taxation — you already paid tax on the reinvested amount, so it gets 'credited' to basis. Margin interest deduction: Deductible up to net investment income. Exception: Not deductible if used to buy muni securities (income is already tax-free).",
+    watch: "The exam loves the DRIP math question. Always add reinvested distributions to cost basis before calculating the gain. Forgetting this makes the gain look bigger than it is — which is the wrong answer. Also: 'interest-on-interest' is just a fancy term for a compounding bank savings account — taxed the same way.",
+    quiz: [
+      {
+        q: "An investor buys 100 shares of XYZ at $50/share and enrolls in the DRIP. Over 5 years, she reinvests $1,200 in dividends, acquiring 20 more shares. She sells all 120 shares at $55. What is her capital gain?",
+        options: [
+          "$1,600",
+          "$400",
+          "$600",
+          "$300"
+        ],
+        answer: 1,
+        explain: "Original cost: 100 × $50 = $5,000. Add reinvested dividends: $5,000 + $1,200 = $6,200 adjusted basis. Sale proceeds: 120 × $55 = $6,600. Gain: $6,600 − $6,200 = $400."
+      },
+      {
+        q: "An investor reinvests all dividends through a DRIP but does not receive any cash. Are the dividends taxable?",
+        options: [
+          "No — no cash was received, so there is no taxable event",
+          "No — DRIP reinvestments are always tax-deferred",
+          "Yes — distributions are taxable in the year received, regardless of reinvestment",
+          "Yes — but only if the shares were purchased at a discount"
+        ],
+        answer: 2,
+        explain: "The IRS taxes distributions when they are received, not when they are eventually sold. Reinvesting does not defer the tax — it does increase cost basis, which reduces future capital gains."
+      },
+      {
+        q: "A client borrows on margin to purchase municipal bonds. Can she deduct the margin interest?",
+        options: [
+          "Yes, margin interest is always fully deductible",
+          "Yes, up to her net investment income",
+          "No — margin interest on muni purchases is not deductible",
+          "No — margin interest is never deductible"
+        ],
+        answer: 2,
+        explain: "The IRS disallows a deduction for margin interest when the proceeds are used to buy tax-exempt securities. You can't get a deduction for borrowing costs tied to income you're already not paying tax on."
+      }
+    ]
+  },
+
+  {
+    id: "income-types-marginal-vs-effective",
+    category: "Tax",
+    title: "Marginal vs. Effective Tax Rate",
+    color: "#F97316",
+    analogy: "Your marginal rate is the toll you pay on the last mile of highway — the most expensive stretch. Your effective rate is the average toll across the whole trip. Because earlier miles were cheaper, the average always comes out lower than the last-mile rate.",
+    rule: "Marginal tax rate: The rate applied to the next dollar of income earned. This is the bracket your top income falls into. Used to calculate tax on a bonus, windfall, or additional investment income. Effective tax rate: Total tax paid ÷ total taxable income. Always lower than the marginal rate because lower brackets apply first. Example: $250,000 taxable income, 35% marginal rate. Total tax bill ≈ $62,044. Effective rate = $62,044 ÷ $250,000 ≈ 24.8%. Retirement plan distributions: Taxed at ordinary income rate when withdrawn. Early withdrawal before age 59½ → additional 10% penalty. Required Minimum Distributions (RMDs) must begin by April 1 following the year the participant turns 73.",
+    watch: "Don't confuse marginal and effective — a question might say 'in the 35% bracket' and ask about overall tax burden. The effective rate is always lower. Also don't forget: RMD trigger age is 73 (this has changed over the years — use 73 for exam purposes).",
+    quiz: [
+      {
+        q: "A client is in the 32% marginal tax bracket with a total effective tax rate of 22%. She receives a $5,000 bonus. How much additional federal tax will she owe on the bonus?",
+        options: [
+          "$1,100",
+          "$1,600",
+          "$1,760",
+          "$2,200"
+        ],
+        answer: 1,
+        explain: "Additional income is taxed at the marginal rate — 32%. $5,000 × 32% = $1,600. The effective rate tells you about the overall tax burden, not what's owed on the next dollar."
+      },
+      {
+        q: "At what age must a participant in a qualified retirement plan begin taking required minimum distributions?",
+        options: [
+          "70½",
+          "72",
+          "73",
+          "75"
+        ],
+        answer: 2,
+        explain: "RMDs must begin by April 1 of the year following the year the participant turns 73. This age has changed over time — use 73 for exam purposes."
+      },
+      {
+        q: "Which best describes the relationship between a taxpayer's marginal and effective tax rates?",
+        options: [
+          "They are always equal",
+          "The effective rate is always higher than the marginal rate",
+          "The marginal rate is always higher than or equal to the effective rate",
+          "The relationship depends on filing status"
+        ],
+        answer: 2,
+        explain: "Because the tax system is progressive — lower income is taxed at lower rates first — the average rate paid (effective) is always below the rate on the last dollar earned (marginal)."
+      }
+    ]
   }
 ];
 

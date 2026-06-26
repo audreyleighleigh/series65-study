@@ -5723,6 +5723,58 @@ const CONCEPTS = [
         explain: "Because the tax system is progressive — lower income is taxed at lower rates first — the average rate paid (effective) is always below the rate on the last dollar earned (marginal)."
       }
     ]
+  },
+
+  {
+    id: "taxation-income-categories-and-traps",
+    category: "Tax",
+    title: "Income Categories + Exam Trap Survival Guide",
+    color: "#F97316",
+    analogy: "Think of the three income buckets like job descriptions. Earned income = you showed up and worked. Passive income = someone else did the work, you just own the thing. Portfolio income = your money made money. The IRS cares which bucket because it determines the tax rate and what losses can offset what gains. A limited partnership is passive because you're a silent owner — you didn't show up.",
+    rule: "THREE INCOME TYPES: (1) EARNED — salary, wages, bonuses, self-employment income. Active involvement required. Limited partnership income is NOT earned; it's passive. Alimony (pre-2019 divorce) counts as earned for IRA purposes. (2) PASSIVE — rental property, limited partnerships, businesses where you are NOT actively involved. Passive losses can only offset passive income (not earned, not portfolio). (3) PORTFOLIO — dividends, interest, net capital gains from securities sales. Qualified dividends (from stock — common, preferred, equity funds) are taxed at long-term capital gains rate. Bond fund distributions = interest = ordinary income, NOT qualified dividends. Capital gains distributions from mutual funds are always long-term, regardless of your holding period. MARGINAL vs. EFFECTIVE RATE: marginal rate = tax on the LAST dollar of income (the bracket you're in at the top). Effective rate = average rate across all income (total tax ÷ total income). Always lower than marginal.",
+    watch: "TRAP 1 — DOUBLE NEGATIVES: when a question asks 'which is NOT true,' restate it in plain English before reading answers. 'I'm looking for the false one.' Do this every time. TRAP 2 — RED HERRINGS: before calculating, ask 'what is this question actually asking me to solve for?' Scope words like 'this transaction' or 'the client's gain' tell you what to include and what to ignore. TRAP 3 — LIMITED PARTNERSHIPS: always passive, never earned. This is a favorite exam trap. TRAP 4 — MUTUAL FUND DISTRIBUTIONS: capital gains distributions from a fund = long-term gains to YOU, regardless of how long you've held the fund. The fund did the holding, not you. These are taxed when received and do NOT adjust your cost basis in the fund shares. TRAP 5 — BOND FUNDS: bond funds pay interest, not dividends. Interest = ordinary income = NOT qualified.",
+    quiz: [
+      {
+        q: "Income from a limited partnership interest is classified as:",
+        options: ["Earned income", "Passive income", "Portfolio income", "Ordinary income"],
+        answer: 1,
+        explain: "Limited partnership income is always passive — the investor is not actively involved in the business. This is a favorite trap: the exam will try to classify it as earned income."
+      },
+      {
+        q: "Which of the following would NOT generate qualified dividends?",
+        options: ["Common stock", "Preferred stock", "Equity mutual fund", "Bond mutual fund"],
+        answer: 3,
+        explain: "Bond funds pay interest, not dividends from stock. Interest is taxed as ordinary income and does not qualify for the lower qualified dividend rate."
+      },
+      {
+        q: "A client held a mutual fund for 3 months and received a capital gains distribution. How is the distribution taxed?",
+        options: [
+          "Short-term capital gain, because the holding period is under 1 year",
+          "Long-term capital gain, regardless of the client's holding period",
+          "Ordinary income",
+          "Tax-free, because it's a return of capital"
+        ],
+        answer: 1,
+        explain: "Capital gains distributions from mutual funds are always taxed as long-term capital gains to the recipient — the fund itself held the securities long-term. The client's holding period in the fund is irrelevant."
+      },
+      {
+        q: "The tax rate that applies to the last dollar of a taxpayer's income is called the:",
+        options: ["Effective rate", "Average rate", "Final rate", "Marginal rate"],
+        answer: 3,
+        explain: "Marginal rate = the rate on the next (or last) dollar of income. Effective rate = average rate across all income. 'Final rate' is not a real tax term."
+      },
+      {
+        q: "A client buys a mutual fund in December and sells it in June of the following year for a $300 gain. During that period, he received a $240 capital gains distribution in cash. What are his tax results?",
+        options: [
+          "$300 short-term gain only",
+          "$240 long-term gain and $300 short-term gain",
+          "$240 long-term gain and $60 short-term gain",
+          "$60 short-term gain only"
+        ],
+        answer: 0,
+        explain: "The $300 gain on the sale is short-term (held less than 1 year). The $240 distribution was already taxed as long-term when received — it is a separate event and does NOT reduce the cost basis of the shares. The question asks about 'this transaction' (the sale only), so the answer is $300 short-term gain."
+      }
+    ]
   }
 ];
 

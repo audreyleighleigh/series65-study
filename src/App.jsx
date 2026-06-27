@@ -23,9 +23,9 @@ const STEPS = [
 const GROUP_COLORS = ["#E8C547", "#E8C547", "#E8C547", "#E8C547", "#E8C547", "#E8C547",
                       "#7EC8A4", "#7EC8A4", "#7EC8A4", "#7EC8A4", "#7EC8A4", "#7EC8A4",
                       "#A78BF5", "#A78BF5", "#A78BF5", "#A78BF5", "#A78BF5", "#A78BF5",
-                      "#F2A65A", "#F2A65A", "#F2A65A", "#F2A65A", "#F2A65A", "#F2A65A"];
+                      "#F2A65A", "#F2A65A", "#F2A65A", "#F2A65A", "#F2A65A"];
 
-const UNITS = Array.from({ length: 24 }, (_, i) => ({
+const UNITS = Array.from({ length: 23 }, (_, i) => ({
   id: `u${String(i + 1).padStart(2, "0")}`,
   num: i + 1,
   label: `Unit ${String(i + 1).padStart(2, "0")}`,
@@ -195,7 +195,7 @@ export default function App() {
         <div className="wrap">
           <div className="eyebrow">Kaplan Series 65</div>
           <h1>Study<br /><span>Log.</span></h1>
-          <div className="sub">24 UNITS &nbsp;·&nbsp; 5 STEPS EACH &nbsp;·&nbsp; EXAM JUL 25 &nbsp;·&nbsp; {daysLeft()} DAYS</div>
+          <div className="sub">23 UNITS &nbsp;·&nbsp; 5 STEPS EACH &nbsp;·&nbsp; EXAM JUL 25 &nbsp;·&nbsp; {daysLeft()} DAYS</div>
 
           <div className="prog-outer">
             <div className="prog-inner" style={{ width: `${overallPct}%` }} />
@@ -250,7 +250,7 @@ export default function App() {
           <div style={{ marginTop: 52, paddingTop: 22, borderTop: "1px solid #1a1816", display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
             <div style={{ fontFamily: "Source Code Pro, monospace", fontSize: 11, color: "#3a3835", lineHeight: 2 }}>
               <div><strong style={{ color: "#7EC8A4" }}>{completedCount}</strong> units complete</div>
-              <div><strong style={{ color: "#7EC8A4" }}>{24 - completedCount}</strong> units remaining</div>
+              <div><strong style={{ color: "#7EC8A4" }}>{23 - completedCount}</strong> units remaining</div>
               <div style={{ marginTop: 4, fontSize: 10, color: "#2e2c28" }}>STATE SAVED TO LOCALSTORAGE</div>
             </div>
             <div style={{ fontStyle: "italic", fontSize: 12, color: "#3a3835", maxWidth: 200, textAlign: "right", lineHeight: 1.7 }}>

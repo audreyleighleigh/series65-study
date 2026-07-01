@@ -5955,6 +5955,51 @@ const CONCEPTS = [
         explain: "Giving up the power to change beneficiaries is a defining feature of irrevocable trusts — it's part of what makes the asset transfer 'complete' enough to remove the assets from the grantor's estate. If the grantor retained this power, the trust wouldn't achieve its main estate-tax purpose. C and D invent exceptions that don't exist."
       }
     ]
+  },
+
+  {
+    id: "net-estate-calculation-waterfall",
+    category: "Tax",
+    title: "Calculating Net (Taxable) Estate: The Waterfall",
+    color: "#F97316",
+    analogy: "Think of the gross estate as a full bathtub. The unlimited marital deduction pulls the plug and drains out everything left to the spouse — that water is gone, untaxed for now. Then debts and estate expenses are like a second, smaller drain that pulls out a bit more. Whatever water is still left in the tub after both drains is the net estate — the only part actually exposed to estate tax.",
+    rule: "Net (taxable) estate = **Gross estate** (all assets owned at death, valued at **fair market value at death**, not original cost) **minus the unlimited marital deduction** (100% of any assets left to a spouse, deferring tax until the survivor's own death) **minus debts and estate expenses**. Assets left to anyone OTHER than the spouse (children, other beneficiaries) do NOT get the marital deduction and remain part of the taxable estate.",
+    watch: "Two common traps: (1) using the **original cost/basis** of an asset instead of its **fair market value at death** — estate valuation always uses FMV at death; (2) assuming ALL assets get pulled out by deductions — only spousal transfers get the marital deduction. Life insurance, retirement accounts, or property left to non-spouse beneficiaries (kids, etc.) stays in the taxable net estate.",
+    quiz: [
+      {
+        q: "William died with $200,000 in securities left to his wife, a $650,000 home (cost $150,000) left to his wife, a $250,000 life insurance policy naming his daughter as beneficiary, and $75,000 in debts/expenses. What is William's net estate?",
+        options: [
+          "$0; it's below the exemption equivalent",
+          "$750,000",
+          "$625,000",
+          "$175,000"
+        ],
+        answer: 3,
+        explain: "Gross estate = $200,000 + $650,000 + $250,000 = $1,100,000 (using the home's FMV, not its $150,000 cost). Subtract the marital deduction for the securities and home left to the wife ($850,000), then subtract debts/expenses ($75,000): $1,100,000 − $850,000 − $75,000 = $175,000. A ignores that net estate and exemption equivalent are separate concepts. B forgets to subtract debts. C incorrectly includes the home's cost basis instead of its FMV in some combination of the math."
+      },
+      {
+        q: "Why is the $250,000 life insurance policy in the example above NOT eligible for the marital deduction?",
+        options: [
+          "Life insurance proceeds are never included in a gross estate",
+          "The marital deduction only applies to assets left to a spouse, and this policy names the daughter as beneficiary",
+          "Life insurance is always taxed separately from the rest of the estate",
+          "The policy exceeds the marital deduction dollar limit"
+        ],
+        answer: 1,
+        explain: "The marital deduction is unlimited in amount but restricted in WHO it applies to — only transfers to a spouse qualify. Since the daughter is the named beneficiary, this asset stays in the taxable estate. A is wrong — life insurance owned by the decedent IS included in the gross estate. C invents a separate tax system. D is wrong because the marital deduction has no dollar cap; it has a 'to whom' restriction instead."
+      },
+      {
+        q: "Why does estate valuation use the home's fair market value at death ($650,000) rather than its original purchase price ($150,000)?",
+        options: [
+          "Estate tax law disregards purchase price entirely and always uses current market value to determine what's actually in the estate at the time of death",
+          "The IRS always uses whichever value is higher between cost and FMV",
+          "Purchase price is used unless the asset has appreciated more than 50%",
+          "FMV is only used for real estate, never for securities"
+        ],
+        answer: 0,
+        explain: "The gross estate reflects what the decedent's assets are actually worth at the time of death — that's the economic value being transferred, so FMV at death is the standard for essentially all estate assets, not just real estate. B and C invent rules that don't exist. D is wrong — FMV at death is the standard for securities too, not just real estate."
+      }
+    ]
   }
 ];
 

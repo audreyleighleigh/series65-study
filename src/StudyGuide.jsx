@@ -5910,6 +5910,51 @@ const CONCEPTS = [
         explain: "The GST exemption and the unified credit have historically moved together and been set at the same dollar amount (e.g., both $13.61M in 2024) — they are linked, not isolated systems. A is the trap answer. C and D describe relationships that don't exist."
       }
     ]
+  },
+
+  {
+    id: "irrevocable-trust-key-benefit",
+    category: "Tax",
+    title: "Irrevocable Trust: The Main Reason to Use One",
+    color: "#F97316",
+    analogy: "An irrevocable trust is like mailing a package with no return address and no way to reroute it once it's dropped in the box. You've truly let go — you can't redirect it (change beneficiaries), you can't carry it yourself (serve as trustee), and because it's genuinely gone from your hands, it doesn't get counted as 'yours' anymore when your estate is totaled up.",
+    rule: "The primary reason to establish an **irrevocable trust** is that it **generally avoids estate tax** — because the grantor has permanently given up ownership and control, the assets are removed from the grantor's taxable estate. In exchange for that tax benefit, the grantor gives up real power: he **cannot change the beneficiary**, and he **cannot serve as trustee** (retaining control over trust assets would undo the estate-tax removal, similar to how spousal interest or revocability keeps a trust taxed to the grantor).",
+    watch: "Don't confuse this with a revocable/living trust's benefit. Passing assets to beneficiaries **without probate** is a feature of trusts generally (revocable or irrevocable) — it's not the *distinguishing* reason to choose irrevocable specifically. The exam wants you to isolate what's UNIQUE to irrevocable: giving up control in exchange for **estate tax removal**. Also remember: irrevocable = donor can't change beneficiaries AND can't be trustee — both control levers are gone.",
+    quiz: [
+      {
+        q: "What is probably the most significant reason to consider an irrevocable trust?",
+        options: [
+          "Assets pass directly to the beneficiary following probate",
+          "The donor can change the beneficiary as desired",
+          "It generally avoids estate tax",
+          "It allows the grantor to serve as trustee"
+        ],
+        answer: 2,
+        explain: "The core benefit is estate tax avoidance — properly structured, the assets leave the grantor's taxable estate permanently. A describes a feature of trusts generally, not the distinguishing benefit of irrevocable specifically, and also misdescribes probate avoidance (assets pass WITHOUT going through probate, not 'following' it). B and D are actually backwards — irrevocable trusts specifically strip the grantor of BOTH the power to change beneficiaries AND the ability to serve as trustee."
+      },
+      {
+        q: "Why can't the grantor of a properly structured irrevocable trust serve as trustee?",
+        options: [
+          "It's simply a state law formality with no tax consequence",
+          "Retaining that kind of control would undermine the trust's removal of assets from the grantor's taxable estate",
+          "Trustees must always be licensed financial professionals",
+          "The IRS caps how many trusts one person can serve as trustee for"
+        ],
+        answer: 1,
+        explain: "If the grantor retains control (e.g., by serving as trustee), the IRS may treat the assets as still effectively his — undermining the entire point of removing them from his taxable estate. C and D describe rules that don't exist. A understates the real tax consequence at stake."
+      },
+      {
+        q: "A client sets up an irrevocable trust but later wants to change the named beneficiary. What should they be told?",
+        options: [
+          "This is allowed once per calendar year",
+          "This is generally not possible — the donor gives up that power when the trust becomes irrevocable",
+          "This is allowed only if the trustee approves",
+          "This is allowed as long as the new beneficiary is a family member"
+        ],
+        answer: 1,
+        explain: "Giving up the power to change beneficiaries is a defining feature of irrevocable trusts — it's part of what makes the asset transfer 'complete' enough to remove the assets from the grantor's estate. If the grantor retained this power, the trust wouldn't achieve its main estate-tax purpose. C and D invent exceptions that don't exist."
+      }
+    ]
   }
 ];
 

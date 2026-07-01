@@ -5775,6 +5775,51 @@ const CONCEPTS = [
         explain: "The $300 gain on the sale is short-term (held less than 1 year). The $240 distribution was already taxed as long-term when received — it is a separate event and does NOT reduce the cost basis of the shares. The question asks about 'this transaction' (the sale only), so the answer is $300 short-term gain."
       }
     ]
+  },
+
+  {
+    id: "entity-tax-filing-deadlines",
+    category: "Tax",
+    title: "Business Entity Tax Filing Deadlines",
+    color: "#F97316",
+    analogy: "Think of it like a relay race: pass-through entities (partnerships, S corps) have to hand off their 'baton' — a Schedule K-1 — to each owner before the owner can finish their own personal tax return. So the pass-through entities have to finish early (March 15) to give owners time to run their leg by April 15. C corps run their own solo race and don't hand off anything, so they get the full April 15 timeline.",
+    rule: "Pass-through entities — partnerships and S corporations — file by **March 15** because owners need their K-1 before filing personal returns. Sole proprietorships, single-member LLCs (disregarded entities by default), and C corporations (including multi-member LLCs that elect generic 'corporation' treatment via Form 8832) file by **April 15**, since tax is either paid at the entity level (C corp) or reported directly on the owner's own 1040 (sole prop/disregarded LLC) with no K-1 dependency.",
+    watch: "A multi-member LLC that 'elects to be treated as a corporation' defaults to **C-corp** status (April 15) — NOT S-corp — unless it takes the extra step of also filing Form 2553 for the S-corp election. The exam will dangle 'corporation election' language to bait you into assuming March 15.",
+    quiz: [
+      {
+        q: "A multi-member LLC files Form 8832 to elect corporate tax treatment but does not file Form 2553. What is its filing deadline?",
+        options: [
+          "March 15, because it's now a corporation",
+          "April 15, because it defaults to C-corp status",
+          "March 15, because all LLCs with more than one member file as partnerships",
+          "It has no fixed deadline since it's a hybrid entity"
+        ],
+        answer: 1,
+        explain: "Form 8832 alone elects generic corporate treatment, which defaults to C-corp — filing April 15. Only an additional Form 2553 election would make it an S-corp with a March 15 deadline. A wrongly assumes any 'corporation' election means March 15. C ignores that the LLC affirmatively elected out of partnership default treatment. D invents a rule — hybrid entities still have a defined default tax status."
+      },
+      {
+        q: "Which of these entities files its income tax return by March 15 (disregarding extensions)?",
+        options: [
+          "Single-member LLC",
+          "Sole proprietorship",
+          "S corporation",
+          "C corporation"
+        ],
+        answer: 2,
+        explain: "S corporations are pass-through entities requiring K-1s to be issued to owners before personal returns are due, so they file March 15. Single-member LLCs and sole proprietorships report on the owner's personal 1040 (April 15). C corporations pay tax at the entity level and file April 15."
+      },
+      {
+        q: "Why do partnerships and S corporations file earlier (March 15) than C corporations (April 15)?",
+        options: [
+          "They are smaller entities with simpler returns",
+          "The IRS requires pass-through entities to file first alphabetically",
+          "Owners need the K-1 in hand before completing their personal 1040s",
+          "Pass-through entities have a shorter tax year"
+        ],
+        answer: 2,
+        explain: "The March 15 date exists specifically to give owners a month's lead time to receive their K-1 and incorporate that income into their personal return by April 15. Size, alphabetical order, and tax year length are not the actual mechanisms — the K-1 dependency is."
+      }
+    ]
   }
 ];
 

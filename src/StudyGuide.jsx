@@ -5820,6 +5820,51 @@ const CONCEPTS = [
         explain: "The March 15 date exists specifically to give owners a month's lead time to receive their K-1 and incorporate that income into their personal return by April 15. Size, alphabetical order, and tax year length are not the actual mechanisms — the K-1 dependency is."
       }
     ]
+  },
+
+  {
+    id: "grantor-trust-taxation-triggers",
+    category: "Tax",
+    title: "Grantor Trust: Who Gets Taxed on Trust Income",
+    color: "#F97316",
+    analogy: "Think of a grantor trust like a library book you 'donated' but still have a key to — or one you let your spouse check out anytime. Either way, it's still functionally yours. The IRS doesn't care that your name isn't on the current checkout slip; if you can reclaim it OR your spouse can use it, the library (the IRS) still bills you for it.",
+    rule: "Trust income is taxed to the **grantor** (not the trust or beneficiaries) if either of two independent triggers applies: **(1) Revocable trust** — the grantor retains the power to revoke and reclaim the assets, or **(2) Spousal economic interest** — the grantor's spouse can receive income or principal from the trust, even if the trust is irrevocable. Spouses are treated as economically unified, so the spouse's benefit is attributed back to the grantor.",
+    watch: "Don't assume 'irrevocable' automatically shields the grantor from taxation. **Revocability and spousal interest are two separate, independent triggers** — either one alone is enough to create grantor trust status. An irrevocable trust where the spouse can still draw funds is STILL a grantor trust.",
+    quiz: [
+      {
+        q: "Mr. Hawkins sets up a revocable trust for his adult daughter. His wife may draw from it only if she needs to. Who is taxed on the trust's income?",
+        options: [
+          "Mrs. Hawkins, as contingent beneficiary",
+          "Mr. Hawkins, as the grantor",
+          "Madeleine, as primary beneficiary",
+          "The trust itself, as a separate legal entity"
+        ],
+        answer: 1,
+        explain: "Mr. Hawkins is taxed as the grantor — doubly so, since the trust is both revocable AND his spouse has an economic interest. A is wrong because contingent beneficiaries aren't taxed on undistributed trust income. C is wrong because Madeleine hasn't received a distribution here. D is wrong because grantor trusts are specifically NOT treated as separate taxable entities."
+      },
+      {
+        q: "Same facts, except the trust is now IRREVOCABLE. Mrs. Hawkins can still draw from it if needed. Who is taxed on the income?",
+        options: [
+          "The trust, since irrevocable trusts are separate tax entities",
+          "Madeleine, since the grantor gave up control by making it irrevocable",
+          "Mr. Hawkins, because his spouse's economic interest is attributed to him",
+          "Mrs. Hawkins, since she is the one with access to the funds"
+        ],
+        answer: 2,
+        explain: "Even though revocability is no longer a factor, the spousal attribution rule independently makes this a grantor trust — Mr. Hawkins is still taxed. A ignores the spousal interest trigger. B is the classic trap: irrevocability alone doesn't end grantor status if another trigger exists. D misapplies the rule — the spouse's ACCESS is attributed to the grantor, not taxed to the spouse directly."
+      },
+      {
+        q: "Which scenario would NOT create grantor trust status?",
+        options: [
+          "The grantor can revoke the trust at any time",
+          "The grantor's spouse can receive trust income",
+          "The trust is irrevocable and no spouse or grantor retains any interest or control",
+          "The grantor retains the right to reclaim trust principal"
+        ],
+        answer: 2,
+        explain: "Without revocability, spousal interest, or retained control, there's no trigger for grantor trust treatment — income would be taxed to the trust or beneficiaries under normal trust taxation rules instead. A, B, and D are all independent triggers that create grantor trust status."
+      }
+    ]
   }
 ];
 

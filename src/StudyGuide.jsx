@@ -5865,6 +5865,51 @@ const CONCEPTS = [
         explain: "Without revocability, spousal interest, or retained control, there's no trigger for grantor trust treatment — income would be taxed to the trust or beneficiaries under normal trust taxation rules instead. A, B, and D are all independent triggers that create grantor trust status."
       }
     ]
+  },
+
+  {
+    id: "vehicles-using-unified-credit",
+    category: "Tax",
+    title: "Which Trusts Use the Unified Estate Tax Credit",
+    color: "#F97316",
+    analogy: "Think of the unified credit as one big tax-free 'bucket' every person gets to pass wealth to heirs. A bypass trust and a generation-skipping trust are both buckets specifically built to catch and shelter money using that credit — one for the surviving spouse's estate, one for skipping straight to grandchildren. A living trust and a simple trust aren't shelters at all — they're just pipes water flows through; nothing gets caught or protected in them.",
+    rule: "The **bypass trust** (credit shelter/A-B trust) and the **generation-skipping trust (GST)** both use the unified estate/gift tax credit (the applicable exclusion amount, $13.61M in 2024) to shield transfers from estate tax — the bypass trust shelters the first spouse's exclusion from being wasted, and the GST exemption is set **equal to** the unified credit amount, sheltering transfers made directly to grandchildren. A **living (revocable) trust** does NOT use the credit — assets remain in the grantor's taxable estate since he retains control. A **simple trust** does NOT use the credit either — it's just a pass-through mechanism required to distribute all income annually; it isn't a tax-shelter vehicle.",
+    watch: "Don't assume the GST exemption is a totally separate, unrelated pool from the unified credit — they're **linked and historically equal in amount**. The trap is treating 'generation-skipping' as purely its own isolated tax system with no connection to the unified credit; in reality, both bypass trusts and GST trusts are estate-tax planning tools built around that same credit amount.",
+    quiz: [
+      {
+        q: "Which of the following vehicles make use of the unified estate tax credit? I. Bypass trust II. Generation-skipping trust III. Living trust IV. Simple trust",
+        options: [
+          "I and II",
+          "II and III",
+          "III and IV",
+          "I and IV"
+        ],
+        answer: 0,
+        explain: "Bypass trusts and GST trusts both use the unified credit amount to shelter transfers from estate tax — bypass trusts shelter the deceased spouse's exclusion, GST trusts shelter transfers to grandchildren using an exemption equal to the unified credit. Living trusts (III) don't remove assets from the grantor's taxable estate since they're revocable. Simple trusts (IV) are just income pass-through mechanisms, not estate-tax shelters."
+      },
+      {
+        q: "Why does a bypass trust help a married couple use both spouses' unified credits, rather than just one?",
+        options: [
+          "Because it doubles the exclusion amount automatically",
+          "Because it shelters the first spouse's exclusion amount instead of leaving everything outright to the surviving spouse, whose estate would otherwise absorb it all under her own credit later",
+          "Because bypass trusts are exempt from all estate tax regardless of size",
+          "Because the IRS grants an extra credit specifically for bypass trusts"
+        ],
+        answer: 1,
+        explain: "If the first spouse leaves everything outright to the survivor, only the survivor's single credit shields the combined estate later — wasting the first spouse's credit. A bypass trust captures an amount up to the first spouse's exclusion so both credits get used. A, C, and D all describe mechanisms that don't exist."
+      },
+      {
+        q: "How is the GST exemption amount related to the unified estate/gift tax credit?",
+        options: [
+          "They are completely unrelated, separate systems with no connection",
+          "The GST exemption is historically set equal to the unified credit/applicable exclusion amount",
+          "The GST exemption is always exactly double the unified credit",
+          "The GST exemption replaced the unified credit starting in 2010"
+        ],
+        answer: 1,
+        explain: "The GST exemption and the unified credit have historically moved together and been set at the same dollar amount (e.g., both $13.61M in 2024) — they are linked, not isolated systems. A is the trap answer. C and D describe relationships that don't exist."
+      }
+    ]
   }
 ];
 

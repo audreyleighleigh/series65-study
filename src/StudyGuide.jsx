@@ -6000,6 +6000,51 @@ const CONCEPTS = [
         explain: "The gross estate reflects what the decedent's assets are actually worth at the time of death — that's the economic value being transferred, so FMV at death is the standard for essentially all estate assets, not just real estate. B and C invent rules that don't exist. D is wrong — FMV at death is the standard for securities too, not just real estate."
       }
     ]
+  },
+
+  {
+    id: "tic-vs-jtwros",
+    category: "Regulations",
+    title: "Tenants in Common (TIC) vs. JTWROS",
+    color: "#FF6B6B",
+    analogy: "Picture two roommates splitting a duplex. With TIC, each person owns their own separate unit — if one moves out (or dies), their unit goes to whomever THEY choose (their estate/heirs), not automatically to the other roommate. With JTWROS, it's like they both hold one single shared key to the whole building — if one dies, the survivor doesn't inherit anything new, because they already owned the whole thing together; the deceased's interest simply evaporates and the survivor's ownership continues uninterrupted.",
+    rule: "**Tenants in Common (TIC):** each cotenant owns a separate, distinct (and not necessarily equal) percentage of the account. Upon death, that owner's share passes to **their own estate** — subject to probate — and is distributed per their will or intestacy laws, NOT automatically to the surviving cotenant(s). **JTWROS (Joint Tenants with Right of Survivorship):** owners hold an undivided interest together; upon death, the deceased's share passes automatically and directly to the **surviving joint owner(s)**, bypassing probate entirely.",
+    watch: "The exam trap is assuming ALL joint/multi-owner accounts have automatic survivorship. **Only JTWROS has right of survivorship built in — TIC does NOT.** If a question describes a deceased cotenant's share going 'to the estate' or 'through probate,' that's TIC. If it says the share goes directly to the other owner(s) with no probate, that's JTWROS.",
+    quiz: [
+      {
+        q: "When an account is opened as tenants in common (TIC), what happens upon the death of one cotenant?",
+        options: [
+          "Cash distributions from a sale are made payable to that individual",
+          "That individual's share passes to the other cotenant(s)",
+          "That individual's share passes to the estate",
+          "That individual's share is exempt from probate"
+        ],
+        answer: 2,
+        explain: "TIC has no right of survivorship — each cotenant's share is their own separate property, so it passes to their estate upon death, typically through probate. B and D both incorrectly describe JTWROS features. A doesn't address what happens at death at all."
+      },
+      {
+        q: "Which feature distinguishes JTWROS from TIC?",
+        options: [
+          "JTWROS allows unequal ownership percentages; TIC requires equal shares",
+          "JTWROS automatically passes a deceased owner's share to the survivor(s), bypassing probate; TIC does not",
+          "TIC is only available to married couples; JTWROS is available to anyone",
+          "JTWROS accounts cannot hold securities, only cash"
+        ],
+        answer: 1,
+        explain: "The defining feature is the right of survivorship itself — JTWROS has it (automatic pass-through, no probate), TIC does not (share goes to the deceased's own estate). A has it backwards: TIC allows unequal shares, JTWROS typically implies equal undivided interest. C and D describe restrictions that don't exist."
+      },
+      {
+        q: "A TIC account has two owners: 70%/30%. One owner dies. What happens to their 70% share?",
+        options: [
+          "It automatically transfers to the surviving 30% owner",
+          "It is split 50/50 between the survivor and a court-appointed trustee",
+          "It passes to the deceased owner's estate, per their will or intestacy law",
+          "It is frozen permanently since TIC shares cannot be transferred"
+        ],
+        answer: 2,
+        explain: "TIC ownership is treated as separate individual property — the 70% share follows the deceased owner's own estate plan (or intestacy law if none exists), going through probate rather than automatically transferring to the co-owner. A describes JTWROS behavior, not TIC. B and D invent mechanisms that don't exist."
+      }
+    ]
   }
 ];
 

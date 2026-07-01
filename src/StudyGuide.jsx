@@ -6045,6 +6045,51 @@ const CONCEPTS = [
         explain: "TIC ownership is treated as separate individual property — the 70% share follows the deceased owner's own estate plan (or intestacy law if none exists), going through probate rather than automatically transferring to the co-owner. A describes JTWROS behavior, not TIC. B and D invent mechanisms that don't exist."
       }
     ]
+  },
+
+  {
+    id: "closed-end-vs-open-end-fund-pricing",
+    category: "Investment Companies",
+    title: "Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have)",
+    color: "#7C3AED",
+    analogy: "An open-end mutual fund is like buying milk directly from the dairy at the posted price (NAV) — every carton costs exactly what the dairy says, no haggling. A closed-end fund is like buying that same milk secondhand at a farmer's market — the price is whatever a buyer and seller agree on that day (bid/ask), and it can trade above OR below what the dairy originally said it was worth.",
+    rule: "**Open-end mutual funds** transact only **at NAV** — there is no bid/ask spread, since shares are bought from and redeemed directly with the fund company. **Closed-end funds** trade on an exchange like a stock, with a **bid and ask price** set by supply and demand, which can be at a premium OR a discount to NAV. When computing basis or proceeds for a closed-end fund, use the **bid price** (what the shares could actually be sold for) — never the NAV.",
+    watch: "**The telltale sign of a closed-end fund is the presence of a bid AND ask price in the problem** — open-end funds never have these, only NAV. An even stronger confirming clue: if the **ask price is below the NAV**, it MUST be a closed-end fund trading at a discount — this is mathematically impossible for an open-end fund, since open-end shares always transact exactly at NAV. Don't default to 'mutual fund = use NAV' without checking whether bid/ask figures are even present in the question.",
+    quiz: [
+      {
+        q: "A question gives you a fund's NAV, bid, and ask price, and the ask is LOWER than the NAV. What does this tell you?",
+        options: [
+          "Nothing unusual — this is normal for any mutual fund",
+          "This must be a closed-end fund, since only closed-end funds can trade at a discount to NAV",
+          "This is a pricing error and the NAV should be used instead",
+          "This means the fund is about to be liquidated"
+        ],
+        answer: 1,
+        explain: "An open-end fund's price is always exactly its NAV — it's mathematically impossible for its ask to differ from NAV, let alone be lower. Only a closed-end fund, trading on an exchange based on supply and demand, can trade at a discount (ask below NAV). C and D invent explanations that aren't supported by the facts given."
+      },
+      {
+        q: "An investor inherits 1,000 shares of a closed-end fund when NAV = $9.50, bid = $9.00, ask = $9.15. What is the investor's basis?",
+        options: [
+          "$9,500 (1,000 × NAV)",
+          "$9,150 (1,000 × ask)",
+          "$9,000 (1,000 × bid)",
+          "Average of NAV, bid, and ask"
+        ],
+        answer: 2,
+        explain: "For closed-end funds, basis uses the bid price — what the shares could actually have been sold for — not the NAV. NAV is irrelevant for closed-end fund transactions since they trade on the open market. B and D use pricing methods that don't apply here."
+      },
+      {
+        q: "Why does an open-end mutual fund never have a bid/ask spread, unlike a closed-end fund?",
+        options: [
+          "Open-end funds are not allowed to trade on any given day",
+          "Open-end fund shares are bought and redeemed directly with the fund company at NAV, with no secondary market setting a market-driven price",
+          "Open-end funds are exempt from SEC pricing regulations",
+          "Bid/ask spreads only apply to fixed income funds"
+        ],
+        answer: 1,
+        explain: "Open-end funds create and redeem shares directly with investors at NAV — there's no secondary market of buyers and sellers negotiating a price, so no bid/ask spread exists. Closed-end funds, once their IPO is complete, trade among investors on an exchange, generating a market-driven bid/ask like any stock. A, C, and D describe rules that don't exist."
+      }
+    ]
   }
 ];
 

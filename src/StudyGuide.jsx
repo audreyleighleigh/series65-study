@@ -6090,6 +6090,51 @@ const CONCEPTS = [
         explain: "Open-end funds create and redeem shares directly with investors at NAV — there's no secondary market of buyers and sellers negotiating a price, so no bid/ask spread exists. Closed-end funds, once their IPO is complete, trade among investors on an exchange, generating a market-driven bid/ask like any stock. A, C, and D describe rules that don't exist."
       }
     ]
+  },
+
+  {
+    id: "totten-trust",
+    category: "Regulations",
+    title: "Totten Trust: The Informal 'Poor Man's Will' Bank Account",
+    color: "#FF6B6B",
+    analogy: "A Totten trust is like writing a name on a sticky note and slapping it on your bank account: 'this goes to my son when I'm gone.' It's the simplest, most informal way to earmark money for someone — no lawyer, no formal trust document, just a specially titled bank account that automatically hands off the funds the moment you die.",
+    rule: "A **Totten trust** is an informal revocable trust created simply by titling a bank account **'[Name], in Trust for [Beneficiary]'** (or 'as trustee for'). The account owner acts as trustee and retains full control during their lifetime — they can withdraw funds, close the account, or change the beneficiary at any time. Upon the owner's death, the funds pass **immediately and directly to the named beneficiary**, avoiding probate — similar in spirit to a TOD designation, but specifically for bank accounts.",
+    watch: "Don't confuse this with a **testamentary trust** (created BY a will, only takes effect AFTER death through probate) or **JTWROS** (requires a co-owner with an ownership interest DURING life, not just a named beneficiary who gets nothing until death). The titling pattern **'[Name], in Trust for [Name]'** on a bank account is the specific giveaway for a Totten trust — memorize that phrasing.",
+    quiz: [
+      {
+        q: "An account is titled 'Walter Willingham, in Trust for Walter Willingham, Jr.' Upon Walter's death, the funds pass to his son. This is an example of:",
+        options: [
+          "A testamentary trust",
+          "An account opened JTWROS",
+          "A Totten trust",
+          "An UTMA account"
+        ],
+        answer: 2,
+        explain: "The 'in Trust for' bank account titling with the owner as trustee is the classic Totten trust structure. A is wrong because a testamentary trust is created by a will and only exists after death through probate, whereas this account already exists and takes effect immediately upon death. B is wrong because JTWROS requires the son to be a co-owner during Walter's life with an ownership interest — here the son has no interest until Walter dies. D is wrong because there's no indication this is a custodial account for a minor under UTMA."
+      },
+      {
+        q: "During his lifetime, can Walter withdraw all the funds from his Totten trust account for his own use?",
+        options: [
+          "No, once named, the beneficiary has an irrevocable claim to the funds",
+          "Yes, Walter retains full control as trustee and can withdraw, spend, or change the beneficiary at any time",
+          "Only with written consent from the named beneficiary",
+          "Only up to 50% of the account balance"
+        ],
+        answer: 1,
+        explain: "A Totten trust is revocable and informal — the account owner (as trustee) keeps complete control during their lifetime, including full withdrawal rights and the ability to change beneficiaries. The named beneficiary has no enforceable interest until the owner's death. A, C, and D all describe restrictions that don't apply to Totten trusts."
+      },
+      {
+        q: "How does a Totten trust differ from a testamentary trust?",
+        options: [
+          "A Totten trust requires court approval; a testamentary trust does not",
+          "A Totten trust is an informal bank account arrangement that passes funds immediately at death; a testamentary trust is created by a will and only comes into existence after death through probate",
+          "There is no meaningful difference between the two",
+          "A Totten trust can only be used for real estate, while a testamentary trust is for cash"
+        ],
+        answer: 1,
+        explain: "The key distinction is timing and formality: a Totten trust already exists as a titled account during the owner's life and pays out immediately at death (no probate); a testamentary trust doesn't even exist until the will is probated after death. A has it backwards — Totten trusts avoid probate/court involvement, while testamentary trusts require it. D invents a restriction that doesn't exist."
+      }
+    ]
   }
 ];
 

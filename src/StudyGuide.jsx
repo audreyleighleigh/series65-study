@@ -6135,6 +6135,176 @@ const CONCEPTS = [
         explain: "The key distinction is timing and formality: a Totten trust already exists as a titled account during the owner's life and pays out immediately at death (no probate); a testamentary trust doesn't even exist until the will is probated after death. A has it backwards — Totten trusts avoid probate/court involvement, while testamentary trusts require it. D invents a restriction that doesn't exist."
       }
     ]
+  },
+
+  {
+    id: "suitability-matching-method",
+    category: "Suitability",
+    title: "Suitability: The Fact-by-Fact Matching Method",
+    color: "#FBBF24",
+    analogy: "Think of a suitability question like a lock with several tumblers — age, income, tax bracket, liquidity needs, risk tolerance. Each client fact is one tumbler that has to click into place. You don't guess the key by how it looks; you check it against every tumbler one at a time. The right answer is the one where every single tumbler lines up, not just most of them.",
+    rule: "When solving asset allocation/suitability questions, isolate each client fact **individually** and ask what portfolio feature it implies, before touching the answer choices: **age/time horizon** → volatility tolerance and time available to recover from losses; **tax bracket** → whether munis add real value (high bracket = valuable, low bracket = wasted benefit); **liquidity needs** → whether cash-equivalents (money market) are actually needed, or just wasted allocation; **risk tolerance** → how large the equity/volatile-asset slice should be. Then eliminate answer choices that mismatch any single fact — the correct answer satisfies ALL facts simultaneously.",
+    watch: "Don't stop at the first fact that seems to point to an answer — verify against every clue. A choice can be right for one reason (e.g., 'high income, so munis make sense') and still be eliminated by a different fact (e.g., unnecessary money market allocation the client doesn't need). Also watch for **answer choices with an attached reason** — the conclusion might be correct while the stated justification is a decoy (see: GO vs. revenue bond trap).",
+    quiz: [
+      {
+        q: "A 75-year-old, high-income, risk-averse client with no immediate liquidity needs wants to invest $100,000. Which allocation best fits ALL of these facts?",
+        options: [
+          "50% muni bond / 40% money market / 10% large-cap stock",
+          "50% muni bond / 40% government bond / 10% large-cap stock",
+          "50% muni bond / 50% large-cap stock",
+          "100% money market fund"
+        ],
+        answer: 1,
+        explain: "High income → munis add real value (all options with munis satisfy this). No liquidity need → money market allocation is wasted, ruling out heavy money market options. Risk-averse → equity slice should be small, ruling out a 50% stock allocation. Only the muni/government bond/small stock mix satisfies every fact at once."
+      },
+      {
+        q: "Why is a large money market allocation often the WRONG choice in a suitability question, even though money market funds are very safe?",
+        options: [
+          "Money market funds are never appropriate for retirees",
+          "Safety and liquidity are only valuable if the client's stated needs actually call for them — if liquidity isn't a stated concern, that allocation is wasted opportunity cost",
+          "Money market funds are illegal to recommend to high-income clients",
+          "Money market funds always lose money after inflation"
+        ],
+        answer: 1,
+        explain: "Suitability isn't just about 'safe' — it's about matching the specific client's stated needs. A feature (like instant liquidity) that the client didn't ask for and doesn't need is a mismatch, not a safe default. A, C, and D all invent rules that don't exist."
+      }
+    ]
+  },
+
+  {
+    id: "muni-bond-suitability-mismatches",
+    category: "Suitability",
+    title: "When Municipal Bonds Are the WRONG Answer",
+    color: "#FBBF24",
+    analogy: "A municipal bond is like a cozy, quiet reading room — great if you want calm and steady income, and the 'no noise fee' (tax exemption) is a real perk if you're the type who'd otherwise pay a lot for peace and quiet (high tax bracket). But if you walked in wanting a rock concert (aggressive growth), the room is the wrong venue entirely — and if you don't even mind noise (low tax bracket), the 'no noise fee' perk barely matters to you anyway.",
+    rule: "Municipal bonds are only genuinely suitable when BOTH conditions hold: **(1) the client is in a high enough tax bracket that the federal tax exemption has real value**, and **(2) the client's goal is income/capital preservation, not growth** — since bonds are structurally income instruments, not growth vehicles. A recommendation fails if either condition is missing: a low-bracket client gets little benefit from the tax exemption, and a growth-seeking client is mismatched regardless of tax bracket, since NO bond (of any type) delivers aggressive capital appreciation.",
+    watch: "Watch for decoy answer choices that propose swapping bond SUBTYPES (e.g., 'a revenue bond would have been more appropriate') as the fix — if the client's actual objective is growth, changing which kind of bond doesn't solve anything, since bonds as an asset class don't deliver aggressive growth. The core mismatch is the asset class, not the bond flavor.",
+    quiz: [
+      {
+        q: "A 27-year-old in the lowest tax bracket wants aggressive long-term growth. His IAR recommends a high-rated general obligation municipal bond. This is:",
+        options: [
+          "A suitable recommendation because GOs are good long-term investments",
+          "An unsuitable recommendation based on the client's needs and objectives",
+          "Unsuitable, because a revenue bond would have been more appropriate",
+          "No violation, because munis suit market volatility"
+        ],
+        answer: 1,
+        explain: "Two independent problems: the tax exemption is nearly worthless to a low-bracket investor, AND bonds are income instruments mismatched with a growth objective. C is a trap — swapping GO for revenue bonds doesn't fix the fundamental asset-class mismatch with 'aggressive growth.'"
+      },
+      {
+        q: "Why doesn't switching from a general obligation bond to a revenue bond fix the suitability problem for a growth-seeking client?",
+        options: [
+          "Revenue bonds are riskier, so they would be even less suitable",
+          "Both are still fixed-income instruments designed for income/stability, not capital appreciation — the asset class itself is mismatched with a growth objective",
+          "Revenue bonds are not available to individual investors",
+          "There is no real difference between GO and revenue bonds"
+        ],
+        answer: 1,
+        explain: "The client's objective (aggressive growth) is mismatched with the entire bond asset class, not just the specific bond type. Changing bond flavors doesn't change the fundamental income-oriented nature of bonds. A overstates revenue bond risk in a way that doesn't address the core issue; C and D are false."
+      }
+    ]
+  },
+
+  {
+    id: "time-horizon-definition",
+    category: "Suitability",
+    title: "Time Horizon: What It Actually Measures",
+    color: "#FBBF24",
+    analogy: "Time horizon is like asking 'how long does this marathon route still go on for?' — not 'how much water do I have left' (that's a financial resource question) or 'what does my running club's actuarial chart say' (that's someone else's data). Retirement isn't the finish line for the money; it's just a new stretch of the course where the goal shifts from building distance to pacing what's left.",
+    rule: "**Time horizon = the length of time an investment is expected to be held before the funds are needed.** Retirement does NOT reduce time horizon to zero — retirement marks a shift in purpose (from accumulation to income), but the portfolio still needs to fund the client for the remainder of their life. For a retiree, time horizon is therefore tied to **life expectancy**, not to their current asset level, an arbitrary 'retirement age,' or insurance company actuarial data (which is a distractor from a different context — insurance underwriting, not investment planning).",
+    watch: "Don't assume retirement = 'time horizon is over' or 'time to get conservative because there's no more time left.' The money still has decades of work to do for most retirees — time horizon at 65 is often still 20-30 years long, not zero.",
+    quiz: [
+      {
+        q: "What would be the time horizon for a 65-year-old client who has just retired?",
+        options: [
+          "It depends on the individual's life expectancy",
+          "None, because 65 is the age for retirement",
+          "It depends on the individual's insurance company's actuarial tables",
+          "It depends on the individual's available assets"
+        ],
+        answer: 0,
+        explain: "Time horizon measures duration until funds are needed — for a retiree, that's tied to how much longer they're expected to live, since the portfolio must keep funding their needs. B wrongly treats retirement as the end of the money's job. C and D bring in irrelevant factors that don't define time horizon."
+      },
+      {
+        q: "Why doesn't retirement reduce an investor's time horizon to zero?",
+        options: [
+          "Retirees are legally required to keep investing for at least 10 more years",
+          "Retirement shifts the portfolio's purpose from accumulation to income, but the money still must last for the remainder of the client's life",
+          "Time horizon only applies to investors under age 65",
+          "Retirees automatically get a new time horizon assigned by their custodian"
+        ],
+        answer: 1,
+        explain: "Retirement changes what the money is used for (income vs. growth), not whether it's still needed over time. The funds typically must support the client for potentially decades more. A, C, and D describe rules that don't exist."
+      }
+    ]
+  },
+
+  {
+    id: "financial-vs-nonfinancial-considerations",
+    category: "Suitability",
+    title: "Financial vs. Nonfinancial Considerations",
+    color: "#FBBF24",
+    analogy: "Financial considerations are the numbers on a client's tax return — income, net worth, liquidity needs, tax bracket. Nonfinancial considerations are everything that wouldn't show up on that return: the old scar from a stock that tanked years ago, a personal aversion to investing in certain industries, a gut-level discomfort with volatility. One is arithmetic; the other is psychology and personal history.",
+    rule: "**Financial considerations** are quantifiable, dollars-based factors: income, net worth, tax bracket, liquidity needs, time horizon. **Nonfinancial considerations** are qualitative factors rooted in an investor's psychology, values, or personal experience — such as risk tolerance shaped by past losses, ethical/values-based investing preferences, or personal biases toward or against certain asset classes. Neither category should be confused with **systematic risk** (market-wide risk affecting all securities) or **unsystematic risk** (risk specific to one company/sector) — those terms describe types of *investment risk*, not investor characteristics.",
+    watch: "The exam plants 'systematic' and 'unsystematic' as answer choices in investor-profiling questions specifically to bait you into applying risk vocabulary to the wrong context. If the question is about an investor's personal traits or history (not the market), the answer is financial or nonfinancial — never systematic/unsystematic.",
+    quiz: [
+      {
+        q: "A new client wants to avoid mid-cap stocks because of large losses suffered several years ago. What type of consideration is this?",
+        options: [
+          "Unsystematic",
+          "Financial",
+          "Nonfinancial",
+          "Systematic"
+        ],
+        answer: 2,
+        explain: "This is a psychological/experience-driven preference, not a dollars-based constraint — that makes it nonfinancial. Systematic and unsystematic describe categories of investment risk, not investor characteristics, making A and D irrelevant to this question."
+      },
+      {
+        q: "Which of the following is a FINANCIAL consideration, as opposed to nonfinancial?",
+        options: [
+          "A client's preference to avoid investing in industries that conflict with personal values",
+          "A client's discomfort with volatility due to a parent's bad investment experience",
+          "A client's current tax bracket and liquidity needs",
+          "A client's general personality-driven risk aversion"
+        ],
+        answer: 2,
+        explain: "Tax bracket and liquidity needs are quantifiable, dollars-and-cents factors — the hallmark of a financial consideration. The other three options all describe psychological, values-based, or experience-driven factors, which are nonfinancial."
+      }
+    ]
+  },
+
+  {
+    id: "balanced-fund-definition",
+    category: "Investment Companies",
+    title: "Balanced Fund: Defined by Its Mix of Asset Classes",
+    color: "#7C3AED",
+    analogy: "A balanced fund is like a plate at a buffet with a bit of everything — protein, veggies, starch — deliberately mixed so no single food group dominates. A growth fund is like a plate piled with just steak (stocks only, for appreciation). An income fund is built around whatever's most filling and steady. A sector fund is a plate from just ONE station at the buffet. 'Balanced' specifically means the deliberate mix across categories, not a a description of any one ingredient.",
+    rule: "A **balanced fund** is defined by holding a **mix of asset classes** — typically some combination of common stock, preferred stock, and bonds — deliberately combined to balance growth potential against income and stability. This is distinct from a **growth fund** (primarily common stock for capital appreciation), an **income fund** (focused on generating income, often bond/dividend-heavy but not defined by a specific multi-asset mix), and a **sector fund** (concentrated in one industry).",
+    watch: "Don't let the word 'balanced' pull you toward assuming it just means 'stock-heavy but stable' or 'moderate risk stock fund.' The term specifically signals a fund that holds **multiple distinct asset classes together** — stock AND bonds (and often preferred stock) — not just a particular risk level within one asset class.",
+    quiz: [
+      {
+        q: "An investment company that invests in common stock, preferred stock, and bonds would most likely be classified as:",
+        options: [
+          "A growth fund",
+          "A sector fund",
+          "An income fund",
+          "A balanced fund"
+        ],
+        answer: 3,
+        explain: "Holding three distinct asset classes together — common stock, preferred stock, and bonds — is the defining feature of a balanced fund. A growth fund would concentrate mainly in stocks for appreciation; an income fund is defined by its income focus, not this specific multi-asset mix; a sector fund concentrates in one industry."
+      },
+      {
+        q: "What distinguishes a balanced fund from a growth fund?",
+        options: [
+          "A balanced fund holds a deliberate mix of asset classes (stocks and bonds); a growth fund is primarily concentrated in stocks for capital appreciation",
+          "A balanced fund only invests in bonds",
+          "A growth fund is required to hold at least 50% cash",
+          "There is no meaningful difference between the two"
+        ],
+        answer: 0,
+        explain: "The defining feature of a balanced fund is combining multiple asset classes (equity and fixed income) to balance growth and stability. A growth fund is concentrated in equities specifically chosen for appreciation potential, without the deliberate multi-asset mix. B and C invent rules that don't exist."
+      }
+    ]
   }
 ];
 

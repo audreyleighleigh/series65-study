@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 158 concept cards across 9 categories._
+_Auto-generated from src/data.js. 173 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -20,9 +20,9 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 - **Equities** (12 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
-- **Regulations** (77 cards): Affiliate Status & Rule 144 · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account
-- **Suitability** (5 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations
-- **Tax** (12 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall
+- **Regulations** (81 cards): Affiliate Status & Rule 144 · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt
+- **Suitability** (6 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS)
+- **Tax** (22 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income
 
 ---
 
@@ -4941,6 +4941,118 @@ _id: `totten-trust` · category: Regulations_
 
 ---
 
+## Who Can Open & Serve as Custodian for a UGMA/UTMA
+
+_id: `ugma-utma-custodian-eligibility` · category: Regulations_
+
+**Analogy.** Opening a UGMA/UTMA account is like setting up a simple savings jar for a kid — you don't need a lawyer, a court order, or the parents' permission slip. Any adult can walk in, put the jar in the child's name, and hold the key themselves.
+
+**Rule.** **Any adult** can open a UGMA/UTMA custodial account for a minor and name themselves (or another adult) as custodian — there is no requirement to be the minor's parent, legal guardian, or even a relative. No trust document, no court filing, and no parental consent are required. This simplicity is the entire point of UGMA/UTMA accounts — they exist as an easy alternative to setting up a formal trust.
+
+**Watch.** The exam loves inventing fake requirements for this account type — trust paperwork, court approval, legal guardianship, or parental sign-off. If an answer choice adds any formal legal requirement to opening a UGMA/UTMA, it's almost certainly a distractor.
+
+**Quiz.**
+
+1. A customer wants to open a custodial UGMA/UTMA account for his nephew, a minor. What can he do?
+     A) Open the account, provided the proper trust arrangements are filed first
+     B) Open the account, but he needs a legal document evidencing the nephew's parents' prior approval
+   ✓ C) Open the account and name himself custodian
+     D) Be custodian for the account only if he is also the minor's legal guardian
+   _Explanation:_ Any adult can open a UGMA/UTMA account and serve as custodian, regardless of relationship to the minor. A: no trust arrangement is needed — UGMA/UTMA is an alternative to a trust, not dependent on one. B: no parental consent is required. D: legal guardianship is not a requirement for custodianship.
+
+2. Which of the following is required to open a UGMA/UTMA custodial account?
+     A) The custodian must be a blood relative of the minor
+     B) The custodian must be the minor's legal guardian
+     C) Court approval of the account
+   ✓ D) None of the above — any adult may open the account and serve as custodian
+   _Explanation:_ UGMA/UTMA accounts are intentionally simple to open — no relationship, guardianship, or court involvement is required. This is what distinguishes them from formal trust arrangements.
+
+---
+
+## The Prudent Expert Rule
+
+_id: `prudent-expert-rule` · category: Regulations_
+
+**Analogy.** The old 'prudent man' standard was like judging every ingredient in a meal on its own — 'is this ingredient safe to eat by itself?' The modern prudent expert rule judges the whole meal instead — does the dish, as constructed by a skilled chef, make sense as a balanced whole? No single ingredient gets banned just because it sounds unusual in isolation.
+
+**Rule.** Under ERISA's **prudent expert rule**, a fiduciary's investment decisions are judged in the context of the **overall portfolio and strategy**, not by whether any single investment sounds inherently risky in isolation. Acceptable strategies include high-grade bonds (e.g., AAA debentures, new AAA issues), diversified mutual funds (including growth funds), and conservative options strategies like **covered call writing** on stock already owned (an income-generating, non-speculative technique). No category of investment is automatically prohibited — the standard is about applying expertise, diversification, and prudence at the whole-portfolio level.
+
+**Watch.** Don't eliminate an option just because it sounds aggressive on the surface — 'growth fund' and 'writing options' trigger instinctive caution, but a growth fund is a normal diversified holding and a COVERED call (stock already owned) is a conservative, income-generating strategy, not speculation. The trap is applying old 'prudent man' individual-investment thinking to a prudent EXPERT question.
+
+**Quiz.**
+
+1. Which of the following investment activities are acceptable for a fiduciary acting under the prudent expert rule? I. Purchasing AAA-rated debentures. II. Purchasing a growth mutual fund. III. Purchasing new issues of a AAA-rated issuer. IV. Writing covered calls on dividend-paying stocks.
+     A) II and III
+     B) II and IV
+     C) I and II
+   ✓ D) I, II, III, and IV
+   _Explanation:_ The prudent expert rule evaluates investments at the portfolio/strategy level, not by banning categories based on surface-level risk perception. All four are acceptable: AAA debentures and new AAA issues are high credit quality, growth funds are a normal diversified holding, and covered call writing (against stock already owned) is a conservative income strategy, not speculation.
+
+2. Why is writing covered calls on dividend-paying stock generally considered acceptable under the prudent expert rule?
+     A) Because options are never considered risky
+   ✓ B) Because the fiduciary already owns the underlying stock, making it an income strategy rather than speculation
+     C) Because dividend-paying stocks are exempt from fiduciary review
+     D) Because covered calls guarantee a profit
+   _Explanation:_ A covered call is written against stock the fiduciary already owns, capping some upside in exchange for premium income — it doesn't add leverage or uncapped risk the way uncovered (naked) options would. This makes it a conservative, income-oriented strategy rather than speculative activity.
+
+---
+
+## ERISA Protects Private-Sector Employees Only
+
+_id: `erisa-private-sector-coverage` · category: Regulations_
+
+**Analogy.** ERISA is like a building code that only applies to privately-owned buildings — government buildings run under their own separate set of rules entirely. Just because it's a federal law doesn't mean it reaches into federal, state, or local government workplaces.
+
+**Rule.** **ERISA (Employee Retirement Income Security Act)** sets minimum standards for **private-sector, employer-sponsored retirement plans** — covering things like vesting, funding, fiduciary duty, and disclosure. **Public sector (government) employees are generally exempt from ERISA** — they're covered by separate government pension systems instead. ERISA also does not govern IRAs (individually owned, not employer-sponsored) or institutions like banks and insurance companies (which are service providers, not the protected population).
+
+**Watch.** The trap is assuming 'federal law' automatically means government employees are covered — with ERISA, it's the opposite: public sector employees are specifically carved OUT, not the target of protection. Keep straight: ERISA = private-sector employees only.
+
+**Quiz.**
+
+1. ERISA, a federal retirement law, was created to protect which of the following?
+     A) Employees in the public sector
+     B) Individual retirement accounts (IRAs)
+   ✓ C) Employees in the private sector
+     D) Banks and insurance companies
+   _Explanation:_ ERISA sets standards for private-sector, employer-sponsored retirement plans. A: public sector employees are generally exempt from ERISA, covered by separate government pension systems instead — this is the classic trap. B: IRAs are individually owned, not employer-sponsored, and fall outside ERISA's core scope. D: banks and insurance companies are service providers, not the protected population.
+
+2. Which group is generally exempt from ERISA coverage?
+     A) Private company 401(k) participants
+   ✓ B) Public sector (government) employees
+     C) Private pension plan participants
+     D) All employer-sponsored plan participants
+   _Explanation:_ Government employees at the federal, state, and local level are generally exempt from ERISA, since they're covered under separate public pension systems rather than the private-sector framework ERISA regulates.
+
+---
+
+## ERISA Coverage — Which Plan Types Are Exempt
+
+_id: `erisa-plan-type-exemptions` · category: Regulations_
+
+**Analogy.** Think of ERISA coverage as a guest list with two separate doors. One card covers the front door — who's on the list based on WHO you work for (private vs. public sector). This card covers the back door — which plan TYPES are turned away no matter who's hosting. Deferred compensation is permanently turned away at that back door; a 403(b) sometimes gets in and sometimes doesn't, depending on the specific host.
+
+**Rule.** **Deferred compensation plans are never covered by ERISA, with no exceptions** — this exemption is precisely what gives them the flexibility to discriminate in favor of key employees (see the deferred comp card). By contrast, **defined benefit pensions and 401(k) plans are classic ERISA-covered qualified plans** (for private-sector employers). **403(b) plans are conditionally covered** — coverage depends on the specific employer and plan structure; some (particularly certain church or government-affiliated 403(b)s) are exempt, while others are ERISA-covered.
+
+**Watch.** Don't confuse 'sometimes exempt' with 'never covered.' A question asking which plan would 'NEVER' be covered demands a plan type that's excluded with zero exceptions — that's deferred compensation only. A 403(b) is a trap here because it CAN be exempt in some cases, but 'sometimes' isn't the same as 'never.'
+
+**Quiz.**
+
+1. Which of the following employer-sponsored plans would never be covered by ERISA?
+   ✓ A) Deferred compensation
+     B) Defined benefit pension
+     C) 401(k)
+     D) 403(b)
+   _Explanation:_ Deferred compensation plans are never ERISA-covered, with no exceptions — this exemption is what enables their flexibility to discriminate in favor of key employees. B and C: classic ERISA-covered qualified plans. D: 403(b) coverage is conditional, depending on the employer — some (like certain church or government-affiliated plans) are exempt, others are covered — so 403(b) doesn't fit 'never' covered.
+
+2. Why does a 403(b) plan not fit the description 'would never be covered by ERISA'?
+     A) Because all 403(b) plans are always ERISA-covered
+   ✓ B) Because ERISA coverage of a 403(b) depends on the specific employer/plan structure
+     C) Because 403(b) plans are identical to deferred compensation plans
+     D) Because 403(b) plans are only offered to government employees
+   _Explanation:_ 403(b) coverage varies by employer — some are ERISA-covered, others (such as certain church-affiliated or governmental 403(b)s) are exempt. Since it's conditional rather than absolute, it doesn't match a 'never covered' description the way deferred compensation does.
+
+---
+
 # Suitability
 
 ## Client Suitability & STRIPS
@@ -5108,6 +5220,34 @@ _id: `financial-vs-nonfinancial-considerations` · category: Suitability_
    ✓ C) A client's current tax bracket and liquidity needs
      D) A client's general personality-driven risk aversion
    _Explanation:_ Tax bracket and liquidity needs are quantifiable, dollars-and-cents factors — the hallmark of a financial consideration. The other three options all describe psychological, values-based, or experience-driven factors, which are nonfinancial.
+
+---
+
+## What Belongs in an Investment Policy Statement (IPS)
+
+_id: `investment-policy-statement-contents` · category: Suitability_
+
+**Analogy.** An IPS is the full game plan a coach hands the team before the season — expected performance targets, the overall strategy, and even the playbook for how specific plays will be run. What it's NOT is the players' paychecks — that's a separate conversation with a separate document.
+
+**Rule.** An Investment Policy Statement includes: **expected returns** of the recommended strategy and their expected range, **asset allocation** recommendations across asset classes, and the **strategies for selecting specific investments** (including stock selection and market-timing approach) within each asset class. It does NOT include **adviser fee disclosures** — compensation the adviser earns is disclosed separately, typically in **Form ADV Part 2** (the adviser's brochure), not in the IPS.
+
+**Watch.** Don't assume anything 'about investing' automatically belongs in the IPS — the real dividing line is investment strategy content (in) vs. business/compensation relationship content (out, goes in Form ADV Part 2). Specific security-selection strategy is still strategy — it belongs in the IPS. Fees are a conflict-of-interest disclosure — they don't.
+
+**Quiz.**
+
+1. An investment policy statement would likely include which of the following? I. Expected returns and their expected range. II. Recommended asset allocations. III. Strategies for selecting specific stocks in the equity portion. IV. Disclosure of fees the adviser will earn.
+     A) I only
+   ✓ B) I, II, and III
+     C) II, III, and IV
+     D) I and II
+   _Explanation:_ An IPS covers the full investment strategy: expected returns, asset allocation, and the approach to selecting specific investments within each class. Fee disclosure (IV) is excluded — that's handled separately, typically in Form ADV Part 2, since it concerns the adviser's compensation rather than investment strategy.
+
+2. Where would disclosure of an adviser's fees for implementing a strategy typically be found?
+     A) In the Investment Policy Statement
+   ✓ B) In Form ADV Part 2 (the adviser's brochure)
+     C) It does not need to be disclosed
+     D) In the client's account opening agreement only
+   _Explanation:_ Fee disclosures are a conflict-of-interest/compensation matter, handled in Form ADV Part 2, not the IPS. The IPS is scoped to investment strategy — returns, allocation, and security selection approach — not the business terms of the advisory relationship.
 
 ---
 
@@ -5530,6 +5670,314 @@ _id: `net-estate-calculation-waterfall` · category: Tax_
      C) Purchase price is used unless the asset has appreciated more than 50%
      D) FMV is only used for real estate, never for securities
    _Explanation:_ The gross estate reflects what the decedent's assets are actually worth at the time of death — that's the economic value being transferred, so FMV at death is the standard for essentially all estate assets, not just real estate. B and C invent rules that don't exist. D is wrong — FMV at death is the standard for securities too, not just real estate.
+
+---
+
+## Nonspouse Inherited IRA Options
+
+_id: `nonspouse-inherited-ira` · category: Tax_
+
+**Analogy.** A spouse who inherits an IRA can just move into the house and keep living there — same address, same title. A nonspouse beneficiary has to move the furniture into a new place with a new lease that says 'FBO' on the mailbox. They can never just keep living in the deceased's house.
+
+**Rule.** A nonspouse beneficiary must retitle the account — they cannot leave funds in an IRA still titled solely in the deceased owner's name. Options are: (1) take a lump-sum withdrawal immediately, (2) open a separate inherited IRA titled '[Deceased] FBO [Beneficiary]' and withdraw over the **10-year rule** (fully depleted by December 31 of the 10th year after death), in most cases. Only a **spouse** beneficiary can elect to treat the IRA as their own or roll it into their existing IRA.
+
+**Watch.** The trap is picking 'keep the money in the deceased's IRA' — that sounds passive and low-effort, which makes it tempting, but it's the one privilege reserved for spouses only. Nonspouse = must retitle, no exceptions.
+
+**Quiz.**
+
+1. When a nonspouse inherits an IRA, which of the following is NOT an available option?
+     A) Withdrawing all funds immediately
+     B) Withdrawing funds over a 10-year period
+   ✓ C) Keeping the money in the deceased's IRA
+     D) Opening a separate inherited IRA titled FBO the beneficiary
+   _Explanation:_ A nonspouse beneficiary can never leave assets in an account still titled solely in the deceased's name — retitling is mandatory. A: allowed, lump sum is always an option (with immediate tax consequences). B: allowed, this is the standard 10-year rule under the SECURE Act. D: allowed, this is in fact the required retitling format.
+
+2. Which beneficiary type is allowed to treat an inherited IRA as their own?
+     A) Any nonspouse beneficiary
+   ✓ B) Only a spouse beneficiary
+     C) Only a minor child of the deceased
+     D) Any beneficiary named in the deceased's will
+   _Explanation:_ Treating the IRA 'as their own' (rolling it in, or retitling with themselves as owner) is a privilege unique to spousal beneficiaries. A: nonspouse beneficiaries must instead use the FBO inherited IRA structure. C: minor children of the deceased are 'eligible designated beneficiaries' with special RMD timing, but they still don't get the spousal 'treat as own' option. D: relationship to the deceased, not will status, determines this.
+
+3. Mrs. Beech, age 52, inherits a traditional IRA from her mother. What will she most likely do with it?
+     A) Leave the funds in her mother's IRA, since she isn't 59½ yet
+   ✓ B) Cash out the IRA following the 10-year rule
+     C) Do a rollover of the funds into her own IRA
+     D) Take the cash now and avoid both the 10% penalty and income taxes
+   _Explanation:_ Mrs. Beech is a nonspouse beneficiary (daughter, not spouse), so she must retitle the account into an inherited IRA and follow the 10-year rule. A: confuses the 59½ early-withdrawal threshold (which applies to account owners) with the separate rule that nonspouse beneficiaries can never leave funds in the deceased's account. C: 'rollover into her own IRA' is a spousal-only privilege — the classic trap because it's correct in other contexts. D: no 10% penalty applies to inherited IRA distributions regardless of beneficiary age, but ordinary income tax is still owed on distributions, so this is only half right.
+
+---
+
+## 403(b) + 457 Plan Stacking for Public Employees
+
+_id: `403b-457-stacking` · category: Tax_
+
+**Analogy.** Think of retirement plan types as different keys on a keyring — a 401(k) key only opens doors at private companies. Public school teachers and government employees get a different keyring entirely: a 403(b) key AND a 457 key, and unlike most retirement plan combos, they can use BOTH doors on the same building in the same year.
+
+**Rule.** Public sector and nonprofit employees (like teachers) are eligible for **403(b) plans**, and government employees may also have access to **457(b) plans**. Critically, 403(b) and 457 plans have **separate, independent contribution limits** — unlike most plan combinations, maxing one does NOT reduce room in the other. An employee eligible for both can contribute the full limit to each plan in the same year, roughly doubling total tax-advantaged retirement savings.
+
+**Watch.** The trap is picking '403(b) and an IRA' — that's a real combo, but it doesn't **maximize** savings the way 403(b)+457 does, since the IRA limit is much smaller. Also remember: 401(k) plans are generally NOT available to public sector employees (like public school teachers) — that's a private-sector plan.
+
+**Quiz.**
+
+1. Mary teaches physics at a public high school and earns $70,000/year. Which combination would maximize her annual retirement savings?
+     A) A 403(b) plan and an IRA
+   ✓ B) A 403(b) plan and a 457 plan
+     C) An employer-funded 401(k) plan
+     D) A 403(b) plan alone
+   _Explanation:_ 403(b) and 457 plans have independent contribution limits that don't offset each other, so a public employee eligible for both can max out each separately — the largest total. A: 403(b)+IRA is valid but the IRA limit is much smaller than a 457's, so it doesn't maximize. C: 401(k) plans are generally unavailable to public sector employees. D: leaves an entire additional tax-advantaged vehicle (the 457) unused.
+
+2. Why can an eligible employee contribute the full limit to BOTH a 403(b) and a 457 plan in the same year?
+     A) Because 457 plans have no contribution limit
+   ✓ B) Because the two plans have separate, independent contribution limits
+     C) Because the IRS grants an automatic waiver for teachers
+     D) Because 457 contributions don't count as retirement savings
+   _Explanation:_ Unlike most retirement plan combinations (e.g., 403(b) and Traditional IRA sharing considerations around deductibility), 403(b) and 457 plans are treated as separate limits, not a combined cap. A: 457 plans do have a contribution limit, just tracked separately. C/D: not real rules — invented distractors.
+
+---
+
+## 529 Plan vs. Coverdell ESA
+
+_id: `529-vs-coverdell` · category: Tax_
+
+**Analogy.** A Coverdell ESA is a small parking meter — limited contributions per year, and the meter runs out (funds must be used) by the time the beneficiary turns 30. A 529 plan is a full parking garage — much higher capacity, no age-based expiration, and anyone can pull in and pay for a spot regardless of how much they earn.
+
+**Rule.** 529 plans beat Coverdell ESAs in three ways: **(1) contribution limits** — Coverdell caps at $2,000/year per beneficiary, while 529s allow very high lifetime limits (often $300,000+); **(2) age limits** — Coverdell contributions must stop at beneficiary age 18 and funds generally must be used by age 30, while 529s have no age restrictions; **(3) donor income limits** — Coverdell contributions phase out for high-MAGI donors, while 529s have no income limit on contributors.
+
+**Watch.** Financial aid treatment is NOT a differentiator — a parent-owned 529 and a parent-owned Coverdell ESA are both counted as a parental asset under FAFSA, assessed at the same low rate. Beneficiary changes to another family member are ALSO not a differentiator — both plans allow this. If a question lists 'better financial aid treatment,' 'federal tax deduction,' or 'beneficiary changes' as a 529-only advantage over Coverdell, that's the trap — treat 'except'/'advantage' questions by asking whether the trait is actually unique to 529s, not just true of them.
+
+**Quiz.**
+
+1. Each of the following is an advantage of a 529 plan over a Coverdell ESA EXCEPT
+     A) The 529 plan allows for higher contribution levels
+     B) The 529 plan has no age limits
+   ✓ C) The 529 plan is counted at a lower percentage of assets when applying for financial aid
+     D) The 529 plan has no earnings limitation on the donor
+   _Explanation:_ A parent-owned 529 and parent-owned Coverdell ESA receive the same FAFSA treatment (parental asset, same assessment rate), so this isn't a distinguishing advantage. A: true — Coverdell caps at $2,000/year vs. 529's much higher limits. B: true — Coverdell requires funds to be used by age 30; 529 has no such limit. D: true — Coverdell has MAGI-based contributor phase-outs; 529 does not.
+
+2. A high-income donor wants to contribute the maximum possible amount to a child's education account in a single year. Which vehicle allows this without income restriction?
+     A) Coverdell ESA only
+   ✓ B) 529 plan only
+     C) Both equally
+     D) Neither — both have income phase-outs
+   _Explanation:_ 529 plans have no donor income limit, so a high earner can contribute freely. Coverdell ESAs phase out contribution eligibility based on the donor's MAGI, which would restrict or eliminate a high earner's ability to contribute.
+
+3. One advantage of using a Section 529 plan rather than a Coverdell ESA to fund higher education is
+   ✓ A) There is no age limit by which time the funds must be used
+     B) Contributions to a 529 plan are deductible on the donor's federal income tax return, while ESA contributions are not
+     C) The 529 allows you to change the beneficiary to another member of the beneficiary's family
+     D) The 529 plan is a security while the ESA is not
+   _Explanation:_ 529 plans have no age limit for using the funds, while Coverdell ESAs generally require funds to be used by age 30 — a genuine differentiating advantage. B: false premise — neither 529 nor Coverdell contributions are deductible on the federal return (only some states offer a state-level 529 deduction). C: not a differentiator — Coverdell ESAs also allow changing the beneficiary to another family member, so both plans share this feature. D: true as a technical classification, but being 'a security' isn't a benefit to the account holder, just a structural distinction.
+
+---
+
+## Defined Benefit vs. Defined Contribution Plans
+
+_id: `db-vs-dc-plans` · category: Tax_
+
+**Analogy.** A defined benefit plan is like a landlord promising you'll always have a 2-bedroom apartment when you retire, no matter what happens to the building's finances — the landlord (employer) eats the cost if things go wrong. A defined contribution plan is like being handed a fixed monthly rent budget and told to go find whatever apartment that money gets you — the outcome depends entirely on how well you (the employee) invest it.
+
+**Rule.** **Defined Benefit (DB):** the retirement *benefit* is fixed by formula — typically years of service × final average salary. The **employer bears the investment/shortfall risk** and must fund any gap between promised benefits and actual plan performance. This gives the employee reasonable certainty about their future retirement income. **Defined Contribution (DC):** the *contribution* is fixed, but the eventual payout depends on contributions plus investment performance — the **employee bears the investment risk**, with no guaranteed final amount.
+
+**Watch.** The exam loves swapping the two definitions and testing if you catch it — watch for a DC plan described with 'years of service and final salary' language (that's DB's formula) or a DB plan described as tied to 'contributions and investment performance' (that's DC's structure). Also remember: **shortfall risk sits with the employer in DB plans**, not the employee — a DB plan feels like a pension, a DC plan feels like a 401(k).
+
+**Quiz.**
+
+1. Which of the following statements is most accurate regarding employer-sponsored retirement plans?
+     A) The employee in a defined benefit plan bears the shortfall risk
+     B) In a defined contribution plan, payments received are related to years of service and final salary
+   ✓ C) In a defined benefit plan, the client can have reasonable certainty about the amount of income received in retirement
+     D) In a defined benefit plan, payments provided are related to contributions made and investment performance achieved
+   _Explanation:_ DB plans promise a formula-based benefit, giving employees predictability about retirement income. A: backwards — the employer, not the employee, bears shortfall risk in a DB plan. B: describes a DB plan's formula but mislabels it as DC. D: describes a DC plan's structure but mislabels it as DB.
+
+2. In which type of plan does the employee bear the investment risk?
+     A) Defined benefit plan only
+   ✓ B) Defined contribution plan only
+     C) Both plan types equally
+     D) Neither — the plan sponsor always bears investment risk
+   _Explanation:_ In a DC plan, the payout depends entirely on contribution amounts and investment performance, so the employee bears that risk directly. In a DB plan, the employer guarantees a formula-based benefit and must cover any shortfall, so the risk sits with the employer, not the employee.
+
+3. In general, in a defined benefit plan, the pension to be received upon retirement is based on the number of years of service and the individual's
+     A) Life expectancy
+     B) Current salary
+   ✓ C) Final average salary
+     D) Agreed salary
+   _Explanation:_ DB plan formulas are built on two inputs: years of service and final average salary (typically averaging the last 3-5 years). A: life expectancy is relevant elsewhere in retirement planning (e.g., annuity payout or RMD calculations), but it's not part of the DB benefit formula itself. B: 'current salary' is too narrow — the formula uses the final average, not an arbitrary current figure. D: 'agreed salary' isn't a real term used in DB plan formulas.
+
+---
+
+## Deferred Compensation Plans — Retaining Key Employees
+
+_id: `deferred-comp-key-employees` · category: Tax_
+
+**Analogy.** A qualified plan like a 401(k) or defined benefit plan is a buffet — by law, every eligible employee has to get access to roughly the same spread. A nonqualified deferred compensation plan is a private reserved table — the employer can hand-pick exactly who gets invited, which is exactly what you want when the goal is rewarding and retaining a handful of key people.
+
+**Rule.** A **nonqualified deferred compensation plan** lets an employer **discriminate** — offering the benefit only to select key employees or executives, rather than the broad-based employee population required under qualified plans (like 401(k)s, SEP IRAs, or defined benefit plans, which must follow nondiscrimination rules). Because of this discrimination allowance, deferred compensation plans are the go-to choice specifically for **retaining key employees**. In exchange for this flexibility, the employer's tax deduction is delayed until the employee actually recognizes the income (typically at payout).
+
+**Watch.** Don't reach for defined benefit plans here — DB plans are the right answer when a question is about providing **maximum benefits to older employees** (since DB formulas reward long service and high final salary), not about **selectively rewarding specific key people**. The trigger phrase 'retain key employees' should point you toward deferred compensation, not DB.
+
+**Quiz.**
+
+1. An employer wishing to offer a retirement plan with the goal of retaining key employees would probably start with
+     A) A defined benefit plan
+     B) A payroll deduction plan
+     C) A SEP IRA
+   ✓ D) A deferred compensation plan
+   _Explanation:_ Deferred compensation plans allow the employer to discriminate, offering benefits only to select key employees — ideal for targeted retention. A: defined benefit plans are the answer for maximizing benefits to older employees, not selectively retaining key people, and must generally follow nondiscrimination rules. B/C: payroll deduction plans and SEP IRAs are broad-based, nondiscriminatory vehicles, not tools for singling out key employees.
+
+2. Why can't a SEP IRA be used to selectively reward only a company's key executives?
+     A) SEP IRAs are too expensive for employers to fund
+   ✓ B) SEP IRAs are subject to nondiscrimination rules covering eligible employees broadly
+     C) SEP IRAs can only be used by sole proprietors
+     D) SEP IRAs have no employer contribution component
+   _Explanation:_ Qualified and IRA-based employer plans like SEP IRAs must follow nondiscrimination rules, extending benefits across eligible employees rather than singling out a chosen few — this is exactly why nonqualified deferred compensation plans exist, to allow that selectivity.
+
+3. The employer does not get a current tax deduction when offering which of the following retirement plans?
+     A) Defined benefit plan
+     B) SIMPLE plan
+     C) Money purchase plan
+   ✓ D) Deferred compensation plan
+   _Explanation:_ Qualified plans (defined benefit, SIMPLE, money purchase) allow the employer to deduct contributions in the year made. Nonqualified deferred compensation plans follow a matching principle instead — the employer's deduction is delayed until the same year the employee actually recognizes the income (typically at payout), which is the tradeoff for the plan's flexibility to discriminate in favor of key employees.
+
+---
+
+## Qualified Pension Plan Requirements
+
+_id: `qualified-plan-requirements` · category: Tax_
+
+**Analogy.** Getting a plan 'qualified' by the IRS is like getting a restaurant certified for a health inspection — there's a fixed checklist of structural requirements (written procedures, fair treatment of all staff, clear rules about when things become official). What there ISN'T is a rule that the manager has to update the inspection paperwork every single month — that level of constant micromanagement isn't part of the certification.
+
+**Rule.** To earn tax-qualified status, a pension plan must: **(1) not discriminate** — benefits must be extended fairly across eligible employees, not just owners/executives; **(2) have a vesting schedule** — specifying when employer contributions become the employee's nonforfeitable property; **(3) be in writing** — a formal written plan document is required, not an informal arrangement.
+
+**Watch.** Watch for invented operational specifics like 'monthly account updates' — real qualified plan rules govern structure (nondiscrimination, vesting, written document) and periodic reporting like annual statements or Form 5500 filings, but there's no monthly update requirement. If an option adds a suspiciously specific timeframe not tied to a real rule you've studied, be skeptical.
+
+**Quiz.**
+
+1. Which of the following is (are) true regarding qualified pension plans? I. They must not discriminate. II. They must have a vesting schedule. III. They must be in writing. IV. Every month the employer must update the current status of all accounts.
+     A) I and III
+     B) III only
+   ✓ C) I, II, and III
+     D) I, II, III, and IV
+   _Explanation:_ Qualified plans must satisfy nondiscrimination rules, include a vesting schedule, and exist as a written plan document. There is no requirement for monthly account status updates — recordkeeping and disclosure follow other schedules (like annual statements and Form 5500 filings), not a monthly cadence.
+
+2. Why does a qualified plan need a vesting schedule?
+     A) To determine when the plan document must be rewritten
+   ✓ B) To determine when employer contributions become the employee's nonforfeitable property
+     C) To satisfy monthly reporting requirements
+     D) To determine which employees are permitted to discriminate
+   _Explanation:_ A vesting schedule sets the timeline for when an employee gains full, nonforfeitable ownership of employer-contributed funds. It has nothing to do with reporting cadence or discrimination rules — those are separate requirements.
+
+---
+
+## 529 Plan Superfunding — 5-Year Gift Tax Election
+
+_id: `529-superfunding-gift-tax` · category: Tax_
+
+**Analogy.** Normally you can only pour one year's worth of water into the gift-tax-free bucket at a time. A 529 plan hands you a special valve that lets you pour 5 years' worth in all at once — as long as you don't touch that bucket again for the donor for the next 5 years.
+
+**Rule.** A donor funding a 529 plan may elect to treat a lump-sum contribution as if made **evenly over 5 years**, allowing them to front-load **5x the annual gift tax exclusion** into the account gift-tax-free in a single year. For 2023, the annual exclusion was $17,000, so the superfunded maximum was **5 x $17,000 = $85,000** (or double that, $170,000, if a spouse consents to gift-splitting). This is a special rule unique to 529 plans — it doesn't exist for ordinary cash gifts.
+
+**Watch.** The annual exclusion amount changes periodically (it was $15,000 in earlier years, $17,000 in 2023) — from background context, please verify the current figure before your exam date. The *mechanism* (5-year front-loading) is the durable, testable concept; don't lock in a specific dollar figure without checking it's current. Also don't confuse this with the separate rule about gift tax triggering upon an irrevocable beneficiary change — that's a different 529 gift tax scenario.
+
+**Quiz.**
+
+1. A widower wants to fund a Section 529 plan for his daughter. Using 2023 figures, what is the maximum amount he may initially contribute without paying gift taxes?
+     A) An unlimited amount, because a gift only occurs upon an irrevocable beneficiary change
+     B) $15,000
+   ✓ C) $85,000
+     D) $160,000
+   _Explanation:_ The 5-year superfunding election allows 5 x the annual exclusion ($17,000 in 2023) = $85,000 gift-tax-free in one lump sum. A: misapplies a different 529 gift tax rule about beneficiary changes — initial contributions are still subject to exclusion limits. B: $15,000 was an outdated annual exclusion figure and also ignores the 5-year multiplier. D: doesn't match any correct calculation — gift-splitting with a spouse would produce $170,000, not $160,000, and this widower has no spouse to split with anyway.
+
+2. What happens to the 5-year superfunding maximum if the donor's spouse consents to gift-splitting?
+     A) It stays the same, spouses cannot gift-split for 529 contributions
+     B) It is cut in half
+   ✓ C) It doubles
+     D) It becomes unlimited
+   _Explanation:_ Gift-splitting allows a married couple to combine their individual annual exclusions, doubling the superfunded amount (e.g., $85,000 becomes $170,000 using 2023 figures).
+
+---
+
+## Net Unrealized Appreciation (NUA) on Employer Stock
+
+_id: `net-unrealized-appreciation-nua` · category: Tax_
+
+**Analogy.** Imagine buying a plant for $25 at a nursery, growing it inside a greenhouse (your 401(k)) until it's worth $125, then taking it home. NUA lets you pay tax on just the original $25 purchase price right away, and defer tax on all that greenhouse growth until you actually sell the plant — at which point that growth gets the friendlier long-term capital gains rate, no matter how long you've had it sitting on your porch.
+
+**Rule.** When taking a lump-sum distribution from a qualified plan that includes **employer stock**, a participant can elect **NUA treatment**, splitting the tax on that stock into two pieces: **(1) cost basis** — taxed as **ordinary income immediately**, in the year of distribution; **(2) net unrealized appreciation** (current value minus cost basis) — **not taxed at distribution**, and taxed as **long-term capital gain whenever the stock is later sold**, regardless of how long it's actually held after distribution.
+
+**Watch.** The trap options usually get the *structure* right but the *character* wrong — don't confuse NUA's appreciation with **short-term** capital gain. The entire point of the NUA election is that the appreciation automatically qualifies for **long-term** treatment, even if sold the very next day after distribution. Also don't apply ordinary income tax to the whole distribution (that's what happens WITHOUT electing NUA) or capital gains treatment to the whole amount (the cost basis portion is never capital gain).
+
+**Quiz.**
+
+1. A 401(k) holds company stock with a cost basis of $25,000, now worth $125,000. If the participant elects NUA treatment at distribution, what is the tax treatment?
+   ✓ A) Ordinary income on the $25,000 cost basis, long-term capital gain on the appreciation when sold
+     B) Ordinary income on the entire $125,000
+     C) Long-term capital gain on the entire $125,000
+     D) Ordinary income on the $25,000 cost basis, short-term capital gain on the appreciation when sold
+   _Explanation:_ NUA splits treatment: the $25,000 cost basis is taxed as ordinary income immediately, and the $100,000 appreciation is untaxed until sold, then taxed as long-term capital gain. B: this is what happens WITHOUT electing NUA — the whole distribution as ordinary income. C: ignores that the cost basis is always ordinary income, never capital gain. D: correctly splits basis vs. appreciation, but wrongly labels the appreciation as short-term — NUA appreciation always gets long-term treatment regardless of actual holding period.
+
+2. If a participant sells NUA stock the day after receiving the distribution, how is the appreciation portion taxed?
+     A) As short-term capital gain, since it was held for less than a year
+   ✓ B) As long-term capital gain, regardless of the actual holding period
+     C) As ordinary income, since it was sold so quickly
+     D) It is tax-free since it was sold immediately
+   _Explanation:_ One of the defining benefits of the NUA election is that the appreciation automatically receives long-term capital gain treatment whenever sold, with no minimum holding period required after distribution — this is what distinguishes it from normal capital gains rules.
+
+---
+
+## RMD Requirements Across Account Types
+
+_id: `rmd-account-types-still-working-exception` · category: Tax_
+
+**Analogy.** A traditional IRA's RMD clock starts ticking the moment you hit the required age, full stop — no snooze button. A qualified employer plan's RMD clock has a snooze button built in: if you're still working for that employer (and don't own 5%+ of the company), you can hit snooze until you actually retire.
+
+**Rule.** **Traditional IRAs** always require RMDs starting at the age specified by law, with no exceptions — including if the owner is still working. **Qualified employer-sponsored plans** (like 401(k)s) also require RMDs, but include a **'still-working exception'**: a non-5%-owner employee still employed by the plan sponsor past RMD age may generally delay RMDs from that plan until actual retirement. **Section 529 plans** have no RMD requirement at all. **Nonqualified annuities** (not held inside a qualified plan or IRA) also have no RMD requirement tied to age.
+
+**Watch.** Watch for wording like 'even when still working' attached to a qualified employer plan — that's testing whether you know the still-working exception exists. That exception does NOT apply to traditional IRAs; IRAs have no still-working carve-out at all. Also don't confuse annuities generally (no RMD) with annuities held inside an IRA/qualified plan (inherits RMD treatment from the wrapper).
+
+**Quiz.**
+
+1. The requirement to take a minimum distribution once the age specified by law has been reached is found in
+     A) A Section 529 plan
+   ✓ B) A traditional IRA
+     C) An index annuity
+     D) A qualified employer-sponsored plan, even when still working for that employer
+   _Explanation:_ Traditional IRAs require RMDs at the specified age with no exceptions. A: 529 plans have no RMD requirement at all. C: nonqualified annuities held outside a retirement plan wrapper have no age-based RMD requirement. D: this is the trap — qualified employer plans DO have RMDs, but include a still-working exception for non-owners still employed by the sponsor, making 'even when still working' false for this account type.
+
+2. Under the still-working exception, which employee could potentially delay RMDs from their employer's qualified plan past the required age?
+     A) A 10% owner of the company, still working there
+   ✓ B) A non-owner employee still working for the plan sponsor
+     C) Any IRA owner still working anywhere
+     D) A retired employee who still consults for the company part-time
+   _Explanation:_ The still-working exception applies to non-5%-owner employees who remain employed by the plan sponsor past RMD age, allowing them to delay RMDs from that specific plan until actual retirement. A: 5%+ owners are excluded from this exception. C: IRAs have no still-working exception at all. D: the exception requires still being an active employee, not a retired consultant.
+
+---
+
+## Kiddie Tax on Custodial Account Income
+
+_id: `kiddie-tax-utma-ugma` · category: Tax_
+
+**Analogy.** Think of the Kiddie Tax as a tollbooth with a small free pass — a child's investment income can travel a short distance toll-free and then at the child's own low toll rate, but once the income tries to cross past a set checkpoint, it gets rerouted onto the parent's tax highway and charged at the parent's rate instead. It doesn't matter if the child is 12 or 14 — the tollbooth doesn't care, only the age cutoff (under 19, or under 24 if a full-time student) matters.
+
+**Rule.** The **Kiddie Tax** applies to a child's **unearned income** (interest, dividends, capital gains — the typical income inside a UTMA/UGMA) when the child is **under age 19** (or under 24 if a full-time student). A small amount is tax-free, a next slice is taxed at the **child's own rate**, and any amount **above the threshold** (a combined figure the exam has used as $2,500) is taxed at the **parent's marginal tax rate** — regardless of which parent's child it is or the child's specific age under the cutoff.
+
+**Watch.** Don't get pulled into treating children of different ages differently just because the question presents an age gap (e.g., 12 vs. 14) — as long as both children are under the Kiddie Tax age threshold, the exact same rule applies to both equally. The age gap is a distractor, not a meaningful distinction.
+
+**Quiz.**
+
+1. Terry opens a UTMA for each of his sons, Josh (age 12) and Drake (age 14). Under current tax regulations, after deductions and exemptions, how will the income in the UTMAs be taxed? I. Josh's income is taxed at his tax rate. II. Drake's income is taxed at his tax rate. III. Josh's income in excess of $2,500 is taxed at Terry's marginal tax rate. IV. Drake's income in excess of $2,500 is taxed at Terry's marginal tax rate.
+     A) I and IV
+   ✓ B) III and IV
+     C) II and III
+     D) I and II
+   _Explanation:_ The Kiddie Tax applies identically to both boys since both are well under the age-19 threshold — the 2-year age gap between them is irrelevant. Income above the threshold is taxed at the parent's marginal rate for both children equally, making III and IV correct. I, II: incomplete as standalone statements, since only income up to the threshold is taxed at the child's own rate — income above it is not.
+
+2. Up to what age does the Kiddie Tax generally apply to a child's unearned income (assuming the child is not a full-time student)?
+     A) Under age 14
+     B) Under age 16
+   ✓ C) Under age 19
+     D) Under age 21
+   _Explanation:_ The Kiddie Tax generally applies to unearned income of a child under age 19, extended to under age 24 if the child is a full-time student. Ages 14 and 16 are not the relevant cutoffs tested here.
 
 ---
 

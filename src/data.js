@@ -7627,6 +7627,40 @@ export const CONCEPTS = [
         explain: "CAPM's expected return formula is: Risk-free rate + Beta x (Market return - Risk-free rate). Standard deviation is not part of this formula at all — it measures volatility, not the systematic risk relationship that CAPM and alpha are built around."
       }
     ]
+  },
+
+  {
+    id: "book-value-per-share-computation",
+    category: "Equities",
+    title: "Book Value Per Share — What Gets Subtracted from Net Worth",
+    color: "#7EC8A4",
+    analogy: "Net worth already had liabilities subtracted once when it was first calculated — like a bill that's already been paid. Book value per share asks two NEW questions on top of that: 'how much of this is stuff I can't actually sell in a fire sale' (intangible assets like patents) and 'how much has to go to preferred shareholders first, before common shareholders see a dime' (same priority-claim idea as EPS).",
+    rule: "**Book value per share = (Net worth − Intangible assets − Preferred stock) ÷ Common shares outstanding.** Net worth is already Total Assets − Total Liabilities, so **liabilities (like wages payable) are NOT subtracted again** — that would double-count them. What IS subtracted, on top of net worth: **intangible assets** (patents, goodwill, trademarks — items without a reliable liquidation value), and **preferred stock** (which has a priority claim ahead of common shareholders, the same logic used in the EPS calculation).",
+    watch: "Don't subtract liabilities (like wages payable) a second time — they're already factored into net worth itself. The two things that get carved out ON TOP of net worth are intangible assets and preferred stock — cash and other tangible assets are never subtracted, since they're already counted as part of net worth's asset side.",
+    quiz: [
+      {
+        q: "One measure of a corporation's liquidation value is its book value per share. When performing this computation, the value of which of the following would normally be subtracted from the corporation's net worth? I. Cash. II. Wages payable. III. Patents. IV. Preferred stock.",
+        options: [
+          "I and II",
+          "III and IV",
+          "I and IV",
+          "II and III"
+        ],
+        answer: 1,
+        explain: "Intangible assets (patents) and preferred stock are subtracted from net worth to arrive at book value available to common shareholders. Wages payable (a liability) is already factored into net worth's calculation (Assets - Liabilities), so subtracting it again would double-count it. Cash is an asset, not something subtracted at all."
+      },
+      {
+        q: "Why are intangible assets like patents subtracted when calculating book value per share?",
+        options: [
+          "Because patents are liabilities",
+          "Because intangible assets don't have a reliable liquidation value",
+          "Because patents are already counted in liabilities",
+          "Because only preferred shareholders benefit from patents"
+        ],
+        answer: 1,
+        explain: "Book value per share is meant to reflect liquidation value — what shareholders would realistically receive if the company's assets were sold off. Intangible assets like patents typically can't be reliably converted to cash in a liquidation scenario, so they're excluded from the calculation."
+      }
+    ]
   }
 ];
 

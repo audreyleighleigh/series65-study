@@ -7525,6 +7525,40 @@ export const CONCEPTS = [
         explain: "IRR, like NPV, is built on discounting future cash flows — it's the rate at which the present value of those future cash flows equals the investment's current price/cost. Beta and Sharpe ratio are risk measures, and the Rule of 72 is a quick doubling-time estimate, not a formal discounted cash flow computation."
       }
     ]
+  },
+
+  {
+    id: "dividend-yield-annualizing",
+    category: "Equities",
+    title: "Dividend Yield — Don't Forget to Annualize",
+    color: "#7EC8A4",
+    analogy: "Dividend yield is always quoted like an annual salary, not a paycheck-by-paycheck number. If someone tells you their weekly paycheck, you multiply by 52 before comparing it to someone else's annual salary — same idea here: if you're given a quarterly dividend, multiply by 4 before dividing by the share price.",
+    rule: "**Dividend yield = Annual dividend per share ÷ current share price.** When a dividend is given as a quarterly (or monthly) figure, it must be **annualized first** before dividing by price: quarterly dividend × 4 = annual dividend (or monthly dividend × 12 = annual dividend). Skipping this step and dividing the quarterly/monthly figure directly by price produces a yield that's 4x (or 12x) too small.",
+    watch: "The classic trap answer is dividing the QUARTERLY dividend directly by the share price without annualizing first — this produces a yield exactly 1/4 the size of the correct answer. Always check whether the dividend given is quarterly, monthly, or already annual before calculating.",
+    quiz: [
+      {
+        q: "Moonglow Specialties, Inc., is paying a quarterly dividend per share of $0.05. Based on a current share price of $10, the dividend yield is closest to",
+        options: [
+          "2.00%",
+          "20.00%",
+          "0.50%",
+          "1.25%"
+        ],
+        answer: 0,
+        explain: "First annualize: $0.05 x 4 quarters = $0.20 annual dividend. Then divide by price: $0.20 / $10 = 2.00%. C (0.50%) is the trap answer — it results from dividing the quarterly dividend directly by price without annualizing first."
+      },
+      {
+        q: "A stock pays a monthly dividend of $0.10 per share and trades at $24. What is the annual dividend yield?",
+        options: [
+          "0.42%",
+          "5.00%",
+          "1.20%",
+          "10.00%"
+        ],
+        answer: 1,
+        explain: "Annualize first: $0.10 x 12 months = $1.20 annual dividend. Then divide by price: $1.20 / $24 = 5.00%. A (0.42%) is the trap answer from dividing the monthly figure directly by price without annualizing."
+      }
+    ]
   }
 ];
 

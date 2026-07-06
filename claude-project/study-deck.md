@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 173 concept cards across 9 categories._
+_Auto-generated from src/data.js. 189 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,14 +15,14 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (10 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation
+- **Bonds** (11 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
-- **Equities** (12 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects
+- **Equities** (15 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS)
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
-- **Regulations** (81 cards): Affiliate Status & Rule 144 · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt
-- **Suitability** (6 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS)
-- **Tax** (22 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income
+- **Regulations** (84 cards): Affiliate Status & Rule 144 · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will
+- **Suitability** (8 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power
+- **Tax** (29 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period
 
 ---
 
@@ -744,6 +744,34 @@ _id: `owners-equity-accounting-equation` · category: Bonds_
 
 ---
 
+## Risks Most Associated with U.S. Treasury Bonds
+
+_id: `treasury-bond-associated-risks` · category: Bonds_
+
+**Analogy.** A U.S. Treasury bond is like the safest, easiest-to-sell used car on the lot — nobody worries it'll break down (credit risk) or that it'll be hard to find a buyer (liquidity risk). But it still has to deal with gas prices changing over time (interest rate risk) and the driver eventually having to refuel at whatever the going rate is when the tank runs low (reinvestment risk).
+
+**Rule.** U.S. Treasury bonds are defined by having **minimal credit risk** (backed by the full faith and credit of the U.S. government, the benchmark for zero default risk) and **minimal liquidity risk** (the deepest, most actively traded bond market that exists). The risks that DO meaningfully apply to Treasuries are **interest rate risk** (as long-duration, fixed-rate instruments, their prices move inversely with rate changes) and **reinvestment risk** (coupon payments and eventual maturity proceeds must be reinvested at whatever rates prevail at that future time, which may be lower).
+
+**Watch.** Don't reach for credit risk or liquidity risk when a question asks what risk is MOST associated with a Treasury — those are precisely the risks Treasuries are known for having the LEAST of. The correct pairing almost always points to interest rate risk and reinvestment risk instead.
+
+**Quiz.**
+
+1. Which 2 risks are most associated with a U.S. Treasury bond? I. Credit risk. II. Liquidity risk. III. Reinvestment risk. IV. Interest rate risk.
+   ✓ A) III and IV
+     B) I and IV
+     C) II and III
+     D) I and II
+   _Explanation:_ Treasuries are defined by minimal credit risk (government-backed) and minimal liquidity risk (highly liquid market), making I and II the wrong pairing. Interest rate risk (as a long-duration, fixed-rate instrument) and reinvestment risk (future coupon/principal reinvestment at uncertain future rates) are the risks that genuinely apply to Treasuries.
+
+2. Why is credit risk considered minimal for U.S. Treasury bonds?
+     A) Because Treasuries have no fixed interest rate
+   ✓ B) Because Treasuries are backed by the full faith and credit of the U.S. government
+     C) Because Treasuries cannot be traded on the secondary market
+     D) Because Treasuries mature very quickly
+   _Explanation:_ Treasuries are backed by the U.S. government's taxing authority and credit, making them the benchmark for essentially zero default/credit risk in the bond market — a key reason they're used as the risk-free rate reference point in finance.
+
+---
+
 # Derivatives
 
 ## Put Options: Rights, Obligations & Strategies
@@ -1256,6 +1284,90 @@ _id: `cash-dividend-accounting` · category: Equities_
    ✓ C) Shareholders' equity already decreased at the declaration date when retained earnings were reduced
      D) Only stock dividends affect shareholders' equity, not cash dividends
    _Explanation:_ When the dividend was declared, retained earnings were debited — reducing shareholders' equity at that point. By the time payment occurs, that equity reduction is already on the books. The payment entry only removes the liability (dividends payable) and reduces cash, leaving equity untouched. Cash dividends absolutely do affect equity — just at declaration, not payment.
+
+---
+
+## Why Utilities Are Most Sensitive to Rising Interest Rates
+
+_id: `utilities-interest-rate-sensitivity` · category: Equities_
+
+**Analogy.** A utility stock behaves a lot like a bond wearing a stock costume — investors buy it mainly for the steady dividend 'coupon,' and the company itself is loaded with debt like someone who financed their whole house, car, and furniture. When interest rates rise, both the bond costume and the debt load work against it at the same time — its yield gets less competitive, and its loan payments get pricier.
+
+**Rule.** **Utility stocks are the industry most sensitive to rising interest rates**, for two combined reasons: **(1)** they're typically purchased as income/yield investments (similar to bonds), so rising rates make competing income vehicles more attractive, pushing utility stock prices down — the same mechanism that causes bond prices to fall when rates rise; **(2)** utilities are among the **most highly leveraged** industries (due to massive infrastructure capital needs), so rising rates substantially increase their debt servicing costs, directly squeezing earnings.
+
+**Watch.** Don't confuse interest-rate sensitivity with general economic-cycle sensitivity — cyclical industries (like steel) respond to growth/recession swings, not specifically to rate moves. Defensive industries are the least economically sensitive overall, the opposite of what's being tested. When a question specifically asks about INTEREST RATE sensitivity (not the economy broadly), utilities is almost always the answer.
+
+**Quiz.**
+
+1. The Federal Reserve Board has just taken action leading to an increase in interest rates. Which of the following industries is most likely to be affected adversely by this action?
+     A) Heavy industries such as steel
+     B) Cyclical industries
+     C) Defensive industries
+   ✓ D) Utilities
+   _Explanation:_ Utilities are uniquely rate-sensitive because they're bought as income/yield investments (like bond proxies) and are among the most heavily leveraged industries, so rising rates both reduce their relative appeal versus other income vehicles and increase their debt servicing costs. A and B are sensitive to economic cycles generally, not specifically singled out by rate moves. C: defensive industries are the least sensitive to economic swings overall.
+
+2. Why are utility stocks often described as 'bond proxies'?
+     A) Because they are legally classified as bonds
+   ✓ B) Because they are typically bought for steady income/yield, similar to why investors buy bonds
+     C) Because they have no equity risk at all
+     D) Because they are exempt from stock market regulations
+   _Explanation:_ Utility stocks attract income-focused investors much like bonds do, due to their typically steady dividends. This is why utility stock prices react to interest rate changes in a way similar to bond prices — when rates rise, their relative income appeal declines.
+
+---
+
+## Risk Profile of Common Stock — What's Present, What's Not
+
+_id: `common-stock-risk-profile` · category: Equities_
+
+**Analogy.** Owning common stock is like owning a piece of a business, not lending it money — so there's no IOU that can be defaulted on (no credit risk). If that stock trades on a major exchange like the NYSE, it's sitting in a busy, well-trafficked marketplace where buyers and sellers are always around (minimal liquidity risk). What you DO carry is exposure to how well that specific business runs (business risk) and, for certain industries like pharmaceuticals, exposure to government rulebooks that can change the game overnight (regulatory risk).
+
+**Rule.** **Common stock never carries credit risk** — credit risk applies only to debt obligations, and stock represents ownership, not a loan. **Exchange-listed stock (NYSE, Nasdaq) is generally NOT considered to carry significant liquidity risk** — as a general exam rule, these markets are considered sufficiently deep and actively traded. **Business risk applies to all common stock** — every company faces the risk of its own operational/competitive failure. **Regulatory risk** is elevated for specific heavily-regulated industries, with pharmaceuticals being a textbook example (FDA approval, drug safety, pricing regulation).
+
+**Watch.** Two absolutes to hold onto: common stock = NEVER credit risk, and exchange-listed stock = NOT significant liquidity risk (as a general exam rule). If an answer choice pairs common stock with either of these, it's very likely wrong. Watch for industry-specific regulatory risk call-outs — pharma, banking, and utilities are common examples.
+
+**Quiz.**
+
+1. The common stock of the XYZ Pharmaceutical Corporation, listed on the NYSE, is likely to be subject to: I. Business risk. II. Credit risk. III. Liquidity risk. IV. Regulatory risk.
+   ✓ A) I and IV
+     B) III and IV
+     C) II and III
+     D) I and II
+   _Explanation:_ All common stock carries business risk, and pharmaceutical companies specifically carry elevated regulatory risk (FDA approval, drug regulation). Common stock never has credit risk since there's no debt obligation (eliminating II). NYSE-listed stock is not considered to carry significant liquidity risk as a general exam rule (eliminating III).
+
+2. Why does common stock never carry credit risk?
+     A) Because stock prices never decline
+   ✓ B) Because credit risk only applies to debt obligations, and stock represents ownership, not a loan
+     C) Because all stocks are government-insured
+     D) Because credit risk only applies to bonds rated below investment grade
+   _Explanation:_ Credit risk is the risk of default on a debt obligation. Common stock represents an ownership stake with no promise of repayment, so there's no debt to default on — credit risk simply doesn't apply to equity ownership.
+
+---
+
+## Earnings Per Share (EPS)
+
+_id: `eps-basics` · category: Equities_
+
+**Analogy.** Imagine a company's profit as a pizza. Before common shareholders get a slice, the preferred shareholders get their fixed portion cut out first (their dividend) — whatever's left over gets divided among the common shareholders' plates. EPS is simply the size of one common shareholder's slice.
+
+**Rule.** **EPS = (Net Income − Preferred Dividends) ÷ Weighted Average Common Shares Outstanding.** Preferred dividends are subtracted from net income FIRST, since preferred shareholders have a priority claim on earnings — what remains is called 'earnings available to common shareholders,' which is the actual numerator for EPS. The denominator counts only common shares; preferred shares are never included, since EPS is specifically a per-common-share metric.
+
+**Watch.** Don't forget to subtract preferred dividends before dividing — a common mistake is treating net income itself as the numerator. Any change that increases preferred dividends (like issuing more preferred stock) will reduce EPS even if net income stays the same or rises slightly, since more is being carved out before common shareholders get their share.
+
+**Quiz.**
+
+1. What is subtracted from net income before calculating EPS?
+     A) Common stock dividends
+   ✓ B) Preferred stock dividends
+     C) Interest expense
+     D) Operating expenses
+   _Explanation:_ Preferred dividends are subtracted from net income to arrive at 'earnings available to common shareholders,' the numerator used in the EPS calculation. Interest expense and operating expenses are already factored in earlier, when net income itself is calculated.
+
+2. If a company issues additional preferred stock (increasing its preferred dividend obligation) while net income and common shares outstanding stay the same, what happens to EPS?
+     A) EPS increases
+   ✓ B) EPS decreases
+     C) EPS stays the same
+     D) Cannot be determined
+   _Explanation:_ A larger preferred dividend means more is subtracted from net income before dividing among common shares, shrinking the numerator while the denominator (common shares) stays the same — so EPS decreases.
 
 ---
 
@@ -5053,6 +5165,97 @@ _id: `erisa-plan-type-exemptions` · category: Regulations_
 
 ---
 
+## Requirements for a Fiduciary to Trade Options in a Trust
+
+_id: `fiduciary-options-trading-trust` · category: Regulations_
+
+**Analogy.** A trustee's authority is like a key that only opens doors the trust document specifically cut it for. Even if the trustee has the 'options trading' key, they still have to check that the room behind that door (the trust's objectives) actually makes sense to walk into. No outside party — like a broker-dealer — hands out that key; it comes only from the trust agreement itself.
+
+**Rule.** For a fiduciary (trustee) to trade options in a trust account, two conditions must both be met: **(1) the trust agreement itself must explicitly grant the trustee the power to trade options** — authority comes from the governing document, not from any outside party; **(2) the trust's investment objectives must be compatible with options trading** — the specific strategy must fit the trust's stated goals and risk parameters, the normal prudence layer applied to any fiduciary decision.
+
+**Watch.** A broker-dealer does NOT have the authority to grant or determine special permission for a trust to trade options — that authority lives solely in the trust document. Also watch for any answer suggesting a fiduciary is restricted to (or permitted only) uncovered/naked options — that's backwards; uncovered options carry unlimited risk, the opposite of what a prudent fiduciary standard would favor as a mandated strategy.
+
+**Quiz.**
+
+1. Which of the following circumstances must be met for a fiduciary to trade options in a trust account? I. Special circumstances determined by the broker-dealer. II. The trust agreement states the trustee has the power to trade options. III. The trust's investment objectives are determined to be compatible with options trading. IV. Only uncovered call options may be traded by a fiduciary.
+     A) II and IV
+     B) I and III
+     C) I and IV
+   ✓ D) II and III
+   _Explanation:_ A fiduciary needs explicit authority from the trust agreement to trade options (II), and the strategy must be compatible with the trust's investment objectives (III). I is wrong because authority comes from the trust document, not the broker-dealer. IV is wrong and backwards — there's no rule limiting fiduciaries to uncovered options, which would actually be a riskier, less fiduciary-appropriate choice.
+
+2. Who has the authority to grant a trustee the power to trade options in a trust account?
+     A) The broker-dealer handling the trust's account
+   ✓ B) The trust agreement itself
+     C) FINRA, on a case-by-case basis
+     D) Any co-trustee, verbally
+   _Explanation:_ A trustee's authority to trade options must come from the governing trust document. A broker-dealer can ensure suitability and paperwork are in order, but cannot grant the fiduciary authority itself.
+
+---
+
+## ERISA Section 404(c) Safe Harbor Requirements
+
+_id: `erisa-404c-safe-harbor` · category: Regulations_
+
+**Analogy.** Think of 404(c) safe harbor as a liability shield the plan trustee earns by handing participants the steering wheel and a full dashboard — control over where the money goes, plus clear readouts on risk and performance for every option. What it doesn't require is a giant menu of exactly 10 dishes or a change-your-order-anytime policy — just at least 3 real choices and a chance to switch quarterly.
+
+**Rule.** To comply with ERISA Section 404(c) safe harbor, a 401(k) trustee must: **(1) allow participants to exercise control over their own investments**, and **(2) provide participants with information relating to the risks and performance of each investment alternative offered**. The actual minimums are **at least 3 investment alternatives** (not 10) and the ability to change investment options **no less frequently than quarterly** (not monthly). This is fundamentally a **fiduciary responsibility** provision — it defines when a trustee is shielded from liability for investment losses resulting from a participant's own investment choices, not a tax qualification, eligibility, or distribution rule.
+
+**Watch.** Watch for inflated numbers — '10 alternatives' and 'monthly changes' both sound plausible but overstate the real minimums of 3 alternatives and quarterly changes. Also remember what 404(c) is fundamentally ABOUT: fiduciary liability protection, not tax qualification, eligibility requirements, or distribution options.
+
+**Quiz.**
+
+1. To comply with the safe harbor requirements of Section 404(c) of ERISA, the trustee of a 401(k) plan must: I. Offer at least 10 different investment alternatives. II. Allow plan participants to exercise control over their investments. III. Allow participants to change investment options no less frequently than monthly. IV. Provide participants with information relating to the risks and performance of each investment alternative offered.
+     A) I and IV
+     B) II and III
+   ✓ C) II and IV
+     D) I and III
+   _Explanation:_ 404(c) safe harbor requires participant control over investments (II) and risk/performance disclosure for each alternative (IV). The actual numeric minimums are 3 alternatives (not 10 as in I) and quarterly changes (not monthly as in III).
+
+2. What is the minimum number of investment alternatives and change frequency required under 404(c) safe harbor?
+     A) 10 alternatives, monthly changes
+   ✓ B) 3 alternatives, quarterly changes
+     C) 5 alternatives, annual changes
+     D) No minimum number, changes anytime
+   _Explanation:_ The actual 404(c) minimums are at least 3 investment alternatives and the ability to change options no less frequently than quarterly.
+
+3. Section 404(c) of ERISA deals with
+     A) Tax qualification of the plan
+     B) Eligibility requirements
+   ✓ C) Fiduciary responsibilities
+     D) Distribution options
+   _Explanation:_ 404(c) is a safe harbor provision that shields plan fiduciaries from liability for investment losses when participants are given control over their own investments and adequate risk/performance information — a fiduciary responsibility framework. A: tax qualification is governed by separate rules (nondiscrimination, vesting, written plan document). B: eligibility requirements fall under different ERISA provisions. D: 404(c) doesn't address how or when money is distributed from the plan.
+
+---
+
+## Beneficiary Designations Bypass Probate & the Will
+
+_id: `beneficiary-designation-bypasses-probate` · category: Regulations_
+
+**Analogy.** A named beneficiary on a 401(k), IRA, or life insurance policy is like a direct-deposit instruction that overrides everything else on file — it doesn't matter what the will says, and it doesn't get routed through the slow probate 'processing center.' The money goes straight to whoever's name is on that beneficiary line.
+
+**Rule.** Qualified retirement plans (401(k)s, IRAs) and life insurance policies typically require a **named beneficiary designation**. At the participant's death, proceeds pass **directly to the designated beneficiary**, completely **bypassing probate**, and **regardless of what the will states**. The beneficiary designation controls, full stop — the will only governs assets that lack a designated beneficiary or joint owner.
+
+**Watch.** Watch for answer choices that correctly identify 'no probate' but incorrectly default control to the will, or that correctly identify the beneficiary but incorrectly route it through probate anyway. The right answer needs BOTH pieces right: beneficiary controls AND no probate. This is the same 'will-substitute' logic that applies to life insurance and other named-beneficiary assets.
+
+**Quiz.**
+
+1. When a participant in a 401(k) plan dies before retirement, the proceeds are distributed
+     A) According to the terms of the will after going through probate
+   ✓ B) To the designated beneficiary without going through probate
+     C) To the designated beneficiary after going through probate
+     D) According to the terms of the will without going through probate
+   _Explanation:_ The named beneficiary controls distribution, and the funds bypass probate entirely — similar to a life insurance policy. A: wrong on both counts — ignores the beneficiary designation and wrongly requires probate. C: correctly identifies the beneficiary but wrongly requires probate. D: correctly skips probate but wrongly defaults control to the will instead of the beneficiary designation.
+
+2. Which type of asset passes to heirs based on a beneficiary designation rather than the terms of a will?
+     A) Real estate titled solely in the deceased's name
+     B) A checking account with no listed beneficiary
+   ✓ C) A 401(k) plan with a named beneficiary
+     D) Personal property not otherwise designated
+   _Explanation:_ A 401(k) with a named beneficiary is a 'will-substitute' asset — it passes by contract directly to the beneficiary, bypassing probate and the will entirely. The other options are examples of assets that typically DO pass through the will/probate process, since they lack a beneficiary designation.
+
+---
+
 # Suitability
 
 ## Client Suitability & STRIPS
@@ -5248,6 +5451,69 @@ _id: `investment-policy-statement-contents` · category: Suitability_
      C) It does not need to be disclosed
      D) In the client's account opening agreement only
    _Explanation:_ Fee disclosures are a conflict-of-interest/compensation matter, handled in Form ADV Part 2, not the IPS. The IPS is scoped to investment strategy — returns, allocation, and security selection approach — not the business terms of the advisory relationship.
+
+---
+
+## Asset Allocation Under High Inflation Expectations
+
+_id: `inflation-asset-allocation` · category: Suitability_
+
+**Analogy.** A bond's fixed coupon is like a gift card with a dollar amount frozen in time — as prices rise around it, that frozen amount buys less and less. Equities, real estate, and commodities are more like a paycheck that can get renegotiated upward as the cost of everything else climbs — they tend to keep pace with, or even benefit from, inflation instead of being eroded by it.
+
+**Rule.** When inflation expectations rise, **reduce fixed-income exposure** — bonds pay fixed dollar amounts, so rising inflation erodes their real purchasing power. Simultaneously, **increase exposure to equities, tangible assets (real estate, precious metals), and commodities** — these asset classes tend to rise alongside inflation, since companies can often raise prices/earnings and hard assets are frequently the very drivers pushing inflation higher.
+
+**Watch.** The trap options pair 'increase fixed-income' with 'reduce' something else — but fixed-income should always be the one getting REDUCED in a high-inflation scenario, never increased. If an answer choice has fixed-income going up during high inflation, it's backwards.
+
+**Quiz.**
+
+1. If you had expectations of high inflation, you would
+     A) Increase fixed-income exposure and reduce equity exposure
+     B) Increase fixed-income exposure and reduce commodity exposure
+     C) Increase fixed-income exposure and reduce tangible asset exposure
+   ✓ D) Increase equity exposure and reduce fixed-income exposure
+   _Explanation:_ Rising inflation erodes the real value of fixed-income's fixed payments, so exposure there should decrease, while equities, tangible assets, and commodities tend to rise with inflation, so exposure there should increase. A, B, and C all incorrectly pair an INCREASE in fixed-income with a reduction in an asset class that should actually be increased.
+
+2. Why do commodities tend to perform well during periods of high inflation?
+     A) Commodities are immune to price changes
+   ✓ B) Commodities are often the very drivers pushing prices higher, and their prices tend to rise alongside inflation
+     C) Commodities pay a fixed coupon like bonds
+     D) The Federal Reserve guarantees commodity returns during inflation
+   _Explanation:_ Rising commodity prices (like oil or metals) are frequently a root cause of broader inflation, and commodities as an asset class tend to appreciate alongside the general price level, unlike fixed-income investments which are eroded by it.
+
+---
+
+## Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power
+
+_id: `types-of-investment-risk` · category: Suitability_
+
+**Analogy.** Think of a stock portfolio sailing through different kinds of weather. Business risk is a leak in one specific boat (the company's own execution fails). Market risk is a storm hitting the entire harbor at once (a broad market decline drags everything down together). Money-rate risk is the tide changing (interest rates shift, moving fixed-income prices). Purchasing power risk is the harbor water itself slowly evaporating (inflation eroding the real value of fixed returns over time).
+
+**Rule.** **Business risk** — the risk that a SPECIFIC company's own fundamentals, competitive position, or execution fail to meet expectations (e.g., a company's product doesn't sell as hoped, or gets displaced by new technology). **Market risk** (systematic risk) — the risk that broad market/economic forces move the ENTIRE market together, regardless of individual company quality. **Money-rate risk** (interest rate risk) — the risk that changing interest rates move the price of interest-sensitive investments. **Purchasing power risk** (inflation risk) — the risk that inflation erodes the real value/return of an investment, especially fixed-income. Note the formal terminology pairing: business risk = unsystematic risk (company-specific), and market risk = systematic risk (market-wide) — the exam uses both sets of terms interchangeably.
+
+**Watch.** The key test for business/unsystematic vs. market/systematic risk: did the price move because of something specific to THIS company (business/unsystematic risk), or because the whole market/economy moved together (market/systematic risk)? A single company's failed product launch, demand thesis, or obsolescence to new technology is business risk, even though it 'feels' market-related because a stock price dropped.
+
+**Quiz.**
+
+1. Your client purchases 100 shares of XYZ Electric Auto Company on the assumption that rising fuel costs will create more interest in this efficient means of transportation. If he is wrong, the resulting drop in the market price of that stock would be due to
+   ✓ A) Business risk
+     B) Market risk
+     C) Money-rate risk
+     D) Purchasing power risk
+   _Explanation:_ The failure stems from XYZ's own specific business thesis (demand for its product) not playing out, not from a broad market-wide decline. B: market risk would apply if a systemic event dragged down the entire market together, not just this one company. C and D: unrelated — no interest rate or inflation mechanism is described in this scenario.
+
+2. Which type of risk affects the ENTIRE market simultaneously, regardless of any individual company's quality or fundamentals?
+     A) Business risk
+   ✓ B) Market risk
+     C) Money-rate risk
+     D) Purchasing power risk
+   _Explanation:_ Market risk (systematic risk) is the risk of broad economic or market-wide forces moving virtually all securities together, distinct from risks tied to a single company's fundamentals (business risk) or macro factors like rates and inflation.
+
+3. If a business fails because a new technology makes its products obsolete, this is an example of
+     A) Inflation risk
+     B) Systematic risk
+     C) Interest rate risk
+   ✓ D) Unsystematic risk
+   _Explanation:_ A company failing due to its own products becoming obsolete is business risk — also called unsystematic risk, since it's specific to that one company rather than the broader market. B: systematic risk is simply the formal name for market risk (economy-wide, affecting all securities together), which doesn't fit a single company's competitive failure. A and C: no inflation or interest rate mechanism is described here.
 
 ---
 
@@ -5978,6 +6244,202 @@ _id: `kiddie-tax-utma-ugma` · category: Tax_
    ✓ C) Under age 19
      D) Under age 21
    _Explanation:_ The Kiddie Tax generally applies to unearned income of a child under age 19, extended to under age 24 if the child is a full-time student. Ages 14 and 16 are not the relevant cutoffs tested here.
+
+---
+
+## HSA Funds & Insurance Premiums — What Qualifies
+
+_id: `hsa-eligible-insurance-premiums` · category: Tax_
+
+**Analogy.** An HSA is a wallet that only opens for things stamped 'health.' Long-term care insurance, COBRA, and Medicare premiums all have that stamp — they pay for or cover the cost of care. Disability insurance doesn't have the stamp at all — it's a paycheck-replacement wallet, not a health wallet, even though it lives in the same insurance aisle.
+
+**Rule.** HSA funds can pay for a wide range of qualified medical expenses, including specific insurance premiums: **long-term care insurance** (up to age-based limits), **COBRA health insurance continuation coverage**, and **Medicare premiums** (Part B, Part D, etc.) once the account holder reaches age 65. **Disability insurance premiums are NOT an eligible HSA expense at any point** — disability insurance is income replacement, not health insurance, so it fails the core 'health' test regardless of how the plan is structured.
+
+**Watch.** The trap is grouping disability insurance in with LTC insurance since both sound like specialized, adjacent insurance categories. The test to apply: does this insurance pay for care/treatment (health), or does it replace lost income (disability)? Only the former qualifies for HSA funds.
+
+**Quiz.**
+
+1. Health savings accounts (HSAs) offer the opportunity for employees to use pretax funds to pay for a wide range of medical expenses. Medical expenses included are all of the following EXCEPT
+   ✓ A) Long-term disability insurance premiums
+     B) Long-term care insurance premiums
+     C) Health insurance coverage under COBRA
+     D) Medicare premiums for those age 65 or older
+   _Explanation:_ Disability insurance replaces lost income rather than paying for medical care, so it fails the 'health' test and is not an eligible HSA expense. B: LTC insurance premiums are HSA-eligible up to age-based limits. C: COBRA premiums continue health insurance coverage, squarely medical. D: Medicare premiums are HSA-eligible once the account holder turns 65.
+
+2. What is the key distinction that makes long-term care insurance HSA-eligible while disability insurance is not?
+     A) LTC insurance is cheaper than disability insurance
+   ✓ B) LTC insurance covers the cost of care, while disability insurance replaces lost income
+     C) Disability insurance is only available to employees under 65
+     D) HSA funds can only be used for prescription drugs
+   _Explanation:_ The dividing line is what the insurance actually pays for: LTC insurance covers the cost of care (a medical/health expense), while disability insurance replaces income lost due to inability to work — an entirely different purpose that doesn't qualify as a health expense.
+
+---
+
+## What Reduces IRA Contribution Amount vs. Deductibility
+
+_id: `ira-contribution-amount-vs-deductibility` · category: Tax_
+
+**Analogy.** Think of the Traditional IRA contribution limit as a parking spot that's the exact same size for everyone — income, job type, and marital status don't shrink or grow the spot. What those factors DO affect is whether you get a 'tax-deductible parking' sticker for that spot. The only thing that actually shrinks the spot itself is parking part of your car somewhere else in the same lot — i.e., contributing to a Roth IRA in the same year, since Traditional and Roth share one combined limit.
+
+**Rule.** The Traditional IRA contribution **limit** is a fixed dollar amount each year, the same for everyone, regardless of income, marital status, or participation in an employer/self-employed retirement plan (401(k), Keogh, etc.). The ONLY thing that reduces contribution capacity is **contributing to a Roth IRA in the same year**, since Traditional and Roth IRAs share one combined annual limit. By contrast, **income level, employer plan participation, and marital status can all reduce or eliminate the tax deduction** for a Traditional IRA contribution — but never the amount you're allowed to contribute.
+
+**Watch.** Watch for questions that invent an interaction between two separate plan limits (Keogh, 401(k), etc.) and the IRA limit — phrases like 'the greater of' or 'the lesser of' these two limits are fabricated; the limits are independent. Maxing out a self-employed or employer plan never reduces IRA contribution capacity, only potentially the deduction.
+
+**Quiz.**
+
+1. Which of the following could reduce the amount that an individual may contribute to a Traditional IRA? I. Roth IRA contributions made for the year. II. High income level. III. Participation in an employer-sponsored plan. IV. Marital status.
+     A) I and II
+   ✓ B) I only
+     C) I, II and III
+     D) I, II, III and IV
+   _Explanation:_ Only Roth IRA contributions reduce Traditional IRA contribution capacity, since Traditional and Roth share one combined annual limit. II, III, and IV all affect deductibility or Roth eligibility, not the Traditional IRA contribution amount itself.
+
+2. Your 39-year-old customer is the sole owner of a business, earns $260,000 per year, and makes the maximum contribution to a Keogh plan. How much money can be contributed to an IRA in 2024?
+   ✓ A) The current indexed maximum
+     B) The greater of the Keogh maximum or the IRA maximum
+     C) $0
+     D) The lesser of the Keogh maximum or the IRA maximum
+   _Explanation:_ Keogh plan participation and high income don't reduce IRA contribution capacity — he can still contribute the full current indexed IRA maximum. B and D invent a comparison between two independent limits that doesn't exist. C incorrectly assumes maxing a Keogh eliminates IRA eligibility, which is false — deductibility might be affected, but contribution capacity is not.
+
+---
+
+## Qualified Disclaimers — Refusing an Inheritance
+
+_id: `qualified-disclaimer-inherited-property` · category: Tax_
+
+**Analogy.** Disclaiming an inheritance is like handing back a gift unopened, before you've used it or even taken it out of the box. Because you never really 'accepted' it, the gift passes on to the next person on the list as though you were never in line for it in the first place.
+
+**Rule.** A **disclaimer** is the formal legal act of refusing an inheritance. To be a **qualified disclaimer** (with the tax effect of the disclaiming party being treated as if they predeceased the decedent, so the asset passes to the next beneficiary in line), it generally must be: in writing, made within 9 months of the decedent's death (or the disclaiming person's 21st birthday, if later), made before accepting any benefit from the asset, and result in the property passing to someone other than the disclaiming person (without their direction).
+
+**Watch.** Don't confuse disclaiming (refusing an inheritance you're entitled to) with contesting (legally challenging the validity of a will/estate) or with becoming an executor/executrix (an administrative role managing the estate, unrelated to being a beneficiary). Disclaiming is a passive refusal, not a legal dispute or a job.
+
+**Quiz.**
+
+1. When Felicity died, she left her estate, including her IRA, to her daughter, Courtney. Because of her financial circumstances, Courtney decided to refuse the inheritance. This would lead to her
+     A) Becoming the executrix of the estate
+   ✓ B) Disclaiming the IRA
+     C) Contesting the estate
+     D) Accepting the estate
+   _Explanation:_ Formally refusing an inheritance is called disclaiming it. A: executrix is an administrative role managing the estate, unrelated to refusing a bequest. C: contesting means legally challenging the estate's validity, not declining to receive from it. D: the opposite of what Courtney is doing.
+
+2. For a disclaimer to be 'qualified' (treated as if the disclaiming person predeceased the decedent), which of the following is generally required?
+     A) The disclaimer must be made verbally to the executor
+   ✓ B) The disclaimer must be made in writing, within 9 months of death, before accepting any benefit from the asset
+     C) The disclaiming party must redirect the asset to a beneficiary of their choosing
+     D) The disclaimer can be made at any time, with no deadline
+   _Explanation:_ A qualified disclaimer has specific formal requirements: in writing, within 9 months of death (or the disclaiming person's 21st birthday if later), and before accepting any benefit from the property. C is incorrect — the disclaiming person cannot direct where the asset goes; it passes automatically to the next beneficiary in line.
+
+---
+
+## Coverdell ESA — Rolling Funds to Another Family Member
+
+_id: `coverdell-family-member-rollover` · category: Tax_
+
+**Analogy.** A Coverdell ESA isn't a one-way ticket stuck with a single passenger's name on it — if the original passenger decides not to travel, the ticket can be reassigned to another family member under 30, no penalty, no forced layover until some fixed birthday.
+
+**Rule.** If a Coverdell ESA beneficiary doesn't use the funds for education (e.g., joins the military instead of attending college), the account owner may **roll the unused funds into a new Coverdell ESA for another family member**, as long as that new beneficiary is **under age 30** (with exceptions for special needs beneficiaries). 'Family member' is interpreted broadly — it includes cousins, not just siblings or children. This rollover avoids any tax or penalty entirely, since the funds stay within the tax-advantaged Coverdell structure.
+
+**Watch.** Don't assume funds are stuck until a fixed age (like 30) or forced out on some birthday deadline — the family-member rollover is the flexible option the exam wants you to know about. Also don't assume 'family member' is limited to close relatives like siblings — cousins qualify, as long as they're under the age-30 cutoff.
+
+**Quiz.**
+
+1. Harry Thomas has turned 19 and decided to join the Marines and postpone college. If Harry decides to stay in the military, the unused funds contributed to his Coverdell ESA
+     A) Must remain in the plan until Harry's 30th birthday
+     B) Must be distributed to Harry no later than 30 days after his 21st birthday
+     C) Must be returned to the donor with tax plus a 10% penalty on the earnings
+   ✓ D) May be transferred into another Coverdell ESA for Harry's 25-year-old cousin, Julia
+   _Explanation:_ Unused Coverdell funds can be rolled into a new ESA for another family member under age 30 — Julia, at 25, qualifies. A: there's no rule forcing funds to sit until age 30. B: no such 21st-birthday distribution deadline exists. C: tax and penalty only apply if funds are eventually distributed for non-qualified purposes — the rollover option avoids this entirely, making 'must' incorrect.
+
+2. What is the age limit for a new beneficiary receiving rolled-over Coverdell ESA funds (absent special needs exceptions)?
+     A) Under age 18
+     B) Under age 21
+   ✓ C) Under age 30
+     D) There is no age limit
+   _Explanation:_ The new beneficiary receiving a Coverdell rollover must generally be under age 30 (with an exception for special needs beneficiaries) and must be a family member of the original beneficiary.
+
+---
+
+## Prohibited IRA Investments — Life Insurance & Collectibles
+
+_id: `prohibited-ira-investments` · category: Tax_
+
+**Analogy.** An IRA's investment menu has two permanently blacklisted items and one item that looks blacklisted but has a VIP exception list taped to the door. Life insurance contracts are fully blacklisted, no exceptions. Collectibles are also blacklisted in general — but 'specified' gold, silver, platinum, and palladium coins/bullion are on that VIP list and get let in anyway.
+
+**Rule.** **Life insurance contracts can never be held inside an IRA** — no exceptions exist for this prohibition. **Collectibles are generally prohibited too**, but the IRS carves out specific exceptions: certain **U.S.-minted gold coins** (1 oz, 1/2 oz, 1/4 oz, 1/10 oz), **1 oz silver coins**, and certain **platinum coins and gold/silver/palladium/platinum bullion** meeting fineness standards ARE permitted. Fixed annuity contracts and exchange-traded funds are both ordinary, fully permitted IRA investments.
+
+**Watch.** Watch for the word 'specified' in front of 'collectibles' — that phrasing signals the IRS-named exceptions (specific coins/bullion), not collectibles generally, so 'specified collectibles' can actually be a PERMITTED answer choice, which trips people up if they reflexively treat all collectibles as banned. Life insurance, by contrast, has zero exceptions — if you see it as an option in a 'which is prohibited' question, it's almost always the answer.
+
+**Quiz.**
+
+1. There are a wide range of investments eligible for inclusion in an IRA. This would include all of the following EXCEPT
+     A) Specified collectibles
+     B) Fixed annuity contracts
+     C) Exchange-traded funds
+   ✓ D) Life insurance contracts
+   _Explanation:_ Life insurance contracts are prohibited IRA investments with no exceptions. A: 'specified' collectibles refers to the IRS-named exceptions (certain U.S. gold/silver/platinum coins and bullion), which ARE permitted — this is the wording trap. B and C: fixed annuities and ETFs are both ordinary, fully permitted IRA holdings.
+
+2. Which of the following collectible-type items IS permitted inside an IRA?
+     A) Collectible stamps issued by the U.S. Postal Service
+   ✓ B) One-ounce silver coins minted by the U.S. Treasury Department
+     C) Vintage wine collections
+     D) Rare art and antiques
+   _Explanation:_ U.S. Treasury-minted silver coins (1 oz) fall under the IRS's specific carve-out from the general collectibles prohibition, along with certain gold, platinum, and palladium coins/bullion. Stamps, wine, and art/antiques all remain prohibited collectibles with no such exception.
+
+---
+
+## FAFSA Asset Treatment — Why Ownership Matters More Than Account Type
+
+_id: `fafsa-asset-ownership-treatment` · category: Tax_
+
+**Analogy.** FAFSA looks at savings accounts the way a landlord looks at who's on the lease. Assets on the parents' lease (529, prepaid tuition, Coverdell) get charged a light monthly fee. Assets on the student's own lease (a UTMA/UGMA) get charged a much steeper fee — even though it feels responsible to put the account in the kid's name, that ownership actually works against financial aid eligibility.
+
+**Rule.** FAFSA assesses assets differently based on **who owns them**. **Parent-owned assets** — 529 plans, prepaid tuition plans, and Coverdell ESAs — are assessed at a relatively low rate (up to roughly 5.64%). **Student-owned assets** — including UTMA/UGMA custodial accounts, which legally belong to the minor — are assessed at a much higher rate (roughly 20%), causing a significantly greater reduction in aid eligibility. **Retirement accounts** (Roth IRA, Traditional IRA, 401(k), etc.) are **excluded from FAFSA assets entirely**, regardless of owner, and have zero effect on aid calculations.
+
+**Watch.** Don't assume 'saving in the kid's name' is the favorable move for financial aid — a UTMA/UGMA being student-owned is exactly what makes it the WORST choice among these options for aid eligibility, not the best. Also remember retirement accounts (like a Roth IRA) aren't counted as FAFSA assets at all — they're not just favorably assessed, they're excluded entirely.
+
+**Quiz.**
+
+1. Which of the following assets will have the greatest effect on minimizing financial assistance when applying to college using the FAFSA?
+     A) A prepaid tuition plan
+     B) A Coverdell ESA
+     C) A Roth IRA
+   ✓ D) An UTMA account
+   _Explanation:_ A UTMA is a student-owned asset, assessed at a much higher FAFSA rate (~20%) than parent-owned assets, causing the greatest reduction in aid eligibility. A and B: both treated as parent-owned assets, assessed at a much lower rate (~5.64%). C: retirement accounts like a Roth IRA are excluded from FAFSA assets entirely, having zero effect on aid.
+
+2. Why are retirement accounts like a Roth IRA generally favorable for financial aid purposes compared to a UTMA account?
+     A) Because retirement accounts are assessed at the same low parental rate
+   ✓ B) Because retirement accounts are excluded from FAFSA assets entirely, while a UTMA is a student-owned asset assessed at a high rate
+     C) Because a UTMA is always worth more money than a Roth IRA
+     D) Because retirement accounts can only be opened by parents
+   _Explanation:_ Retirement accounts aren't counted as assets on the FAFSA at all — not just favorably assessed, but fully excluded. A UTMA, by contrast, is a student-owned asset and gets hit with the much higher student asset assessment rate (~20%), directly reducing aid eligibility.
+
+---
+
+## Required Beginning Date (RBD) — First RMD Grace Period
+
+_id: `required-beginning-date-first-rmd` · category: Tax_
+
+**Analogy.** Every RMD after your first one has to be paid by December 31, like an ordinary annual bill. But your very first RMD comes with a one-time grace period voucher — you can wait until April 1 of the following year to pay it. Use that voucher, though, and you'll end up with two bills due in the same calendar year.
+
+**Rule.** Under SECURE Act 2.0, the RMD age is **73**. The year an individual reaches age 73 is their first 'RMD year.' For that FIRST RMD only, the deadline (Required Beginning Date) is extended to **April 1 of the year following** the year they turn 73 — instead of the normal December 31 deadline. Every subsequent RMD (second year onward) reverts to the standard **December 31 of that year** deadline.
+
+**Watch.** If someone delays their first RMD to the April 1 deadline, they'll end up taking TWO RMDs in that same calendar year (the delayed first one, due April 1, plus the normal second-year one, due December 31 of that same year) — this can push them into a higher tax bracket, worth flagging as a planning consideration. Also watch the year math carefully: the April 1 deadline is tied to the year the person turns 73, not the year the question is set in.
+
+**Quiz.**
+
+1. Based on the SECURE Act 2.0, an individual who is 73 on November 15, 2023, has an IRA's first required minimum distribution date of
+     A) December 31, 2023
+   ✓ B) April 1, 2024
+     C) December 31, 2024
+     D) April 1, 2025
+   _Explanation:_ 2023 is the year he turns 73, making it his first RMD year. The special first-RMD grace period extends the deadline to April 1 of the following year — April 1, 2024. A: this is the normal annual deadline, which doesn't apply to the first RMD. C: this would be the deadline for his second RMD (2024), not his first. D: overshoots by a year — this would apply if he turned 73 in 2024 instead.
+
+2. If an individual delays their first RMD to the April 1 deadline, what is a key consequence?
+     A) They avoid taking a second RMD that year
+   ✓ B) They will take two RMDs in that same calendar year
+     C) Their RMD age resets to 75
+     D) No further RMDs are required after that
+   _Explanation:_ Delaying the first RMD to April 1 means the second RMD (due by December 31 of that same year) still comes due on schedule — resulting in two RMDs within the same calendar year, which can push the individual into a higher tax bracket.
 
 ---
 

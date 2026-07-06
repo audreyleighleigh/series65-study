@@ -7423,6 +7423,40 @@ export const CONCEPTS = [
         explain: "A larger preferred dividend means more is subtracted from net income before dividing among common shares, shrinking the numerator while the denominator (common shares) stays the same — so EPS decreases."
       }
     ]
+  },
+
+  {
+    id: "risk-measurement-tools-vs-future-value",
+    category: "Suitability",
+    title: "Risk Measurement Tools vs. Time Value of Money",
+    color: "#FBBF24",
+    analogy: "Sharpe ratio, standard deviation, and beta are all different instruments on a risk dashboard — one measures return per unit of risk, one measures how much returns bounce around, one measures swings relative to the market. Future value is a completely different tool sitting on a different dashboard entirely — it's a GPS calculating where you'll end up given a known speed, not a speedometer measuring how bumpy or unpredictable the ride is.",
+    rule: "**Risk measurement tools** quantify uncertainty or volatility in an investment: **Sharpe ratio** (risk-adjusted return — return earned per unit of risk taken), **standard deviation** (volatility — how much returns vary around the average), and **beta** (systematic/market risk — how much an investment moves relative to the overall market). **Future value** is a **time value of money** calculation — it projects how much an investment grows given a KNOWN, assumed rate of return over time. It has no risk component at all; it doesn't measure uncertainty, volatility, or variability.",
+    watch: "Don't lump future value in with risk tools just because it's a financial/quantitative formula — the real test is whether the tool measures RISK/UNCERTAINTY specifically, not just whether it involves numbers and a rate of return. Future value assumes a fixed rate and projects growth; it says nothing about how reliable or variable that rate actually is.",
+    quiz: [
+      {
+        q: "One of the critical components of making suitable recommendations is the ability to evaluate risk. Risk measurement tools would include all of the following EXCEPT",
+        options: [
+          "Future value",
+          "Sharpe ratio",
+          "Standard deviation",
+          "Beta"
+        ],
+        answer: 0,
+        explain: "Future value measures the time value of money — projecting growth given a known assumed rate of return — with no relationship to risk or volatility. B: Sharpe ratio measures risk-adjusted return. C: standard deviation measures volatility, the foundational risk metric. D: beta measures systematic risk relative to the market."
+      },
+      {
+        q: "What does the Sharpe ratio specifically measure?",
+        options: [
+          "How much an investment will grow over time at a fixed rate",
+          "Risk-adjusted return — how much return is earned per unit of risk taken",
+          "The dollar amount of dividends paid per share",
+          "The face value of a bond at maturity"
+        ],
+        answer: 1,
+        explain: "The Sharpe ratio divides excess return by standard deviation (volatility), directly incorporating risk into its measurement — it answers how efficiently an investment converts risk into return, unlike future value, which has no risk component."
+      }
+    ]
   }
 ];
 

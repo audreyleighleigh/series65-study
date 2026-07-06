@@ -7491,6 +7491,40 @@ export const CONCEPTS = [
         explain: "This reflects a real diversification effect: blending asset classes that don't move in perfect lockstep can sometimes lower overall portfolio volatility below what either asset class would produce alone, even though equities are generally more volatile than fixed income individually."
       }
     ]
+  },
+
+  {
+    id: "discounted-cash-flow-identification",
+    category: "Suitability",
+    title: "Identifying Discounted Cash Flow (DCF) Computations",
+    color: "#FBBF24",
+    analogy: "A discounted cash flow computation is like shrinking a future paycheck down to today's-dollars size before comparing it to what's in your wallet right now. Standard deviation, holding period return, and current yield are all measuring completely different things — how bumpy the ride was, how well you did on a trip you already took, and what today's snapshot income looks like — none of them involve shrinking a FUTURE dollar down to today's value.",
+    rule: "A **discounted cash flow computation** takes expected FUTURE cash flows and converts them into today's value using a discount rate (reflecting the time value of money). The two classic DCF computations on this exam are **NPV (net present value)** and **IRR (internal rate of return)**. By contrast: **standard deviation** measures volatility (risk), **holding period return** measures actual past performance over a period already held, and **current yield** is a simple today's-income-vs-today's-price ratio — none of these three involve discounting future cash flows.",
+    watch: "If a question asks 'which of these is a discounted cash flow computation,' scan for NPV or IRR first — those are almost always the answer. Standard deviation, holding period return, and current yield are common distractors precisely because they're also financial calculations, but none of them involve the future-to-present discounting mechanic that defines DCF.",
+    quiz: [
+      {
+        q: "Which of the following is a discounted cash flow computation?",
+        options: [
+          "Net present value",
+          "Standard deviation",
+          "Holding period return",
+          "Current yield"
+        ],
+        answer: 0,
+        explain: "NPV takes future cash flows and discounts them back to today's value using a market interest rate — the defining DCF mechanic. B: standard deviation measures volatility/risk, not future cash flow discounting. C: holding period return measures actual past performance over a period already completed. D: current yield is a simple today's-price-based income ratio, with no discounting involved."
+      },
+      {
+        q: "Besides NPV, which other computation is considered a classic discounted cash flow calculation?",
+        options: [
+          "Beta",
+          "Sharpe ratio",
+          "Internal rate of return (IRR)",
+          "Rule of 72"
+        ],
+        answer: 2,
+        explain: "IRR, like NPV, is built on discounting future cash flows — it's the rate at which the present value of those future cash flows equals the investment's current price/cost. Beta and Sharpe ratio are risk measures, and the Rule of 72 is a quick doubling-time estimate, not a formal discounted cash flow computation."
+      }
+    ]
   }
 ];
 

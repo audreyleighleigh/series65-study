@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 196 concept cards across 9 categories._
+_Auto-generated from src/data.js. 197 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,7 +15,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (12 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount
+- **Bonds** (13 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
 - **Equities** (17 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
@@ -797,6 +797,34 @@ _id: `bond-sensitivity-maturity-premium-discount` · category: Bonds_
      C) Zero-coupon bonds always have shorter maturities
      D) Zero-coupon bonds are guaranteed by the U.S. government
    _Explanation:_ With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length.
+
+---
+
+## Calling Bonds at a Premium — Effect on Working Capital & Net Worth
+
+_id: `bond-call-premium-working-capital-net-worth` · category: Bonds_
+
+**Analogy.** Paying cash to retire a LONG-TERM debt is like using money from your everyday checking account (current assets) to pay off a car loan that wasn't due for another 10 years (long-term liability) — your checking balance drops, but nothing on the 'bills due this month' (current liabilities) side changes, so your short-term cushion (working capital) shrinks. And if you pay slightly MORE than the loan's actual balance to settle it early (a premium), that extra cost comes straight out of your net worth.
+
+**Rule.** When a corporation calls (redeems) long-term debt using cash: **(1) Working capital decreases** — cash (a current asset) decreases, but current liabilities are unaffected, since the debt retired was long-term, not current, to begin with. **(2) If the bonds are called at a PREMIUM (above 100/par)**, net worth decreases by the amount of that premium — the company is spending more cash than the liability's book value, and that excess cost reduces equity.
+
+**Watch.** The key detail to catch: the debt being called is LONG-TERM, so retiring it doesn't reduce current liabilities at all — only the current asset (cash) side moves, which is exactly why working capital drops. Also remember: the net worth reduction only happens because of the PREMIUM (the amount above 100/par) — if bonds were called at exactly par (100), there'd be no net worth impact from the premium itself.
+
+**Quiz.**
+
+1. A corporation calls in a portion of its long-term debt at 101. This will have the effect of: I. Decreasing working capital. II. Increasing working capital. III. Decreasing net worth. IV. Increasing net worth.
+     A) II and III
+     B) I and IV
+   ✓ C) I and III
+     D) II and IV
+   _Explanation:_ Using cash (a current asset) to retire long-term debt reduces current assets with no offsetting reduction in current liabilities, decreasing working capital (I). Calling the bonds at 101 (a premium above par) means paying more cash than the liability's book value, which reduces net worth by that premium (III).
+
+2. Why does calling long-term bonds with cash reduce working capital, even though a liability is being eliminated?
+     A) Because the liability being eliminated was a current liability
+   ✓ B) Because the liability being eliminated was long-term, so current liabilities are unaffected while current assets (cash) decrease
+     C) Because working capital only tracks long-term items
+     D) Because net worth and working capital are always equal
+   _Explanation:_ Working capital only compares current assets to current liabilities. Since the bonds were long-term debt, retiring them doesn't touch the current liabilities side at all — only cash (a current asset) decreases, causing working capital to decrease.
 
 ---
 

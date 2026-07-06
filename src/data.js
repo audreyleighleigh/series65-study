@@ -7661,6 +7661,40 @@ export const CONCEPTS = [
         explain: "Book value per share is meant to reflect liquidation value — what shareholders would realistically receive if the company's assets were sold off. Intangible assets like patents typically can't be reliably converted to cash in a liquidation scenario, so they're excluded from the calculation."
       }
     ]
+  },
+
+  {
+    id: "bond-call-premium-working-capital-net-worth",
+    category: "Bonds",
+    title: "Calling Bonds at a Premium — Effect on Working Capital & Net Worth",
+    color: "#E8C547",
+    analogy: "Paying cash to retire a LONG-TERM debt is like using money from your everyday checking account (current assets) to pay off a car loan that wasn't due for another 10 years (long-term liability) — your checking balance drops, but nothing on the 'bills due this month' (current liabilities) side changes, so your short-term cushion (working capital) shrinks. And if you pay slightly MORE than the loan's actual balance to settle it early (a premium), that extra cost comes straight out of your net worth.",
+    rule: "When a corporation calls (redeems) long-term debt using cash: **(1) Working capital decreases** — cash (a current asset) decreases, but current liabilities are unaffected, since the debt retired was long-term, not current, to begin with. **(2) If the bonds are called at a PREMIUM (above 100/par)**, net worth decreases by the amount of that premium — the company is spending more cash than the liability's book value, and that excess cost reduces equity.",
+    watch: "The key detail to catch: the debt being called is LONG-TERM, so retiring it doesn't reduce current liabilities at all — only the current asset (cash) side moves, which is exactly why working capital drops. Also remember: the net worth reduction only happens because of the PREMIUM (the amount above 100/par) — if bonds were called at exactly par (100), there'd be no net worth impact from the premium itself.",
+    quiz: [
+      {
+        q: "A corporation calls in a portion of its long-term debt at 101. This will have the effect of: I. Decreasing working capital. II. Increasing working capital. III. Decreasing net worth. IV. Increasing net worth.",
+        options: [
+          "II and III",
+          "I and IV",
+          "I and III",
+          "II and IV"
+        ],
+        answer: 2,
+        explain: "Using cash (a current asset) to retire long-term debt reduces current assets with no offsetting reduction in current liabilities, decreasing working capital (I). Calling the bonds at 101 (a premium above par) means paying more cash than the liability's book value, which reduces net worth by that premium (III)."
+      },
+      {
+        q: "Why does calling long-term bonds with cash reduce working capital, even though a liability is being eliminated?",
+        options: [
+          "Because the liability being eliminated was a current liability",
+          "Because the liability being eliminated was long-term, so current liabilities are unaffected while current assets (cash) decrease",
+          "Because working capital only tracks long-term items",
+          "Because net worth and working capital are always equal"
+        ],
+        answer: 1,
+        explain: "Working capital only compares current assets to current liabilities. Since the bonds were long-term debt, retiring them doesn't touch the current liabilities side at all — only cash (a current asset) decreases, causing working capital to decrease."
+      }
+    ]
   }
 ];
 

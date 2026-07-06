@@ -7457,6 +7457,40 @@ export const CONCEPTS = [
         explain: "The Sharpe ratio divides excess return by standard deviation (volatility), directly incorporating risk into its measurement — it answers how efficiently an investment converts risk into return, unlike future value, which has no risk component."
       }
     ]
+  },
+
+  {
+    id: "std-dev-portfolio-volatility-comparison",
+    category: "Suitability",
+    title: "Using Standard Deviation to Compare Portfolio Volatility",
+    color: "#FBBF24",
+    analogy: "When a chart hands you rows of high return, low return, average return, AND standard deviation, only one of those rows is actually answering a 'volatility' question — the rest are describing outcomes, not risk. It's like being asked which car is safest and being handed its top speed, average speed, and crash-test rating all at once — only the crash-test rating actually answers the safety question.",
+    rule: "When comparing portfolio allocations for **volatility**, go directly to the **standard deviation row** — ignore high return, low return, and average return figures, since those describe performance outcomes, not risk. The portfolio with the **lowest standard deviation** has the least volatility. Note: the least volatile mix isn't always the one with the least equity/most bonds — a small equity allocation blended with mostly fixed income can sometimes produce LOWER overall volatility than an all-bond portfolio, due to diversification effects between asset classes that don't move in perfect lockstep.",
+    watch: "Don't assume '0% equity / 100% fixed income' is automatically the least volatile option just because bonds are generally considered safer than stocks — check the actual standard deviation numbers. A modest equity allocation combined with a large bond allocation can sometimes have a lower standard deviation than an all-bond portfolio, due to diversification benefits.",
+    quiz: [
+      {
+        q: "Given a chart with columns for equity %, fixed income %, high return, low return, average return, and standard deviation for four portfolio allocations, which row should you check to determine which portfolio has the LEAST volatility over the next year?",
+        options: [
+          "High return",
+          "Average return",
+          "Standard deviation",
+          "Low return"
+        ],
+        answer: 2,
+        explain: "Standard deviation is the direct measure of volatility. The return rows (high, low, average) describe performance outcomes, not risk, and don't answer a volatility question."
+      },
+      {
+        q: "A 20%/80% equity/fixed-income portfolio has a lower standard deviation than a 0%/100% all-fixed-income portfolio. What does this illustrate?",
+        options: [
+          "Standard deviation is unreliable and shouldn't be used",
+          "A small equity allocation can sometimes reduce overall portfolio volatility through diversification effects",
+          "Equity is always less volatile than fixed income",
+          "The chart must contain an error"
+        ],
+        answer: 1,
+        explain: "This reflects a real diversification effect: blending asset classes that don't move in perfect lockstep can sometimes lower overall portfolio volatility below what either asset class would produce alone, even though equities are generally more volatile than fixed income individually."
+      }
+    ]
   }
 ];
 

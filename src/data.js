@@ -7593,6 +7593,40 @@ export const CONCEPTS = [
         explain: "With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length."
       }
     ]
+  },
+
+  {
+    id: "alpha-capm-risk-adjusted-performance",
+    category: "Suitability",
+    title: "Alpha — Measuring Risk-Adjusted Performance",
+    color: "#FBBF24",
+    analogy: "Beta tells you how much risk a portfolio manager was allowed to take — like a speed limit set for their specific route. Alpha tells you whether they actually beat the pace they were expected to hit given that speed limit — did they arrive earlier than a driver going exactly the allowed speed, or later? Standard deviation, meanwhile, is just a measure of how bumpy the ride was — it doesn't factor into figuring out if they beat their expected pace at all.",
+    rule: "**Alpha = Actual Return − Expected Return**, where Expected Return is calculated using CAPM: **Expected Return = Risk-free rate + Beta × (Market return − Risk-free rate).** The term (Market return − Risk-free rate) is called the market risk premium. A **positive alpha** means the portfolio outperformed what was expected given its level of systematic risk (beta); a **negative alpha** means it underperformed on a risk-adjusted basis. Standard deviation (portfolio or market) is NOT used anywhere in the alpha calculation — it measures total volatility, not the systematic risk that alpha is built around.",
+    watch: "Standard deviation numbers are a common distractor in alpha questions — they're often included in the data set to test whether you know alpha is built entirely from beta and CAPM, not from volatility figures. Don't use standard deviation anywhere in this calculation, even if it's provided.",
+    quiz: [
+      {
+        q: "Patrice has an investment portfolio with: Portfolio actual return 9%, Market actual return 12%, Portfolio standard deviation 4%, Market standard deviation 7%, Portfolio beta 0.65, Risk-free rate 3%. What is her portfolio's alpha, and did it outperform the market on a risk-adjusted basis?",
+        options: [
+          "With an alpha of -5.10%, her portfolio underperformed the market",
+          "With an alpha of 0.15%, her portfolio outperformed the market",
+          "With an alpha of -0.15%, her portfolio underperformed the market",
+          "With an alpha of 5.10%, her portfolio outperformed the market"
+        ],
+        answer: 1,
+        explain: "Expected return = 3% + 0.65 x (12% - 3%) = 3% + 5.85% = 8.85%. Alpha = actual return - expected return = 9% - 8.85% = 0.15%, a positive alpha, meaning the portfolio outperformed on a risk-adjusted basis. The standard deviation figures (4% and 7%) are distractors — they play no role in the alpha/CAPM calculation."
+      },
+      {
+        q: "Which inputs are needed to calculate a portfolio's expected return under CAPM?",
+        options: [
+          "Portfolio standard deviation and market standard deviation",
+          "Risk-free rate, beta, and market return",
+          "Actual return and standard deviation only",
+          "Beta and standard deviation only"
+        ],
+        answer: 1,
+        explain: "CAPM's expected return formula is: Risk-free rate + Beta x (Market return - Risk-free rate). Standard deviation is not part of this formula at all — it measures volatility, not the systematic risk relationship that CAPM and alpha are built around."
+      }
+    ]
   }
 ];
 

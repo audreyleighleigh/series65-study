@@ -7559,6 +7559,40 @@ export const CONCEPTS = [
         explain: "Annualize first: $0.10 x 12 months = $1.20 annual dividend. Then divide by price: $1.20 / $24 = 5.00%. A (0.42%) is the trap answer from dividing the monthly figure directly by price without annualizing."
       }
     ]
+  },
+
+  {
+    id: "bond-sensitivity-maturity-premium-discount",
+    category: "Bonds",
+    title: "Bond Price Sensitivity — Maturity Length + Premium/Discount",
+    color: "#E8C547",
+    analogy: "Picture two bonds maturing in exactly 2 years, both $1,000 face value. A 10%-coupon (premium) bond pays you $100 + $100 + $1,000 over its life — most of your cash trickles back to you early through coupons. A 2%-coupon (discount) bond pays you $20 + $20 + $1,000 — almost all of your money is stuck waiting for that final lump sum. Even though both bonds mature at the SAME time, more of the discount bond's value is 'parked' out at the far end, making it behave like it has a longer effective duration.",
+    rule: "Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. A high-coupon premium bond returns more cash early via coupons, reducing how much value is 'stuck' waiting at maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.",
+    watch: "The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity. Use this as your mental reference point — the lower the coupon, the closer a bond's behavior gets to a zero-coupon bond's heightened sensitivity.",
+    quiz: [
+      {
+        q: "The market price of which of the following bonds would have the greatest percentage increase if interest rates fell?",
+        options: [
+          "30-year maturity, selling at a premium",
+          "15-year maturity, selling at a premium",
+          "30-year maturity, selling at a discount",
+          "15-year maturity, selling at a discount"
+        ],
+        answer: 2,
+        explain: "Two factors stack here: longer maturity (30-year > 15-year) increases sensitivity, and discount status (lower coupon, more value concentrated at the distant maturity payment) also increases sensitivity versus a premium bond. The 30-year discount bond has both factors working in the same direction, producing the greatest price increase. A: has the maturity advantage but loses on the discount factor. D: has the discount advantage but loses on the maturity factor. B: loses on both factors, making it the LEAST sensitive of the four."
+      },
+      {
+        q: "Why does a zero-coupon bond have the highest interest rate sensitivity for its maturity, compared to bonds with a stated coupon?",
+        options: [
+          "Zero-coupon bonds are not affected by interest rates at all",
+          "100% of a zero-coupon bond's value is received at maturity, with no early coupon payments to offset that concentration",
+          "Zero-coupon bonds always have shorter maturities",
+          "Zero-coupon bonds are guaranteed by the U.S. government"
+        ],
+        answer: 1,
+        explain: "With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length."
+      }
+    ]
   }
 ];
 

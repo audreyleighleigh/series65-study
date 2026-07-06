@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 193 concept cards across 9 categories._
+_Auto-generated from src/data.js. 194 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,7 +15,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (11 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds
+- **Bonds** (12 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
 - **Equities** (16 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
@@ -769,6 +769,34 @@ _id: `treasury-bond-associated-risks` · category: Bonds_
      C) Because Treasuries cannot be traded on the secondary market
      D) Because Treasuries mature very quickly
    _Explanation:_ Treasuries are backed by the U.S. government's taxing authority and credit, making them the benchmark for essentially zero default/credit risk in the bond market — a key reason they're used as the risk-free rate reference point in finance.
+
+---
+
+## Bond Price Sensitivity — Maturity Length + Premium/Discount
+
+_id: `bond-sensitivity-maturity-premium-discount` · category: Bonds_
+
+**Analogy.** Picture two bonds maturing in exactly 2 years, both $1,000 face value. A 10%-coupon (premium) bond pays you $100 + $100 + $1,000 over its life — most of your cash trickles back to you early through coupons. A 2%-coupon (discount) bond pays you $20 + $20 + $1,000 — almost all of your money is stuck waiting for that final lump sum. Even though both bonds mature at the SAME time, more of the discount bond's value is 'parked' out at the far end, making it behave like it has a longer effective duration.
+
+**Rule.** Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. A high-coupon premium bond returns more cash early via coupons, reducing how much value is 'stuck' waiting at maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.
+
+**Watch.** The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity. Use this as your mental reference point — the lower the coupon, the closer a bond's behavior gets to a zero-coupon bond's heightened sensitivity.
+
+**Quiz.**
+
+1. The market price of which of the following bonds would have the greatest percentage increase if interest rates fell?
+     A) 30-year maturity, selling at a premium
+     B) 15-year maturity, selling at a premium
+   ✓ C) 30-year maturity, selling at a discount
+     D) 15-year maturity, selling at a discount
+   _Explanation:_ Two factors stack here: longer maturity (30-year > 15-year) increases sensitivity, and discount status (lower coupon, more value concentrated at the distant maturity payment) also increases sensitivity versus a premium bond. The 30-year discount bond has both factors working in the same direction, producing the greatest price increase. A: has the maturity advantage but loses on the discount factor. D: has the discount advantage but loses on the maturity factor. B: loses on both factors, making it the LEAST sensitive of the four.
+
+2. Why does a zero-coupon bond have the highest interest rate sensitivity for its maturity, compared to bonds with a stated coupon?
+     A) Zero-coupon bonds are not affected by interest rates at all
+   ✓ B) 100% of a zero-coupon bond's value is received at maturity, with no early coupon payments to offset that concentration
+     C) Zero-coupon bonds always have shorter maturities
+     D) Zero-coupon bonds are guaranteed by the U.S. government
+   _Explanation:_ With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length.
 
 ---
 

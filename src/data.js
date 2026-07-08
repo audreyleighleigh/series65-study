@@ -7695,6 +7695,40 @@ export const CONCEPTS = [
         explain: "Working capital only compares current assets to current liabilities. Since the bonds were long-term debt, retiring them doesn't touch the current liabilities side at all — only cash (a current asset) decreases, causing working capital to decrease."
       }
     ]
+  },
+
+  {
+    id: "current-ratio-components",
+    category: "Equities",
+    title: "Current Ratio — What Belongs in the Calculation",
+    color: "#7EC8A4",
+    analogy: "The current ratio only wants guests who RSVP'd 'yes, within the year' — cash, receivables, and inventory on the asset side; payables, wages payable, dividends payable, and short-term debt on the liability side. Equipment (a long-term asset), long-term debt, and shareholders' equity are all on a completely different guest list and don't get let in, no matter how financial-sounding they are.",
+    rule: "**Current ratio = Current assets ÷ Current liabilities.** Current assets: cash, accounts receivable, inventory. Current liabilities: accounts payable, wages payable, dividends payable, short-term debt. Items that do NOT belong in a current ratio calculation at all: fixed/long-term assets (like equipment), long-term liabilities (like long-term debt), and shareholders' equity (which is neither an asset nor a liability — it's a separate net worth category entirely).",
+    watch: "Watch for one 'impostor' item slipped into an otherwise-correct-looking list — a long-term asset (equipment), a long-term liability (long-term debt), or something that's neither an asset nor liability at all (shareholders' equity). The correct answer choice is the one where every single item passes the test of being genuinely current.",
+    quiz: [
+      {
+        q: "Which of the following items would be included in a current ratio computation?",
+        options: [
+          "Accounts payable, wages payable, and short-term debt",
+          "Inventory, equipment, and cash",
+          "Cash, dividends payable, and shareholders' equity",
+          "Accounts receivable, inventory, and long-term debt"
+        ],
+        answer: 0,
+        explain: "All three items — accounts payable, wages payable, and short-term debt — are genuine current liabilities, making this the only fully valid set. B: equipment is a fixed (long-term) asset, not current. C: shareholders' equity is neither a current asset nor liability — it's a separate net worth category. D: long-term debt is explicitly not current."
+      },
+      {
+        q: "Why is shareholders' equity never included in a current ratio calculation?",
+        options: [
+          "Because shareholders' equity is always negative",
+          "Because shareholders' equity is neither a current asset nor a current liability — it's a separate net worth category",
+          "Because shareholders' equity is a long-term liability",
+          "Because current ratio only applies to companies without shareholders"
+        ],
+        answer: 1,
+        explain: "Shareholders' equity represents the residual claim on assets after liabilities are subtracted (net worth) — it's a distinct balance sheet category, not a current asset or current liability, so it has no place in the current ratio formula."
+      }
+    ]
   }
 ];
 

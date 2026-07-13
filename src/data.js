@@ -7523,6 +7523,17 @@ export const CONCEPTS = [
         ],
         answer: 2,
         explain: "IRR, like NPV, is built on discounting future cash flows — it's the rate at which the present value of those future cash flows equals the investment's current price/cost. Beta and Sharpe ratio are risk measures, and the Rule of 72 is a quick doubling-time estimate, not a formal discounted cash flow computation."
+      },
+      {
+        q: "One way in which internal rate of return (IRR) differs from most return computations is that",
+        options: [
+          "It is always an annualized rate of return",
+          "It takes into consideration the rate of inflation",
+          "Its application to debt securities is limited",
+          "It takes into consideration the time value of money"
+        ],
+        answer: 3,
+        explain: "IRR, as a discounted cash flow computation, specifically accounts for WHEN cash flows occur — unlike simpler measures like current yield or holding period return, which just look at raw dollar amounts without adjusting for timing. A: being annualized isn't unique to IRR; many simple return measures are also annualized. B: IRR has nothing to do with inflation adjustment. C: false — a bond's IRR is its yield to maturity, one of IRR's most standard applications."
       }
     ]
   },
@@ -7567,8 +7578,8 @@ export const CONCEPTS = [
     title: "Bond Price Sensitivity — Maturity Length + Premium/Discount",
     color: "#E8C547",
     analogy: "Picture two bonds maturing in exactly 2 years, both $1,000 face value. A 10%-coupon (premium) bond pays you $100 + $100 + $1,000 over its life — most of your cash trickles back to you early through coupons. A 2%-coupon (discount) bond pays you $20 + $20 + $1,000 — almost all of your money is stuck waiting for that final lump sum. Even though both bonds mature at the SAME time, more of the discount bond's value is 'parked' out at the far end, making it behave like it has a longer effective duration.",
-    rule: "Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. A high-coupon premium bond returns more cash early via coupons, reducing how much value is 'stuck' waiting at maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.",
-    watch: "The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity. Use this as your mental reference point — the lower the coupon, the closer a bond's behavior gets to a zero-coupon bond's heightened sensitivity.",
+    rule: "Duration is expressed in years (not a percentage) and represents a time-weighted average of when a bond's cash flows are received. Duration equals maturity ONLY for a zero-coupon bond; any interest-bearing bond has a duration shorter than its stated maturity, since some value returns to the investor before maturity via coupon payments. A STRIP is a real-world example of a zero-coupon bond (Treasury-issued) — among Treasury instruments of similar maturity, a STRIP will show the greatest price sensitivity to rate changes, since none of its value returns to the investor before maturity. Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.",
+    watch: "Bond notation like 'ABC 5s of 2050' decodes to a 5% coupon maturing in 2050 — when comparing several bonds, check maturities first; if they're clustered closely together, the maturity factor roughly cancels out and the LOWEST coupon becomes the deciding factor for greatest interest rate risk. The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity.",
     quiz: [
       {
         q: "The market price of which of the following bonds would have the greatest percentage increase if interest rates fell?",
@@ -7591,6 +7602,39 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length."
+      },
+      {
+        q: "Which of the following bonds would most likely be exposed to the greatest amount of interest rate risk? A) GHI 7s of 2052. B) ABC 5s of 2050. C) JKL 4s of 2028. D) DEF 6s of 2051.",
+        options: [
+          "GHI 7s of 2052",
+          "ABC 5s of 2050",
+          "JKL 4s of 2028",
+          "DEF 6s of 2051"
+        ],
+        answer: 1,
+        explain: "Bond notation 'X% s of YEAR' means coupon rate and maturity year. A, B, and D all mature within 1-2 years of each other (2050-2052), essentially neutralizing the maturity factor as a tiebreaker among them. C matures far sooner (2028) and is eliminated despite its low coupon, since its much shorter maturity dominates. Among A, B, and D, the LOWEST coupon determines the longest effective duration — B's 5% coupon is lower than A's 7% and D's 6%, giving it the greatest interest rate risk."
+      },
+      {
+        q: "A bond's duration is",
+        options: [
+          "An indication of a bond's yield that ignores its price volatility",
+          "Identical to its maturity for an interest-bearing bond",
+          "Longer for a 10-year bond with a 5% coupon than it is for a 10-year bond with a 10% coupon",
+          "Expressed as a percentage"
+        ],
+        answer: 2,
+        explain: "At the same 10-year maturity, the LOWER coupon (5%) concentrates more value at the distant maturity payment, giving it a longer effective duration than the higher-coupon (10%) bond. A: backwards — duration IS a measure of price volatility/sensitivity, not something that ignores it. B: only true for a zero-coupon bond; any bond that pays interest along the way has a duration shorter than its stated maturity. D: duration is expressed in years, not as a percentage."
+      },
+      {
+        q: "Your client owns a 91-day T-bill, a 2-year T-note, a 20-year T-bond, and a 20-year STRIP. The market price of which of these is likely to have the smallest movement when there are changes to the discount rate?",
+        options: [
+          "T-bond",
+          "STRIP",
+          "T-bill",
+          "T-note"
+        ],
+        answer: 2,
+        explain: "The 91-day T-bill has a dramatically shorter maturity than the other three instruments (2 years, 20 years, 20 years), making it far less sensitive to interest rate changes — shorter maturity means less time for the rate mismatch to affect price. Even without comparing coupon structure, the maturity gap alone decides this question. Note: the STRIP (a zero-coupon Treasury) would actually have the GREATEST sensitivity of the four, since 100% of its value is concentrated at the distant 20-year maturity — if the question asked for greatest movement instead, the STRIP would win over even the 20-year T-bond."
       }
     ]
   },
@@ -7602,7 +7646,7 @@ export const CONCEPTS = [
     color: "#FBBF24",
     analogy: "Beta tells you how much risk a portfolio manager was allowed to take — like a speed limit set for their specific route. Alpha tells you whether they actually beat the pace they were expected to hit given that speed limit — did they arrive earlier than a driver going exactly the allowed speed, or later? Standard deviation, meanwhile, is just a measure of how bumpy the ride was — it doesn't factor into figuring out if they beat their expected pace at all.",
     rule: "**Alpha = Actual Return − Expected Return**, where Expected Return is calculated using CAPM: **Expected Return = Risk-free rate + Beta × (Market return − Risk-free rate).** The term (Market return − Risk-free rate) is called the market risk premium. A **positive alpha** means the portfolio outperformed what was expected given its level of systematic risk (beta); a **negative alpha** means it underperformed on a risk-adjusted basis. Standard deviation (portfolio or market) is NOT used anywhere in the alpha calculation — it measures total volatility, not the systematic risk that alpha is built around.",
-    watch: "Standard deviation numbers are a common distractor in alpha questions — they're often included in the data set to test whether you know alpha is built entirely from beta and CAPM, not from volatility figures. Don't use standard deviation anywhere in this calculation, even if it's provided.",
+    watch: "Standard deviation numbers are a common distractor in alpha questions — they're often included in the data set to test whether you know alpha is built entirely from beta and CAPM, not from volatility figures. Don't use standard deviation anywhere in this calculation, even if it's provided. Also watch for a portfolio that beat the MARKET's raw return but still has NEGATIVE alpha — a high beta means the portfolio was expected to earn even more given the extra risk taken on, so beating the market's actual number isn't the same as beating your own risk-adjusted expectation.",
     quiz: [
       {
         q: "Patrice has an investment portfolio with: Portfolio actual return 9%, Market actual return 12%, Portfolio standard deviation 4%, Market standard deviation 7%, Portfolio beta 0.65, Risk-free rate 3%. What is her portfolio's alpha, and did it outperform the market on a risk-adjusted basis?",
@@ -7625,6 +7669,17 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "CAPM's expected return formula is: Risk-free rate + Beta x (Market return - Risk-free rate). Standard deviation is not part of this formula at all — it measures volatility, not the systematic risk relationship that CAPM and alpha are built around."
+      },
+      {
+        q: "Assume Frank has a portfolio with an actual return of 10.50% for the past year. The portfolio beta equals 1.25, the return on the market equals 9.75%, and the risk-free rate of return equals 3%. Based on this information, what is the alpha for Frank's portfolio and did it outperform or underperform the market?",
+        options: [
+          "+3.3750%, outperform",
+          "-1.6875%, underperform",
+          "-0.9375%, underperform",
+          "+9.1875%, outperform"
+        ],
+        answer: 2,
+        explain: "Expected return = 3% + 1.25 x (9.75% - 3%) = 3% + 8.4375% = 11.4375%. Alpha = actual return - expected return = 10.50% - 11.4375% = -0.9375%, a negative alpha, meaning the portfolio underperformed on a risk-adjusted basis. This tests the distinction between beating the market's raw return (Frank's 10.50% > market's 9.75%) and beating your risk-adjusted expectation — with a high beta of 1.25, Frank's portfolio was expected to earn even more given the extra risk taken on, so it still came up short on alpha despite the higher raw return."
       }
     ]
   },
@@ -7727,6 +7782,153 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "Shareholders' equity represents the residual claim on assets after liabilities are subtracted (net worth) — it's a distinct balance sheet category, not a current asset or current liability, so it has no place in the current ratio formula."
+      }
+    ]
+  },
+
+  {
+    id: "npv-vs-irr-reinvestment-assumptions",
+    category: "Bonds",
+    title: "NPV vs. IRR — Reinvestment Rate Assumptions",
+    color: "#E8C547",
+    analogy: "NPV assumes every dollar you get back gets reinvested at whatever the going bank rate is right now — a realistic, market-grounded assumption. IRR assumes every dollar gets reinvested at that SAME bond's own specific yield, no matter what the market is actually offering — like assuming you'll always be able to re-lend money at the exact same rate as your original loan, which isn't necessarily true.",
+    rule: "IRR is formally defined as the discount rate at which an investment's NPV equals zero — this is the core relationship connecting the two concepts. **NPV (Net Present Value)** discounts future cash flows using the **current market interest rate**, so the reinvestment assumption embedded in NPV is that cash flows are reinvested at that **market rate** — a realistic assumption. **IRR (Internal Rate of Return)**, which for a bond equals its **yield to maturity (YTM)**, assumes cash flows are reinvested at that **same IRR/YTM rate** — a less realistic assumption, since market conditions won't necessarily match a specific bond's own yield. Bond interest is typically paid **semiannually**, so any reinvestment (under either method) happens semiannually, not annually.",
+    watch: "Don't swap which method assumes what — NPV = reinvest at market rate; IRR = reinvest at its own rate. This reversal is the classic trap. Also watch for 'annually' vs. 'semiannually' — bond interest payments (and thus any reinvestment opportunity) occur semiannually, not annually.",
+    quiz: [
+      {
+        q: "Which of the following statements is most accurate regarding the net present value (NPV) and internal rate of return (IRR) on a bond?",
+        options: [
+          "IRR assumes the cash flows are reinvested annually",
+          "IRR assumes the cash flows are reinvested at market interest rates",
+          "NPV assumes the cash flows can be reinvested at market interest rates",
+          "NPV assumes that cash flows can be reinvested at the bond's IRR"
+        ],
+        answer: 2,
+        explain: "NPV is built on discounting future cash flows at the current market interest rate, so its embedded reinvestment assumption is the market rate. A: bond interest is paid semiannually, not annually, so this misstates frequency. B: reversed — IRR assumes reinvestment at its OWN rate (the bond's YTM), not the market rate. D: reversed — it's IRR, not NPV, that assumes reinvestment at the bond's own rate."
+      },
+      {
+        q: "For a bond, what does IRR (internal rate of return) equal, and what reinvestment rate does it assume?",
+        options: [
+          "IRR equals the coupon rate; assumes reinvestment at the market rate",
+          "IRR equals the yield to maturity; assumes reinvestment at that same IRR/YTM rate",
+          "IRR equals the discount rate; assumes no reinvestment at all",
+          "IRR equals the par value; assumes reinvestment annually"
+        ],
+        answer: 1,
+        explain: "A bond's IRR is its yield to maturity, and IRR calculations assume all cash flows are reinvested at that same rate — considered a less realistic assumption than NPV's market-rate-based approach, since actual market conditions may differ from a specific bond's yield."
+      },
+      {
+        q: "Which of the following statements regarding internal rate of return (IRR) is true?",
+        options: [
+          "IRR ignores the time value of money",
+          "If the IRR is higher than the cost of borrowing to fund an investment, the investment is likely to be unprofitable",
+          "IRR cannot be used effectively to measure return on investments with even cash flows, such as bonds",
+          "IRR is a discount rate at which the net present value (NPV) of an investment is equal to zero"
+        ],
+        answer: 3,
+        explain: "This is the core definition: IRR is the discount rate at which an investment's NPV equals zero. A: backwards — IRR is a discounted cash flow concept built entirely around the time value of money. B: backwards — an IRR higher than the cost of borrowing means the investment earns more than it costs to finance, which is profitable, not unprofitable. C: false — bonds are a standard IRR application; a bond's IRR is its yield to maturity, and IRR works fine with even, regular cash flows like coupon payments."
+      }
+    ]
+  },
+
+  {
+    id: "gross-margin-computation",
+    category: "Equities",
+    title: "Gross Margin — Formula & What Doesn't Belong",
+    color: "#7EC8A4",
+    analogy: "Gross margin only cares about the very first layer of a company's costs — what it took to actually make or buy the stuff that got sold (cost of goods sold). It doesn't care yet about the electric bill, the loan payments, or how the equipment is aging (depreciation) — those all get subtracted in LATER, deeper layers of the income statement, not here.",
+    rule: "**Gross Margin = (Net Revenues − Cost of Goods Sold) ÷ Net Revenues.** This ratio only accounts for the direct cost of producing/acquiring what was sold — it stops at COGS and does NOT subtract operating expenses like depreciation, interest, SG&A, or taxes. Those come later in the income statement (used to calculate operating margin, net margin, etc.), not in gross margin. Balance sheet items like net assets and long-term debt are never part of this calculation at all.",
+    watch: "Watch for extra data thrown into the problem that isn't needed — depreciation, interest, net assets, and long-term debt are all common distractors in gross margin questions, since they're real financial figures that simply don't belong in THIS specific formula. Gross margin only ever needs two numbers: net revenues and cost of goods sold.",
+    quiz: [
+      {
+        q: "A review of a corporation's financial statements reveals: Net assets $50 million, Net revenues $20 million, Cost of goods sold $14 million, Depreciation $1 million, Interest $1 million, Long-term debt $20 million. Using this information, the gross margin for the year was",
+        options: [
+          "30%",
+          "20%",
+          "53%",
+          "25%"
+        ],
+        answer: 0,
+        explain: "Gross margin = (Revenue - COGS) / Revenue = ($20M - $14M) / $20M = $6M / $20M = 30%. Net assets, depreciation, interest, and long-term debt are all distractors — none of them belong in a gross margin calculation, which only uses revenue and cost of goods sold."
+      },
+      {
+        q: "A company has net revenues of $500,000 and cost of goods sold of $350,000. What is its gross margin?",
+        options: [
+          "70%",
+          "30%",
+          "50%",
+          "43%"
+        ],
+        answer: 1,
+        explain: "Gross margin = ($500,000 - $350,000) / $500,000 = $150,000 / $500,000 = 30%."
+      }
+    ]
+  },
+
+  {
+    id: "dividend-payout-ratio",
+    category: "Equities",
+    title: "Dividend Payout Ratio — Don't Forget to Annualize",
+    color: "#7EC8A4",
+    analogy: "If dividend yield asks 'how much am I earning on my share price,' dividend payout ratio asks a different question entirely: 'what slice of the company's earnings pie is being handed to shareholders, versus kept in the kitchen to reinvest?' Same annualizing trap applies though — if you're handed a quarterly dividend, you have to scale it up to a full year's pie slice before comparing it to the company's full year of earnings (EPS).",
+    rule: "**Dividend Payout Ratio = Annual Dividends Per Share ÷ Earnings Per Share (EPS).** This measures what percentage of a company's earnings is being distributed to shareholders as dividends, rather than retained for reinvestment. Just like dividend yield, when the dividend is given as a quarterly (or monthly) figure, it must be **annualized first** (quarterly x 4, or monthly x 12) before dividing by EPS.",
+    watch: "Same trap as dividend yield: dividing the QUARTERLY dividend directly by EPS without annualizing first produces a payout ratio 1/4 the size of the correct answer. Don't confuse this ratio's denominator (EPS — earnings) with dividend yield's denominator (share price) — they're answering different questions, but both require annualizing the dividend first.",
+    quiz: [
+      {
+        q: "ALFA Enterprises pays a quarterly dividend of $0.15 and has earnings per share of $2.40. Assuming that payout rate is continued, what is the dividend payout ratio?",
+        options: [
+          "6.25%",
+          "25%",
+          "30%",
+          "14.4%"
+        ],
+        answer: 1,
+        explain: "First annualize: $0.15 x 4 quarters = $0.60 annual dividend. Then divide by EPS: $0.60 / $2.40 = 25%. A (6.25%) is the trap answer — it results from dividing the quarterly dividend directly by EPS without annualizing first."
+      },
+      {
+        q: "A company pays a quarterly dividend of $0.25 per share and has EPS of $4.00. What is the dividend payout ratio?",
+        options: [
+          "6.25%",
+          "12.5%",
+          "25%",
+          "50%"
+        ],
+        answer: 2,
+        explain: "Annualize first: $0.25 x 4 = $1.00 annual dividend. Then divide by EPS: $1.00 / $4.00 = 25%. A (6.25%) is the trap from skipping annualization."
+      }
+    ]
+  },
+
+  {
+    id: "npv-sign-irr-vs-required-return",
+    category: "Bonds",
+    title: "NPV Sign — Comparing IRR to Required Rate of Return",
+    color: "#E8C547",
+    analogy: "Think of your required rate of return as a bar you need an investment to clear. If the investment's IRR clears that bar, NPV comes out positive — there's value left over. If IRR lands exactly on the bar, NPV is exactly zero. If IRR falls short of the bar, NPV comes out negative — the investment isn't worth what you'd need to pay for it, discounted at your required rate.",
+    rule: "Comparing an investment's **IRR** to an investor's **required rate of return** determines the sign of NPV: **IRR > required rate → NPV is positive.** **IRR = required rate → NPV is exactly zero.** **IRR < required rate → NPV is negative.** Note the units: **NPV is expressed as a dollar amount**, while **IRR is expressed as a percentage** — they are never expressed the same way, so an answer choice describing NPV in percentage terms (or as a range between two percentages) is automatically wrong.",
+    watch: "Watch for answer choices expressing NPV as a percentage or a range of percentages (like 'between 5.75% and 6%') — NPV is always a dollar figure, never a percentage. This units mismatch is often a giveaway that the option can't be correct, even before evaluating the IRR-vs-required-rate comparison itself.",
+    quiz: [
+      {
+        q: "An investor's required rate of return is 6%. If the internal rate of return of the investment offered is 5.75%, then the NPV is",
+        options: [
+          "Positive",
+          "Zero",
+          "Negative",
+          "Between 5.75% and 6%"
+        ],
+        answer: 2,
+        explain: "Since IRR (5.75%) is less than the required rate of return (6%), NPV is negative — the investment falls short of what's needed. D is also flawed on units alone: NPV is always expressed as a dollar amount, never as a percentage or a range between two percentages."
+      },
+      {
+        q: "An investor's required rate of return is 8%. An investment's IRR is 9.5%. What is true about the NPV?",
+        options: [
+          "NPV is negative",
+          "NPV is positive",
+          "NPV is exactly zero",
+          "NPV cannot be determined without more information"
+        ],
+        answer: 1,
+        explain: "Since IRR (9.5%) exceeds the required rate of return (8%), the investment offers more than what's needed, resulting in a positive NPV."
       }
     ]
   }

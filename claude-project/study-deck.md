@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 198 concept cards across 9 categories._
+_Auto-generated from src/data.js. 202 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,9 +15,9 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (13 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth
+- **Bonds** (15 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
-- **Equities** (18 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation
+- **Equities** (20 cards): Stock Dividends & Splits · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
 - **Regulations** (84 cards): Affiliate Status & Rule 144 · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will
@@ -778,9 +778,9 @@ _id: `bond-sensitivity-maturity-premium-discount` · category: Bonds_
 
 **Analogy.** Picture two bonds maturing in exactly 2 years, both $1,000 face value. A 10%-coupon (premium) bond pays you $100 + $100 + $1,000 over its life — most of your cash trickles back to you early through coupons. A 2%-coupon (discount) bond pays you $20 + $20 + $1,000 — almost all of your money is stuck waiting for that final lump sum. Even though both bonds mature at the SAME time, more of the discount bond's value is 'parked' out at the far end, making it behave like it has a longer effective duration.
 
-**Rule.** Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. A high-coupon premium bond returns more cash early via coupons, reducing how much value is 'stuck' waiting at maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.
+**Rule.** Duration is expressed in years (not a percentage) and represents a time-weighted average of when a bond's cash flows are received. Duration equals maturity ONLY for a zero-coupon bond; any interest-bearing bond has a duration shorter than its stated maturity, since some value returns to the investor before maturity via coupon payments. A STRIP is a real-world example of a zero-coupon bond (Treasury-issued) — among Treasury instruments of similar maturity, a STRIP will show the greatest price sensitivity to rate changes, since none of its value returns to the investor before maturity. Two factors combine to determine a bond's interest rate sensitivity: **(1) Maturity length** — longer maturity = more price sensitivity to rate changes (more distant fixed cash flows). **(2) Coupon level (premium vs. discount)** — a LOWER coupon (discount bond) means a higher percentage of total value is concentrated in the single distant principal repayment, giving it a longer EFFECTIVE duration than a higher-coupon (premium) bond of the same stated maturity. These two factors STACK: the bond with both the longest maturity AND the lowest coupon (discount) will show the greatest price sensitivity to rate changes, in either direction.
 
-**Watch.** The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity. Use this as your mental reference point — the lower the coupon, the closer a bond's behavior gets to a zero-coupon bond's heightened sensitivity.
+**Watch.** Bond notation like 'ABC 5s of 2050' decodes to a 5% coupon maturing in 2050 — when comparing several bonds, check maturities first; if they're clustered closely together, the maturity factor roughly cancels out and the LOWEST coupon becomes the deciding factor for greatest interest rate risk. The extreme case worth anchoring to: a zero-coupon bond has 100% of its value locked up at maturity (no coupons at all trickling back early), making it the MOST interest-rate-sensitive bond structure that exists for any given maturity.
 
 **Quiz.**
 
@@ -797,6 +797,27 @@ _id: `bond-sensitivity-maturity-premium-discount` · category: Bonds_
      C) Zero-coupon bonds always have shorter maturities
      D) Zero-coupon bonds are guaranteed by the U.S. government
    _Explanation:_ With no coupon payments at all, 100% of a zero-coupon bond's value is locked up until maturity — the most extreme version of the 'discount bond' effect, making it the most interest-rate-sensitive bond structure for any given maturity length.
+
+3. Which of the following bonds would most likely be exposed to the greatest amount of interest rate risk? A) GHI 7s of 2052. B) ABC 5s of 2050. C) JKL 4s of 2028. D) DEF 6s of 2051.
+     A) GHI 7s of 2052
+   ✓ B) ABC 5s of 2050
+     C) JKL 4s of 2028
+     D) DEF 6s of 2051
+   _Explanation:_ Bond notation 'X% s of YEAR' means coupon rate and maturity year. A, B, and D all mature within 1-2 years of each other (2050-2052), essentially neutralizing the maturity factor as a tiebreaker among them. C matures far sooner (2028) and is eliminated despite its low coupon, since its much shorter maturity dominates. Among A, B, and D, the LOWEST coupon determines the longest effective duration — B's 5% coupon is lower than A's 7% and D's 6%, giving it the greatest interest rate risk.
+
+4. A bond's duration is
+     A) An indication of a bond's yield that ignores its price volatility
+     B) Identical to its maturity for an interest-bearing bond
+   ✓ C) Longer for a 10-year bond with a 5% coupon than it is for a 10-year bond with a 10% coupon
+     D) Expressed as a percentage
+   _Explanation:_ At the same 10-year maturity, the LOWER coupon (5%) concentrates more value at the distant maturity payment, giving it a longer effective duration than the higher-coupon (10%) bond. A: backwards — duration IS a measure of price volatility/sensitivity, not something that ignores it. B: only true for a zero-coupon bond; any bond that pays interest along the way has a duration shorter than its stated maturity. D: duration is expressed in years, not as a percentage.
+
+5. Your client owns a 91-day T-bill, a 2-year T-note, a 20-year T-bond, and a 20-year STRIP. The market price of which of these is likely to have the smallest movement when there are changes to the discount rate?
+     A) T-bond
+     B) STRIP
+   ✓ C) T-bill
+     D) T-note
+   _Explanation:_ The 91-day T-bill has a dramatically shorter maturity than the other three instruments (2 years, 20 years, 20 years), making it far less sensitive to interest rate changes — shorter maturity means less time for the rate mismatch to affect price. Even without comparing coupon structure, the maturity gap alone decides this question. Note: the STRIP (a zero-coupon Treasury) would actually have the GREATEST sensitivity of the four, since 100% of its value is concentrated at the distant 20-year maturity — if the question asked for greatest movement instead, the STRIP would win over even the 20-year T-bond.
 
 ---
 
@@ -825,6 +846,69 @@ _id: `bond-call-premium-working-capital-net-worth` · category: Bonds_
      C) Because working capital only tracks long-term items
      D) Because net worth and working capital are always equal
    _Explanation:_ Working capital only compares current assets to current liabilities. Since the bonds were long-term debt, retiring them doesn't touch the current liabilities side at all — only cash (a current asset) decreases, causing working capital to decrease.
+
+---
+
+## NPV vs. IRR — Reinvestment Rate Assumptions
+
+_id: `npv-vs-irr-reinvestment-assumptions` · category: Bonds_
+
+**Analogy.** NPV assumes every dollar you get back gets reinvested at whatever the going bank rate is right now — a realistic, market-grounded assumption. IRR assumes every dollar gets reinvested at that SAME bond's own specific yield, no matter what the market is actually offering — like assuming you'll always be able to re-lend money at the exact same rate as your original loan, which isn't necessarily true.
+
+**Rule.** IRR is formally defined as the discount rate at which an investment's NPV equals zero — this is the core relationship connecting the two concepts. **NPV (Net Present Value)** discounts future cash flows using the **current market interest rate**, so the reinvestment assumption embedded in NPV is that cash flows are reinvested at that **market rate** — a realistic assumption. **IRR (Internal Rate of Return)**, which for a bond equals its **yield to maturity (YTM)**, assumes cash flows are reinvested at that **same IRR/YTM rate** — a less realistic assumption, since market conditions won't necessarily match a specific bond's own yield. Bond interest is typically paid **semiannually**, so any reinvestment (under either method) happens semiannually, not annually.
+
+**Watch.** Don't swap which method assumes what — NPV = reinvest at market rate; IRR = reinvest at its own rate. This reversal is the classic trap. Also watch for 'annually' vs. 'semiannually' — bond interest payments (and thus any reinvestment opportunity) occur semiannually, not annually.
+
+**Quiz.**
+
+1. Which of the following statements is most accurate regarding the net present value (NPV) and internal rate of return (IRR) on a bond?
+     A) IRR assumes the cash flows are reinvested annually
+     B) IRR assumes the cash flows are reinvested at market interest rates
+   ✓ C) NPV assumes the cash flows can be reinvested at market interest rates
+     D) NPV assumes that cash flows can be reinvested at the bond's IRR
+   _Explanation:_ NPV is built on discounting future cash flows at the current market interest rate, so its embedded reinvestment assumption is the market rate. A: bond interest is paid semiannually, not annually, so this misstates frequency. B: reversed — IRR assumes reinvestment at its OWN rate (the bond's YTM), not the market rate. D: reversed — it's IRR, not NPV, that assumes reinvestment at the bond's own rate.
+
+2. For a bond, what does IRR (internal rate of return) equal, and what reinvestment rate does it assume?
+     A) IRR equals the coupon rate; assumes reinvestment at the market rate
+   ✓ B) IRR equals the yield to maturity; assumes reinvestment at that same IRR/YTM rate
+     C) IRR equals the discount rate; assumes no reinvestment at all
+     D) IRR equals the par value; assumes reinvestment annually
+   _Explanation:_ A bond's IRR is its yield to maturity, and IRR calculations assume all cash flows are reinvested at that same rate — considered a less realistic assumption than NPV's market-rate-based approach, since actual market conditions may differ from a specific bond's yield.
+
+3. Which of the following statements regarding internal rate of return (IRR) is true?
+     A) IRR ignores the time value of money
+     B) If the IRR is higher than the cost of borrowing to fund an investment, the investment is likely to be unprofitable
+     C) IRR cannot be used effectively to measure return on investments with even cash flows, such as bonds
+   ✓ D) IRR is a discount rate at which the net present value (NPV) of an investment is equal to zero
+   _Explanation:_ This is the core definition: IRR is the discount rate at which an investment's NPV equals zero. A: backwards — IRR is a discounted cash flow concept built entirely around the time value of money. B: backwards — an IRR higher than the cost of borrowing means the investment earns more than it costs to finance, which is profitable, not unprofitable. C: false — bonds are a standard IRR application; a bond's IRR is its yield to maturity, and IRR works fine with even, regular cash flows like coupon payments.
+
+---
+
+## NPV Sign — Comparing IRR to Required Rate of Return
+
+_id: `npv-sign-irr-vs-required-return` · category: Bonds_
+
+**Analogy.** Think of your required rate of return as a bar you need an investment to clear. If the investment's IRR clears that bar, NPV comes out positive — there's value left over. If IRR lands exactly on the bar, NPV is exactly zero. If IRR falls short of the bar, NPV comes out negative — the investment isn't worth what you'd need to pay for it, discounted at your required rate.
+
+**Rule.** Comparing an investment's **IRR** to an investor's **required rate of return** determines the sign of NPV: **IRR > required rate → NPV is positive.** **IRR = required rate → NPV is exactly zero.** **IRR < required rate → NPV is negative.** Note the units: **NPV is expressed as a dollar amount**, while **IRR is expressed as a percentage** — they are never expressed the same way, so an answer choice describing NPV in percentage terms (or as a range between two percentages) is automatically wrong.
+
+**Watch.** Watch for answer choices expressing NPV as a percentage or a range of percentages (like 'between 5.75% and 6%') — NPV is always a dollar figure, never a percentage. This units mismatch is often a giveaway that the option can't be correct, even before evaluating the IRR-vs-required-rate comparison itself.
+
+**Quiz.**
+
+1. An investor's required rate of return is 6%. If the internal rate of return of the investment offered is 5.75%, then the NPV is
+     A) Positive
+     B) Zero
+   ✓ C) Negative
+     D) Between 5.75% and 6%
+   _Explanation:_ Since IRR (5.75%) is less than the required rate of return (6%), NPV is negative — the investment falls short of what's needed. D is also flawed on units alone: NPV is always expressed as a dollar amount, never as a percentage or a range between two percentages.
+
+2. An investor's required rate of return is 8%. An investment's IRR is 9.5%. What is true about the NPV?
+     A) NPV is negative
+   ✓ B) NPV is positive
+     C) NPV is exactly zero
+     D) NPV cannot be determined without more information
+   _Explanation:_ Since IRR (9.5%) exceeds the required rate of return (8%), the investment offers more than what's needed, resulting in a positive NPV.
 
 ---
 
@@ -1508,6 +1592,62 @@ _id: `current-ratio-components` · category: Equities_
      C) Because shareholders' equity is a long-term liability
      D) Because current ratio only applies to companies without shareholders
    _Explanation:_ Shareholders' equity represents the residual claim on assets after liabilities are subtracted (net worth) — it's a distinct balance sheet category, not a current asset or current liability, so it has no place in the current ratio formula.
+
+---
+
+## Gross Margin — Formula & What Doesn't Belong
+
+_id: `gross-margin-computation` · category: Equities_
+
+**Analogy.** Gross margin only cares about the very first layer of a company's costs — what it took to actually make or buy the stuff that got sold (cost of goods sold). It doesn't care yet about the electric bill, the loan payments, or how the equipment is aging (depreciation) — those all get subtracted in LATER, deeper layers of the income statement, not here.
+
+**Rule.** **Gross Margin = (Net Revenues − Cost of Goods Sold) ÷ Net Revenues.** This ratio only accounts for the direct cost of producing/acquiring what was sold — it stops at COGS and does NOT subtract operating expenses like depreciation, interest, SG&A, or taxes. Those come later in the income statement (used to calculate operating margin, net margin, etc.), not in gross margin. Balance sheet items like net assets and long-term debt are never part of this calculation at all.
+
+**Watch.** Watch for extra data thrown into the problem that isn't needed — depreciation, interest, net assets, and long-term debt are all common distractors in gross margin questions, since they're real financial figures that simply don't belong in THIS specific formula. Gross margin only ever needs two numbers: net revenues and cost of goods sold.
+
+**Quiz.**
+
+1. A review of a corporation's financial statements reveals: Net assets $50 million, Net revenues $20 million, Cost of goods sold $14 million, Depreciation $1 million, Interest $1 million, Long-term debt $20 million. Using this information, the gross margin for the year was
+   ✓ A) 30%
+     B) 20%
+     C) 53%
+     D) 25%
+   _Explanation:_ Gross margin = (Revenue - COGS) / Revenue = ($20M - $14M) / $20M = $6M / $20M = 30%. Net assets, depreciation, interest, and long-term debt are all distractors — none of them belong in a gross margin calculation, which only uses revenue and cost of goods sold.
+
+2. A company has net revenues of $500,000 and cost of goods sold of $350,000. What is its gross margin?
+     A) 70%
+   ✓ B) 30%
+     C) 50%
+     D) 43%
+   _Explanation:_ Gross margin = ($500,000 - $350,000) / $500,000 = $150,000 / $500,000 = 30%.
+
+---
+
+## Dividend Payout Ratio — Don't Forget to Annualize
+
+_id: `dividend-payout-ratio` · category: Equities_
+
+**Analogy.** If dividend yield asks 'how much am I earning on my share price,' dividend payout ratio asks a different question entirely: 'what slice of the company's earnings pie is being handed to shareholders, versus kept in the kitchen to reinvest?' Same annualizing trap applies though — if you're handed a quarterly dividend, you have to scale it up to a full year's pie slice before comparing it to the company's full year of earnings (EPS).
+
+**Rule.** **Dividend Payout Ratio = Annual Dividends Per Share ÷ Earnings Per Share (EPS).** This measures what percentage of a company's earnings is being distributed to shareholders as dividends, rather than retained for reinvestment. Just like dividend yield, when the dividend is given as a quarterly (or monthly) figure, it must be **annualized first** (quarterly x 4, or monthly x 12) before dividing by EPS.
+
+**Watch.** Same trap as dividend yield: dividing the QUARTERLY dividend directly by EPS without annualizing first produces a payout ratio 1/4 the size of the correct answer. Don't confuse this ratio's denominator (EPS — earnings) with dividend yield's denominator (share price) — they're answering different questions, but both require annualizing the dividend first.
+
+**Quiz.**
+
+1. ALFA Enterprises pays a quarterly dividend of $0.15 and has earnings per share of $2.40. Assuming that payout rate is continued, what is the dividend payout ratio?
+     A) 6.25%
+   ✓ B) 25%
+     C) 30%
+     D) 14.4%
+   _Explanation:_ First annualize: $0.15 x 4 quarters = $0.60 annual dividend. Then divide by EPS: $0.60 / $2.40 = 25%. A (6.25%) is the trap answer — it results from dividing the quarterly dividend directly by EPS without annualizing first.
+
+2. A company pays a quarterly dividend of $0.25 per share and has EPS of $4.00. What is the dividend payout ratio?
+     A) 6.25%
+     B) 12.5%
+   ✓ C) 25%
+     D) 50%
+   _Explanation:_ Annualize first: $0.25 x 4 = $1.00 annual dividend. Then divide by EPS: $1.00 / $4.00 = 25%. A (6.25%) is the trap from skipping annualization.
 
 ---
 
@@ -5739,6 +5879,13 @@ _id: `discounted-cash-flow-identification` · category: Suitability_
      D) Rule of 72
    _Explanation:_ IRR, like NPV, is built on discounting future cash flows — it's the rate at which the present value of those future cash flows equals the investment's current price/cost. Beta and Sharpe ratio are risk measures, and the Rule of 72 is a quick doubling-time estimate, not a formal discounted cash flow computation.
 
+3. One way in which internal rate of return (IRR) differs from most return computations is that
+     A) It is always an annualized rate of return
+     B) It takes into consideration the rate of inflation
+     C) Its application to debt securities is limited
+   ✓ D) It takes into consideration the time value of money
+   _Explanation:_ IRR, as a discounted cash flow computation, specifically accounts for WHEN cash flows occur — unlike simpler measures like current yield or holding period return, which just look at raw dollar amounts without adjusting for timing. A: being annualized isn't unique to IRR; many simple return measures are also annualized. B: IRR has nothing to do with inflation adjustment. C: false — a bond's IRR is its yield to maturity, one of IRR's most standard applications.
+
 ---
 
 ## Alpha — Measuring Risk-Adjusted Performance
@@ -5749,7 +5896,7 @@ _id: `alpha-capm-risk-adjusted-performance` · category: Suitability_
 
 **Rule.** **Alpha = Actual Return − Expected Return**, where Expected Return is calculated using CAPM: **Expected Return = Risk-free rate + Beta × (Market return − Risk-free rate).** The term (Market return − Risk-free rate) is called the market risk premium. A **positive alpha** means the portfolio outperformed what was expected given its level of systematic risk (beta); a **negative alpha** means it underperformed on a risk-adjusted basis. Standard deviation (portfolio or market) is NOT used anywhere in the alpha calculation — it measures total volatility, not the systematic risk that alpha is built around.
 
-**Watch.** Standard deviation numbers are a common distractor in alpha questions — they're often included in the data set to test whether you know alpha is built entirely from beta and CAPM, not from volatility figures. Don't use standard deviation anywhere in this calculation, even if it's provided.
+**Watch.** Standard deviation numbers are a common distractor in alpha questions — they're often included in the data set to test whether you know alpha is built entirely from beta and CAPM, not from volatility figures. Don't use standard deviation anywhere in this calculation, even if it's provided. Also watch for a portfolio that beat the MARKET's raw return but still has NEGATIVE alpha — a high beta means the portfolio was expected to earn even more given the extra risk taken on, so beating the market's actual number isn't the same as beating your own risk-adjusted expectation.
 
 **Quiz.**
 
@@ -5766,6 +5913,13 @@ _id: `alpha-capm-risk-adjusted-performance` · category: Suitability_
      C) Actual return and standard deviation only
      D) Beta and standard deviation only
    _Explanation:_ CAPM's expected return formula is: Risk-free rate + Beta x (Market return - Risk-free rate). Standard deviation is not part of this formula at all — it measures volatility, not the systematic risk relationship that CAPM and alpha are built around.
+
+3. Assume Frank has a portfolio with an actual return of 10.50% for the past year. The portfolio beta equals 1.25, the return on the market equals 9.75%, and the risk-free rate of return equals 3%. Based on this information, what is the alpha for Frank's portfolio and did it outperform or underperform the market?
+     A) +3.3750%, outperform
+     B) -1.6875%, underperform
+   ✓ C) -0.9375%, underperform
+     D) +9.1875%, outperform
+   _Explanation:_ Expected return = 3% + 1.25 x (9.75% - 3%) = 3% + 8.4375% = 11.4375%. Alpha = actual return - expected return = 10.50% - 11.4375% = -0.9375%, a negative alpha, meaning the portfolio underperformed on a risk-adjusted basis. This tests the distinction between beating the market's raw return (Frank's 10.50% > market's 9.75%) and beating your risk-adjusted expectation — with a high beta of 1.25, Frank's portfolio was expected to earn even more given the extra risk taken on, so it still came up short on alpha despite the higher raw return.
 
 ---
 

@@ -24,6 +24,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 
 **Deck coverage:**
 - Stock Dividends & Splits
+- Preferred Stock vs Bonds — Risks When Substituted for Income
 - Record Date — Who Gets to Vote
 - Affiliate Status & Rule 144 (crosses with Unit 8)
 - Cash Dividends — Declaration vs. Payment Effects

@@ -196,6 +196,45 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "preferred-vs-bonds-income-risk",
+    category: "Equities",
+    title: "Preferred Stock vs Bonds — Risks When Substituted for Income",
+    color: "#7EC8A4",
+    analogy: "Preferred stock is a bond in equity clothing. It walks like a bond (fixed income, rate-sensitive, often callable) but sits at the equity kids' table (junior in liquidation, no maturity date). One thing it DOES do better than bonds: exchange-listed preferreds trade on the stock exchange, so they're usually MORE liquid than corporate bonds — not less.",
+    rule: "Swapping bonds for preferred stock to generate income picks up three risks: **loss of principal** (equity is junior to debt in liquidation and preferreds have no maturity to snap back to par), **interest-rate price volatility** (preferreds trade like long-duration bonds), and **call/reinvestment risk** (when rates fall, the issuer calls and the client has to reinvest at lower rates → sudden income drop). Liquidity does NOT get worse — listed preferreds trade at least as easily as corporate bonds.",
+    watch: "The trap is thinking preferreds are harder to trade than bonds. It's the opposite: bonds trade OTC through dealers with wide bid-ask spreads; exchange-listed preferreds trade on the stock exchange with tight spreads. Also, preferreds have NO maturity date — unlike a bond, you never get a guaranteed return of par, which quietly amplifies the principal risk.",
+    quiz: [
+      {
+        q: "An investor who uses preferred stock as an income source instead of bonds would potentially incur which of the following risks? I. Loss of principal can occur. II. Price volatility of preferred stock is closely related to interest rates. III. Preferred stock cannot be traded as readily as bonds. IV. If the stock is callable, the client's income can be suddenly lowered.",
+        options: ["I, II, III, and IV", "III and IV", "I and II", "I, II, and IV"],
+        answer: 3,
+        explain: "I, II, and IV are all real risks. III is FALSE — exchange-listed preferred shares generally trade MORE readily than corporate bonds, which are OTC dealer-quoted with wide spreads. The other three: preferreds are junior to bonds in liquidation (principal risk), rate-sensitive like long bonds (volatility), and often callable (reinvestment/income risk)."
+      },
+      {
+        q: "An investor holds a callable 6% preferred stock. Interest rates drop sharply. What is the most likely consequence?",
+        options: [
+          "The preferred stock's price falls to reflect the lower rate environment",
+          "The company calls the preferred and the investor must reinvest at lower prevailing rates, reducing income",
+          "The company raises the dividend on the preferred to match new rates",
+          "Nothing — preferreds pay a fixed dividend regardless of rate environment"
+        ],
+        answer: 1,
+        explain: "Callability cuts against the investor when rates fall. The issuer redeems the 6% preferred (cheap financing gone) and reissues at the new lower rate. The former holder is stuck reinvesting at those lower rates — income drops. This is why call risk is really 'reinvestment risk in disguise.'"
+      },
+      {
+        q: "Which is TRUE about preferred stock compared to bonds as an income vehicle?",
+        options: [
+          "Preferred stock has a maturity date, so principal is returned like a bond",
+          "Preferred stock is senior to bonds in liquidation",
+          "Preferred stock has no maturity date, so shares may never return to par",
+          "Preferred stock is not affected by changes in interest rates"
+        ],
+        answer: 2,
+        explain: "No maturity date is the quiet dealbreaker. Bonds pull back to par as maturity approaches; preferreds don't. Combine that with equity's junior claim, and preferreds carry more principal risk than bonds even when everything else looks similar. The other options are all reversed: preferreds are JUNIOR to bonds, ARE rate-sensitive, and DO NOT mature."
+      }
+    ]
+  },
+  {
     id: "record-date-voting-rights",
     category: "Equities",
     title: "Record Date — Who Gets to Vote",

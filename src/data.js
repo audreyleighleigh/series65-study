@@ -235,6 +235,45 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "emerging-market-stock-risks",
+    category: "Equities",
+    title: "Emerging Market Stocks — Risks Present vs Absent",
+    color: "#7EC8A4",
+    analogy: "Buying an emerging-market stock is like renting an apartment in a foreign city. You get currency swings (exchange rate), the local landlord could change the rules (political risk), and if you need out fast you might struggle to find a taker (liquidity risk). But the mortgage rate on the building doesn't affect your rent — because you're an equity holder, not a debt holder. Interest rate risk lives on the debt side, not the stock side.",
+    rule: "**Emerging market stocks carry currency, liquidity, and political risk** — the classic foreign-equity trio. Common stock does NOT carry meaningful interest rate risk, because interest rate risk is a fixed-income concept (it measures how bond prices move with rates). Exception: PREFERRED stock behaves like a long-dated bond and IS rate-sensitive, but common stock is not.",
+    watch: "The 'least likely' phrasing is designed to lure you toward the most obvious risk (usually political). Flip the question: three of the four risks are clearly present in emerging markets; the odd one out is the one that shouldn't apply to STOCKS at all. Interest rate risk = bonds. If the question specified preferred stock, the answer would change.",
+    quiz: [
+      {
+        q: "Investing in emerging market stocks is LEAST likely to expose your client to which of the following risks?",
+        options: ["Currency", "Liquidity", "Political", "Interest rate"],
+        answer: 3,
+        explain: "Currency, liquidity, and political risk are all elevated in emerging markets — those are foreign-investment staples. Interest rate risk is a bond concept: it measures how bond prices move when rates change. Common stock doesn't have this exposure. (Preferred stock does, because it trades like a long bond — but this question is about stocks generally.)"
+      },
+      {
+        q: "Which risk is most uniquely associated with investing in foreign equity securities (that you wouldn't face with U.S. equities)?",
+        options: [
+          "Business risk",
+          "Market risk",
+          "Currency risk",
+          "Purchasing power risk"
+        ],
+        answer: 2,
+        explain: "Currency risk is the one that shows up specifically because you're holding an investment denominated in a foreign currency. Business risk, market risk, and purchasing power (inflation) risk exist for U.S. equities too."
+      },
+      {
+        q: "Which of the following equity securities IS subject to interest rate risk?",
+        options: [
+          "Common stock of a domestic corporation",
+          "Common stock of an emerging market company",
+          "Preferred stock",
+          "Growth stock of a technology company"
+        ],
+        answer: 2,
+        explain: "Preferred stock is the odd equity out — it trades like a long-duration bond because it pays a fixed dividend and often has no maturity. Rates ↑ → preferred price ↓. Common stock (domestic, emerging, or growth) is not directly rate-sensitive in the same way."
+      }
+    ]
+  },
+  {
     id: "preemptive-rights",
     category: "Equities",
     title: "Preemptive Rights — Common Only, Not Preferred",
@@ -270,6 +309,17 @@ export const CONCEPTS = [
         ],
         answer: 2,
         explain: "Only common shareholders get preemptive/subscription rights on new common issuances. Preferred shareholders and bondholders sit outside the ownership hierarchy — they have fixed claims, not a stake in the growth, so dilution isn't their concern."
+      },
+      {
+        q: "Which of the following statements regarding preemptive rights is TRUE?",
+        options: [
+          "Common stockholders do not have the right to subscribe to a rights offering",
+          "Both common and preferred stockholders have the right to subscribe to a rights offering",
+          "Neither common nor preferred stockholders have the right to subscribe to a rights offering",
+          "Preferred stockholders do not have the right to subscribe to a rights offering"
+        ],
+        answer: 3,
+        explain: "D is correct: preferred stockholders don't get preemptive/subscription rights because they have fixed claims, not an ownership stake in the company's growth. Preferred holders DO get a liquidation preference and a dividend preference — but not a proportional-ownership preference. Common holders are the only class that gets rights offerings."
       }
     ]
   },

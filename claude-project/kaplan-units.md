@@ -27,6 +27,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Preferred Stock vs Bonds — Risks When Substituted for Income
 - Preemptive Rights — Common Only, Not Preferred
 - Record Date — Who Gets to Vote
+- Emerging Market Stocks — Risks Present vs Absent
 - ISOs vs NQSOs (crosses with Unit 15)
 - Affiliate Status & Rule 144 (crosses with Unit 8)
 - Rule 144 — Holding Period vs. Volume Limit (crosses with Unit 8)

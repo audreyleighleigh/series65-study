@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 207 concept cards across 9 categories._
+_Auto-generated from src/data.js. 208 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -17,7 +17,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
 - **Bonds** (16 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
-- **Equities** (23 cards): Stock Dividends & Splits · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize
+- **Equities** (24 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
 - **Regulations** (85 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will
@@ -1119,6 +1119,41 @@ _id: `stockdiv` · category: Equities_
 
 ---
 
+## Emerging Market Stocks — Risks Present vs Absent
+
+_id: `emerging-market-stock-risks` · category: Equities_
+
+**Analogy.** Buying an emerging-market stock is like renting an apartment in a foreign city. You get currency swings (exchange rate), the local landlord could change the rules (political risk), and if you need out fast you might struggle to find a taker (liquidity risk). But the mortgage rate on the building doesn't affect your rent — because you're an equity holder, not a debt holder. Interest rate risk lives on the debt side, not the stock side.
+
+**Rule.** **Emerging market stocks carry currency, liquidity, and political risk** — the classic foreign-equity trio. Common stock does NOT carry meaningful interest rate risk, because interest rate risk is a fixed-income concept (it measures how bond prices move with rates). Exception: PREFERRED stock behaves like a long-dated bond and IS rate-sensitive, but common stock is not.
+
+**Watch.** The 'least likely' phrasing is designed to lure you toward the most obvious risk (usually political). Flip the question: three of the four risks are clearly present in emerging markets; the odd one out is the one that shouldn't apply to STOCKS at all. Interest rate risk = bonds. If the question specified preferred stock, the answer would change.
+
+**Quiz.**
+
+1. Investing in emerging market stocks is LEAST likely to expose your client to which of the following risks?
+     A) Currency
+     B) Liquidity
+     C) Political
+   ✓ D) Interest rate
+   _Explanation:_ Currency, liquidity, and political risk are all elevated in emerging markets — those are foreign-investment staples. Interest rate risk is a bond concept: it measures how bond prices move when rates change. Common stock doesn't have this exposure. (Preferred stock does, because it trades like a long bond — but this question is about stocks generally.)
+
+2. Which risk is most uniquely associated with investing in foreign equity securities (that you wouldn't face with U.S. equities)?
+     A) Business risk
+     B) Market risk
+   ✓ C) Currency risk
+     D) Purchasing power risk
+   _Explanation:_ Currency risk is the one that shows up specifically because you're holding an investment denominated in a foreign currency. Business risk, market risk, and purchasing power (inflation) risk exist for U.S. equities too.
+
+3. Which of the following equity securities IS subject to interest rate risk?
+     A) Common stock of a domestic corporation
+     B) Common stock of an emerging market company
+   ✓ C) Preferred stock
+     D) Growth stock of a technology company
+   _Explanation:_ Preferred stock is the odd equity out — it trades like a long-duration bond because it pays a fixed dividend and often has no maturity. Rates ↑ → preferred price ↓. Common stock (domestic, emerging, or growth) is not directly rate-sensitive in the same way.
+
+---
+
 ## Preemptive Rights — Common Only, Not Preferred
 
 _id: `preemptive-rights` · category: Equities_
@@ -1151,6 +1186,13 @@ _id: `preemptive-rights` · category: Equities_
    ✓ C) Common shareholders only
      D) Bondholders and preferred shareholders
    _Explanation:_ Only common shareholders get preemptive/subscription rights on new common issuances. Preferred shareholders and bondholders sit outside the ownership hierarchy — they have fixed claims, not a stake in the growth, so dilution isn't their concern.
+
+4. Which of the following statements regarding preemptive rights is TRUE?
+     A) Common stockholders do not have the right to subscribe to a rights offering
+     B) Both common and preferred stockholders have the right to subscribe to a rights offering
+     C) Neither common nor preferred stockholders have the right to subscribe to a rights offering
+   ✓ D) Preferred stockholders do not have the right to subscribe to a rights offering
+   _Explanation:_ D is correct: preferred stockholders don't get preemptive/subscription rights because they have fixed claims, not an ownership stake in the company's growth. Preferred holders DO get a liquidation preference and a dividend preference — but not a proportional-ownership preference. Common holders are the only class that gets rights offerings.
 
 ---
 

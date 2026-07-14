@@ -27,11 +27,13 @@ This regenerates `claude-project/study-deck.md` from your current cards in `src/
 3. In the Claude Project, click **Set custom instructions** (or wherever the settings icon is).
 4. Paste and save.
 
-### 4. Upload the deck
+### 4. Upload the deck and unit map
 
 1. In the Claude Project, click **Add content** → **Upload files**.
-2. Upload `claude-project/study-deck.md`.
-3. It'll be available to Claude in every conversation you start inside this project.
+2. Upload BOTH files:
+   - `claude-project/study-deck.md` (all your cards)
+   - `claude-project/kaplan-units.md` (Kaplan's 24-unit structure mapped to your cards, so you can say "let's do Unit 3")
+3. They'll be available to Claude in every conversation you start inside this project.
 
 ### 5. Test it once (typed)
 
@@ -71,6 +73,7 @@ That's it — Claude picks up the new cards next conversation.
 
 ## Tips for voice sessions
 
+- **"Let's do Unit 3"** — Claude quizzes you on cards from Kaplan Unit 3 only. Use "next unit" to advance sequentially.
 - **"Surprise me"** — Claude picks a mix, weighted toward the largest categories (mostly Regulations right now).
 - **"Focus on custody vs. discretion"** — Claude drills a specific concept until you're solid.
 - **"That was a calculation one, skip"** — voice mode isn't great for multi-step math; ask to skip and cover those in typed sessions.

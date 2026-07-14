@@ -6126,6 +6126,13 @@ _id: `isos` · category: Tax_
      D) If the holding period is satisfied, the gain upon sale of ISO shares will be a long-term capital gain
    _Explanation:_ C is the swap trap: the correct holding is 1 year from EXERCISE and 2 years from GRANT — C reverses those. The other three are all true: AMT is triggered at exercise; regular income is NOT triggered at exercise; and satisfying both prongs of the holding period yields long-term capital gain treatment on the sale.
 
+3. An employee is offered a nonqualified stock option with an exercise price of $20 per share. If the option is exercised when the current market value of the stock is $30, the employee:
+     A) Is taxed on $20 per share as if it were salary
+     B) Has a capital gain of $10 per share
+     C) Is taxed on $30 per share as if it were salary
+   ✓ D) Is taxed on $10 per share as if it were salary
+   _Explanation:_ For NQSOs the SPREAD — market value minus exercise price — is taxed as ordinary income (salary/W-2) at the moment of exercise. $30 FMV − $20 exercise = $10 spread. Not $20 (that's the exercise price, not the spread), not $30 (that's the full FMV), and not capital gain — capital gain only starts accruing on price movement AFTER exercise.
+
 ---
 
 ## Alimony — The 2019 Cutoff Rule

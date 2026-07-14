@@ -196,6 +196,45 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "preemptive-rights",
+    category: "Equities",
+    title: "Preemptive Rights — Common Only, Not Preferred",
+    color: "#7EC8A4",
+    analogy: "Preemptive rights are the 'no cutting in line' rule for existing common stockholders. When the company issues new shares, common holders get to buy first — pro rata to what they already own — so their ownership slice doesn't shrink. Preferred stockholders don't get invited to this line: they own a fixed-dividend claim, not a residual ownership stake, so dilution doesn't matter to them.",
+    rule: "**Preemptive rights belong to COMMON stockholders only.** They let existing common holders subscribe to new share issuances first, pro rata, to preserve their ownership percentage. Preferred stockholders do NOT have preemptive rights.",
+    watch: "The trap uses different flavors of common stock — control stock, privately-placed common, plain common — as distractors and asks which one 'doesn't have' preemptive rights. All three ARE common, so all three DO have preemptive rights. Only preferred is different. It's a 'find the equity class' question dressed up as a 'find the special type' question.",
+    quiz: [
+      {
+        q: "An investor holding which of the following equity securities would NOT expect to have preemptive rights?",
+        options: ["Control stock", "Common stock acquired in a private placement", "Common stock", "Preferred stock"],
+        answer: 3,
+        explain: "Preemptive rights are a COMMON stock feature. Control stock and privately-placed common are both still common — they both have preemptive rights. Only preferred stock is a different equity class and lacks preemptive rights, because preferred holders don't own a residual claim on the company's growth."
+      },
+      {
+        q: "Which right allows a common stockholder to maintain their percentage ownership when a company issues additional shares?",
+        options: [
+          "Cumulative voting rights",
+          "Preemptive rights",
+          "Statutory voting rights",
+          "Dividend preference rights"
+        ],
+        answer: 1,
+        explain: "Preemptive rights give existing common holders the first shot at newly-issued shares, pro rata, so their ownership percentage doesn't get diluted. Cumulative and statutory voting are voting-method distinctions, and dividend preference is a preferred-stock feature — none of them prevent dilution."
+      },
+      {
+        q: "A company plans to issue additional shares of common stock. Which of its existing security holders will receive subscription rights before the public offering?",
+        options: [
+          "All existing shareholders, common and preferred alike",
+          "Preferred shareholders only",
+          "Common shareholders only",
+          "Bondholders and preferred shareholders"
+        ],
+        answer: 2,
+        explain: "Only common shareholders get preemptive/subscription rights on new common issuances. Preferred shareholders and bondholders sit outside the ownership hierarchy — they have fixed claims, not a stake in the growth, so dilution isn't their concern."
+      }
+    ]
+  },
+  {
     id: "preferred-vs-bonds-income-risk",
     category: "Equities",
     title: "Preferred Stock vs Bonds — Risks When Substituted for Income",

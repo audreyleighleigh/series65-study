@@ -196,6 +196,45 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "record-date-voting-rights",
+    category: "Equities",
+    title: "Record Date — Who Gets to Vote",
+    color: "#7EC8A4",
+    analogy: "The company takes a group photo of every shareholder on one specific day — that's the record date. Only people in the photo get to vote at the meeting. Buy your shares too late and the photo's already taken.",
+    rule: "The **record date** is the day the company checks its shareholder registry to decide who is eligible to vote at the annual meeting or in a corporate election. To be on the registry that day, an investor must buy shares at least the normal settlement period ahead of the record date (per Kaplan: at least two business days before).",
+    watch: "The voting cutoff is the record date — NOT the election date (that's when voting actually happens), NOT the fiscal year end (accounting timing, unrelated), and NOT the ex-dividend date (that's a market-side convention for dividend eligibility, not voting). Ex-dividend date is derived from the record date, but it's not the same thing.",
+    quiz: [
+      {
+        q: "The date that determines which shareholders are eligible to vote on important corporate matters, such as the election of directors, is:",
+        options: ["The election date", "The last day of the company's fiscal year", "The record date", "The ex-dividend date"],
+        answer: 2,
+        explain: "The record date is the day the company snapshots its shareholder registry to decide who can vote. The election date is when voting actually happens; fiscal year end is accounting timing; ex-dividend date governs dividend eligibility, not voting."
+      },
+      {
+        q: "A corporation announces its annual shareholder meeting for June 15 and sets the record date for June 1. What is the latest date an investor can purchase shares in the regular market and still be eligible to vote?",
+        options: [
+          "June 1 (record date itself)",
+          "Two business days before June 1",
+          "One business day before June 15",
+          "June 15 (as long as it's before the meeting starts)"
+        ],
+        answer: 1,
+        explain: "To appear on the shareholder registry on the record date, the trade must have settled by then. Per Kaplan, that means buying at least two business days before the record date. Buying on the record date itself is too late — settlement hasn't finished."
+      },
+      {
+        q: "An investor wants to vote in the upcoming shareholder election. Which date matters for eligibility?",
+        options: [
+          "The ex-dividend date, because that's when ownership transfers",
+          "The record date, because that's when the company reviews the registry",
+          "The declaration date, because that's when the company announces the meeting",
+          "The payable date, because that's when shareholders are compensated"
+        ],
+        answer: 1,
+        explain: "Ex-dividend, declaration, and payable dates are all part of the DIVIDEND lifecycle — none of them govern voting. Only the record date determines who's on the books for voting purposes."
+      }
+    ]
+  },
+  {
     id: "affiliates",
     category: "Regulations",
     title: "Affiliate Status & Rule 144",

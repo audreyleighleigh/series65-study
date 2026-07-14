@@ -213,6 +213,45 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "rule-144-holding-vs-volume",
+    category: "Regulations",
+    title: "Rule 144 — Holding Period vs. Volume Limit",
+    color: "#FF6B6B",
+    analogy: "Two different locks on Rule 144. The 'restricted' lock is a TIME lock — it clamps down on unregistered shares no matter who owns them. The 'control' lock is a QUANTITY lock — it clamps down on shares held by insiders no matter how the shares were issued. A single certificate can have neither lock, one lock, or both.",
+    rule: "**Holding period** applies to UNREGISTERED (restricted) shares — regardless of owner. **Volume limit** applies to shares held by an affiliate (control stock) — regardless of registration status. Restricted + control = both locks apply. Restricted + noncontrol = holding period only. Registered + control = volume limit only. Registered + noncontrol = neither, Rule 144 doesn't touch it.",
+    watch: "The trap swaps which lock goes with which condition. 'Registered stock held by a control person' has NO holding period — it's already registered — but it DOES have a volume limit forever. 'Unregistered stock held by a noncontrol person' DOES have a holding period but NO volume limit once satisfied.",
+    quiz: [
+      {
+        q: "Which of the following are subject to the holding period requirements of Rule 144? I. Registered securities held by a control person; II. Unregistered securities held by a noncontrol person; III. Registered securities held by a noncontrol person; IV. Unregistered securities held by a control person.",
+        options: ["I and III", "II and III", "I and IV", "II and IV"],
+        answer: 3,
+        explain: "Holding period follows UNREGISTERED status, not affiliate status. II (unregistered/noncontrol) and IV (unregistered/control) are both unregistered, so both have a holding period. I (registered/control) has a volume limit but no holding period — it's already registered. III (registered/noncontrol) has no Rule 144 exposure at all."
+      },
+      {
+        q: "An affiliate wants to sell registered shares of her employer's stock. Which Rule 144 restriction applies?",
+        options: [
+          "Holding period only",
+          "Volume limit only",
+          "Both holding period and volume limit",
+          "Neither — she's selling registered shares"
+        ],
+        answer: 1,
+        explain: "Registered shares = no holding period (nothing was ever restricted). Control person = volume limit applies forever, because affiliates can always move markets when they dump. Answer: volume limit only."
+      },
+      {
+        q: "A non-affiliate buys unregistered shares in a private placement and wants to sell them later. Which is true?",
+        options: [
+          "No Rule 144 restrictions apply — she's not an affiliate",
+          "Volume limit applies but no holding period",
+          "Holding period applies but no volume limit after it's satisfied",
+          "Both holding period and volume limit apply forever"
+        ],
+        answer: 2,
+        explain: "Unregistered = holding period applies to anyone. Non-affiliate = no volume limit. Once she satisfies the holding period (6 months for a reporting issuer, 1 year for non-reporting), she can sell freely."
+      }
+    ]
+  },
+  {
     id: "isos",
     category: "Tax",
     title: "ISOs vs NQSOs",

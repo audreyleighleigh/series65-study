@@ -184,6 +184,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 
 **Deck coverage:**
 - Affiliate Status & Rule 144 (crosses with Unit 1)
+- Rule 144 — Holding Period vs. Volume Limit
 - Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan)
 - Federal Covered: Adviser vs. Security (Don't Confuse Them)
 

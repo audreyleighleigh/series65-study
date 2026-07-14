@@ -27,6 +27,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Preferred Stock vs Bonds — Risks When Substituted for Income
 - Record Date — Who Gets to Vote
 - Affiliate Status & Rule 144 (crosses with Unit 8)
+- Rule 144 — Holding Period vs. Volume Limit (crosses with Unit 8)
 - Cash Dividends — Declaration vs. Payment Effects
 - Risk Profile of Common Stock — What's Present, What's Not (crosses with Unit 19)
 
@@ -186,7 +187,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 
 **Deck coverage:**
 - Affiliate Status & Rule 144 (crosses with Unit 1)
-- Rule 144 — Holding Period vs. Volume Limit
+- Rule 144 — Holding Period vs. Volume Limit (crosses with Unit 1)
 - Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan)
 - Federal Covered: Adviser vs. Security (Don't Confuse Them)
 

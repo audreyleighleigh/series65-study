@@ -348,6 +348,17 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "B is false — exercise DOES create AMT income, even though it's not regular taxable income. The question was an 'except' trap."
+      },
+      {
+        q: "All of the following statements regarding ISOs are correct EXCEPT:",
+        options: [
+          "Upon the exercise of an ISO, income for AMT purposes is created",
+          "The exercise of ISOs does not create taxable income",
+          "The favorable tax treatment is lost if the shares are sold before 1 year from the date of GRANT or 2 years from the date of EXERCISE",
+          "If the holding period is satisfied, the gain upon sale of ISO shares will be a long-term capital gain"
+        ],
+        answer: 2,
+        explain: "C is the swap trap: the correct holding is 1 year from EXERCISE and 2 years from GRANT — C reverses those. The other three are all true: AMT is triggered at exercise; regular income is NOT triggered at exercise; and satisfying both prongs of the holding period yields long-term capital gain treatment on the sale."
       }
     ]
   },

@@ -6049,6 +6049,13 @@ _id: `isos` · category: Tax_
      D) Exercise creates income for AMT purposes
    _Explanation:_ B is false — exercise DOES create AMT income, even though it's not regular taxable income. The question was an 'except' trap.
 
+2. All of the following statements regarding ISOs are correct EXCEPT:
+     A) Upon the exercise of an ISO, income for AMT purposes is created
+     B) The exercise of ISOs does not create taxable income
+   ✓ C) The favorable tax treatment is lost if the shares are sold before 1 year from the date of GRANT or 2 years from the date of EXERCISE
+     D) If the holding period is satisfied, the gain upon sale of ISO shares will be a long-term capital gain
+   _Explanation:_ C is the swap trap: the correct holding is 1 year from EXERCISE and 2 years from GRANT — C reverses those. The other three are all true: AMT is triggered at exercise; regular income is NOT triggered at exercise; and satisfying both prongs of the holding period yields long-term capital gain treatment on the sale.
+
 ---
 
 ## Alimony — The 2019 Cutoff Rule

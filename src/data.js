@@ -1,5 +1,44 @@
 export const CONCEPTS = [
   {
+    id: "money-market-fund-holdings",
+    category: "Bonds",
+    title: "Money Market Mutual Funds — What They Can Hold",
+    color: "#E8C547",
+    analogy: "A money market fund is a short-stay parking garage: nothing parks longer than about a year (397 days max). T-bills fit — 4 to 52 weeks. Jumbo CDs, commercial paper, repos, banker's acceptances all fit. But T-notes (2–10 years) and T-bonds (10–30 years) are too long-dated — they can't park here even though they're issued by the same Treasury.",
+    rule: "**Money market mutual funds hold instruments with maturity ≤ 397 days.** Eligible: T-bills, jumbo (negotiable) CDs, commercial paper, repurchase agreements, banker's acceptances. NOT eligible: T-notes (2–10 yr), T-bonds (10–30 yr), long-dated corporate debt, common stock, preferred stock — anything with a longer maturity or that isn't a debt instrument at all.",
+    watch: "The trap is 'Treasury' sounding like a blanket money-market safe haven. Only T-BILLS qualify because they're short-dated. T-notes and T-bonds are Treasuries but too long-dated to belong in a money market fund. Match on MATURITY, not on the issuer's brand.",
+    quiz: [
+      {
+        q: "A money market mutual fund would be LEAST likely to invest in which of the following?",
+        options: ["Newly issued U.S. Treasury notes", "Newly issued U.S. Treasury bills", "Jumbo CDs", "Repurchase agreements"],
+        answer: 0,
+        explain: "T-notes are issued with maturities of 2–10 years, which blows past the 397-day cap for money market instruments. T-bills (4–52 weeks), jumbo CDs, and repos are all short-term and eligible. The trap is that 'Treasury' feels money-market-safe, but only T-bills are short enough."
+      },
+      {
+        q: "What is the maximum maturity a money market mutual fund is generally permitted to hold in a single instrument?",
+        options: [
+          "90 days",
+          "180 days",
+          "397 days",
+          "5 years"
+        ],
+        answer: 2,
+        explain: "397 days is the regulatory cap under Rule 2a-7 of the Investment Company Act. Anything longer isn't a 'money market instrument' by definition."
+      },
+      {
+        q: "Which of the following would NOT be a permitted holding in a money market mutual fund?",
+        options: [
+          "Banker's acceptances maturing in 90 days",
+          "6-month commercial paper",
+          "A 5-year corporate bond",
+          "Repurchase agreements collateralized by Treasuries"
+        ],
+        answer: 2,
+        explain: "5-year corporate bond blows past the 397-day cap. The other three are all short-term money market instruments and eligible. Money market funds care about maturity, not issuer type."
+      }
+    ]
+  },
+  {
     id: "yields",
     category: "Bonds",
     title: "The Yield Hierarchy",

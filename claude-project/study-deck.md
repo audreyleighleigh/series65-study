@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 206 concept cards across 9 categories._
+_Auto-generated from src/data.js. 207 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,7 +15,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (15 cards): The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
+- **Bonds** (16 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
 - **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
 - **Equities** (23 cards): Stock Dividends & Splits · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
@@ -155,6 +155,41 @@ _id: `precious-metals` · category: Alternative Investments_
 ---
 
 # Bonds
+
+## Money Market Mutual Funds — What They Can Hold
+
+_id: `money-market-fund-holdings` · category: Bonds_
+
+**Analogy.** A money market fund is a short-stay parking garage: nothing parks longer than about a year (397 days max). T-bills fit — 4 to 52 weeks. Jumbo CDs, commercial paper, repos, banker's acceptances all fit. But T-notes (2–10 years) and T-bonds (10–30 years) are too long-dated — they can't park here even though they're issued by the same Treasury.
+
+**Rule.** **Money market mutual funds hold instruments with maturity ≤ 397 days.** Eligible: T-bills, jumbo (negotiable) CDs, commercial paper, repurchase agreements, banker's acceptances. NOT eligible: T-notes (2–10 yr), T-bonds (10–30 yr), long-dated corporate debt, common stock, preferred stock — anything with a longer maturity or that isn't a debt instrument at all.
+
+**Watch.** The trap is 'Treasury' sounding like a blanket money-market safe haven. Only T-BILLS qualify because they're short-dated. T-notes and T-bonds are Treasuries but too long-dated to belong in a money market fund. Match on MATURITY, not on the issuer's brand.
+
+**Quiz.**
+
+1. A money market mutual fund would be LEAST likely to invest in which of the following?
+   ✓ A) Newly issued U.S. Treasury notes
+     B) Newly issued U.S. Treasury bills
+     C) Jumbo CDs
+     D) Repurchase agreements
+   _Explanation:_ T-notes are issued with maturities of 2–10 years, which blows past the 397-day cap for money market instruments. T-bills (4–52 weeks), jumbo CDs, and repos are all short-term and eligible. The trap is that 'Treasury' feels money-market-safe, but only T-bills are short enough.
+
+2. What is the maximum maturity a money market mutual fund is generally permitted to hold in a single instrument?
+     A) 90 days
+     B) 180 days
+   ✓ C) 397 days
+     D) 5 years
+   _Explanation:_ 397 days is the regulatory cap under Rule 2a-7 of the Investment Company Act. Anything longer isn't a 'money market instrument' by definition.
+
+3. Which of the following would NOT be a permitted holding in a money market mutual fund?
+     A) Banker's acceptances maturing in 90 days
+     B) 6-month commercial paper
+   ✓ C) A 5-year corporate bond
+     D) Repurchase agreements collateralized by Treasuries
+   _Explanation:_ 5-year corporate bond blows past the 397-day cap. The other three are all short-term money market instruments and eligible. Money market funds care about maturity, not issuer type.
+
+---
 
 ## The Yield Hierarchy
 

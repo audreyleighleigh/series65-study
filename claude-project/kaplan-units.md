@@ -57,6 +57,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Retiring Bonds at a Discount
 - Client Suitability & STRIPS (also Unit 17)
 - Yield Curve Analysis: What It Compares (also Unit 6)
+- Money Market Mutual Funds — What They Can Hold
 - Risks Most Associated with U.S. Treasury Bonds (also Unit 19)
 
 ---

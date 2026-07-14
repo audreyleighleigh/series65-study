@@ -454,6 +454,17 @@ export const CONCEPTS = [
         ],
         answer: 2,
         explain: "Unregistered = holding period applies to anyone. Non-affiliate = no volume limit. Once she satisfies the holding period (6 months for a reporting issuer, 1 year for non-reporting), she can sell freely."
+      },
+      {
+        q: "Which of the following sell transactions is NOT subject to the holding period restriction specified in SEC Rule 144?",
+        options: [
+          "Stock acquired by a corporate affiliate in a private placement",
+          "Stock acquired on the NYSE by a corporate affiliate",
+          "Unregistered stock acquired by a corporate affiliate in a stock option program",
+          "Unregistered stock acquired by a nonaffiliate under an investment letter"
+        ],
+        answer: 1,
+        explain: "The holding period follows UNREGISTERED status, not affiliate status. Stock bought on the NYSE is already registered, so no holding period — even though the affiliate does have a volume limit. The other three all involve unregistered stock (private placement, exercised stock option, investment letter), so all three carry a holding period."
       }
     ]
   },

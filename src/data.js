@@ -7489,6 +7489,45 @@ export const CONCEPTS = [
   },
 
   {
+    id: "asset-allocation-fund-holdings",
+    category: "Suitability",
+    title: "Asset Allocation Funds — What They Can Hold (and What They Can't)",
+    color: "#FBBF24",
+    analogy: "An asset allocation fund is a chef cooking with three main ingredients: equity, debt, and cash. Sometimes there's a fourth (real estate), but only in a form that can go in and out of the pantry — REITs. Raw land is a frozen boulder: takes months to sell, wrong texture for a mutual fund. Mutual funds need to redeem shares within a day; anything illiquid is off the menu.",
+    rule: "**Asset allocation funds invest in the primary asset classes: equity, debt, and cash/cash equivalents** — with real estate as an optional fourth class. Real estate exposure is achieved through **REITs** (liquid, exchange-traded), NOT through raw land or direct property. Illiquid assets can't live in a mutual fund because the fund has to meet redemption requests on demand.",
+    watch: "The trap is picking T-bills because they feel 'too basic' for a diversified fund. T-bills ARE the classic cash equivalent — absolutely core. The odd one out is always the illiquid asset (raw land, private art, direct property, timber rights) that can't be sold fast enough to meet redemptions.",
+    quiz: [
+      {
+        q: "A portfolio manager of an asset allocation fund would be LEAST likely to invest in:",
+        options: ["Raw land", "Debentures", "Common stock", "U.S. Treasury bills"],
+        answer: 0,
+        explain: "Raw land is illiquid — can take months or years to sell — so it can't live in a mutual fund that has to honor daily redemption. Debentures (debt), common stock (equity), and T-bills (cash equivalent) cover the three primary asset classes and are all perfectly fine. If a fund wants real estate exposure, it uses REITs, not raw land."
+      },
+      {
+        q: "Which of the following is NOT one of the three primary asset classes used for asset allocation?",
+        options: [
+          "Equity securities",
+          "Debt securities",
+          "Cash and cash equivalents",
+          "Precious metals"
+        ],
+        answer: 3,
+        explain: "The three primary asset classes are equity, debt, and cash/cash equivalents. Real estate is often considered a fourth. Precious metals, commodities, and other alternatives are 'satellite' or alternative asset classes — not part of the core allocation model tested on the Series 65."
+      },
+      {
+        q: "An asset allocation fund manager wants to add real estate exposure to the portfolio. What is the most likely vehicle?",
+        options: [
+          "Direct purchase of a commercial office building",
+          "Raw land in a developing area",
+          "Real estate investment trusts (REITs)",
+          "A limited partnership interest in a real estate development"
+        ],
+        answer: 2,
+        explain: "REITs are the standard because they're liquid — they trade on exchanges like stocks and can be sold quickly to meet redemptions. Direct property, raw land, and LP interests are all too illiquid for a mutual fund structure."
+      }
+    ]
+  },
+  {
     id: "inflation-asset-allocation",
     category: "Suitability",
     title: "Asset Allocation Under High Inflation Expectations",

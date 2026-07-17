@@ -8380,6 +8380,39 @@ export const CONCEPTS = [
         explain: "Selling calls generates premium income, which cushions a small decline, but that cushion is capped at the premium amount. Buying puts, by contrast, increases in value directly as the index falls, providing protection that scales with the size of the decline — a much stronger hedge for a real market-wide drop."
       }
     ]
+  },
+  {
+    id: "mpt-terminology-and-efficient-frontier",
+    category: "Suitability",
+    title: "Modern Portfolio Theory — Key Terms & the Efficient Frontier",
+    color: "#FBBF24",
+    analogy: "The feasible set is every restaurant in town. The efficient set (efficient frontier) is just the ones with the best food for the price — no bad deals allowed. CAPM is the formula that tells you what a fair price should be for a given quality level.",
+    rule: "Core MPT terms: the feasible set (all possible portfolio combinations available), the efficient set/efficient frontier (the subset of the feasible set offering the highest return for each level of risk — no portfolio is 'dominated' by another), and CAPM (calculates expected/required return given risk). When comparing portfolios, a portfolio is DOMINATED if another portfolio offers equal or higher return with equal or lower risk (standard deviation) — always choose the undominated option. IRR (internal rate of return) is a discounted cash flow calculation, NOT an MPT concept.",
+    watch: "IRR is a classic decoy in 'which of these belongs to MPT' questions — it's a bond/cash-flow tool (along with NPV), not a portfolio-theory term. When comparing multiple portfolios' return/risk pairs, don't just pick the highest return — check for a portfolio with equal-or-better return AND equal-or-lower risk elsewhere in the list; that one dominates and wins.",
+    quiz: [
+      {
+        q: "Each of the following terms is commonly found in modern portfolio theory EXCEPT:",
+        options: [
+          "The capital asset pricing model",
+          "The internal rate of return",
+          "The efficient set",
+          "The feasible set"
+        ],
+        answer: 1,
+        explain: "IRR is a discounted cash flow computation used for bonds and investment projects — it has nothing to do with MPT. CAPM, the efficient set, and the feasible set are all core MPT building blocks."
+      },
+      {
+        q: "An investor can choose between 4 portfolios: I) 8% return, 20% std dev, II) 6% return, 21% std dev, III) 8% return, 21% std dev, IV) 7% return, 23% std dev. Based on MPT, which should the investor choose?",
+        options: [
+          "Portfolio II",
+          "Portfolio III",
+          "Portfolio I",
+          "Portfolio IV"
+        ],
+        answer: 2,
+        explain: "Portfolio I has the highest return (8%, tied with III) and the lowest risk (20% std dev) of the group. It dominates III (same return, less risk) and beats II and IV on both dimensions. No other portfolio offers equal-or-better return with equal-or-lower risk, so I sits on the efficient frontier."
+      }
+    ]
   }
 ];
 

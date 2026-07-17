@@ -8314,6 +8314,39 @@ export const CONCEPTS = [
         explain: "Technical analysts study price and volume patterns exclusively — that's B. A, C, and D all require looking at the business or its financials, which is fundamental analysis territory."
       }
     ]
+  },
+  {
+    id: "capm-expected-return",
+    category: "Suitability",
+    title: "Capital Asset Pricing Model (CAPM)",
+    color: "#FBBF24",
+    analogy: "CAPM is like a weather forecast for your investment — it doesn't tell you what already happened, it predicts what return you *should* expect given how risky the ride is.",
+    rule: "CAPM calculates an investor's expected (required) return based on the risk-free rate, the investment's beta, and the expected return of the market. It's forward-looking — used to determine whether a stock's anticipated return justifies its risk.",
+    watch: "Don't confuse CAPM's expected return with backward-looking performance measures like time-weighted return or holding period return, which measure what already happened. Also don't confuse it with 'risk-adjusted return' (like a Sharpe ratio), which measures return per unit of risk taken, not a forecasted return.",
+    quiz: [
+      {
+        q: "The capital asset pricing model (CAPM) is most commonly used to determine an investor's:",
+        options: [
+          "Risk-adjusted return",
+          "Time-weighted return",
+          "Holding period return",
+          "Expected return"
+        ],
+        answer: 3,
+        explain: "CAPM forecasts expected return using the risk-free rate, beta, and expected market return. A describes return-per-risk-unit metrics like the Sharpe ratio. B and C are backward-looking performance measures of returns already realized, not predictions."
+      },
+      {
+        q: "Which of the following inputs is NOT used in the CAPM formula?",
+        options: [
+          "Risk-free rate",
+          "Beta",
+          "Standard deviation",
+          "Expected market return"
+        ],
+        answer: 2,
+        explain: "CAPM uses the risk-free rate, beta, and expected market return. Standard deviation measures total volatility/dispersion but isn't a CAPM input — beta (systematic risk relative to the market) is what CAPM actually uses."
+      }
+    ]
   }
 ];
 

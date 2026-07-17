@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 214 concept cards across 9 categories._
+_Auto-generated from src/data.js. 215 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -16,7 +16,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
 - **Bonds** (16 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
-- **Derivatives** (7 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts
+- **Derivatives** (8 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls
 - **Equities** (26 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
@@ -1114,6 +1114,34 @@ _id: `hedging-with-index-puts` · category: Derivatives_
      C) Selling calls actually increases portfolio risk during declines
      D) Covered calls require margin, making them riskier
    _Explanation:_ Selling calls generates premium income, which cushions a small decline, but that cushion is capped at the premium amount. Buying puts, by contrast, increases in value directly as the index falls, providing protection that scales with the size of the decline — a much stronger hedge for a real market-wide drop.
+
+---
+
+## Hedging a Short Stock Position with Calls
+
+_id: `hedging-short-stock-with-calls` · category: Derivatives_
+
+**Analogy.** Short selling is like borrowing your neighbor's lawnmower to sell it, planning to buy an identical one back later for less. Your nightmare is the mower's price shooting up before you buy it back. Buying a call locks in a ceiling price you can pay, no matter how high it climbs.
+
+**Rule.** A short stock position profits when the price falls and loses (with unlimited risk) if the price rises. To hedge that upside risk, the investor BUYS A CALL — this locks in a maximum repurchase price (the strike), capping the loss at (strike price − short sale price + premium paid), regardless of how high the stock climbs.
+
+**Watch.** Match the hedge to which direction hurts you. Long stock fears a price DROP → buy a put. Short stock fears a price RISE → buy a call. Don't default to 'buy a put' just because puts are the go-to protective option for long positions — for a short position, the protection runs the other way.
+
+**Quiz.**
+
+1. Which of the following strategies would most effectively protect an investor with a short stock position?
+     A) Buy a put
+     B) Sell a call
+   ✓ C) Buy a call
+     D) Sell a put
+   _Explanation:_ A short seller's risk is the stock price rising. Buying a call caps that loss at the strike price plus premium, no matter how high the stock climbs. Buying a put (A) protects a long position, not a short one. Selling a call (B) only offers limited protection equal to the premium collected. Selling a put (D) is a bullish/neutral bet, not a hedge.
+
+2. An investor shorts XYZ at $60 and buys an XYZ 65 call for $2 to hedge. If XYZ rises to $80, what is the investor's maximum loss on this position?
+     A) Unlimited
+   ✓ B) $7 per share
+     C) $20 per share
+     D) $2 per share
+   _Explanation:_ The call caps the buyback price at $65 (the strike). Loss on the short = $65 − $60 = $5 per share, plus the $2 premium paid = $7 per share max loss, regardless of how high XYZ actually rises. Without the hedge, the loss would be unlimited.
 
 ---
 

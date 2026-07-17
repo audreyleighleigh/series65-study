@@ -8413,6 +8413,39 @@ export const CONCEPTS = [
         explain: "Portfolio I has the highest return (8%, tied with III) and the lowest risk (20% std dev) of the group. It dominates III (same return, less risk) and beats II and IV on both dimensions. No other portfolio offers equal-or-better return with equal-or-lower risk, so I sits on the efficient frontier."
       }
     ]
+  },
+  {
+    id: "hedging-short-stock-with-calls",
+    category: "Derivatives",
+    title: "Hedging a Short Stock Position with Calls",
+    color: "#A78BFA",
+    analogy: "Short selling is like borrowing your neighbor's lawnmower to sell it, planning to buy an identical one back later for less. Your nightmare is the mower's price shooting up before you buy it back. Buying a call locks in a ceiling price you can pay, no matter how high it climbs.",
+    rule: "A short stock position profits when the price falls and loses (with unlimited risk) if the price rises. To hedge that upside risk, the investor BUYS A CALL — this locks in a maximum repurchase price (the strike), capping the loss at (strike price − short sale price + premium paid), regardless of how high the stock climbs.",
+    watch: "Match the hedge to which direction hurts you. Long stock fears a price DROP → buy a put. Short stock fears a price RISE → buy a call. Don't default to 'buy a put' just because puts are the go-to protective option for long positions — for a short position, the protection runs the other way.",
+    quiz: [
+      {
+        q: "Which of the following strategies would most effectively protect an investor with a short stock position?",
+        options: [
+          "Buy a put",
+          "Sell a call",
+          "Buy a call",
+          "Sell a put"
+        ],
+        answer: 2,
+        explain: "A short seller's risk is the stock price rising. Buying a call caps that loss at the strike price plus premium, no matter how high the stock climbs. Buying a put (A) protects a long position, not a short one. Selling a call (B) only offers limited protection equal to the premium collected. Selling a put (D) is a bullish/neutral bet, not a hedge."
+      },
+      {
+        q: "An investor shorts XYZ at $60 and buys an XYZ 65 call for $2 to hedge. If XYZ rises to $80, what is the investor's maximum loss on this position?",
+        options: [
+          "Unlimited",
+          "$7 per share",
+          "$20 per share",
+          "$2 per share"
+        ],
+        answer: 1,
+        explain: "The call caps the buyback price at $65 (the strike). Loss on the short = $65 − $60 = $5 per share, plus the $2 premium paid = $7 per share max loss, regardless of how high XYZ actually rises. Without the hedge, the loss would be unlimited."
+      }
+    ]
   }
 ];
 

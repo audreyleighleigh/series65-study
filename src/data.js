@@ -8281,6 +8281,39 @@ export const CONCEPTS = [
         explain: "Repeated failure to break above a price is the definition of resistance — supply (sellers) increases at that ceiling, pushing the price back down. A and D wrongly label it support. C invents an unrelated term."
       }
     ]
+  },
+  {
+    id: "fundamental-vs-technical-analysis",
+    category: "Equities",
+    title: "Fundamental vs. Technical Analysis",
+    color: "#7EC8A4",
+    analogy: "A fundamental analyst is like a home inspector — they go inside the house, check the foundation, wiring, and neighborhood. A technical analyst is like someone standing across the street watching how many people walk in and out, and at what times, without ever stepping inside.",
+    rule: "Fundamental analysis studies the business itself: the economy, industry, and company financials (top-down approach), competitive trends, and intrinsic value via valuation models. Technical analysis (chartists) studies price and volume patterns only — moving averages, support/resistance, chart formations — ignoring the underlying business.",
+    watch: "Exam questions often disguise this as a scenario (an analyst reviewing a company) and ask which technique is 'least likely' to be used. Spot the one tool that's about price/chart history (technical) hiding among several that are about the business (fundamental), or vice versa.",
+    quiz: [
+      {
+        q: "Kellie, a fundamental analyst, is evaluating XYZ Corp. Which technique would she be LEAST likely to use?",
+        options: [
+          "Examining the overall economy, then the industry, then the company",
+          "Considering trends toward tablets and smartphones",
+          "Reviewing the stock's 200-day moving average",
+          "Calculating intrinsic value using valuation models"
+        ],
+        answer: 2,
+        explain: "The 200-day moving average is a technical analysis tool — it studies price history, not the business. A is top-down fundamental analysis. B is competitive/industry trend analysis. D is core fundamental valuation. All three besides C are things a fundamental analyst would do."
+      },
+      {
+        q: "Which of the following would a technical analyst be most likely to examine?",
+        options: [
+          "The company's price-to-earnings ratio",
+          "Trading volume and chart patterns over the past six months",
+          "Management's five-year growth strategy",
+          "The industry's competitive landscape"
+        ],
+        answer: 1,
+        explain: "Technical analysts study price and volume patterns exclusively — that's B. A, C, and D all require looking at the business or its financials, which is fundamental analysis territory."
+      }
+    ]
   }
 ];
 

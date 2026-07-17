@@ -8248,6 +8248,39 @@ export const CONCEPTS = [
         explain: "Since IRR (9.5%) exceeds the required rate of return (8%), the investment offers more than what's needed, resulting in a positive NPV."
       }
     ]
+  },
+  {
+    id: "support-resistance-levels",
+    category: "Equities",
+    title: "Support & Resistance Levels",
+    color: "#7EC8A4",
+    analogy: "Picture a ball bouncing inside a box. Support is the floor — the price it keeps bouncing off of. Resistance is the ceiling — the price it keeps hitting its head on and falling back from.",
+    rule: "A support level is a price range where demand is expected to increase substantially, stopping a decline. A resistance level is a price range where supply is expected to increase substantially, capping a rally. Once a resistance level is broken on high volume, it often becomes the new support level (and vice versa).",
+    watch: "Don't swap the mechanics: support = demand rises (floor). Resistance = supply rises (ceiling). Test questions often ask which side increases — demand or supply — at each level.",
+    quiz: [
+      {
+        q: "A support level is the price range at which a technical analyst would expect the:",
+        options: [
+          "Demand for a stock to increase substantially",
+          "Demand for a stock to decrease substantially",
+          "Supply of a stock to increase substantially",
+          "Demand for a stock to remain constant"
+        ],
+        answer: 0,
+        explain: "Support is a price floor where buyers step in, so demand increases substantially. B and D misdescribe demand's direction. C describes resistance, not support — supply rising is what caps a rally at a ceiling."
+      },
+      {
+        q: "A stock has repeatedly failed to close above $50 over the past few months. This price level is best described as:",
+        options: [
+          "A support level, where demand increases",
+          "A resistance level, where supply increases",
+          "A breakout level, where volume disappears",
+          "A support level, where supply increases"
+        ],
+        answer: 1,
+        explain: "Repeated failure to break above a price is the definition of resistance — supply (sellers) increases at that ceiling, pushing the price back down. A and D wrongly label it support. C invents an unrelated term."
+      }
+    ]
   }
 ];
 

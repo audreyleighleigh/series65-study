@@ -486,6 +486,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Support & Resistance Levels
 - Fundamental vs. Technical Analysis
 - Capital Asset Pricing Model (CAPM)
+- Hedging a Portfolio with Index Puts
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

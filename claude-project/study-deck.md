@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 212 concept cards across 9 categories._
+_Auto-generated from src/data.js. 213 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -16,7 +16,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
 - **Bonds** (16 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
-- **Derivatives** (6 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching
+- **Derivatives** (7 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts
 - **Equities** (26 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
@@ -1086,6 +1086,34 @@ _id: `options-suitability` · category: Derivatives_
    ✓ C) Writing naked uncovered calls
      D) Buying long-dated call options for stock that may appreciate
    _Explanation:_ Naked uncovered calls have unlimited risk and are unsuitable for most clients, especially conservative ones. Covered calls and protective puts are income/protection strategies. Even buying calls has limited risk (premium paid). Naked calls = C is the clearly unsuitable choice.
+
+---
+
+## Hedging a Portfolio with Index Puts
+
+_id: `hedging-with-index-puts` · category: Derivatives_
+
+**Analogy.** Buying index puts on your portfolio is like buying insurance on your whole neighborhood instead of just your house — if a broad market storm rolls through, the put pays off regardless of which stocks you personally own.
+
+**Rule.** A portfolio manager who expects a market-wide decline (recession, trade war, systemic shock) hedges by BUYING puts on a broad market index (like the S&P 500). Buying puts gives the right to sell at a set price, so if the index drops, the puts gain value and offset portfolio losses. Selling calls only provides limited protection — capped at the premium collected — and doesn't scale to protect against a real decline.
+
+**Watch.** Don't confuse buying protection with selling income. Selling calls (covered call writing) generates income and gives only small downside cushion (the premium received). Buying puts is the real hedge — unlimited upside protection against decline, cost is just the premium paid. Also: BUY, don't sell, when the goal is protection — selling puts would be a bullish/neutral bet, not a hedge.
+
+**Quiz.**
+
+1. Due to an escalating trade war, a portfolio manager anticipates a negative impact on his equity fund's assets. To protect the portfolio, the manager would:
+     A) Sell S&P 500 index puts
+     B) Sell S&P 500 index calls
+   ✓ C) Buy S&P 500 index puts
+     D) Buy S&P 500 index calls
+   _Explanation:_ Buying puts on a broad index directly hedges against a market-wide decline — as the index falls, the puts gain value, offsetting portfolio losses. Selling calls (B) only protects to the extent of premium received, a weak hedge. Selling puts (A) is a bullish bet, the opposite of protection. Buying calls (D) profits from a rise, not a decline.
+
+2. Why is selling covered calls considered a weaker hedge than buying puts during an anticipated market decline?
+     A) Covered calls can only be sold on individual stocks, never indexes
+   ✓ B) The protection from selling calls is limited to the premium received, while puts can offset losses to any magnitude
+     C) Selling calls actually increases portfolio risk during declines
+     D) Covered calls require margin, making them riskier
+   _Explanation:_ Selling calls generates premium income, which cushions a small decline, but that cushion is capped at the premium amount. Buying puts, by contrast, increases in value directly as the index falls, providing protection that scales with the size of the decline — a much stronger hedge for a real market-wide drop.
 
 ---
 

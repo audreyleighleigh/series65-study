@@ -8347,6 +8347,39 @@ export const CONCEPTS = [
         explain: "CAPM uses the risk-free rate, beta, and expected market return. Standard deviation measures total volatility/dispersion but isn't a CAPM input — beta (systematic risk relative to the market) is what CAPM actually uses."
       }
     ]
+  },
+  {
+    id: "hedging-with-index-puts",
+    category: "Derivatives",
+    title: "Hedging a Portfolio with Index Puts",
+    color: "#A78BFA",
+    analogy: "Buying index puts on your portfolio is like buying insurance on your whole neighborhood instead of just your house — if a broad market storm rolls through, the put pays off regardless of which stocks you personally own.",
+    rule: "A portfolio manager who expects a market-wide decline (recession, trade war, systemic shock) hedges by BUYING puts on a broad market index (like the S&P 500). Buying puts gives the right to sell at a set price, so if the index drops, the puts gain value and offset portfolio losses. Selling calls only provides limited protection — capped at the premium collected — and doesn't scale to protect against a real decline.",
+    watch: "Don't confuse buying protection with selling income. Selling calls (covered call writing) generates income and gives only small downside cushion (the premium received). Buying puts is the real hedge — unlimited upside protection against decline, cost is just the premium paid. Also: BUY, don't sell, when the goal is protection — selling puts would be a bullish/neutral bet, not a hedge.",
+    quiz: [
+      {
+        q: "Due to an escalating trade war, a portfolio manager anticipates a negative impact on his equity fund's assets. To protect the portfolio, the manager would:",
+        options: [
+          "Sell S&P 500 index puts",
+          "Sell S&P 500 index calls",
+          "Buy S&P 500 index puts",
+          "Buy S&P 500 index calls"
+        ],
+        answer: 2,
+        explain: "Buying puts on a broad index directly hedges against a market-wide decline — as the index falls, the puts gain value, offsetting portfolio losses. Selling calls (B) only protects to the extent of premium received, a weak hedge. Selling puts (A) is a bullish bet, the opposite of protection. Buying calls (D) profits from a rise, not a decline."
+      },
+      {
+        q: "Why is selling covered calls considered a weaker hedge than buying puts during an anticipated market decline?",
+        options: [
+          "Covered calls can only be sold on individual stocks, never indexes",
+          "The protection from selling calls is limited to the premium received, while puts can offset losses to any magnitude",
+          "Selling calls actually increases portfolio risk during declines",
+          "Covered calls require margin, making them riskier"
+        ],
+        answer: 1,
+        explain: "Selling calls generates premium income, which cushions a small decline, but that cushion is capped at the premium amount. Buying puts, by contrast, increases in value directly as the index falls, providing protection that scales with the size of the decline — a much stronger hedge for a real market-wide drop."
+      }
+    ]
   }
 ];
 

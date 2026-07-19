@@ -8567,6 +8567,39 @@ export const CONCEPTS = [
         explain: "Value managers specifically look for companies whose market price is less than their book value, viewing this as a sign the stock is undervalued relative to the company's underlying assets. A describes a growth manager's focus instead."
       }
     ]
+  },
+  {
+    id: "bond-bullet-barbell-laddering",
+    category: "Bonds",
+    title: "Bullet, Barbell, and Laddering Bond Strategies",
+    color: "#E8C547",
+    analogy: "Bullet strategy: aiming at one specific target on the wall — you buy bonds at different times, but they're all set to hit the same maturity date, like arrows all aimed at one bullseye 18 years out. Barbell strategy: weight on both ends of a bar, nothing in the middle — half your bonds mature soon, half mature further out, bought all at once. Laddering: climbing a ladder rung by rung over time — buy bonds regularly, and as each one matures, roll the proceeds into a new rung further up.",
+    rule: "**Bullet strategy** — buying bonds at DIFFERENT times, but all targeting the SAME maturity date (aiming at one future target, like funding a specific future goal). **Barbell strategy** — buying bonds all at ONE time, split between two maturity extremes (near-term and intermediate/long-term), with nothing in the middle. **Laddering strategy** — buying bonds on a REGULAR basis, and as each bond matures, ROLLING the proceeds into new bonds — this is an ongoing reinvestment cycle, not new outside funds being added each time. A 529 plan or other account type is NOT a strategy — it's an account wrapper; the investment approach used within it is the actual strategy being tested.",
+    watch: "The key distinguishing details: bullet = same target maturity date, purchases spread over time. Barbell = two extreme maturities, purchased all at once. Laddering = regular purchases where MATURING bond proceeds get rolled over (not fresh new money each time). If new/outside money is being added each period (not proceeds from a matured bond), that's NOT laddering — it may be a bullet strategy if aimed at one future date.",
+    quiz: [
+      {
+        q: "An investor plans to fund the college education for her newborn child by purchasing $5,000 of investment-grade bonds on an annual basis. She is most likely using",
+        options: [
+          "The 529 plan strategy",
+          "The barbell strategy",
+          "The laddering strategy",
+          "The bullet strategy"
+        ],
+        answer: 3,
+        explain: "She's buying bonds at different times (annually) but all aimed at the same future target — funds needed roughly 18 years from now — which is the bullet strategy. A: a 529 plan is an account type, not a strategy. B: barbell involves buying all bonds at once with two maturity extremes, not annual purchases. C: laddering involves rolling over proceeds from MATURING bonds, not investing fresh new money each year as she's doing."
+      },
+      {
+        q: "An investor buys bonds all at once, with half maturing in 2 years and half maturing in 15 years. This describes the",
+        options: [
+          "Bullet strategy",
+          "Barbell strategy",
+          "Laddering strategy",
+          "Bond swap strategy"
+        ],
+        answer: 1,
+        explain: "Buying all bonds at one time, split between two maturity extremes (near-term and longer-term) with nothing in between, is the defining feature of the barbell strategy."
+      }
+    ]
   }
 ];
 

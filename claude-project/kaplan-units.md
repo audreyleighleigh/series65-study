@@ -59,6 +59,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Client Suitability & STRIPS (also Unit 17)
 - Yield Curve Analysis: What It Compares (also Unit 6)
 - Money Market Mutual Funds — What They Can Hold
+- Bullet, Barbell, and Laddering Bond Strategies (also Unit 21)
 - Risks Most Associated with U.S. Treasury Bonds (also Unit 19)
 
 ---
@@ -493,6 +494,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Tactical vs. Strategic Asset Allocation
 - Which Common Stock Valuation Methods Are Actually DCF
 - Growth vs. Value — Contrasting Portfolio Management Styles
+- Bullet, Barbell, and Laddering Bond Strategies (crosses with Unit 2)
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

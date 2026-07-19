@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 218 concept cards across 9 categories._
+_Auto-generated from src/data.js. 219 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,7 +15,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (16 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return
+- **Bonds** (17 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies
 - **Derivatives** (8 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls
 - **Equities** (27 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
@@ -944,6 +944,34 @@ _id: `npv-sign-irr-vs-required-return` · category: Bonds_
      C) NPV is exactly zero
      D) NPV cannot be determined without more information
    _Explanation:_ Since IRR (9.5%) exceeds the required rate of return (8%), the investment offers more than what's needed, resulting in a positive NPV.
+
+---
+
+## Bullet, Barbell, and Laddering Bond Strategies
+
+_id: `bond-bullet-barbell-laddering` · category: Bonds_
+
+**Analogy.** Bullet strategy: aiming at one specific target on the wall — you buy bonds at different times, but they're all set to hit the same maturity date, like arrows all aimed at one bullseye 18 years out. Barbell strategy: weight on both ends of a bar, nothing in the middle — half your bonds mature soon, half mature further out, bought all at once. Laddering: climbing a ladder rung by rung over time — buy bonds regularly, and as each one matures, roll the proceeds into a new rung further up.
+
+**Rule.** **Bullet strategy** — buying bonds at DIFFERENT times, but all targeting the SAME maturity date (aiming at one future target, like funding a specific future goal). **Barbell strategy** — buying bonds all at ONE time, split between two maturity extremes (near-term and intermediate/long-term), with nothing in the middle. **Laddering strategy** — buying bonds on a REGULAR basis, and as each bond matures, ROLLING the proceeds into new bonds — this is an ongoing reinvestment cycle, not new outside funds being added each time. A 529 plan or other account type is NOT a strategy — it's an account wrapper; the investment approach used within it is the actual strategy being tested.
+
+**Watch.** The key distinguishing details: bullet = same target maturity date, purchases spread over time. Barbell = two extreme maturities, purchased all at once. Laddering = regular purchases where MATURING bond proceeds get rolled over (not fresh new money each time). If new/outside money is being added each period (not proceeds from a matured bond), that's NOT laddering — it may be a bullet strategy if aimed at one future date.
+
+**Quiz.**
+
+1. An investor plans to fund the college education for her newborn child by purchasing $5,000 of investment-grade bonds on an annual basis. She is most likely using
+     A) The 529 plan strategy
+     B) The barbell strategy
+     C) The laddering strategy
+   ✓ D) The bullet strategy
+   _Explanation:_ She's buying bonds at different times (annually) but all aimed at the same future target — funds needed roughly 18 years from now — which is the bullet strategy. A: a 529 plan is an account type, not a strategy. B: barbell involves buying all bonds at once with two maturity extremes, not annual purchases. C: laddering involves rolling over proceeds from MATURING bonds, not investing fresh new money each year as she's doing.
+
+2. An investor buys bonds all at once, with half maturing in 2 years and half maturing in 15 years. This describes the
+     A) Bullet strategy
+   ✓ B) Barbell strategy
+     C) Laddering strategy
+     D) Bond swap strategy
+   _Explanation:_ Buying all bonds at one time, split between two maturity extremes (near-term and longer-term) with nothing in between, is the defining feature of the barbell strategy.
 
 ---
 

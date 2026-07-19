@@ -495,6 +495,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Which Common Stock Valuation Methods Are Actually DCF
 - Growth vs. Value — Contrasting Portfolio Management Styles
 - Bullet, Barbell, and Laddering Bond Strategies (crosses with Unit 2)
+- Long Hedge vs. Short Hedge Using Futures
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

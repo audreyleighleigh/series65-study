@@ -8600,6 +8600,39 @@ export const CONCEPTS = [
         explain: "Buying all bonds at one time, split between two maturity extremes (near-term and longer-term) with nothing in between, is the defining feature of the barbell strategy."
       }
     ]
+  },
+  {
+    id: "long-hedge-vs-short-hedge",
+    category: "Derivatives",
+    title: "Long Hedge vs. Short Hedge Using Futures",
+    color: "#A78BFA",
+    analogy: "A long hedge is like pre-paying today's grocery price for food you'll need to buy in 3 months, because you're worried prices will climb by then — you lock in the lower price now by 'buying' ahead. A short hedge is like pre-selling your harvest at today's price before it's even ready, because you're worried prices will drop by the time you actually have crops to sell — you lock in today's price for something you'll deliver later.",
+    rule: "**Long hedge** (buying futures) — used to protect against a **price INCREASE**, typically by someone who will need to **buy** something in the future (e.g., a producer needing raw materials, or an investor planning a future purchase). Buying futures locks in today's price before it potentially rises. **Short hedge** (selling futures) — used to protect against a **price DECREASE**, typically by someone who currently **owns** something they'll need to **sell** later (e.g., a farmer holding a crop, an investor holding a bond to be sold). Selling futures locks in today's price before it potentially falls.",
+    watch: "Match the direction: worried about prices RISING and need to BUY later → long hedge (buy futures). Worried about prices FALLING and need to SELL later (already own the asset) → short hedge (sell futures). 'Long' and 'short' here refer to the futures position taken, not the underlying asset position.",
+    quiz: [
+      {
+        q: "The use of futures to hedge against a price increase is best referred to as",
+        options: [
+          "A trimmed hedge",
+          "A long hedge",
+          "A neutral hedge",
+          "A short hedge"
+        ],
+        answer: 1,
+        explain: "A long hedge involves buying futures to lock in today's price ahead of an anticipated price increase, typically used by someone who will need to purchase the underlying asset in the future. D is backwards — a short hedge protects against a price DECREASE for an asset already owned and to be sold later, the opposite scenario."
+      },
+      {
+        q: "A farmer who currently owns a wheat crop is worried that wheat prices will fall before the crop is ready to sell. Which hedge should the farmer use?",
+        options: [
+          "Long hedge — buy wheat futures",
+          "Short hedge — sell wheat futures",
+          "Neutral hedge — take no position",
+          "Long hedge — sell wheat futures"
+        ],
+        answer: 1,
+        explain: "The farmer already owns the asset (wheat) and is worried about a price DECREASE before selling it — this calls for a short hedge, selling futures now to lock in today's price for the future sale."
+      }
+    ]
   }
 ];
 

@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 219 concept cards across 9 categories._
+_Auto-generated from src/data.js. 220 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -16,7 +16,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
 - **Bonds** (17 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies
-- **Derivatives** (8 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls
+- **Derivatives** (9 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls · Long Hedge vs. Short Hedge Using Futures
 - **Equities** (27 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (21 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes
@@ -1170,6 +1170,34 @@ _id: `hedging-short-stock-with-calls` · category: Derivatives_
      C) $20 per share
      D) $2 per share
    _Explanation:_ The call caps the buyback price at $65 (the strike). Loss on the short = $65 − $60 = $5 per share, plus the $2 premium paid = $7 per share max loss, regardless of how high XYZ actually rises. Without the hedge, the loss would be unlimited.
+
+---
+
+## Long Hedge vs. Short Hedge Using Futures
+
+_id: `long-hedge-vs-short-hedge` · category: Derivatives_
+
+**Analogy.** A long hedge is like pre-paying today's grocery price for food you'll need to buy in 3 months, because you're worried prices will climb by then — you lock in the lower price now by 'buying' ahead. A short hedge is like pre-selling your harvest at today's price before it's even ready, because you're worried prices will drop by the time you actually have crops to sell — you lock in today's price for something you'll deliver later.
+
+**Rule.** **Long hedge** (buying futures) — used to protect against a **price INCREASE**, typically by someone who will need to **buy** something in the future (e.g., a producer needing raw materials, or an investor planning a future purchase). Buying futures locks in today's price before it potentially rises. **Short hedge** (selling futures) — used to protect against a **price DECREASE**, typically by someone who currently **owns** something they'll need to **sell** later (e.g., a farmer holding a crop, an investor holding a bond to be sold). Selling futures locks in today's price before it potentially falls.
+
+**Watch.** Match the direction: worried about prices RISING and need to BUY later → long hedge (buy futures). Worried about prices FALLING and need to SELL later (already own the asset) → short hedge (sell futures). 'Long' and 'short' here refer to the futures position taken, not the underlying asset position.
+
+**Quiz.**
+
+1. The use of futures to hedge against a price increase is best referred to as
+     A) A trimmed hedge
+   ✓ B) A long hedge
+     C) A neutral hedge
+     D) A short hedge
+   _Explanation:_ A long hedge involves buying futures to lock in today's price ahead of an anticipated price increase, typically used by someone who will need to purchase the underlying asset in the future. D is backwards — a short hedge protects against a price DECREASE for an asset already owned and to be sold later, the opposite scenario.
+
+2. A farmer who currently owns a wheat crop is worried that wheat prices will fall before the crop is ready to sell. Which hedge should the farmer use?
+     A) Long hedge — buy wheat futures
+   ✓ B) Short hedge — sell wheat futures
+     C) Neutral hedge — take no position
+     D) Long hedge — sell wheat futures
+   _Explanation:_ The farmer already owns the asset (wheat) and is worried about a price DECREASE before selling it — this calls for a short hedge, selling futures now to lock in today's price for the future sale.
 
 ---
 

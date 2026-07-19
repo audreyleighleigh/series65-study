@@ -8743,6 +8743,39 @@ export const CONCEPTS = [
         explain: "Strong form is the most extreme version of EMH, asserting that even non-public, insider information is already reflected in stock prices — meaning that, if true, not even insiders could gain a trading advantage from information not yet publicly released."
       }
     ]
+  },
+  {
+    id: "distribution-reinvestment-front-end-load",
+    category: "Investment Companies",
+    title: "Cash Distributions vs. Reinvestment in a Front-End Load Fund",
+    color: "#7C3AED",
+    analogy: "Reinvesting a distribution is like getting store credit automatically applied to more of the same store's merchandise — no new checkout fee. Taking the distribution as cash and later deciding to buy more shares is like taking that money out as cash and walking back into the store fresh — you're a new customer at checkout again, and the sales charge applies all over.",
+    rule: "In a front-end load mutual fund: **reinvested distributions always purchase additional shares at NAV, exempt from the sales load** — this exemption applies specifically because the money never left the fund. If a shareholder instead takes distributions in **cash** and later decides to purchase MORE shares with that money, that is treated as a brand-new purchase, subject to the **offering price** (NAV + sales load) all over again. Taking cash distributions instead of reinvesting can also **reduce a shareholder's proportional ownership** in the fund over time, since reinvesting shareholders accumulate more shares while cash-taking shareholders do not.",
+    watch: "Don't assume cash distributions can later be used to buy shares at NAV — that exemption only applies to automatic reinvestment, not to a fresh purchase made later with cash that was already distributed out. Also, reinvesting and compounding does NOT inherently increase risk to principal — it simply means owning more shares subject to the same market risk as any other shares.",
+    quiz: [
+      {
+        q: "Customer A and Customer B each have an open account in a mutual fund that charges a front-end load. Customer A has decided to receive all distributions in cash, while Customer B automatically reinvests all distributions. How do their decisions affect their investments? I. Receiving cash distributions may reduce Customer A's proportional interest in the fund. II. Customer A may use the cash distributions to purchase shares later at NAV. III. Customer B's reinvestments purchase additional shares at NAV rather than at the offering price. IV. Due to compounding, Customer B's principal will be at greater risk.",
+        options: [
+          "I and IV",
+          "I and III",
+          "II and III",
+          "II and IV"
+        ],
+        answer: 1,
+        explain: "Cash distributions not reinvested can reduce Customer A's proportional ownership over time (I, true), while reinvested distributions always purchase shares at NAV, exempt from the sales load (III, true). II is false — if Customer A later uses the cash to make a NEW purchase, that purchase is subject to the full offering price (NAV + load) again, since the exemption only applies to automatic reinvestment. IV is false — reinvesting and compounding doesn't inherently increase risk to principal, it just means owning more shares subject to the same market risk."
+      },
+      {
+        q: "Why are reinvested distributions in a front-end load fund exempt from the sales load, while a new cash purchase is not?",
+        options: [
+          "Reinvested distributions are always smaller in dollar amount",
+          "The money in a reinvestment never leaves the fund, unlike a new purchase made with cash already distributed out",
+          "Only Customer B is eligible for NAV pricing under fund rules",
+          "Sales loads only apply to the first purchase ever made in an account"
+        ],
+        answer: 1,
+        explain: "The NAV exemption applies specifically to automatic reinvestment, since the distributed money is simply being converted back into fund shares without ever leaving the fund structure. A brand-new purchase made with previously-distributed cash is treated as an entirely new transaction, subject to the full offering price including the sales load."
+      }
+    ]
   }
 ];
 

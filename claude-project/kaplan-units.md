@@ -94,6 +94,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Fund of Hedge Funds
 - Private Equity vs. Venture Capital
 - Closed-End vs. Open-End Fund Pricing
+- Cash Distributions vs. Reinvestment in a Front-End Load Fund (also Unit 21)
 - Balanced Fund: Defined by Its Mix of Asset Classes (also Unit 21)
 
 ---
@@ -499,6 +500,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Belief in Market Efficiency Drives Active vs. Passive Strategy
 - Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms
 - Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest
+- Cash Distributions vs. Reinvestment in a Front-End Load Fund (crosses with Unit 3)
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

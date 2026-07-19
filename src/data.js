@@ -8501,6 +8501,39 @@ export const CONCEPTS = [
         explain: "The 20-year horizon and the mechanical rebalance-to-target behavior are the hallmarks of strategic asset allocation. The IAR isn't reading the market or shifting weights based on where she thinks opportunity lies — she's holding a pre-set ratio matched to the client's long-term goal. Tactical AA, market timing, and sector rotation are all active strategies."
       }
     ]
+  },
+  {
+    id: "dcf-variants-common-stock-valuation",
+    category: "Equities",
+    title: "Which Common Stock Valuation Methods Are Actually DCF",
+    color: "#7EC8A4",
+    analogy: "Dividend discount model and dividend growth model are both genuinely taking future payments and shrinking them to today's value — real DCF. P/E ratio is just holding a stock's price up next to its earnings and eyeballing the ratio — no discounting at all, just a quick comparison shortcut. 'Discounted book value' sounds official but is a decoy — book value is a balance-sheet snapshot, not a stream of future cash flows to discount.",
+    rule: "**Dividend discount model** and **dividend growth model (Gordon Growth Model)** are genuine DCF methods — both project future dividend payments (the growth model adds a growth rate assumption) and discount them back to present value using a required rate of return. **P/E ratio** is a relative valuation multiple (price compared to earnings or to peers) — no discounting of future cash flows occurs. **'Discounted book value'** is not a standard valuation method — book value is an asset-based, balance-sheet concept, not a projected cash flow stream; the word 'discounted' is a decoy here.",
+    watch: "Don't be fooled by finance-sounding words that don't actually involve discounting future cash flows — 'discounted book value' uses the word 'discounted' but book value itself is a static balance-sheet snapshot, not a cash flow projection. P/E ratio is a common trap too, since it's a valuation tool, but it's a relative multiple, not a DCF method.",
+    quiz: [
+      {
+        q: "Which of the following are genuine discounted cash flow (DCF) methods for valuing common stock? I. P/E ratio. II. Dividend discount model. III. Discounted book value model. IV. Dividend growth model.",
+        options: [
+          "I and III",
+          "I and II",
+          "II and IV",
+          "III and IV"
+        ],
+        answer: 2,
+        explain: "The dividend discount model and dividend growth model (Gordon Growth Model) both project future dividends and discount them to present value — genuine DCF. P/E ratio is a relative valuation multiple with no discounting involved. 'Discounted book value model' isn't a standard valuation method — book value is a balance-sheet snapshot, not a cash flow projection."
+      },
+      {
+        q: "What does the dividend growth model (Gordon Growth Model) add to the basic dividend discount model?",
+        options: [
+          "A fixed tax rate assumption",
+          "A growth rate applied to the projected dividends before discounting",
+          "An adjustment for company size",
+          "A requirement that the company pay no debt"
+        ],
+        answer: 1,
+        explain: "The Gordon Growth Model refines the basic dividend discount model by incorporating an assumed constant growth rate for future dividends, then discounts that growing stream of dividends back to present value."
+      }
+    ]
   }
 ];
 

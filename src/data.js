@@ -8457,6 +8457,50 @@ export const CONCEPTS = [
         explain: "The call caps the buyback price at $65 (the strike). Loss on the short = $65 − $60 = $5 per share, plus the $2 premium paid = $7 per share max loss, regardless of how high XYZ actually rises. Without the hedge, the loss would be unlimited."
       }
     ]
+  },
+  {
+    id: "tactical-vs-strategic-asset-allocation",
+    category: "Suitability",
+    title: "Tactical vs. Strategic Asset Allocation",
+    color: "#FBBF24",
+    analogy: "Strategic asset allocation is the meal plan you set at the start of the year — 40% protein, 30% carbs, 30% veggies — and you just keep buying groceries to hold that ratio regardless of what's on sale this week. Tactical is grocery-shopping opportunistically: chicken's on sale? Load up. Avocados are $4? Skip. You're constantly adjusting based on today's market, not sticking to a preset ratio.",
+    rule: "**Tactical asset allocation is ACTIVE** — continuously adjusts the portfolio mix to exploit perceived short-term market inefficiencies and investor sentiment. **Strategic asset allocation is PASSIVE** — sets a long-term target mix based on the client's goals and risk profile, then rebalances back to that mix as prices drift. Buy-and-hold is also passive. Only tactical is trying to time the market.",
+    watch: "The word 'strategic' sounds active/clever, which is the trap — but here 'strategic' means 'long-term strategy,' i.e., passive. Look for the tell in the question: if the IAR talks about long-term goals and risk profile → strategic. If the IAR talks about market timing, sentiment, or 'taking advantage of' inefficiencies → tactical. Buy-and-hold and strategic AA are both in the PASSIVE family.",
+    quiz: [
+      {
+        q: "While managing a client's portfolio, an IAR attempts to take advantage of perceived market inefficiencies. The IAR is not concerned with the client's long-term goals; the interest lies in continuously changing the investment mix to take advantage of overall investor sentiment. What portfolio management style is this?",
+        options: [
+          "Portfolio ratio analysis",
+          "Buy-and-hold",
+          "Tactical asset allocation",
+          "Strategic asset allocation"
+        ],
+        answer: 2,
+        explain: "The tells are 'perceived market inefficiencies,' 'continuously changing the investment mix,' and 'take advantage of investor sentiment' — all active-management language, which is tactical. Buy-and-hold and strategic AA are both passive (long-term, goals-driven). Portfolio ratio analysis isn't a management style at all — it's a made-up distractor."
+      },
+      {
+        q: "Which of the following are passive portfolio management styles?",
+        options: [
+          "Tactical asset allocation and buy-and-hold",
+          "Strategic asset allocation and buy-and-hold",
+          "Tactical asset allocation and strategic asset allocation",
+          "Buy-and-hold only"
+        ],
+        answer: 1,
+        explain: "Strategic AA and buy-and-hold are both passive — they set long-term positions and don't try to time the market. Tactical AA is active by definition — it's constantly adjusting to exploit short-term opportunities. Don't be fooled by 'strategic' sounding clever; here it means long-term, not opportunistic."
+      },
+      {
+        q: "An IAR sets a client's portfolio at 60% equities and 40% bonds based on a 20-year retirement horizon. She rebalances quarterly if the allocation drifts more than 5% off target. What management style is this?",
+        options: [
+          "Tactical asset allocation",
+          "Strategic asset allocation",
+          "Market timing",
+          "Sector rotation"
+        ],
+        answer: 1,
+        explain: "The 20-year horizon and the mechanical rebalance-to-target behavior are the hallmarks of strategic asset allocation. The IAR isn't reading the market or shifting weights based on where she thinks opportunity lies — she's holding a pre-set ratio matched to the client's long-term goal. Tactical AA, market timing, and sector rotation are all active strategies."
+      }
+    ]
   }
 ];
 

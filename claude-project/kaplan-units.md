@@ -490,6 +490,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Hedging a Portfolio with Index Puts
 - Hedging a Short Stock Position with Calls
 - Sector Rotation & the Business Cycle (crosses with Unit 6)
+- Tactical vs. Strategic Asset Allocation
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

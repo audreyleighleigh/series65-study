@@ -8633,6 +8633,39 @@ export const CONCEPTS = [
         explain: "The farmer already owns the asset (wheat) and is worried about a price DECREASE before selling it — this calls for a short hedge, selling futures now to lock in today's price for the future sale."
       }
     ]
+  },
+  {
+    id: "market-efficiency-active-vs-passive",
+    category: "Suitability",
+    title: "Belief in Market Efficiency Drives Active vs. Passive Strategy",
+    color: "#FBBF24",
+    analogy: "If you believe a marketplace is already pricing everything fairly (efficient), there's no point haggling — you just buy at the listed price and move on (passive/indexing). If you believe some vendors are mispricing their goods (inefficient market), you'd want to actively hunt for those deals and adjust your buying on the fly as you spot them (active/tactical).",
+    rule: "An analyst who does NOT believe markets are efficient believes mispriced securities and exploitable opportunities exist, leading toward **active management** — including **tactical** strategies, which involve actively adjusting portfolio allocations based on perceived short-term opportunities or market conditions. An analyst who DOES believe markets are highly efficient believes prices already reflect available information, leading toward **passive management** — such as **indexing** (buying and holding a broad market index) or **strategic** asset allocation (setting a long-term target mix and generally sticking to it with periodic rebalancing, rather than actively timing or picking).",
+    watch: "Don't confuse 'strategic' with 'tactical' — strategic asset allocation is a longer-term, largely passive-aligned approach (set it and periodically rebalance), while tactical is the active, opportunity-seeking approach tied to a belief that markets are NOT fully efficient. If a question describes a disbelief in market efficiency, tactical (not strategic) is the matching answer.",
+    quiz: [
+      {
+        q: "A securities analyst does not believe that markets are highly efficient. This analyst most likely follows which of the following investing strategies?",
+        options: [
+          "Strategic",
+          "Indexing",
+          "Tactical",
+          "Passive"
+        ],
+        answer: 2,
+        explain: "Not believing markets are efficient means believing mispriced securities and exploitable opportunities exist — this aligns with tactical, active management, which involves adjusting allocations to capitalize on perceived opportunities. A: strategic asset allocation is a longer-term, largely passive-aligned approach, not an active exploitation of inefficiencies. B and D: indexing and passive strategies align with a belief that markets ARE efficient, the opposite premise."
+      },
+      {
+        q: "An investor who believes markets are highly efficient and that securities are generally fairly priced would most likely favor",
+        options: [
+          "Tactical asset allocation",
+          "Active security selection",
+          "Passive indexing",
+          "Market timing"
+        ],
+        answer: 2,
+        explain: "Believing markets are efficient means believing prices already reflect available information, making it difficult to reliably outperform through active picking or timing — this leads toward passive indexing, simply holding a broad market index rather than trying to beat it."
+      }
+    ]
   }
 ];
 

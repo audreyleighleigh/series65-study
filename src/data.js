@@ -8710,6 +8710,39 @@ export const CONCEPTS = [
         explain: "Breadth of market theory tracks how many stocks are advancing versus declining to gauge whether a market move is broad-based and healthy, or narrow and potentially unsustainable — it has nothing to do with investor sophistication or short interest."
       }
     ]
+  },
+  {
+    id: "efficient-market-hypothesis-forms",
+    category: "Suitability",
+    title: "Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms",
+    color: "#FBBF24",
+    analogy: "Think of EMH's three forms as three widening circles of information already 'priced in.' Weak form's circle only includes a stock's own trading history (like a diary of past prices). Semistrong form's circle expands to include everything published for the public — newspapers, earnings reports, news. Strong form's circle is the widest of all — even secret, non-public insider information is assumed to already be baked into the price.",
+    rule: "**Weak form** — asserts past PRICE AND VOLUME data is already reflected in current prices; if true, technical analysis (based on historical price patterns) provides no edge. **Semistrong form** — asserts ALL PUBLICLY AVAILABLE information (financial statements, news, analyst reports, anything in a publication like The Wall Street Journal) is already reflected in prices; if true, neither technical NOR fundamental analysis (which relies on public information) provides an edge. **Strong form** — asserts even NON-PUBLIC/INSIDER information is already reflected in prices; the most extreme version, implying not even insider trading could produce an edge.",
+    watch: "The key distinguishing test: is the information PUBLIC (newspapers, published reports, earnings releases) → semistrong form. Is the information NON-PUBLIC/insider → strong form. Is it ONLY historical price/volume data → weak form. A newspaper is a classic example of publicly available information, making it a semistrong form example, not strong form — 'strong' specifically requires insider-level information.",
+    quiz: [
+      {
+        q: "According to the efficient market hypothesis, information found when reading The Wall Street Journal would be considered",
+        options: [
+          "Strong form market efficiency",
+          "Weak form market efficiency",
+          "Random walk",
+          "Semistrong form market efficiency"
+        ],
+        answer: 3,
+        explain: "A newspaper is publicly available information, which falls under semistrong form — the assumption that all public information (beyond just historical price data) is already reflected in stock prices. A: strong form specifically requires NON-PUBLIC/insider information, which a newspaper is not. B: weak form only covers historical price/volume data, not published news or reports."
+      },
+      {
+        q: "If strong form market efficiency holds true, what would this imply about insider trading?",
+        options: [
+          "Insider trading would provide a significant advantage",
+          "Insider trading would provide no advantage, since even non-public information is already reflected in prices",
+          "Insider trading would only work for technical analysts",
+          "Strong form efficiency has nothing to do with insider information"
+        ],
+        answer: 1,
+        explain: "Strong form is the most extreme version of EMH, asserting that even non-public, insider information is already reflected in stock prices — meaning that, if true, not even insiders could gain a trading advantage from information not yet publicly released."
+      }
+    ]
   }
 ];
 

@@ -497,6 +497,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Bullet, Barbell, and Laddering Bond Strategies (crosses with Unit 2)
 - Long Hedge vs. Short Hedge Using Futures
 - Belief in Market Efficiency Drives Active vs. Passive Strategy
+- Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms
 - Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 

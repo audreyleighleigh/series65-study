@@ -8677,6 +8677,39 @@ export const CONCEPTS = [
         explain: "Believing markets are efficient means believing prices already reflect available information, making it difficult to reliably outperform through active picking or timing — this leads toward passive indexing, simply holding a broad market index rather than trying to beat it."
       }
     ]
+  },
+  {
+    id: "technical-market-indicator-theories",
+    category: "Equities",
+    title: "Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest",
+    color: "#7EC8A4",
+    analogy: "Odd lot theory is like watching what the least experienced players at the table are doing and betting the opposite, since they tend to buy right before the party ends and sell right before it starts again. Breadth of market and advance/decline are like checking how many people in the whole room are dancing versus sitting down, to gauge whether the party's energy is broad and real or just a few people faking it. Short interest is like counting how many people bet against the party happening at all — and ironically, a lot of those bets sometimes fuels the party further once they have to cover.",
+    rule: "**Odd lot theory** — a CONTRARIAN theory assuming small, unsophisticated investors (trading in odd lots, less than the standard 100-share round lot) are usually WRONG at market turning points — buying near tops, selling near bottoms. Some analysts watch odd-lot activity to do the opposite. **Breadth of market / Advance-decline theory** — essentially the same concept, tracking the number of advancing stocks vs. declining stocks across the market to gauge whether a move is broad-based (healthy) or narrow (potentially unsustainable) — unrelated to any specific investor group's sophistication. **Short interest theory** — tracks the total shares sold short in the market; often interpreted somewhat contrarian/bullish too (since short positions must eventually be covered/bought back), but it's about short-sellers broadly, not small investors specifically.",
+    watch: "Odd lot theory is the ONLY one of these four specifically built around the assumption that a particular investor group (small investors) is usually wrong. Breadth of market and advance/decline are essentially interchangeable concepts (market-wide participation), and short interest tracks short-sellers, not retail investor sophistication. If a question mentions 'small investors are usually wrong,' odd lot theory is the answer.",
+    quiz: [
+      {
+        q: "Proponents of which of the following technical theories assume that small investors are usually wrong?",
+        options: [
+          "Breadth of market",
+          "Odd lot",
+          "Advance/decline",
+          "Short interest"
+        ],
+        answer: 1,
+        explain: "Odd lot theory is a contrarian theory built specifically on the assumption that small, unsophisticated investors (trading in odd lots) are usually wrong at market turning points. A and C: breadth of market and advance/decline both track market-wide participation, unrelated to any specific investor group's sophistication. D: short interest tracks short-sellers broadly, not small investor behavior specifically."
+      },
+      {
+        q: "What does breadth of market (advance/decline) theory measure?",
+        options: [
+          "The sophistication level of small investors",
+          "The number of advancing stocks versus declining stocks across the market",
+          "The total number of shares sold short",
+          "The dividend yield of the broad market index"
+        ],
+        answer: 1,
+        explain: "Breadth of market theory tracks how many stocks are advancing versus declining to gauge whether a market move is broad-based and healthy, or narrow and potentially unsustainable — it has nothing to do with investor sophistication or short interest."
+      }
+    ]
   }
 ];
 

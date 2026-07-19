@@ -1376,6 +1376,13 @@ _id: `sector-rotation-business-cycle` · category: Equities_
      D) Dividend-paying preferred stocks
    _Explanation:_ Near the trough, recovery is the next phase — meaning economic activity will increase, consumer spending will rise, and cyclical companies will see improving revenues. This is the ideal time to rotate INTO cyclical stocks to capture the upside of the recovery. Defensive stocks and utilities are appropriate during contraction but underperform during expansion. Preferred stocks are an income instrument, not an equity growth play tied to the business cycle.
 
+3. An investment adviser who believes we are in the early recovery portion of the business cycle would most likely recommend:
+     A) Value stocks
+     B) Long-term bonds
+   ✓ C) Cyclical stocks
+     D) Defensive stocks
+   _Explanation:_ Early recovery = the moment cyclicals turn on, so that's the buy. Long-term bonds are the WORST recovery play — recovery brings rising rates, and long-duration bonds get hit hardest when rates rise. Defensive stocks belong to the early contraction phase, not recovery. Value stocks can perform well, but studies show they outperform during CONTRACTION, not expansion — so cyclicals are the sharper answer for early recovery.
+
 ---
 
 ## Cash Flow Statement: Investing Activities

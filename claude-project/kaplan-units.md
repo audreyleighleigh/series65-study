@@ -149,7 +149,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Recession Definition
 - Fiscal vs. Monetary Policy
 - Inflation Inertia
-- Sector Rotation & the Business Cycle
+- Sector Rotation & the Business Cycle (crosses with Unit 21)
 
 ---
 
@@ -489,6 +489,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Modern Portfolio Theory — Key Terms & the Efficient Frontier
 - Hedging a Portfolio with Index Puts
 - Hedging a Short Stock Position with Calls
+- Sector Rotation & the Business Cycle (crosses with Unit 6)
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

@@ -1052,6 +1052,20 @@ _id: `covered-calls-detailed` · category: Derivatives_
      D) The investor has unlimited gain potential
    _Explanation:_ If assigned, the investor sells shares at the strike price (the agreed price when they wrote the call). They keep the premium collected, but they gave up the opportunity to profit from the price rise above the strike. That's the trade-off of a covered call — capped upside in exchange for premium income.
 
+3. An investor is long 100 shares of XUZ common stock. If the investor wishes to generate some additional income while also creating a partial hedge, the recommended strategy would be to
+     A) Go short an XUZ put
+   ✓ B) Go short an XUZ call
+     C) Buy additional XUZ stock
+     D) Go long an XUZ call
+   _Explanation:_ Writing (going short) a call against stock already owned is a covered call — it generates premium income immediately and provides a partial hedge, since the premium collected cushions a portion of any stock price decline. A: shorting a put obligates the investor to potentially buy more stock, not a hedge for an existing long position. C: buying more stock increases exposure rather than hedging. D: going long a call costs a premium rather than generating income.
+
+4. Why is a covered call considered a conservative strategy compared to writing a naked (uncovered) call?
+     A) Covered calls always generate more premium income than naked calls
+   ✓ B) The investor already owns the underlying stock, limiting the risk if the call is exercised
+     C) Covered calls have no risk at all
+     D) Naked calls cannot be written on any exchange
+   _Explanation:_ Since the investor already owns the underlying shares, if the call is exercised they simply deliver stock they already hold — there's no need to buy shares at a potentially unfavorable price in the open market, unlike a naked call, which carries theoretically unlimited risk since the writer doesn't already own the stock.
+
 ---
 
 ## Options Commission Calculations: Tiered Brackets

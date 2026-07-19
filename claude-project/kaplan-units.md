@@ -111,7 +111,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 **Deck coverage:**
 - Put Options: Rights, Obligations & Strategies
 - Long Call vs Short Put: Unlimited Risk Profiles
-- Covered Calls: Locked-In Income in Flat Markets
+- Covered Calls: Locked-In Income in Flat Markets (also Unit 21)
 - Options Commission Calculations: Tiered Brackets
 - Straddles: Profiting from Big Moves in Either Direction
 - Options Suitability: Time Horizon & Risk Profile Matching (also Unit 17)
@@ -503,6 +503,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest
 - Cash Distributions vs. Reinvestment in a Front-End Load Fund (crosses with Unit 3)
 - Dollar Cost Averaging — Average Cost vs. Average Price (crosses with Unit 3)
+- Covered Calls: Locked-In Income in Flat Markets (crosses with Unit 4)
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

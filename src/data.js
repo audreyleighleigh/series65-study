@@ -8534,6 +8534,39 @@ export const CONCEPTS = [
         explain: "The Gordon Growth Model refines the basic dividend discount model by incorporating an assumed constant growth rate for future dividends, then discounts that growing stream of dividends back to present value."
       }
     ]
+  },
+  {
+    id: "growth-vs-value-management-styles",
+    category: "Suitability",
+    title: "Growth vs. Value — Contrasting Portfolio Management Styles",
+    color: "#FBBF24",
+    analogy: "A growth manager is watching the speedometer — how fast is this company's earnings accelerating right now (earnings momentum)? A value manager is popping the hood and checking the odometer against the sale price — is this company's stock trading for less than what its underlying assets (book value) say it's actually worth? Two completely different instruments, looking at two completely different things.",
+    rule: "**Growth managers** focus on **earnings momentum** — the rate at which a company's earnings are growing, seeking companies with accelerating growth trajectories. **Value managers** focus on **book value** and financial statements broadly — seeking companies whose market price is trading BELOW their book value (undervalued relative to underlying assets). The core contrast: growth = earnings momentum (forward-looking growth rate); value = book value (backward-looking, asset-based financial statement analysis).",
+    watch: "Read every word carefully — answer choices often pair a correct half with a subtly wrong half (e.g., 'low current ratio' instead of 'low P/E ratio'), which can look right at a glance but doesn't match the real growth-vs-value contrast. Current ratio is a liquidity measure, unrelated to this distinction — don't let a similar-sounding ratio substitute for the real pairing (earnings momentum vs. book value).",
+    quiz: [
+      {
+        q: "Two contrasting styles of portfolio management are growth and value. Which of the following pairs best describes the contrast?",
+        options: [
+          "Dividend yield/dividend payout ratio",
+          "Capital structure/earnings per share",
+          "High P/E ratio/low current ratio",
+          "Earnings momentum/book value"
+        ],
+        answer: 3,
+        explain: "Earnings momentum is a key growth manager metric (rate of earnings growth), while book value is central to value managers (seeking market price below book value). C is a tempting near-miss — 'high P/E ratio' correctly describes growth style, but 'low current ratio' is a liquidity measure unrelated to value investing; the correct pairing would have been 'low P/E ratio', not 'low current ratio'. A and B don't describe this contrast at all."
+      },
+      {
+        q: "A value manager is most likely to seek out companies whose",
+        options: [
+          "Earnings are growing at an accelerating rate",
+          "Market price is trading below their book value",
+          "Current ratio is highest among peers",
+          "Dividend payout ratio is zero"
+        ],
+        answer: 1,
+        explain: "Value managers specifically look for companies whose market price is less than their book value, viewing this as a sign the stock is undervalued relative to the company's underlying assets. A describes a growth manager's focus instead."
+      }
+    ]
   }
 ];
 

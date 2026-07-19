@@ -492,6 +492,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Sector Rotation & the Business Cycle (crosses with Unit 6)
 - Tactical vs. Strategic Asset Allocation
 - Which Common Stock Valuation Methods Are Actually DCF
+- Growth vs. Value — Contrasting Portfolio Management Styles
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

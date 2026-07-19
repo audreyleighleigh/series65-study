@@ -95,6 +95,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Private Equity vs. Venture Capital
 - Closed-End vs. Open-End Fund Pricing
 - Cash Distributions vs. Reinvestment in a Front-End Load Fund (also Unit 21)
+- Dollar Cost Averaging — Average Cost vs. Average Price (also Unit 21)
 - Balanced Fund: Defined by Its Mix of Asset Classes (also Unit 21)
 
 ---
@@ -501,6 +502,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms
 - Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest
 - Cash Distributions vs. Reinvestment in a Front-End Load Fund (crosses with Unit 3)
+- Dollar Cost Averaging — Average Cost vs. Average Price (crosses with Unit 3)
 - Balanced Fund: Defined by Its Mix of Asset Classes (crosses with Unit 3)
 
 ---

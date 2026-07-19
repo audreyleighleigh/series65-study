@@ -8776,6 +8776,39 @@ export const CONCEPTS = [
         explain: "The NAV exemption applies specifically to automatic reinvestment, since the distributed money is simply being converted back into fund shares without ever leaving the fund structure. A brand-new purchase made with previously-distributed cash is treated as an entirely new transaction, subject to the full offering price including the sales load."
       }
     ]
+  },
+  {
+    id: "dollar-cost-averaging-avg-cost-vs-price",
+    category: "Investment Companies",
+    title: "Dollar Cost Averaging — Average Cost vs. Average Price",
+    color: "#7C3AED",
+    analogy: "Averaging the five sticker prices you saw at the store is one number. Averaging what you ACTUALLY paid per item — after buying extra units on the days things were cheap and fewer on the days they were expensive — is a different, lower number. Dollar cost averaging automatically buys more shares when prices dip and fewer when prices spike, which is exactly why your true average cost ends up below the simple average of the prices themselves.",
+    rule: "**Dollar cost averaging (DCA)** = investing a FIXED DOLLAR amount at regular intervals, regardless of price. This causes more shares to be purchased when the price is low and fewer when the price is high. As a result, an investor's **average cost per share** (total dollars invested ÷ total shares purchased) will typically be LOWER than the simple **average price per share** (average of the prices paid at each interval) — as long as the price fluctuates during the period. For DCA's cost advantage to occur, two conditions are required: (1) the price must fluctuate across purchases, and (2) a fixed DOLLAR amount (not a fixed number of shares) must be invested each interval. When selling shares, proceeds are based on NAV (bid price), not the public offering price (which only applies to purchases).",
+    watch: "Don't confuse average PRICE (simple average of the prices paid) with average COST (total dollars invested ÷ total shares owned) — DCA's whole benefit is that cost comes out lower than price. A 'fixed number of shares purchased each period' is the OPPOSITE of DCA and doesn't produce this cost advantage. Also remember: proceeds from selling use NAV, not the offering price (which includes the sales load only paid when buying).",
+    quiz: [
+      {
+        q: "A mutual fund investor is using a dollar cost averaging strategy. For the average price per share to exceed the investor's average cost, which of the following conditions must be present? I. The market price per share fluctuates with each purchase. II. A fixed dollar amount is invested at regular intervals. III. A fixed number of shares is purchased monthly. IV. A constant dollar value is maintained in the account.",
+        options: [
+          "II and III",
+          "I and III",
+          "I and II",
+          "II and IV"
+        ],
+        answer: 2,
+        explain: "Price fluctuation (I) is required to create any gap between average price and average cost at all, and a fixed dollar amount invested regularly (II) is the DCA mechanism itself that causes more shares to be bought when cheap. III describes the opposite of DCA (fixed shares, not fixed dollars) and would eliminate the cost advantage. IV isn't a real DCA requirement."
+      },
+      {
+        q: "An investor invests $300 each month into a fund. Over five months, her purchase prices were $10, $12, $15, $20, and $25. If she stops investing and later sells her shares when NAV is $15 and the public offering price is $15.79, which statement is correct?",
+        options: [
+          "Her proceeds were $15.79 per share",
+          "Her cost basis for tax purposes was $14.71",
+          "Her average cost per share was $16.40",
+          "Her realized loss was $1.40 per share"
+        ],
+        answer: 1,
+        explain: "Shares purchased: 30+25+20+15+12 = 102 shares for $1,500 total. Average cost = $1,500 / 102 = $14.71 per share. A: proceeds on a sale use NAV ($15), not the offering price (which only applies to purchases). C: $16.40 is the simple AVERAGE PRICE of the five months, not her actual cost basis — a classic average-price-vs-average-cost trap. D: with a cost basis of $14.71 and a sale at $15 NAV, she actually has a small gain, not a loss."
+      }
+    ]
   }
 ];
 

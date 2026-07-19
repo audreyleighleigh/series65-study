@@ -6502,6 +6502,13 @@ _id: `growth-vs-value-management-styles` · category: Suitability_
      D) Dividend payout ratio is zero
    _Explanation:_ Value managers specifically look for companies whose market price is less than their book value, viewing this as a sign the stock is undervalued relative to the company's underlying assets. A describes a growth manager's focus instead.
 
+3. An investment adviser is researching a company: market price $21/share, most recent EPS $3, quarterly dividend $0.26, and a significant cash position on the balance sheet. This company would probably be attractive to this adviser if his investment style was
+     A) Growth
+   ✓ B) Value
+     C) Passive
+     D) Contrarian
+   _Explanation:_ P/E ratio = $21 / $3 = 7, a low P/E — the classic value signal, suggesting the stock is priced cheaply relative to earnings. A significant cash position and a dividend-paying policy also point to a stable, financially strong company, which is squarely value-investor territory (book value and financial statement strength), not the earnings-momentum focus of a growth manager. Nothing in the data suggests accelerating earnings growth, which would be needed to support a growth answer.
+
 ---
 
 ## Belief in Market Efficiency Drives Active vs. Passive Strategy

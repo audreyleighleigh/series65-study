@@ -9052,6 +9052,39 @@ export const CONCEPTS = [
         explain: "Market makers operate in the decentralized OTC market, standing ready to buy or sell securities to maintain liquidity and an orderly market — the specialist role, by contrast, is tied to the centralized exchange floor."
       }
     ]
+  },
+  {
+    id: "stop-orders-purpose-limitations",
+    category: "Equities",
+    title: "Stop Orders — What They Do (and Don't Guarantee)",
+    color: "#7EC8A4",
+    analogy: "A stop order is like a tripwire, not a reserved parking spot. Once the stock price crosses your tripwire level, it triggers an immediate market order — but you don't get to reserve a specific execution price in advance, the same way a tripwire doesn't guarantee exactly where you'll land after triggering it. It just sets the alarm off; what happens next depends on market conditions at that moment.",
+    rule: "A **stop order** becomes a MARKET ORDER once the stock trades at (or through) a specified stop price. Common uses: **sell stop** to protect profit on a LONG position (triggers a sell if the price falls to the stop level), and **buy stop** to prevent further loss on a SHORT position (triggers a buy if the price rises to the stop level). Critically, a stop order does **NOT guarantee execution at any specific price** — once triggered, it executes at whatever the next available market price is, which could be better, worse, or the same as the stop price, especially in fast-moving markets.",
+    watch: "Stop orders never guarantee a specific execution price or 'lock in' a price with a specialist/market maker — that's a common misconception. They only guarantee the TRIGGER point at which the order converts to a market order; the actual fill price depends on market conditions at that moment.",
+    quiz: [
+      {
+        q: "Which of the following would be a common use of a stop order? I. To protect the profit on a long position. II. To prevent loss in a short position. III. To buy at a specific price guaranteed by a specialist. IV. To lock in a price with the specialist.",
+        options: [
+          "II and III",
+          "I and III",
+          "I and II",
+          "II and IV"
+        ],
+        answer: 2,
+        explain: "A sell stop can protect profit on a long position (I, true), and a buy stop can prevent further loss on a short position (II, true). III and IV are both false — stop orders never guarantee a specific execution price; once triggered, they become market orders subject to whatever price is actually available."
+      },
+      {
+        q: "What happens once a stop order's trigger price is reached?",
+        options: [
+          "It executes immediately at exactly the stop price",
+          "It becomes a market order, executing at the next available market price",
+          "It is automatically canceled",
+          "It becomes a limit order at the stop price"
+        ],
+        answer: 1,
+        explain: "Once triggered, a stop order converts into a market order, which then executes at whatever price is next available in the market — not necessarily the stop price itself, since prices can move quickly between the trigger and actual execution."
+      }
+    ]
   }
 ];
 

@@ -534,6 +534,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Market Manipulation — Pegging, Front Running, Matched Orders
 - Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements
 - Specialist (Exchange Floor) vs. Market Maker (OTC)
+- Stop Orders — What They Do (and Don't Guarantee)
 
 ---
 

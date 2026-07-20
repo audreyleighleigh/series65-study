@@ -9085,6 +9085,39 @@ export const CONCEPTS = [
         explain: "Once triggered, a stop order converts into a market order, which then executes at whatever price is next available in the market — not necessarily the stop price itself, since prices can move quickly between the trigger and actual execution."
       }
     ]
+  },
+  {
+    id: "stop-limit-orders",
+    category: "Equities",
+    title: "Stop-Limit Orders — Trigger Price vs. Execution Price",
+    color: "#7EC8A4",
+    analogy: "A stop-limit order is like a security guard with two separate instructions. The stop price is the alarm trigger — once crossed, the guard springs into action. But the limit price is a strict rule the guard won't break — 'once you're active, don't let anyone through for less than this price,' even if that means turning people away and waiting for a better offer. Unlike a plain stop order (which becomes a no-questions-asked market order), a stop-limit order stays picky about price even after it's triggered.",
+    rule: "A **stop-limit order** has TWO prices doing two separate jobs: the **stop price** triggers the order into existence once the stock trades at or through it (same trigger mechanism as a plain stop order). Once triggered, it becomes a **LIMIT order** at the specified limit price — NOT a market order. For a **sell stop-limit**, once triggered, the order will only execute at the limit price OR BETTER (higher) — it will NOT fill at any price below the limit, even if the market keeps falling. This means the order could go completely unfilled if the price drops through the limit without trading at or above it again.",
+    watch: "Don't confuse a stop-limit order with a plain stop order — a plain stop becomes a MARKET order (executes at whatever price is available), while a stop-limit becomes a LIMIT order (refuses to execute worse than the limit price). Trace the trade sequence carefully: first find the trade that TRIGGERS the stop, then look for the first SUBSEQUENT trade that satisfies the limit price condition — trades between triggering and a limit-satisfying price do not fill the order.",
+    quiz: [
+      {
+        q: "One of your clients enters a sell stop order at 60, limit 59. Subsequent to the entry of the order, trades occur at 61, 61.10, 60, 58.95, 59, 60. The client's order was most likely filled at",
+        options: [
+          "58.95",
+          "60",
+          "61.10",
+          "59"
+        ],
+        answer: 3,
+        explain: "The trade at 60 triggers the stop, converting the order into a limit order to sell at 59 or better. The next trade, at 58.95, is below the 59 limit and does NOT fill the order (a sell limit order won't execute below its limit price). The following trade at 59 satisfies the limit exactly, so the order fills there. A: 58.95 is below the limit and can't fill a sell limit order. B and C: occurred before the stop was triggered or don't represent the fill price."
+      },
+      {
+        q: "What is the key difference between a plain stop order and a stop-limit order once the stop price is triggered?",
+        options: [
+          "There is no difference; both execute identically",
+          "A plain stop becomes a market order; a stop-limit becomes a limit order that won't execute worse than its limit price",
+          "A stop-limit order executes immediately at the stop price; a plain stop order does not",
+          "A plain stop order requires two separate trigger prices; a stop-limit order requires only one"
+        ],
+        answer: 1,
+        explain: "Once triggered, a plain stop order becomes a market order, executing at whatever price is next available. A stop-limit order instead becomes a limit order, refusing to execute at any price worse than its specified limit — which can mean the order goes unfilled if the price moves past the limit without trading back through it."
+      }
+    ]
   }
 ];
 

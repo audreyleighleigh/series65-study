@@ -8895,6 +8895,17 @@ export const CONCEPTS = [
         ],
         answer: 3,
         explain: "Asset allocation, security selection, and market timing are all active decisions/strategies that drive how a portfolio's returns vary over time. Total return is simply the realized outcome/measurement of those returns, not a driver of variability itself."
+      },
+      {
+        q: "When an investor's original value is subtracted from the ending value, and then the income received over that time period is added to it, and the result is divided by the original cost, the calculation is",
+        options: [
+          "Internal rate of return",
+          "Annualized return",
+          "Expected return",
+          "Holding period return"
+        ],
+        answer: 3,
+        explain: "That formula — (Ending Value − Original Value + Income) ÷ Original Cost — is holding period return: the realized total return over a specific holding period. IRR is a discounted cash flow calculation (accounts for the timing of each cash flow, not just start/end). Annualized return converts a return to a yearly-equivalent rate. Expected return is forward-looking (a CAPM-style forecast), not a backward-looking realized measurement."
       }
     ]
   },

@@ -2174,6 +2174,13 @@ _id: `stop-orders-purpose-limitations` · category: Equities_
      D) It becomes a limit order at the stop price
    _Explanation:_ Once triggered, a stop order converts into a market order, which then executes at whatever price is next available in the market — not necessarily the stop price itself, since prices can move quickly between the trigger and actual execution.
 
+3. A buy stop order may be used for all of the following EXCEPT
+     A) To protect a profit in a short position
+   ✓ B) To protect a profit in a long position
+     C) To protect against loss in a short position
+     D) To acquire a long position as a stock breaks through resistance
+   _Explanation:_ A buy stop is tied to the SHORT side of a position (or to entering a new long position on a breakout) — it does nothing to protect an existing LONG position, since that requires protection against a price DECLINE, which calls for a sell stop instead. A and C: a buy stop can protect an existing short position's profit or cap its potential loss, since both scenarios involve buying to close the short if the price rises. D: a buy stop placed above resistance can also be used offensively, to automatically enter a new long position if the stock breaks out upward.
+
 ---
 
 ## Stop-Limit Orders — Trigger Price vs. Execution Price

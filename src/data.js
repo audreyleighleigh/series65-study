@@ -9239,6 +9239,39 @@ export const CONCEPTS = [
         explain: "Spread = Ask - Bid = 22.35 - 22.10 = $0.25. The '5 by 3' represents 500 shares available at the bid and 300 shares available at the ask, not part of the spread calculation."
       }
     ]
+  },
+  {
+    id: "payment-for-order-flow-vs-soft-dollars-interpositioning",
+    category: "Regulations",
+    title: "Payment for Order Flow vs. Soft Dollars vs. Interpositioning",
+    color: "#FF6B6B",
+    analogy: "Payment for order flow is a market maker literally handing a broker-dealer cash for sending customer orders its way — real money, real payment. Soft dollars is a completely different relationship — an investment adviser gets research or software (not cash) from a broker-dealer in exchange for directing trading business there — the 'soft' signals nothing tangible like dollars changes hands. Interpositioning is the shady move of sneaking an unnecessary middleman between a customer's order and the best available market, adding cost with no benefit — a prohibited practice, not a compensation arrangement at all.",
+    rule: "**Payment for order flow** — a market maker pays (actual monetary compensation) another broker-dealer for routing customer orders to it, benefiting from the added volume. **Soft-dollar compensation** — an arrangement specifically between a broker-dealer and an INVESTMENT ADVISER, where the adviser receives NON-MONETARY benefits (research, data, software) in exchange for directing brokerage business — no cash payment involved, hence 'soft' dollars. **Interpositioning** — an UNETHICAL/PROHIBITED practice where a broker-dealer, acting as agent, places an unnecessary third party between itself and the best available market, rather than going directly to the market maker — this harms the customer and is not a legitimate compensation arrangement.",
+    watch: "Interpositioning is a classic exam distractor — an unfamiliar-sounding term that gets thrown in specifically to tempt you when you don't recognize it, even though it describes something completely different (and prohibited) from payment for order flow. Also remember: soft-dollar arrangements involve NO actual cash payment (that's the whole point of 'soft'), and specifically involve an investment adviser, not just any broker-dealer relationship.",
+    quiz: [
+      {
+        q: "Some market makers, in an attempt to increase order flow, will pay other broker-dealers for routing customer orders to them. This is known as",
+        options: [
+          "Soft-dollar compensation",
+          "Interpositioning",
+          "Third-party payments",
+          "Payment for order flow"
+        ],
+        answer: 3,
+        explain: "Payment for order flow describes a market maker paying actual monetary compensation to broker-dealers for routing customer orders to it. A: soft-dollar compensation involves non-monetary benefits between a broker-dealer and an investment adviser, not cash payments for order routing. B: interpositioning is an unrelated, unethical practice of inserting an unnecessary third party between a customer's order and the best market — a deliberate distractor using unfamiliar terminology. C: not a standard defined term."
+      },
+      {
+        q: "Why is interpositioning considered an unethical practice?",
+        options: [
+          "It involves paying broker-dealers too much money",
+          "It inserts an unnecessary third party between the broker-dealer and the best available market, harming the customer",
+          "It is a form of soft-dollar compensation",
+          "It is illegal only when done with investment advisers"
+        ],
+        answer: 1,
+        explain: "Interpositioning occurs when a broker-dealer acting as agent fails to go directly to the best available market, instead inserting an unneeded intermediary — this typically adds cost or delay without benefiting the customer, violating the duty of best execution."
+      }
+    ]
   }
 ];
 

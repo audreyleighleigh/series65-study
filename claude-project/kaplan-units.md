@@ -539,6 +539,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Primary Market vs. Secondary Market
 - Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements
 - Reading a Market Maker Quote — Bid, Ask, and Spread
+- Payment for Order Flow vs. Soft Dollars vs. Interpositioning
 
 ---
 

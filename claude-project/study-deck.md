@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 225 concept cards across 9 categories._
+_Auto-generated from src/data.js. 228 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,14 +15,14 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
-- **Bonds** (17 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies
+- **Bonds** (18 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies · Total Return — Income Plus Capital Gain/Loss
 - **Derivatives** (9 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls · Long Hedge vs. Short Hedge Using Futures
 - **Equities** (28 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF · Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (23 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes · Cash Distributions vs. Reinvestment in a Front-End Load Fund · Dollar Cost Averaging — Average Cost vs. Average Price
 - **Regulations** (85 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will
-- **Suitability** (19 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms
-- **Tax** (29 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period
+- **Suitability** (20 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms · Domestic Stock Market Indexes — Breadth & Composition
+- **Tax** (30 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs
 
 ---
 
@@ -972,6 +972,34 @@ _id: `bond-bullet-barbell-laddering` · category: Bonds_
      C) Laddering strategy
      D) Bond swap strategy
    _Explanation:_ Buying all bonds at one time, split between two maturity extremes (near-term and longer-term) with nothing in between, is the defining feature of the barbell strategy.
+
+---
+
+## Total Return — Income Plus Capital Gain/Loss
+
+_id: `total-return-income-plus-capital-gain` · category: Bonds_
+
+**Analogy.** The coupon rate printed on a bond is just one paycheck source — like your hourly wage. Total return also counts the 'bonus' you get if you sell (or the bond gets called) for more than you paid. Looking only at the coupon rate is like reporting your income using just your hourly wage and ignoring the bonus check you also received.
+
+**Rule.** **Total Return = (Income received + Capital gain or loss) ÷ Original investment.** For a bond, this means combining the coupon payments received AND any difference between the purchase price and the eventual sale/call/maturity price — not just the stated coupon rate alone. Total return is the actual, realized OUTCOME of an investment (as opposed to asset allocation, security selection, or market timing, which are DRIVERS/decisions that influence how returns vary over time).
+
+**Watch.** Don't stop at the coupon/dividend rate alone when a question asks for TOTAL return — always check whether the security was bought at one price and sold/called/matured at a different price, and add that capital gain or loss into the calculation. The coupon rate by itself is only part of the story.
+
+**Quiz.**
+
+1. An investor purchases a 5% callable convertible subordinated debenture at par. Exactly one year later, the bond is called at $104. The investor's total return is
+   ✓ A) 9%
+     B) 4%
+     C) 7.5%
+     D) 5%
+   _Explanation:_ Coupon income = 5% x $1,000 = $50. Capital gain = $1,040 (called at 104) - $1,000 (par) = $40. Total dollar gain = $50 + $40 = $90. Total return = $90 / $1,000 = 9%. B (4%) and D (5%) both ignore the capital gain from being called above par, focusing only on partial or misremembered coupon figures.
+
+2. Which of the following is NOT related to the variability of a portfolio's returns?
+     A) Asset allocation
+     B) Security selection
+     C) Market timing
+   ✓ D) Total return
+   _Explanation:_ Asset allocation, security selection, and market timing are all active decisions/strategies that drive how a portfolio's returns vary over time. Total return is simply the realized outcome/measurement of those returns, not a driver of variability itself.
 
 ---
 
@@ -6665,6 +6693,34 @@ _id: `efficient-market-hypothesis-forms` · category: Suitability_
 
 ---
 
+## Domestic Stock Market Indexes — Breadth & Composition
+
+_id: `domestic-stock-index-breadth` · category: Suitability_
+
+**Analogy.** The Wilshire 5000 is a wide-angle photo of the entire U.S. stock market — captures nearly every listed company. The Russell 2000 is a close-up of only the smaller kids in the picture. The S&P 500 is a portrait of just the 500 biggest. The MSCI EAFE isn't even in the picture — it's a totally different shot of Europe, Australasia, and the Far East.
+
+**Rule.** **Wilshire 5000** — the BROADEST domestic U.S. stock market index (despite the name, no longer literally 5000 stocks, but still the widest coverage of U.S. equities). **S&P 500** — 500 large-cap U.S. stocks, market-cap weighted; represents most of the domestic market by VALUE, but not by BREADTH. **Russell 2000** — 2000 small-cap U.S. stocks. **MSCI EAFE** — a FOREIGN index tracking developed markets in Europe, Australasia, and the Far East; not a domestic index at all.
+
+**Watch.** The Wilshire 5000 having a smaller-sounding number than 'Russell 2000' feels like it should mean fewer stocks — but 5000 is a historical name, and Wilshire is still the broadest domestic index. Also don't be fooled by MSCI EAFE looking like it could be a U.S. index just because it's an equity benchmark — the 'EAFE' stands for Europe, Australasia, Far East and it's entirely foreign.
+
+**Quiz.**
+
+1. Which of the following indexes represents the largest portion of the domestic stock markets?
+     A) MSCI EAFE
+     B) Russell 2000
+     C) Standard & Poor's 500
+   ✓ D) Wilshire 5000
+   _Explanation:_ The Wilshire 5000 is the broadest domestic stock market index — the widest capture of U.S. equities. A (MSCI EAFE) is a foreign index (Europe/Australasia/Far East), not domestic at all. B (Russell 2000) covers only small-caps. C (S&P 500) represents most of the market by value but only 500 large-caps by count, not the broadest.
+
+2. An adviser wants to benchmark a client's U.S. small-cap equity fund against an appropriate index. Which index is the best fit?
+     A) S&P 500
+   ✓ B) Russell 2000
+     C) MSCI EAFE
+     D) Wilshire 5000
+   _Explanation:_ The Russell 2000 tracks 2000 U.S. small-cap stocks specifically — the right benchmark for a small-cap fund. The S&P 500 is large-cap; MSCI EAFE is foreign developed markets; the Wilshire 5000 is broad-market (all cap sizes), so it wouldn't isolate small-cap performance cleanly.
+
+---
+
 # Tax
 
 ## ISOs vs NQSOs
@@ -7602,6 +7658,34 @@ _id: `required-beginning-date-first-rmd` · category: Tax_
      C) Their RMD age resets to 75
      D) No further RMDs are required after that
    _Explanation:_ Delaying the first RMD to April 1 means the second RMD (due by December 31 of that same year) still comes due on schedule — resulting in two RMDs within the same calendar year, which can push the individual into a higher tax bracket.
+
+---
+
+## Calculating Inflation-Adjusted Future Costs
+
+_id: `inflation-adjusted-future-cost` · category: Tax_
+
+**Analogy.** This is the exact same math as an investment compounding upward at a rate of return — except instead of your money growing, the COST of something is growing to keep pace with inflation. Same multiply-and-repeat calculator trick works both ways: whether you're compounding a return or compounding a rising cost, you're just multiplying by (1 + rate) once for each year.
+
+**Rule.** **Future amount needed = Today's amount x (1 + inflation rate)^years.** This uses the same compounding mechanic as investment growth, just applied to a cost/income need instead of an investment balance — figuring out how many future dollars will be required to buy what today's dollars buy now, given a projected inflation rate. Calculator shortcut: type the starting amount, press x, type (1 + inflation rate) as a decimal (e.g., 1.04 for 4%), then press = once per year to compound forward.
+
+**Watch.** Don't confuse this with a straightforward multiplication (today's amount x years x rate) — this must be compounded year over year (multiplying the growing total by the rate factor repeatedly), not just applied once to the original amount. Using the repeated '=' calculator trick avoids needing an exponent key.
+
+**Quiz.**
+
+1. Denise is an expert in retirement planning working with a client to estimate the client's inflation-adjusted retirement funding. If in today's terms, the annual retirement income needed by the client is $15,000, what would be the approximate amount required after three years, given an inflation rate of 4%?
+     A) $19,567
+     B) $14,768
+   ✓ C) $16,872
+     D) $11,456
+   _Explanation:_ $15,000 x 1.04 x 1.04 x 1.04 = $16,872.96, approximately $16,872. This compounds the inflation rate forward year by year, the same mechanic as compounding an investment return, just applied to a rising cost instead of a growing balance.
+
+2. A client needs $40,000 in today's terms for a future expense. Using an inflation rate of 3%, approximately how much will be needed in 2 years?
+   ✓ A) $42,436
+     B) $41,200
+     C) $43,600
+     D) $40,000
+   _Explanation:_ $40,000 x 1.03 x 1.03 = $42,436, approximately. Compounding the inflation rate over each of the 2 years, rather than applying it once.
 
 ---
 

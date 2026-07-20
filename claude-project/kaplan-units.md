@@ -516,6 +516,9 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 
 **Deck coverage** (Audrey is still working through this unit — more cards will appear as she studies):
 - Alpha — Measuring Risk-Adjusted Performance
+- Calculating Inflation-Adjusted Future Costs
+- Total Return — Income Plus Capital Gain/Loss
+- Domestic Stock Market Indexes — Breadth & Composition
 
 ---
 

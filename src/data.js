@@ -8831,6 +8831,100 @@ export const CONCEPTS = [
         explain: "Shares purchased: 30+25+20+15+12 = 102 shares for $1,500 total. Average cost = $1,500 / 102 = $14.71 per share. A: proceeds on a sale use NAV ($15), not the offering price (which only applies to purchases). C: $16.40 is the simple AVERAGE PRICE of the five months, not her actual cost basis — a classic average-price-vs-average-cost trap. D: with a cost basis of $14.71 and a sale at $15 NAV, she actually has a small gain, not a loss."
       }
     ]
+  },
+  {
+    id: "inflation-adjusted-future-cost",
+    category: "Tax",
+    title: "Calculating Inflation-Adjusted Future Costs",
+    color: "#F97316",
+    analogy: "This is the exact same math as an investment compounding upward at a rate of return — except instead of your money growing, the COST of something is growing to keep pace with inflation. Same multiply-and-repeat calculator trick works both ways: whether you're compounding a return or compounding a rising cost, you're just multiplying by (1 + rate) once for each year.",
+    rule: "**Future amount needed = Today's amount x (1 + inflation rate)^years.** This uses the same compounding mechanic as investment growth, just applied to a cost/income need instead of an investment balance — figuring out how many future dollars will be required to buy what today's dollars buy now, given a projected inflation rate. Calculator shortcut: type the starting amount, press x, type (1 + inflation rate) as a decimal (e.g., 1.04 for 4%), then press = once per year to compound forward.",
+    watch: "Don't confuse this with a straightforward multiplication (today's amount x years x rate) — this must be compounded year over year (multiplying the growing total by the rate factor repeatedly), not just applied once to the original amount. Using the repeated '=' calculator trick avoids needing an exponent key.",
+    quiz: [
+      {
+        q: "Denise is an expert in retirement planning working with a client to estimate the client's inflation-adjusted retirement funding. If in today's terms, the annual retirement income needed by the client is $15,000, what would be the approximate amount required after three years, given an inflation rate of 4%?",
+        options: [
+          "$19,567",
+          "$14,768",
+          "$16,872",
+          "$11,456"
+        ],
+        answer: 2,
+        explain: "$15,000 x 1.04 x 1.04 x 1.04 = $16,872.96, approximately $16,872. This compounds the inflation rate forward year by year, the same mechanic as compounding an investment return, just applied to a rising cost instead of a growing balance."
+      },
+      {
+        q: "A client needs $40,000 in today's terms for a future expense. Using an inflation rate of 3%, approximately how much will be needed in 2 years?",
+        options: [
+          "$42,436",
+          "$41,200",
+          "$43,600",
+          "$40,000"
+        ],
+        answer: 0,
+        explain: "$40,000 x 1.03 x 1.03 = $42,436, approximately. Compounding the inflation rate over each of the 2 years, rather than applying it once."
+      }
+    ]
+  },
+  {
+    id: "total-return-income-plus-capital-gain",
+    category: "Bonds",
+    title: "Total Return — Income Plus Capital Gain/Loss",
+    color: "#E8C547",
+    analogy: "The coupon rate printed on a bond is just one paycheck source — like your hourly wage. Total return also counts the 'bonus' you get if you sell (or the bond gets called) for more than you paid. Looking only at the coupon rate is like reporting your income using just your hourly wage and ignoring the bonus check you also received.",
+    rule: "**Total Return = (Income received + Capital gain or loss) ÷ Original investment.** For a bond, this means combining the coupon payments received AND any difference between the purchase price and the eventual sale/call/maturity price — not just the stated coupon rate alone. Total return is the actual, realized OUTCOME of an investment (as opposed to asset allocation, security selection, or market timing, which are DRIVERS/decisions that influence how returns vary over time).",
+    watch: "Don't stop at the coupon/dividend rate alone when a question asks for TOTAL return — always check whether the security was bought at one price and sold/called/matured at a different price, and add that capital gain or loss into the calculation. The coupon rate by itself is only part of the story.",
+    quiz: [
+      {
+        q: "An investor purchases a 5% callable convertible subordinated debenture at par. Exactly one year later, the bond is called at $104. The investor's total return is",
+        options: [
+          "9%",
+          "4%",
+          "7.5%",
+          "5%"
+        ],
+        answer: 0,
+        explain: "Coupon income = 5% x $1,000 = $50. Capital gain = $1,040 (called at 104) - $1,000 (par) = $40. Total dollar gain = $50 + $40 = $90. Total return = $90 / $1,000 = 9%. B (4%) and D (5%) both ignore the capital gain from being called above par, focusing only on partial or misremembered coupon figures."
+      },
+      {
+        q: "Which of the following is NOT related to the variability of a portfolio's returns?",
+        options: [
+          "Asset allocation",
+          "Security selection",
+          "Market timing",
+          "Total return"
+        ],
+        answer: 3,
+        explain: "Asset allocation, security selection, and market timing are all active decisions/strategies that drive how a portfolio's returns vary over time. Total return is simply the realized outcome/measurement of those returns, not a driver of variability itself."
+      }
+    ]
+  },
+  {
+    id: "domestic-stock-index-breadth",
+    category: "Suitability",
+    title: "Domestic Stock Market Indexes — Breadth & Composition",
+    color: "#FBBF24",
+    analogy: "The Wilshire 5000 is a wide-angle photo of the entire U.S. stock market — captures nearly every listed company. The Russell 2000 is a close-up of only the smaller kids in the picture. The S&P 500 is a portrait of just the 500 biggest. The MSCI EAFE isn't even in the picture — it's a totally different shot of Europe, Australasia, and the Far East.",
+    rule: "**Wilshire 5000** — the BROADEST domestic U.S. stock market index (despite the name, no longer literally 5000 stocks, but still the widest coverage of U.S. equities). **S&P 500** — 500 large-cap U.S. stocks, market-cap weighted; represents most of the domestic market by VALUE, but not by BREADTH. **Russell 2000** — 2000 small-cap U.S. stocks. **MSCI EAFE** — a FOREIGN index tracking developed markets in Europe, Australasia, and the Far East; not a domestic index at all.",
+    watch: "The Wilshire 5000 having a smaller-sounding number than 'Russell 2000' feels like it should mean fewer stocks — but 5000 is a historical name, and Wilshire is still the broadest domestic index. Also don't be fooled by MSCI EAFE looking like it could be a U.S. index just because it's an equity benchmark — the 'EAFE' stands for Europe, Australasia, Far East and it's entirely foreign.",
+    quiz: [
+      {
+        q: "Which of the following indexes represents the largest portion of the domestic stock markets?",
+        options: ["MSCI EAFE", "Russell 2000", "Standard & Poor's 500", "Wilshire 5000"],
+        answer: 3,
+        explain: "The Wilshire 5000 is the broadest domestic stock market index — the widest capture of U.S. equities. A (MSCI EAFE) is a foreign index (Europe/Australasia/Far East), not domestic at all. B (Russell 2000) covers only small-caps. C (S&P 500) represents most of the market by value but only 500 large-caps by count, not the broadest."
+      },
+      {
+        q: "An adviser wants to benchmark a client's U.S. small-cap equity fund against an appropriate index. Which index is the best fit?",
+        options: [
+          "S&P 500",
+          "Russell 2000",
+          "MSCI EAFE",
+          "Wilshire 5000"
+        ],
+        answer: 1,
+        explain: "The Russell 2000 tracks 2000 U.S. small-cap stocks specifically — the right benchmark for a small-cap fund. The S&P 500 is large-cap; MSCI EAFE is foreign developed markets; the Wilshire 5000 is broad-market (all cap sizes), so it wouldn't isolate small-cap performance cleanly."
+      }
+    ]
   }
 ];
 

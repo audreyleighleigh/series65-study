@@ -9127,6 +9127,17 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "Once triggered, a plain stop order becomes a market order, executing at whatever price is next available. A stop-limit order instead becomes a limit order, refusing to execute at any price worse than its specified limit — which can mean the order goes unfilled if the price moves past the limit without trading back through it."
+      },
+      {
+        q: "A client enters an order as follows: Sell stop 100 shares of LTC at 45, limit 45.50. Following the entry of that order, trades occur in the following sequence: 47; 46; 45.12; 44.97; 45.28; 45.97; 46.05. More than likely, the client received",
+        options: [
+          "45.97",
+          "44.97",
+          "45.28",
+          "46.05"
+        ],
+        answer: 0,
+        explain: "The trade at 44.97 (at or below the 45 stop) triggers the order, converting it into a limit order to sell at 45.50 or better. The trade at 45.28 does NOT satisfy the limit (below 45.50), so it doesn't fill. The next trade, at 45.97, is above the 45.50 limit, satisfying 'sell at 45.50 or better,' so the order fills there. B: 44.97 only triggers the stop, it doesn't fill the order. C: 45.28 is below the limit price and can't fill a sell limit order requiring 45.50 or better. D: 46.05 occurs after the order already filled."
       }
     ]
   }

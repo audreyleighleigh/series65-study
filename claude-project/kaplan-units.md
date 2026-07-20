@@ -536,6 +536,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Specialist (Exchange Floor) vs. Market Maker (OTC)
 - Stop Orders — What They Do (and Don't Guarantee)
 - Stop-Limit Orders — Trigger Price vs. Execution Price
+- Primary Market vs. Secondary Market
 
 ---
 

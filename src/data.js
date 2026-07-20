@@ -9140,6 +9140,39 @@ export const CONCEPTS = [
         explain: "The trade at 44.97 (at or below the 45 stop) triggers the order, converting it into a limit order to sell at 45.50 or better. The trade at 45.28 does NOT satisfy the limit (below 45.50), so it doesn't fill. The next trade, at 45.97, is above the 45.50 limit, satisfying 'sell at 45.50 or better,' so the order fills there. B: 44.97 only triggers the stop, it doesn't fill the order. C: 45.28 is below the limit price and can't fill a sell limit order requiring 45.50 or better. D: 46.05 occurs after the order already filled."
       }
     ]
+  },
+  {
+    id: "primary-vs-secondary-market",
+    category: "Equities",
+    title: "Primary Market vs. Secondary Market",
+    color: "#7EC8A4",
+    analogy: "The primary market is like a car dealership selling a brand-new car straight from the manufacturer — the money goes to the company that made it. The secondary market is like a used car lot — the car changes hands between owners, but the manufacturer doesn't see a dime from that sale. The NYSE, like the OTC market, is one of the 'used car lots' where already-issued securities trade between investors.",
+    rule: "**Primary market** — where securities are sold to the public for the FIRST time (e.g., an IPO), with proceeds going directly to the issuing company. **Secondary market** — where securities are traded AFTER their initial issuance, between investors, with no proceeds going to the issuing company. The **secondary market** takes place both on exchanges (like the **NYSE**) and in the **over-the-counter (OTC) market** (for securities not listed on an exchange). The NYSE specifically handles secondary market trading — it does not conduct primary market issuances itself.",
+    watch: "Don't assume NYSE activity is 'primary market' just because new investors are involved in a trade — what matters is whether the security is being issued for the FIRST time (primary) or changing hands between existing investors (secondary). The NYSE is exclusively a secondary market venue. OTC trading is ALSO secondary market activity — don't treat OTC and 'secondary market' as separate, competing answer choices when both describe the same broader category.",
+    quiz: [
+      {
+        q: "Which of the following takes place on the New York Stock Exchange?",
+        options: [
+          "Buying and selling stocks on the secondary market",
+          "Buying and selling stocks on the primary market",
+          "Buying and selling stocks on the over-the-counter (OTC) market",
+          "Buying and selling of Nasdaq stocks"
+        ],
+        answer: 0,
+        explain: "The NYSE is a secondary market venue, where securities trade after their initial issuance. B: the NYSE doesn't conduct primary market issuances. C: the OTC market is a separate secondary market venue from the NYSE, for securities not listed on an exchange. D: Nasdaq stocks trade on Nasdaq, not the NYSE."
+      },
+      {
+        q: "In which market does a company receive proceeds directly from the sale of its securities?",
+        options: [
+          "The secondary market",
+          "The primary market",
+          "The over-the-counter market",
+          "The NYSE"
+        ],
+        answer: 1,
+        explain: "The primary market is where securities are sold to the public for the first time (such as an IPO), with proceeds going directly to the issuing company. The secondary market (including the NYSE and OTC market) involves trading between investors after issuance, with no proceeds going to the company."
+      }
+    ]
   }
 ];
 

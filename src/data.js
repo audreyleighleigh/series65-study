@@ -9173,6 +9173,72 @@ export const CONCEPTS = [
         explain: "The primary market is where securities are sold to the public for the first time (such as an IPO), with proceeds going directly to the issuing company. The secondary market (including the NYSE and OTC market) involves trading between investors after issuance, with no proceeds going to the company."
       }
     ]
+  },
+  {
+    id: "fully-disclosed-omnibus-clearing",
+    category: "Regulations",
+    title: "Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements",
+    color: "#FF6B6B",
+    analogy: "A fully disclosed broker-dealer is like a hotel that gives the property management company a full guest list with names and room details. An omnibus arrangement is like a hotel that just tells the management company 'we have 50 rooms booked' without naming who's in which room — the hotel itself keeps track of that internally, while the management company only sees one bulk number.",
+    rule: "**Fully disclosed** — an introducing broker-dealer identifies and introduces its individual CUSTOMERS directly to its CLEARING FIRM, so the clearing firm maintains records at the customer level. **Omnibus** — the introducing firm does NOT disclose individual customer identities to the clearing firm; all customer accounts are combined into one bulk account, with the introducing firm alone tracking which portion belongs to which customer. This terminology specifically describes the relationship between an introducing broker-dealer and its clearing firm — it is NOT about commission/markup disclosure on confirmations, fee schedule transparency, or principal/agency capacity disclosure, which are separate, unrelated regulatory requirements.",
+    watch: "'Fully disclosed' sounds like it should mean general transparency about fees, commissions, or trading capacity — but it's a specific technical term describing the introducing-broker-to-clearing-firm relationship. Don't be pulled toward answer choices about commission disclosure or principal/agency disclosure just because they also involve the word 'disclose' — those are separate, always-required regulatory obligations, not what defines a 'fully disclosed' arrangement.",
+    quiz: [
+      {
+        q: "A broker-dealer that operates on a fully disclosed basis is one that",
+        options: [
+          "Discloses commissions and markups (or markdowns) on customer trade confirmations",
+          "Makes its fee schedule available on the non-password protected portion of its website",
+          "Always discloses if it is acting in a principal or agency capacity",
+          "Introduces its customers to the broker-dealer's clearing firm"
+        ],
+        answer: 3,
+        explain: "'Fully disclosed' specifically describes an introducing broker-dealer identifying its customers directly to its clearing firm, as opposed to an omnibus arrangement that keeps customer identities combined and hidden from the clearing firm. A, B, and C are all real, separate disclosure obligations, but none of them define the specific 'fully disclosed' clearing arrangement terminology."
+      },
+      {
+        q: "In an omnibus clearing arrangement, how does the clearing firm view the introducing broker-dealer's customer accounts?",
+        options: [
+          "As individually named accounts with full customer details",
+          "As one combined bulk account, without individual customer identities disclosed",
+          "The clearing firm has no relationship with the introducing firm at all",
+          "Omnibus arrangements are illegal under the Securities Exchange Act"
+        ],
+        answer: 1,
+        explain: "In an omnibus arrangement, customer accounts are combined into one bulk account at the clearing firm level, with individual customer identities not disclosed — the introducing firm alone tracks which portion belongs to which customer, unlike a fully disclosed arrangement."
+      }
+    ]
+  },
+  {
+    id: "market-maker-quote-bid-ask-spread",
+    category: "Equities",
+    title: "Reading a Market Maker Quote — Bid, Ask, and Spread",
+    color: "#7EC8A4",
+    analogy: "A market maker quote like '35 - 35.25, 7 by 9' is like a pawn shop sign: 'We'll pay you $35 for this item, we'll sell you one for $35.25, and we have 7 to buy and 9 to sell in stock right now.' The spread — the shop's built-in profit margin — is simply the gap between what they pay and what they charge: 25 cents. The '7 by 9' is just inventory information, not part of that profit calculation.",
+    rule: "A two-sided market maker quote is structured as: **BID − ASK, SIZE by SIZE**. The **bid** (first, lower number) is what the market maker will PAY to buy from you. The **ask/offer** (second, higher number) is what the market maker will CHARGE to sell to you. The **'X by Y'** portion represents SHARE QUANTITY (in round lots of 100) available at each price — X hundred shares the market maker will buy, Y hundred shares they'll sell — this is NOT part of the spread calculation. **Spread = Ask − Bid.**",
+    watch: "Don't confuse the size figures ('7 by 9') with price information — those numbers represent share quantities (in hundreds), completely separate from the bid/ask prices used to calculate the spread. The spread is always Ask minus Bid, nothing more.",
+    quiz: [
+      {
+        q: "A broker-dealer receives a request from a client to purchase an OTC stock. When the broker-dealer's trading department contacts the market maker in the stock, she receives a quote of 35 - 35.25, 7 by 9. Based on this information, the spread is",
+        options: [
+          "Within the allowable range of NASAA's 5% markup policy",
+          "$2",
+          "$0.63",
+          "$0.25"
+        ],
+        answer: 3,
+        explain: "Spread = Ask - Bid = 35.25 - 35 = $0.25. A is a distractor referencing an unrelated regulatory concept. B and C don't match any calculation from the given bid/ask figures. The '7 by 9' portion represents share quantities (700 and 900 shares), not price information, and plays no role in the spread calculation."
+      },
+      {
+        q: "A market maker quotes a stock at 22.10 - 22.35, 5 by 3. What is the spread?",
+        options: [
+          "$0.25",
+          "$0.10",
+          "$8.00",
+          "$0.35"
+        ],
+        answer: 0,
+        explain: "Spread = Ask - Bid = 22.35 - 22.10 = $0.25. The '5 by 3' represents 500 shares available at the bid and 300 shares available at the ask, not part of the spread calculation."
+      }
+    ]
   }
 ];
 

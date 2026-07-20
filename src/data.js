@@ -8986,6 +8986,72 @@ export const CONCEPTS = [
         explain: "Straddling is a legitimate options strategy — buying a call and a put at the same strike to profit from a big move in either direction. It's often planted as a decoy on manipulation questions because the word sounds sketchy. Pegging, matched orders, and front running are all real manipulation practices."
       }
     ]
+  },
+  {
+    id: "margin-account-documents",
+    category: "Regulations",
+    title: "Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements",
+    color: "#FF6B6B",
+    analogy: "Opening a margin account is like signing three separate permission slips, each unlocking a different action. The hypothecation agreement is the slip that lets the broker-dealer pledge YOUR stock to a bank as collateral for the firm's own loan. The credit agreement is the slip spelling out the terms of the money YOU borrowed (interest rate, how it's computed). The loan consent agreement is an OPTIONAL slip letting the firm lend your securities out to someone else entirely (like a short seller).",
+    rule: "**Hypothecation agreement** — authorizes the broker-dealer to PLEDGE the customer's margin securities as collateral for a loan (typically from a bank) that funds the firm's own lending to customers. **Credit agreement** — contains the TERMS of the customer's margin loan itself, including how interest is computed. **Loan consent agreement** — grants permission for the broker-dealer to LEND OUT the customer's securities to third parties (e.g., for short selling); this one is OPTIONAL, unlike the other two, which are standard/required parts of opening a margin account.",
+    watch: "Match the verb to the document: hypothecation = pledging customer securities as collateral for the FIRM's bank loan; credit agreement = terms of the CUSTOMER's loan from the firm; loan consent = lending customer securities to THIRD PARTIES, and this is the only OPTIONAL one of the three.",
+    quiz: [
+      {
+        q: "Margin is borrowing money from a broker-dealer to buy a stock using the investment as collateral. In many cases, the brokerage firm then uses that collateral for a loan from a bank. Which of the following account documents authorizes the firm to pledge the customer's stock?",
+        options: [
+          "The hypothecation agreement",
+          "The securities pledge agreement",
+          "The credit agreement",
+          "The loan consent agreement"
+        ],
+        answer: 0,
+        explain: "The hypothecation agreement gives the broker-dealer permission to pledge a customer's margin securities as collateral for the firm's own bank loan. B: not a real standard margin document name. C: the credit agreement covers the terms of the customer's OWN loan (like interest computation), not pledging securities to a bank. D: the loan consent agreement is a separate, optional document allowing the firm to lend out customer securities to third parties, not to pledge them as collateral for a bank loan."
+      },
+      {
+        q: "Which margin account document is OPTIONAL, rather than a standard part of opening a margin account?",
+        options: [
+          "The hypothecation agreement",
+          "The credit agreement",
+          "The loan consent agreement",
+          "All three are required"
+        ],
+        answer: 2,
+        explain: "The loan consent agreement, which permits the broker-dealer to lend out a customer's securities to third parties, is optional — unlike the hypothecation agreement and credit agreement, which are standard components of opening a margin account."
+      }
+    ]
+  },
+  {
+    id: "specialist-vs-market-maker",
+    category: "Equities",
+    title: "Specialist (Exchange Floor) vs. Market Maker (OTC)",
+    color: "#7EC8A4",
+    analogy: "A specialist is like a dedicated shopkeeper assigned to one specific stall inside a physical marketplace building (the exchange floor) — always there, ready to buy or sell that one stall's goods to keep things running smoothly. A market maker is more like a trader operating a stand that exists purely through phone and computer connections (the OTC market) — no physical building at all, but still standing ready to buy or sell to keep that decentralized market liquid and orderly.",
+    rule: "**Specialist** — stands ready to buy or sell stock on the **floor of an exchange** (like the NYSE), maintaining an orderly market for a specific assigned security in that centralized, physical trading structure. **Market maker** — stands ready to buy or sell stock in the **over-the-counter (OTC) market**, maintaining an orderly market in that decentralized structure, since OTC securities don't trade on a centralized exchange floor. Both roles serve the same FUNCTION (maintaining liquidity and an orderly market) but operate in two distinct market structures.",
+    watch: "Don't mix up which role belongs to which market structure — specialist = exchange floor; market maker = OTC. These terms are sometimes used loosely in casual conversation, but the exam tests the precise pairing.",
+    quiz: [
+      {
+        q: "It would be correct to state that: I. The specialist stands ready to buy or sell stock on the floor of an exchange in an effort to keep an orderly market. II. The specialist stands ready to buy or sell stock on the over-the-counter market in an effort to keep an orderly market. III. The market maker stands ready to buy or sell stock on the floor of an exchange in an effort to keep an orderly market. IV. The market maker stands ready to buy or sell stock on the over-the-counter market in an effort to keep an orderly market.",
+        options: [
+          "I and IV",
+          "II and IV",
+          "I and III",
+          "II and III"
+        ],
+        answer: 0,
+        explain: "Specialist correctly pairs with the exchange floor (I, true), and market maker correctly pairs with the OTC market (IV, true). II and III both have the pairings reversed — specialists don't operate in the OTC market, and market makers don't operate on the exchange floor."
+      },
+      {
+        q: "A trader who stands ready to buy or sell a security in the over-the-counter market is known as a",
+        options: [
+          "Specialist",
+          "Market maker",
+          "Floor broker",
+          "Exchange member"
+        ],
+        answer: 1,
+        explain: "Market makers operate in the decentralized OTC market, standing ready to buy or sell securities to maintain liquidity and an orderly market — the specialist role, by contrast, is tied to the centralized exchange floor."
+      }
+    ]
   }
 ];
 

@@ -8947,6 +8947,45 @@ export const CONCEPTS = [
         explain: "The Russell 2000 tracks 2000 U.S. small-cap stocks specifically — the right benchmark for a small-cap fund. The S&P 500 is large-cap; MSCI EAFE is foreign developed markets; the Wilshire 5000 is broad-market (all cap sizes), so it wouldn't isolate small-cap performance cleanly."
       }
     ]
+  },
+  {
+    id: "market-manipulation-pegging-front-running",
+    category: "Regulations",
+    title: "Market Manipulation — Pegging, Front Running, Matched Orders",
+    color: "#FF6B6B",
+    analogy: "Think of a market maker's dirty-tricks kit like schemes at a used-car lot. **Pegging** = planting your own bidder near the sticker price so nobody bargains it down — artificially propping up the price. **Front running** = peeking at your customer's order first, buying the car cheap yourself, then flipping it to them at a markup. **Matched orders** = arranging with your buddy to bid on each other's cars back and forth so it LOOKS like there's real demand. **Straddling** doesn't belong here — it's a legit options strategy, not a manipulation trick.",
+    rule: "**Pegging** — placing orders at or slightly above the current price to artificially STABILIZE or SUPPORT it (prevent it from falling). Manipulation. **Front running** — trading for your own account AHEAD of a customer's known large order, profiting from the customer-driven price move. Manipulation. **Matched orders** — colluding with another party to trade the same security back and forth to create the false appearance of active trading and manufactured interest. Manipulation. **Straddling** — NOT a manipulation term; it's a legitimate options strategy (buy a call + buy a put at the same strike). Classic decoy on the exam.",
+    watch: "'Straddling' is the classic decoy — the word sounds shady but it's actually a legitimate options play. And don't confuse pegging (holding a price UP with your own orders) with front running (trading AHEAD of a client's order). If the question describes propping up / stabilizing / preventing a price from falling → pegging. If it describes trading ahead of a client's known order → front running. If it describes fake back-and-forth trades to inflate apparent volume → matched orders.",
+    quiz: [
+      {
+        q: "A broker-dealer makes a market in XYZ stock and places large orders for it on the open market either at or slightly above its current price with the aim of stabilizing the price. This unethical practice is best described as",
+        options: ["Straddling", "Front running", "Pegging", "Matched orders"],
+        answer: 2,
+        explain: "Placing orders at/above the current price to artificially support or stabilize it is pegging by definition. A: straddling is a legitimate options strategy, not manipulation. B: front running is trading ahead of a customer's order, not propping up a price. D: matched orders create fake volume through collusive back-and-forth trades, not price support."
+      },
+      {
+        q: "An agent knows her firm is about to place a large buy order for a customer that will likely push the stock's price up. She quickly buys shares for her personal account before executing the customer's order. This is best described as",
+        options: [
+          "Pegging",
+          "Front running",
+          "Matched orders",
+          "Straddling"
+        ],
+        answer: 1,
+        explain: "Trading personally ahead of a known customer order to profit from the price impact IS front running by definition. Pegging is about propping up a price with your own orders, not sneaking ahead of a client. Matched orders is collusion to create fake volume. Straddling is an options strategy, not manipulation."
+      },
+      {
+        q: "Which of the following is NOT a form of market manipulation?",
+        options: [
+          "Pegging",
+          "Matched orders",
+          "Front running",
+          "Straddling"
+        ],
+        answer: 3,
+        explain: "Straddling is a legitimate options strategy — buying a call and a put at the same strike to profit from a big move in either direction. It's often planted as a decoy on manipulation questions because the word sounds sketchy. Pegging, matched orders, and front running are all real manipulation practices."
+      }
+    ]
   }
 ];
 

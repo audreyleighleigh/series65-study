@@ -530,7 +530,8 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - 23.3: Brokers and Dealers and Their Costs
 - 23.4: Types of Orders
 
-**Deck coverage:** _Not yet studied — no cards yet._ When Audrey asks for this unit, tell her that and offer a brief Kaplan-side preview (customer account types, market structure, order types) or moving on. Do NOT invent cards.
+**Deck coverage** (Audrey is just starting this unit — more cards will appear as she studies):
+- Market Manipulation — Pegging, Front Running, Matched Orders
 
 ---
 

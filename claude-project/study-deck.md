@@ -1008,6 +1008,13 @@ _id: `total-return-income-plus-capital-gain` · category: Bonds_
    ✓ D) Holding period return
    _Explanation:_ That formula — (Ending Value − Original Value + Income) ÷ Original Cost — is holding period return: the realized total return over a specific holding period. IRR is a discounted cash flow calculation (accounts for the timing of each cash flow, not just start/end). Annualized return converts a return to a yearly-equivalent rate. Expected return is forward-looking (a CAPM-style forecast), not a backward-looking realized measurement.
 
+4. One measure of an investor's total return is called holding period return. The computation includes both income and appreciation and is used for both debt and equity securities. An investor's holding period return would exceed the bond's yield to maturity if
+     A) The investor purchased a put option on the bond
+     B) The bond was redeemed at a discount
+   ✓ C) The coupons were reinvested at a rate exceeding the yield to maturity
+     D) The bond was called at a premium
+   _Explanation:_ YTM assumes all coupon payments are reinvested at that same YTM rate. If an investor actually reinvests coupons at a HIGHER rate than the YTM, their realized (holding period) return will exceed the original YTM. A: buying a put is a separate hedging transaction, unrelated to the reinvestment mechanism. B: being redeemed at a discount would reduce realized return, not increase it. D: being called at a premium is a tempting distractor, but the question stem specifically points toward the reinvestment/income mechanism, not the call-premium concept.
+
 ---
 
 # Derivatives

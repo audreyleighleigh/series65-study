@@ -1,5 +1,19 @@
 import { useState, useMemo } from "react";
+import katex from "katex";
+import "katex/dist/katex.min.css";
 import { FORMULAS } from "./data";
+
+function Formula({ record }) {
+  if (record.latex) {
+    const html = katex.renderToString(record.latex, {
+      throwOnError: false,
+      displayMode: true,
+      errorColor: "#c0392b",
+    });
+    return <div className="fs-formula fs-formula-math" dangerouslySetInnerHTML={{ __html: html }} />;
+  }
+  return <div className="fs-formula">{record.formula}</div>;
+}
 
 const SECTION_ORDER = [
   "Options",
@@ -134,6 +148,10 @@ export default function FormulaSheet() {
         .fs-peek.on { color: #FBBF24; }
 
         .fs-formula { font-family: 'Source Code Pro', monospace; font-size: 14px; color: #FBBF24; padding: 6px 0 0 14px; line-height: 1.6; word-spacing: 0.05em; word-break: break-word; }
+        .fs-formula-math { padding: 10px 0 6px 14px; overflow-x: auto; overflow-y: hidden; }
+        .fs-formula-math .katex { color: #FBBF24; font-size: 1.15em; }
+        .fs-formula-math .katex-display { margin: 0; text-align: left; }
+        .fs-formula-math .katex-display > .katex { text-align: left; }
 
         .fs-notes { padding: 8px 0 2px 14px; }
         .fs-meta { font-size: 11px; color: #8a8272; margin: 4px 0; line-height: 1.6; }
@@ -213,7 +231,7 @@ export default function FormulaSheet() {
 
                   {revealed ? (
                     <>
-                      <div className="fs-formula">{f.formula}</div>
+                      <Formula record={f} />
                       {showThisNotes && (
                         <div className="fs-notes">
                           <div className="fs-meta"><strong>When:</strong> {f.when}</div>

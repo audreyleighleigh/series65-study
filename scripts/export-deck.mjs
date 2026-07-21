@@ -1,10 +1,11 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CONCEPTS, ORIGINS } from "../src/data.js";
+import { CONCEPTS, ORIGINS, FORMULAS } from "../src/data.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outPath = resolve(__dirname, "..", "claude-project", "study-deck.md");
+const formulasPath = resolve(__dirname, "..", "claude-project", "formulas.md");
 mkdirSync(dirname(outPath), { recursive: true });
 
 const letter = (i) => String.fromCharCode(65 + i);
@@ -108,3 +109,66 @@ writeFileSync(outPath, output);
 
 console.log(`Wrote ${CONCEPTS.length} cards across ${categories.length} categories to ${outPath}`);
 console.log(`File size: ${(output.length / 1024).toFixed(1)} KB`);
+
+// ============ Formulas ============
+if (FORMULAS && FORMULAS.length) {
+  const formulasBySection = FORMULAS.reduce((acc, f) => {
+    (acc[f.section] ||= []).push(f);
+    return acc;
+  }, {});
+  const sectionOrder = [];
+  for (const f of FORMULAS) {
+    if (!sectionOrder.includes(f.section)) sectionOrder.push(f.section);
+  }
+
+  const fLines = [
+    "# Series 65 Formula Reference",
+    "",
+    `_Auto-generated from src/data.js. ${FORMULAS.length} formulas across ${sectionOrder.length} sections._`,
+    "",
+    "## How to use this file",
+    "",
+    "This is Audrey's canonical formula sheet for the Series 65. When she says 'quiz me on formulas,' 'drill formulas from [section],' 'start me at the top and go through every formula,' or 'give me a random formula,' pull from this file — it is the source of truth.",
+    "",
+    "For each formula, name it first and wait for her recitation before revealing the answer. When she nails it, briefly confirm and move on. When she misses it, state the formula, offer the memory hook, walk through the worked example, then re-ask a few formulas later in the session.",
+    "",
+    "## Contents",
+    "",
+  ];
+  for (const s of sectionOrder) {
+    fLines.push(`- **${s}** (${formulasBySection[s].length}): ${formulasBySection[s].map(f => f.name).join(" · ")}`);
+  }
+  fLines.push("");
+  fLines.push("---");
+  fLines.push("");
+
+  for (const s of sectionOrder) {
+    fLines.push(`# ${s}`);
+    fLines.push("");
+    for (const f of formulasBySection[s]) {
+      fLines.push(`## ${f.name}`);
+      fLines.push("");
+      fLines.push(`_id: \`${f.id}\`_`);
+      fLines.push("");
+      fLines.push(`**Formula.** ${f.formula}`);
+      fLines.push("");
+      fLines.push(`**When.** ${f.when}`);
+      if (f.memory) {
+        fLines.push("");
+        fLines.push(`**Memory.** ${f.memory}`);
+      }
+      if (f.example) {
+        fLines.push("");
+        fLines.push(`**Example.** ${f.example}`);
+      }
+      fLines.push("");
+      fLines.push("---");
+      fLines.push("");
+    }
+  }
+
+  const formulasOutput = fLines.join("\n");
+  writeFileSync(formulasPath, formulasOutput);
+  console.log(`Wrote ${FORMULAS.length} formulas across ${sectionOrder.length} sections to ${formulasPath}`);
+  console.log(`File size: ${(formulasOutput.length / 1024).toFixed(1)} KB`);
+}

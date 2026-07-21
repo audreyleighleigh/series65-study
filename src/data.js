@@ -9320,3 +9320,513 @@ export const ORIGINS = [
     ]
   }
 ];
+
+export const FORMULAS = [
+  // ============ OPTIONS ============
+  {
+    id: "long-call",
+    section: "Options",
+    name: "Long Call (Buy a Call)",
+    formula: "Breakeven = Strike + Premium · Max Gain = Unlimited · Max Loss = Premium paid",
+    when: "Bullish. Also used to hedge a short stock position (locks in a ceiling buy-back price).",
+    memory: "Buying gives you rights, not obligations. Call = right to BUY. You pay premium up front (your max loss), then you break even when the stock covers both the strike AND the premium you paid.",
+    example: "Buy XYZ 50 call for $3. B/E = 50 + 3 = $53. Below $53 at expiry you lose. Above $53 you profit. Max loss = $300 (per contract)."
+  },
+  {
+    id: "short-call",
+    section: "Options",
+    name: "Short Call (Sell/Write a Call)",
+    formula: "Breakeven = Strike + Premium · Max Gain = Premium received · Max Loss = Unlimited (naked) / Capped (covered)",
+    when: "Bearish or neutral. When paired with long stock = covered call = income + partial hedge.",
+    memory: "Selling collects premium up front (your max gain). Naked = unlimited risk if stock rockets. Covered = you already own the shares so the delivery is capped.",
+    example: "Sell XYZ 50 call for $3. Collect $300. B/E for the buyer = $53; anything above $53 costs you dollar-for-dollar."
+  },
+  {
+    id: "long-put",
+    section: "Options",
+    name: "Long Put (Buy a Put)",
+    formula: "Breakeven = Strike − Premium · Max Gain = Strike − Premium · Max Loss = Premium paid",
+    when: "Bearish. Also used to hedge a long stock position (locks in a floor sell price).",
+    memory: "Put = right to SELL. You pay premium (max loss). You break even when the stock drops enough to cover the premium you paid. Max gain is capped because the stock can only fall to zero.",
+    example: "Buy XYZ 50 put for $2. B/E = 50 − 2 = $48. Max gain = 48 − 0 = $48 (per share) if stock goes to zero."
+  },
+  {
+    id: "short-put",
+    section: "Options",
+    name: "Short Put (Sell/Write a Put)",
+    formula: "Breakeven = Strike − Premium · Max Gain = Premium received · Max Loss = Strike − Premium",
+    when: "Bullish or neutral. Income strategy paired with a short stock position.",
+    memory: "Selling a put obligates you to BUY at the strike. Max gain = the premium you collected. Max loss capped because the stock can only fall to zero (you'd be forced to buy at strike and it's worth $0).",
+    example: "Sell XYZ 50 put for $2. Collect $200. B/E = $48. Max loss = 50 − 2 = $48/share if stock goes to zero."
+  },
+
+  // ============ ORDER TYPES ============
+  {
+    id: "order-types-summary",
+    section: "Order Types",
+    name: "Order Types — What Each Guarantees",
+    formula: "Market: execution guaranteed / price not · Limit: price guaranteed / execution not · Stop: nothing guaranteed (triggers a market order) · Stop-limit: nothing guaranteed (triggers a limit order)",
+    when: "Identifying which order type applies to a scenario or matching an order to a customer's objective.",
+    memory: "Trade-off is always execution vs. price. Market = you WILL fill, but at whatever price. Limit = you get YOUR price, but might not fill.",
+    example: null
+  },
+  {
+    id: "order-placement-mnemonic",
+    section: "Order Types",
+    name: "Order Placement Mnemonic — SLoBS / BLiSS",
+    formula: "Sell Limits and Buy Stops go ABOVE the market · Buy Limits and Sell Stops go BELOW the market",
+    when: "Choosing where to place a stop or limit order relative to current market price.",
+    memory: "SLoBS = 'Sell Limit or Buy Stop' (above). BLiSS = 'Buy Limit or Sell Stop' (below). Sell limits sit above (you want a higher price); buy stops sit above (you buy on breakout). Buy limits sit below (you want a lower price); sell stops sit below (you sell to stop losses).",
+    example: "Stock at $50. Sell limit at $55 (above). Buy stop at $55 (above, breakout). Buy limit at $45 (below). Sell stop at $45 (below, protective)."
+  },
+
+  // ============ TAXES ============
+  {
+    id: "cost-basis",
+    section: "Taxes",
+    name: "Cost Basis",
+    formula: "Cost Basis = Purchase Price + Commission",
+    when: "Determining the tax cost of an investment when computing capital gain or loss on sale.",
+    memory: "Commissions on the BUY side get added into your basis (they raise it, reducing gain).",
+    example: "Buy 100 shares at $50 + $25 commission. Cost basis = $5,000 + $25 = $5,025."
+  },
+  {
+    id: "sales-proceeds",
+    section: "Taxes",
+    name: "Sales Proceeds",
+    formula: "Sales Proceeds = Sale Price − Commission",
+    when: "Determining the net proceeds from a sale for computing capital gain or loss.",
+    memory: "Commissions on the SELL side get subtracted from proceeds (they lower it, reducing gain).",
+    example: "Sell 100 shares at $60 − $25 commission. Proceeds = $6,000 − $25 = $5,975."
+  },
+  {
+    id: "tax-rate-matrix",
+    section: "Taxes",
+    name: "Tax Rate Matrix — Quick Reference",
+    formula: "Qualified dividends: 0% / 15% / 20% · Non-qualified dividends: up to 37% (ordinary) · Corporate interest: federal (up to 37%) + state · U.S. gov interest: federal only, exempt from state · Muni interest: exempt from federal (state if resident) · Short-term cap gain (≤1 year): up to 37% · Long-term cap gain (>1 year): 0% / 15% / 20%",
+    when: "Comparing after-tax returns across asset classes.",
+    memory: "Long-term qualified capital-gain treatment aligns with qualified dividend rates (0/15/20). Everything else that's ordinary income maxes at 37%.",
+    example: null
+  },
+
+  // ============ PORTFOLIO ANALYSIS ============
+  {
+    id: "capm-expected-return",
+    section: "Portfolio Analysis",
+    name: "CAPM (Expected Return)",
+    formula: "Expected Return = Rf + β × (Rm − Rf)",
+    when: "Predicting the required/expected return for an investment given its systematic risk relative to the market.",
+    memory: "Start at the risk-free floor (Rf). Add the market risk premium (Rm − Rf), scaled by beta (how much the investment moves with the market).",
+    example: "Rf = 2%, Rm = 8%, β = 1.5 → Expected Return = 2% + 1.5 × (8% − 2%) = 11%."
+  },
+  {
+    id: "alpha",
+    section: "Portfolio Analysis",
+    name: "Alpha",
+    formula: "Alpha = Actual Return − Expected Return (CAPM)",
+    when: "Measuring risk-adjusted OUTPERFORMANCE — how much a portfolio's actual return beat what CAPM predicted given its beta.",
+    memory: "Positive alpha = manager added value. Zero alpha = matched expectation. Negative alpha = underperformed for the risk taken.",
+    example: "Actual return = 12%, CAPM expected = 11% → Alpha = +1%."
+  },
+  {
+    id: "sharpe-ratio",
+    section: "Portfolio Analysis",
+    name: "Sharpe Ratio",
+    formula: "Sharpe = (Actual Return − Risk-Free Return) ÷ Standard Deviation",
+    when: "Comparing risk-adjusted return per unit of TOTAL risk (not just systematic). Higher = better.",
+    memory: "Sharpe uses standard deviation (total risk) as the denominator; Treynor uses beta. Sharpe is the more common measure for diversified portfolios.",
+    example: "Return 12%, Rf 2%, σ 15% → Sharpe = (12 − 2) / 15 = 0.67."
+  },
+  {
+    id: "total-return",
+    section: "Portfolio Analysis",
+    name: "Total Return",
+    formula: "Total Return = (Income + Capital Gain/Loss) ÷ Original Investment",
+    when: "Computing the complete return on any security, combining income (coupons/dividends) AND price change.",
+    memory: "Coupon rate alone is NOT total return — add the capital gain/loss on the sale/call/maturity price.",
+    example: "5% bond at par, called at 104 after 1 year. Income $50 + capital gain $40 = $90. Total return = $90 / $1,000 = 9%."
+  },
+  {
+    id: "holding-period-return",
+    section: "Portfolio Analysis",
+    name: "Holding Period Return (HPR)",
+    formula: "HPR = (Ending Value − Original Value + Income) ÷ Original Cost",
+    when: "Measuring the realized total return over any specific holding period. Same idea as total return, framed around the holding window.",
+    memory: "Not annualized. Not forward-looking (that's expected return / CAPM). Backward-looking realized measurement of the period held.",
+    example: "Buy at $100, sell at $110, collect $5 income → HPR = (110 − 100 + 5) / 100 = 15%."
+  },
+  {
+    id: "after-tax-return",
+    section: "Portfolio Analysis",
+    name: "After-Tax Return",
+    formula: "After-Tax Return = All tax-adjusted gains and/or losses ÷ Original Investment",
+    when: "Comparing investments on an apples-to-apples basis after federal/state taxes.",
+    memory: "The 'tax-adjusted' step is where you apply the applicable rate to each income type (qualified dividend rate, ordinary rate, cap gain rate).",
+    example: "$1,000 gain, 24% ordinary bracket → after-tax gain = $760. If invested $10,000: after-tax return = 7.6%."
+  },
+  {
+    id: "real-rate-of-return",
+    section: "Portfolio Analysis",
+    name: "Real Rate of Return",
+    formula: "Real Rate = Actual (Nominal) Return − Inflation Rate",
+    when: "Measuring purchasing-power growth — the return AFTER stripping out inflation.",
+    memory: "Nominal return says 'you made X.' Real return says 'you actually got wealthier by X after prices moved.'",
+    example: "Nominal 8%, inflation 3% → Real Rate = 5%."
+  },
+  {
+    id: "rule-of-72-years",
+    section: "Portfolio Analysis",
+    name: "Rule of 72 — Years to Double",
+    formula: "Years to double = 72 ÷ Rate of Return (%)",
+    when: "Fast estimate of how long money doubles at a given compounding rate.",
+    memory: "72 is the magic number. Divide by rate → get years.",
+    example: "At 8% → 72 ÷ 8 = 9 years to double."
+  },
+  {
+    id: "rule-of-72-rate",
+    section: "Portfolio Analysis",
+    name: "Rule of 72 — Rate Needed",
+    formula: "Rate needed to double (%) = 72 ÷ Years",
+    when: "Fast estimate of what return you'd need to double your money in a target time.",
+    memory: "Same magic 72, flipped: divide by years → get rate.",
+    example: "Want to double in 6 years? 72 ÷ 6 = 12% required rate."
+  },
+  {
+    id: "inflation-adjusted-future-value",
+    section: "Portfolio Analysis",
+    name: "Inflation-Adjusted Future Cost",
+    formula: "Future Amount = Today's Amount × (1 + inflation rate)^years",
+    when: "Estimating how many future dollars will be needed to buy what today's dollars buy now (retirement planning, education funding).",
+    memory: "Same compounding mechanic as investment growth — applied to a rising cost instead. Multiply by (1 + rate) once per year.",
+    example: "$15,000 today, 4% inflation, 3 years: 15,000 × 1.04³ ≈ $16,872."
+  },
+
+  // ============ DESCRIPTIVE STATISTICS ============
+  {
+    id: "mean",
+    section: "Descriptive Statistics",
+    name: "Mean",
+    formula: "Mean = Sum of values ÷ Count of values",
+    when: "The simple average. Sensitive to outliers.",
+    memory: "The 'balancing point' of the data — one big outlier can drag it far.",
+    example: "{4, 6, 8, 10, 12} → Mean = 40 / 5 = 8."
+  },
+  {
+    id: "median",
+    section: "Descriptive Statistics",
+    name: "Median",
+    formula: "Median = Middle value when data is sorted (average of two middle values if count is even)",
+    when: "The middle of the data — resistant to outliers.",
+    memory: "Half the data below, half above. Better than mean for skewed distributions (income, home prices).",
+    example: "{4, 6, 8, 10, 12} → Median = 8. {4, 6, 10, 12} → Median = (6 + 10) / 2 = 8."
+  },
+  {
+    id: "mode",
+    section: "Descriptive Statistics",
+    name: "Mode",
+    formula: "Mode = Most frequently occurring value",
+    when: "Identifying the most common outcome in a dataset.",
+    memory: "Not necessarily unique — a dataset can have multiple modes or no mode.",
+    example: "{4, 6, 6, 8, 10} → Mode = 6."
+  },
+  {
+    id: "range",
+    section: "Descriptive Statistics",
+    name: "Range",
+    formula: "Range = Highest value − Lowest value",
+    when: "Rough measure of dispersion. Series 65 sometimes offers 'range' as a distractor for standard deviation.",
+    memory: "Simplest measure of spread. Doesn't tell you anything about the middle.",
+    example: "{4, 6, 8, 10, 12} → Range = 12 − 4 = 8."
+  },
+
+  // ============ BOND PRICING & YIELDS ============
+  {
+    id: "current-yield",
+    section: "Bond Pricing & Yields",
+    name: "Current Yield (CY)",
+    formula: "CY = Annual Income ÷ Market Price",
+    when: "Quick yield check based on today's market price (not maturity or call).",
+    memory: "Current yield uses the CURRENT price. Nominal (coupon) yield uses par.",
+    example: "5% bond ($50 annual coupon) trading at $950 → CY = 50 / 950 = 5.26%."
+  },
+  {
+    id: "yield-hierarchy-discount",
+    section: "Bond Pricing & Yields",
+    name: "Yield Hierarchy — Discount Bond",
+    formula: "NY < CY < YTM < YTC",
+    when: "Ordering the four yields when a bond trades BELOW par.",
+    memory: "Discount = 'cheap' = yields go UP as you look further out because you pick up the discount to par. Nominal (coupon) is fixed and lowest; YTC is highest (you get the discount fastest if called).",
+    example: "5% bond at $950, callable at $1,020: Nominal 5%, CY 5.26%, YTM ~5.7%, YTC even higher."
+  },
+  {
+    id: "yield-hierarchy-premium",
+    section: "Bond Pricing & Yields",
+    name: "Yield Hierarchy — Premium Bond",
+    formula: "YTC < YTM < CY < NY",
+    when: "Ordering the four yields when a bond trades ABOVE par.",
+    memory: "Premium = 'expensive' = yields go DOWN as you look further out because you lose the premium as bond approaches par. YTC is lowest (you lose premium fastest if called).",
+    example: "5% bond at $1,050: Nominal 5%, CY 4.76%, YTM lower still, YTC lowest of all."
+  },
+
+  // ============ CONVERTIBLES & PARITY ============
+  {
+    id: "conversion-ratio",
+    section: "Convertibles & Parity",
+    name: "Conversion Ratio",
+    formula: "Conversion Ratio = Par ÷ Conversion Price",
+    when: "Determining how many common shares one convertible bond can be exchanged for.",
+    memory: "Par ($1,000) is fixed; the conversion PRICE is the negotiated per-share exchange rate baked into the bond.",
+    example: "Conversion price $40 → Conversion ratio = 1,000 / 40 = 25 shares."
+  },
+  {
+    id: "conversion-price",
+    section: "Convertibles & Parity",
+    name: "Conversion Price",
+    formula: "Conversion Price = Par ÷ Conversion Ratio",
+    when: "Working backward from conversion ratio to find the implicit per-share price of conversion.",
+    memory: "Just the algebraic flip of the ratio formula — same relationship.",
+    example: "Conversion ratio 40 → Conversion price = 1,000 / 40 = $25 per share."
+  },
+  {
+    id: "parity-price-bond",
+    section: "Convertibles & Parity",
+    name: "Parity Price of Bond",
+    formula: "Parity Price (Bond) = Stock's Market Price × Conversion Ratio",
+    when: "What the convertible bond SHOULD be worth right now if it perfectly reflects the stock's value.",
+    memory: "Bond parity uses the STOCK price × ratio. Big picture: 25 shares × $42 stock = $1,050 bond parity.",
+    example: "Ratio 25, stock at $42 → Bond parity = 25 × 42 = $1,050."
+  },
+  {
+    id: "parity-price-stock",
+    section: "Convertibles & Parity",
+    name: "Parity Price of Stock",
+    formula: "Parity Price (Stock) = Bond's Market Price ÷ Conversion Ratio",
+    when: "What the underlying stock SHOULD be worth right now to match the bond's current price.",
+    memory: "Stock parity uses the BOND price ÷ ratio. Reverse of bond parity.",
+    example: "Bond at $1,050, ratio 25 → Stock parity = 1,050 / 25 = $42."
+  },
+
+  // ============ TAX-EQUIVALENT YIELDS ============
+  {
+    id: "taxable-equivalent-yield",
+    section: "Tax-Equivalent Yields",
+    name: "Taxable Equivalent Yield (of a Muni)",
+    formula: "TEY = Municipal Yield ÷ (1 − Tax Bracket)",
+    when: "Answering: 'What would a TAXABLE bond need to yield to match this muni after taxes?'",
+    memory: "Muni-to-taxable comparison. DIVIDE muni yield → gross it up to pre-tax.",
+    example: "4% muni, 24% bracket → TEY = 4% ÷ (1 − 0.24) = 5.26%."
+  },
+  {
+    id: "tax-free-equivalent-yield",
+    section: "Tax-Equivalent Yields",
+    name: "Tax-Free Equivalent Yield (of a Corporate)",
+    formula: "TFEY = Corporate Yield × (1 − Tax Bracket)",
+    when: "Answering: 'What TAX-FREE (muni) yield would give me the same after-tax return as this corporate bond?'",
+    memory: "Corporate-to-muni comparison. MULTIPLY corporate yield → shrink down to after-tax.",
+    example: "6% corporate, 24% bracket → TFEY = 6% × (1 − 0.24) = 4.56%."
+  },
+
+  // ============ MARGIN ============
+  {
+    id: "reg-t-initial",
+    section: "Margin",
+    name: "Regulation T (Initial Requirement)",
+    formula: "Initial Deposit = 50% of Purchase Price (long or short)",
+    when: "Setting up a new margin position. The Federal Reserve rule.",
+    memory: "50% is 'Reg T' regardless of long or short. Then FINRA maintenance (25% long, 30% short) kicks in later.",
+    example: "Buy $10,000 of stock on margin → deposit $5,000 (50%)."
+  },
+  {
+    id: "margin-minimum-equity",
+    section: "Margin",
+    name: "Minimum Equity to Open a Margin Account",
+    formula: "Minimum Equity = $2,000 (or 100% of purchase if smaller)",
+    when: "Opening a new margin account. Regulatory floor.",
+    memory: "$2,000 is the number to memorize. Below that, no margin account.",
+    example: null
+  },
+  {
+    id: "long-account-equity",
+    section: "Margin",
+    name: "Long Account Equity",
+    formula: "Equity = Long Market Value (LMV) − Debit Balance",
+    when: "Computing current equity in a long margin position.",
+    memory: "In a LONG account you OWN the shares; the debit is what you borrowed. LMV goes up, equity goes up.",
+    example: "LMV $10,000, debit $5,000 → Equity = $5,000."
+  },
+  {
+    id: "short-account-equity",
+    section: "Margin",
+    name: "Short Account Equity",
+    formula: "Equity = Credit Balance − Short Market Value (SMV)",
+    when: "Computing current equity in a short margin position.",
+    memory: "In a SHORT account you OWE the shares; the credit balance is proceeds + your deposit. If SMV rises, equity shrinks (bad for shorts).",
+    example: "Credit $15,000, SMV $10,000 → Equity = $5,000."
+  },
+  {
+    id: "long-maintenance-minimum",
+    section: "Margin",
+    name: "Long Account Maintenance Minimum",
+    formula: "Minimum Equity = 25% of LMV",
+    when: "FINRA's ongoing rule for LONG margin accounts. Below this triggers a maintenance call.",
+    memory: "25% for LONG (not 50% — that's the initial Reg T, this is the ongoing floor).",
+    example: "LMV $10,000 → maintenance minimum equity = $2,500."
+  },
+  {
+    id: "short-maintenance-minimum",
+    section: "Margin",
+    name: "Short Account Maintenance Minimum",
+    formula: "Minimum Equity = 30% of SMV",
+    when: "FINRA's ongoing rule for SHORT margin accounts. Shorts get a higher requirement than longs.",
+    memory: "30% for SHORT (higher than the 25% for longs because shorts have unlimited upside risk).",
+    example: "SMV $10,000 → maintenance minimum equity = $3,000."
+  },
+
+  // ============ FUNDAMENTAL ANALYSIS ============
+  {
+    id: "net-worth",
+    section: "Fundamental Analysis",
+    name: "Net Worth (Stockholders' Equity)",
+    formula: "Net Worth = Assets − Liabilities",
+    when: "The book value of a company (or a household).",
+    memory: "Fundamental accounting equation: Assets = Liabilities + Equity. Rearranged: Equity (net worth) = Assets − Liabilities.",
+    example: "Assets $10M, Liabilities $6M → Net Worth = $4M."
+  },
+  {
+    id: "net-working-capital",
+    section: "Fundamental Analysis",
+    name: "Net Working Capital",
+    formula: "Net Working Capital = Current Assets − Current Liabilities",
+    when: "Measure of short-term liquidity — how much cushion the company has to meet near-term obligations.",
+    memory: "CURRENT (within a year) on both sides. Both a numerator and a denominator concept — used in current ratio too.",
+    example: "Current assets $5M, current liabilities $3M → Net working capital = $2M."
+  },
+  {
+    id: "current-ratio",
+    section: "Fundamental Analysis",
+    name: "Current Ratio",
+    formula: "Current Ratio = Current Assets ÷ Current Liabilities",
+    when: "Liquidity ratio: can the company cover its short-term bills? Above 1.0 = yes.",
+    memory: "Same components as net working capital, expressed as a ratio instead of a dollar amount.",
+    example: "$5M CA / $3M CL → Current ratio = 1.67."
+  },
+  {
+    id: "quick-assets",
+    section: "Fundamental Analysis",
+    name: "Quick Assets",
+    formula: "Quick Assets = Current Assets − Inventory",
+    when: "A stricter liquidity measure — inventory is excluded because it may not convert to cash fast.",
+    memory: "'Quick' = liquid = strip out anything that has to be sold before it becomes cash.",
+    example: "CA $5M, Inventory $1M → Quick assets = $4M."
+  },
+  {
+    id: "quick-ratio-acid-test",
+    section: "Fundamental Analysis",
+    name: "Quick Ratio (Acid Test)",
+    formula: "Quick Ratio = (Current Assets − Inventory) ÷ Current Liabilities",
+    when: "Strict liquidity test that excludes inventory. Common ratio on exam.",
+    memory: "'Acid test' — the harsh version of the current ratio.",
+    example: "$4M quick assets / $3M CL → Quick ratio = 1.33."
+  },
+  {
+    id: "debt-service-coverage",
+    section: "Fundamental Analysis",
+    name: "Debt Service Coverage Ratio",
+    formula: "DSCR = Operating Income ÷ Debt Service Requirement",
+    when: "Assessing whether a company (or borrower) generates enough operating income to cover its debt payments.",
+    memory: "Above 1.0 = can cover debt from operations. Below 1.0 = shortfall.",
+    example: "Operating income $500K, debt service $400K → DSCR = 1.25."
+  },
+  {
+    id: "eps",
+    section: "Fundamental Analysis",
+    name: "Earnings Per Share (EPS)",
+    formula: "EPS = Net Earnings ÷ Outstanding Common Shares",
+    when: "Per-share measure of profitability. Feeds into P/E.",
+    memory: "Net earnings AFTER preferred dividends are paid — those come off the top before common gets its slice.",
+    example: "Net earnings $5M, 1M shares → EPS = $5."
+  },
+  {
+    id: "pe-ratio",
+    section: "Fundamental Analysis",
+    name: "Price-to-Earnings (P/E) Ratio",
+    formula: "P/E = Market Price ÷ Earnings Per Share",
+    when: "Valuation multiple — how many dollars investors pay per dollar of earnings.",
+    memory: "High P/E → growth expectations (or overvalued). Low P/E → value or troubled. Compare against peers/history.",
+    example: "Stock at $50, EPS $5 → P/E = 10."
+  },
+  {
+    id: "dividend-yield",
+    section: "Fundamental Analysis",
+    name: "Dividend Yield",
+    formula: "Dividend Yield = Annual Dividend ÷ Stock Price",
+    when: "Income yield of a common or preferred stock.",
+    memory: "Watch the 'annualize' step — if a quarterly dividend is given, multiply by 4 first.",
+    example: "Quarterly div $0.50 ($2 annual), stock $40 → yield = 2/40 = 5%."
+  },
+  {
+    id: "dividend-payout-ratio",
+    section: "Fundamental Analysis",
+    name: "Dividend Payout Ratio",
+    formula: "Dividend Payout Ratio = Dividends Paid ÷ Net Earnings",
+    when: "What percentage of profit the company is returning to shareholders vs. reinvesting.",
+    memory: "High payout → mature, income-focused (utilities). Low payout → growth-focused (reinvesting earnings).",
+    example: "Div $2M, Net Earnings $10M → Payout = 20%."
+  },
+  {
+    id: "gross-margin",
+    section: "Fundamental Analysis",
+    name: "Gross Margin",
+    formula: "Gross Margin = (Revenue − Cost of Goods Sold) ÷ Revenue",
+    when: "How much of each sales dollar is left after covering the direct costs of what was sold.",
+    memory: "Excludes SG&A, R&D, interest, tax — only COGS. Pure product-level profitability.",
+    example: "Revenue $10M, COGS $6M → Gross Margin = 40%."
+  },
+  {
+    id: "book-value-per-share",
+    section: "Fundamental Analysis",
+    name: "Book Value Per Share",
+    formula: "Book Value Per Share = (Net Worth − Preferred Stock Par) ÷ Common Shares Outstanding",
+    when: "Per-share liquidation value based on balance-sheet equity.",
+    memory: "Preferred stock par comes OFF the top before common shareholders' share is computed — preferred has liquidation priority.",
+    example: "Net worth $10M, preferred par $2M, 800K common shares → BV/share = 8M / 800K = $10."
+  },
+
+  // ============ FUND PRICING ============
+  {
+    id: "nav-per-share",
+    section: "Fund Pricing",
+    name: "Net Asset Value (NAV) Per Share",
+    formula: "NAV = (Fund Assets − Fund Liabilities) ÷ Shares Outstanding",
+    when: "Calculating the per-share value of a mutual fund's underlying portfolio (the bid/redemption price).",
+    memory: "NAV is what the FUND is worth per share. For open-end funds, redemption always happens at NAV.",
+    example: "Assets $100M, liabilities $2M, shares outstanding 5M → NAV = 98M / 5M = $19.60."
+  },
+  {
+    id: "public-offering-price",
+    section: "Fund Pricing",
+    name: "Public Offering Price (POP)",
+    formula: "POP = NAV ÷ (1 − Sales Charge %)",
+    when: "The price a buyer pays for a load fund (NAV + sales load added).",
+    memory: "You DIVIDE by (1 − load) to gross NAV up. Selling always at NAV; buying at NAV + load.",
+    example: "NAV $19.60, sales charge 4.5% → POP = 19.60 / 0.955 = $20.52."
+  },
+  {
+    id: "sales-charge-percent",
+    section: "Fund Pricing",
+    name: "Sales Charge %",
+    formula: "Sales Charge % = (POP − NAV) ÷ POP",
+    when: "Backing out the sales load when only POP and NAV are given.",
+    memory: "The denominator is POP (not NAV) — that's what makes this a % of the offering price, matching the fund's disclosure.",
+    example: "POP $20.52, NAV $19.60 → Sales Charge = (20.52 − 19.60) / 20.52 = 4.48%."
+  },
+  {
+    id: "cef-discount-premium",
+    section: "Fund Pricing",
+    name: "Closed-End Fund Discount / Premium",
+    formula: "Discount/Premium = (Market Price − NAV) ÷ NAV",
+    when: "Measuring how a closed-end fund's market price compares to its underlying NAV.",
+    memory: "Positive = premium (trading above NAV). Negative = discount. Open-end funds trade at NAV — never at a discount or premium.",
+    example: "Market price $18, NAV $20 → (18 − 20) / 20 = −10% (10% discount)."
+  }
+];

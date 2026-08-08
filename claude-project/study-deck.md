@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 237 concept cards across 9 categories._
+_Auto-generated from src/data.js. 243 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -14,7 +14,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 
 ## Contents
 
-- **Alternative Investments** (5 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals
+- **Alternative Investments** (8 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals · Fixed-Premium Variable Life — Death Benefit vs. Cash Value · Variable Life → Whole Life Conversion Privilege · Universal Life — Defined by Flexibility, Not Fixed Premiums
 - **Bonds** (18 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies · Total Return — Income Plus Capital Gain/Loss
 - **Derivatives** (9 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls · Long Hedge vs. Short Hedge Using Futures
 - **Equities** (33 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF · Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest · Specialist (Exchange Floor) vs. Market Maker (OTC) · Stop Orders — What They Do (and Don't Guarantee) · Stop-Limit Orders — Trigger Price vs. Execution Price · Primary Market vs. Secondary Market · Reading a Market Maker Quote — Bid, Ask, and Spread
@@ -22,7 +22,7 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 - **Investment Companies** (23 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes · Cash Distributions vs. Reinvestment in a Front-End Load Fund · Dollar Cost Averaging — Average Cost vs. Average Price
 - **Regulations** (89 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will · Market Manipulation — Pegging, Front Running, Matched Orders · Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements · Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements · Payment for Order Flow vs. Soft Dollars vs. Interpositioning
 - **Suitability** (20 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms · Domestic Stock Market Indexes — Breadth & Composition
-- **Tax** (30 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs
+- **Tax** (33 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs · Nonqualified Annuity — Lump-Sum Taxation (LIFO) · Annuities Have No IRS Contribution Limit · Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio
 
 ---
 
@@ -151,6 +151,76 @@ _id: `precious-metals` · category: Alternative Investments_
      C) Copper
      D) Nickel
    _Explanation:_ Platinum is a precious metal, along with gold and silver. Aluminum, copper, and nickel are base/industrial metals — they have industrial uses but are not classified as precious metals and would not be recommended for precious metals exposure.
+
+---
+
+## Fixed-Premium Variable Life — Death Benefit vs. Cash Value
+
+_id: `variable-life-fixed-premium` · category: Alternative Investments_
+
+**Analogy.** Think of variable life's cash value as a boat floating on the separate account's tide — it rises and falls with market performance, no promises. But the death benefit has a life preserver tied to it: it can float higher, but it's never allowed to sink below a guaranteed minimum.
+
+**Rule.** Fixed-premium variable life insurance guarantees a **minimum death benefit** (a floor) that can rise above that minimum based on separate account performance, but never falls below it. The **cash value has no guarantee** — it fluctuates entirely with the performance of the separate account's subaccounts. There is no guaranteed maximum death benefit and no guaranteed cash value.
+
+**Watch.** Don't confuse variable life with whole life. Whole life guarantees a fixed cash value and fixed death benefit. Variable life only guarantees a MINIMUM death benefit — cash value is never guaranteed, and there's no such thing as a guaranteed MAXIMUM death benefit (that would cap the insurer's downside, not the customer's).
+
+**Quiz.**
+
+1. A fixed-premium variable life insurance contract offers which of the following? I. A guaranteed maximum death benefit. II. A guaranteed minimum death benefit. III. A guaranteed cash value. IV. A cash value that fluctuates according to the contract's performance.
+     A) II and III
+     B) I and III
+     C) I and IV
+   ✓ D) II and IV
+   _Explanation:_ Variable life guarantees a minimum death benefit (II) that can rise but never fall below that floor, and the cash value fluctuates with separate account performance (IV) with no guarantee. III is wrong because cash value is never guaranteed in a variable contract. I is wrong because there's no such thing as a guaranteed maximum death benefit — the death benefit can rise without limit based on performance.
+
+2. On a scheduled premium variable life insurance policy, the insured is guaranteed:
+     A) At least 100% of the stated cash value
+     B) That premiums may be reduced due to better than projected performance in the separate account
+   ✓ C) At least 100% of the stated death benefit
+     D) Nothing
+   _Explanation:_ The insurer guarantees a minimum death benefit (at least 100% of the stated amount), which can rise but never fall. A is wrong because cash value is never guaranteed — it floats with the separate account. B is wrong because 'scheduled premium' means fixed premiums; the flexibility to reduce payments belongs to universal life, not scheduled premium variable life. D is wrong because a real guarantee does exist (the minimum death benefit).
+
+---
+
+## Variable Life → Whole Life Conversion Privilege
+
+_id: `variable-to-whole-life-conversion-privilege` · category: Alternative Investments_
+
+**Analogy.** The conversion privilege is like a return window that doesn't ask why you're returning the item. Within the window, the insurer takes you back exactly as you are — no health interrogation, no price change — but you can only swap for the same amount you started with, not upgrade the deal.
+
+**Rule.** Most variable life contracts include a **conversion privilege**: within a limited window after issue (commonly ~24 months), the policyholder can convert to a whole life policy **without new evidence of insurability**, regardless of health changes. The new whole life policy **retains the original issue date and issue age** (it's a continuation, not a new contract — this preserves the original contestability/suicide clause timeline and keeps premiums based on the original age). The **face amount must stay the same**; increasing coverage requires normal underwriting since it represents new risk to the insurer.
+
+**Watch.** Don't assume declining health blocks the conversion or triggers a rating — that's the whole point of the privilege (no proof of insurability needed) as long as he's inside the window. Also don't assume the new policy starts fresh: same issue date/age carries over, which is a real benefit (locks in the original, younger age for premium purposes). The one thing NOT allowed automatically: increasing the face amount — any bump above the original amount requires new underwriting.
+
+**Quiz.**
+
+1. A client who purchased a variable life insurance policy 15 months ago has suffered a stroke, developed diabetes, and been diagnosed with lung cancer. He decides to convert to a whole life policy. Which statement is correct? I. He cannot convert due to his deteriorated health. II. The new policy will bear the same issue date and age as the original. III. The face amount must remain the same. IV. The premium will be rated due to his health decline.
+     A) I and IV
+   ✓ B) II and III
+     C) I and III
+     D) II and IV
+   _Explanation:_ Within the conversion window (he's at 15 months, inside the typical ~24-month window), he can convert with no new proof of insurability — health doesn't block conversion (I is wrong) or trigger rating (IV is wrong). The new policy is a continuation, so it keeps the original issue date/age (II is correct), and the face amount can't be increased without new underwriting, so it must stay the same (III is correct).
+
+---
+
+## Universal Life — Defined by Flexibility, Not Fixed Premiums
+
+_id: `universal-life-flexibility` · category: Alternative Investments_
+
+**Analogy.** Think of whole life and scheduled-premium variable life as a fixed monthly gym membership — same charge every month, no exceptions. Universal life is more like a pay-as-you-go gym pass: skip a month, pay extra another month, even adjust your plan tier (death benefit) as your life changes — as long as there's enough balance to keep the account active.
+
+**Rule.** Universal life insurance is defined by **flexibility**: the policyowner can adjust premium payments, cash value contributions, and (within limits) the death benefit over time. It may include a **minimum guaranteed interest rate** on the cash value. It offers **two death benefit options** — Option A/1 (level: face amount stays flat, cash value grows within it) and Option B/2 (increasing: face amount plus cash value, so the death benefit rises as cash value grows). Premiums are **NOT fixed for life** — that fixed-premium structure describes whole life, not universal life.
+
+**Watch.** The exam trap: a fixed-premium answer choice sounds 'safe' and traditional, but for universal life it's exactly backwards — fixed premiums contradict the product's defining feature. If a question asks what's NOT true about universal life, look hard at any option describing rigidity (fixed premium, fixed death benefit, no flexibility) — that's usually the false one.
+
+**Quiz.**
+
+1. All of the following statements regarding universal life insurance are correct EXCEPT
+     A) It may include a minimum guaranteed interest rate
+     B) It offers the policyowner exceptional flexibility in adjusting the premiums, cash value, and death benefit
+     C) It offers two death benefit options
+   ✓ D) Its premiums are fixed for the life of the policy
+   _Explanation:_ Universal life's defining feature is flexible, adjustable premiums — so 'fixed for the life of the policy' is false and describes whole life instead. A is true (universal life often guarantees a minimum interest rate on cash value). B is true (flexibility in premiums/cash value/death benefit is the core feature). C is true (Option A/1 level death benefit and Option B/2 increasing death benefit are the two standard choices).
 
 ---
 
@@ -7973,6 +8043,76 @@ _id: `inflation-adjusted-future-cost` · category: Tax_
      C) $43,600
      D) $40,000
    _Explanation:_ $40,000 x 1.03 x 1.03 = $42,436, approximately. Compounding the inflation rate over each of the 2 years, rather than applying it once.
+
+---
+
+## Nonqualified Annuity — Lump-Sum Taxation (LIFO)
+
+_id: `nonqualified-annuity-lump-sum-taxation` · category: Tax_
+
+**Analogy.** Picture the annuity as a glass with two layers: your after-tax contributions (basis) sitting at the bottom, and tax-deferred growth poured in on top over the years. A lump-sum withdrawal drains the glass from the top down — growth comes out first.
+
+**Rule.** Nonqualified annuities are funded with after-tax dollars, so only the earnings (growth above cost basis) are taxable — the basis is never taxed again. For a **lump-sum withdrawal**, the IRS uses **LIFO**: earnings (the last money in) come out and get taxed first, before any basis is touched. If the lump sum exceeds total earnings, only the earnings portion is taxable; the basis portion is tax-free return of principal.
+
+**Watch.** Don't assume all nonqualified annuity withdrawals are taxed the same way. If the customer instead **annuitizes** (takes a payment stream) rather than a lump sum, taxation switches to the **exclusion ratio** — a fixed % of each payment is tax-free basis and the rest is taxable, spread across the payout period. Lump sum = LIFO (growth first); annuitized = blended ratio every payment.
+
+**Quiz.**
+
+1. A customer invested $10,000 in a nonqualified deferred annuity, now valued at $16,000. He takes a full lump-sum withdrawal. How much is taxable?
+   ✓ A) $6,000.00
+     B) He owes no tax because the annuity was nonqualified
+     C) $16,000.00
+     D) $10,000.00
+   _Explanation:_ Nonqualified annuities are funded with after-tax dollars, so basis ($10,000) is never taxed again — only growth is taxable. Lump-sum withdrawals follow LIFO, so the $6,000 of earnings is deemed to come out first and is fully taxable. B is wrong — 'nonqualified' means the contributions were already taxed, not that withdrawals are tax-free. C wrongly taxes the whole amount, ignoring basis. D wrongly treats only the original contribution as taxable, backwards from the LIFO rule.
+
+2. Same customer, same $10,000 basis and $16,000 value — but instead of a lump sum, he annuitizes into monthly payments. How is each payment taxed?
+     A) Each payment is taxed under LIFO, fully taxable until earnings are exhausted
+     B) Each payment is entirely tax-free until the $10,000 basis is recovered
+   ✓ C) Each payment is a blend of taxable and tax-free amounts, per the exclusion ratio
+     D) Each payment is fully taxable, since annuitizing forfeits basis recovery
+   _Explanation:_ Annuitized payments use the exclusion ratio, not LIFO — LIFO only applies to lump-sum/non-annuitized withdrawals. The exclusion ratio splits each payment proportionally into a tax-free (basis) portion and taxable (earnings) portion for the expected payout period. A misapplies the lump-sum rule. B and D both describe all-or-nothing treatments that don't exist for annuitized income.
+
+---
+
+## Annuities Have No IRS Contribution Limit
+
+_id: `annuity-unlimited-contribution` · category: Tax_
+
+**Analogy.** A Roth IRA, SEP IRA, and 401(k) are like reserved parking spots Congress built with a sign capping how many cars (dollars) can park there each year. An annuity isn't a reserved spot at all — it's a contract you buy from an insurance company, so there's no sign, no cap.
+
+**Rule.** Qualified plans and IRAs (401(k), SEP IRA, Roth IRA, Traditional IRA) all have **statutory annual contribution limits** set and adjusted by the IRS, because Congress created them as tax-advantaged savings vehicles. **Nonqualified annuities** are insurance contracts, not IRS-created retirement plans — there is **no IRS-imposed limit** on how much can be contributed; the only ceiling is whatever the insurance company's contract allows.
+
+**Watch.** Don't lump annuities in with qualified plans just because both are 'tax-deferred.' Tax deferral describes how growth is taxed, not whether contributions are capped. If the question asks which plan allows an *unlimited* contribution, look for the one that's an insurance contract, not a government-defined plan type.
+
+**Quiz.**
+
+1. Current IRS regulations permit an unlimited contribution to which of the following tax-deferred plans?
+   ✓ A) Annuity
+     B) Roth IRA
+     C) SEP IRA
+     D) 401(k)
+   _Explanation:_ Nonqualified annuities are insurance contracts, not IRS-created plans, so there's no statutory contribution cap. B, C, and D are all qualified/IRA-type plans with specific IRS-published annual contribution limits, since Congress created them as tax-advantaged vehicles and caps the revenue given up.
+
+---
+
+## Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio
+
+_id: `annuitized-income-exclusion-ratio` · category: Tax_
+
+**Analogy.** A lump sum is like draining a glass with basis on the bottom and earnings on top — you scoop from the top (LIFO) until it's gone. An annuitized payment stream is different: instead of one glass to drain, you're getting a steady drip over years, so each drop is pre-mixed — a fixed % basis, fixed % earnings, in every single payment.
+
+**Rule.** Once a nonqualified annuity is **annuitized** — including payout options like 'life with period certain' — distributions are taxed as **ordinary income** (never capital gains), calculated via the **exclusion ratio**: a fixed percentage of EVERY payment is tax-free return of basis, and the remainder is taxable earnings, spread across the expected payout period. This differs from a lump-sum withdrawal, which uses **LIFO** (earnings taxed first, until exhausted, then basis tax-free).
+
+**Watch.** Don't let 'capital gains' answer choices tempt you — annuity earnings are NEVER capital gains, whether lump sum or annuitized; that's a recurring wrong-answer trap. The real fork in the road is LIFO (lump sum) vs. exclusion ratio (any annuitized payment stream, including period-certain options) — both are ordinary income, just calculated differently.
+
+**Quiz.**
+
+1. When a customer wants income from an annuity and chooses the option of life with 20-year period certain, how will distributions be taxed?
+     A) As capital gains based on LIFO accounting
+     B) As capital gains based on an exclusion ratio
+     C) As ordinary income based on LIFO accounting
+   ✓ D) As ordinary income based on an exclusion ratio
+   _Explanation:_ Annuity earnings are always ordinary income, ruling out A and B (capital gains never applies to annuities). 'Life with period certain' is an annuitized payment stream, which uses the exclusion ratio (a fixed % of each payment is tax-free basis, the rest taxable) — not LIFO, which only applies to lump-sum withdrawals. C is wrong because LIFO doesn't apply once payments are annuitized.
 
 ---
 

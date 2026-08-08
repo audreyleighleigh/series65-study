@@ -356,6 +356,9 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Business Entity Tax Filing Deadlines
 - ISOs vs NQSOs (crosses with Unit 1)
 - Kiddie Tax on Custodial Account Income (crosses with Unit 18)
+- Nonqualified Annuity — Lump-Sum Taxation (LIFO) (crosses with Unit 24)
+- Annuities Have No IRS Contribution Limit (crosses with Unit 24)
+- Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio (crosses with Unit 24)
 
 ---
 
@@ -551,7 +554,13 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - 24.3: Purchasing and Withdrawing from Annuities
 - 24.4: Life Insurance Policies
 
-**Deck coverage:** _Not yet studied — no cards yet._ Same treatment as Unit 23.
+**Deck coverage** (Audrey is just starting this unit — more cards will appear as she studies):
+- Nonqualified Annuity — Lump-Sum Taxation (LIFO) (also Unit 15)
+- Fixed-Premium Variable Life — Death Benefit vs. Cash Value
+- Annuities Have No IRS Contribution Limit (also Unit 15)
+- Variable Life → Whole Life Conversion Privilege
+- Universal Life — Defined by Flexibility, Not Fixed Premiums
+- Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio (also Unit 15)
 
 ---
 

@@ -9241,6 +9241,160 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "nonqualified-annuity-lump-sum-taxation",
+    category: "Tax",
+    title: "Nonqualified Annuity — Lump-Sum Taxation (LIFO)",
+    color: "#F97316",
+    analogy: "Picture the annuity as a glass with two layers: your after-tax contributions (basis) sitting at the bottom, and tax-deferred growth poured in on top over the years. A lump-sum withdrawal drains the glass from the top down — growth comes out first.",
+    rule: "Nonqualified annuities are funded with after-tax dollars, so only the earnings (growth above cost basis) are taxable — the basis is never taxed again. For a **lump-sum withdrawal**, the IRS uses **LIFO**: earnings (the last money in) come out and get taxed first, before any basis is touched. If the lump sum exceeds total earnings, only the earnings portion is taxable; the basis portion is tax-free return of principal.",
+    watch: "Don't assume all nonqualified annuity withdrawals are taxed the same way. If the customer instead **annuitizes** (takes a payment stream) rather than a lump sum, taxation switches to the **exclusion ratio** — a fixed % of each payment is tax-free basis and the rest is taxable, spread across the payout period. Lump sum = LIFO (growth first); annuitized = blended ratio every payment.",
+    quiz: [
+      {
+        q: "A customer invested $10,000 in a nonqualified deferred annuity, now valued at $16,000. He takes a full lump-sum withdrawal. How much is taxable?",
+        options: [
+          "$6,000.00",
+          "He owes no tax because the annuity was nonqualified",
+          "$16,000.00",
+          "$10,000.00"
+        ],
+        answer: 0,
+        explain: "Nonqualified annuities are funded with after-tax dollars, so basis ($10,000) is never taxed again — only growth is taxable. Lump-sum withdrawals follow LIFO, so the $6,000 of earnings is deemed to come out first and is fully taxable. B is wrong — 'nonqualified' means the contributions were already taxed, not that withdrawals are tax-free. C wrongly taxes the whole amount, ignoring basis. D wrongly treats only the original contribution as taxable, backwards from the LIFO rule."
+      },
+      {
+        q: "Same customer, same $10,000 basis and $16,000 value — but instead of a lump sum, he annuitizes into monthly payments. How is each payment taxed?",
+        options: [
+          "Each payment is taxed under LIFO, fully taxable until earnings are exhausted",
+          "Each payment is entirely tax-free until the $10,000 basis is recovered",
+          "Each payment is a blend of taxable and tax-free amounts, per the exclusion ratio",
+          "Each payment is fully taxable, since annuitizing forfeits basis recovery"
+        ],
+        answer: 2,
+        explain: "Annuitized payments use the exclusion ratio, not LIFO — LIFO only applies to lump-sum/non-annuitized withdrawals. The exclusion ratio splits each payment proportionally into a tax-free (basis) portion and taxable (earnings) portion for the expected payout period. A misapplies the lump-sum rule. B and D both describe all-or-nothing treatments that don't exist for annuitized income."
+      }
+    ]
+  },
+  {
+    id: "variable-life-fixed-premium",
+    category: "Alternative Investments",
+    title: "Fixed-Premium Variable Life — Death Benefit vs. Cash Value",
+    color: "#EC4899",
+    analogy: "Think of variable life's cash value as a boat floating on the separate account's tide — it rises and falls with market performance, no promises. But the death benefit has a life preserver tied to it: it can float higher, but it's never allowed to sink below a guaranteed minimum.",
+    rule: "Fixed-premium variable life insurance guarantees a **minimum death benefit** (a floor) that can rise above that minimum based on separate account performance, but never falls below it. The **cash value has no guarantee** — it fluctuates entirely with the performance of the separate account's subaccounts. There is no guaranteed maximum death benefit and no guaranteed cash value.",
+    watch: "Don't confuse variable life with whole life. Whole life guarantees a fixed cash value and fixed death benefit. Variable life only guarantees a MINIMUM death benefit — cash value is never guaranteed, and there's no such thing as a guaranteed MAXIMUM death benefit (that would cap the insurer's downside, not the customer's).",
+    quiz: [
+      {
+        q: "A fixed-premium variable life insurance contract offers which of the following? I. A guaranteed maximum death benefit. II. A guaranteed minimum death benefit. III. A guaranteed cash value. IV. A cash value that fluctuates according to the contract's performance.",
+        options: [
+          "II and III",
+          "I and III",
+          "I and IV",
+          "II and IV"
+        ],
+        answer: 3,
+        explain: "Variable life guarantees a minimum death benefit (II) that can rise but never fall below that floor, and the cash value fluctuates with separate account performance (IV) with no guarantee. III is wrong because cash value is never guaranteed in a variable contract. I is wrong because there's no such thing as a guaranteed maximum death benefit — the death benefit can rise without limit based on performance."
+      },
+      {
+        q: "On a scheduled premium variable life insurance policy, the insured is guaranteed:",
+        options: [
+          "At least 100% of the stated cash value",
+          "That premiums may be reduced due to better than projected performance in the separate account",
+          "At least 100% of the stated death benefit",
+          "Nothing"
+        ],
+        answer: 2,
+        explain: "The insurer guarantees a minimum death benefit (at least 100% of the stated amount), which can rise but never fall. A is wrong because cash value is never guaranteed — it floats with the separate account. B is wrong because 'scheduled premium' means fixed premiums; the flexibility to reduce payments belongs to universal life, not scheduled premium variable life. D is wrong because a real guarantee does exist (the minimum death benefit)."
+      }
+    ]
+  },
+  {
+    id: "annuity-unlimited-contribution",
+    category: "Tax",
+    title: "Annuities Have No IRS Contribution Limit",
+    color: "#F97316",
+    analogy: "A Roth IRA, SEP IRA, and 401(k) are like reserved parking spots Congress built with a sign capping how many cars (dollars) can park there each year. An annuity isn't a reserved spot at all — it's a contract you buy from an insurance company, so there's no sign, no cap.",
+    rule: "Qualified plans and IRAs (401(k), SEP IRA, Roth IRA, Traditional IRA) all have **statutory annual contribution limits** set and adjusted by the IRS, because Congress created them as tax-advantaged savings vehicles. **Nonqualified annuities** are insurance contracts, not IRS-created retirement plans — there is **no IRS-imposed limit** on how much can be contributed; the only ceiling is whatever the insurance company's contract allows.",
+    watch: "Don't lump annuities in with qualified plans just because both are 'tax-deferred.' Tax deferral describes how growth is taxed, not whether contributions are capped. If the question asks which plan allows an *unlimited* contribution, look for the one that's an insurance contract, not a government-defined plan type.",
+    quiz: [
+      {
+        q: "Current IRS regulations permit an unlimited contribution to which of the following tax-deferred plans?",
+        options: [
+          "Annuity",
+          "Roth IRA",
+          "SEP IRA",
+          "401(k)"
+        ],
+        answer: 0,
+        explain: "Nonqualified annuities are insurance contracts, not IRS-created plans, so there's no statutory contribution cap. B, C, and D are all qualified/IRA-type plans with specific IRS-published annual contribution limits, since Congress created them as tax-advantaged vehicles and caps the revenue given up."
+      }
+    ]
+  },
+  {
+    id: "variable-to-whole-life-conversion-privilege",
+    category: "Alternative Investments",
+    title: "Variable Life → Whole Life Conversion Privilege",
+    color: "#EC4899",
+    analogy: "The conversion privilege is like a return window that doesn't ask why you're returning the item. Within the window, the insurer takes you back exactly as you are — no health interrogation, no price change — but you can only swap for the same amount you started with, not upgrade the deal.",
+    rule: "Most variable life contracts include a **conversion privilege**: within a limited window after issue (commonly ~24 months), the policyholder can convert to a whole life policy **without new evidence of insurability**, regardless of health changes. The new whole life policy **retains the original issue date and issue age** (it's a continuation, not a new contract — this preserves the original contestability/suicide clause timeline and keeps premiums based on the original age). The **face amount must stay the same**; increasing coverage requires normal underwriting since it represents new risk to the insurer.",
+    watch: "Don't assume declining health blocks the conversion or triggers a rating — that's the whole point of the privilege (no proof of insurability needed) as long as he's inside the window. Also don't assume the new policy starts fresh: same issue date/age carries over, which is a real benefit (locks in the original, younger age for premium purposes). The one thing NOT allowed automatically: increasing the face amount — any bump above the original amount requires new underwriting.",
+    quiz: [
+      {
+        q: "A client who purchased a variable life insurance policy 15 months ago has suffered a stroke, developed diabetes, and been diagnosed with lung cancer. He decides to convert to a whole life policy. Which statement is correct? I. He cannot convert due to his deteriorated health. II. The new policy will bear the same issue date and age as the original. III. The face amount must remain the same. IV. The premium will be rated due to his health decline.",
+        options: [
+          "I and IV",
+          "II and III",
+          "I and III",
+          "II and IV"
+        ],
+        answer: 1,
+        explain: "Within the conversion window (he's at 15 months, inside the typical ~24-month window), he can convert with no new proof of insurability — health doesn't block conversion (I is wrong) or trigger rating (IV is wrong). The new policy is a continuation, so it keeps the original issue date/age (II is correct), and the face amount can't be increased without new underwriting, so it must stay the same (III is correct)."
+      }
+    ]
+  },
+  {
+    id: "universal-life-flexibility",
+    category: "Alternative Investments",
+    title: "Universal Life — Defined by Flexibility, Not Fixed Premiums",
+    color: "#EC4899",
+    analogy: "Think of whole life and scheduled-premium variable life as a fixed monthly gym membership — same charge every month, no exceptions. Universal life is more like a pay-as-you-go gym pass: skip a month, pay extra another month, even adjust your plan tier (death benefit) as your life changes — as long as there's enough balance to keep the account active.",
+    rule: "Universal life insurance is defined by **flexibility**: the policyowner can adjust premium payments, cash value contributions, and (within limits) the death benefit over time. It may include a **minimum guaranteed interest rate** on the cash value. It offers **two death benefit options** — Option A/1 (level: face amount stays flat, cash value grows within it) and Option B/2 (increasing: face amount plus cash value, so the death benefit rises as cash value grows). Premiums are **NOT fixed for life** — that fixed-premium structure describes whole life, not universal life.",
+    watch: "The exam trap: a fixed-premium answer choice sounds 'safe' and traditional, but for universal life it's exactly backwards — fixed premiums contradict the product's defining feature. If a question asks what's NOT true about universal life, look hard at any option describing rigidity (fixed premium, fixed death benefit, no flexibility) — that's usually the false one.",
+    quiz: [
+      {
+        q: "All of the following statements regarding universal life insurance are correct EXCEPT",
+        options: [
+          "It may include a minimum guaranteed interest rate",
+          "It offers the policyowner exceptional flexibility in adjusting the premiums, cash value, and death benefit",
+          "It offers two death benefit options",
+          "Its premiums are fixed for the life of the policy"
+        ],
+        answer: 3,
+        explain: "Universal life's defining feature is flexible, adjustable premiums — so 'fixed for the life of the policy' is false and describes whole life instead. A is true (universal life often guarantees a minimum interest rate on cash value). B is true (flexibility in premiums/cash value/death benefit is the core feature). C is true (Option A/1 level death benefit and Option B/2 increasing death benefit are the two standard choices)."
+      }
+    ]
+  },
+  {
+    id: "annuitized-income-exclusion-ratio",
+    category: "Tax",
+    title: "Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio",
+    color: "#F97316",
+    analogy: "A lump sum is like draining a glass with basis on the bottom and earnings on top — you scoop from the top (LIFO) until it's gone. An annuitized payment stream is different: instead of one glass to drain, you're getting a steady drip over years, so each drop is pre-mixed — a fixed % basis, fixed % earnings, in every single payment.",
+    rule: "Once a nonqualified annuity is **annuitized** — including payout options like 'life with period certain' — distributions are taxed as **ordinary income** (never capital gains), calculated via the **exclusion ratio**: a fixed percentage of EVERY payment is tax-free return of basis, and the remainder is taxable earnings, spread across the expected payout period. This differs from a lump-sum withdrawal, which uses **LIFO** (earnings taxed first, until exhausted, then basis tax-free).",
+    watch: "Don't let 'capital gains' answer choices tempt you — annuity earnings are NEVER capital gains, whether lump sum or annuitized; that's a recurring wrong-answer trap. The real fork in the road is LIFO (lump sum) vs. exclusion ratio (any annuitized payment stream, including period-certain options) — both are ordinary income, just calculated differently.",
+    quiz: [
+      {
+        q: "When a customer wants income from an annuity and chooses the option of life with 20-year period certain, how will distributions be taxed?",
+        options: [
+          "As capital gains based on LIFO accounting",
+          "As capital gains based on an exclusion ratio",
+          "As ordinary income based on LIFO accounting",
+          "As ordinary income based on an exclusion ratio"
+        ],
+        answer: 3,
+        explain: "Annuity earnings are always ordinary income, ruling out A and B (capital gains never applies to annuities). 'Life with period certain' is an annuitized payment stream, which uses the exclusion ratio (a fixed % of each payment is tax-free basis, the rest taxable) — not LIFO, which only applies to lump-sum withdrawals. C is wrong because LIFO doesn't apply once payments are annuitized."
+      }
+    ]
+  },
+  {
     id: "payment-for-order-flow-vs-soft-dollars-interpositioning",
     category: "Regulations",
     title: "Payment for Order Flow vs. Soft Dollars vs. Interpositioning",

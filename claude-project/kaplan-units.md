@@ -359,6 +359,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Nonqualified Annuity — Lump-Sum Taxation (LIFO) (crosses with Unit 24)
 - Annuities Have No IRS Contribution Limit (crosses with Unit 24)
 - Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio (crosses with Unit 24)
+- Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis (crosses with Unit 24)
 
 ---
 
@@ -554,13 +555,21 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - 24.3: Purchasing and Withdrawing from Annuities
 - 24.4: Life Insurance Policies
 
-**Deck coverage** (Audrey is just starting this unit — more cards will appear as she studies):
+**Deck coverage** (Audrey is working through this unit — more cards will appear as she studies):
 - Nonqualified Annuity — Lump-Sum Taxation (LIFO) (also Unit 15)
 - Fixed-Premium Variable Life — Death Benefit vs. Cash Value
 - Annuities Have No IRS Contribution Limit (also Unit 15)
 - Variable Life → Whole Life Conversion Privilege
 - Universal Life — Defined by Flexibility, Not Fixed Premiums
 - Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio (also Unit 15)
+- Term Life — Increasing Premiums, No Cash Value
+- Annuities — Two Independent Choices: Fixed/Variable AND Single/Periodic
+- 1035 Exchange — Tax-Free ≠ Suitable (Watch the Surrender Clock) (also Unit 17)
+- Variable Annuities — No Guarantees, Wide Subaccount Menu
+- Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis (also Unit 15)
+- Bonus Annuity — Bonus Credited to the Initial Payment
+- Explaining Variable Annuities to Clients — Tax-Deferred Equity Exposure, Higher Costs (also Unit 17)
+- VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap) (also Unit 13)
 
 ---
 

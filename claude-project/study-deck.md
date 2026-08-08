@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 243 concept cards across 9 categories._
+_Auto-generated from src/data.js. 251 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -14,15 +14,15 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 
 ## Contents
 
-- **Alternative Investments** (8 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals · Fixed-Premium Variable Life — Death Benefit vs. Cash Value · Variable Life → Whole Life Conversion Privilege · Universal Life — Defined by Flexibility, Not Fixed Premiums
+- **Alternative Investments** (9 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals · Fixed-Premium Variable Life — Death Benefit vs. Cash Value · Variable Life → Whole Life Conversion Privilege · Universal Life — Defined by Flexibility, Not Fixed Premiums · Term Life — Increasing Premiums, No Cash Value
 - **Bonds** (18 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies · Total Return — Income Plus Capital Gain/Loss
 - **Derivatives** (9 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls · Long Hedge vs. Short Hedge Using Futures
 - **Equities** (33 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF · Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest · Specialist (Exchange Floor) vs. Market Maker (OTC) · Stop Orders — What They Do (and Don't Guarantee) · Stop-Limit Orders — Trigger Price vs. Execution Price · Primary Market vs. Secondary Market · Reading a Market Maker Quote — Bid, Ask, and Spread
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
-- **Investment Companies** (23 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes · Cash Distributions vs. Reinvestment in a Front-End Load Fund · Dollar Cost Averaging — Average Cost vs. Average Price
-- **Regulations** (89 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will · Market Manipulation — Pegging, Front Running, Matched Orders · Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements · Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements · Payment for Order Flow vs. Soft Dollars vs. Interpositioning
-- **Suitability** (20 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms · Domestic Stock Market Indexes — Breadth & Composition
-- **Tax** (33 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs · Nonqualified Annuity — Lump-Sum Taxation (LIFO) · Annuities Have No IRS Contribution Limit · Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio
+- **Investment Companies** (26 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes · Cash Distributions vs. Reinvestment in a Front-End Load Fund · Dollar Cost Averaging — Average Cost vs. Average Price · Annuities — Two Independent Choices: Fixed/Variable AND Single/Periodic · Variable Annuities — No Guarantees, Wide Subaccount Menu · Bonus Annuity — Bonus Credited to the Initial Payment
+- **Regulations** (90 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will · Market Manipulation — Pegging, Front Running, Matched Orders · Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements · Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements · VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap) · Payment for Order Flow vs. Soft Dollars vs. Interpositioning
+- **Suitability** (22 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms · Domestic Stock Market Indexes — Breadth & Composition · 1035 Exchange — Tax-Free ≠ Suitable (Watch the Surrender Clock) · Explaining Variable Annuities to Clients — Tax-Deferred Equity Exposure, Higher Costs
+- **Tax** (34 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs · Nonqualified Annuity — Lump-Sum Taxation (LIFO) · Annuities Have No IRS Contribution Limit · Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio · Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis
 
 ---
 
@@ -221,6 +221,27 @@ _id: `universal-life-flexibility` · category: Alternative Investments_
      C) It offers two death benefit options
    ✓ D) Its premiums are fixed for the life of the policy
    _Explanation:_ Universal life's defining feature is flexible, adjustable premiums — so 'fixed for the life of the policy' is false and describes whole life instead. A is true (universal life often guarantees a minimum interest rate on cash value). B is true (flexibility in premiums/cash value/death benefit is the core feature). C is true (Option A/1 level death benefit and Option B/2 increasing death benefit are the two standard choices).
+
+---
+
+## Term Life — Increasing Premiums, No Cash Value
+
+_id: `term-life-increasing-premiums-no-cash-value` · category: Alternative Investments_
+
+**Analogy.** Term life is like renting an apartment year to year with no equity built — you're just paying for coverage during that period, and each renewal the rent goes up because you're a year older (a slightly worse risk to insure). Permanent policies (whole, universal, variable) are more like a mortgage — part of each payment builds something you keep.
+
+**Rule.** **Term life insurance** provides pure death-benefit protection for a set period, with **no cash value buildup** — there's no savings component at all. On renewal (e.g., annual renewable term), **premiums increase** because the insured is now older and represents higher mortality risk, so the insurer re-prices the coverage each renewal period. This contrasts with permanent policies (whole life, universal life, variable life), which all build cash value by design.
+
+**Watch.** Don't confuse 'increasing premium' with 'increasing death benefit' — term premiums rise because age/risk increases, not because coverage grows. Also remember: any policy that builds cash value (whole, universal, variable) is automatically NOT the answer to a 'no cash value' question — term is the only pure-protection option among typical answer choices.
+
+**Quiz.**
+
+1. Which of the following types of life insurance has premiums that increase each time the policy is renewed, and no cash value buildup?
+     A) Universal life
+     B) Ordinary whole life
+     C) Variable life
+   ✓ D) Term
+   _Explanation:_ Term life is pure protection with no savings/cash value element, and renewal premiums step up because the insured is older each time (higher mortality risk). Universal, ordinary whole life, and variable life are all permanent insurance types that build cash value by design, ruling them out immediately on the 'no cash value' criterion alone.
 
 ---
 
@@ -3349,6 +3370,69 @@ _id: `dollar-cost-averaging-avg-cost-vs-price` · category: Investment Companies
 
 ---
 
+## Annuities — Two Independent Choices: Fixed/Variable AND Single/Periodic
+
+_id: `annuity-fixed-variable-single-periodic-axes` · category: Investment Companies_
+
+**Analogy.** Choosing an annuity is like ordering a coffee with two separate menus: hot-or-iced (fixed vs. variable — where the money grows) and one-large-cup-or-a-subscription (single premium vs. periodic payment — how the money goes in). The two choices are completely independent of each other, so you have to answer both questions separately.
+
+**Rule.** Annuity contracts vary along **two independent axes**: (1) **Fixed vs. Variable** — fixed annuities go into the insurer's general account with guaranteed principal; variable annuities go into a separate account tied to equity/market performance with no principal guarantee. (2) **Single premium vs. Periodic (flexible) payment** — single premium means one lump-sum contribution; periodic payment means contributions made over time (e.g., monthly). A client's goals should be matched on BOTH axes independently — market participation points to variable; ongoing monthly savings points to periodic payment.
+
+**Watch.** Exam answer choices often bundle both axes into one option (e.g., 'single premium deferred variable annuity'), and it's easy to nail one axis correctly while missing the other. Always check the fact pattern against both axes separately: does the client want market exposure (fixed vs. variable) AND are they contributing all at once or over time (single vs. periodic)? Don't let getting one axis right make you overconfident about the other.
+
+**Quiz.**
+
+1. A married couple, both age 28, want an annuity to save monthly for retirement at 65. They want to participate in the equities market and aren't concerned about safety of principal. Which annuity best fits?
+     A) Single premium deferred fixed annuity
+     B) Single premium deferred variable annuity
+     C) Periodic payment deferred fixed annuity
+   ✓ D) Periodic payment deferred variable annuity
+   _Explanation:_ Wanting equities exposure and being unconcerned with principal safety points to variable (not fixed), ruling out A and C. Wanting to 'save monthly' describes ongoing periodic contributions, not a single lump sum, ruling out B. Only D matches both the fixed/variable axis (variable) and the single/periodic axis (periodic payment).
+
+---
+
+## Variable Annuities — No Guarantees, Wide Subaccount Menu
+
+_id: `variable-annuity-subaccount-menu` · category: Investment Companies_
+
+**Analogy.** A variable annuity is like a buffet, not a fixed set menu — dozens of subaccount 'dishes' (stock funds, bond funds, balanced, international, money market) for the investor to combine, with no chef promising how the meal will taste (no guaranteed principal or payout).
+
+**Rule.** Variable annuities: (1) provide **less** security of principal than fixed annuities, since separate account values float with market performance; (2) are **not** limited to money market funds — they offer a broad menu of subaccount styles; (3) do **not** guarantee a minimum annuity payout, since payouts (like all variable product outcomes) depend on separate account performance; (4) commonly offer **20 or more subaccount investment options**, giving investors a wide range of allocation choices.
+
+**Watch.** This question tests the same recurring theme from several angles at once: variable products don't guarantee outcomes tied to performance (rules out 'guaranteed payout' and 'more principal security'), and they're built around investor choice (rules out 'only money market'). When in doubt, the option describing FLEXIBILITY/CHOICE is usually true for variable products, and the option describing a GUARANTEE tied to performance is usually false.
+
+**Quiz.**
+
+1. Variable annuities:
+     A) Generally provide more security of principal than fixed annuities
+     B) May invest only in money market mutual funds
+     C) Provide a guaranteed minimum annuity payout
+   ✓ D) May have 20 or more subaccount investment options
+   _Explanation:_ Variable annuities offer a wide menu of subaccounts, often 20+, spanning many investment styles. A is false — fixed annuities, not variable, offer principal security via the general account. B is false — subaccounts span many fund types, not just money market. C is false — payouts fluctuate with separate account performance and are never guaranteed at a minimum.
+
+---
+
+## Bonus Annuity — Bonus Credited to the Initial Payment
+
+_id: `bonus-annuity-initial-payment` · category: Investment Companies_
+
+**Analogy.** A bonus annuity is like a sign-on bonus at a new job — it's credited right away, at the start, as an incentive to get you to commit. It's not sprinkled across future paychecks (payment periods) or saved for the very end.
+
+**Rule.** A **bonus annuity** credits an extra percentage (commonly 3-5%) to the **initial premium payment** at the time of purchase, as a sign-on incentive to attract new customers. Because the insurer is handing over extra money upfront, bonus annuities typically carry **longer surrender charge periods** than standard annuities, to give the insurer time to recoup that bonus cost.
+
+**Watch.** Don't assume the bonus applies to the death benefit, spreads across every payment period, or arrives at the end of the contract — it's specifically a one-time credit applied to the initial payment. Pair this fact with the related concept: bonus annuities tend to have the longest surrender charge periods among annuity products, since the insurer needs time to recover the bonus.
+
+**Quiz.**
+
+1. When a client purchases an annuity with a 5% bonus, it means
+     A) The bonus is added to the death benefit
+     B) The bonus is included every payment period
+   ✓ C) The bonus is added to the initial payment
+     D) The bonus is added at the last payment
+   _Explanation:_ A bonus annuity credits the extra percentage to the initial premium payment at purchase, as a sign-on incentive — not to the death benefit, not spread across every payment period, and not deferred to the final payment.
+
+---
+
 # Regulations
 
 ## Affiliate Status & Rule 144
@@ -6418,6 +6502,27 @@ _id: `fully-disclosed-omnibus-clearing` · category: Regulations_
 
 ---
 
+## VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap)
+
+_id: `vli-conversion-privilege-disclosure` · category: Regulations_
+
+**Analogy.** The conversion privilege disclosure is like the return policy sign posted at checkout: within 2 years, you can swap for a permanent policy from the same store, no questions asked about your health. Wrong-answer choices borrow language from a DIFFERENT sign nearby — the free-look period (a totally separate right to cancel shortly after purchase) — so don't let similar-sounding numbers and timeframes get mixed up.
+
+**Rule.** An agent presenting a VLI proposal must disclose the **conversion privilege**: within a set window (commonly ~2 years / 24 months), the insured may exchange the VLI policy for a **permanent** form of life insurance (e.g., whole life) issued by the **same company**, with **no additional evidence of insurability** required. This is a **contractual** feature of the policy (built in by the insurer), not a specific numbered exam-testable federal statute — though exam answer choices may loosely describe it as required/guaranteed. It should not be confused with the **free-look period** (45 days from application / 10 days from delivery, whichever is longer) — a separate, unrelated right to cancel a new policy shortly after purchase.
+
+**Watch.** Wrong-answer choices on this topic love to mix in language from other real annuity/life insurance rules to sound plausible — e.g., claiming the insurer can still require medical exams (contradicts 'no new evidence of insurability'), offering conversion into a menu of policy types instead of just a permanent policy, or substituting the free-look period's timeframe (45/10 days) for the actual 2-year conversion window. Isolate which specific right is being described before matching a timeframe to it.
+
+**Quiz.**
+
+1. An agent presenting a variable life insurance (VLI) policy proposal to a prospect must disclose which of the following about the insured's rights of exchange of the VLI policy?
+     A) The insured may request that the insurance company exchange the VLI policy for a permanent form of life insurance policy, issued by the same company, within two years. The insurance company retains the right to have medical examinations for underwriting purposes.
+   ✓ B) Federal law requires the insurance company to allow the insured to exchange the VLI policy for a permanent form of life insurance policy, issued by the same company, for two years with no additional evidence of insurability.
+     C) Within the first 18 months, the insured may exchange the VLI policy for either a permanent form of life insurance or a universal variable policy, issued by the same company, with no additional evidence of insurability.
+     D) The insurance company will allow the insured to exchange the VLI policy for a permanent form of life insurance policy within 45 days from the date of the application or 10 days from policy delivery, whichever is longer.
+   _Explanation:_ B best captures the substance of the conversion privilege: 2-year window, no new evidence of insurability, same company, exchange into a permanent policy. A is wrong because it contradicts 'no new evidence of insurability' by allowing medical exams. C is wrong because it offers a menu of policy types (including universal variable) rather than just a permanent policy, and uses the wrong timeframe (18 months). D describes the free-look period, a completely different right, not the conversion privilege.
+
+---
+
 ## Payment for Order Flow vs. Soft Dollars vs. Interpositioning
 
 _id: `payment-for-order-flow-vs-soft-dollars-interpositioning` · category: Regulations_
@@ -7075,6 +7180,48 @@ _id: `domestic-stock-index-breadth` · category: Suitability_
      C) MSCI EAFE
      D) Wilshire 5000
    _Explanation:_ The Russell 2000 tracks 2000 U.S. small-cap stocks specifically — the right benchmark for a small-cap fund. The S&P 500 is large-cap; MSCI EAFE is foreign developed markets; the Wilshire 5000 is broad-market (all cap sizes), so it wouldn't isolate small-cap performance cleanly.
+
+---
+
+## 1035 Exchange — Tax-Free ≠ Suitable (Watch the Surrender Clock)
+
+_id: `1035-exchange-suitability-surrender-fees` · category: Suitability_
+
+**Analogy.** Switching annuity companies via a 1035 exchange is like moving apartments right before your lease penalty expires, into a brand new building with its own fresh multi-year lease penalty. The move itself doesn't cost you in taxes, but it resets the very clock you were about to be free of.
+
+**Rule.** A Section 1035 exchange into a new annuity contract is tax-free, but a new contract typically comes with a **brand new surrender charge schedule** starting from scratch — it does NOT carry over time already served on the old contract. A recommendation to 1035 exchange can be **unsuitable** if the client is close to the end of their current surrender period and needs the funds soon, even if the new contract offers attractive features (like a higher guaranteed minimum death benefit) and even though the exchange itself has no adverse tax consequences.
+
+**Watch.** Don't let one true, appealing benefit (tax-free exchange, higher death benefit) distract from the bigger suitability picture. Always check the client's timeline against the NEW contract's surrender schedule — if the client needs funds before a fresh surrender period would expire, the recommendation is unsuitable regardless of other perks.
+
+**Quiz.**
+
+1. A customer purchased a variable annuity 5 years ago ($200,000 initial investment, now worth $375,000). Her surrender fee expires in year 7, coinciding with when she'll need the funds. Her agent recommends a 1035 exchange into a new company's contract to lock in a higher minimum death benefit, since the market is declining. This recommendation is:
+   ✓ A) Unsuitable because of surrender fees
+     B) Suitable because 1035 exchanges have no adverse tax consequences
+     C) Unsuitable unless the customer agrees with the recommendation
+     D) Suitable because of the increased death benefit
+   _Explanation:_ A 1035 exchange into a new contract typically resets the surrender charge schedule from scratch, meaning her plan to access funds penalty-free in year 7 would be undone by a new multi-year surrender period. This makes the recommendation unsuitable despite the exchange being tax-free (B) and despite the appealing death benefit increase (D) — neither addresses the real problem of her timeline. C is a distractor; suitability isn't determined by whether the customer agrees.
+
+---
+
+## Explaining Variable Annuities to Clients — Tax-Deferred Equity Exposure, Higher Costs
+
+_id: `variable-annuity-iar-explanation-tax-deferred-equities` · category: Suitability_
+
+**Analogy.** A variable annuity is like a mutual fund wearing an insurance wrapper — the underlying investments behave similarly, but the insurance wrapper adds extra costs (for guarantees) and a tax-deferral benefit that a plain mutual fund doesn't have.
+
+**Rule.** The most accurate way to describe a variable annuity to a client: it offers the **opportunity to invest in equity securities on a tax-deferred basis**. Variable annuities are generally **more expensive** than mutual funds (not less), due to added insurance costs like the mortality & expense (M&E) charge that funds guarantees. The insurance company backs specific **guarantees** (e.g., a minimum death benefit), but does **not** back the performance of the separate account — that market risk sits with the investor. Variable annuities do not, by default, guarantee lifetime income at a fixed floor.
+
+**Watch.** Resist the 'mutual fund with lower costs' framing — it's backwards; variable annuities cost MORE than mutual funds due to insurance charges layered on top. Also don't overstate the insurer's guarantee — they back specific contract features (like a death benefit floor), never the separate account's investment performance itself.
+
+**Quiz.**
+
+1. A client received a prospectus for a variable annuity but doesn't understand the product. It would be reasonable for the IAR to explain that a variable annuity offers an investor:
+   ✓ A) The opportunity to invest in equity securities on a tax-deferred basis
+     B) A product very similar to a mutual fund but with lower costs and expenses
+     C) The insurance company's backing of the annuity's performance
+     D) Lifetime income guaranteed never to drop below the initial rate
+   _Explanation:_ The core, accurate description of a variable annuity is tax-deferred equity market participation. B is wrong because variable annuities carry HIGHER costs than mutual funds due to insurance charges (like M&E fees). C is wrong because the insurer backs specific guarantees, not the separate account's investment performance. D is wrong because a guaranteed income floor isn't a default feature of the base product.
 
 ---
 
@@ -8113,6 +8260,27 @@ _id: `annuitized-income-exclusion-ratio` · category: Tax_
      C) As ordinary income based on LIFO accounting
    ✓ D) As ordinary income based on an exclusion ratio
    _Explanation:_ Annuity earnings are always ordinary income, ruling out A and B (capital gains never applies to annuities). 'Life with period certain' is an annuitized payment stream, which uses the exclusion ratio (a fixed % of each payment is tax-free basis, the rest taxable) — not LIFO, which only applies to lump-sum withdrawals. C is wrong because LIFO doesn't apply once payments are annuitized.
+
+---
+
+## Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis
+
+_id: `annuity-true-false-fundamentals` · category: Tax_
+
+**Analogy.** An annuity is like a savings jar that the IRS agrees not to peek into until you actually take money out — no annual tax bill on what's growing inside. When you do take money out randomly, they check the top of the jar (growth) before the bottom (your own contributions).
+
+**Rule.** Key annuity fundamentals: (1) Growth (dividends, interest, capital gains) inside an annuity is **tax-deferred** — NOT taxed annually; tax is only triggered on withdrawal. (2) Random/lump-sum withdrawals are taxed on a **LIFO** basis — earnings out first. (3) Money invested in a **nonqualified** annuity is the investor's **cost basis** (already-taxed dollars). (4) Upon withdrawal, any amount **exceeding cost basis** (i.e., the earnings) is taxed as **ordinary income**.
+
+**Watch.** Don't fall for 'taxes paid annually' as a description of annuities — deferral is the whole point of the product. Statements about mechanics (LIFO, cost basis, ordinary income treatment of earnings) are consistently true and echo across many exam questions in different wording — recognize the pattern rather than re-deriving it each time.
+
+**Quiz.**
+
+1. Which of the following is true with an annuity? I. Taxes on earned dividends, interest, and capital gains are paid annually until the owner withdraws money from the contract. II. Random withdrawals are taxed on a LIFO basis. III. Money invested in a nonqualified annuity represents the investor's cost basis. IV. Upon withdrawal, the amount exceeding the investor's cost basis is taxed as ordinary income.
+     A) I only
+     B) IV only
+     C) I, II, and IV
+   ✓ D) II, III, and IV
+   _Explanation:_ I is false — annuity growth is tax-deferred, not taxed annually; that's the core feature of the product. II is true — random/lump-sum withdrawals follow LIFO. III is true — nonqualified contributions are, by definition, the investor's already-taxed cost basis. IV is true — the amount exceeding cost basis is the earnings portion, always taxed as ordinary income. That makes II, III, and IV correct.
 
 ---
 

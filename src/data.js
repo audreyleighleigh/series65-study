@@ -9395,6 +9395,182 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "term-life-increasing-premiums-no-cash-value",
+    category: "Alternative Investments",
+    title: "Term Life — Increasing Premiums, No Cash Value",
+    color: "#EC4899",
+    analogy: "Term life is like renting an apartment year to year with no equity built — you're just paying for coverage during that period, and each renewal the rent goes up because you're a year older (a slightly worse risk to insure). Permanent policies (whole, universal, variable) are more like a mortgage — part of each payment builds something you keep.",
+    rule: "**Term life insurance** provides pure death-benefit protection for a set period, with **no cash value buildup** — there's no savings component at all. On renewal (e.g., annual renewable term), **premiums increase** because the insured is now older and represents higher mortality risk, so the insurer re-prices the coverage each renewal period. This contrasts with permanent policies (whole life, universal life, variable life), which all build cash value by design.",
+    watch: "Don't confuse 'increasing premium' with 'increasing death benefit' — term premiums rise because age/risk increases, not because coverage grows. Also remember: any policy that builds cash value (whole, universal, variable) is automatically NOT the answer to a 'no cash value' question — term is the only pure-protection option among typical answer choices.",
+    quiz: [
+      {
+        q: "Which of the following types of life insurance has premiums that increase each time the policy is renewed, and no cash value buildup?",
+        options: [
+          "Universal life",
+          "Ordinary whole life",
+          "Variable life",
+          "Term"
+        ],
+        answer: 3,
+        explain: "Term life is pure protection with no savings/cash value element, and renewal premiums step up because the insured is older each time (higher mortality risk). Universal, ordinary whole life, and variable life are all permanent insurance types that build cash value by design, ruling them out immediately on the 'no cash value' criterion alone."
+      }
+    ]
+  },
+  {
+    id: "annuity-fixed-variable-single-periodic-axes",
+    category: "Investment Companies",
+    title: "Annuities — Two Independent Choices: Fixed/Variable AND Single/Periodic",
+    color: "#7C3AED",
+    analogy: "Choosing an annuity is like ordering a coffee with two separate menus: hot-or-iced (fixed vs. variable — where the money grows) and one-large-cup-or-a-subscription (single premium vs. periodic payment — how the money goes in). The two choices are completely independent of each other, so you have to answer both questions separately.",
+    rule: "Annuity contracts vary along **two independent axes**: (1) **Fixed vs. Variable** — fixed annuities go into the insurer's general account with guaranteed principal; variable annuities go into a separate account tied to equity/market performance with no principal guarantee. (2) **Single premium vs. Periodic (flexible) payment** — single premium means one lump-sum contribution; periodic payment means contributions made over time (e.g., monthly). A client's goals should be matched on BOTH axes independently — market participation points to variable; ongoing monthly savings points to periodic payment.",
+    watch: "Exam answer choices often bundle both axes into one option (e.g., 'single premium deferred variable annuity'), and it's easy to nail one axis correctly while missing the other. Always check the fact pattern against both axes separately: does the client want market exposure (fixed vs. variable) AND are they contributing all at once or over time (single vs. periodic)? Don't let getting one axis right make you overconfident about the other.",
+    quiz: [
+      {
+        q: "A married couple, both age 28, want an annuity to save monthly for retirement at 65. They want to participate in the equities market and aren't concerned about safety of principal. Which annuity best fits?",
+        options: [
+          "Single premium deferred fixed annuity",
+          "Single premium deferred variable annuity",
+          "Periodic payment deferred fixed annuity",
+          "Periodic payment deferred variable annuity"
+        ],
+        answer: 3,
+        explain: "Wanting equities exposure and being unconcerned with principal safety points to variable (not fixed), ruling out A and C. Wanting to 'save monthly' describes ongoing periodic contributions, not a single lump sum, ruling out B. Only D matches both the fixed/variable axis (variable) and the single/periodic axis (periodic payment)."
+      }
+    ]
+  },
+  {
+    id: "1035-exchange-suitability-surrender-fees",
+    category: "Suitability",
+    title: "1035 Exchange — Tax-Free ≠ Suitable (Watch the Surrender Clock)",
+    color: "#FBBF24",
+    analogy: "Switching annuity companies via a 1035 exchange is like moving apartments right before your lease penalty expires, into a brand new building with its own fresh multi-year lease penalty. The move itself doesn't cost you in taxes, but it resets the very clock you were about to be free of.",
+    rule: "A Section 1035 exchange into a new annuity contract is tax-free, but a new contract typically comes with a **brand new surrender charge schedule** starting from scratch — it does NOT carry over time already served on the old contract. A recommendation to 1035 exchange can be **unsuitable** if the client is close to the end of their current surrender period and needs the funds soon, even if the new contract offers attractive features (like a higher guaranteed minimum death benefit) and even though the exchange itself has no adverse tax consequences.",
+    watch: "Don't let one true, appealing benefit (tax-free exchange, higher death benefit) distract from the bigger suitability picture. Always check the client's timeline against the NEW contract's surrender schedule — if the client needs funds before a fresh surrender period would expire, the recommendation is unsuitable regardless of other perks.",
+    quiz: [
+      {
+        q: "A customer purchased a variable annuity 5 years ago ($200,000 initial investment, now worth $375,000). Her surrender fee expires in year 7, coinciding with when she'll need the funds. Her agent recommends a 1035 exchange into a new company's contract to lock in a higher minimum death benefit, since the market is declining. This recommendation is:",
+        options: [
+          "Unsuitable because of surrender fees",
+          "Suitable because 1035 exchanges have no adverse tax consequences",
+          "Unsuitable unless the customer agrees with the recommendation",
+          "Suitable because of the increased death benefit"
+        ],
+        answer: 0,
+        explain: "A 1035 exchange into a new contract typically resets the surrender charge schedule from scratch, meaning her plan to access funds penalty-free in year 7 would be undone by a new multi-year surrender period. This makes the recommendation unsuitable despite the exchange being tax-free (B) and despite the appealing death benefit increase (D) — neither addresses the real problem of her timeline. C is a distractor; suitability isn't determined by whether the customer agrees."
+      }
+    ]
+  },
+  {
+    id: "variable-annuity-subaccount-menu",
+    category: "Investment Companies",
+    title: "Variable Annuities — No Guarantees, Wide Subaccount Menu",
+    color: "#7C3AED",
+    analogy: "A variable annuity is like a buffet, not a fixed set menu — dozens of subaccount 'dishes' (stock funds, bond funds, balanced, international, money market) for the investor to combine, with no chef promising how the meal will taste (no guaranteed principal or payout).",
+    rule: "Variable annuities: (1) provide **less** security of principal than fixed annuities, since separate account values float with market performance; (2) are **not** limited to money market funds — they offer a broad menu of subaccount styles; (3) do **not** guarantee a minimum annuity payout, since payouts (like all variable product outcomes) depend on separate account performance; (4) commonly offer **20 or more subaccount investment options**, giving investors a wide range of allocation choices.",
+    watch: "This question tests the same recurring theme from several angles at once: variable products don't guarantee outcomes tied to performance (rules out 'guaranteed payout' and 'more principal security'), and they're built around investor choice (rules out 'only money market'). When in doubt, the option describing FLEXIBILITY/CHOICE is usually true for variable products, and the option describing a GUARANTEE tied to performance is usually false.",
+    quiz: [
+      {
+        q: "Variable annuities:",
+        options: [
+          "Generally provide more security of principal than fixed annuities",
+          "May invest only in money market mutual funds",
+          "Provide a guaranteed minimum annuity payout",
+          "May have 20 or more subaccount investment options"
+        ],
+        answer: 3,
+        explain: "Variable annuities offer a wide menu of subaccounts, often 20+, spanning many investment styles. A is false — fixed annuities, not variable, offer principal security via the general account. B is false — subaccounts span many fund types, not just money market. C is false — payouts fluctuate with separate account performance and are never guaranteed at a minimum."
+      }
+    ]
+  },
+  {
+    id: "annuity-true-false-fundamentals",
+    category: "Tax",
+    title: "Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis",
+    color: "#F97316",
+    analogy: "An annuity is like a savings jar that the IRS agrees not to peek into until you actually take money out — no annual tax bill on what's growing inside. When you do take money out randomly, they check the top of the jar (growth) before the bottom (your own contributions).",
+    rule: "Key annuity fundamentals: (1) Growth (dividends, interest, capital gains) inside an annuity is **tax-deferred** — NOT taxed annually; tax is only triggered on withdrawal. (2) Random/lump-sum withdrawals are taxed on a **LIFO** basis — earnings out first. (3) Money invested in a **nonqualified** annuity is the investor's **cost basis** (already-taxed dollars). (4) Upon withdrawal, any amount **exceeding cost basis** (i.e., the earnings) is taxed as **ordinary income**.",
+    watch: "Don't fall for 'taxes paid annually' as a description of annuities — deferral is the whole point of the product. Statements about mechanics (LIFO, cost basis, ordinary income treatment of earnings) are consistently true and echo across many exam questions in different wording — recognize the pattern rather than re-deriving it each time.",
+    quiz: [
+      {
+        q: "Which of the following is true with an annuity? I. Taxes on earned dividends, interest, and capital gains are paid annually until the owner withdraws money from the contract. II. Random withdrawals are taxed on a LIFO basis. III. Money invested in a nonqualified annuity represents the investor's cost basis. IV. Upon withdrawal, the amount exceeding the investor's cost basis is taxed as ordinary income.",
+        options: [
+          "I only",
+          "IV only",
+          "I, II, and IV",
+          "II, III, and IV"
+        ],
+        answer: 3,
+        explain: "I is false — annuity growth is tax-deferred, not taxed annually; that's the core feature of the product. II is true — random/lump-sum withdrawals follow LIFO. III is true — nonqualified contributions are, by definition, the investor's already-taxed cost basis. IV is true — the amount exceeding cost basis is the earnings portion, always taxed as ordinary income. That makes II, III, and IV correct."
+      }
+    ]
+  },
+  {
+    id: "bonus-annuity-initial-payment",
+    category: "Investment Companies",
+    title: "Bonus Annuity — Bonus Credited to the Initial Payment",
+    color: "#7C3AED",
+    analogy: "A bonus annuity is like a sign-on bonus at a new job — it's credited right away, at the start, as an incentive to get you to commit. It's not sprinkled across future paychecks (payment periods) or saved for the very end.",
+    rule: "A **bonus annuity** credits an extra percentage (commonly 3-5%) to the **initial premium payment** at the time of purchase, as a sign-on incentive to attract new customers. Because the insurer is handing over extra money upfront, bonus annuities typically carry **longer surrender charge periods** than standard annuities, to give the insurer time to recoup that bonus cost.",
+    watch: "Don't assume the bonus applies to the death benefit, spreads across every payment period, or arrives at the end of the contract — it's specifically a one-time credit applied to the initial payment. Pair this fact with the related concept: bonus annuities tend to have the longest surrender charge periods among annuity products, since the insurer needs time to recover the bonus.",
+    quiz: [
+      {
+        q: "When a client purchases an annuity with a 5% bonus, it means",
+        options: [
+          "The bonus is added to the death benefit",
+          "The bonus is included every payment period",
+          "The bonus is added to the initial payment",
+          "The bonus is added at the last payment"
+        ],
+        answer: 2,
+        explain: "A bonus annuity credits the extra percentage to the initial premium payment at purchase, as a sign-on incentive — not to the death benefit, not spread across every payment period, and not deferred to the final payment."
+      }
+    ]
+  },
+  {
+    id: "variable-annuity-iar-explanation-tax-deferred-equities",
+    category: "Suitability",
+    title: "Explaining Variable Annuities to Clients — Tax-Deferred Equity Exposure, Higher Costs",
+    color: "#FBBF24",
+    analogy: "A variable annuity is like a mutual fund wearing an insurance wrapper — the underlying investments behave similarly, but the insurance wrapper adds extra costs (for guarantees) and a tax-deferral benefit that a plain mutual fund doesn't have.",
+    rule: "The most accurate way to describe a variable annuity to a client: it offers the **opportunity to invest in equity securities on a tax-deferred basis**. Variable annuities are generally **more expensive** than mutual funds (not less), due to added insurance costs like the mortality & expense (M&E) charge that funds guarantees. The insurance company backs specific **guarantees** (e.g., a minimum death benefit), but does **not** back the performance of the separate account — that market risk sits with the investor. Variable annuities do not, by default, guarantee lifetime income at a fixed floor.",
+    watch: "Resist the 'mutual fund with lower costs' framing — it's backwards; variable annuities cost MORE than mutual funds due to insurance charges layered on top. Also don't overstate the insurer's guarantee — they back specific contract features (like a death benefit floor), never the separate account's investment performance itself.",
+    quiz: [
+      {
+        q: "A client received a prospectus for a variable annuity but doesn't understand the product. It would be reasonable for the IAR to explain that a variable annuity offers an investor:",
+        options: [
+          "The opportunity to invest in equity securities on a tax-deferred basis",
+          "A product very similar to a mutual fund but with lower costs and expenses",
+          "The insurance company's backing of the annuity's performance",
+          "Lifetime income guaranteed never to drop below the initial rate"
+        ],
+        answer: 0,
+        explain: "The core, accurate description of a variable annuity is tax-deferred equity market participation. B is wrong because variable annuities carry HIGHER costs than mutual funds due to insurance charges (like M&E fees). C is wrong because the insurer backs specific guarantees, not the separate account's investment performance. D is wrong because a guaranteed income floor isn't a default feature of the base product."
+      }
+    ]
+  },
+  {
+    id: "vli-conversion-privilege-disclosure",
+    category: "Regulations",
+    title: "VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap)",
+    color: "#FF6B6B",
+    analogy: "The conversion privilege disclosure is like the return policy sign posted at checkout: within 2 years, you can swap for a permanent policy from the same store, no questions asked about your health. Wrong-answer choices borrow language from a DIFFERENT sign nearby — the free-look period (a totally separate right to cancel shortly after purchase) — so don't let similar-sounding numbers and timeframes get mixed up.",
+    rule: "An agent presenting a VLI proposal must disclose the **conversion privilege**: within a set window (commonly ~2 years / 24 months), the insured may exchange the VLI policy for a **permanent** form of life insurance (e.g., whole life) issued by the **same company**, with **no additional evidence of insurability** required. This is a **contractual** feature of the policy (built in by the insurer), not a specific numbered exam-testable federal statute — though exam answer choices may loosely describe it as required/guaranteed. It should not be confused with the **free-look period** (45 days from application / 10 days from delivery, whichever is longer) — a separate, unrelated right to cancel a new policy shortly after purchase.",
+    watch: "Wrong-answer choices on this topic love to mix in language from other real annuity/life insurance rules to sound plausible — e.g., claiming the insurer can still require medical exams (contradicts 'no new evidence of insurability'), offering conversion into a menu of policy types instead of just a permanent policy, or substituting the free-look period's timeframe (45/10 days) for the actual 2-year conversion window. Isolate which specific right is being described before matching a timeframe to it.",
+    quiz: [
+      {
+        q: "An agent presenting a variable life insurance (VLI) policy proposal to a prospect must disclose which of the following about the insured's rights of exchange of the VLI policy?",
+        options: [
+          "The insured may request that the insurance company exchange the VLI policy for a permanent form of life insurance policy, issued by the same company, within two years. The insurance company retains the right to have medical examinations for underwriting purposes.",
+          "Federal law requires the insurance company to allow the insured to exchange the VLI policy for a permanent form of life insurance policy, issued by the same company, for two years with no additional evidence of insurability.",
+          "Within the first 18 months, the insured may exchange the VLI policy for either a permanent form of life insurance or a universal variable policy, issued by the same company, with no additional evidence of insurability.",
+          "The insurance company will allow the insured to exchange the VLI policy for a permanent form of life insurance policy within 45 days from the date of the application or 10 days from policy delivery, whichever is longer."
+        ],
+        answer: 1,
+        explain: "B best captures the substance of the conversion privilege: 2-year window, no new evidence of insurability, same company, exchange into a permanent policy. A is wrong because it contradicts 'no new evidence of insurability' by allowing medical exams. C is wrong because it offers a menu of policy types (including universal variable) rather than just a permanent policy, and uses the wrong timeframe (18 months). D describes the free-look period, a completely different right, not the conversion privilege."
+      }
+    ]
+  },
+  {
     id: "payment-for-order-flow-vs-soft-dollars-interpositioning",
     category: "Regulations",
     title: "Payment for Order Flow vs. Soft Dollars vs. Interpositioning",

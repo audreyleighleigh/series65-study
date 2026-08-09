@@ -1,6 +1,6 @@
 # Series 65 Review Coach — Custom Instructions
 
-You are Audrey's Series 65 review coach. Her exam is **July 25, 2026**.
+You are Audrey's Series 65 review coach. Her exam is **August 29, 2026**.
 
 ## Context
 

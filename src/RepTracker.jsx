@@ -13,6 +13,7 @@ const UNITS = Array.from({ length: 24 }, (_, i) => ({
 }));
 
 const STORAGE_KEY = "s65-reps";
+const FORMULA_STORAGE_KEY = "s65-formula-reps";
 
 function loadReps() {
   try {
@@ -29,6 +30,21 @@ function saveReps(reps) {
   } catch {}
 }
 
+function loadFormulaReps() {
+  try {
+    const raw = localStorage.getItem(FORMULA_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : { count: 0, lastAt: null };
+  } catch {
+    return { count: 0, lastAt: null };
+  }
+}
+
+function saveFormulaReps(f) {
+  try {
+    localStorage.setItem(FORMULA_STORAGE_KEY, JSON.stringify(f));
+  } catch {}
+}
+
 function keyFor(unitId, activityId) {
   return `${unitId}-${activityId}`;
 }
@@ -41,10 +57,23 @@ function formatShortDate(iso) {
 
 export default function RepTracker() {
   const [reps, setReps] = useState(loadReps);
+  const [formulaReps, setFormulaReps] = useState(loadFormulaReps);
 
   const persist = (next) => {
     setReps(next);
     saveReps(next);
+  };
+
+  const incrementFormula = () => {
+    const next = { count: formulaReps.count + 1, lastAt: new Date().toISOString() };
+    setFormulaReps(next);
+    saveFormulaReps(next);
+  };
+  const decrementFormula = () => {
+    if (formulaReps.count <= 0) return;
+    const next = { count: formulaReps.count - 1, lastAt: formulaReps.lastAt };
+    setFormulaReps(next);
+    saveFormulaReps(next);
   };
 
   const increment = (unitId, activityId) => {
@@ -107,6 +136,18 @@ export default function RepTracker() {
         .rp-total-cell { padding: 12px 6px; text-align: center; align-self: center; border-left: 1px solid #1a1816; font-family: 'Source Code Pro', monospace; font-weight: 700; font-size: 12px; color: #F97316; }
         .rp-footer .rp-total-cell { color: #F97316; font-size: 13px; }
         .rp-hint { font-size: 10px; color: #444; text-align: center; margin-top: 20px; font-style: italic; }
+        .rp-formula-card { background: #111009; border: 1px solid #1e1c1a; border-radius: 6px; padding: 16px 18px; margin-bottom: 24px; display: flex; align-items: center; gap: 16px; }
+        .rp-formula-left { flex: 1; min-width: 0; }
+        .rp-formula-title { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #f0e8d8; line-height: 1.2; margin-bottom: 4px; }
+        .rp-formula-sub { font-size: 10px; color: #666; letter-spacing: 0.12em; text-transform: uppercase; }
+        .rp-formula-date { font-size: 10px; color: #555; margin-top: 6px; letter-spacing: 0.05em; }
+        .rp-formula-right { display: flex; align-items: center; gap: 8px; }
+        .rp-formula-count { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 700; color: #FBBF24; line-height: 1; min-width: 44px; text-align: right; }
+        .rp-formula-plus { background: none; border: 1px solid #FBBF24; border-radius: 4px; color: #FBBF24; font-family: inherit; font-size: 20px; font-weight: 600; padding: 6px 14px; cursor: pointer; transition: all 0.15s; line-height: 1; }
+        .rp-formula-plus:hover { background: #1f1a09; }
+        .rp-formula-minus { background: none; border: 1px solid #2a2824; border-radius: 4px; color: #666; font-family: inherit; font-size: 14px; padding: 6px 10px; cursor: pointer; line-height: 1; }
+        .rp-formula-minus:hover { color: #c0392b; border-color: #c0392b; }
+        .rp-formula-minus:disabled { opacity: 0.3; cursor: not-allowed; }
         @media (max-width: 500px) {
           .rp-row { grid-template-columns: 52px repeat(3, 1fr) 38px; }
           .rp-unit-label { padding: 10px 4px 10px 10px; font-size: 10px; }
@@ -131,6 +172,36 @@ export default function RepTracker() {
           {ACTIVITIES.map(a => (
             <div key={a.id}>{a.label.toUpperCase()}: <strong style={{ color: "#F97316" }}>{activityTotal(a.id)}</strong></div>
           ))}
+        </div>
+      </div>
+
+      <div className="rp-formula-card">
+        <div className="rp-formula-left">
+          <div className="rp-formula-title">Formula Sheet Rewrite</div>
+          <div className="rp-formula-sub">Daily rewrite · memorize the sheet</div>
+          <div className="rp-formula-date">
+            {formulaReps.lastAt
+              ? `Last done ${formatShortDate(formulaReps.lastAt)}`
+              : "Not started yet"}
+          </div>
+        </div>
+        <div className="rp-formula-right">
+          <button
+            className="rp-formula-minus"
+            onClick={decrementFormula}
+            disabled={formulaReps.count === 0}
+            title="Undo one rewrite"
+          >
+            −
+          </button>
+          <div className="rp-formula-count">{formulaReps.count}</div>
+          <button
+            className="rp-formula-plus"
+            onClick={incrementFormula}
+            title="Log a rewrite"
+          >
+            +1
+          </button>
         </div>
       </div>
 

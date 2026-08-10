@@ -2,6 +2,7 @@ import { useState } from "react";
 import StudyGuide from "./StudyGuide.jsx";
 import FormulaSheet from "./FormulaSheet.jsx";
 import SessionJournal from "./SessionJournal.jsx";
+import RepTracker from "./RepTracker.jsx";
 
 const EXAM_DATE = new Date("2026-08-29");
 
@@ -190,12 +191,14 @@ export default function App() {
           <button className={`tab-btn ${tab === "guide" ? "active" : ""}`} onClick={() => setTab("guide")}>Study Guide</button>
           <button className={`tab-btn ${tab === "formulas" ? "active" : ""}`} onClick={() => setTab("formulas")}>Formulas</button>
           <button className={`tab-btn ${tab === "journal" ? "active" : ""}`} onClick={() => setTab("journal")}>Journal</button>
+          <button className={`tab-btn ${tab === "reps" ? "active" : ""}`} onClick={() => setTab("reps")}>Reps</button>
         </div>
       </div>
 
       {tab === "guide" && <StudyGuide />}
       {tab === "formulas" && <FormulaSheet />}
       {tab === "journal" && <SessionJournal />}
+      {tab === "reps" && <RepTracker />}
 
       {tab === "log" && <div className="layout">
         <div className="wrap">

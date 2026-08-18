@@ -131,8 +131,9 @@ export default function RepTracker() {
         .rp-plus.hot { border-color: #F97316; color: #F97316; }
         .rp-count { font-family: 'Source Code Pro', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.05em; }
         .rp-date { font-size: 8px; color: #555; letter-spacing: 0.05em; margin-top: 1px; min-height: 10px; }
-        .rp-minus { position: absolute; top: 4px; right: 4px; background: none; border: none; color: #444; font-size: 11px; cursor: pointer; padding: 0 4px; line-height: 1; }
-        .rp-minus:hover { color: #c0392b; }
+        .rp-minus { position: absolute; top: 4px; right: 4px; background: none; border: 1px solid #2a2824; border-radius: 3px; color: #666; font-size: 12px; font-weight: 600; cursor: pointer; padding: 1px 6px; line-height: 1; transition: all 0.15s; }
+        .rp-minus:hover:not(:disabled) { color: #c0392b; border-color: #c0392b; }
+        .rp-minus:disabled { opacity: 0.25; cursor: not-allowed; }
         .rp-total-cell { padding: 12px 6px; text-align: center; align-self: center; border-left: 1px solid #1a1816; font-family: 'Source Code Pro', monospace; font-weight: 700; font-size: 12px; color: #F97316; }
         .rp-footer .rp-total-cell { color: #F97316; font-size: 13px; }
         .rp-hint { font-size: 10px; color: #444; text-align: center; margin-top: 20px; font-style: italic; }
@@ -222,15 +223,14 @@ export default function RepTracker() {
               const isZero = c.count === 0;
               return (
                 <div className={`rp-cell ${isZero ? "zero" : ""}`} key={a.id}>
-                  {!isZero && (
-                    <button
-                      className="rp-minus"
-                      onClick={() => decrement(u.id, a.id)}
-                      title="Undo one rep"
-                    >
-                      −
-                    </button>
-                  )}
+                  <button
+                    className="rp-minus"
+                    onClick={() => decrement(u.id, a.id)}
+                    disabled={isZero}
+                    title="Undo one rep"
+                  >
+                    −
+                  </button>
                   <button
                     className={`rp-plus ${isZero ? "" : "hot"}`}
                     onClick={() => increment(u.id, a.id)}

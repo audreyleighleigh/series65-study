@@ -1,6 +1,6 @@
 # Series 65 Study Deck
 
-_Auto-generated from src/data.js. 251 concept cards across 9 categories._
+_Auto-generated from src/data.js. 260 concept cards across 9 categories._
 
 ## How to use this deck
 
@@ -15,12 +15,12 @@ When Audrey misses a question, don't just correct — re-explain via the analogy
 ## Contents
 
 - **Alternative Investments** (9 cards): Alternative Investments: Key Characteristics · DPPs: Direct Participation Programs · ETNs: Exchange-Traded Notes · Leveraged ETFs: How They Work & Suitability · Precious Metals vs Base/Industrial Metals · Fixed-Premium Variable Life — Death Benefit vs. Cash Value · Variable Life → Whole Life Conversion Privilege · Universal Life — Defined by Flexibility, Not Fixed Premiums · Term Life — Increasing Premiums, No Cash Value
-- **Bonds** (18 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies · Total Return — Income Plus Capital Gain/Loss
+- **Bonds** (19 cards): Money Market Mutual Funds — What They Can Hold · The Yield Hierarchy · Bond Features & Borrowing Cost · Discount vs Interest-Bearing · Credit Ratings & Junk Bonds · Treasuries vs Agency Issues · Yield Curve Analysis: What It Compares · Retiring Bonds at a Discount · Statement of Cash Flows — Net Change in Cash · Fixed (Long-Term) vs. Current Liabilities · Owners' Equity & the Accounting Equation · Risks Most Associated with U.S. Treasury Bonds · Bond Price Sensitivity — Maturity Length + Premium/Discount · Calling Bonds at a Premium — Effect on Working Capital & Net Worth · NPV vs. IRR — Reinvestment Rate Assumptions · NPV Sign — Comparing IRR to Required Rate of Return · Bullet, Barbell, and Laddering Bond Strategies · Total Return — Income Plus Capital Gain/Loss · YTM's Hidden Assumption — Reinvestment at the Same Rate
 - **Derivatives** (9 cards): Put Options: Rights, Obligations & Strategies · Long Call vs Short Put: Unlimited Risk Profiles · Covered Calls: Locked-In Income in Flat Markets · Options Commission Calculations: Tiered Brackets · Straddles: Profiting from Big Moves in Either Direction · Options Suitability: Time Horizon & Risk Profile Matching · Hedging a Portfolio with Index Puts · Hedging a Short Stock Position with Calls · Long Hedge vs. Short Hedge Using Futures
 - **Equities** (33 cards): Stock Dividends & Splits · Emerging Market Stocks — Risks Present vs Absent · Preemptive Rights — Common Only, Not Preferred · Preferred Stock vs Bonds — Risks When Substituted for Income · Record Date — Who Gets to Vote · Liquidation Priority · Sector Rotation & the Business Cycle · Cash Flow Statement: Investing Activities · Dividends Payable on the Balance Sheet · Components of Net Worth (Stockholders' Equity) · Retained Earnings: Ending Balance Calculation · What Increases a Company's Cash Flow · Current vs. Long-Term Liabilities on the Balance Sheet · Depreciation Add-Back: Indirect Method of Operating Cash Flow · Components of Owners' Equity on the Balance Sheet · Cash Dividends — Declaration vs. Payment Effects · Why Utilities Are Most Sensitive to Rising Interest Rates · Risk Profile of Common Stock — What's Present, What's Not · Earnings Per Share (EPS) · Dividend Yield — Don't Forget to Annualize · Book Value Per Share — What Gets Subtracted from Net Worth · Current Ratio — What Belongs in the Calculation · Gross Margin — Formula & What Doesn't Belong · Dividend Payout Ratio — Don't Forget to Annualize · Support & Resistance Levels · Fundamental vs. Technical Analysis · Which Common Stock Valuation Methods Are Actually DCF · Technical Theories — Odd Lot, Breadth of Market, Advance/Decline, Short Interest · Specialist (Exchange Floor) vs. Market Maker (OTC) · Stop Orders — What They Do (and Don't Guarantee) · Stop-Limit Orders — Trigger Price vs. Execution Price · Primary Market vs. Secondary Market · Reading a Market Maker Quote — Bid, Ask, and Spread
 - **Global** (10 cards): Sovereign Debt & Bond Sensitivity · Business Cycle Phases · Federal Reserve Monetary Policy Tools · Monetarist Economic Theory · Interest Rate Hierarchy · Currency Devaluation & Trade Effects · Balance of Payments: Credits & Debits · Recession Definition · Fiscal vs. Monetary Policy · Inflation Inertia
 - **Investment Companies** (26 cards): Mutual Fund Share Classes · Open-End vs. Closed-End Funds · Exchange-Traded Funds (ETFs) · Investment Company Act of 1940 · Fund Exchange Privileges & Switching · Private Equity vs. Venture Capital · Limited Partnerships · No-Load Funds & 12b-1 Fees · Real Estate Investment Trusts (REITs) · Mutual Fund Pricing & Forward Pricing · Share Class Suitability · Letter of Intent & Rights of Accumulation · Private Funds vs. Growth-Oriented Funds · ETFs vs. Closed-End Funds · Unit Investment Trusts (UITs) · What's Included in NAV Calculation · Mutual Fund Types by Objective · Breakpoints, Rights of Accumulation & Sales Charge Discounts · Fund of Hedge Funds · Closed-End vs. Open-End Fund Pricing (and How to Spot Which One You Have) · Balanced Fund: Defined by Its Mix of Asset Classes · Cash Distributions vs. Reinvestment in a Front-End Load Fund · Dollar Cost Averaging — Average Cost vs. Average Price · Annuities — Two Independent Choices: Fixed/Variable AND Single/Periodic · Variable Annuities — No Guarantees, Wide Subaccount Menu · Bonus Annuity — Bonus Credited to the Initial Payment
-- **Regulations** (90 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will · Market Manipulation — Pegging, Front Running, Matched Orders · Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements · Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements · VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap) · Payment for Order Flow vs. Soft Dollars vs. Interpositioning
+- **Regulations** (98 cards): Affiliate Status & Rule 144 · Rule 144 — Holding Period vs. Volume Limit · Municipal Securities & Tax Equivalence · ICA 1940: Investment Advisory Contract Requirements · SEC Form 8-K: Current Report for Material Events · Form 8-K: Board Resignations and Leadership Changes · Annual Report vs. Form 10-K — Planned Operations · Audit Opinions — Unqualified to Adverse · Form 8-K — Material Event Reporting · LATE Professional Exclusion · Private Fund Adviser Exemption (USA) — Two Paths · Administrator Powers — Financial Requirements · Investment Adviser Net Worth Deficiency — Required Response · Investment Adviser Definition — Who's Excluded (and Why) · Adviser to a Registered Investment Company — Mandatory SEC Registration · Investment Adviser Recordkeeping — Two Retention Regimes · SEC vs. State Registration — AUM Thresholds & Withdrawal Deadline · Federal Covered Adviser · State IA Registration: Place of Business & De Minimis Exemption · IAR Supervision: Who's Responsible? · IA Registration Thresholds: Standard, Pension Consultant & Fund Adviser · IA Registration: Initial Application vs. Annual Renewal · Out-of-State IA Exemption: Institutional Clients Only · Federal Covered: Adviser vs. Security (Don't Confuse Them) · Dodd-Frank Three-Tier IA Registration Framework · Government Securities Adviser: Excluded at Both Federal AND State Level · Form PF: Who Must File and Why · When a Broker-Dealer Becomes an Investment Adviser: The Special Compensation Trigger · Venture Capital Fund Adviser Exemption: No AUM Threshold · Post-Closure Recordkeeping: Obligations Survive the Business · Regulatory AUM: What Counts and What Doesn't · Principal Office and Place of Business: The Regulatory Term for HQ · When State IA Registration Is Actually Required: Process of Elimination · 120-Day New Adviser Exemption: Skip State, Go Straight to SEC · December 31: Universal Registration Expiration Date · Out-of-State IA Exemption: Which Client Types Actually Qualify · Exempt Reporting Adviser (ERA): Exempt from Registration, Not from Reporting · Release IA-1092: The 'In the Business' Standard · IAR Registration: Jurisdiction by Employer Type · Indirect Compensation & the Comprehensive Financial Plan Rule · Uniform Securities Act: Model Law & Administrator Authority · Website Updates & Recordkeeping · Broker-Dealer Registration: Place of Business Is the Gatekeeper · Broker-Dealer Definition: Banks Are Excluded, Not Just Exempt-Adjacent · Registration Mechanics: Who Files, Agent Effectiveness, No Auto-Renewal · Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan) · What an Agent Applicant CAN Do While Registration Is Pending · Broker-Dealer Registration: 30-Day Effective Date Default · Surety Bonds: Net Capital Excess Exempts, It Doesn't Stack · BD Employees Can't Borrow the Security's Exemption · One Agent, One Firm — Unless the Administrator Says Otherwise · Identifying a Broker-Dealer: Raising Your Own Capital vs. Acting for Others · Consent to Service of Process: Original Application Only, Permanent Filing · Agent Registration: Solicitation Triggers It, Job Title Doesn't Excuse It · Broker-Dealer SEC Exemption: The Intrastate Carve-Out · Agent Exclusions: Job Title Doesn't Matter, Described Activity Does · Broker-Dealer Recordkeeping: 5 Years Total, First 2 in the Principal Office · Cease & Desist vs. Stop Order, and the No-Fault Exits · Who's Liable — Beyond the Person Who Made the Sale · Criminal Penalties & SEC Powers — The 5-5-3 Anchor · Advisory Contract — The 7 Required Elements · Advisory Contract Assignment — Minority vs. Majority · Advisory Contract — What's Prohibited · Form ADV Part 2 — The Three Parts · Form ADV Part 2B — Who Gets a Supplement & What's In It · Form ADV — Balance Sheet Requirements · Wrap Fee Programs — What They Are & Who They're For · Selling an IA Firm — No Approval, But Assignment Rules Apply · Advertising a Stock-Picking System — Required Disclosures · Unreasonable Advisory Fees — What Crosses the Line · IA Firm Names — When Your Name Becomes a Performance Claim · IA Advertising — What's Acceptable Under the SEC Marketing Rule · Agency Cross Transactions — The One Rule That Never Bends · Assignment — Three Scenarios That All Count · Principal Transactions — The Recommendation Is the Trigger · Balance Sheet in Brochure — When It's Required · Tenants in Common (TIC) vs. JTWROS · Totten Trust: The Informal 'Poor Man's Will' Bank Account · Who Can Open & Serve as Custodian for a UGMA/UTMA · The Prudent Expert Rule · ERISA Protects Private-Sector Employees Only · ERISA Coverage — Which Plan Types Are Exempt · Requirements for a Fiduciary to Trade Options in a Trust · ERISA Section 404(c) Safe Harbor Requirements · Beneficiary Designations Bypass Probate & the Will · Market Manipulation — Pegging, Front Running, Matched Orders · Margin Account Documents — Hypothecation, Credit, and Loan Consent Agreements · Fully Disclosed vs. Omnibus Broker-Dealer/Clearing Arrangements · Rule 501 — Accredited Investor Categories & Thresholds · Net Worth Test — Primary Residence & Non-Spousal Joint Property · 'Eligibility Does Not Equal Suitability' — The Regulators' Motto · Form D — Filed Within 15 Days After First Sale · 20-Day Cooling-Off Period — Do's and Don'ts · Red Herring (Preliminary Prospectus) — What's Missing, What's Prohibited · State Registration Methods — Notice Filing / Coordination / Qualification · USA Antifraud Provisions — Universal Application (with One Real Limit) · VLI Conversion Privilege — Required Disclosure (and the Free-Look Trap) · Payment for Order Flow vs. Soft Dollars vs. Interpositioning
 - **Suitability** (22 cards): Client Suitability & STRIPS · Suitability: The Fact-by-Fact Matching Method · When Municipal Bonds Are the WRONG Answer · Time Horizon: What It Actually Measures · Financial vs. Nonfinancial Considerations · What Belongs in an Investment Policy Statement (IPS) · Asset Allocation Funds — What They Can Hold (and What They Can't) · Asset Allocation Under High Inflation Expectations · Types of Investment Risk — Business, Market, Money-Rate, Purchasing Power · Risk Measurement Tools vs. Time Value of Money · Using Standard Deviation to Compare Portfolio Volatility · Identifying Discounted Cash Flow (DCF) Computations · Alpha — Measuring Risk-Adjusted Performance · Capital Asset Pricing Model (CAPM) · Modern Portfolio Theory — Key Terms & the Efficient Frontier · Tactical vs. Strategic Asset Allocation · Growth vs. Value — Contrasting Portfolio Management Styles · Belief in Market Efficiency Drives Active vs. Passive Strategy · Efficient Market Hypothesis — Weak, Semistrong, and Strong Forms · Domestic Stock Market Indexes — Breadth & Composition · 1035 Exchange — Tax-Free ≠ Suitable (Watch the Surrender Clock) · Explaining Variable Annuities to Clients — Tax-Deferred Equity Exposure, Higher Costs
 - **Tax** (34 cards): ISOs vs NQSOs · Alimony — The 2019 Cutoff Rule · Passive Income & Losses — The Isolation Rule · Interest & Dividend Income — Tax Rate Matrix · DRIPs & Reinvested Distributions — Cost Basis Math · Marginal vs. Effective Tax Rate · Income Categories + Exam Trap Survival Guide · Business Entity Tax Filing Deadlines · Grantor Trust: Who Gets Taxed on Trust Income · Which Trusts Use the Unified Estate Tax Credit · Irrevocable Trust: The Main Reason to Use One · Calculating Net (Taxable) Estate: The Waterfall · Nonspouse Inherited IRA Options · 403(b) + 457 Plan Stacking for Public Employees · 529 Plan vs. Coverdell ESA · Defined Benefit vs. Defined Contribution Plans · Deferred Compensation Plans — Retaining Key Employees · Qualified Pension Plan Requirements · 529 Plan Superfunding — 5-Year Gift Tax Election · Net Unrealized Appreciation (NUA) on Employer Stock · RMD Requirements Across Account Types · Kiddie Tax on Custodial Account Income · HSA Funds & Insurance Premiums — What Qualifies · What Reduces IRA Contribution Amount vs. Deductibility · Qualified Disclaimers — Refusing an Inheritance · Coverdell ESA — Rolling Funds to Another Family Member · Prohibited IRA Investments — Life Insurance & Collectibles · FAFSA Asset Treatment — Why Ownership Matters More Than Account Type · Required Beginning Date (RBD) — First RMD Grace Period · Calculating Inflation-Adjusted Future Costs · Nonqualified Annuity — Lump-Sum Taxation (LIFO) · Annuities Have No IRS Contribution Limit · Annuitized Payments (incl. Period Certain) — Ordinary Income via Exclusion Ratio · Annuity Fundamentals — Tax Deferral, LIFO, Cost Basis
 
@@ -1105,6 +1105,34 @@ _id: `total-return-income-plus-capital-gain` · category: Bonds_
    ✓ C) The coupons were reinvested at a rate exceeding the yield to maturity
      D) The bond was called at a premium
    _Explanation:_ YTM assumes all coupon payments are reinvested at that same YTM rate. If an investor actually reinvests coupons at a HIGHER rate than the YTM, their realized (holding period) return will exceed the original YTM. A: buying a put is a separate hedging transaction, unrelated to the reinvestment mechanism. B: being redeemed at a discount would reduce realized return, not increase it. D: being called at a premium is a tempting distractor, but the question stem specifically points toward the reinvestment/income mechanism, not the call-premium concept.
+
+---
+
+## YTM's Hidden Assumption — Reinvestment at the Same Rate
+
+_id: `ytm-reinvestment-assumption` · category: Bonds_
+
+**Analogy.** Think of YTM as a "package deal" promise, not a price tag. A farmer buys a fruit tree promised to yield 5.5% a year for 20 years — but only if every piece of fruit picked along the way gets replanted immediately in equally good soil. Eat the fruit instead (spend the coupons) or replant in worse soil (reinvest at a lower rate), and you never actually harvest what was promised.
+
+**Rule.** YTM is a promise about the bond PLUS what you do with every coupon along the way — not the bond alone. It only holds true if: (1) you hold the bond to maturity, and (2) every coupon is reinvested at that same YTM rate. Reinvest at a lower rate, and your actual realized return falls short of the quoted YTM.
+
+**Watch.** This is exactly why reinvestment risk exists — an investor can't control future rates any more than a farmer controls next year's soil. The gap between quoted YTM and what you actually earn IS reinvestment risk; they're two sides of the same coin. Higher-coupon, longer-maturity bonds carry more of this risk since there's more cash flow that needs a new home.
+
+**Quiz.**
+
+1. A bond's quoted yield to maturity (YTM) will equal an investor's actual realized return only if which of the following is true?
+   ✓ A) The bond is held to maturity and all coupon payments are reinvested at the YTM rate
+     B) The bond is sold immediately after purchase
+     C) Interest rates rise sharply during the holding period
+     D) The issuer calls the bond early
+   _Explanation:_ YTM assumes two things: the bond is held to maturity AND every coupon is reinvested at that same rate. If coupons are spent or reinvested at a different (usually lower) rate, the investor's actual return diverges from the quoted YTM — that gap is reinvestment risk.
+
+2. Reinvestment risk is greatest for which type of bond?
+   ✓ A) A high-coupon, long-maturity bond
+     B) A zero-coupon bond
+     C) A T-bill maturing in 4 weeks
+     D) A bond purchased at a deep discount
+   _Explanation:_ More coupon cash flow over a longer period means more reinvestment decisions exposed to future rate uncertainty. Zero-coupon bonds have no periodic coupons to reinvest, so they carry no reinvestment risk (this is why they're used to lock in a known compound return).
 
 ---
 
@@ -6499,6 +6527,209 @@ _id: `fully-disclosed-omnibus-clearing` · category: Regulations_
      C) The clearing firm has no relationship with the introducing firm at all
      D) Omnibus arrangements are illegal under the Securities Exchange Act
    _Explanation:_ In an omnibus arrangement, customer accounts are combined into one bulk account at the clearing firm level, with individual customer identities not disclosed — the introducing firm alone tracks which portion belongs to which customer, unlike a fully disclosed arrangement.
+
+---
+
+## Rule 501 — Accredited Investor Categories & Thresholds
+
+_id: `rule-501-accredited-investor-categories` · category: Regulations_
+
+**Analogy.** Being an accredited investor is like getting into a VIP lounge — the bouncer (Rule 501) checks either your bank account, your paycheck history, or your credentials at the door. You get in one of several ways: raw wealth ($1M net worth), high income ($200K/$300K sustained), being an insider of the issuer, or holding one of three specific licenses (Series 7, 65, or 82).
+
+**Rule.** SEC Rule 501 accredited-investor categories (Reg D private placements): **individuals** — (a) individual OR joint-with-spouse **net worth > $1M**, EXCLUDING primary residence, OR (b) individual income **> $200K** in each of the last 2 years OR joint income **> $300K**, with reasonable expectation of same in current year; **entities** — banks, insurance companies, registered ICs; charities, corporations, LLCs, or partnerships with **assets > $5M**; entities made up entirely of accredited investors; **insiders** — directors, executive officers, GPs of the issuer; **licensees** — holders of Series 7, Series 65, or Series 82; **investment advisers** — SEC-registered, state-registered, OR exempt reporting advisers; **knowledgeable employees** of a private fund (only for their fund's offerings).
+
+**Watch.** Two consistent traps: (1) the net worth number is **$1M** for individuals, **$5M** for entities — don't cross them. (2) The income test is **two most recent years plus reasonable expectation of the current year** — not just one year, and not just current-year expectation. Also the term applies **only to private placements** — being accredited doesn't matter for public offerings.
+
+**Quiz.**
+
+1. Which of the following would qualify as an accredited investor under SEC Rule 501?
+   ✓ A) An individual with a $250,000 income in each of the past two years, expected to continue
+     B) A married couple with $290,000 joint income last year and $310,000 the prior year, expected to continue
+     C) An individual whose primary residence is worth $2 million with no other assets
+     D) A charitable organization with $3 million in total assets
+   _Explanation:_ A individual with $200K+ income in each of the last 2 years, with reasonable expectation of continuing, qualifies. B fails because joint income must be $300K+ in EACH of the last 2 years — one year at $290K breaks it. C fails because primary residence is EXCLUDED from the net worth calculation. D fails because the entity asset threshold is $5M, not $3M.
+
+2. An individual with joint net worth (with spouse) of $1.4 million, including $500,000 of net equity in the primary residence, wants to invest in a Regulation D offering. Is she an accredited investor?
+     A) Yes — joint net worth exceeds the $1 million threshold
+   ✓ B) No — after excluding the $500,000 primary residence equity, joint net worth is $900,000
+     C) Yes — but only if the couple also has $200,000 of annual income
+     D) No — joint net worth only counts if held with a business partner
+   _Explanation:_ The net worth test EXCLUDES the net equity in the primary residence. $1.4M − $500K = $900K, below the $1M threshold, so she doesn't qualify. A ignores the primary-residence exclusion. C invents a joint income requirement that doesn't stack with net worth. D is nonsense — joint net worth is specifically for spouses/spousal equivalents.
+
+---
+
+## Net Worth Test — Primary Residence & Non-Spousal Joint Property
+
+_id: `accredited-investor-net-worth-joint-property` · category: Regulations_
+
+**Analogy.** Two rules trim your net worth calculation like tailoring a garment. First: subtract the net equity in your primary residence — that piece isn't counted. Second: if you own something jointly with someone who ISN'T your spouse, you only get to count YOUR percentage of it, not the whole thing.
+
+**Rule.** For the Rule 501 net worth test: (1) **exclude the net equity in the primary residence** — home value minus mortgage. (2) Assets held **jointly with a spouse or spousal equivalent** count in full toward joint net worth. (3) Assets held **jointly with a non-spouse** (e.g., a business partner, sibling, adult child) may be included **only to the extent of the purchaser's percentage ownership** of that account or property.
+
+**Watch.** Watch three specific traps: (1) primary residence — the ENTIRE house value doesn't come off, only the NET EQUITY (value minus mortgage). Underwater mortgage even gets ADDED back as a liability. (2) 'Spousal equivalent' is a modern extension of 'spouse.' (3) Non-spousal joint ownership is pro-rata — 50% owner of a $2M joint brokerage account = $1M counted, not $2M.
+
+**Quiz.**
+
+1. A client owns a $600,000 primary residence with a $500,000 mortgage, plus a $1.2 million brokerage account held jointly with her adult daughter, in which she has a 50% ownership interest. She has no other assets or liabilities. What is her net worth for Rule 501 purposes?
+   ✓ A) $600,000
+     B) $700,000
+     C) $1,200,000
+     D) $1,800,000
+   _Explanation:_ Primary residence net equity ($600K − $500K = $100K) is EXCLUDED. The joint brokerage account counts only for her 50% ownership interest = $600K. Total qualifying net worth = $600K. A: correct. B: wrongly adds back primary residence equity. C: wrongly counts the entire joint account. D: makes both mistakes at once.
+
+---
+
+## 'Eligibility Does Not Equal Suitability' — The Regulators' Motto
+
+_id: `eligibility-does-not-equal-suitability` · category: Regulations_
+
+**Analogy.** Being ACCREDITED is like having a license to drive a Formula 1 car — legally, you can. Being SUITABLE for that car is another question entirely: are you actually a race-car driver? The credentials only get you through the door; whether the investment fits your situation is a separate check no one gets to skip.
+
+**Rule.** '**Eligibility does not equal suitability**' is a favorite regulator phrase. Meeting the financial thresholds to be an accredited investor (Rule 501) makes a person ELIGIBLE to invest in a private placement — it does NOT relieve the recommending professional of the duty to determine that the investment is SUITABLE for that particular client's objectives, risk tolerance, time horizon, and overall portfolio.
+
+**Watch.** Answer choices sometimes suggest that a client's accredited status alone justifies a recommendation. Wrong — accreditation opens the door but the suitability analysis still happens on the client side. Even a billionaire needs a suitability determination if a rep is making a recommendation.
+
+**Quiz.**
+
+1. An IAR recommends a highly speculative Regulation D private placement to a client whose net worth exceeds $10 million but whose stated objectives are conservative income and capital preservation. The client is an accredited investor. This recommendation is:
+     A) Suitable, because the client meets accredited investor thresholds
+     B) Suitable, because Regulation D offerings are exempt from suitability review
+   ✓ C) Unsuitable, because eligibility does not equal suitability
+     D) Suitable, because private placements are only offered to accredited investors
+   _Explanation:_ Being accredited only lets the client legally participate — the recommendation still has to match the client's stated objectives. Speculative investments contradict conservative income/preservation goals, making this unsuitable regardless of wealth. A conflates eligibility and suitability. B invents an exemption that doesn't exist. D describes a marketing fact, not a suitability standard.
+
+---
+
+## Form D — Filed Within 15 Days After First Sale
+
+_id: `form-d-15-day-filing` · category: Regulations_
+
+**Analogy.** Form D is like the note you have to leave the SEC after you've had a private party. You don't need permission to throw it (Reg D exempts registration), but within 15 days of the first guest walking in (first sale), you file a quick record saying 'yes, this happened.'
+
+**Rule.** Under **Rule 503 of Regulation D**, an issuer relying on Reg D to sell securities without full registration must file **Form D electronically with the SEC no later than 15 days after the first sale** of securities in the offering. It's a notice filing — not a request for approval, not a full registration.
+
+**Watch.** The 15-day clock starts at the **first sale**, not the offering announcement, not the private placement memorandum's date, not the last sale. Also don't confuse Form D (private placement notice) with Form D of anything else — this specific 15-day rule is Reg D's signature filing requirement.
+
+**Quiz.**
+
+1. An issuer conducting a private placement in reliance on Regulation D must file Form D with the SEC:
+     A) Before offering securities to any prospective purchaser
+   ✓ B) No later than 15 days after the first sale of securities in the offering
+     C) Within 30 days of the offering's completion
+     D) Only if the total amount raised exceeds $5 million
+   _Explanation:_ Rule 503 sets the deadline at 15 days after the first sale. A is wrong — Reg D specifically avoids pre-offering registration. C invents the wrong trigger and timeframe. D invents a dollar threshold that doesn't exist for Form D.
+
+---
+
+## 20-Day Cooling-Off Period — Do's and Don'ts
+
+_id: `cooling-off-period-20-days` · category: Regulations_
+
+**Analogy.** The cooling-off period is like the waiting room between filing the paperwork and being cleared to sell. The clock reads a minimum of 20 calendar days (often longer in practice). While in the room, you can talk about the offering and hand out preliminary materials, but you can't take orders or accept money — the door to actual sales stays locked until the SEC declares the registration effective.
+
+**Rule.** After an issuer files a registration statement with the SEC, a **cooling-off period** of at least **20 calendar days** begins before the registration can become effective. In practice, this period is often longer (weeks or months) because of SEC comments. **During the cooling-off period, underwriters and agents MAY**: take indications of interest, distribute preliminary prospectuses (red herrings), publish tombstone advertisements. They **MAY NOT**: take orders, accept money, distribute sales literature or advertising material, declare the final POP.
+
+**Watch.** The two lists cut cleanly: PERMITTED = preparation and interest-gathering (red herring, tombstone, non-binding IOIs). PROHIBITED = anything that closes a sale (orders, money, sales literature, final price). If a question describes an agent 'accepting a small deposit' or 'confirming a purchase' during cooling-off, that's a violation.
+
+**Quiz.**
+
+1. During the cooling-off period after a registration statement has been filed with the SEC, an agent may:
+   ✓ A) Accept a nonbinding indication of interest from a prospective purchaser
+     B) Accept a small deposit toward the eventual purchase price
+     C) Distribute a final sales brochure describing the offering
+     D) Confirm the trade if the customer signs a binding agreement
+   _Explanation:_ Nonbinding indications of interest are permitted during the cooling-off period — the whole point is to gauge demand ahead of the effective date. B is prohibited (no money accepted before effective). C is prohibited (no sales literature/advertising before effective). D is prohibited (no orders/confirmations before effective).
+
+2. The cooling-off period under the Securities Act of 1933:
+     A) Lasts exactly 20 calendar days
+   ✓ B) Is a minimum of 20 calendar days from the filing date but is often longer in practice
+     C) Ends when the underwriter completes due diligence
+     D) Is at the discretion of the state securities Administrator
+   _Explanation:_ The 20-day minimum is federal (Securities Act of 1933), but the SEC often takes longer to review and issue comments, so the period commonly stretches to weeks or months. A wrongly treats 20 days as a hard maximum. C invents a trigger. D confuses federal (SEC) with state (Administrator) — this is a federal-law cooling-off period.
+
+---
+
+## Red Herring (Preliminary Prospectus) — What's Missing, What's Prohibited
+
+_id: `red-herring-preliminary-prospectus` · category: Regulations_
+
+**Analogy.** The red herring is a rough draft with a warning label on the front — literally, in red ink, saying 'this isn't final yet.' It gives prospective buyers a decent look at the deal so they can raise their hand as interested, but two crucial details stay blank until the SEC signs off: the FINAL price and the effective date.
+
+**Rule.** The **preliminary prospectus** (red herring) may be distributed to prospective purchasers during the cooling-off period. It contains most of the offering information plus a **bona fide estimated price range** and expected number of shares. **Missing**: the final Public Offering Price (POP) and the effective date. **Cannot** be used as: a confirmation of sale, a substitute for the registration statement, or a document declaring the final POP. **Cannot** have any markings, highlights, notes, or summaries added — it must be distributed exactly as printed. The name comes from the disclaimer statement printed on the front page in **red ink**.
+
+**Watch.** Two testable specifics live inside the red herring's boundaries: (1) it CAN include a bona fide estimated price RANGE, but NOT the final POP; (2) no one — agent, BD, or issuer — can write on, mark up, highlight, or annotate the red herring in any way. Also don't confuse the red herring (preliminary, cooling-off) with the final prospectus (delivered at/before sale confirmation).
+
+**Quiz.**
+
+1. Which of the following statements about a preliminary prospectus (red herring) is TRUE?
+     A) It contains the final public offering price and the effective date
+   ✓ B) It may be distributed to prospective purchasers during the cooling-off period, but not marked or annotated in any way
+     C) It serves as a substitute for the final registration statement
+     D) It may be used to confirm a customer's purchase before the effective date
+   _Explanation:_ The red herring may be distributed during the cooling-off period but must remain unmarked. A is wrong — the final POP and effective date are the two things MISSING from a red herring. C is wrong — the red herring supplements, not replaces, the registration statement. D is wrong — a sale can't be confirmed until the effective date.
+
+2. The term 'red herring' comes from:
+     A) The color of the underwriter's stamp on the cover
+   ✓ B) A disclaimer statement printed on the front in red ink
+     C) A misleading feature intentionally included to test investor attention
+     D) The color of the SEC's approval seal
+   _Explanation:_ The front page carries a disclaimer printed in red ink stating that the registration statement isn't yet effective and no sales may be confirmed. A and D invent stamps/seals that don't exist. C plays on the everyday 'red herring' meaning, which isn't the source here.
+
+---
+
+## State Registration Methods — Notice Filing / Coordination / Qualification
+
+_id: `state-registration-methods-three` · category: Regulations_
+
+**Analogy.** Three paths through the state registration door: **Notice filing** is a sticky note left with the Administrator — for federal covered securities (like ICA '40 mutual funds) that don't need real state review. **Coordination** is running federal and state registrations in parallel — they finish at the same time. **Qualification** is the state-only route — the Administrator solely decides when it becomes effective, used for local intrastate offerings that don't touch federal registration.
+
+**Rule.** The Uniform Securities Act provides three paths for a security to be lawfully offered in a state: (1) **Notice filing** — available to federal covered securities (chiefly investment companies registered under the ICA of 1940). Issuer files certain documents + fees; Administrator has limited review power. (2) **Registration by coordination** — used when the security is being registered concurrently with the SEC under the Securities Act of 1933. Becomes effective at the **same time as the federal registration** (subject to conditions). Most common method for multistate offerings. (3) **Registration by qualification** — used for securities not eligible for another method, typically intrastate-only offerings. Any security CAN register by qualification. Becomes effective **when the state Administrator so orders**.
+
+**Watch.** Three quick tells: Notice filing = federal covered (registered mutual funds). Coordination = 'concurrent with SEC filing.' Qualification = 'intrastate-only' or 'the Administrator sets the effective date.' The word 'coordination' hints at parallel timing with the SEC; the word 'qualification' hints that the security has to prove itself state-by-state on its own.
+
+**Quiz.**
+
+1. Registration by qualification differs from registration by coordination in that:
+     A) Only coordination requires payment of a filing fee
+   ✓ B) The effective date under qualification is set by the state Administrator, while coordination's effective date is triggered by SEC acceptance
+     C) Qualification is only available to federal covered securities
+     D) Coordination requires an escrow but qualification does not
+   _Explanation:_ Under qualification, the state Administrator sets the effective date. Under coordination, effectiveness is triggered by the SEC's federal registration going effective. A is wrong — both require filing fees. C is backwards — federal covered securities use NOTICE filing, not qualification. D invents a rule (escrow is discretionary under both).
+
+2. A closed-end investment company registered under the Investment Company Act of 1940 wishes to sell its shares in State A. State A's Administrator would most likely require:
+     A) Registration by qualification
+     B) Registration by coordination
+   ✓ C) A notice filing
+     D) No filing of any kind, because ICA-registered funds are entirely preempted from state action
+   _Explanation:_ Federal covered securities like ICA-registered investment companies typically require notice filing — a lower-review, revenue-collecting mechanism used precisely for federal covered securities. A and B don't apply to federal covered securities. D overstates preemption — NSMIA preempts state REGISTRATION requirements but not notice filings, licensing, or antifraud.
+
+---
+
+## USA Antifraud Provisions — Universal Application (with One Real Limit)
+
+_id: `antifraud-provisions-universal-application` · category: Regulations_
+
+**Analogy.** The Uniform Securities Act's antifraud rules cast a wide net — they catch fraud around ANY security (exempt or not) and around advice from ANY person (excluded from IA definition or not). The one thing they don't catch: fraud around something that isn't a security at all (a rare coin, a fixed annuity). Wrong universe entirely.
+
+**Rule.** USA antifraud provisions apply universally to securities activity: (1) they apply to **exempt securities** (Treasuries, munis, insurance-company issues) — being exempt from REGISTRATION doesn't exempt from antifraud. (2) They apply to **exempt transactions**. (3) They apply to **persons EXCLUDED from the definition of investment adviser** (LATE professionals, e.g., an engineer giving investment advice incidental to their profession — if they give FRAUDULENT advice, they can still be charged under the antifraud statutes). (4) They apply to **federal covered advisers** — even though state-registration-preempted, the state Administrator can still charge antifraud. **The one exception**: antifraud provisions DON'T apply to things that are NOT securities in the first place — fixed annuities, rare coins, whole life policies. Different regulator's problem (state insurance dept, consumer protection).
+
+**Watch.** The mental checklist: 'Is it a security?' — if yes, USA antifraud reaches it regardless of registration status or exclusion of the seller/adviser. If no (fixed annuity, rare coin, straight commodity), USA antifraud doesn't apply — but some OTHER regulator likely does. Being 'exempt from registration' is a completely different concept from 'exempt from antifraud' — the former exists, the latter does NOT.
+
+**Quiz.**
+
+1. The antifraud provisions of the Uniform Securities Act apply to which of the following?
+     A) Only securities that are registered under the Uniform Securities Act
+   ✓ B) All securities activity, whether the security is registered, exempt from registration, or federal covered
+     C) Only broker-dealers and their agents, not investment advisers
+     D) Only transactions taking place at a registered broker-dealer's principal office
+   _Explanation:_ Antifraud provisions apply universally to securities activity — registered, exempt, or federal covered. A wrongly limits to registered securities only. C wrongly excludes IAs (they're squarely covered). D invents a geographic limitation that doesn't exist.
+
+2. An agent commits fraud in the sale of which of the following? For which does the USA antifraud provision NOT apply?
+     A) Common stock of a private company sold in a Regulation D offering
+     B) U.S. Treasury bonds (federal covered securities)
+   ✓ C) A fixed annuity contract
+     D) Municipal bonds
+   _Explanation:_ A fixed annuity is NOT a security under the USA, so the USA antifraud provisions don't reach it (the state insurance department would handle any fraud). A, B, and D are all securities (private-placement stock, Treasuries, munis) — all covered by USA antifraud even though they're exempt from registration or federal covered.
 
 ---
 

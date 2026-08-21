@@ -9395,6 +9395,237 @@ export const CONCEPTS = [
     ]
   },
   {
+    id: "rule-501-accredited-investor-categories",
+    category: "Regulations",
+    title: "Rule 501 — Accredited Investor Categories & Thresholds",
+    color: "#FF6B6B",
+    analogy: "Being an accredited investor is like getting into a VIP lounge — the bouncer (Rule 501) checks either your bank account, your paycheck history, or your credentials at the door. You get in one of several ways: raw wealth ($1M net worth), high income ($200K/$300K sustained), being an insider of the issuer, or holding one of three specific licenses (Series 7, 65, or 82).",
+    rule: "SEC Rule 501 accredited-investor categories (Reg D private placements): **individuals** — (a) individual OR joint-with-spouse **net worth > $1M**, EXCLUDING primary residence, OR (b) individual income **> $200K** in each of the last 2 years OR joint income **> $300K**, with reasonable expectation of same in current year; **entities** — banks, insurance companies, registered ICs; charities, corporations, LLCs, or partnerships with **assets > $5M**; entities made up entirely of accredited investors; **insiders** — directors, executive officers, GPs of the issuer; **licensees** — holders of Series 7, Series 65, or Series 82; **investment advisers** — SEC-registered, state-registered, OR exempt reporting advisers; **knowledgeable employees** of a private fund (only for their fund's offerings).",
+    watch: "Two consistent traps: (1) the net worth number is **$1M** for individuals, **$5M** for entities — don't cross them. (2) The income test is **two most recent years plus reasonable expectation of the current year** — not just one year, and not just current-year expectation. Also the term applies **only to private placements** — being accredited doesn't matter for public offerings.",
+    quiz: [
+      {
+        q: "Which of the following would qualify as an accredited investor under SEC Rule 501?",
+        options: [
+          "An individual with a $250,000 income in each of the past two years, expected to continue",
+          "A married couple with $290,000 joint income last year and $310,000 the prior year, expected to continue",
+          "An individual whose primary residence is worth $2 million with no other assets",
+          "A charitable organization with $3 million in total assets"
+        ],
+        answer: 0,
+        explain: "A individual with $200K+ income in each of the last 2 years, with reasonable expectation of continuing, qualifies. B fails because joint income must be $300K+ in EACH of the last 2 years — one year at $290K breaks it. C fails because primary residence is EXCLUDED from the net worth calculation. D fails because the entity asset threshold is $5M, not $3M."
+      },
+      {
+        q: "An individual with joint net worth (with spouse) of $1.4 million, including $500,000 of net equity in the primary residence, wants to invest in a Regulation D offering. Is she an accredited investor?",
+        options: [
+          "Yes — joint net worth exceeds the $1 million threshold",
+          "No — after excluding the $500,000 primary residence equity, joint net worth is $900,000",
+          "Yes — but only if the couple also has $200,000 of annual income",
+          "No — joint net worth only counts if held with a business partner"
+        ],
+        answer: 1,
+        explain: "The net worth test EXCLUDES the net equity in the primary residence. $1.4M − $500K = $900K, below the $1M threshold, so she doesn't qualify. A ignores the primary-residence exclusion. C invents a joint income requirement that doesn't stack with net worth. D is nonsense — joint net worth is specifically for spouses/spousal equivalents."
+      }
+    ]
+  },
+  {
+    id: "accredited-investor-net-worth-joint-property",
+    category: "Regulations",
+    title: "Net Worth Test — Primary Residence & Non-Spousal Joint Property",
+    color: "#FF6B6B",
+    analogy: "Two rules trim your net worth calculation like tailoring a garment. First: subtract the net equity in your primary residence — that piece isn't counted. Second: if you own something jointly with someone who ISN'T your spouse, you only get to count YOUR percentage of it, not the whole thing.",
+    rule: "For the Rule 501 net worth test: (1) **exclude the net equity in the primary residence** — home value minus mortgage. (2) Assets held **jointly with a spouse or spousal equivalent** count in full toward joint net worth. (3) Assets held **jointly with a non-spouse** (e.g., a business partner, sibling, adult child) may be included **only to the extent of the purchaser's percentage ownership** of that account or property.",
+    watch: "Watch three specific traps: (1) primary residence — the ENTIRE house value doesn't come off, only the NET EQUITY (value minus mortgage). Underwater mortgage even gets ADDED back as a liability. (2) 'Spousal equivalent' is a modern extension of 'spouse.' (3) Non-spousal joint ownership is pro-rata — 50% owner of a $2M joint brokerage account = $1M counted, not $2M.",
+    quiz: [
+      {
+        q: "A client owns a $600,000 primary residence with a $500,000 mortgage, plus a $1.2 million brokerage account held jointly with her adult daughter, in which she has a 50% ownership interest. She has no other assets or liabilities. What is her net worth for Rule 501 purposes?",
+        options: [
+          "$600,000",
+          "$700,000",
+          "$1,200,000",
+          "$1,800,000"
+        ],
+        answer: 0,
+        explain: "Primary residence net equity ($600K − $500K = $100K) is EXCLUDED. The joint brokerage account counts only for her 50% ownership interest = $600K. Total qualifying net worth = $600K. A: correct. B: wrongly adds back primary residence equity. C: wrongly counts the entire joint account. D: makes both mistakes at once."
+      }
+    ]
+  },
+  {
+    id: "eligibility-does-not-equal-suitability",
+    category: "Regulations",
+    title: "'Eligibility Does Not Equal Suitability' — The Regulators' Motto",
+    color: "#FF6B6B",
+    analogy: "Being ACCREDITED is like having a license to drive a Formula 1 car — legally, you can. Being SUITABLE for that car is another question entirely: are you actually a race-car driver? The credentials only get you through the door; whether the investment fits your situation is a separate check no one gets to skip.",
+    rule: "'**Eligibility does not equal suitability**' is a favorite regulator phrase. Meeting the financial thresholds to be an accredited investor (Rule 501) makes a person ELIGIBLE to invest in a private placement — it does NOT relieve the recommending professional of the duty to determine that the investment is SUITABLE for that particular client's objectives, risk tolerance, time horizon, and overall portfolio.",
+    watch: "Answer choices sometimes suggest that a client's accredited status alone justifies a recommendation. Wrong — accreditation opens the door but the suitability analysis still happens on the client side. Even a billionaire needs a suitability determination if a rep is making a recommendation.",
+    quiz: [
+      {
+        q: "An IAR recommends a highly speculative Regulation D private placement to a client whose net worth exceeds $10 million but whose stated objectives are conservative income and capital preservation. The client is an accredited investor. This recommendation is:",
+        options: [
+          "Suitable, because the client meets accredited investor thresholds",
+          "Suitable, because Regulation D offerings are exempt from suitability review",
+          "Unsuitable, because eligibility does not equal suitability",
+          "Suitable, because private placements are only offered to accredited investors"
+        ],
+        answer: 2,
+        explain: "Being accredited only lets the client legally participate — the recommendation still has to match the client's stated objectives. Speculative investments contradict conservative income/preservation goals, making this unsuitable regardless of wealth. A conflates eligibility and suitability. B invents an exemption that doesn't exist. D describes a marketing fact, not a suitability standard."
+      }
+    ]
+  },
+  {
+    id: "form-d-15-day-filing",
+    category: "Regulations",
+    title: "Form D — Filed Within 15 Days After First Sale",
+    color: "#FF6B6B",
+    analogy: "Form D is like the note you have to leave the SEC after you've had a private party. You don't need permission to throw it (Reg D exempts registration), but within 15 days of the first guest walking in (first sale), you file a quick record saying 'yes, this happened.'",
+    rule: "Under **Rule 503 of Regulation D**, an issuer relying on Reg D to sell securities without full registration must file **Form D electronically with the SEC no later than 15 days after the first sale** of securities in the offering. It's a notice filing — not a request for approval, not a full registration.",
+    watch: "The 15-day clock starts at the **first sale**, not the offering announcement, not the private placement memorandum's date, not the last sale. Also don't confuse Form D (private placement notice) with Form D of anything else — this specific 15-day rule is Reg D's signature filing requirement.",
+    quiz: [
+      {
+        q: "An issuer conducting a private placement in reliance on Regulation D must file Form D with the SEC:",
+        options: [
+          "Before offering securities to any prospective purchaser",
+          "No later than 15 days after the first sale of securities in the offering",
+          "Within 30 days of the offering's completion",
+          "Only if the total amount raised exceeds $5 million"
+        ],
+        answer: 1,
+        explain: "Rule 503 sets the deadline at 15 days after the first sale. A is wrong — Reg D specifically avoids pre-offering registration. C invents the wrong trigger and timeframe. D invents a dollar threshold that doesn't exist for Form D."
+      }
+    ]
+  },
+  {
+    id: "cooling-off-period-20-days",
+    category: "Regulations",
+    title: "20-Day Cooling-Off Period — Do's and Don'ts",
+    color: "#FF6B6B",
+    analogy: "The cooling-off period is like the waiting room between filing the paperwork and being cleared to sell. The clock reads a minimum of 20 calendar days (often longer in practice). While in the room, you can talk about the offering and hand out preliminary materials, but you can't take orders or accept money — the door to actual sales stays locked until the SEC declares the registration effective.",
+    rule: "After an issuer files a registration statement with the SEC, a **cooling-off period** of at least **20 calendar days** begins before the registration can become effective. In practice, this period is often longer (weeks or months) because of SEC comments. **During the cooling-off period, underwriters and agents MAY**: take indications of interest, distribute preliminary prospectuses (red herrings), publish tombstone advertisements. They **MAY NOT**: take orders, accept money, distribute sales literature or advertising material, declare the final POP.",
+    watch: "The two lists cut cleanly: PERMITTED = preparation and interest-gathering (red herring, tombstone, non-binding IOIs). PROHIBITED = anything that closes a sale (orders, money, sales literature, final price). If a question describes an agent 'accepting a small deposit' or 'confirming a purchase' during cooling-off, that's a violation.",
+    quiz: [
+      {
+        q: "During the cooling-off period after a registration statement has been filed with the SEC, an agent may:",
+        options: [
+          "Accept a nonbinding indication of interest from a prospective purchaser",
+          "Accept a small deposit toward the eventual purchase price",
+          "Distribute a final sales brochure describing the offering",
+          "Confirm the trade if the customer signs a binding agreement"
+        ],
+        answer: 0,
+        explain: "Nonbinding indications of interest are permitted during the cooling-off period — the whole point is to gauge demand ahead of the effective date. B is prohibited (no money accepted before effective). C is prohibited (no sales literature/advertising before effective). D is prohibited (no orders/confirmations before effective)."
+      },
+      {
+        q: "The cooling-off period under the Securities Act of 1933:",
+        options: [
+          "Lasts exactly 20 calendar days",
+          "Is a minimum of 20 calendar days from the filing date but is often longer in practice",
+          "Ends when the underwriter completes due diligence",
+          "Is at the discretion of the state securities Administrator"
+        ],
+        answer: 1,
+        explain: "The 20-day minimum is federal (Securities Act of 1933), but the SEC often takes longer to review and issue comments, so the period commonly stretches to weeks or months. A wrongly treats 20 days as a hard maximum. C invents a trigger. D confuses federal (SEC) with state (Administrator) — this is a federal-law cooling-off period."
+      }
+    ]
+  },
+  {
+    id: "red-herring-preliminary-prospectus",
+    category: "Regulations",
+    title: "Red Herring (Preliminary Prospectus) — What's Missing, What's Prohibited",
+    color: "#FF6B6B",
+    analogy: "The red herring is a rough draft with a warning label on the front — literally, in red ink, saying 'this isn't final yet.' It gives prospective buyers a decent look at the deal so they can raise their hand as interested, but two crucial details stay blank until the SEC signs off: the FINAL price and the effective date.",
+    rule: "The **preliminary prospectus** (red herring) may be distributed to prospective purchasers during the cooling-off period. It contains most of the offering information plus a **bona fide estimated price range** and expected number of shares. **Missing**: the final Public Offering Price (POP) and the effective date. **Cannot** be used as: a confirmation of sale, a substitute for the registration statement, or a document declaring the final POP. **Cannot** have any markings, highlights, notes, or summaries added — it must be distributed exactly as printed. The name comes from the disclaimer statement printed on the front page in **red ink**.",
+    watch: "Two testable specifics live inside the red herring's boundaries: (1) it CAN include a bona fide estimated price RANGE, but NOT the final POP; (2) no one — agent, BD, or issuer — can write on, mark up, highlight, or annotate the red herring in any way. Also don't confuse the red herring (preliminary, cooling-off) with the final prospectus (delivered at/before sale confirmation).",
+    quiz: [
+      {
+        q: "Which of the following statements about a preliminary prospectus (red herring) is TRUE?",
+        options: [
+          "It contains the final public offering price and the effective date",
+          "It may be distributed to prospective purchasers during the cooling-off period, but not marked or annotated in any way",
+          "It serves as a substitute for the final registration statement",
+          "It may be used to confirm a customer's purchase before the effective date"
+        ],
+        answer: 1,
+        explain: "The red herring may be distributed during the cooling-off period but must remain unmarked. A is wrong — the final POP and effective date are the two things MISSING from a red herring. C is wrong — the red herring supplements, not replaces, the registration statement. D is wrong — a sale can't be confirmed until the effective date."
+      },
+      {
+        q: "The term 'red herring' comes from:",
+        options: [
+          "The color of the underwriter's stamp on the cover",
+          "A disclaimer statement printed on the front in red ink",
+          "A misleading feature intentionally included to test investor attention",
+          "The color of the SEC's approval seal"
+        ],
+        answer: 1,
+        explain: "The front page carries a disclaimer printed in red ink stating that the registration statement isn't yet effective and no sales may be confirmed. A and D invent stamps/seals that don't exist. C plays on the everyday 'red herring' meaning, which isn't the source here."
+      }
+    ]
+  },
+  {
+    id: "state-registration-methods-three",
+    category: "Regulations",
+    title: "State Registration Methods — Notice Filing / Coordination / Qualification",
+    color: "#FF6B6B",
+    analogy: "Three paths through the state registration door: **Notice filing** is a sticky note left with the Administrator — for federal covered securities (like ICA '40 mutual funds) that don't need real state review. **Coordination** is running federal and state registrations in parallel — they finish at the same time. **Qualification** is the state-only route — the Administrator solely decides when it becomes effective, used for local intrastate offerings that don't touch federal registration.",
+    rule: "The Uniform Securities Act provides three paths for a security to be lawfully offered in a state: (1) **Notice filing** — available to federal covered securities (chiefly investment companies registered under the ICA of 1940). Issuer files certain documents + fees; Administrator has limited review power. (2) **Registration by coordination** — used when the security is being registered concurrently with the SEC under the Securities Act of 1933. Becomes effective at the **same time as the federal registration** (subject to conditions). Most common method for multistate offerings. (3) **Registration by qualification** — used for securities not eligible for another method, typically intrastate-only offerings. Any security CAN register by qualification. Becomes effective **when the state Administrator so orders**.",
+    watch: "Three quick tells: Notice filing = federal covered (registered mutual funds). Coordination = 'concurrent with SEC filing.' Qualification = 'intrastate-only' or 'the Administrator sets the effective date.' The word 'coordination' hints at parallel timing with the SEC; the word 'qualification' hints that the security has to prove itself state-by-state on its own.",
+    quiz: [
+      {
+        q: "Registration by qualification differs from registration by coordination in that:",
+        options: [
+          "Only coordination requires payment of a filing fee",
+          "The effective date under qualification is set by the state Administrator, while coordination's effective date is triggered by SEC acceptance",
+          "Qualification is only available to federal covered securities",
+          "Coordination requires an escrow but qualification does not"
+        ],
+        answer: 1,
+        explain: "Under qualification, the state Administrator sets the effective date. Under coordination, effectiveness is triggered by the SEC's federal registration going effective. A is wrong — both require filing fees. C is backwards — federal covered securities use NOTICE filing, not qualification. D invents a rule (escrow is discretionary under both)."
+      },
+      {
+        q: "A closed-end investment company registered under the Investment Company Act of 1940 wishes to sell its shares in State A. State A's Administrator would most likely require:",
+        options: [
+          "Registration by qualification",
+          "Registration by coordination",
+          "A notice filing",
+          "No filing of any kind, because ICA-registered funds are entirely preempted from state action"
+        ],
+        answer: 2,
+        explain: "Federal covered securities like ICA-registered investment companies typically require notice filing — a lower-review, revenue-collecting mechanism used precisely for federal covered securities. A and B don't apply to federal covered securities. D overstates preemption — NSMIA preempts state REGISTRATION requirements but not notice filings, licensing, or antifraud."
+      }
+    ]
+  },
+  {
+    id: "antifraud-provisions-universal-application",
+    category: "Regulations",
+    title: "USA Antifraud Provisions — Universal Application (with One Real Limit)",
+    color: "#FF6B6B",
+    analogy: "The Uniform Securities Act's antifraud rules cast a wide net — they catch fraud around ANY security (exempt or not) and around advice from ANY person (excluded from IA definition or not). The one thing they don't catch: fraud around something that isn't a security at all (a rare coin, a fixed annuity). Wrong universe entirely.",
+    rule: "USA antifraud provisions apply universally to securities activity: (1) they apply to **exempt securities** (Treasuries, munis, insurance-company issues) — being exempt from REGISTRATION doesn't exempt from antifraud. (2) They apply to **exempt transactions**. (3) They apply to **persons EXCLUDED from the definition of investment adviser** (LATE professionals, e.g., an engineer giving investment advice incidental to their profession — if they give FRAUDULENT advice, they can still be charged under the antifraud statutes). (4) They apply to **federal covered advisers** — even though state-registration-preempted, the state Administrator can still charge antifraud. **The one exception**: antifraud provisions DON'T apply to things that are NOT securities in the first place — fixed annuities, rare coins, whole life policies. Different regulator's problem (state insurance dept, consumer protection).",
+    watch: "The mental checklist: 'Is it a security?' — if yes, USA antifraud reaches it regardless of registration status or exclusion of the seller/adviser. If no (fixed annuity, rare coin, straight commodity), USA antifraud doesn't apply — but some OTHER regulator likely does. Being 'exempt from registration' is a completely different concept from 'exempt from antifraud' — the former exists, the latter does NOT.",
+    quiz: [
+      {
+        q: "The antifraud provisions of the Uniform Securities Act apply to which of the following?",
+        options: [
+          "Only securities that are registered under the Uniform Securities Act",
+          "All securities activity, whether the security is registered, exempt from registration, or federal covered",
+          "Only broker-dealers and their agents, not investment advisers",
+          "Only transactions taking place at a registered broker-dealer's principal office"
+        ],
+        answer: 1,
+        explain: "Antifraud provisions apply universally to securities activity — registered, exempt, or federal covered. A wrongly limits to registered securities only. C wrongly excludes IAs (they're squarely covered). D invents a geographic limitation that doesn't exist."
+      },
+      {
+        q: "An agent commits fraud in the sale of which of the following? For which does the USA antifraud provision NOT apply?",
+        options: [
+          "Common stock of a private company sold in a Regulation D offering",
+          "U.S. Treasury bonds (federal covered securities)",
+          "A fixed annuity contract",
+          "Municipal bonds"
+        ],
+        answer: 2,
+        explain: "A fixed annuity is NOT a security under the USA, so the USA antifraud provisions don't reach it (the state insurance department would handle any fraud). A, B, and D are all securities (private-placement stock, Treasuries, munis) — all covered by USA antifraud even though they're exempt from registration or federal covered."
+      }
+    ]
+  },
+  {
     id: "term-life-increasing-premiums-no-cash-value",
     category: "Alternative Investments",
     title: "Term Life — Increasing Premiums, No Cash Value",
@@ -9600,6 +9831,39 @@ export const CONCEPTS = [
         ],
         answer: 1,
         explain: "Interpositioning occurs when a broker-dealer acting as agent fails to go directly to the best available market, instead inserting an unneeded intermediary — this typically adds cost or delay without benefiting the customer, violating the duty of best execution."
+      }
+    ]
+  },
+  {
+    id: "ytm-reinvestment-assumption",
+    category: "Bonds",
+    title: "YTM's Hidden Assumption — Reinvestment at the Same Rate",
+    color: "#E8C547",
+    analogy: "Think of YTM as a \"package deal\" promise, not a price tag. A farmer buys a fruit tree promised to yield 5.5% a year for 20 years — but only if every piece of fruit picked along the way gets replanted immediately in equally good soil. Eat the fruit instead (spend the coupons) or replant in worse soil (reinvest at a lower rate), and you never actually harvest what was promised.",
+    rule: "YTM is a promise about the bond PLUS what you do with every coupon along the way — not the bond alone. It only holds true if: (1) you hold the bond to maturity, and (2) every coupon is reinvested at that same YTM rate. Reinvest at a lower rate, and your actual realized return falls short of the quoted YTM.",
+    watch: "This is exactly why reinvestment risk exists — an investor can't control future rates any more than a farmer controls next year's soil. The gap between quoted YTM and what you actually earn IS reinvestment risk; they're two sides of the same coin. Higher-coupon, longer-maturity bonds carry more of this risk since there's more cash flow that needs a new home.",
+    quiz: [
+      {
+        q: "A bond's quoted yield to maturity (YTM) will equal an investor's actual realized return only if which of the following is true?",
+        options: [
+          "The bond is held to maturity and all coupon payments are reinvested at the YTM rate",
+          "The bond is sold immediately after purchase",
+          "Interest rates rise sharply during the holding period",
+          "The issuer calls the bond early"
+        ],
+        answer: 0,
+        explain: "YTM assumes two things: the bond is held to maturity AND every coupon is reinvested at that same rate. If coupons are spent or reinvested at a different (usually lower) rate, the investor's actual return diverges from the quoted YTM — that gap is reinvestment risk."
+      },
+      {
+        q: "Reinvestment risk is greatest for which type of bond?",
+        options: [
+          "A high-coupon, long-maturity bond",
+          "A zero-coupon bond",
+          "A T-bill maturing in 4 weeks",
+          "A bond purchased at a deep discount"
+        ],
+        answer: 0,
+        explain: "More coupon cash flow over a longer period means more reinvestment decisions exposed to future rate uncertainty. Zero-coupon bonds have no periodic coupons to reinvest, so they carry no reinvestment risk (this is why they're used to lock in a known compound return)."
       }
     ]
   }

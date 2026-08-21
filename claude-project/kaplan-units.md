@@ -49,6 +49,7 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 
 **Deck coverage:**
 - The Yield Hierarchy
+- YTM's Hidden Assumption — Reinvestment at the Same Rate
 - Bond Features & Borrowing Cost
 - Discount vs Interest-Bearing
 - Municipal Securities & Tax Equivalence
@@ -197,6 +198,14 @@ Audrey wants to be able to say "let's do Unit 3" or "quiz me on Unit 9" and have
 - Rule 144 — Holding Period vs. Volume Limit (crosses with Unit 1)
 - Exempt Security ≠ Exempt Seller (Bank/Trust vs. Building & Loan)
 - Federal Covered: Adviser vs. Security (Don't Confuse Them)
+- Rule 501 — Accredited Investor Categories & Thresholds
+- Net Worth Test — Primary Residence & Non-Spousal Joint Property
+- 'Eligibility Does Not Equal Suitability' — The Regulators' Motto (also Unit 17)
+- Form D — Filed Within 15 Days After First Sale
+- 20-Day Cooling-Off Period — Do's and Don'ts
+- Red Herring (Preliminary Prospectus) — What's Missing, What's Prohibited
+- State Registration Methods — Notice Filing / Coordination / Qualification
+- USA Antifraud Provisions — Universal Application (with One Real Limit) (also Unit 12)
 
 ---
 
